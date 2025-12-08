@@ -1,53 +1,24 @@
+
 ---
 title: lazysql
 ---
 
-# LazySQL 项目描述
+### [jorgerojas26 lazysql](https://github.com/jorgerojas26/lazysql)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/jorgerojas26/lazysql)
+**项目核心内容总结：**  
 
-## 主要特性
-LazySQL 是一个轻量级的 Python 库，旨在简化数据库操作，提供懒加载（lazy loading）机制以优化性能和内存使用。主要特性包括：
-- **懒加载支持**：查询结果仅在需要时加载，避免不必要的内存消耗。
-- **多数据库兼容**：支持 SQLite、PostgreSQL 和 MySQL 等常见数据库。
-- **ORM-like 接口**：提供类似 ORM 的简单 API，减少 boilerplate 代码。
-- **异步查询**：内置异步支持，适用于高并发场景。
-- **类型提示**：集成 Python 类型提示，提升代码可读性和 IDE 支持。
+**功能**：LAZYSQL 是一个基于终端的数据库管理工具，支持 PostgreSQL、MySQL、SQLite 和 MSSQL（未来将支持 NoSQL）。提供数据库连接、SQL 执行、表结构管理（如增删改列、索引）、自定义命令（如 SSH 隧道配置）等功能。  
 
-## 主要功能
-- **连接管理**：自动处理数据库连接池和会话管理。
-- **查询构建**：支持链式方法构建 SQL 查询，无需手动编写 SQL 字符串。
-- **数据映射**：自动将查询结果映射到 Python 对象或字典。
-- **事务处理**：简化事务的开始、提交和回滚操作。
-- **错误处理**：内置异常处理和日志记录，便于调试。
+**使用方法**：  
+1. **安装**：通过 Homebrew 安装或从源码编译。  
+2. **配置**：编辑配置文件，定义数据库连接信息（URL、认证）、自定义命令（如 `ssh` 隧道）及变量替换规则。  
+3. **操作**：运行 `lazysql` 命令，通过终端界面选择数据库连接，使用快捷键（如 `CTRL+e` 打开 SQL 编辑器、`c` 编辑单元格）进行数据操作。  
 
-## 用法示例
-1. **安装**：
-   ```bash
-   pip install lazysql
-   ```
+**主要特性**：  
+- 支持多种关系型数据库及自定义命令链。  
+- 提供终端用户界面（TUI）操作表结构（如新增/删除行、排序、刷新数据）。  
+- 支持剪贴板复制（需依赖系统工具）。  
+- 可自定义快捷键及键绑定。  
+- 配置文件支持变量替换（如动态端口分配）。  
 
-2. **基本连接和查询**：
-   ```python
-   from lazysql import Database
-
-   # 创建数据库实例（以 SQLite 为例）
-   db = Database('sqlite:///example.db')
-
-   # 懒加载查询
-   users = db.table('users').select().lazy_load()  # 仅在迭代时加载
-
-   # 链式查询
-   result = db.table('users').where('age > ?', 18).order_by('name').get()
-
-   # 插入数据
-   db.table('users').insert({'name': 'Alice', 'age': 25})
-
-   # 事务示例
-   with db.transaction():
-       db.table('users').insert({'name': 'Bob'})
-       # 如果出错，会自动回滚
-   ```
-
-更多细节请参考项目 README 和文档。
+**开发计划**：优化 NoSQL 支持、增强表结构操作功能、改进用户交互体验。

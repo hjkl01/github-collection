@@ -1,39 +1,25 @@
+
 ---
 title: oauth2-proxy
 ---
 
-## 功能介绍
+### [oauth2-proxy oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy)
 
-OAuth2-Proxy 是一个灵活的开源工具，可以作为独立的反向代理或中间件组件集成到现有的反向代理或负载均衡器中。它提供了一种简单且安全的方式，使用 OAuth2 / OIDC 认证来保护您的 Web 应用程序。作为反向代理，它会拦截对应用程序的请求，并将用户重定向到 OAuth2 提供者进行认证。作为中间件，它可以无缝集成到现有基础设施中，为多个应用程序处理认证。
+OAuth2-Proxy 是一个灵活的开源工具，支持作为独立的反向代理或集成到现有基础设施中的中间件，通过 OAuth2/OIDC 认证保护 Web 应用。其核心功能包括：
 
-OAuth2-Proxy 支持许多 OAuth2 和 OIDC 提供者，包括 Google、Microsoft Entra ID、GitHub、login.gov 等。通过专门的提供者实现，OAuth2-Proxy 可以提取更多关于用户的详细信息，如首选用户名和组。这些详细信息可以作为 HTTP 头转发到上游应用程序。
+1. **认证支持**  
+   支持多种 OAuth2/OIDC 提供者（如 Google、Microsoft Entra ID、GitHub 等），并能提取用户信息（如用户名、组别），通过 HTTP 头转发至上游应用。
 
-## 用法
+2. **部署方式**  
+   提供编译二进制文件（支持主流架构及特殊架构如 ppc64le、s390x）和 Docker 镜像。从 v7.6.0 版本起，默认使用安全性更高的 [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) 镜像，并提供夜间构建版本（`quay.io/oauth2-proxy/oauth2-proxy-nightly`）。
 
-### 安装
+3. **社区与贡献**  
+   鼓励社区参与，提供 Slack 频道（`#oauth2-proxy`）和详细的 [贡献指南](https://oauth2-proxy.github.io/oauth2-proxy/community/contribution)。项目由众多贡献者维护，支持通过 PR 添加用户案例。
 
-OAuth2-Proxy 的[安装文档](https://oauth2-proxy.github.io/oauth2-proxy/installation) 涵盖了如何安装和配置您的设置。此外，您可以查看[示例设置文件](https://github.com/oauth2-proxy/oauth2-proxy/tree/master/contrib/local-environment)。
+4. **安全与版本管理**  
+   建议升级至 v6.0.0 及以上版本以修复安全漏洞（如开放重定向漏洞）。提供安全披露流程，确保漏洞处理的私密性。
 
-### 发布版本
+5. **许可证**  
+   采用 MIT 开源许可证，允许自由使用和分发。
 
-#### 二进制文件
-
-我们为所有主要架构以及更特殊的架构如 `ppc64le` 和 `s390x` 发布编译好的二进制文件。
-
-查看[最新发布](https://github.com/oauth2-proxy/oauth2-proxy/releases/latest)。
-
-#### 镜像
-
-从 `v7.6.0` 开始，基础镜像已从 Alpine 更改为 [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless)。此镜像安装的依赖更少，因此应提高安全性。镜像也因此略小。对于调试目的（以及那些真正需要它的人，例如 `armv6`），我们仍提供基于 Alpine 的镜像。这些镜像的标签以 `-alpine` 结尾。
-
-自 2023-11-18 起，我们直接从 `master` 分支构建夜间镜像，并提供在 `quay.io/oauth2-proxy/oauth2-proxy-nightly`。这些镜像被视为不稳定，因此**不应**用于生产目的，除非您知道自己在做什么。
-
-### 参与贡献
-
-加入 #oauth2-proxy [Slack 频道](https://gophers.slack.com/archives/CM2RSS25N) 与其他用户聊天，或直接联系维护者。使用[公共邀请链接](https://invite.slack.golangbridge.org/) 获取 Gopher Slack 空间的邀请。
-
-OAuth2-Proxy 是一个社区驱动的项目。我们依赖用户的贡献来不断改进它。虽然审查时间可能有所不同，但我们感谢您的耐心和理解。作为一个志愿者驱动的项目，我们努力保持这个项目的稳定性，可能需要更长时间来合并更改。
-
-如果您想为项目贡献，请查看我们的[贡献指南](https://oauth2-proxy.github.io/oauth2-proxy/community/contribution)。
-
-谁在使用 OAuth2-Proxy？请查看我们的新[采用者](/oauth2-proxy/oauth2-proxy/blob/master/ADOPTERS.md)文件，并随时打开 PR 添加您的组织。
+该工具适用于需要通过 OAuth2/OIDC 认证保护 Web 应用的场景，兼顾灵活性与安全性，适合企业级部署和开发需求。

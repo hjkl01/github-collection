@@ -1,57 +1,30 @@
+
 ---
 title: flask-restless
 ---
 
-# Flask-Restless 项目
+### [jfinkels flask-restless](https://github.com/jfinkels/flask-restless)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/jfinkels/flask-restless)
+**项目核心内容总结：**
 
-## 主要特性
-Flask-Restless 是一个 Flask 扩展，用于快速生成 RESTful API。它基于 SQLAlchemy ORM 模型自动创建 API 端点，支持 CRUD 操作（创建、读取、更新、删除）。主要特性包括：
-- **自动 API 生成**：无需手动编写路由，直接从 SQLAlchemy 模型生成完整的 REST API。
-- **支持 HATEOAS**：API 响应包含超媒体链接，便于客户端导航。
-- **自定义处理器**：允许开发者通过预处理器和后处理器自定义请求和响应逻辑。
-- **分页和过滤**：内置支持查询分页、排序和过滤功能。
-- **认证与授权**：集成 Flask-Principal 或其他认证系统，支持 API 访问控制。
-- **兼容 Flask**：无缝集成 Flask 应用，轻量级且易扩展。
+1. **项目功能**  
+   Flask-Restless 是 Flask 的一个扩展，用于自动生成符合 [JSON API](https://jsonapi.org) 规范的 RESTful API 端点，支持基于 [SQLAlchemy](https://sqlalchemy.org) 或 [Flask-SQLAlchemy](https://packages.python.org/Flask-SQLAlchemy) 的数据库模型。
 
-## 主要功能
-- **CRUD 操作**：自动提供 GET（列表/详情）、POST（创建）、PUT/PATCH（更新）和 DELETE（删除）端点。
-- **查询优化**：支持复杂查询，如关联模型的嵌套查询和条件过滤。
-- **错误处理**：标准化 HTTP 错误响应，便于调试。
-- **版本支持**：兼容 Flask 1.x 和 SQLAlchemy 1.x，支持 Python 2.7+ 和 3.x。
-- **扩展性**：可与 Flask-RESTful 等其他扩展结合使用。
+2. **主要特性**  
+   - 自动为数据库模型生成标准的 CRUD（创建、读取、更新、删除）接口  
+   - 支持数据库搜索和过滤功能  
+   - 提供数据序列化与反序列化能力  
+   - 兼容 Python 2.6-3.4（不支持 Python 3.2）  
+   - 提供示例代码和单元测试  
 
-## 用法
-1. **安装**：
-   ```
-   pip install flask-restless
-   ```
+3. **使用方法**  
+   - 安装依赖：通过 `pip install -r requirements/install.txt` 安装 Flask、SQLAlchemy 等库  
+   - 配置 API：通过 `manager.py` 中的类为模型创建接口  
+   - 运行测试：安装测试依赖后执行 `python setup.py test`  
+   - 构建文档：使用 Sphinx 工具生成 HTML 格式文档  
 
-2. **初始化**（在 Flask 应用中）：
-   ```python
-   from flask import Flask
-   from flask_sqlalchemy import SQLAlchemy
-   from flask_restless import APIManager
+4. **项目状态**  
+   当前项目已不再维护，建议使用替代项目 [flask-restless-ng](https://github.com/mrevutskyi/flask-restless-ng)。  
 
-   app = Flask(__name__)
-   app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///example.db'
-   db = SQLAlchemy(app)
-
-   # 定义模型
-   class Person(db.Model):
-       id = db.Column(db.Integer, primary_key=True)
-       name = db.Column(db.String(50))
-
-   manager = APIManager(app, flask_sqlalchemy_db=db)
-   manager.create_api(Person, methods=['GET', 'POST', 'PUT', 'DELETE'])
-   ```
-
-3. **运行应用**：
-   - 启动 Flask 服务器后，访问 `/api/person` 即可使用生成的 API。
-   - 示例请求：`GET /api/person` 获取人员列表；`POST /api/person` 创建新人员（JSON body: `{"name": "Alice"}`）。
-
-4. **自定义**：
-   - 添加预处理器：`manager.create_api(Person, preprocessors=dict(POST=[custom_preprocessor]))`。
-   - 更多配置详见项目文档。
+5. **许可证**  
+   代码采用 GNU AGPLv3 或 3-clause BSD 双许可证，文档采用 Creative Commons Attribution-ShareAlike 4.0 许可证。

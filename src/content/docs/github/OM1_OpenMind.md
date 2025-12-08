@@ -1,68 +1,25 @@
+
 ---
 title: OM1
 ---
 
+### [OpenMind OM1](https://github.com/OpenMind/OM1)
 
-# OM1 - OpenMind 项目
+**核心内容总结：**  
+OM1 是 OpenMind 推出的模块化 AI 运行时系统，支持开发者创建和部署多模态 AI 代理到数字环境及物理机器人（如人形机器人、四足机器人、教育机器人等）。代理可处理摄像头、激光雷达、社交媒体等多源数据，并执行运动、导航、对话等物理动作。  
 
-项目地址: https://github.com/OpenMind/OM1
+**主要特性：**  
+- **模块化架构**：基于 Python 开发，支持灵活扩展。  
+- **硬件兼容性**：通过插件支持 ROS2、Zenoh、CycloneDDS 等接口，推荐使用 Zenoh。  
+- **调试工具**：提供 WebSim（http://localhost:8000/）实时监控系统状态。  
+- **预配置服务**：集成 TTS、多 LLM（OpenAI、Anthropic 等）及视觉语言模型（VLM）的 API 端点。  
 
-## 项目简介  
-OM1 是 OpenMind 开源的轻量级多模态 AI 框架，支持文本、图像、音频等多种数据类型的训练与推理。框架采用模块化设计，方便用户自定义模型、数据管道以及推理接口。
+**使用方法：**  
+1. 安装 `uv` 包管理器，克隆仓库并初始化子模块。  
+2. 根据系统（MacOS/Linux）安装依赖（如 portaudio、ffmpeg）。  
+3. 从 OpenMind 门户获取 API 密钥，配置到 `spot.json5` 或 `.env` 文件。  
+4. 运行示例代理（如 `uv run src/run.py spot`），通过 WebSim 查看调试信息。  
+5. 高级用户可通过 Docker 启动全自主模式（集成 `om1`、`unitree_sdk`、`om1-avatar`、`om1-video-processor` 服务）。  
 
-## 主要特性  
-- **多模态支持**：文本、图像、音频统一接口  
-- **模块化架构**：数据处理、模型、训练器、推理器分离  
-- **轻量部署**：可直接在 CPU / GPU / Edge 设备上运行  
-- **易用 API**：一键训练、推理、评估  
-- **社区友好**：完整文档、示例代码、Docker 镜像  
-
-## 功能  
-| 功能 | 说明 |
-|------|------|
-| 数据集管理 | 支持自定义数据集格式，提供预处理工具 |
-| 模型定义 | 预置 Transformer、CNN 等网络，支持自定义层 |
-| 训练器 | 支持多卡、分布式、混合精度训练 |
-| 推理器 | 快速加载模型，提供 RESTful API 和 CLI |
-| 评估工具 | 自动化指标计算、可视化报告 |
-
-## 用法  
-
-### 1. 克隆仓库  
-```bash
-git clone https://github.com/OpenMind/OM1.git
-cd OM1
-```
-
-### 2. 安装依赖  
-```bash
-pip install -r requirements.txt
-# 或者使用 pipenv / conda
-```
-
-### 3. 训练模型  
-```bash
-python scripts/train.py --config configs/om1_text.yaml
-```
-
-### 4. 推理示例  
-```bash
-python scripts/infer.py --model_path checkpoints/om1_best.pth --input "Hello, world!"
-```
-
-### 5. 启动 RESTful API  
-```bash
-python api/server.py --model_path checkpoints/om1_best.pth
-# 访问 http://localhost:8000/predict
-```
-
-### 6. Docker 快速部署  
-```bash
-docker build -t om1:latest .
-docker run -p 8000:8000 om1:latest
-```
-
-## 参考文档  
-- README.md  
-- docs/user_guide.md  
-- docs/api_reference.md
+**推荐开发平台：**  
+Jetson AGX Orin、Mac Studio/M4 Pro、Ubuntu 22.04 等。

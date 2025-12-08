@@ -1,48 +1,25 @@
+
 ---
-title: Terraform
+title: terraform
 ---
 
-# Terraform
+### [hashicorp terraform](https://github.com/hashicorp/terraform)
 
-## 功能
+**Terraform 核心内容总结：**
 
-Terraform 是一个用于安全高效地构建、更改和版本化基础设施的工具。它可以将 API 编码为声明式配置文件，这些文件可以在团队成员之间共享、编辑、审查和版本化。
+**项目功能**  
+Terraform 是用于安全高效地构建、更改和版本化基础设施的工具，支持现有及主流云服务提供商（如 AWS、Azure 等）及企业自定义解决方案。
 
-### 主要特性
+**主要特性**  
+1. **基础设施即代码**：通过配置文件定义基础设施，支持版本控制、共享和复用。  
+2. **执行计划**：生成变更预览（执行计划），明确资源创建/销毁顺序，避免意外操作。  
+3. **资源依赖图**：自动分析资源依赖关系，优化并行操作效率，提升部署速度。  
+4. **变更自动化**：基于执行计划和资源图，实现复杂变更的自动化执行，减少人为错误。
 
-- **基础设施即代码**：使用高水平配置语法描述基础设施。这允许数据中心的蓝图被版本化，并像其他代码一样对待。此外，基础设施可以被共享和重用。
-- **执行计划**：Terraform 有一个“规划”步骤，其中生成执行计划。执行计划显示调用 apply 时 Terraform 将做什么。这让您避免在 Terraform 操作基础设施时的任何意外。
-- **资源图**：Terraform 构建所有资源的图，并并行化创建和修改任何非依赖资源。因此，Terraform 以尽可能高效的方式构建基础设施，操作员可以洞察基础设施中的依赖关系。
-- **变更自动化**：复杂的变更集可以以最少的人工交互应用于基础设施。通过前面提到的执行计划和资源图，您确切知道 Terraform 将改变什么以及以什么顺序，从而避免许多可能的人为错误。
+**使用方法**  
+- 通过 [Terraform 官网文档](https://developer.hashicorp.com/terraform/docs) 和 [HashiCorp 学习平台](https://learn.hashicorp.com/terraform) 的入门教程开始使用。  
+- 依赖的插件（Provider）可从 [Terraform Registry](https://registry.terraform.io) 自动下载。  
+- 开发者可通过 [贡献指南](.github/CONTRIBUTING.md) 参与核心代码改进，或通过 [Web Unified Docs 仓库](https://github.com/hashicorp/web-unified-docs) 贡献文档。  
 
-## 用法
-
-### 入门
-
-如果您是 Terraform 的新手并想开始创建基础设施，请查看 HashiCorp 学习平台上的[入门指南](https://learn.hashicorp.com/terraform#getting-started)。还有[其他指南](https://learn.hashicorp.com/terraform#operations-and-development)来继续您的学习。
-
-### 基本命令
-
-- `terraform init`：初始化工作目录，下载提供商插件。
-- `terraform plan`：生成执行计划，显示将要进行的更改。
-- `terraform apply`：应用更改到基础设施。
-- `terraform destroy`：销毁基础设施。
-
-### 文档和资源
-
-- 官方网站：[https://developer.hashicorp.com/terraform](https://developer.hashicorp.com/terraform)
-- 文档：[https://developer.hashicorp.com/terraform/docs](https://developer.hashicorp.com/terraform/docs)
-- 教程：[https://developer.hashicorp.com/terraform/tutorials](https://developer.hashicorp.com/terraform/tutorials)
-- 论坛：[HashiCorp Discuss](https://discuss.hashicorp.com/c/terraform-core)
-- 认证考试：[HashiCorp Certified: Terraform Associate](https://www.hashicorp.com/certification/#hashicorp-certified-terraform-associate)
-
-### 开发
-
-此仓库仅包含 Terraform 核心，包括命令行界面和主图引擎。提供商作为插件实现，Terraform 可以自动下载发布在 [Terraform Registry](https://registry.terraform.io) 上的提供商。
-
-- 要了解更多关于编译 Terraform 和贡献建议更改的信息，请参考[贡献指南](https://github.com/hashicorp/terraform/blob/main/.github/CONTRIBUTING.md)。
-- 要了解更多关于我们如何处理错误报告的信息，请参考[错误分类指南](https://github.com/hashicorp/terraform/blob/main/BUGPROCESS.md)。
-
-### 许可证
-
-[Business Source License 1.1](https://github.com/hashicorp/terraform/blob/main/LICENSE)
+**许可证**  
+采用 [Business Source License 1.1](https://github.com/hashicorp/terraform/blob/main/LICENSE) 开源协议。

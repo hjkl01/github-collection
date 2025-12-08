@@ -1,68 +1,30 @@
+
 ---
 title: nushell
 ---
 
-# Nushell（nu）
+### [nushell nushell](https://github.com/nushell/nushell)
 
-**项目地址**  
-[https://github.com/nushell/nushell](https://github.com/nushell/nushell)
+**Nushell 核心内容总结**  
 
-## 概述
+**项目功能**  
+Nushell 是一个跨平台的新型 shell 工具，采用结构化数据处理方式（类似 PowerShell），支持通过管道（pipeline）操作结构化数据，提供文件/目录的表格化展示、数据过滤、插件扩展等功能。  
 
-Nushell 是一个新型 shell。
+**主要特性**  
+1. **结构化数据处理**：将文件、目录、进程等操作结果以表格形式呈现，支持通过命令链（如 `ls | where type == "dir" | table`）进行数据过滤和转换。  
+2. **管道操作**：命令通过 `|` 连接，支持生产数据（如 `ls`）、过滤数据（如 `where`）、消费数据（如 `table`）三类操作。  
+3. **文件/数据加载**：支持以结构化形式加载文件（如 `.toml`、`.json`），并可通过 `get` 命令提取字段（如 `open Cargo.toml | get package.version`）。  
+4. **插件系统**：支持通过 JSON-RPC 协议扩展功能，插件可作为过滤器或数据终点（sink）使用。  
 
-Nushell 从 PowerShell、函数式编程语言和现代 CLI 工具中汲取灵感。与将文件和数据视为原始文本流的传统 shell 不同，Nu 将每个输入视为具有结构的东西。例如，当您列出目录的内容时，您得到的是一个行表，其中每一行代表该目录中的一个项目。这些值可以通过一系列步骤进行管道传输，在一系列称为“管道”的命令中。
+**使用方法**  
+- **安装**：通过 `brew install nushell`（Linux/macOS）或 `winget install nushell`（Windows）安装，支持多种包管理器。  
+- **配置**：默认配置文件路径可通过 `$nu.config-path` 查看，可自定义配置。  
+- **学习资源**：提供官方文档（[Nushell 书籍](https://www.nushell.sh/book/)）、命令列表及示例（[cookbook](https://www.nushell.sh/cookbook/)）。  
 
-## 主要特性
+**目标与支持**  
+- **跨平台**：支持 Windows、macOS、Linux，兼容现有平台工具。  
+- **现代可用性**：强调用户交互的现代性，采用函数式数据处理（无状态突变）。  
+- **生态支持**：被 [zoxide](https://github.com/ajeetdsouza/zoxide)、[starship](https://github.com/starship/starship) 等工具官方支持。  
 
-- **结构化数据管道**：命令的输入、输出均为结构化表格/行数据，避免 `grep`/`awk` 之类的文本解析陷阱。
-- **可组合的管道语法**：类似 `|` 的管道操作可对列、行进行任意组合，支持自定义函数 (`def`) 与脚本。
-- **类型安全**：内置类型系统 (int, float, str, bool, table, list, set, function...) 让错误在编译期被捕获。
-- **高可扩展**：可轻松编写自定义插件（Rust、Python、Shell 等），并通过 Cargo 管理依赖。
-- **插件支持**：支持插件扩展，遵循结构化数据模型。
-- **跨平台**：原生支持 Windows、macOS、Linux，内部使用 Rust 进行高效实现。
-- **友好的交互**：交互式提示符、内置命令补全、语法高亮、历史记录等。
-- **内置模块**：文件系统、网络、数据库、进程管理等，方便快速调试。
-- **功能性数据处理**：使用函数式方法处理数据，避免可变状态。
-
-## 核心功能
-
-- **数据查询**：`open`, `list`, `parse`, `filter`, `sort-by`, `select`, `rename` 等。
-- **表格操作**：`into rows`, `into columns`, `flatten`, `pivot`, `group-by`。
-- **函数与脚本**：使用 `def` 定义函数，并支持 `mui`（多变体）。
-- **执行外部程序**：`system`, `run`, `open` 等。
-- **变量与环境**：`env`、`set`, `def-env`。
-- **错误处理**：通过 `match`, `try`, `catch` 等机制统一错误处理。
-- **插件生态**：例如 `nu-plugin-git`, `nu-plugin-call`, `nu-plugin-cloud` 等。
-
-## 用法
-
-```bash
-# 安装（示例）
-# 1. 使用 Cargo
-cargo install nu
-
-# 2. 预编译二进制
-$ wget https://github.com/nushell/nushell/releases/latest/download/nu-<os>-x86_64.tar.gz
-$ tar zxvf nu-<os>-x86_64.tar.gz
-$ sudo mv nu-<os>-x86_64/nu /usr/local/bin/
-
-# 启动
-nu
-
-# 例子：列出当前目录文件并按大小排序
-ls | sort-by size
-
-# 读取 JSON 并过滤
-cat data.json | from json | where age > 30 | select name, age
-```
-
-## 参考资料
-
-- 官方文档：[https://www.nushell.sh/book/](https://www.nushell.sh/book/)
-- GitHub wiki: [https://github.com/nushell/nushell/wiki](https://github.com/nushell/nushell/wiki)
-- 代码示例与插件市场
-
----
-
-> **提示**：在编写自定义函数时，建议使用 `--test` 进行单元测试，以保证函数在管道中的正确性。
+**许可证**  
+采用 MIT 协议开源。

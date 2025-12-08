@@ -1,67 +1,22 @@
+
 ---
 title: OpenHands
 ---
 
-# OpenHands
+### [OpenHands OpenHands](https://github.com/OpenHands/OpenHands)
 
-OpenHands（前身为OpenDevin）是一个由AI驱动的软件开发代理平台。它允许AI代理执行人类开发者所能做的任何任务，包括修改代码、运行命令、浏览网页、调用API，甚至从StackOverflow复制代码片段。
+**项目核心内容总结：**  
+OpenHands 是一个基于 AI 的开发工具，提供多种使用方式：  
+1. **SDK**：提供 Python 库，支持本地运行或云端扩展，用于构建和管理软件代理。  
+2. **CLI**：通过命令行界面快速启动，支持 Claude、GPT 等大模型。  
+3. **本地 GUI**：提供带 REST API 的图形化界面，适合多用户协作。  
+4. **云服务**：提供托管版本，支持 Slack、Jira 等集成，可免费试用。  
+5. **企业版**：支持私有化部署（Kubernetes），提供高级权限管理和长期支持。  
 
-## 功能特性
+**主要特性**：  
+- 开源 MIT 许可证（企业版除外）；  
+- 支持多语言协作与代码生成；  
+- 提供基准测试（SWEBench 72.8 分）；  
+- 包含理论思维模块（ToM-SWE）等研究组件。  
 
-- **代码修改**：AI代理可以直接编辑和修改代码文件
-- **命令执行**：在沙盒环境中运行终端命令
-- **网页浏览**：访问互联网获取信息和资源
-- **API调用**：与外部服务进行交互
-- **多语言支持**：支持多种编程语言和框架
-- **沙盒环境**：安全的隔离执行环境
-
-## 使用方法
-
-### 在线使用（推荐）
-
-访问 [OpenHands Cloud](https://app.all-hands.dev) 开始使用，新用户可获得10美元免费积分。
-
-### 本地运行
-
-#### 选项1：CLI Launcher（推荐）
-
-使用 uv 安装和运行：
-
-```bash
-# 安装 uv（如果尚未安装）
-# 参考：https://docs.astral.sh/uv/getting-started/installation/
-
-# 启动GUI服务器
-uvx --python 3.12 openhands serve
-
-# 或启动CLI
-uvx --python 3.12 openhands
-```
-
-访问 http://localhost:3000 开始使用。
-
-#### 选项2：Docker
-
-```bash
-docker pull docker.openhands.dev/openhands/runtime:0.61-nikolaik
-
-docker run -it --rm --pull=always \
-    -e SANDBOX_RUNTIME_CONTAINER_IMAGE=docker.openhands.dev/openhands/runtime:0.61-nikolaik \
-    -e LOG_ALL_EVENTS=true \
-    -v /var/run/docker.sock:/var/run/docker.sock \
-    -v ~/.openhands:/.openhands \
-    -p 3000:3000 \
-    --add-host host.docker.internal:host-gateway \
-    --name openhands-app \
-    docker.openhands.dev/openhands/openhands:0.61
-```
-
-### 配置LLM
-
-首次使用时需要配置LLM提供商和API密钥。推荐使用 Anthropic 的 Claude Sonnet 4.5。
-
-更多配置选项请参考[官方文档](https://docs.all-hands.dev)。
-
-## 许可证
-
-采用 MIT 许可证（enterprise/ 文件夹除外）。
+**使用方式**：通过文档（[链接](https://docs.openhands.dev)）或 GitHub 仓库获取代码，社区提供 Slack 支持。

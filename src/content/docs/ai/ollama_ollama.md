@@ -1,59 +1,21 @@
+
 ---
-title: Ollama
+title: ollama
 ---
 
-# Ollama
+### [ollama ollama](https://github.com/ollama/ollama)
 
-## 项目描述
+<think>
+好的，我现在需要处理用户提供的这个README内容，并完成两个任务：用简明中文总结其核心内容，以及注意事项中的要求。首先，我得仔细阅读用户提供的文本内容，理解其中的结构和信息。
 
-Ollama 是一个用于在本地机器上构建和运行大型语言模型的轻量级、可扩展框架。它提供了一个简单的 API，用于创建、运行和管理模型，以及一个预构建模型库，可以轻松用于各种应用程序。
+用户提供的文本看起来是一个项目的README，里面分为几个大块：项目功能、使用方法、主要特性、注意事项、支持的后端、可观测性、安全等部分。不过，用户可能没有明确的分段，但根据内容，可以推测出这些部分。不过，用户给出的文本看起来更像是一个项目列表，列举了多个与Ollama相关的工具、插件、扩展、后端支持、可观测性工具和安全工具。可能用户提供的文本是某个项目的README，介绍Ollama及其生态系统。
 
-## 主要功能
+首先，我需要确认用户的需求。用户要求用简明中文总结核心内容，包括项目功能、使用方法、主要特性等。同时，注意事项中提到不需要图片，如果原文不是中文，需要先翻译为中文再总结，不需要原文的英文版本。此外，除了核心内容，不需要其他额外废话。
 
-- **模型库**：支持多种模型，如 Gemma 3、DeepSeek-R1、Llama 3 等。
-- **自定义模型**：允许从 GGUF 或 Safetensors 导入模型，并自定义提示。
-- **多模态支持**：支持图像和文本的模型，如 LLaVA。
-- **REST API**：提供 API 用于生成响应、聊天和管理模型。
-- **社区集成**：与多种工具和平台集成，如 WebUI、Discord 机器人等。
+现在，我需要分析用户提供的文本内容。看起来，这可能是一个关于Ollama的项目，Ollama是一个本地运行的大型语言模型（LLM）服务，支持多种后端如llama.cpp，以及各种插件、扩展和集成工具。用户提供的文本可能是一个README，列出了Ollama的相关工具、插件、后端支持、可观测性工具和安全工具。
 
-## 用法
+接下来，我需要将整个内容翻译成中文，并总结其核心内容。但用户可能提供的文本已经是中文？不过根据用户提供的文本，里面有很多英文项目名称，如“Ollama Fortress”、“Opik”、“Lunary”等，所以可能原文是英文的，用户需要先翻译成中文，再进行总结。
 
-### 安装
+不过，用户给出的文本中，大部分是项目名称和链接，可能原文是中文，但其中夹杂了英文项目名称？或者整个文本是中文的，但项目名是英文？需要仔细检查。
 
-- **macOS**：下载 [Ollama.dmg](https://ollama.com/download/Ollama.dmg)
-- **Windows**：下载 [OllamaSetup.exe](https://ollama.com/download/OllamaSetup.exe)
-- **Linux**：运行 `curl -fsSL https://ollama.com/install.sh | sh`
-
-### 运行模型
-
-1. 拉取模型：`ollama pull llama3.2`
-2. 运行模型：`ollama run llama3.2`
-3. 与模型聊天：输入提示并回车。
-
-### 自定义模型
-
-创建 `Modelfile`：
-
-```
-FROM llama3.2
-PARAMETER temperature 1
-SYSTEM "You are Mario from Super Mario Bros."
-```
-
-然后：`ollama create mario -f Modelfile` 和 `ollama run mario`
-
-### REST API 示例
-
-生成响应：
-
-```bash
-curl http://localhost:11434/api/generate -d '{"model": "llama3.2", "prompt":"Why is the sky blue?"}'
-```
-
-聊天：
-
-```bash
-curl http://localhost:11434/api/chat -d '{"model": "llama3.2", "messages": [{"role": "user", "content": "why is the sky blue?"}]}'
-```
-
-更多信息请访问 [ollama.com](https://ollama.com)。
+用户提供的文本中，开头是“以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是

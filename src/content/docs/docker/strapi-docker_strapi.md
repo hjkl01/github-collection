@@ -1,23 +1,27 @@
+
 ---
 title: strapi-docker
 ---
 
-# Strapi Docker 示例项目
+### [strapi strapi-docker](https://github.com/strapi/strapi-docker)
 
-**项目地址：** [https://github.com/strapi/strapi-docker/tree/master/examples](https://github.com/strapi/strapi-docker/tree/master/examples)
+**核心内容总结：**
 
-## 主要特性
+该项目提供 Strapi v3 的 Docker 镜像，用于容器化部署。主要功能包括：
 
-- **基于 Docker 的 Strapi 部署**：该项目提供 Strapi CMS（内容管理系统）的 Docker 容器化示例，支持快速部署和扩展。
-- **多环境支持**：包括开发、生产和自定义配置的 Docker 环境，兼容 Docker Compose 和 Kubernetes。
-- **数据库集成**：内置支持 SQLite、PostgreSQL、MySQL 等数据库的 Docker 配置，便于数据持久化和迁移。
-- **插件和扩展**：展示如何集成 Strapi 的插件系统，并通过 Docker 卷挂载自定义内容。
-- **安全性与优化**：示例包含环境变量管理、SSL 支持和性能调优的最佳实践。
+1. **镜像类型**  
+   - `strapi/strapi`：用于创建新项目或运行主机上的 Strapi 项目，支持通过环境变量配置数据库（SQLite/PostgreSQL/MySQL/MongoDB）等参数。  
+   - `strapi/base`：用于构建自定义 Docker 镜像，适配生产环境部署。
 
-## 主要功能
+2. **使用方法**  
+   - **新建项目**：通过 `docker run` 命令挂载本地目录，镜像会自动执行 `strapi new` 创建项目（默认使用 SQLite）。  
+   - **运行已有项目**：挂载本地项目目录，镜像会安装依赖并启动 `strapi develop`。  
+   - **环境变量**：支持通过 `-e` 参数配置数据库连接信息（如 `DATABASE_HOST`、`DATABASE_USERNAME` 等）。
 
-Install and run your first Strapi project using Docker
+3. **注意事项**  
+   - 镜像仅兼容 Strapi v3，v4 需使用社区工具（如 [strapi-tool-dockerize](https://github.com/strapi-community/strapi-tool-dockerize)）。  
+   - 升级 Strapi 时需手动重建应用，因镜像标签更新不自动升级版本。  
+   - 生产部署建议使用 `strapi/base` 构建自定义镜像，并参考示例中的 `Dockerfile`。  
 
-## 用法
-
-请参考项目文档获取详细用法。
+4. **构建镜像**  
+   通过 `yarn install` 和 `./bin/build.js` 命令可本地构建镜像。

@@ -1,64 +1,36 @@
+
 ---
 title: django-react-boilerplate
 ---
 
-# Django React Boilerplate 项目
+### [vintasoftware django-react-boilerplate](https://github.com/vintasoftware/django-react-boilerplate)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/vintasoftware/django-react-boilerplate)
+**项目核心内容总结：**
 
-## 主要特性
-- **前后端分离架构**：基于 Django（后端）和 React（前端）的现代 Web 应用 boilerplate，支持快速开发全栈应用。
-- **集成工具链**：内置 Webpack 用于前端资源打包，支持热重载（Hot Reload）和代码分割，提升开发效率。
-- **认证系统**：使用 Django REST Framework (DRF) 提供 JWT 或 Token 认证，支持用户注册、登录和权限管理。
-- **API 开发**：DRF 提供 RESTful API 接口，便于前后端数据交互。
-- **数据库支持**：默认使用 PostgreSQL，支持 Django ORM 进行模型定义和迁移。
-- **测试框架**：集成 Django 测试工具和 Jest（前端测试），确保代码质量。
-- **部署友好**：包含 Docker 配置，支持容器化部署；生产环境优化如静态文件收集和 Gunicorn 服务器。
-- **其他特性**：ESLint 和 Prettier 代码规范、环境变量管理、CORS 处理。
+该项目是一个基于 Django 和 React 的全栈 Web 应用程序模板，适用于开发现代 Web 应用。其主要功能包括：
 
-## 主要功能
-- **后端功能**：用户认证、API 端点管理、数据库模型（如用户、内容等）、管理员面板（Django Admin）。
-- **前端功能**：React 组件化开发、路由（React Router）、状态管理（可选 Redux）、表单处理（Formik 等）。
-- **开发功能**：实时开发服务器（Django + React 代理）、自动构建和测试运行。
-- **扩展功能**：易于集成第三方库，如 Celery（任务队列）或 Redis（缓存）。
+- **项目结构**：整合了 Django 后端与 React 前端，支持前后端分离开发。
+- **部署支持**：提供 Render.com 的部署配置文件 `render.yaml`，便于将项目部署到生产环境。
+- **功能特性**：
+  - 集成 Sentry 用于错误监控。
+  - 支持 SendGrid 发送邮件。
+  - 配置了 Celery 用于异步任务处理。
+  - 使用 Django-CSP 来增强安全性，防止 XSS 攻击。
+  - 包含代码规范工具（如 Ruff 和 ESLint）和 Git 预提交钩子，确保代码质量。
+- **开发与部署流程**：
+  - 支持本地开发（包括 Docker 和非 Docker 环境）。
+  - 提供部署脚本 `render_build.sh`，用于构建前端、后端、运行迁移、收集静态文件等。
+- **生产环境配置**：支持通过 Render.com 部署，并提供了环境变量配置说明，如 `SECRET_KEY`、`SENTRY_DSN` 等。
+- **其他**：支持通过 GitHub Actions 实现自动化测试，提供详细的开发和贡献指南。
 
-## 用法
-1. **克隆项目**：
-   ```
-   git clone https://github.com/vintasoftware/django-react-boilerplate.git
-   cd django-react-boilerplate
-   ```
+**使用方法**：
+- 克隆项目，配置环境变量。
+- 使用 `poetry` 安装 Python 依赖，使用 `npm` 或 `yarn` 安装前端依赖。
+- 启动开发服务器，进行本地调试。
+- 通过 `render.yaml` 配置文件部署到 Render.com，设置相关环境变量。
 
-2. **安装依赖**：
-   - 后端：创建虚拟环境，安装 Python 依赖：
-     ```
-     python -m venv venv
-     source venv/bin/activate  # Linux/Mac
-     pip install -r requirements.txt
-     ```
-   - 前端：安装 Node 依赖：
-     ```
-     npm install
-     ```
-
-3. **配置环境**：
-   - 复制 `.env.example` 为 `.env`，设置数据库、密钥等变量（如 `DATABASE_URL`、`SECRET_KEY`）。
-
-4. **运行迁移和创建超级用户**：
-   ```
-   python manage.py migrate
-   python manage.py createsuperuser
-   ```
-
-5. **启动开发服务器**：
-   - 后端：`python manage.py runserver`
-   - 前端：`npm start`（默认代理到后端端口 8000）
-   - 访问 `http://localhost:3000` 查看前端，`/admin/` 访问 Django 后台。
-
-6. **构建和生产部署**：
-   - 构建前端：`npm run build`，静态文件将收集到 Django 的 `static` 目录。
-   - 使用 Docker：`docker-compose up` 启动服务。
-   - 生产环境：配置 Nginx/Gunicorn，运行 `python manage.py collectstatic`。
-
-更多细节请参考项目 README。
+**主要特性**：
+- 完整的前后端开发框架。
+- 支持异步任务和邮件发送。
+- 集成错误监控和代码质量工具。
+- 提供生产部署方案和环境配置指导。

@@ -1,47 +1,23 @@
+
 ---
 title: evals
 ---
 
-# Evals
+### [openai evals](https://github.com/openai/evals)
 
-Evals is a framework for evaluating large language models (LLMs) and LLM systems, providing an open-source registry of benchmarks. It allows users to test different dimensions of OpenAI models and create custom evals for specific use cases.
+### 核心内容总结  
+**项目功能**：  
+OpenAI Evals 是一个用于评估大型语言模型（LLM）或基于 LLM 的系统的框架，提供现有评估模板和自定义评估功能，支持使用私有数据构建评估，无需公开数据。  
 
-## Features
+**使用方法**：  
+1. 设置 OpenAI API 密钥并安装 Python 3.9 及以上版本。  
+2. 通过 Git-LFS 下载评估数据，或仅获取特定评估数据。  
+3. 安装依赖项（`pip install -e .`），并使用 `pre-commit` 工具进行代码格式化。  
+4. 运行评估（`pip install evals`），可选地将结果记录到 Snowflake 数据库。  
 
-- **Framework for Evaluation**: Provides tools to evaluate LLMs and systems built with LLMs.
-- **Registry of Benchmarks**: Includes a collection of existing evals to assess model performance.
-- **Custom Evals**: Supports writing private or public evals using your own data without exposing sensitive information.
-- **Integration**: Can be run directly in the OpenAI Dashboard or locally.
-- **Logging Options**: Supports logging results to Snowflake databases.
-
-## Usage
-
-### Setup
-
-1. Obtain an OpenAI API key from [OpenAI Platform](https://platform.openai.com/account/api-keys).
-2. Set the `OPENAI_API_KEY` environment variable.
-3. Install the package: `pip install evals` (for running existing evals) or clone the repo and install with `pip install -e .` (for creating evals).
-
-### Downloading Evals
-
-If cloning the repo, use Git-LFS to fetch data:
-
-```bash
-cd evals
-git lfs fetch --all
-git lfs pull
-```
-
-### Running Evals
-
-Run existing evals using the framework. Refer to `docs/run-evals.md` for full instructions. Example:
-
-```bash
-oaieval <eval_name> <completion_fn>
-```
-
-### Writing Evals
-
-Create custom evals by following `docs/build-eval.md`. Use YAML for configuration and JSON for data. Examples are in the `examples` folder.
-
-For more details, visit the [GitHub repository](https://github.com/openai/evals).
+**主要特性**：  
+- 提供多种评估模板（如提示链、工具代理等）。  
+- 支持自定义评估逻辑和模型评分（YAML 文件）。  
+- 可集成 Weights & Biases 进行可视化分析。  
+- 强调数据隐私，允许使用私有数据构建评估。  
+- 提供代码质量工具（如 `pre-commit`）。

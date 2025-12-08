@@ -1,95 +1,18 @@
+
 ---
 title: lingo.dev
 ---
 
-# lingo.dev
+### [lingodotdev lingo.dev](https://github.com/lingodotdev/lingo.dev)
 
-## 功能
+Lingo.dev 是一个开源的 AI 驱动国际化工具包，通过大型语言模型实现即时本地化。项目包含多个工具：
 
-Lingo.dev 是一个开源的 AI 驱动的 i18n 工具包，用于使用大型语言模型 (LLM) 进行即时本地化。它提供了多种工具来帮助开发者轻松实现多语言支持：
+1. **编译器**：在构建时自动将 React 应用本地化，无需修改现有组件。通过 `npm install lingo.dev` 安装，配置 Next.js 项目后运行 `next build` 即可生成多语言包。
 
-- **Compiler**: 构建时 React 本地化，无需修改现有 React 组件。
-- **CLI**: 从终端翻译代码和内容，支持指纹识别和缓存，仅重新翻译变更部分。
-- **CI/CD**: 自动提交翻译，支持 GitHub Actions 集成。
-- **SDK**: 实时翻译动态内容，如用户生成的内容。
+2. **CLI**：终端命令行工具，支持代码和内容的一键翻译，仅重新翻译变更内容。
 
-支持多种格式：JSON、YAML、Markdown 等。可以使用自己的 LLM 或 Lingo.dev 本地化引擎。
+3. **CI/CD**：自动化翻译流程，通过 GitHub Actions 配置，推送代码时自动提交翻译结果或创建 PR。
 
-## 用法
+4. **SDK**：实时翻译用户生成内容，支持动态内容的即时本地化。
 
-### Compiler
-
-安装：
-
-```bash
-npm install lingo.dev
-```
-
-在 Next.js 配置中启用：
-
-```javascript
-import lingoCompiler from 'lingo.dev/compiler';
-
-const existingNextConfig = {};
-
-export default lingoCompiler.next({
-  sourceLocale: 'en',
-  targetLocales: ['es', 'fr'],
-})(existingNextConfig);
-```
-
-运行构建：
-
-```bash
-next build
-```
-
-### CLI
-
-运行翻译：
-
-```bash
-npx lingo.dev@latest run
-```
-
-### CI/CD
-
-在 `.github/workflows/i18n.yml` 中配置：
-
-```yaml
-name: Lingo.dev i18n
-on: [push]
-
-jobs:
-  i18n:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: lingodotdev/lingo.dev@main
-        with:
-          api-key: ${{ secrets.LINGODOTDEV_API_KEY }}
-```
-
-### SDK
-
-```javascript
-import { LingoDotDevEngine } from 'lingo.dev/sdk';
-
-const lingoDotDev = new LingoDotDevEngine({
-  apiKey: 'your-api-key-here',
-});
-
-const content = {
-  greeting: 'Hello',
-  farewell: 'Goodbye',
-  message: 'Welcome to our platform',
-};
-
-const translated = await lingoDotDev.localizeObject(content, {
-  sourceLocale: 'en',
-  targetLocale: 'es',
-});
-// 返回: { greeting: "Hola", farewell: "Adiós", message: "Bienvenido a nuestra plataforma" }
-```
-
-更多详情请参考 [官方文档](https://lingo.dev)。
+主要特性包括：无需改动现有代码、多语言支持、自动化翻译流程、实时翻译能力。

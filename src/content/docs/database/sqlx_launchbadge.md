@@ -1,124 +1,27 @@
+
 ---
 title: sqlx
 ---
 
-# SQLx (launchbadge)
+### [launchbadge sqlx](https://github.com/launchbadge/sqlx)
 
-项目地址: <https://github.com/launchbadge/sqlx>
+**项目核心内容总结：**  
+sqlx 是一个用于 Rust 的异步数据库操作库，支持 PostgreSQL、MySQL、MariaDB、SQLite 等多种数据库，提供以下功能与特性：  
 
-## 主要特性
+1. **核心功能**  
+   - **连接池管理**：通过 `Pool` 对象管理数据库连接，支持自定义最大连接数。  
+   - **查询执行**：支持参数化查询（防止 SQL 注入）与非参数化查询，提供 `execute`、`fetch` 等方法处理结果。  
+   - **编译时验证**：通过 `sqlx::query!` 和 `sqlx::query_as!` 宏实现 SQL 语法与语义的编译时检查，自动映射查询结果到结构体或匿名记录。  
 
-- **编译时查询校验**  
-  通过 `query!`, `query_as!`, `fetch!` 等宏，在编译阶段就能检查 SQL 语法、字段与 Rust 结构体的一致性，降低运行时错误。
+2. **使用方法**  
+   - **连接数据库**：使用 `connect` 方法建立连接或连接池（如 `PgPoolOptions::new()`）。  
+   - **执行查询**：通过 `sqlx::query` 或宏实现查询，支持绑定参数（如 `.bind(150_i64)`）。  
+   - **结果处理**：使用 `fetch_one`、`fetch_all` 等方法获取结果，或通过 `map` 将行映射到自定义结构体（需实现 `FromRow` trait）。  
 
-- **异步/阻塞双模式**  
-  原生支持 `async/await`，同时提供同步 API，满足不同场景需求。
+3. **主要特性**  
+   - **异步支持**：基于 `futures` 库，适用于异步运行时（如 Tokio）。  
+   - **安全代码**：默认使用 100% 安全 Rust 实现，仅 SQLite 模块允许部分 `unsafe` 代码。  
+   - **编译优化**：支持离线模式缓存查询分析结果，提升构建速度。  
+   - **跨数据库兼容**：统一 API 设计，适配多种数据库方言（如 PostgreSQL 的 `$1` 参数与 MySQL 的 `?` 参数）。  
 
-- **多数据库支持**  
-  兼容 PostgreSQL、MySQL、SQLite 等主流关系型数据库，单个 crate 即可跨数据库使用。
-
-- **Connection Pool（连接池）**  
-  内置强大且可配置的连接池，支持最大连接数、连接生命周期等参数。
-
-- **事务与批处理**  
-  支持手动事务和自动回滚；提供 `query` 批量执行、`transaction` 事务链式调用。
-
-- **灵活错误处理**  
-  所有查询返回 `Result<T, sqlx::Error>`，标准化错误类型，便于统一处理。
-
-- **高性能 & 低耦合**  
-  采用零成本抽象，避免反射与运行时类型检查，保持高吞吐量。
-
-## 快速开始
-
-### Cargo 依赖
-
-```toml
-[dependencies]
-sqlx = { version = "0.8", features = ["postgres", "runtime-tokio-rt", "macros"] }
-tokio = { version = "1", features = ["full"] }
-```
-
-> 根据需要开启对应数据库功能，例如 `mysql`, `sqlite` 等。
-
-### 简单示例（PostgreSQL）
-
-```rust
-use sqlx::postgres::PgPoolOptions;
-use sqlx::Result;
-
-#[tokio::main]
-async fn main() -> Result<()> {
-    // 创建连接池
-    let pool = PgPoolOptions::new()
-        .max_connections(5)
-        .connect("postgres://user:password@localhost/dbname")
-        .await?;
-
-    // 简单查询
-    let count: (i64,) = sqlx::query_as("SELECT COUNT(*) FROM users")
-        .fetch_one(&pool)
-        .await?;
-
-    println!("用户总数: {}", count.0);
-
-    // 参数化查询，编译时校验
-    let user: (i32, String) = sqlx::query_as!(UserRecord, "SELECT id, name FROM users WHERE id = $1", 42)
-        .fetch_one(&pool)
-        .await?;
-
-    println!("id: {}, name: {}", user.0, user.1);
-
-    Ok(())
-}
-
-struct UserRecord {
-    id: i32,
-    name: String,
-}
-```
-
-### 动态查询
-
-```rust
-use sqlx::Executor;
-
-async fn find_user_by_name(pool: &sqlx::PgPool, name: &str) -> Result<Vec<User>> {
-    let recs = sqlx::query_as!(
-        User,
-        "SELECT id, name FROM users WHERE name = $1",
-        name
-    )
-    .fetch_all(pool)
-    .await?;
-
-    Ok(recs)
-}
-
-struct User {
-    id: i32,
-    name: String,
-}
-```
-
-## 高级功能
-
-- **简化结构体映射**  
-  `#[derive(sqlx::FromRow)]` 自动实现行到结构体的转换，减少冗余代码。
-
-- **连接池指标**  
-  `sqlx::postgres::PgPool` 提供 `acquire_timeout`, `max_lifetime` 等细粒度调控。
-
-- **缓存与预编译**  
-  `QueryBuilder` 支持构造可重用的动态语句，配合 `query_builder!` 宏可提高性能。
-
-- **多模式查询**  
-  运行时可以指定不同数据库的查询实现，切换母语数据库实现更灵活。
-
-## 文档与社区
-
-- 官方文档: <https://docs.rs/sqlx/>
-- GitHub Issues: <https://github.com/launchbadge/sqlx/issues>
-- Discord 讨论组: https://discord.com/invite/sqlx
-
----
+**注意事项**：使用 `query!` 宏需配置 `DATABASE_URL` 环境变量，指向编译时验证的数据库实例。

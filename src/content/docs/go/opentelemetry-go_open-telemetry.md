@@ -1,44 +1,17 @@
+
 ---
-title: Opentelemetry Go
+title: opentelemetry-go
 ---
 
-# OpenTelemetry-Go
+### [open-telemetry opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go)
 
-## 功能
-
-OpenTelemetry-Go 是 OpenTelemetry 的 Go 语言实现。它提供了一套 API 来直接测量软件的性能和行为，并将这些数据发送到可观测性平台。
-
-- **分布式跟踪 (Traces)**: 稳定，支持捕获和传播分布式跟踪信息。
-- **指标 (Metrics)**: 稳定，支持收集和导出指标数据。
-- **日志 (Logs)**: Beta 阶段，支持日志收集。
-
-## 用法
-
-### 入门
-
-访问 [opentelemetry.io](https://opentelemetry.io/docs/languages/go/getting-started/) 获取入门指南。
-
-### 仪器化 (Instrumentation)
-
-要开始从应用捕获分布式跟踪和指标事件，需要仪器化应用。最简单的方式是使用仪器化库。查看 [官方支持的仪器化库](https://github.com/open-telemetry/opentelemetry-go-contrib/tree/main/instrumentation)。
-
-如果需要扩展或直接构建仪器化，使用 [Go otel](https://pkg.go.dev/go.opentelemetry.io/otel) 包。查看 [示例](https://github.com/open-telemetry/opentelemetry-go-contrib/tree/main/examples)。
-
-### 导出 (Export)
-
-配置导出管道将遥测数据发送到可观测性平台。
-
-支持的导出器：
-
-- **OTLP**: 支持日志、指标、跟踪。
-- **Prometheus**: 支持指标。
-- **stdout**: 支持日志、指标、跟踪。
-- **Zipkin**: 支持跟踪。
-
-### 兼容性
-
-支持 Go 1.24 和 1.25 等版本。支持多种操作系统和架构。
-
-### 贡献
-
-查看 [贡献文档](https://github.com/open-telemetry/opentelemetry-go/blob/main/CONTRIBUTING.md)。
+**核心内容总结：**  
+OpenTelemetry-Go 是 Go 语言实现的 OpenTelemetry 项目，提供 API 用于收集软件性能和行为数据，并发送至可观测性平台。主要功能包括：  
+1. **功能**：支持分布式追踪（稳定）、指标（稳定）和日志（Beta）的采集与导出。  
+2. **使用方法**：  
+   - **仪器化**：通过官方支持的库或直接使用 `go.opentelemetry.io/otel` 包进行应用监控。  
+   - **导出配置**：使用 OTLP、Prometheus、stdout、Zipkin 等导出器将数据发送至目标平台。  
+3. **特性**：  
+   - 兼容当前主流 Go 版本（如 1.24、1.25），支持多平台（Ubuntu、macOS、Windows）及多种架构（amd64、386、arm64）。  
+   - 提供详细的 [版本稳定性说明](VERSIONING.md) 和 [贡献指南](CONTRIBUTING.md)。  
+4. **支持导出器**：OTLP（全信号）、Prometheus（指标）、stdout（全信号）、Zipkin（追踪）。

@@ -1,49 +1,24 @@
+
 ---
 title: ALVR
 ---
 
-# ALVR
+### [alvr-org ALVR](https://github.com/alvr-org/ALVR)
 
-ALVR (Air Light VR) is an open-source wireless VR headset streaming software that enables streaming VR games from a PC to standalone VR headsets like Oculus Quest, Meta Quest, and Pico over Wi-Fi, providing a wireless PC VR experience.
+**ALVR 核心内容总结：**
 
-## Features
+**功能**  
+通过 Wi-Fi 将 PC 上的 VR 游戏流式传输至支持的 VR 头显，无需头显内置算力。
 
-- Wireless streaming of VR content from PC to VR headsets
-- Support for various VR headsets including Oculus Quest, Meta Quest, and Pico
-- Low-latency video and audio streaming
-- Compatible with SteamVR
-- Cross-platform support (Windows, Linux)
-- Customizable video settings (resolution, bitrate, codec)
+**使用方法**  
+1. 下载对应系统的启动器（Windows/Linux）。  
+2. 安装后配置 SteamVR，并确保 PC 满足硬件要求（如 NVIDIA/AMD/Intel 支持编码的显卡）。  
+3. 网络需使用 5GHz Wi-Fi（头显）和有线连接（PC），且设备需连接同一路由器。  
 
-## Usage
-
-1. **Install ALVR Server on PC**:
-   - Download the latest release from the GitHub repository
-   - For Windows: Extract `alvr_streamer_windows.zip` and run the executable
-   - For Linux: Extract `alvr_streamer_linux.tar.gz` and run `bin/alvr_dashboard`
-   - Alternatively, use the ALVR Launcher for easier version management
-
-2. **Install ALVR Client on Headset**:
-   - Enable developer mode on your VR headset
-   - Install the ALVR APK using SideQuest or directly via ADB
-   - For Quest/Pico: Download from SideQuest store
-
-3. **Setup and Connection**:
-   - Launch ALVR dashboard on PC
-   - Ensure PC and headset are on the same network
-   - In ALVR dashboard, add the headset device (it should auto-discover or enter IP manually)
-   - Configure audio settings (may require Virtual Audio Cable on Windows)
-
-4. **Streaming**:
-   - Launch SteamVR on PC
-   - Put on your VR headset and launch ALVR app
-   - Start VR games through SteamVR - they will stream wirelessly to your headset
-
-## Requirements
-
-- PC with compatible GPU (NVIDIA, AMD, or Intel with proper drivers)
-- VR headset (Quest, Quest 2, Quest 3, Pico, etc.)
-- Stable Wi-Fi network (5GHz recommended for better performance)
-- SteamVR installed on PC
-
-For detailed installation guides and troubleshooting, refer to the [ALVR Wiki](https://github.com/alvr-org/ALVR/wiki).
+**主要特性**  
+- **兼容设备**：支持 Apple Vision Pro、Quest 系列、Pico、Vive、Lynx R1、PhoneVR 等主流 VR 头显（部分设备需自行安装）。  
+- **系统支持**：Windows 10/11、Linux；不支持 macOS、Windows XP/7/8。  
+- **硬件要求**：需高性能 PC，显卡需支持 NVENC/AMF VCE/VPL 编码技术。  
+- **网络优化**：推荐有线连接 PC，头显使用 5GHz Wi-Fi 以降低延迟。  
+- **开源与隐私**：MIT 许可证，不收集用户个人数据，支持通过 OpenCollective 捐赠。  
+- **扩展支持**：提供安装指南、故障排除、Linux 优化方案及源码构建教程。

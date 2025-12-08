@@ -1,74 +1,27 @@
+
 ---
 title: burn
 ---
 
+### [tracel-ai burn](https://github.com/tracel-ai/burn)
 
-# Burn（Tracel‑AI）
+**Burn项目核心内容总结：**
 
-项目地址: https://github.com/tracel-ai/burn
+**功能**  
+Burn是一个基于Rust的深度学习框架，支持模型训练与推理、自定义操作开发、跨平台部署（如WebAssembly），并兼容ONNX和PyTorch模型导入。提供多种示例（如图像分类、文本生成、GAN等）及预训练模型，适用于计算机视觉、自然语言处理等任务。
 
-## 主要特性
-- **简洁的训练接口**：提供统一的 `Trainer` 与 `Engine`，让模型训练、验证、测试流程一行代码即可完成。
-- **多卡与分布式支持**：原生兼容 PyTorch 的 `DataParallel` 与 `DistributedDataParallel`，可在多 GPU 或多节点环境下无缝运行。
-- **自动模型与日志管理**：支持自动保存最佳模型、周期性 checkpoint，集成 TensorBoard、Weights & Biases 等日志后端。
-- **可插拔的组件化设计**：训练、评估、学习率调度器、优化器等均可通过插件方式自定义或替换。
-- **轻量级依赖**：核心仅依赖 PyTorch、NumPy，避免不必要的第三方库，易于部署与维护。
+**使用方法**  
+- 提供详细教程和示例代码（如MNIST训练、自定义数据集处理）。  
+- 支持通过`Learner`进行训练，或自定义训练循环。  
+- 可导入ONNX/PyTorch模型进行推理，或导出为自定义格式。  
+- 社区提供模型库（如[tracel-ai/models](https://github.com/tracel-ai/models)）和活跃的Discord讨论群。
 
-## 核心模块
-| 模块 | 作用 |
-|------|------|
-| `burn.trainer` | 定义 `Trainer` 类，包装训练循环、验证、测试等流程 |
-| `burn.engine` | 提供 `Engine` 对象，管理数据加载、模型前向、反向传播、梯度更新 |
-| `burn.callbacks` | 一组可复用的回调，例如 `EarlyStopping`、`LearningRateScheduler`、`ModelCheckpoint` |
-| `burn.utils` | 工具函数，支持随机种子设置、设备切换、参数统计等 |
-| `burn.cli` | 命令行工具，快速启动训练任务或查看日志 |
+**主要特性**  
+- **高性能**：利用Rust零成本抽象和内存控制优化计算效率。  
+- **模块化设计**：支持自定义层、数据集、训练逻辑和WGPU内核。  
+- **跨平台**：支持WebAssembly部署，适用于浏览器端应用。  
+- **易用性**：提供自动微分、高级API及与主流框架的兼容性。  
+- **社区支持**：活跃的开发者社区，持续更新文档和模型示例。
 
-## 快速使用
-
-```bash
-# 安装
-pip install git+https://github.com/tracel-ai/burn.git
-
-# 示例训练脚本
-python train.py \
-  --model resnet50 \
-  --dataset cifar10 \
-  --epochs 50 \
-  --batch-size 128 \
-  --lr 0.01 \
-  --device cuda:0
-```
-
-```python
-# train.py
-import torch
-from burn.trainer import Trainer
-from burn.utils import get_device
-
-device = get_device()
-model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet50', pretrained=False).to(device)
-train_loader, val_loader = ...  # 数据加载
-optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
-criterion = torch.nn.CrossEntropyLoss()
-
-trainer = Trainer(
-    model=model,
-    optimizer=optimizer,
-    criterion=criterion,
-    train_loader=train_loader,
-    val_loader=val_loader,
-    callbacks=[
-        burn.callbacks.ModelCheckpoint(save_best=True, filepath='best.pth'),
-        burn.callbacks.EarlyStopping(patience=5)
-    ]
-)
-
-trainer.fit(epochs=50)
-```
-
-## 文档与示例
-- 完整 API 参考见 [docs](https://github.com/tracel-ai/burn/tree/main/docs)
-- 示例代码在 `examples/` 目录，涵盖图像分类、语言模型、强化学习等多种任务。
-
-## 贡献
-欢迎 Issue 与 PR，详细贡献指南请查看 `CONTRIBUTING.md`。
+**注意事项**  
+- 从0.14.0版本起，`TensorData`替代旧版`Data`结构，加载旧版本模型需使用兼容版本（<=0.16.0）并启用`record-backward-compat`功能标志。

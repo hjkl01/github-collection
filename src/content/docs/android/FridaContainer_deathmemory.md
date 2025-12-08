@@ -1,53 +1,28 @@
+
 ---
 title: FridaContainer
 ---
 
-# FridaContainer 项目
+### [deathmemory FridaContainer](https://github.com/deathmemory/FridaContainer)
 
-**GitHub 项目地址:** [https://github.com/deathmemory/FridaContainer](https://github.com/deathmemory/FridaContainer)
+**FridaContainer 核心内容总结：**
 
-## 主要特性
-FridaContainer 是一个基于 Frida 框架的容器化工具，主要用于 Android 应用的动态插桩和逆向工程。它提供了一个隔离的容器环境，支持 Frida 的脚本注入、钩子函数和运行时操纵功能。核心特性包括：
-- **容器化隔离**：在独立容器中运行 Frida 脚本，避免对宿主机环境的干扰。
-- **跨平台支持**：兼容 Android 设备和模拟器，支持 ARM 和 x86 架构。
-- **自动化注入**：简化 Frida 脚本的加载和执行过程，支持批量操作。
-- **安全性增强**：内置沙箱机制，防止脚本执行时的潜在风险。
-- **模块化设计**：易于扩展，支持自定义 Frida 钩子和插件。
+**项目功能**  
+整合多款常用 Frida 脚本，提供 Android/iOS 逆向辅助功能，包括：  
+- **Android**：反调试绕过、堆栈打印、Dex 文件提取、SSL Pinning 绕过（支持 Cronet）、JNI Hook、Java 方法追踪、多 Dex 模块 Hook 等。  
+- **iOS**：函数地址获取与模糊查找、堆栈打印、UI 结构 Dump、数据类型转换等。  
+- **跨平台通用工具**：模块信息查询、堆栈与寄存器值打印、模块转储等功能。
 
-## 主要功能
-- **动态分析**：实时监控和修改应用运行时行为，如函数调用、内存读写和网络请求。
-- **逆向工程**：用于绕过应用的反调试机制、加密算法破解或协议分析。
-- **脚本管理**：支持 JavaScript 脚本的编写、加载和调试，提供 API 接口简化复杂操作。
-- **设备桥接**：通过 ADB 或无线连接与目标设备交互，实现远程 Frida 操作。
-- **日志与调试**：内置日志记录和可视化工具，便于追踪脚本执行过程。
+**使用方法**  
+1. **源码方式（推荐）**：  
+   - 克隆仓库后，修改 `index.ts` 编写逻辑，执行 `npm install` 安装依赖。  
+   - 通过 `npm run build` 编译，使用 `frida -U -f <包名> -l _fcagent.js` 注入脚本。  
+   - 开发时运行 `npm run watch` 实时编译，配合 PyCharm 等 IDE 编辑脚本。  
+   - Android 环境初始化可执行 `setupAndroid.py`。  
 
-## 用法
-1. **安装依赖**：
-   - 克隆仓库：`git clone https://github.com/deathmemory/FridaContainer.git`
-   - 安装 Frida：`pip install frida-tools`
-   - 确保 Android 设备已 root 或启用 USB 调试。
+2. **npm 模块方式（不推荐）**：当前版本可能存在兼容性问题，建议使用源码方式。
 
-2. **基本启动**：
-   - 进入项目目录：`cd FridaContainer`
-   - 运行容器：`python main.py --device <device_id> --app <package_name>`
-   - 示例：`python main.py --device emulator-5554 --app com.example.app`
-
-3. **加载脚本**：
-   - 编写 Frida 脚本（.js 文件），如钩子函数示例：
-     ```javascript
-     Java.perform(function() {
-         var MainActivity = Java.use("com.example.MainActivity");
-         MainActivity.onCreate.overload('android.os.Bundle').implementation = function(bundle) {
-             console.log("onCreate hooked!");
-             this.onCreate(bundle);
-         };
-     });
-     ```
-   - 注入脚本：`python inject.py --script hook.js --pid <process_id>`
-
-4. **高级用法**：
-   - 批量注入：使用 `batch_inject.py` 处理多个应用。
-   - 自定义配置：编辑 `config.json` 文件调整容器参数，如端口和超时设置。
-   - 停止容器：`python stop.py --device <device_id>`
-
-详细文档请参考仓库的 README.md 文件。
+**主要特性**  
+- 支持 Frida 17.0+（需使用 `for17` 分支适配 API 变动）。  
+- 提供结构化脚本开发流程（如 `agent` 目录管理业务逻辑）。  
+- 集成多平台逆向常用功能，提升调试与分析效率。

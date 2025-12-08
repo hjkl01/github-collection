@@ -1,45 +1,26 @@
+
 ---
 title: zitadel
 ---
 
-# Zitadel
+### [zitadel zitadel](https://github.com/zitadel/zitadel)
 
-## 项目地址  
-[https://github.com/zitadel/zitadel](https://github.com/zitadel/zitadel)
+**核心内容总结：**  
+ZITADEL 是一个开源的身份管理平台，提供多租户用户管理、自服务功能及多种认证协议支持（如 OpenID Connect、OAuth2、SAML、LDAP 等），适用于企业级应用。  
 
-## 主要特性  
-- **开源身份与访问管理（IAM）**：提供统一身份、会话、权限与多因素认证。  
-- **标准兼容**：支持 OAuth2、OpenID Connect、SAML、SCIM 等行业标准。  
-- **多租户与可插拔**：支持多租户架构，身份源、协议、权限策略可插拔。  
-- **高可用与可扩展**：基于 Kubernetes 原生，水平扩展、滚动升级。  
-- **审计与合规**：完整审计日志，满足 GDPR、HIPAA 等合规要求。  
+**主要功能：**  
+- **身份验证**：支持密码、Passkeys（FIDO 2/WebAuthN）、第三方登录及令牌交换。  
+- **多租户管理**：支持身份代理、自定义企业入驻流程、角色权限委托及域名自动发现。  
+- **集成能力**：提供 GRPC/REST API、SCIM 2.0 服务器、RBAC 权限控制及与外部审计系统对接。  
+- **自助服务**：用户可自行注册、管理账户，管理员可通过控制台（Console）管理组织、项目和应用。  
+- **部署方式**：支持自托管（PostgreSQL 数据库、零停机更新、高可用架构）及云服务（ZITADEL Cloud，含免费层级和按需付费）。  
 
-## 核心功能  
-- **用户管理**：自助注册、登录、密码重置、用户信息同步。  
-- **多因素认证**：OTP、WebAuthn、短信、邮件等多种 MFA。  
-- **权限与角色**：细粒度 RBAC、资源级权限配置。  
-- **应用集成**：OAuth2 客户端、OIDC 代理、SAML SP/IDP。  
-- **API 网关**：自动生成、统一鉴权、速率限制。  
-- **审计日志**：可查询、导出、满足合规需求。  
+**使用方法：**  
+1. **自托管**：通过 Docker、Kubernetes 或直接部署在 Linux/MacOS 系统，配置 PostgreSQL 数据库。  
+2. **云服务**：注册 ZITADEL Cloud，使用 SaaS 模式快速部署，按需扩展功能。  
 
-## 快速上手  
-
-```bash
-# 克隆仓库
-git clone https://github.com/zitadel/zitadel.git
-cd zitadel
-
-# 安装官方 Helm Chart
-helm repo add zitadel https://charts.zitadel.io
-helm install zitadel zitadel/zitadel --namespace zitadel --create-namespace
-
-# 端口转发访问 UI
-kubectl port-forward svc/zitadel-ui 8080:80 -n zitadel
-```
-
-浏览器访问 `http://localhost:8080`，按向导完成管理员账户创建。
-
-## 文档与支持  
-- 官方文档: https://zitadel.com/docs  
-- 社区讨论: https://github.com/zitadel/zitadel/discussions  
-- 贡献指南: https://github.com/zitadel/zitadel/blob/master/CONTRIBUTING.md
+**核心特性：**  
+- API 优先设计，支持全功能接口调用。  
+- 事件溯源（Event Sourcing）存储架构，保障数据可靠性。  
+- 提供 SDK 示例和开发者文档，便于集成。  
+- 支持高安全性设计（如零停机更新、审计日志）。

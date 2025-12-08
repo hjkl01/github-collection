@@ -1,38 +1,29 @@
+
 ---
 title: macos
 ---
 
-# macOS 项目描述
+### [dockur macos](https://github.com/dockur/macos)
 
-## 项目地址
-[https://github.com/dockur/macos](https://github.com/dockur/macos)
+**项目核心内容总结**  
 
-## 主要特性
-- **基于 Docker 的 macOS 虚拟化**：该项目允许用户在 Linux 主机上通过 Docker 容器运行 macOS 系统，实现轻量级虚拟机体验，而无需完整的虚拟化软件如 VirtualBox 或 VMware。
-- **支持多种 macOS 版本**：兼容 macOS Ventura、Monterey 等主流版本，用户可根据需求选择安装。
-- **图形界面支持**：提供完整的 macOS 桌面环境，包括 Finder、Safari 等原生应用，支持音频、视频和外设映射。
-- **资源高效**：Docker 容器化设计使资源占用更低，启动速度更快，适合开发测试或日常使用。
-- **开源免费**：基于开源工具构建，易于自定义和扩展。
+**功能**：该项目提供一个基于 Docker 的 macOS 容器镜像，支持通过 KVM 加速运行 macOS 系统，并可通过 Web 浏览器访问。  
 
-## 主要功能
-- **安装 macOS**：一键下载并安装 macOS 镜像，支持从 Apple 官方源获取。
-- **运行和管理**：通过命令行或 Web 界面启动、停止和监控 macOS 容器，支持端口转发以访问图形界面。
-- **自定义配置**：允许调整 CPU、内存、磁盘大小等资源分配；支持共享文件夹、USB 设备直通。
-- **网络和安全**：内置网络桥接，支持 VPN 和防火墙配置；确保容器隔离以保护主机系统。
-- **扩展支持**：可集成其他 Docker 服务，如运行 macOS 上的开发环境（Xcode、iOS 模拟器）。
+**主要特性**：  
+- 支持 KVM 加速和 Web 查看器；  
+- 自动下载 macOS 安装镜像；  
+- 支持自定义 macOS 版本（如 Sonoma、Ventura 等）；  
+- 可调整磁盘大小、CPU 核心数、内存大小；  
+- 支持通过 macvlan 网络分配独立 IP 地址；  
+- 支持 USB 设备、磁盘传递及与宿主机文件共享；  
+- 提供 Docker Compose、Docker CLI、Kubernetes 和 GitHub Codespaces 多种部署方式。  
 
-## 用法
-1. **前提条件**：确保主机为 Linux 系统（推荐 Ubuntu），已安装 Docker 和 Docker Compose。需要 KVM 支持（对于 x86 架构）。
-2. **克隆仓库**：
-   ```
-   git clone https://github.com/dockur/macos.git
-   cd macos
-   ```
-3. **配置**：编辑 `docker-compose.yml` 文件，设置 macOS 版本（如 `macos-13` 为 Ventura）和资源参数（e.g., `cpus: 4`, `memory: 8G`）。
-4. **启动安装**：
-   ```
-   docker compose up -d
-   ```
-   首次运行会自动下载 macOS 镜像（需数小时，视网络而定）。通过 VNC 客户端（如 `vncviewer localhost:5900`）连接图形界面，完成 macOS 安装向导。
-5. **日常使用**：启动容器后，使用 VNC 或 RDP 访问 macOS 桌面。停止容器：`docker compose down`。
-6. **高级用法**：参考仓库的 `README.md` 文档自定义脚本、添加共享卷或集成其他服务。注意：项目仅限教育/测试用途，遵守 Apple 许可协议。
+**使用方法**：  
+- 通过 Docker Compose 或 CLI 命令启动容器，配置环境变量（如 `VERSION`、`DISK_SIZE` 等）；  
+- 使用 Kubernetes 部署需应用 YAML 文件；  
+- GitHub Codespaces 可直接打开项目。  
+
+**注意事项**：  
+- 仅支持在 Apple 硬件上运行，违反 Apple EULA 的使用属于非法；  
+- 部分功能（如多核 CPU 支持）需在安装后验证稳定性；  
+- 需确保系统支持 KVM（如 Linux 环境需启用虚拟化扩展）。

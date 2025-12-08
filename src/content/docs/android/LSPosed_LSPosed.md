@@ -1,22 +1,25 @@
+
 ---
 title: LSPosed
 ---
 
-# LSPosed Framework
+### [LSPosed LSPosed](https://github.com/LSPosed/LSPosed)
 
-## 项目介绍
+**LSPosed Framework 核心内容总结：**  
+LSPosed 是一个基于 Riru/Zygisk 的 ART 挂钩框架，提供与原始 Xposed 一致的 API，兼容 Xposed 模块并支持 Android 8.1 至 14 版本。其核心功能允许用户无需修改 APK 即可修改系统和应用行为，支持多模块协同工作，且变更仅在内存中生效，卸载后可恢复原系统。  
 
-LSPosed是一个Riru / Zygisk模块，旨在提供一个ART hooking框架，提供与OG Xposed一致的API，同时利用LSPlant hooking框架。
+**使用方法：**  
+1. 安装 Magisk v24+ 及 Riru v26.1.7+；  
+2. 通过 Magisk 安装 LSPosed，重启后从通知栏打开管理器；  
+3. 稳定版从 GitHub 发布页下载，测试版可通过 GitHub Actions 获取。  
 
-Xposed是一个模块化框架，允许用户在不修改任何APK的情况下改变系统和应用的行为。这表示模块可以在不同版本和ROM上正常工作，只要原始代码没有发生太大变化。Xposed的一个显著优点是易于撤销：所有的更改均在内存中进行，您只需停用模块并重启设备即可恢复到原始系统。此外，多个模块可以对同一部分系统或应用进行更改，而修改的APK则需要选择其中一个，不能轻易合并，除非作者构建多个包含不同组合的APK。
+**主要特性：**  
+- 兼容 Xposed 模块，无需适配；  
+- 基于 LSPlant 框架实现 ART 挂钩；  
+- 支持多模块同时修改同一系统功能；  
+- 提供中文翻译贡献渠道及 Telegram 社区支持。  
 
-## 支持的版本
-
-安卓版本：8.1 ~ 14
-
-## 安装方法
-
-1. 安装Magisk v24+
-2. 访问项目地址以获取更多信息及下载：[LSPosed](https://github.com/LSPosed/LSPosed)
-
-💝 Support this free API: https://www.paypal.com/donate/?hosted_button_id=XS3CAYT8LE2BL
+**注意事项：**  
+- Bug 报告仅接受最新调试版；  
+- GitHub Issue 标题需用英文；  
+- 项目采用 GPL-3 许可证。

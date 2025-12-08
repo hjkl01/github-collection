@@ -1,36 +1,17 @@
+
 ---
 title: yaak
 ---
----
 
-## 使用示例  
+### [mountain-loop yaak](https://github.com/mountain-loop/yaak)
 
-```bash
-# 1. 通过模板创建新项目
-yaak init python-web my-sample-app
+**项目核心内容总结：**  
+Yaak 是一款基于 Tauri、Rust 和 React 开发的桌面 API 客户端，支持 REST、GraphQL、gRPC、WebSocket 和 Server-Sent Events 等协议。主要功能包括：  
+1. **多协议支持**：可导入 Postman、Insomnia、OpenAPI 等格式的集合，发送多种类型的请求，并通过 JSONPath/XPath 分析响应。  
+2. **安全性**：支持 OAuth 2.0、JWT、Basic Auth 等认证方式，加密存储敏感信息。  
+3. **协作与管理**：通过工作区和文件夹组织请求，使用环境变量切换不同环境（开发/生产等），支持本地文件系统同步。  
+4. **扩展性**：支持动态模板（如 UUID、时间戳）、自定义主题和插件开发。  
 
-# 2. 进入项目目录
-cd my-sample-app
+**使用方法**：通过导入工具（如 Postman 集合）配置 API 请求，利用内置功能发送请求并管理响应。  
 
-# 3. 安装依赖（示例：pip, npm 等）
-yaak run install.sh
-
-# 4. 运行项目
-yaak run run.py
-
-# 5. 批量执行所有测试脚本
-yaak batch tests --filter "test_*.py"
-
-# 6. 安装自定义插件
-yaak plugin install my-custom-plugin
-
-# 7. 查看日志
-yaak log --tail
-```
-
----
-## 贡献与文档  
-- **源码**: <https://github.com/mountain-loop/yaak>
-- **Issue**: <https://github.com/mountain-loop/yaak/issues>
-- **Wiki**: 详细文档请见仓库 Wiki 页面。
-> 以上内容为 `yaak` 项目的核心特性、功能与基本使用方法，协助快速上手与集成。
+**其他信息**：项目接受 bug 修复类贡献，提供文档、反馈渠道及与竞品（如 Postman）的对比分析。

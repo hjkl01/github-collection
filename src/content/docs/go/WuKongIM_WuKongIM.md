@@ -1,64 +1,26 @@
+
 ---
 title: WuKongIM
 ---
 
-# WuKongIM 项目
+### [WuKongIM WuKongIM](https://github.com/WuKongIM/WuKongIM)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/WuKongIM/WuKongIM)
+**项目核心内容总结：**
 
-## 主要特性
-WuKongIM 是一个高性能、分布式即时通讯（IM）服务器框架，基于 Go 语言开发，支持大规模用户并发和低延迟消息传递。主要特性包括：
-- **高性能架构**：采用分布式设计，支持水平扩展，单节点可处理数十万并发连接。
-- **多协议支持**：兼容 WebSocket、TCP 等协议，便于客户端集成。
-- **消息可靠性**：提供消息持久化、离线消息推送和重连机制，确保消息不丢失。
-- **安全性**：内置 TLS 加密、用户认证和权限控制，支持 OAuth 和 JWT。
-- **可扩展性**：模块化设计，支持自定义插件，如群聊、文件传输和音视频通话扩展。
-- **监控与运维**：集成 Prometheus 和 Grafana，支持实时监控和日志管理。
+悟空IM是一款基于Go语言开发的高性能通用通讯服务，支持即时通讯、消息中台、物联网、音视频信令、直播弹幕等场景，具备去中心化设计、故障自动转移、集群自动扩容等特性，采用自研二进制协议和分布式数据库，实现高并发、低延迟的消息传输。项目不依赖任何中间件，提供Websocket、TLS 1.3等协议支持，消息可永久存储且支持多设备同步。
 
-## 主要功能
-- **用户管理**：注册、登录、好友关系和群组管理。
-- **消息传递**：支持单聊、群聊、系统消息和广播推送。
-- **离线与在线状态**：实时在线状态同步和离线消息存储。
-- **多端同步**：支持多设备登录和消息同步。
-- **推送服务**：集成第三方推送（如 APNs、FCM）实现移动端通知。
-- **API 接口**：提供 RESTful API 和 SDK，便于前后端集成。
+**使用方法：**
+- 快速部署可通过Docker命令一键启动（`docker compose up -d`）；
+- 源码开发支持单机模式（`go run main.go`）和分布式模式（多节点配置启动）；
+- 客户端提供JavaScript、Android、iOS等多平台SDK，支持消息发送、接收、频道订阅等功能。
 
-## 用法
-### 1. 安装与部署
-- **环境要求**：Go 1.16+，Redis（用于缓存），MySQL（用于存储）。
-- **克隆项目**：
-  ```
-  git clone https://github.com/WuKongIM/WuKongIM.git
-  cd WuKongIM
-  ```
-- **构建**：
-  ```
-  go mod tidy
-  go build -o wukongim cmd/server/main.go
-  ```
-- **配置**：编辑 `config/config.yaml` 文件，设置数据库连接、端口等参数。
-- **启动服务器**：
-  ```
-  ./wukongim start
-  ```
+**主要特性：**
+1. **高可用性**：基于魔改Raft协议实现故障自动转移，支持集群节点故障时无缝切换。
+2. **高性能**：自研分布式数据库和二进制协议，单节点支持高并发，低资源消耗。
+3. **多场景支持**：涵盖即时通讯、消息中台、物联网、直播弹幕等，支持消息漫游、多设备同步。
+4. **易用性**：提供多语言SDK和完整部署文档，支持Web、移动端等多端接入。
+5. **去中心化**：无需中心服务器，节点间直接通信，提升系统容灾能力。
 
-### 2. 客户端集成
-- **Go SDK**：导入 `github.com/WuKongIM/WuKongIM/pkg/client`，示例：
-  ```go
-  import "github.com/WuKongIM/WuKongIM/pkg/client"
-
-  conn, err := client.NewConn("ws://localhost:3000")
-  if err != nil {
-      // 处理错误
-  }
-  conn.SendMessage("hello")
-  ```
-- **Web/移动端**：使用 WebSocket 连接服务器地址，支持 JavaScript、iOS 和 Android SDK。
-- **API 调用**：通过 HTTP POST 请求，如发送消息 API：`/api/v1/message/send`。
-
-### 3. 扩展与自定义
-- 添加插件：在 `plugins` 目录下实现接口，重新构建服务器。
-- 集群部署：使用 Docker Compose 或 Kubernetes 扩展多节点，支持负载均衡。
-
-详细文档见项目 README 和 `docs` 目录。
+**部署与扩展：**
+- 提供Docker镜像和正式部署文档；
+- 支持与第三方系统集成，配套SDK覆盖主流开发平台。

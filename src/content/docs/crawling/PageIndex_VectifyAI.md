@@ -1,23 +1,40 @@
----
-title: PageIndex
----
-
-
 
 ---
 title: PageIndex
 ---
 
-该项目的主要特性是提供一个页面索引工具，允许用户快速索引和查找Web页面的内容。其功能包括：
+### [VectifyAI PageIndex](https://github.com/VectifyAI/PageIndex)
 
-1. **页面内容抓取**：能够从指定的网页抓取文本内容。
-2. **索引创建**：根据抓取的内容创建索引，方便快速检索。
-3. **搜索功能**：支持通过关键词搜索索引中的内容，快速找到所需信息。
+**PageIndex 项目核心内容总结：**
 
-用法：
-1. 克隆或下载项目代码。
-2. 根据项目文档配置环境和依赖。
-3. 使用提供的命令行工具或API进行网页的抓取和索引创建。
-4. 通过索引搜索功能查找内容。
+**项目功能**  
+PageIndex 是一个基于推理的 **检索增强生成（RAG）系统**，通过构建 **树状索引结构**，实现对复杂文档（如金融报告）的精准内容提取与问答。无需依赖传统向量数据库或分块处理，显著提升检索准确性。
 
-项目地址：[https://github.com/VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
+**主要特性**  
+1. **无向量数据库**：不依赖向量存储，降低技术复杂度。  
+2. **无分块处理**：保留文档原始层级结构，避免信息割裂。  
+3. **类人检索**：通过层级索引实现类似人类的文档导航能力。  
+4. **透明过程**：支持节点ID、摘要等元数据添加，增强可追溯性。  
+5. **OCR 支持**：专为复杂 PDF 设计的 OCR 模型，保留文档全局结构。  
+
+**使用方法**  
+1. 安装依赖：`pip3 install --upgrade -r requirements.txt`  
+2. 配置 OpenAI API 密钥（通过 `.env` 文件）。  
+3. 运行脚本生成树结构：  
+   ```bash  
+   python3 run_pageindex.py --pdf_path /path/to/document.pdf  
+   ```  
+   支持 Markdown 文件（需正确层级格式）：  
+   ```bash  
+   python3 run_pageindex.py --md_path /path/to/document.md  
+   ```  
+
+**部署选项**  
+- **自托管**：本地运行脚本处理文档。  
+- **云服务**：通过 API 集成（提供 OCR、树生成等服务）。  
+
+**案例成果**  
+在金融问答基准测试（FinanceBench）中，基于 PageIndex 的 **Mafin 2.5 系统** 达到 **98.7% 准确率**，显著优于传统向量 RAG 方法。  
+
+**资源**  
+提供教程、案例研究、API 文档及社区支持（Twitter/LinkedIn/Discord）。

@@ -1,49 +1,27 @@
+
 ---
 title: RD-Agent
 ---
 
-# RD-Agent 项目
+### [microsoft RD-Agent](https://github.com/microsoft/RD-Agent)
 
-## 项目地址
+**项目核心内容总结：**  
 
-[https://github.com/microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)
+**项目功能**：  
+R&D-Agent 是一个基于大语言模型（LLM）的自主数据科学框架，旨在实现研发流程的自动化。其核心功能包括：  
+1. **自动提出假设**（如模型结构设计）、**设计实验**（如金融时间序列验证）、**代码实现**（如PyTorch模型）及**执行反馈**（如指标分析）。  
+2. **多场景应用**：支持金融量化（如因子与模型联合优化）、数据挖掘研究、自动开发等。  
+3. **持续学习**：通过真实反馈迭代优化，提升研发能力。  
 
-## 主要特性
+**使用方法**：  
+- **金融量化**：运行 `rdagent-quant` 脚本，结合QFin数据进行因子与模型联合优化。  
+- **数据挖掘研究**：通过 `rdagent-research` 工具提出假设并验证。  
+- **自动开发**：使用 `rdagent-development` 实现代码生成与演化策略。  
+- **依赖安装**：需安装Python环境及指定库（如PyTorch、QFin）。  
 
-RD-Agent 是一个开源的 R&D（研究与开发）自动化框架，旨在通过 AI 驱动数据驱动的 AI，实现工业生产力提升的关键 R&D 流程自动化。主要特性包括：
-
-- **开源免费**：基于 MIT 许可，完全开源，支持社区贡献。
-- **多场景支持**：涵盖量化交易、数据科学、医疗预测等数据驱动场景。
-- **AI 驱动**：利用大型语言模型（如 GPT-4、o1-preview）自动化研究、开发和迭代过程。
-- **高性能**：在 MLE-bench 上领先，支持复杂任务如 Kaggle 竞赛和量化策略优化。
-- **易于部署**：支持 Docker 和本地安装，提供 Web UI 和命令行接口。
-
-## 主要功能
-
-- **量化交易自动化**：迭代提出和实现因子模型与策略，优化交易性能。
-- **数据科学代理**：自动化模型研究、特征工程和超参数调优，支持 Kaggle 等竞赛。
-- **医疗预测模型**：自循环模型提案和实现，用于医疗数据分析。
-- **通用模型研究**：从论文或报告中提取和实现模型结构。
-- **多 LLM 支持**：集成 LiteLLM，支持多种 LLM 提供商。
-- **Web 演示**：提供在线演示和文档，便于快速上手。
-
-## 用法
-
-1. **安装**：
-   - 从 PyPI 安装：`pip install rdagent`
-   - 或从源码：`git clone https://github.com/microsoft/RD-Agent && cd RD-Agent && make dev`
-
-2. **配置**：
-   - 设置环境变量：CHAT_MODEL、EMBEDDING_MODEL 等，支持 OpenAI、Azure 等。
-   - 示例：`export CHAT_MODEL=gpt-4o; export OPENAI_API_KEY=your_key`
-
-3. **运行场景**：
-   - 量化交易：`rdagent fin_quant`
-   - 数据科学：`rdagent data_science --competition <name>`
-   - 医疗预测：`rdagent data_science --competition arf-12-hours-prediction-task`
-   - 通用模型：`rdagent general_model <paper_url>`
-
-4. **监控结果**：
-   - 使用 `rdagent ui --port 19899 --log-dir <log_dir>` 查看日志和结果。
-
-更多详情请参考项目文档：[https://rdagent.readthedocs.io/](https://rdagent.readthedocs.io/)
+**主要特性**：  
+1. **多代理协作**：支持多Agent联合优化（如Quant模块）。  
+2. **自动演化策略**：通过协作式演化策略实现数据驱动的开发。  
+3. **真实验证集成**：可链接真实数据验证，确保方案可行性。  
+4. **跨领域适用**：覆盖金融、数据挖掘、自动开发等场景。  
+5. **开源与论文支持**：提供技术报告、基准测试及多篇arXiv论文（如《R&D-Agent: An LLM-Agent Framework Towards Autonomous Data Science》）。

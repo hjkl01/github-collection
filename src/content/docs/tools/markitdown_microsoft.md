@@ -1,73 +1,28 @@
+
 ---
 title: markitdown
 ---
 
-## 功能介绍
+### [microsoft markitdown](https://github.com/microsoft/markitdown)
 
-MarkItDown 是一个轻量级的 Python 工具，用于将各种文件和 Office 文档转换为 Markdown 格式，适用于 LLM 和相关文本分析管道。它专注于保留重要的文档结构和内容，如标题、列表、表格、链接等。
+**项目核心内容总结：**  
+MarkItDown 是一个轻量级 Python 工具，用于将多种文件格式（如 PDF、Word、Excel、图片、音频、视频等）转换为 Markdown，便于 LLM 和文本分析工具使用。  
 
-支持转换的文件类型包括：
+**主要功能与特性：**  
+1. **支持格式**：PDF、PPT、Word、Excel、图片（含 OCR）、音频（含语音转文字）、HTML、文本格式（CSV/JSON/XML）、ZIP、YouTube 视频转录、EPub 等。  
+2. **保留结构**：转换时保留文档结构（如标题、列表、表格、链接等），适合 LLM 处理。  
+3. **可选依赖**：通过 `[pdf]`、`[docx]` 等标签安装特定格式支持，或使用 `[all]` 安装全部依赖。  
+4. **插件系统**：支持第三方插件，可通过 `--use-plugins` 启用。  
+5. **Azure 集成**：支持 Azure 文档智能服务进行转换。  
+6. **LLM 集成**：可结合大模型（如 GPT-4o）生成图像描述。  
 
-- PDF
-- PowerPoint
-- Word
-- Excel
-- 图像（EXIF 元数据和 OCR）
-- 音频（EXIF 元数据和语音转录）
-- HTML
-- 文本格式（CSV、JSON、XML）
-- ZIP 文件（遍历内容）
-- YouTube URL
-- EPub
-- 更多格式
+**使用方法：**  
+- **命令行**：`markitdown 文件路径 > 输出.md` 或使用 `-o` 指定输出文件。  
+- **Python API**：通过 `MarkItDown` 类调用，支持参数如 `llm_client`、`docintel_endpoint` 等。  
+- **Docker**：构建镜像后运行容器处理文件。  
 
-## 用法
+**安装方式**：  
+- `pip install 'markitdown[all]'` 或从源码安装。  
 
-### 安装
-
-需要 Python 3.10 或更高版本。推荐使用虚拟环境。
-
-```bash
-pip install 'markitdown[all]'
-```
-
-### 命令行使用
-
-```bash
-markitdown path-to-file.pdf > document.md
-# 或指定输出文件
-markitdown path-to-file.pdf -o document.md
-# 管道输入
-cat path-to-file.pdf | markitdown
-```
-
-### Python API
-
-```python
-from markitdown import MarkItDown
-
-md = MarkItDown(enable_plugins=False)
-result = md.convert("test.xlsx")
-print(result.text_content)
-```
-
-### Docker 使用
-
-```bash
-docker build -t markitdown:latest .
-docker run --rm -i markitdown:latest < ~/your-file.pdf > output.md
-```
-
-### 可选依赖
-
-可以单独安装特定格式的依赖，如 `pip install 'markitdown[pdf, docx, pptx]'`。
-
-### 插件支持
-
-支持第三方插件，可通过 `--list-plugins` 列出，`--use-plugins` 启用。
-
-### Azure Document Intelligence
-
-支持使用 Azure Document Intelligence 进行转换，需要提供端点。
-
-更多详情请查看 [GitHub 仓库](https://github.com/microsoft/markitdown)。
+**注意事项**：  
+- 0.1.0 版本后依赖分组管理，需用 `[all]` 保持兼容性；`convert_stream()` 仅支持二进制文件对象；`DocumentConverter` 接口调整，需更新插件代码。

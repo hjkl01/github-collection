@@ -1,52 +1,21 @@
+
 ---
 title: Django-React-Redux-Boilerplate
 ---
 
-# Django-React-Redux-Boilerplate 项目
+### [faisalnazik Django-React-Redux-Boilerplate](https://github.com/faisalnazik/Django-React-Redux-Boilerplate)
 
-**项目地址：** [https://github.com/faisalnazik/Django-React-Redux-Boilerplate](https://github.com/faisalnazik/Django-React-Redux-Boilerplate)
+**核心内容总结：**  
+该项目是一个集成 Django REST 框架、React 和 Redux 的全栈开发模板，包含以下功能：  
 
-## 主要特性
-- **前后端分离架构**：后端使用Django框架，前端采用React和Redux构建，实现高效的现代Web应用开发。
-- **预配置环境**：集成了Django REST Framework（DRF）用于API开发，Webpack用于前端打包，支持热重载（Hot Reload）。
-- **认证系统**：内置JWT（JSON Web Tokens）认证机制，便于用户登录、注册和权限管理。
-- **数据库支持**：默认使用SQLite，便于开发；易于切换到PostgreSQL或其他数据库。
-- **开发工具集成**：包括ESLint、Prettier代码格式化，Docker支持容器化部署。
-- **响应式设计**：前端使用Bootstrap或类似框架，确保跨设备兼容性。
+- **后端**：基于 Django REST 框架构建 API，支持 JWT 认证（注册、登录）、数据库操作（Django ORM）、限流策略、Pytest 测试及推荐的 Argon2 密码哈希算法。  
+- **前端**：使用 React 函数组件和 Hooks，集成 Redux 状态管理、Formik 表单验证、Prettier 代码格式化，并提供登录示例和服务器错误处理。  
 
-## 主要功能
-- **API开发**：Django后端提供RESTful API接口，支持CRUD操作、序列化、过滤和分页。
-- **状态管理**：Redux处理前端应用状态，确保数据流清晰和可预测。
-- **用户管理**：支持用户注册、登录、登出，以及基于角色的访问控制（RBAC）。
-- **文件上传与处理**：集成文件上传功能，适用于图像、文档等资源管理。
-- **实时更新**：前端热重载和后端开发服务器，实现快速迭代开发。
-- **测试框架**：预置Django测试工具和Jest用于前端测试。
+**使用方法**：  
+1. **后端**：创建虚拟环境并安装依赖（`pip install -r requirements/local.txt`），运行数据库迁移（`makemigrations` / `migrate`），通过 `pytest` 运行测试，访问 API 文档（`http://localhost:8000/api/v1/schema/redoc/`）和管理后台（`http://localhost:8000/admin/`）。  
+2. **前端**：安装 Node.js v18.12.1，进入前端目录执行 `yarn install` 和 `yarn start`，访问 `http://localhost:3000/`。  
 
-## 用法
-1. **克隆项目**：
-   ```
-   git clone https://github.com/faisalnazik/Django-React-Redux-Boilerplate.git
-   cd Django-React-Redux-Boilerplate
-   ```
-
-2. **安装依赖**：
-   - 后端：进入`backend`目录，运行`pip install -r requirements.txt`。
-   - 前端：进入`frontend`目录，运行`npm install`。
-
-3. **环境配置**：
-   - 创建`.env`文件，设置数据库、密钥等变量（参考`env.example`）。
-   - 运行数据库迁移：`python manage.py migrate`。
-
-4. **启动开发服务器**：
-   - 后端：`python manage.py runserver`（默认端口8000）。
-   - 前端：`npm start`（默认端口3000）。
-   - 访问`http://localhost:3000`查看前端应用。
-
-5. **构建与部署**：
-   - 前端构建：`npm run build`，输出到`backend/staticfiles`。
-   - 生产部署：使用Docker Compose运行`docker-compose up`，或部署到Heroku/AWS等平台。
-
-6. **自定义开发**：
-   - 在`backend`中添加Django模型和视图。
-   - 在`frontend`中使用Redux Actions和Reducers扩展功能。
-   - 测试：运行`python manage.py test`（后端）和`npm test`（前端）。
+**主要特性**：  
+- 后端支持 JWT 认证、限流和测试；  
+- 前端集成 Redux、Formik 和 Material UI；  
+- 项目包含 MIT 许可证，支持 PR，集成 CircleCI 和 CodeClimate 工具。

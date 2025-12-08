@@ -1,39 +1,25 @@
+
 ---
-title: Droidrun
+title: droidrun
 ---
 
-# DroidRun
+### [droidrun droidrun](https://github.com/droidrun/droidrun)
 
-DroidRun 是一个强大的框架，用于通过 LLM 代理控制 Android 和 iOS 设备。它允许您使用自然语言命令自动化设备交互。
+**项目核心内容总结：**
 
-## 功能
+**项目功能**  
+DroidRun 是一个通过大型语言模型（LLM）代理控制 Android 和 iOS 设备的框架，支持用自然语言命令自动化设备交互，适用于移动应用测试、任务自动化等场景。
 
-- 🤖 使用自然语言命令控制 Android 和 iOS 设备
-- 🔀 支持多个 LLM 提供商（OpenAI、Anthropic、Gemini、Ollama、DeepSeek）
-- 🧠 规划能力，用于复杂多步任务
-- 💻 易用 CLI，具有增强的调试功能
-- 🐍 可扩展的 Python API，用于自定义自动化
-- 📸 截图分析，用于视觉理解设备
-- 🫆 使用 Arize Phoenix 执行追踪
+**主要特性**  
+- 支持多平台（Android/iOS）及多 LLM 服务商（OpenAI、Anthropic、Gemini 等）  
+- 支持复杂多步骤任务规划、CLI 工具调试、Python API 扩展开发  
+- 提供截图分析、执行追踪（Arize Phoenix）等功能  
 
-## 用法
+**使用方法**  
+1. 安装：`pip install 'droidrun[google,anthropic,openai,deepseek,ollama,dev]'`  
+2. 参考文档快速入门（[链接](https://docs.droidrun.ai/v3/quickstart)）  
+3. 查看演示视频（如住宿预订、趋势追踪、 streak 保存等场景）  
 
-### 安装
-
-```bash
-pip install 'droidrun[google,anthropic,openai,deepseek,ollama,dev]'
-```
-
-### 快速开始
-
-请参考 [官方文档](https://docs.droidrun.ai/v3/quickstart) 以快速上手。
-
-### 示例用例
-
-- 自动化移动应用程序的 UI 测试
-- 为非技术用户创建引导工作流
-- 自动化移动设备上的重复任务
-- 为不太懂技术用户提供远程协助
-- 使用自然语言命令探索移动 UI
-
-更多演示视频和详细信息，请访问 [DroidRun 官网](https://droidrun.ai)。
+**其他**  
+- 提供中文等多语言文档  
+- 开源 MIT 许可证，集成安全检查工具（bandit、safety）

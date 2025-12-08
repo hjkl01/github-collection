@@ -1,40 +1,21 @@
+
 ---
 title: Proxyman
 ---
 
-# Proxyman 项目
+### [ProxymanApp Proxyman](https://github.com/ProxymanApp/Proxyman)
 
-## 项目地址
-[https://github.com/ProxymanApp/Proxyman](https://github.com/ProxymanApp/Proxyman)
+**核心内容总结：**  
+Proxyman 是一款专为 macOS 和 iOS 开发的高性能网络调试工具，支持捕获和调试 HTTP/HTTPS 请求、响应及 WebSocket 流量。主要功能包括：  
+- **平台支持**：原生 macOS 应用（支持 M1/M2/M3/M4 等 Apple 芯片），兼容 macOS 12 及以上；iOS 版本可独立捕获设备 HTTPS 流量。  
+- **调试功能**：断点、映射本地/远程、黑名单、脚本调试、网络条件模拟、反向代理、证书自定义等高级工具；支持过滤、列自定义、快速搜索等操作。  
+- **开发适配**：自动捕获 NodeJS、Ruby、Python 等后端服务流量；提供 iOS 模拟器和 Android 设备的配置指南。  
+- **界面与效率**：现代直观的 UI，命令面板实现键盘快捷操作，提升调试效率。  
 
-## 主要特性
-Proxyman 是一个现代化的 macOS 网络调试代理工具，专为 iOS 和 Android 应用开发设计。它提供了一个直观的界面，用于捕获、检查和模拟 HTTP/HTTPS 流量。核心特性包括：
-- **流量捕获与分析**：实时捕获设备或模拟器的网络请求，支持 HTTPS 解密。
-- **请求/响应编辑**：允许用户修改请求头、body 或响应内容，用于调试和测试。
-- **脚本自动化**：支持 JavaScript 脚本自定义规则，实现高级流量操纵。
-- **多设备支持**：轻松连接多个 iOS/Android 设备或模拟器。
-- **高级过滤**：基于域名、路径、方法等条件过滤流量。
-- **WebSocket 支持**：监控和调试 WebSocket 连接。
-- **离线模式**：导出和导入 HAR 文件进行离线分析。
-- **性能优化**：轻量级设计，适用于开发环境。
+**使用方法**：  
+- macOS 用户可通过 [下载链接](https://proxyman.com/release/osx/Proxyman_latest.dmg) 安装，或使用 `brew install --cask proxyman` 命令；iOS 用户可从 [App Store](https://apps.apple.com/us/app/proxyman/id1551292695) 下载。  
+- 问题反馈可通过 [GitHub](https://github.com/ProxymanApp/Proxyman)、[Discord](https://discord.gg/tjWEq6Da42) 或指定邮箱提交。  
 
-## 主要功能
-- **代理设置**：作为本地 HTTP/HTTPS 代理服务器，拦截应用流量。
-- **证书管理**：自动安装根证书以支持 HTTPS 流量解密。
-- **工具集成**：内置地图视图、时间线分析和性能指标显示。
-- **协作功能**：支持团队共享捕获会话和规则。
-- **扩展性**：通过插件系统扩展功能，如集成外部工具。
-
-## 用法
-1. **安装**：从 GitHub Releases 下载并安装 Proxyman 应用（仅限 macOS）。
-2. **启动代理**：打开 Proxyman，启用代理（默认端口 9090）。
-3. **配置设备**：
-   - iOS：设置 Wi-Fi 代理为 Mac 的 IP 和端口，安装 Proxyman CA 证书。
-   - Android：类似设置代理，并信任证书（需 root 或使用模拟器）。
-4. **捕获流量**：运行应用，Proxyman 将显示请求列表。点击查看详情、编辑或重放。
-5. **高级用法**：
-   - 创建规则：使用 UI 或脚本过滤/修改流量。
-   - 导出数据：保存为 HAR 文件分享或分析。
-   - 模拟响应：断点请求，修改后继续。
-
-更多详情请参考官方文档。
+**注意事项**：  
+- 项目由小团队维护，支持购买许可证以促进开发；  
+- iOS 版本无需 Mac 设备即可独立运行。

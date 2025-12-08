@@ -1,33 +1,16 @@
+
 ---
-title: Talos
+title: talos
 ---
 
-# Talos
+### [siderolabs talos](https://github.com/siderolabs/talos)
 
-Talos Linux 是一个现代化的 Linux 发行版，专为运行 Kubernetes 而设计。它是安全、不可变且最小化的操作系统，由 Sidero Labs 支持，完全开源且生产就绪。
+**Talos Linux 核心内容总结**  
+Talos Linux 是专为 Kubernetes 设计的现代操作系统，具有安全、不可变和最小化的特点。其核心功能包括：  
+- **安全性**：通过最小化系统设计、强制 mTLS 认证和不可变基础设施，减少攻击面。  
+- **可预测性**：采用原子更新机制，消除配置漂移，确保系统一致性。  
+- **可扩展性**：提供最新稳定的 Kubernetes 和 Linux 版本，简化架构并提升敏捷性。  
 
-## 主要功能
+**使用方法**：通过 API 管理系统（无 shell 或交互式控制台），部署和管理参考官方文档。  
 
-- **安全性**：Talos 减少攻击面：它是最小化、硬化且不可变的。所有 API 访问都通过相互 TLS (mTLS) 认证进行保护。
-- **可预测性**：Talos 消除配置漂移，通过采用不可变基础设施理念减少未知因素，并提供原子更新。
-- **可演化性**：Talos 简化架构，提高敏捷性，并始终提供最新的稳定 Kubernetes 和 Linux 版本。
-
-## 用法
-
-Talos 的所有系统管理都通过 API 进行，没有 shell 或交互式控制台。部署和管理 Talos 的详细说明请参考 [官方文档](https://docs.siderolabs.com/talos)。
-
-### 快速开始
-
-1. 下载 Talos 镜像。
-2. 使用 Talos CLI 工具配置和部署集群。
-3. 通过 API 管理 Kubernetes 节点。
-
-### 社区和支持
-
-- 支持：问题、bug、功能请求请使用 [GitHub Discussions](https://github.com/siderolabs/talos/discussions)。
-- Slack：加入 [Slack 频道](https://slack.dev.talos-systems.io)。
-- 论坛：[社区论坛](https://groups.google.com/a/SideroLabs.com/forum/#!forum/community)。
-
-## 许可证
-
-Talos 使用 MPL-2.0 许可证。
+**主要特性**：开源、生产就绪、全 API 化操作，支持社区支持和贡献。

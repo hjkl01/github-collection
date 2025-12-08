@@ -1,46 +1,20 @@
+
 ---
 title: nginx-ui
 ---
 
-# nginx-ui 项目
+### [schenkd nginx-ui](https://github.com/schenkd/nginx-ui)
 
-## 项目地址
+**核心内容总结：**  
+该项目是一个基于Docker的Nginx配置管理工具，提供图形化界面（UI）供用户在线编辑和管理Nginx配置文件。  
 
-[https://github.com/schenkd/nginx-ui](https://github.com/schenkd/nginx-ui)
+**功能：**  
+- 通过UI添加域名、编辑配置文件，支持保存、删除及启用/禁用操作。  
+- 动态读取并同步宿主机`/etc/nginx`目录下的配置文件，实时反映手动新增文件。  
 
-## 主要特性
+**使用方法：**  
+- 使用Docker命令或Docker Compose部署，需挂载宿主机的`/etc/nginx`目录至容器，并映射端口（如8080）。  
 
-Nginx UI 允许您在不使用命令行的情况下访问和修改 nginx 配置文件。
-
-- Web-based interface for editing nginx configs
-- Real-time preview and validation
-- Supports common nginx modules like reverse proxy, load balancing, SSL/TLS
-- Easy deployment with Docker
-- Open source and free
-
-## 主要功能
-
-- Config editing via forms for server, location, upstream blocks
-- Monitoring and logs integration
-- Backup and restore
-- Templates for common setups
-- Multi-site management
-
-## 用法
-
-1. **Setup**:
-   - Clone: `git clone https://github.com/schenkd/nginx-ui.git`
-   - Install deps: npm/yarn
-   - Run: `npm start` or Docker `docker run -p 8080:8080 schenkd/nginx-ui`
-
-2. **UI**:
-   - Access at `http://localhost:8080`
-   - Connect to nginx conf dir
-
-3. **Operations**:
-   - Add/edit sites
-   - Navigate modules (Servers > Locations)
-   - Save, auto-reload nginx
-   - View logs, test config
-
-See README for details.
+**主要特性：**  
+- 无需直接操作Nginx配置文件，简化协作流程。  
+- 支持通过Nginx的Basic Auth机制实现访问认证（需额外配置`.htpasswd`文件及Nginx配置）。

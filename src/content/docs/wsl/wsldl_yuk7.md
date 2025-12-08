@@ -1,56 +1,32 @@
+
 ---
 title: wsldl
 ---
 
-# WSLDL 项目描述
+### [yuk7 wsldl](https://github.com/yuk7/wsldl)
 
-## 项目地址
-[https://github.com/yuk7/wsldl](https://github.com/yuk7/wsldl)
+**项目核心内容总结：**
 
-## 主要特性
-WSLDL（WSL Distribution Launcher）是一个开源工具，用于简化Windows Subsystem for Linux (WSL) 的发行版管理和启动。它的主要特性包括：
-- **一键安装WSL发行版**：支持从Microsoft Store或其他来源快速下载和安装各种Linux发行版，如Ubuntu、Debian等，而无需手动操作。
-- **自定义启动器**：允许用户创建自定义的WSL发行版启动器，支持参数配置、环境变量设置和快捷方式创建。
-- **多发行版管理**：轻松切换和管理多个WSL发行版，支持导出/导入发行版配置。
-- **集成Windows工具**：无缝集成Windows的命令提示符、PowerShell和桌面快捷方式，便于开发者使用。
-- **轻量级设计**：纯脚本实现（基于PowerShell），无需额外依赖，适用于Windows 10/11系统。
-- **开源免费**：MIT许可，社区维护，支持贡献和自定义扩展。
+wsldl 是一个用于管理 Windows Subsystem for Linux（WSL）发行版的工具，支持安装、启动、配置和备份 WSL 实例。其主要功能包括：
 
-## 主要功能
-- **安装与配置WSL**：自动检测并启用WSL功能，下载并安装指定Linux发行版。
-- **启动与运行**：通过生成的启动器直接运行WSL发行版，支持GUI应用（如X11转发）和命令行交互。
-- **备份与迁移**：导出WSL发行版为.tar文件，便于备份、迁移或分享。
-- **更新管理**：检查并更新WSL内核和发行版版本。
-- **故障排除**：内置诊断工具，帮助解决WSL常见问题，如网络配置或权限错误。
+**1. 功能**  
+- **安装方式多样化**：支持通过预构建发行版包、自定义 rootfs tarball（需解包到根目录）或 WSL2 的 ext4 vhdx 磁盘镜像进行安装。  
+- **启动器功能**：可作为已安装 WSL 实例的启动器，通过重命名 `wsldl.exe` 文件为实例名实现。  
+- **配置管理**：支持设置默认用户、终端类型（如 Windows Terminal）、是否挂载 Windows 驱动器、WSL 版本（1/2）等。  
+- **备份与恢复**：可导出为 `.tar.gz`、`.ext4.vhdx.gz` 等格式，或导入备份文件恢复实例。  
+- **卸载功能**：通过 `clean` 命令卸载指定实例。
 
-## 用法
-1. **下载与安装**：
-   - 从GitHub仓库克隆或下载发布版本（ZIP文件）。
-   - 解压后运行`install.ps1`脚本（以管理员权限执行PowerShell）：
-     ```
-     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-     .\install.ps1
-     ```
+**2. 使用方法**  
+- **安装预构建发行版**：下载 `wsldl.exe`，重命名为目标实例名（如 `Ubuntu-20.04.exe`），并确保安装文件（tarball 或 vhdx）与 exe 同目录后运行。  
+- **启动实例**：直接运行 `实例名.exe` 打开终端，或使用 `run`/`runp` 执行命令（支持路径转换）。  
+- **配置参数**：通过 `config` 命令设置默认用户、终端类型等，`get` 命令可查询当前配置。  
+- **备份与恢复**：使用 `backup` 导出备份文件，`install` 导入备份文件恢复实例。
 
-2. **安装WSL发行版**：
-   - 运行`wsldl.exe`（或通过PowerShell调用）。
-   - 在GUI界面选择发行版（如Ubuntu 20.04），点击“Install”下载并安装。
-   - 命令行用法示例：
-     ```
-     wsldl install Ubuntu-20.04
-     ```
+**3. 主要特性**  
+- 兼容 WSL1 和 WSL2。  
+- 支持自定义用户 UID 和默认终端（如 Windows Terminal）。  
+- 提供路径转换功能（Windows 路径转为 Linux 路径）。  
+- 可通过命令行直接操作实例（如运行命令、卸载、备份）。  
+- 支持跨平台安装（x64/arm64）。  
 
-3. **启动发行版**：
-   - 使用生成的桌面快捷方式或命令：
-     ```
-     wsldl run Ubuntu-20.04
-     ```
-   - 支持参数，如`wsldl run Ubuntu-20.04 --user root`（以root用户启动）。
-
-4. **高级用法**：
-   - **导出发行版**：`wsl --export Ubuntu-20.04 backup.tar`
-   - **导入发行版**：`wsl --import MyUbuntu C:\WSL\MyUbuntu backup.tar`
-   - **自定义启动器**：编辑`wsldl.json`配置文件添加环境变量或启动命令。
-   - 更新工具：运行`wsldl update`检查最新版本。
-
-更多细节请参考仓库的README.md文件。确保系统已启用虚拟化（BIOS设置）和WSL功能（通过`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`）。
+**要求**：需 Windows 10 1709 及以上版本，且已启用 WSL 功能。

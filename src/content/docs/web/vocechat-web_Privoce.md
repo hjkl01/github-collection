@@ -1,33 +1,27 @@
+
 ---
 title: vocechat-web
 ---
 
-# VoceChat-Web 项目
+### [Privoce vocechat-web](https://github.com/Privoce/vocechat-web)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/Privoce/vocechat-web)
+**项目核心内容总结：**  
+VoceChat 是一个基于 Web 的实时语音聊天应用，采用 React + Redux Toolkit 技术栈开发，支持 PWA（渐进式 Web 应用）和 Firebase 通知功能。  
 
-## 主要特性
-VoceChat-Web 是一个基于 Web 的即时通讯客户端，主要用于连接 VoceChat 服务器。它支持现代 Web 技术构建，提供流畅的用户界面和实时通信功能。核心特性包括：
-- **实时消息传输**：支持文本消息、图片、文件等即时发送和接收。
-- **群组与私聊**：创建和管理群组，进行一对一私聊，支持消息历史记录。
-- **多媒体支持**：集成语音、视频通话，以及表情包和附件分享。
-- **跨平台兼容**：纯 Web 应用，可在桌面浏览器、移动浏览器上运行，无需安装。
-- **安全性**：端到端加密选项，支持用户认证和权限控制。
-- **自定义主题**：支持暗黑模式和界面个性化设置。
+**主要特性：**  
+- 使用 TypeScript 和 Redux Toolkit 实现状态管理  
+- 支持离线存储（通过 indexDB）和跨平台部署  
+- 提供 Docker 镜像用于快速部署服务器  
 
-## 主要功能
-- **用户管理**：注册、登录、用户资料编辑，以及好友添加和搜索。
-- **聊天室功能**：创建频道、话题讨论、@提及通知。
-- **通知系统**：推送消息提醒、未读计数和桌面通知。
-- **文件共享**：上传和下载文件，支持拖拽操作。
-- **集成扩展**：可与 VoceChat 服务器无缝集成，支持插件扩展如机器人集成。
-- **离线支持**：部分消息缓存，重新连接时同步。
+**使用方法：**  
+1. **部署服务器**：通过 Docker 命令一键启动服务（支持 x86_64 平台）。  
+2. **本地开发**：克隆代码库后使用 pnpm 安装依赖并启动开发环境（`pnpm start`）。  
+3. **测试体验**：可访问官方站点（https://voce.chat）或演示地址（https://privoce.voce.chat/）。  
 
-## 用法
-1. **部署服务器**：首先在服务器端安装 VoceChat 服务器（参考官方文档），然后克隆本仓库：`git clone https://github.com/Privoce/vocechat-web.git`。
-2. **安装依赖**：进入项目目录，运行 `npm install` 或 `yarn install` 安装 Node.js 依赖。
-3. **构建项目**：使用 `npm run build` 或 `yarn build` 生成生产版本文件。
-4. **启动服务**：配置服务器地址后，使用 `npm start` 或通过 Web 服务器（如 Nginx）托管静态文件。
-5. **访问应用**：在浏览器中打开 Web 地址，输入服务器 URL 登录，即可开始使用聊天功能。移动端可通过 PWA 安装为应用。
-6. **自定义配置**：编辑 `config.js` 文件调整 API 端点、主题等设置。更多详情见项目 README。
+**技术依赖：**  
+- 前端框架：React、Redux Toolkit  
+- 编辑器组件：Plate（文本编辑器）、TUI Editor（Markdown 编辑器）  
+- 存储方案：localForage（indexDB 封装库）  
+
+**许可证：**  
+采用 GPL v3 开源协议。

@@ -1,88 +1,21 @@
+
 ---
 title: opentelemetry-collector
 ---
 
-# OpenTelemetry Collector
+### [open-telemetry opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)
 
-## 项目简介
+**项目核心内容总结：**  
+OpenTelemetry Collector 是一个用于收集、处理和导出遥测数据（如追踪、指标和日志）的工具，支持多种数据格式和后端系统。其主要功能包括：  
+1. **模块化架构**：通过配置文件定义数据接收器（如 gRPC、HTTP）、处理管道（如过滤、转换）和导出器（如 Prometheus、OTLP）。  
+2. **多语言支持**：提供 Go 语言实现，兼容多种编程语言的客户端库。  
+3. **性能优化**：支持高吞吐量处理，适用于大规模分布式系统。  
+4. **安全性**：提供 TLS 加密、身份验证等安全特性。  
 
-OpenTelemetry Collector 是 OpenTelemetry 项目的一部分，提供了一个 vendor-agnostic 的实现，用于接收、处理和导出遥测数据。它支持 traces、metrics 和 logs，并消除了运行多个 agents/collectors 的需要，以支持开源遥测数据格式（如 Jaeger、Prometheus 等）到多个开源或商业后端。
+**使用方法**：  
+通过 YAML 配置文件定义数据流路径，使用命令行参数调整配置，支持动态重新加载配置文件以实时生效变更。  
 
-## 主要功能
-
-- **统一处理**：单一代码库，可部署为 agent 或 collector，支持 traces、metrics 和 logs。
-- **可扩展性**：通过 receivers、processors 和 exporters 组件实现定制化。
-- **高性能**：在各种负载和配置下稳定且高性能。
-- **可观测性**：作为可观测服务的典范。
-- **易用性**：合理的默认配置，支持流行协议，开箱即用。
-
-## 使用方法
-
-### 安装
-
-1. 从 [GitHub Releases](https://github.com/open-telemetry/opentelemetry-collector/releases) 下载最新版本的二进制文件。
-2. 或者使用 Docker 镜像：
-   ```bash
-   docker pull otel/opentelemetry-collector
-   ```
-
-### 配置
-
-使用 YAML 配置文件定义 pipelines。示例配置：
-
-```yaml
-receivers:
-  otlp:
-    protocols:
-      grpc:
-        endpoint: 0.0.0.0:4317
-      http:
-        endpoint: 0.0.0.0:4318
-
-processors:
-  batch:
-
-exporters:
-  logging:
-    loglevel: debug
-
-service:
-  pipelines:
-    traces:
-      receivers: [otlp]
-      processors: [batch]
-      exporters: [logging]
-    metrics:
-      receivers: [otlp]
-      processors: [batch]
-      exporters: [logging]
-    logs:
-      receivers: [otlp]
-      processors: [batch]
-      exporters: [logging]
-```
-
-### 运行
-
-1. 保存配置为 `config.yaml`。
-2. 运行 collector：
-   ```bash
-   ./otelcol --config-file=config.yaml
-   ```
-3. 或者使用 Docker：
-   ```bash
-   docker run -v $(pwd)/config.yaml:/etc/otelcol/config.yaml otel/opentelemetry-collector
-   ```
-
-### 监控
-
-Collector 支持内部遥测，可用于监控其自身性能。更多详情请参考 [官方文档](https://opentelemetry.io/docs/collector/internal-telemetry/)。
-
-## 社区与贡献
-
-- **社区**：在 [CNCF Slack](https://cloud-native.slack.com/archives/C01N6P7KR6W) 的 #otel-collector 频道参与讨论。
-- **贡献**：请参考 [Contributing Guide](https://github.com/open-telemetry/opentelemetry-collector/blob/main/CONTRIBUTING.md)。
-
-## 许可证
-
-Apache-2.0 License
+**主要特性**：  
+- 支持多种数据源和导出目标（如 Jaeger、Zipkin、AWS X-Ray）。  
+- 内置数据处理功能（如采样、重命名字段）。  
+- 轻量级设计，适用于云原生和边缘计算场景。

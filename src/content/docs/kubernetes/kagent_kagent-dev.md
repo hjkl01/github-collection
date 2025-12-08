@@ -1,106 +1,24 @@
+
 ---
 title: kagent
 ---
 
+### [kagent-dev kagent](https://github.com/kagent-dev/kagent)
 
-# kagent
+**项目功能**  
+kagent 是一个基于 Kubernetes 的 AI 代理框架，用于构建、部署和管理 AI 代理。支持多种大语言模型（LLM）提供商（如 OpenAI、Azure OpenAI、Anthropic 等），并提供 Kubernetes 原生工具（如 Kubernetes、Istio、Prometheus 等）的集成能力，支持可观测性（OpenTelemetry 跟踪）。
 
-## 项目地址
-[https://github.com/kagent-dev/kagent](https://github.com/kagent-dev/kagent)
+**使用方法**  
+- 通过 [Quick Start](https://kagent.dev/docs/kagent/getting-started/quickstart) 快速入门  
+- 参考 [安装指南](https://kagent.dev/docs/kagent/introduction/installation) 部署  
 
-## 主要特性
-- **Kubernetes 资源监控**：实时采集节点、Pod、Container 的各种指标（CPU、内存、磁盘 I/O、网络流量等）。  
-- **Prometheus 兼容**：以标准 metric 格式暴露数据，方便直接被 Prometheus 抓取。  
-- **端口转发与 API 代理**：在同一容器内运行 `kagent` 与 k8s API 代理，简化网络访问。  
-- **轻量级 DaemonSet**：可直接部署为 DaemonSet，保证每个节点都被监控。  
-- **可扩展插件体系**：支持自定义插件，快速接入第三方监控源或业务指标。  
-- **低资源占用**：采用 Go 原生编译，二进制体积小、启动慢，运行时 CPU & 内存消耗低。  
+**主要特性**  
+1. **Kubernetes 原生**：基于 Kubernetes 自定义资源（CRD）定义代理和工具，声明式配置。  
+2. **可扩展**：支持自定义 LLM 提供商和工具，兼容多种 AI 网关。  
+3. **灵活**：适配各种 AI 代理使用场景，提供丰富的工具集（如 Helm、Argo 等）。  
+4. **可观测**：集成 OpenTelemetry，支持监控和调试。  
+5. **组件架构**：包含控制器（Controller）、UI 界面、ADK 引擎和 CLI 工具。  
 
-## 关键功能
-| 功能 | 说明 |
-|------|------|
-| **Metrics 采集** | 通过 kubelet、container runtime API 采集多维度指标。 |
-| **Events 监听** | 监听 Kubernetes 事件，将重要告警转化为 Prometheus alert。 |
-| **日志收集** | 可配置将容器日志通过 webhook 推送到远程日志系统。 |
-| **Discovery** | 自动发现新增 Namespace、Pod、Service 等资源，无需手动配置。 |
-| **安全性** | 支持使用 ServiceAccount 与 RBAC，使用最小权限原则。 |
-
-## 用法示例
-
-### 1. 使用 Docker 镜像直接运行
-```bash
-docker run -d --name kagent \
-  --hostname $(hostname) \
-  --restart always \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -v /var/lib/kagent:/data \
-  -p 9100:9100 \
-  kagent/kagent:latest
-```
-
-### 2. 作为 DaemonSet 部署（最常用方式）
-```yaml
-apiVersion: apps/v1
-kind: DaemonSet
-metadata:
-  name: kagent
-  labels:
-    app: kagent
-spec:
-  selector:
-    matchLabels:
-      app: kagent
-  template:
-    metadata:
-      labels:
-        app: kagent
-    spec:
-      serviceAccount: kagent-sa
-      containers:
-      - name: kagent
-        image: kagent/kagent:latest
-        ports:
-        - containerPort: 9100
-          name: metrics
-        volumeMounts:
-        - name: docker-sock
-          mountPath: /var/run/docker.sock
-        - name: data
-          mountPath: /data
-      volumes:
-      - name: docker-sock
-        hostPath:
-          path: /var/run/docker.sock
-      - name: data
-        hostPath:
-          path: /var/lib/kagent
-```
-
-### 3. 配置例子（config.yaml）
-```yaml
-global:
-  scrape_interval: 15s
-  log_level: info
-
-kube:
-  host: https://kubernetes.default.svc:443
-  ca_file: /var/run/secrets/kubernetes.io/serviceaccount/ca.crt
-  token_file: /var/run/secrets/kubernetes.io/serviceaccount/token
-  skip_verify: false
-
-metrics:
-  enable_container: true
-  enable_node: true
-  enable_pod: true
-  enable_service: false
-```
-
-将上述 `config.yaml` 挂载到容器（例如 `-v ./config.yaml:/etc/kagent/config.yaml`），即可自定义采集范围和 Prometheus 抓取频率。  
-
-## 参考文件
-- `README.md` – 项目简介与安装文档  
-- `docs/` – 详细使用手册与 API 说明  
-- `charts/kagent/` – Helm Chart，用于快速部署  
-
----
-> 以上内容已转换为 Markdown，可直接保存至 `src/content/docs/00/kagent_kagent-dev.md`。
+**其他**  
+- 开源协议：Apache 2.0  
+- 社区资源：提供 Discord 论坛、贡献指南和 Roadmap。

@@ -1,186 +1,31 @@
+
 ---
-title: Gitleaks
+title: gitleaks
 ---
 
-# Gitleaks
+### [gitleaks gitleaks](https://github.com/gitleaks/gitleaks)
 
-## 项目介绍
+**项目核心内容总结：**
 
-Gitleaks 是一个用于检测代码库中秘密信息的工具。它可以扫描 Git 仓库、目录、文件以及通过 stdin 输入的内容，查找诸如密码、API 密钥、令牌等敏感信息。Gitleaks 使用正则表达式和熵分析来识别潜在的秘密泄露，帮助开发者在代码提交前或 CI/CD 流程中防止敏感信息被意外提交。
+Gitleaks 是一个用于检测代码库中敏感信息（如 API 密钥、密码等）的工具，支持 Git 和目录扫描。其主要功能包括：
 
-项目地址：[https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
+- **敏感信息检测**：通过正则表达式、编码解码、归档文件扫描等方式，识别代码中的秘密信息。
+- **支持多种扫描方式**：包括 Git 历史记录扫描和目录扫描，支持递归扫描压缩包（如 zip、tar.gz）。
+- **自定义规则**：用户可通过配置文件定义检测规则，支持使用正则表达式、忽略特定文件、设置白名单等。
+- **支持多种报告格式**：包括 JSON、CSV、Junit、SARIF 等，也支持自定义模板生成报告。
+- **忽略特定信息**：可通过 `.gitleaksignore` 文件或代码注释 `gitleaks:allow` 忽略特定秘密信息。
+- **解码支持**：支持自动解码百分比、十六进制、Base64 编码的文本，提高检测精度。
+- **扩展功能**：支持自定义报告模板，通过 Go 模板语言生成特定格式的输出。
+- **退出码控制**：支持自定义检测到秘密信息后的退出码，便于集成到 CI/CD 流程中。
 
-## 主要功能
+**使用方法**：
+- 安装 Gitleaks 后，使用 `gitleaks` 命令进行扫描，如 `gitleaks dir <目录路径>` 或 `gitleaks git <仓库路径>`。
+- 可通过 `--report-format` 指定报告格式，使用 `--report-path` 设置报告输出路径。
+- 使用 `--max-decode-depth` 和 `--max-archive-depth` 控制解码和归档扫描的深度。
 
-- **多扫描模式**：支持扫描 Git 仓库（`git`）、目录和文件（`dir`）、以及 stdin 输入（`stdin`）。
-- **灵活配置**：支持自定义规则、正则表达式、熵阈值、路径过滤等。
-- **多种输出格式**：支持 JSON、CSV、JUnit、SARIF 等报告格式，以及自定义模板。
-- **基线支持**：可以创建基线报告，忽略已知的历史问题。
-- **解码支持**：自动检测和解码 base64、hex、percent 编码的秘密。
-- **归档扫描**：支持扫描压缩文件和归档文件中的内容。
-- **集成友好**：支持 GitHub Action、Pre-commit Hook 等 CI/CD 集成。
-- **性能优化**：支持并发扫描、超时设置、文件大小限制等。
-
-## 安装方式
-
-### MacOS
-
-```bash
-brew install gitleaks
-```
-
-### Docker
-
-```bash
-# Docker Hub
-docker pull zricethezav/gitleaks:latest
-docker run -v ${path_to_host_folder_to_scan}:/path zricethezav/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]
-
-# GitHub Container Registry
-docker pull ghcr.io/gitleaks/gitleaks:latest
-docker run -v ${path_to_host_folder_to_scan}:/path ghcr.io/gitleaks/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]
-```
-
-### 从源码安装
-
-```bash
-git clone https://github.com/gitleaks/gitleaks.git
-cd gitleaks
-make build
-```
-
-### 二进制文件
-
-从 [Releases 页面](https://github.com/gitleaks/gitleaks/releases) 下载适用于不同平台的二进制文件。
-
-## 基本用法
-
-### 扫描 Git 仓库
-
-```bash
-gitleaks git [OPTIONS] [PATH]
-```
-
-- 如果不指定 PATH，则扫描当前目录的 Git 仓库。
-- 示例：扫描当前仓库并显示详细信息
-  ```bash
-  gitleaks git -v
-  ```
-
-### 扫描目录或文件
-
-```bash
-gitleaks dir [OPTIONS] [PATH]
-```
-
-- 如果不指定 PATH，则扫描当前目录。
-- 示例：扫描指定目录
-  ```bash
-  gitleaks dir -v /path/to/directory
-  ```
-
-### 扫描 stdin 输入
-
-```bash
-cat file.txt | gitleaks stdin [OPTIONS]
-```
-
-## 高级用法
-
-### 创建基线报告
-
-```bash
-# 生成基线报告
-gitleaks git --report-path baseline.json
-
-# 使用基线扫描，仅报告新问题
-gitleaks git --baseline-path baseline.json --report-path findings.json
-```
-
-### 自定义配置
-
-创建 `.gitleaks.toml` 文件来自定义规则：
-
-```toml
-title = "Custom Gitleaks configuration"
-
-[[rules]]
-id = "custom-api-key"
-description = "Custom API key pattern"
-regex = '''api[_-]?key[\\s]*[=:][\\s]*["']?([a-zA-Z0-9]{32,})["']?'''
-secretGroup = 1
-entropy = 3.0
-```
-
-### GitHub Action 集成
-
-在 `.github/workflows/gitleaks.yml` 中添加：
-
-```yaml
-name: gitleaks
-on: [pull_request, push, workflow_dispatch]
-jobs:
-  scan:
-    name: gitleaks
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - uses: gitleaks/gitleaks-action@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-### Pre-commit Hook
-
-1. 安装 pre-commit：
-   ```bash
-   pip install pre-commit
-   ```
-2. 创建 `.pre-commit-config.yaml`：
-   ```yaml
-   repos:
-     - repo: https://github.com/gitleaks/gitleaks
-       rev: v8.24.2
-       hooks:
-         - id: gitleaks
-   ```
-3. 安装 hook：
-   ```bash
-   pre-commit install
-   ```
-
-## 配置选项
-
-- `--config`: 指定配置文件路径
-- `--baseline-path`: 指定基线文件路径
-- `--report-path`: 指定报告输出路径
-- `--report-format`: 输出格式 (json, csv, junit, sarif, template)
-- `--verbose`: 显示详细输出
-- `--redact`: 部分或完全隐藏秘密 (默认 100%)
-- `--max-decode-depth`: 最大解码深度 (默认 0)
-- `--max-archive-depth`: 最大归档扫描深度 (默认 0)
-
-## 示例输出
-
-```
-Finding:     "export BUNDLE_ENTERPRISE__CONTRIBSYS__COM=cafebabe:deadbeef",
-Secret:      cafebabe:deadbeef
-RuleID:      sidekiq-secret
-Entropy:     2.609850
-File:        cmd/generate/config/rules/sidekiq.go
-Line:        23
-Commit:      cd5226711335c68be1e720b318b7bc3135a30eb2
-Author:      John
-Email:       john@users.noreply.github.com
-Date:        2022-08-03T12:31:40Z
-Fingerprint: cd5226711335c68be1e720b318b7bc3135a30eb2:cmd/generate/config/rules/sidekiq.go:sidekiq-secret:23
-```
-
-## 注意事项
-
-- Gitleaks 使用正则表达式检测秘密，可能会有误报。
-- 建议结合 `.gitleaksignore` 文件忽略已知的安全测试用例。
-- 对于已知秘密，可以在代码中添加 `#gitleaks:allow` 注释来忽略。
-- 扫描大型仓库时，建议使用基线功能以减少重复报告。
+**主要特性**：
+- 高度可定制的检测规则；
+- 支持多种编码和压缩格式的自动解码与扫描；
+- 提供丰富的报告格式和自定义模板；
+- 支持忽略特定秘密或文件；
+- 集成到 CI/CD 流程中，便于自动化检测。

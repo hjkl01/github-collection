@@ -1,39 +1,21 @@
+
 ---
 title: agents
 ---
 
+### [livekit agents](https://github.com/livekit/agents)
 
-# LiveKit Agents
+**项目核心内容总结：**  
+LiveKit Agents 是一个 Python 框架，用于构建实时、多模态（语音/文本）的可编程 AI 代理，支持创建能“听、说、理解”的智能交互系统。  
 
-项目地址: https://github.com/livekit/agents
+**主要功能与特性：**  
+1. **灵活集成**：支持语音识别（STT）、自然语言处理（LLM）、文本到语音（TTS）等模块，可扩展第三方工具（如 MCP 服务器）。  
+2. **多场景支持**：涵盖语音助手、电话客服、视频 avatar、文本交互等场景，提供示例代码（如餐厅预订、Gemini 视觉交互）。  
+3. **开发效率工具**：内置任务调度、语义回合检测、热重载开发模式、终端测试模式及生产优化启动方式。  
+4. **开源与生态**：兼容 LiveKit 云服务及自托管服务器，集成 WebRTC、SIP 等协议，支持跨平台客户端（iOS/Android/Flutter 等）。  
 
-## 功能概述
-LiveKit Agents 是一个开源框架，专为在 LiveKit 视频/音频会议中实时部署 AI 助手和多智能体系统而设计。它将多模态输入（文本、音频、图像）与大型语言模型（LLM）结合，实现自然语言交互、实时语音识别、文本生成以及语音合成。
-
-## 主要特性
-- **实时语音到文本**：内置 Whisper 或其他转写模型，实时将会议音频转为文本。
-- **LLM 接口抽象**：支持 OpenAI、Anthropic、DeepMind 等多种 LLM，可通过 `LLMProvider` 轻松切换。
-- **文本到语音**：使用 TTS 引擎（如 Whisper TTS、gTTS 等）将生成文本转为合成语音。
-- **多智能体协作**：AgentManager 可管理多位 AI 代理，支持任务分配、并发处理、上下文共享。
-- **上下文管理**：提供 `ChatContext`、`Memory`、`Summarizer` 等模块，自动维护对话记录与要点摘要。
-- **可插拔架构**：所有功能都以插件形式实现，方便扩展或替换（如自定义 Transcriber、LLMProvider）。
-- **异常处理与重试**：内置回退机制，保证在网络/服务异常时机器仍能继续运行。
-- **示例与演示**：提供多种快照脚本（如 `quickstart.py`、`multi_agent_demo.py`）作为参考。
-
-## 用法示例
-```bash
-# 克隆并进入项目
-git clone https://github.com/livekit/agents.git
-cd agents
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 配置环境变量（示例：OpenAI）
-export OPENAI_API_KEY="sk-...YOUR_KEY..."
-
-# 启动一个示例 AI 代理
-python agents/quickstart.py
-```
-
-> 进一步使用请查阅项目的 `docs/` 目录，或直接查看 `agents/` 包内的具体模块与示例。
+**使用方法：**  
+- 安装：`pip install` 指定依赖。  
+- 开发：通过 `python myagent.py dev` 启动热重载服务器，设置 `LIVEKIT_URL` 等环境变量连接服务。  
+- 测试：使用 `console` 模式本地验证逻辑，或通过 [Agents Playground](https://agents-playground.livekit.io/) 快速测试。  
+- 部署：运行 `python myagent.py start` 启动生产环境。

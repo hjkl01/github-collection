@@ -1,48 +1,23 @@
+
 ---
 title: airi
 ---
 
-# Airi 项目
+### [moeru-ai airi](https://github.com/moeru-ai/airi)
 
-**项目地址:** [https://github.com/moeru-ai/airi](https://github.com/moeru-ai/airi)
+**项目核心内容总结：**  
+AIRI 是一个结合虚拟主播（VTuber）、AI 交互和游戏代理功能的综合平台，支持通过 WebXR 实现沉浸式交互，并集成多种大语言模型（LLM）服务。  
 
-## 主要特性
-Airi 是一个开源的 AI 聊天机器人项目，基于先进的语言模型构建。主要特性包括：
-- **多模态支持**：支持文本聊天、图像生成和多语言交互。
-- **自定义配置**：用户可以轻松集成各种 AI API，如 OpenAI、Stable Diffusion 等。
-- **用户友好界面**：提供 Web 界面和命令行工具，便于部署和使用。
-- **开源与可扩展**：使用 Python 开发，模块化设计，便于二次开发和插件扩展。
-- **隐私保护**：本地部署选项，确保数据不外泄。
+**功能与特性：**  
+1. **虚拟主播支持**：基于 VRM 模型和 WebXR 技术，实现虚拟角色的实时交互。  
+2. **游戏代理能力**：通过 Factorio 和 Minecraft 的代理模块（如 Factorio RCON API、Mineflayer），实现游戏自动化操作。  
+3. **AI 集成**：支持多种 LLM 后端（如通过 xsAI 模块），提供自然语言交互能力。  
+4. **模块化架构**：包含数据库驱动（DuckDB）、实时音频处理、UI 组件库等独立模块，便于扩展。  
+5. **多平台运行**：提供 Web 界面（StageWeb）和桌面应用（StageTamagotchi），支持浏览器和本地运行。  
 
-## 功能
-- **聊天交互**：实时与 AI 对话，支持上下文记忆和角色扮演。
-- **图像生成**：集成 AI 模型生成图片，根据文本提示创建艺术作品。
-- **API 集成**：支持多种后端服务，如 Hugging Face 或本地模型。
-- **自动化脚本**：可用于构建聊天机器人、内容生成工具或自动化助手。
-- **跨平台兼容**：支持 Windows、macOS 和 Linux 系统。
+**使用方法：**  
+- 通过 StageWeb 启动 Web 界面，或使用 StageTamagotchi 运行桌面应用。  
+- 配置 LLM 服务（如通过 xsAI 模块）和数据库连接，启动相关代理功能（如游戏控制或语音处理）。  
 
-## 用法
-1. **克隆仓库**：
-   ```
-   git clone https://github.com/moeru-ai/airi.git
-   cd airi
-   ```
-
-2. **安装依赖**：
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. **配置环境**：
-   - 编辑 `config.yaml` 文件，设置 API 密钥（如 OpenAI API Key）。
-   - 对于图像生成，安装额外依赖如 `diffusers`。
-
-4. **运行项目**：
-   - Web 界面：`python app.py`（默认在 http://localhost:5000 启动）。
-   - 命令行模式：`python cli.py` 并输入提示。
-
-5. **示例使用**：
-   - 在 Web 界面中输入文本提示，如“描述一个未来城市”，AI 将生成响应或图像。
-   - 对于开发者：通过 API 端点集成到其他应用中，参考 `docs/api.md`。
-
-更多细节请参考仓库中的 README 和文档。
+**技术栈：**  
+- 前端：Vue、WebXR、TypeScript；后端：Node.js、Rust；数据库：DuckDB、PostgreSQL。

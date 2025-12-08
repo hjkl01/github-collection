@@ -1,77 +1,17 @@
+
 ---
 title: ginkgo
 ---
 
-# Ginkgo
+### [onsi ginkgo](https://github.com/onsi/ginkgo)
 
-## 项目简介
+**核心内容总结：**  
+Ginkgo 是一个用于 Go 语言的成熟测试框架，支持行为驱动开发（BDD），通过与 Gomega 匹配器库结合，提供清晰的测试表达方式。其主要功能包括：  
+1. **测试组织**：使用 `Describe`、`Context`、`When` 等容器节点嵌套组织测试用例，支持 `BeforeEach`/`AfterEach` 预置清理逻辑，`It`/`Specify` 定义测试主体。  
+2. **运行特性**：支持测试随机化执行、并行化（通过 `ginkgo -p` 实现），自动中断超时测试，并提供上下文管理（`context.Context`）确保资源清理。  
+3. **过滤与报告**：通过标签（Labels）过滤测试用例，支持命令行或代码中指定运行子集；生成多种格式的机器可读报告，支持自定义报告系统。  
+4. **集成工具**：内置 `ginkgo` 命令行工具，支持生成、运行、过滤测试套件，及实时监控（`ginkgo watch`）实现快速反馈。  
+5. **断言支持**：集成 Gomega，提供丰富的断言和匹配器，支持同步/异步测试，可扩展自定义匹配器。  
 
-Ginkgo 是一个现代化的 Go 语言测试框架，旨在帮助开发者编写表达性强的测试规范（specs）。它建立在 Go 的 `testing` 包基础上，并与 [Gomega](https://github.com/onsi/gomega) 匹配器库互补使用。Ginkgo 采用行为驱动开发（BDD）风格，支持编写单元测试、集成测试甚至性能测试。
-
-## 主要功能
-
-- **表达性 DSL**：提供嵌套的容器节点（如 `Describe`、`Context`、`When`）来组织测试规范。
-- **设置和清理**：支持 `BeforeEach`、`AfterEach`、`BeforeSuite`、`AfterSuite` 等节点进行测试前后的准备和清理工作。
-- **断言支持**：与 Gomega 结合，提供丰富的同步和异步断言匹配器。
-- **并行执行**：支持测试规范的并行运行，提高测试效率。
-- **随机化**：可以以可重现的随机顺序运行测试，确保测试的独立性。
-- **标签和过滤**：使用标签对测试进行分类，并支持按标签过滤运行特定测试。
-- **报告生成**：提供多种格式的机器可读报告，并支持自定义报告器。
-- **命令行工具**：`ginkgo` CLI 工具支持生成、运行、过滤和分析测试套件，还支持 `watch` 模式自动检测文件变化并重新运行测试。
-
-## 用法示例
-
-### 基本结构
-
-```go
-import (
-    . "github.com/onsi/ginkgo/v2"
-    . "github.com/onsi/gomega"
-)
-
-var _ = Describe("Checking books out of the library", Label("library"), func() {
-    var library *libraries.Library
-    var book *books.Book
-    var valjean *users.User
-
-    BeforeEach(func() {
-        library = libraries.NewClient()
-        book = &books.Book{
-            Title: "Les Miserables",
-            Author: "Victor Hugo",
-        }
-        valjean = users.NewUser("Jean Valjean")
-    })
-
-    When("the library has the book in question", func() {
-        BeforeEach(func(ctx SpecContext) {
-            Expect(library.Store(ctx, book)).To(Succeed())
-        })
-
-        Context("and the book is available", func() {
-            It("lends it to the reader", func(ctx SpecContext) {
-                Expect(valjean.Checkout(ctx, library, "Les Miserables")).To(Succeed())
-                Expect(valjean.Books()).To(ContainElement(book))
-                Expect(library.UserWithBook(ctx, book)).To(Equal(valjean))
-            }, SpecTimeout(time.Second*5))
-        })
-
-        // 更多测试用例...
-    })
-})
-```
-
-### 运行测试
-
-- 运行所有测试：`ginkgo`
-- 并行运行：`ginkgo -p`
-- 监听文件变化并自动运行：`ginkgo watch`
-- 按标签过滤：`ginkgo --label-filter="library"`
-
-### 安装和设置
-
-1. 安装 Ginkgo：`go install github.com/onsi/ginkgo/v2/ginkgo`
-2. 初始化测试套件：`ginkgo bootstrap`
-3. 生成测试文件：`ginkgo generate [测试名]`
-
-更多详细信息请参考 [官方文档](https://onsi.github.io/ginkgo/)。
+**使用方法**：通过 `ginkgo bootstrap` 初始化测试套件，使用 `ginkgo` 运行测试，`-p` 参数启用并行执行，通过标签或命令行过滤测试用例。  
+**许可证**：MIT 协议。

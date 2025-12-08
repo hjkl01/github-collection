@@ -1,52 +1,20 @@
+
 ---
 title: ArchiveBox
 ---
 
-# ArchiveBox 项目概述
+### [ArchiveBox ArchiveBox](https://github.com/ArchiveBox/ArchiveBox)
 
-## 项目地址
+**项目核心内容总结：**  
+ArchiveBox 是一个用于存档网页内容的工具，支持通过多种提取器（如 SingleFile、截图等）捕获网页数据，并保存为结构化文件。用户可通过配置选项自定义存档方式，依赖项管理支持通过 pip、npm 等安装。主要特性包括：  
+1. **多功能提取器**：支持网页内容、截图、元数据等多格式存档，可扩展插件系统；  
+2. **灵活配置**：通过配置文件控制提取器开关及参数；  
+3. **集成测试**：提供测试脚本验证提取器功能；  
+4. **文档与社区**：包含详细文档、GitHub 讨论区及 Zulip 社群支持；  
+5. **发布流程**：支持手动构建文档、Python 包及 Docker 镜像，自动化 CI/CD 流程。  
 
-[https://github.com/ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox)
-
-## 主要特性
-
-ArchiveBox 是一个开源的自托管网页归档工具，旨在帮助用户保存网页内容以防链接失效或内容更改。它支持多种归档格式，包括 HTML、PDF、截图、媒体文件等。主要特性包括：
-
-- **自动化归档**：通过 RSS 订阅、书签导入或 URL 列表自动捕获和保存网页。
-- **多格式支持**：使用工具如 wkhtmltopdf、singlefile、readability 等生成 PDF、单文件 HTML、纯文本提取等。
-- **搜索和索引**：内置搜索功能，支持全文搜索和元数据索引，便于查找归档内容。
-- **自托管**：基于 Docker 或 Python 运行，支持在本地服务器或云环境中部署。
-- **扩展性**：可自定义配置，支持插件和钩子以扩展功能。
-- **数据导出**：支持导出到 IPFS、JSON 或其他格式，便于备份和迁移。
-
-## 主要功能
-
-- **输入格式**：支持浏览器扩展、RSS/Atom 订阅、浏览器书签、Pocket/Pinboard 等多种输入来源。
-- **输出格式**：保存为标准 HTML、PDF、PNG、TXT、JSON、WARC 等格式，支持提取媒体、文章文本等。
-- **归档过程**：自动提取网页内容，包括 HTML、截图、PDF、文章文本、媒体文件等。
-- **管理界面**：Web UI 用于查看、搜索和管理归档，支持批量操作。
-- **调度和导入**：支持定期导入和实时归档。
-- **隐私与安全**：本地存储，支持加密和密码保护。
-
-## 用法
-
-1. **安装**：
-   - Docker Compose（推荐）：下载 `docker-compose.yml`，运行 `docker compose run archivebox init --setup`。
-   - Docker：`docker run -v $PWD:/data -it archivebox/archivebox init --setup`。
-   - pip：`pip install archivebox yt-dlp playwright`，然后 `archivebox init --setup`。
-   - 其他：支持 apt、brew 等包管理器。
-
-2. **配置和添加 URL**：
-   - 使用 CLI：`archivebox add 'https://example.com'`。
-   - 使用浏览器扩展或导入 RSS/书签。
-   - 配置选项：编辑配置文件启用/禁用提取器。
-
-3. **运行和访问**：
-   - CLI：`archivebox server 0.0.0.0:8000` 启动 Web UI。
-   - Web UI：访问 http://localhost:8000 查看和管理归档。
-   - API：支持 REST API 和 Python API。
-
-4. **高级用法**：
-   - 调度：`archivebox schedule` 设置定期导入。
-   - 导出：`archivebox list --html` 导出静态 HTML。
-   - 更多详情参考官方文档和 Wiki。
+**使用方法**：  
+- 安装依赖（如 pip、npm）；  
+- 配置提取器参数及存档选项；  
+- 运行工具捕获目标网页，输出结果保存至本地目录；  
+- 通过 Web 界面查看存档日志及内容。

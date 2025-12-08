@@ -1,25 +1,22 @@
+
 ---
 title: docker-webtop
 ---
 
-# LinuxServer.io Webtop 项目
+### [linuxserver docker-webtop](https://github.com/linuxserver/docker-webtop)
 
-## 项目地址
+**核心内容总结：**  
 
-[https://github.com/linuxserver/docker-webtop](https://github.com/linuxserver/docker-webtop)
+**项目功能**  
+该项目是一个基于Selkies的Webtop桌面环境Docker镜像，支持通过Web浏览器远程访问桌面应用，提供多种Linux发行版（如Alpine、Debian、Fedora等）的镜像选择，适用于远程办公、开发测试等场景。  
 
-## 主要特性
+**使用方法**  
+1. **部署方式**：通过Docker Compose或`docker run`命令启动容器，需设置用户ID（PUID）、组ID（PGID）、时区（TZ）等环境变量，并挂载配置目录（`/config`）。  
+2. **配置优化**：建议设置共享内存（`--shm-size`）以提升性能，支持通过文件或Docker Secrets设置环境变量。  
+3. **更新维护**：提供Docker Compose和Docker Run的容器更新方法，支持Diun工具实现镜像更新通知。  
 
-- **基于 Docker 的 Web 桌面环境**：提供了一个完整的 Linux 桌面体验，通过 Web 浏览器访问，支持多种桌面环境如 XFCE、KDE、MATE 等。
-- **跨平台兼容性**：无需安装本地软件，只需浏览器即可访问，支持 Windows、macOS、Linux 和移动设备。
-- **容器化部署**：利用 Docker 容器技术，易于部署和管理，支持 ARM 和 x86 架构。
-- **自定义选项**：支持多种 Linux 发行版（如 Ubuntu、Debian、Fedora）和桌面主题，允许用户自定义分辨率、键盘布局等。
-- **安全性与隔离**：每个实例独立运行，提供安全的沙箱环境，适合开发、测试或远程访问。
-
-## 主要功能
-
-Ubuntu, Alpine, Arch, and Fedora based Webtop images, Linux in a web browser supporting popular desktop environments.
-
-## 用法
-
-请参考项目文档获取详细用法。
+**主要特性**  
+- **多系统支持**：兼容Alpine、Debian、Fedora、Ubuntu等多种Linux发行版，定期更新基础镜像版本。  
+- **扩展功能**：支持Docker Mods（如GPU/Nvidia）、PWA图标、本地化语言等，提供构建自定义镜像的脚本。  
+- **权限管理**：通过PUID/PGID解决宿主机与容器目录权限冲突，支持umask设置文件权限。  
+- **日志与监控**：提供容器日志实时查看、版本查询及容器状态管理功能。

@@ -1,45 +1,26 @@
+
 ---
 title: known
 ---
 
-# Known 项目描述
+### [idno known](https://github.com/idno/known)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/idno/known)
+**项目功能**  
+Known 是一个开源的社交群组平台，支持用户创建和管理社交网络，集成 Webmention、Microformats 等技术，强调隐私和去中心化。  
 
-## 主要特性
-Known 是一个开源的社交发布平台，专为独立发布者设计。它强调隐私、数据所有权和简单易用，支持用户创建个人博客或小型社交网络。主要特性包括：
-- **分布式身份**：支持 Webmention 和 IndieWeb 标准，实现跨站点互动，而不依赖大型平台。
-- **隐私优先**：所有数据存储在用户自己的服务器上，避免第三方跟踪。
-- **模块化设计**：基于 PHP 构建，可轻松扩展插件，支持主题自定义。
-- **多媒体支持**：内置照片、视频和文件上传功能，适合创建个人媒体库。
-- **社交功能**：包括关注、提及、点赞和评论，支持小型社区构建。
-- **移动友好**：响应式设计，适用于各种设备。
+**使用方法**  
+1. **一键安装**：推荐使用 [Reclaim Hosting](https://portal.reclaimhosting.com) 或 [DreamHost](https://dreamhost.com) 的预装方案。  
+2. **手动安装**：  
+   - 通过 Composer 安装：`composer create-project idno/known`。  
+   - 从 GitHub 克隆代码并运行 `composer install`。  
+3. **依赖要求**：需 PHP 8.1+ 及支持的数据库（如 MySQL）。  
 
-## 主要功能
-- **内容发布**：用户可以发布文章、笔记、照片或事件，支持 Markdown 编辑。
-- **社交互动**：通过 Webmention 处理外部链接和评论，实现与其它网站的互动。
-- **用户管理**：支持多用户账户、邀请系统和权限控制。
-- **数据导入/导出**：易于从其他平台（如 Twitter、WordPress）迁移数据。
-- **插件生态**：内置插件管理，支持添加如地图、RSS 订阅等功能。
-- **备份与安全**：自动备份、HTTPS 支持和垃圾评论过滤。
+**主要特性**  
+- 基于 PHP 和现代前端框架（如 Bootstrap、jQuery）。  
+- 集成第三方库（如 Symfony、ToroPHP、Leaflet.js 等）。  
+- 支持社区协作、文档完善（[官方文档](http://docs.withknown.com/)）、开源贡献（[CONTRIBUTING.md](CONTRIBUTING.md)）。  
+- 遵循 Apache 2.0 许可证，部分组件使用 MIT、BSD 等开源协议。  
 
-## 用法
-1. **安装**：
-   - 克隆仓库：`git clone https://github.com/idno/known.git`
-   - 安装依赖：使用 Composer 安装 PHP 包（`composer install`）。
-   - 配置数据库：创建 MySQL 或 PostgreSQL 数据库，并编辑 `Config/Config.php` 文件设置数据库连接。
-   - 运行安装脚本：访问站点根目录，执行 `./bin/known install` 或通过 Web 界面完成设置。
-
-2. **基本使用**：
-   - 登录管理员账户，创建新内容（如帖子或页面）。
-   - 配置站点设置：在后台调整主题、插件和用户权限。
-   - 发布内容：使用编辑器撰写并发布，支持预览和调度。
-   - 互动管理：监控 Webmention 通知，回复评论。
-
-3. **高级用法**：
-   - 自定义主题：修改 `/Themes/` 目录下的文件。
-   - 添加插件：通过后台启用或从仓库安装新插件。
-   - 部署：推荐在 Apache 或 Nginx 服务器上运行，支持 Docker 容器化部署。
-
-更多详情请参考项目文档：https://github.com/idno/known/wiki
+**支持信息**  
+- 社区支持：可通过邮件列表、IRC 频道（#knownchat）或 [OpenCollective](https://opencollective.com/known) 赞助。  
+- 文档与更新：[withknown.com](https://withknown.com) 提供项目动态和教程。

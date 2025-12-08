@@ -1,45 +1,9 @@
+
 ---
 title: book
 ---
 
+### [rust-lang book](https://github.com/rust-lang/book)
 
-# Rust 编程语言官方书籍
-
-项目地址: https://github.com/rust-lang/book
-
-## 主要特性
-- **完整覆盖**：从基础语法到高级特性，系统阐述 Rust 语言。
-- **章节结构**：按难度递进，易于循序渐进学习。
-- **代码示例**：每章均配有可直接运行的代码片段。
-- **练习与评测**：章节末附练习题，帮助巩固学习成果。
-
-## 功能
-- **语法与标准库**：详细讲解变量、所有权、生命周期、模块、错误处理等核心概念。
-- **在线 Playground**：每个代码片段可直接在网页上运行，无需本地配置。
-- **项目示例**：示范如何创建、编译、运行 Rust 项目。
-
-## 用法
-1. **克隆仓库**  
-   ```bash
-   git clone https://github.com/rust-lang/book.git
-   ```
-
-2. **阅读章节**  
-   ```bash
-   cd book
-   # 在本地打开对应章节的 Markdown 文件，或使用 VS Code 等编辑器查看
-   ```
-
-3. **运行代码**  
-   - 直接在章节页面点击 **Playground** 按钮即可在线编译运行。  
-   - 或者在本地使用 Cargo：  
-     ```bash
-     cargo run --bin <target_binary>
-     ```
-
-4. **参与贡献**  
-   - 提交 Issues 或 Pull Requests，改进内容或修正错误。  
-   - 参考 `CONTRIBUTING.md` 了解贡献流程。
-
----
-**备注**：本文件适用于 `src/content/docs/00/book_rust-lang.md` 路径，作为项目文档的 Markdown 说明。
+**核心内容总结：**  
+该项目是《Rust编程语言》书籍的源代码仓库，提供纸质版和在线版。用户可通过安装`mdbook`工具和相关插件，使用`mdbook build`命令构建书籍，生成的文件位于`book`目录中，并支持多种浏览器查看。项目支持贡献和翻译，但印刷版优先级较高，非错误类修改可能需等待大版本更新。此外，包含拼写检查脚本，用于校对源文件中的拼写错误。

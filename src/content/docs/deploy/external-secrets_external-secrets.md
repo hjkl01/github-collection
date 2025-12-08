@@ -1,85 +1,25 @@
+
 ---
 title: external-secrets
 ---
 
-# External Secrets Operator
+### [external-secrets external-secrets](https://github.com/external-secrets/external-secrets)
 
-External Secrets Operator 是一个 Kubernetes operator，用于从第三方秘密管理系统（如 AWS Secrets Manager、HashiCorp Vault、Google Secrets Manager、Azure Key Vault 等）读取信息，并自动将这些值注入到 Kubernetes Secret 中。
+**核心内容总结：**  
+External Secrets Operator 是一个 Kubernetes 操作符，用于集成外部秘密管理系统（如 AWS Secrets Manager、HashiCorp Vault、Google Secrets Manager 等），通过读取外部 API 数据，自动将敏感信息注入 Kubernetes Secret 中。  
 
-## 功能
+**主要功能：**  
+- 支持多种外部秘密管理后端（AWS、Vault、Azure、IBM 等）。  
+- 自动同步外部系统中的秘密到 Kubernetes Secret，无需手动维护。  
+- 提供文档、社区贡献指南及安全漏洞报告机制。  
 
-- **集成多种秘密存储**：支持 AWS Secrets Manager、HashiCorp Vault、Google Secrets Manager、Azure Key Vault、IBM Cloud Secrets Manager、Akeyless、CyberArk Secrets Manager、Pulumi ESC 等。
-- **自动同步**：从外部 API 读取秘密并自动注入到 Kubernetes Secret 中。
-- **安全管理**：避免在 Kubernetes 集群中明文存储敏感信息。
-- **多租户支持**：支持多个命名空间和集群级别的秘密管理。
-- **可扩展**：支持自定义提供商和生成器。
+**使用方法：**  
+1. 部署 External Secrets Operator 到 Kubernetes 集群。  
+2. 配置外部秘密管理系统的连接参数（如访问密钥、地址等）。  
+3. 通过自定义资源（如 `ExternalSecret`）声明需要同步的秘密，Operator 会自动拉取并注入 Kubernetes Secret。  
 
-## 用法
-
-### 安装
-
-使用 Helm 安装：
-
-```bash
-helm repo add external-secrets https://charts.external-secrets.io
-helm install external-secrets external-secrets/external-secrets
-```
-
-或者使用 kubectl 应用 YAML：
-
-```bash
-kubectl apply -f https://raw.githubusercontent.com/external-secrets/external-secrets/main/deploy/charts/external-secrets/crds
-kubectl apply -f https://raw.githubusercontent.com/external-secrets/external-secrets/main/deploy/charts/external-secrets/templates
-```
-
-### 创建 SecretStore
-
-定义一个 SecretStore 来连接到外部秘密存储，例如 AWS Secrets Manager：
-
-```yaml
-apiVersion: external-secrets.io/v1beta1
-kind: SecretStore
-metadata:
-  name: aws-secretsmanager
-spec:
-  provider:
-    aws:
-      service: SecretsManager
-      region: us-east-1
-      auth:
-        jwt:
-          serviceAccountRef:
-            name: external-secrets-sa
-```
-
-### 创建 ExternalSecret
-
-定义一个 ExternalSecret 来从 SecretStore 同步秘密：
-
-```yaml
-apiVersion: external-secrets.io/v1beta1
-kind: ExternalSecret
-metadata:
-  name: example-secret
-spec:
-  refreshInterval: 15s
-  secretStoreRef:
-    name: aws-secretsmanager
-    kind: SecretStore
-  target:
-    name: example-secret
-    creationPolicy: Owner
-  data:
-    - secretKey: username
-      remoteRef:
-        key: prod/myapp
-        property: username
-    - secretKey: password
-      remoteRef:
-        key: prod/myapp
-        property: password
-```
-
-这将创建一个名为 `example-secret` 的 Kubernetes Secret，其中包含从 AWS Secrets Manager 同步的 `username` 和 `password`。
-
-更多详细信息请参考 [官方文档](https://external-secrets.io)。
+**主要特性：**  
+- 多后端兼容，支持主流云服务提供商和秘密管理工具。  
+- 自动化同步，减少人工干预和错误风险。  
+- 提供安全性保障（如漏洞报告、SBOM 文件）。  
+- 社区驱动，支持贡献和协作开发。

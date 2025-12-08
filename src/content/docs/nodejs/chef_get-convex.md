@@ -1,109 +1,25 @@
+
 ---
 title: chef
 ---
 
+### [get-convex chef](https://github.com/get-convex/chef)
 
-# Chef（get-convex）
+**项目核心内容总结：**  
+Chef 是一个基于 Convex 开源数据库构建的 AI 应用开发工具，支持零配置认证、文件上传、实时 UI 和后台工作流，可生成全栈 Web 应用。其核心功能依赖于 Convex 的 API，适合代码生成场景。  
 
-> 项目地址: <https://github.com/get-convex/chef>
+**使用方法：**  
+1. **在线使用**：通过 [Chef 官网](https://chef.convex.dev) 直接使用，提供免费试用。  
+2. **本地运行**：  
+   - 克隆项目并安装依赖（需 `nvm` 和 `pnpm`）。  
+   - 配置 `.env.local` 环境变量，设置 Convex OAuth 客户端信息及模型提供商 API 密钥（如 OpenAI、Anthropic 等）。  
+   - 运行 `pnpm run dev` 启动前端，`npx convex dev` 启动 Convex 后端。  
 
-Chef 是一款为 Node.js 开发者打造的**轻量级依赖管理与配置工具**。它帮助开发者快速初始化项目、统一依赖版本、以及统一处理脚本和环境配置。
+**主要特性：**  
+- 基于 Convex 数据库，支持实时同步与后台任务。  
+- 提供 OAuth 授权集成，需自行替换生产环境认证系统。  
+- 包含代码生成模板、CLI 工具（chefshot）和测试框架（test-kitchen）。  
 
-## 主要特性
-
-| 特性 | 说明 |
-|------|------|
-| **依赖统一** | 通过统一的 `chef.json` 配置文件，自动锁定所有依赖的版本，保证团队成员之间的环境一致性。 |
-| **版本锁定** | 自动生成 `chef.lock` 文件，类似 `package-lock.json`，用于保证 CI/CD 过程中的一致性。 |
-| **脚本管理** | 在配置文件中定义项目脚本（如 `start`, `build`, `test`），并可通过 `chef run <script>` 一键执行。 |
-| **多环境支持** | 支持多种环境（dev, prod, test）下的配置切换，能够在不同环境自动注入对应的依赖。 |
-| **插件化** | 通过 `chef plugin add <name>` 可以轻松集成第三方插件，例如接入 CI 系统、代码质量检查等。 |
-| **约定优于配置** | 对常见项目结构做约定（如 `src/`, `dist/` 等），减少必要配置。 |
-
-## 功能概览
-
-1. **初始化项目**  
-   ```bash
-   chef init
-   ```
-   自动生成 `chef.json`、`chef.lock` 及基本目录结构。
-
-2. **安装依赖**  
-   ```bash
-   chef install
-   ```
-   根据 `chef.json` 安装依赖，并更新 `chef.lock`。
-
-3. **执行脚本**  
-   ```bash
-   chef run start
-   ```
-   执行 `chef.json` 中的 `start` 脚本，并自动传入环境变量。
-
-4. **锁定版本**  
-   ```bash
-   chef lock
-   ```
-   重新生成 `chef.lock`，用于 CI 环境的精准复现。
-
-5. **插件管理**  
-   ```bash
-   chef plugin add eslint
-   chef plugin remove eslint
-   ```
-
-## 用法示例
-
-### 1. 创建新项目
-
-```bash
-npx create-chef my-app
-cd my-app
-chef init
-```
-
-### 2. 添加依赖
-
-```bash
-chef add lodash @types/lodash
-# 根据 chef.json 安装
-chef install
-```
-
-### 3. 定义脚本
-
-在 `chef.json` 中：
-
-```json
-{
-  "scripts": {
-    "start": "node src/index.js",
-    "build": "tsc",
-    "test": "jest"
-  }
-}
-```
-
-随后可以执行：
-
-```bash
-chef run start
-chef run build
-chef run test
-```
-
-### 4. 生产环境部署
-
-```bash
-chef build:prod   # 使用 prod 环境配置执行 build
-chef run deploy   # 根据配置脚本进行部署
-```
-
-## 结语
-
-Chef 通过统一配置、依赖锁定、脚本统一调用，显著降低团队在项目协作中的版本冲突与环境漂移问题。适用于中大型 JavaScript/TypeScript 项目，也可嵌入到现有工作流中作为增强工具。
-
----
-**注意**：项目处于持续迭代阶段，建议关注官方文档及变更日志，及时更新本地工具。
-```
-💝 Support this free API: https://www.paypal.com/donate/?hosted_button_id=XS3CAYT8LE2BL
+**注意事项：**  
+- 本地运行使用 Convex 控制平面，但不计入用户账户资源消耗。  
+- 生产环境需自定义 OAuth 流程，推荐使用 OAuth 2.0 授权码模式。

@@ -1,84 +1,30 @@
+
 ---
-title: Cognee
+title: cognee
 ---
 
-# Cognee
+### [topoteretes cognee](https://github.com/topoteretes/cognee)
 
-## 项目简介
+**项目核心内容总结**  
 
-Cognee 是一个开源工具和平台，将您的原始数据转换为持久且动态的 AI 代理内存。它结合了向量搜索和图数据库，使您的文档既可以通过含义进行搜索，又可以通过关系进行连接。
+**功能**  
+Cognee 是一个开源工具，将原始数据转化为 AI 代理的持久化动态记忆，结合向量搜索与图数据库，实现文档的语义搜索与关系连接。提供自托管（本地部署）和云托管（Cognee Cloud）两种模式。  
 
-## 主要功能
+**主要特性**  
+- **自托管版本**：支持多种数据类型（对话、文件、音频等），替代传统 RAG 系统，提供模块化数据管道、高自定义任务及搜索接口。  
+- **云托管版本**：提供网页仪表盘、自动更新、资源分析及企业级安全功能。  
 
-- **数据互联**：互联任何类型的数据，包括过去的对话、文件、图像和音频转录。
-- **替代 RAG 系统**：用基于图和向量的统一内存层替换传统 RAG 系统。
-- **减少开发工作和基础设施成本**：同时提高质量和精度。
-- **Pythonic 数据管道**：从 30 多种数据源进行摄取。
-- **高度可定制**：通过用户定义的任务、模块化管道和内置搜索端点提供高可定制性。
+**使用方法**  
+1. **安装**：通过 pip、poetry 等工具安装，需配置 LLM API 密钥（如 OpenAI）。  
+2. **运行流程**：通过 Python 脚本或 CLI 命令添加数据、生成知识图谱、查询结果。例如：  
+   ```python  
+   await cognee.add("文本")  
+   await cognee.cognify()  
+   await cognee.memify()  
+   results = await cognee.search("查询")  
+   ```  
+3. **CLI 操作**：支持添加数据、生成图谱、搜索及删除数据等命令。  
 
-## 用法
-
-### 安装
-
-使用 pip、poetry、uv 或您首选的 Python 包管理器安装 Cognee。
-
-```bash
-pip install cognee
-```
-
-### 配置 LLM
-
-设置环境变量或创建 `.env` 文件。
-
-```python
-import os
-os.environ["LLM_API_KEY"] = "YOUR_OPENAI_API_KEY"
-```
-
-### 运行管道
-
-```python
-import cognee
-import asyncio
-
-async def main():
-    # 添加文本到 cognee
-    await cognee.add("Cognee turns documents into AI memory.")
-
-    # 生成知识图
-    await cognee.cognify()
-
-    # 添加内存算法到图
-    await cognee.memify()
-
-    # 查询知识图
-    results = await cognee.search("What does Cognee do?")
-
-    # 显示结果
-    for result in results:
-        print(result)
-
-if __name__ == '__main__':
-    asyncio.run(main())
-```
-
-### 使用 CLI
-
-```bash
-cognee-cli add "Cognee turns documents into AI memory."
-cognee-cli cognify
-cognee-cli search "What does Cognee do?"
-cognee-cli delete --all
-```
-
-启动本地 UI：
-
-```bash
-cognee-cli -ui
-```
-
-## 更多信息
-
-- [文档](https://docs.cognee.ai/)
-- [演示](https://www.youtube.com/watch?v=1bezuvLwJmw&t=2s)
-- [GitHub](https://github.com/topoteretes/cognee)
+**其他**  
+- 提供 Colab 示例教程，支持多语言文档（如中文、英文等）。  
+- 社区支持贡献、代码规范及研究论文引用（arXiv:2505.24478）。

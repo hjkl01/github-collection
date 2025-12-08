@@ -1,81 +1,13 @@
+
 ---
 title: n8n-workflows
 ---
 
-# n8n-workflows
+### [Zie619 n8n-workflows](https://github.com/Zie619/n8n-workflows)
 
-n8n-workflows 是 n8n 自动化工作流的终极集合，包含 4,343 个生产就绪的工作流和 365 个独特集成。
-
-## 功能特性
-
-- **大规模工作流集合**：超过 4,000 个预构建的工作流，涵盖各种自动化场景
-- **智能搜索**：支持按名称、描述和节点进行全文搜索
-- **分类浏览**：按 15+ 个类别组织，包括营销、销售、DevOps 等
-- **在线访问**：无需安装即可在 [zie619.github.io/n8n-workflows](https://zie619.github.io/n8n-workflows) 上浏览和下载
-- **本地部署**：支持 Python 和 Docker 部署
-- **高性能**：SQLite FTS5 提供 <100ms 的搜索响应
-- **移动友好**：响应式设计，支持任何设备
-
-## 使用方法
-
-### 在线使用（推荐）
-
-1. 访问 [zie619.github.io/n8n-workflows](https://zie619.github.io/n8n-workflows)
-2. 使用搜索框查找所需工作流
-3. 按类别或复杂度筛选
-4. 直接下载 JSON 文件导入到 n8n 中
-
-### 本地安装
-
-#### 前置要求
-
-- Python 3.9+
-- pip
-- 100MB 磁盘空间
-
-#### 安装步骤
-
-```bash
-# 克隆仓库
-git clone https://github.com/Zie619/n8n-workflows.git
-cd n8n-workflows
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 启动服务器
-python run.py
-
-# 在浏览器中打开 http://localhost:8000
-```
-
-### Docker 部署
-
-```bash
-# 使用 Docker Hub 镜像
-docker run -p 8000:8000 zie619/n8n-workflows:latest
-
-# 或本地构建
-docker build -t n8n-workflows .
-docker run -p 8000:8000 n8n-workflows
-```
-
-## API 接口
-
-- `GET /` - Web 界面
-- `GET /api/search` - 搜索工作流
-- `GET /api/stats` - 仓库统计
-- `GET /api/workflow/{id}` - 获取工作流 JSON
-- `GET /api/categories` - 列出所有类别
-- `GET /api/export` - 导出工作流
-
-## 技术栈
-
-- 后端：Python, FastAPI, SQLite with FTS5
-- 前端：Vanilla JS, Tailwind CSS
-- 部署：Docker, GitHub Actions, GitHub Pages
-- 安全：Trivy 扫描, CORS 保护, 输入验证
-
-## 许可证
-
-MIT License
+**项目核心内容总结：**  
+本项目是一个n8n自动化工作流的集合，提供在线浏览、搜索和下载功能。用户可通过本地安装或Docker部署使用，支持多种使用方式。主要特性包括：  
+1. **功能**：提供大量预设工作流，支持在线搜索、分类查看及导出。  
+2. **使用方法**：支持本地运行（通过命令行安装）或Docker容器部署；可直接在网页端浏览和下载工作流。  
+3. **特性**：包含详细文档和贡献指南，支持社区协作；具备安全特性（如代码审计、权限控制）；提供多语言支持（如中文界面）。  
+4. **扩展性**：支持自定义工作流创建与分享，兼容n8n平台的API和插件系统。

@@ -1,54 +1,21 @@
+
 ---
 title: kubernetes
 ---
 
-# Kubernetes (K8s)
+### [kubernetes kubernetes](https://github.com/kubernetes/kubernetes)
 
-Kubernetes, also known as K8s, is an open-source system for managing containerized applications across multiple hosts. It provides basic mechanisms for the deployment, maintenance, and scaling of applications.
+**核心内容总结：**  
+Kubernetes（K8s）是一个开源系统，用于管理跨多台主机的容器化应用，提供部署、维护和扩展应用的基本机制。项目基于Google的Borg系统经验，由CNCF（云原生计算基金会）托管。  
 
-## Features
+**使用方法：**  
+- 通过[kubernetes.io](https://kubernetes.io)官方文档开始使用，或参加[Scalable Microservices with Kubernetes]课程。  
+- 作为库使用：参考[组件列表](https://git.k8s.io/kubernetes/staging/README.md)。  
+- 开发：  
+  - Go环境：`git clone https://github.com/kubernetes/kubernetes && make`  
+  - Docker环境：`git clone https://github.com/kubernetes/kubernetes && make quick-release`  
 
-- **Container Orchestration**: Automates the deployment, scaling, and management of containerized applications.
-- **Scalability**: Handles large-scale production workloads, based on Google's Borg system.
-- **Portability**: Runs on various platforms and cloud providers.
-- **Extensibility**: Supports custom resources and integrations via APIs.
-- **Community-Driven**: Hosted by the Cloud Native Computing Foundation (CNCF).
-
-## Usage
-
-### Getting Started
-
-To start using Kubernetes:
-
-1. Visit the official documentation at [kubernetes.io](https://kubernetes.io).
-2. Take a free course on [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615).
-
-### Developing Kubernetes
-
-If you want to build Kubernetes from source:
-
-#### With Go Environment
-
-```bash
-git clone https://github.com/kubernetes/kubernetes
-cd kubernetes
-make
-```
-
-#### With Docker Environment
-
-```bash
-git clone https://github.com/kubernetes/kubernetes
-cd kubernetes
-make quick-release
-```
-
-For more details, see the [developer's documentation](https://git.k8s.io/community/contributors/devel#readme).
-
-### Support and Community
-
-- **Troubleshooting**: Start with the [troubleshooting guide](https://kubernetes.io/docs/tasks/debug/).
-- **Community Meetings**: Check the [Kubernetes Calendar](https://www.kubernetes.dev/resources/calendar/).
-- **User Case Studies**: Explore real-world use cases at [kubernetes.io/case-studies/](https://kubernetes.io/case-studies/).
-
-Kubernetes is governed by principles and processes outlined in the [Kubernetes Community](https://github.com/kubernetes/community/blob/master/governance.md) and [Steering Committee](https://github.com/kubernetes/steering) repositories.
+**主要特性：**  
+- 支持容器化应用的自动化部署、扩展和维护。  
+- 结合Google生产级经验与社区最佳实践。  
+- 提供跨主机资源调度、自我修复、负载均衡等能力（隐含于功能描述中）。

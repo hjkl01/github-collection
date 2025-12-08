@@ -1,27 +1,24 @@
+
 ---
 title: minio
 ---
 
-# MinIO 项目
+### [minio minio](https://github.com/minio/minio)
 
-**GitHub 项目地址:** [https://github.com/minio/minio](https://github.com/minio/minio)
+**核心内容总结：**  
+MinIO 是一个高性能、S3 兼容的对象存储解决方案，适用于 AI/ML、分析和大数据工作负载，采用 GNU AGPLv3 许可证。其主要特性包括：S3 API 兼容性、高吞吐量设计、支持大规模数据管道。  
 
-## 主要特性
+**使用方法：**  
+1. **从源码安装**：需 Go 1.24+ 环境，执行 `go install github.com/minio/minio@latest`，通过 `minio server PATH` 启动服务。  
+2. **构建 Docker 镜像**：需先构建源码，使用 `docker build` 命令生成镜像，再通过 `docker run` 启动容器。  
+3. **Helm Chart 安装**：支持通过 Kubernetes Helm Chart 或 MinIO Operator 部署。  
 
-MinIO 是一个开源的对象存储服务器，兼容 Amazon S3 API，专为云原生工作负载设计。其核心特性包括：
+**注意事项：**  
+- 社区版仅提供源码，不再提供预编译二进制文件，历史版本不再维护。  
+- 项目处于维护模式，不接受新功能或 PR，仅处理关键安全修复。  
+- 生产环境使用源码构建的二进制文件需自行承担风险，AGPLv3 许可证无任何 warranties。  
+- 企业用户可联系获取 MinIO AIStor 的商业支持版本。  
 
-- **高性能**：支持大规模分布式部署，提供亚毫秒级延迟的对象存储。
-- **S3 兼容性**：完全兼容 Amazon S3 API，包括多部分上传、版本控制和生命周期管理。
-- **分布式架构**：支持 erasure coding（纠删码）以实现数据冗余和高可用性，即使在多节点故障时也能保持数据完整。
-- **安全性**：内置加密（服务器端和客户端）、访问控制（IAM 策略）和审计日志。
-- **多租户支持**：通过桶（bucket）和策略实现隔离，支持多用户、多应用场景。
-- **跨平台**：支持 Linux、Windows 和 macOS，易于在 Kubernetes、Docker 等环境中部署。
-- **开源与免费**：采用 AGPLv3 许可，社区活跃，提供企业级功能。
-
-## 主要功能
-
-MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
-
-## 用法
-
-请参考项目文档获取详细用法。
+**其他信息：**  
+- 提供 MinIO Console（Web 界面）和 `mc` 命令行工具进行测试和管理。  
+- 文档、SDK 和社区支持可通过官网和 Slack 获取。

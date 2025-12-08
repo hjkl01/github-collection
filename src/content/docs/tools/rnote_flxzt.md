@@ -1,54 +1,33 @@
+
 ---
 title: rnote
 ---
 
-# RNote
+### [flxzt rnote](https://github.com/flxzt/rnote)
 
-## 功能
+**Rnote 核心内容总结：**  
 
-RNote 是一个开源的向量绘图应用，专为素描、手写笔记和注释文档及图片而设计。它针对学生、教师和绘图板用户，提供以下功能：
+**项目功能**  
+Rnote 是一款基于 Rust 和 GTK4 开发的开源矢量绘图应用，支持手写笔记、草图绘制、文档注释及图片标注，适用于学生、教师及数位板用户。  
 
-- 自适应UI，专注于手写笔输入
-- 压力敏感的手写笔输入，支持不同可配置的笔触样式
-- 使用形状工具创建多种形状
-- 使用选择工具移动、旋转、调整大小和修改现有内容
-- 不同的文档扩展布局（固定页面、连续垂直、无限方向等）
-- 可自定义背景颜色、图案、大小
-- 可自定义页面格式
-- （可选）笔声音
-- 可重新配置的手写笔按钮快捷键
-- 集成工作区浏览器，用于快速访问相关文件
-- 拖拽和剪贴板支持
-- PDF、位图和SVG图像导入
-- 文档可导出为SVG、PDF和Xopp。文档页面和选择可导出为SVG、PNG和JPEG。
-- 以原生.rnote文件格式保存和加载文档
-- 标签页同时处理多个文档
-- 自动保存、打印
+**主要特性**  
+- 支持压力敏感的触控笔输入及可配置笔触样式  
+- 提供多种形状工具、内容选择与编辑功能（移动、旋转、缩放等）  
+- 支持固定页面、连续垂直、无限方向等多种文档布局  
+- 可自定义背景颜色、图案及页面格式  
+- 支持 PDF、图片、SVG 导入，导出为 SVG、PDF、Xopp 等格式  
+- 提供标签页多文档操作、自动保存、打印功能  
 
-## 用法
+**使用方法**  
+- **Linux**：通过 Flathub 安装 Flatpak 版本  
+- **MacOS**：从 GitLab 下载应用包  
+- **Windows**：通过 GitHub 发布版本或 Winget 安装  
+- 如需降级版本（因文件格式不稳定），可通过 Flatpak 命令指定历史版本  
 
-### 安装
+**注意事项**  
+- `.rnote` 文件格式为压缩 JSON，不同版本可能存在兼容性问题  
+- 部分功能需安装驱动（如 `xf86-input-wacom`）或调整系统设置（如触控笔按钮映射）  
+- 拖放功能需授予 Flatpak 权限  
 
-#### Linux
-
-从Flathub下载官方flatpak：[Flathub链接](https://flathub.org/apps/details/com.github.flxzt.rnote)
-
-#### MacOS
-
-从[这里](https://gitlab.com/dehesselle/rnote_macos/-/releases/permalink/latest)下载MacOS应用包。
-
-#### Windows
-
-从[最新发布](https://github.com/flxzt/rnote/releases/latest)下载Windows安装程序。
-
-或者使用Winget：
-
-```
-winget install flxzt.rnote
-```
-
-### 使用
-
-启动RNote后，您可以开始绘制笔记。使用手写笔或鼠标在画布上绘制。使用工具栏选择不同的工具，如笔、形状、选择等。导入PDF或图片进行注释，导出为各种格式。
-
-更多详细信息，请访问项目网站：[rnote.flxzt.net](https://rnote.flxzt.net)
+**许可证**  
+采用 GPL-3.0 或更高版本开源协议。

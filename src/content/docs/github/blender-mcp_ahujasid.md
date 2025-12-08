@@ -1,70 +1,27 @@
+
 ---
 title: blender-mcp
 ---
 
+### [ahujasid blender-mcp](https://github.com/ahujasid/blender-mcp)
 
-# Blender MCP Add‑on (ahujasid)
+**项目功能**  
+BlenderMCP 通过 Model Context Protocol（MCP）将 Blender 与 Claude AI 连接，实现 Claude 对 Blender 的交互控制，支持提示辅助的 3D 建模、场景创建与操作，包括对象创建/修改、材质控制、场景信息获取及 Python 代码执行。
 
-**GitHub 项目地址**  
-<https://github.com/ahujasid/blender-mcp>
+**使用方法**  
+1. **安装依赖**：需 Blender 3.0+、Python 3.10+ 及 uv 包管理器（Mac/Windows 安装方式不同）。  
+2. **配置环境变量**：设置 `BLENDER_HOST` 和 `BLENDER_PORT`（默认 localhost:9876）。  
+3. **安装 Blender 插件**：下载 `addon.py` 并在 Blender 中启用。  
+4. **集成到 Claude/Cursor**：修改 Claude 的 `claude_desktop_config.json` 或 Cursor 的 MCP 配置，添加 `uvx blender-mcp` 命令启动服务器。  
 
-## 主要特性
+**主要特性**  
+- 双向通信：通过 socket 实现 Claude 与 Blender 的实时交互。  
+- 对象与材质控制：支持创建、修改对象及材质。  
+- 场景分析：获取当前 Blender 场景的详细信息。  
+- 代码执行：可运行任意 Python 代码操作 Blender。  
+- 资源支持：集成 Poly Haven 资产、Hyper3D Rodin 模型生成及 Sketchfab 模型下载。  
 
-| 功能 | 说明 |
-|------|------|
-| **MCP 导入/导出** | 支持 `.mcp` 模型文件的导入与导出，便于与 Minecraft Mod 生态集成。 |
-| **UV 与材质映射** | 保留 UV 坐标与材质信息，导出时自动生成对应的材质表。 |
-| **顶点颜色 & 颜色通道** | 支持顶点颜色通道，导出时保持颜色信息。 |
-| **骨骼权重** | 读取并写出骨骼权重，兼容 Blender 骨骼体系。 |
-| **自定义属性映射** | 通过属性映射表将 Blender 自定义属性映射到 MCP 字段。 |
-| **批量处理** | 可一次性导入/导出多个对象，支持批量命名与分组。 |
-| **命令行接口** | 通过 `bpy` 脚本或命令行批量转换，适合自动化工作流。 |
-
-## 安装与使用
-
-1. **下载插件**  
-   ```bash
-   git clone https://github.com/ahujasid/blender-mcp.git
-   ```
-
-2. **安装插件**  
-   - 打开 Blender → `Edit > Preferences > Add-ons > Install…`  
-   - 选择 `blender_mcp/__init__.py`（或压缩包）  
-   - 勾选插件以启用
-
-3. **导入 MCP**  
-   - 选择 `File > Import > MCP (.mcp)`  
-   - 选择文件 → 预览 → `Import MCP`
-
-4. **导出 MCP**  
-   - 选择对象 → `File > Export > MCP (.mcp)`  
-   - 配置导出选项（UV、材质、权重等） → `Export MCP`
-
-5. **命令行批量转换**  
-   ```bash
-   blender --background --python - <<'PY'
-   import bpy
-   bpy.ops.import_mcp(filepath="model.mcp")
-   bpy.ops.export_mcp(filepath="model_exported.mcp")
-   PY
-   ```
-
-## 示例代码
-
-```python
-import bpy
-
-# 导入
-bpy.ops.import_mcp(filepath="/path/to/model.mcp")
-
-# 设置导出路径
-bpy.ops.export_mcp(filepath="/path/to/exported.mcp",
-                   use_uv=True,
-                   use_vertex_colors=True,
-                   use_bone_weights=True)
-```
-
-## 贡献
-
-如需提交 PR 或 issue，遵循项目的贡献指南。  
-查看 `CONTRIBUTING.md` 与 `LICENSE` 了解更多细节。
+**注意事项**  
+- 避免同时在 Claude 和 Cursor 中运行 MCP 服务器。  
+- 执行代码工具可能带来风险，需谨慎使用。  
+- 复杂操作建议拆分为小步骤执行。

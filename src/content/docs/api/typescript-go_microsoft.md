@@ -1,24 +1,21 @@
----
-title: typescript-go
----
-
-
 
 ---
 title: typescript-go
 ---
 
-该项目是由微软开发的 [typescript-go](https://github.com/microsoft/typescript-go)。主要特性包括：
+### [microsoft typescript-go](https://github.com/microsoft/typescript-go)
 
-1. **Go语言与TypeScript结合**：该项目允许开发者将Go语言服务与TypeScript客户端进行无缝集成。
-2. **自动生成TypeScript类型定义**：从Go代码中自动生成TypeScript类型定义文件，简化了前后端调用的类型匹配。
-3. **增强开发体验**：通过提供类型安全和代码提示，提升开发效率与代码质量。
+**核心内容总结：**
 
-**用法**：
-1. 在Go项目中定义API接口。
-2. 使用该工具生成对应的TypeScript类型定义。
-3. 在TypeScript项目中引用生成的定义，实现类型安全的API调用。
+**项目功能**  
+该项目是TypeScript的本地端口预览版（TypeScript 7），旨在提供与TypeScript 5.9相近的功能，但部分特性仍在开发中。支持程序创建、解析、类型检查、JSX、构建模式等，但JavaScript推断、声明输出等部分功能尚未完善。
 
-更多详情请参考项目的GitHub页面：[typescript-go](https://github.com/microsoft/typescript-go)。
+**使用方法**  
+- 通过npm安装预览包：`npm install @typescript/native-preview`，使用命令 `npx tsgo` 替代 `tsc`。  
+- VS Code用户需安装扩展并设置 `"typescript.experimental.useTsgo": true`。
 
-💝 Support this free API: https://www.paypal.com/donate/?hosted_button_id=XS3CAYT8LE2BL
+**主要特性**  
+- **已完成**：程序创建、语法解析、类型检查、构建模式、增量构建等。  
+- **开发中**：JavaScript推断、JSDoc支持、声明输出、部分目标版本的JS输出。  
+- **未就绪**：语言服务（LSP）部分功能、API接口。  
+- 长期计划：项目将合并至微软官方TypeScript仓库，当前仓库和问题跟踪器最终会被关闭。

@@ -1,59 +1,21 @@
+
 ---
 title: servo
 ---
 
+### [servo servo](https://github.com/servo/servo)
 
-# Servo — Rust 编写的浏览器引擎
+**核心内容总结：**
 
-[GitHub 项目地址](https://github.com/servo/servo)
+1. **项目功能**  
+Servo是一个用Rust语言开发的原型级浏览器引擎，支持64位macOS、Linux、Windows、OpenHarmony和Android平台，旨在探索并实现高效、安全的现代浏览器技术。
 
-## 主要特性
-- **Rust 编写**：内存安全、无数据竞争、易于并行化。  
-- **多进程 / 多线程**：渲染、JS 引擎、CSS 解析各自独立。  
-- **GPU 加速**：支持 OpenGL、Vulkan、Metal；使用 `wgpu` 进行抽象。  
-- **现代 Web 标准**：WebGL、WebGPU、WebAssembly、Canvas 等。  
-- **模块化设计**：可按需启用/禁用子系统，适合实验与嵌入。
+2. **使用方法**  
+- **环境准备**：根据目标平台（macOS/Linux/Windows/Android/OpenHarmony）安装依赖工具（如Xcode、brew、rustup、uv等），并执行`./mach bootstrap`初始化环境。  
+- **构建流程**：通过`./mach build`（或Windows下的`.\mach build`）命令构建Servo浏览器引擎。  
+- **Android/OpenHarmony**：需额外配置环境变量（如`ANDROID_SDK_ROOT`、`DEVECO_SDK_HOME`等），并安装对应SDK/NDK工具链。
 
-## 核心功能
-1. **渲染引擎**：实现 CSS Flexbox/Grid、SVG、Canvas。  
-2. **JavaScript 引擎**：内置 Hermes / Spidermonkey 兼容层。  
-3. **DOM / Layout**：事件驱动、异步 DOM 更新、布局树。  
-4. **安全沙箱**：利用 Rust 与 OS 安全机制进行资源隔离。  
-5. **测试与 CI**：完整测试套件，默认使用 GitHub Actions。
-
-## 用法
-
-```bash
-# 1. 克隆仓库
-git clone https://github.com/servo/servo.git
-cd servo
-
-# 2. 安装 Cargo（Rust 1.70+ 以上）
-rustup install stable
-rustup default stable
-
-# 3. 编译
-cargo build -p servo
-
-# 4. 运行
-cargo run -p servo -- -headless           # 无 GUI
-cargo run -p servo -- --port 8080          # 指定监听端口
-```
-
-### 常用命令示例
-```bash
-# 仅启动渲染器
-cargo run -p servo -- -headless -port 5000
-
-# 开发模式，自动重载
-cargo run -p servo -- --watch
-```
-
-## 贡献
-- Issues: https://github.com/servo/servo/issues  
-- Pull requests: https://github.com/servo/servo/pulls  
-- 贡献指南: https://github.com/servo/servo/blob/main/CONTRIBUTING.md
-
-## 进一步阅读
-- 官方文档: https://servo.org/docs/  
-- 示例: https://github.com/servo/servo/tree/main/src/demo
+3. **主要特性**  
+- **跨平台支持**：覆盖主流操作系统及移动端（Android）和OpenHarmony。  
+- **社区协作**：通过GitHub Issues、Zulip频道及Servo项目文档（如《Servo Book》）进行开发协调与贡献。  
+- **开发工具链**：集成Rust生态工具（如rustup、cargo），支持快速构建与调试。

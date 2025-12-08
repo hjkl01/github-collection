@@ -1,56 +1,26 @@
+
 ---
 title: opencode
 ---
 
-# opencode
+### [sst opencode](https://github.com/sst/opencode)
 
-## 功能
+**核心内容总结：**
 
-opencode 是一个专为终端构建的 AI 编程代理。它帮助用户处理软件工程任务，包括解决 bug、添加新功能、重构代码、解释代码等。opencode 100% 开源，支持多种 AI 提供商（如 Anthropic、OpenAI、Google 或本地模型），并提供 LSP 支持、TUI 界面和客户端/服务器架构。
+OpenCode 是一个基于终端的 AI 编码代理，提供代码编写、分析和规划功能。主要特性包括：
 
-## 用法
+1. **功能**  
+   - 支持两种代理模式：`build`（全权限开发模式）和 `plan`（仅读模式，用于代码分析和规划）。  
+   - 内置 `general` 子代理，用于复杂搜索和多步骤任务。  
+   - 提供 LSP（语言服务器协议）集成和多模型支持（如 Claude、OpenAI、本地模型等）。  
 
-### 安装
+2. **使用方法**  
+   - 安装方式多样：通过 `curl` 命令、包管理器（npm、brew、scoop 等）或脚本指定安装路径。  
+   - 安装路径优先级：自定义路径 > XDG 标准路径 > 用户目录（`$HOME/bin` 或 `$HOME/.opencode/bin`）。  
 
-#### 一键安装
+3. **特性**  
+   - 开源且与模型提供商无关，支持自定义模型。  
+   - 专注于终端界面（TUI），由 neovim 用户团队开发。  
+   - 客户端/服务器架构，允许远程控制（如通过移动端应用）。  
 
-```bash
-curl -fsSL https://opencode.ai/install | bash
-```
-
-#### 包管理器
-
-```bash
-npm i -g opencode-ai@latest        # 或 bun/pnpm/yarn
-scoop bucket add extras; scoop install extras/opencode  # Windows
-choco install opencode             # Windows
-brew install opencode      # macOS 和 Linux
-paru -S opencode-bin               # Arch Linux
-```
-
-**提示：** 在安装前，请移除 0.1.x 之前的版本。
-
-#### 自定义安装目录
-
-opencode 遵循以下优先级安装路径：
-
-1. `$OPENCODE_INSTALL_DIR` - 自定义安装目录
-2. `$XDG_BIN_DIR` - XDG Base Directory Specification 兼容路径
-3. `$HOME/bin` - 标准用户二进制目录（如果存在或可创建）
-4. `$HOME/.opencode/bin` - 默认后备
-
-示例：
-
-```bash
-OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
-XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
-```
-
-### 配置和使用
-
-安装后，在终端中运行 opencode 以开始使用。更多配置信息请参考 [官方文档](https://opencode.ai/docs)。
-
-### 社区
-
-- [Discord](https://opencode.ai/discord)
-- [X.com](https://x.com/opencode)
+**其他**：项目文档、贡献指南及 FAQ 详见官网链接。

@@ -1,54 +1,23 @@
+
 ---
 title: ultrajson
 ---
 
-# UltraJSON 项目
+### [ultrajson ultrajson](https://github.com/ultrajson/ultrajson)
 
-## 项目地址
-[https://github.com/ultrajson/ultrajson](https://github.com/ultrajson/ultrajson)
+**UltraJSON 核心内容总结：**
 
-## 主要特性
-UltraJSON (ujson) 是一个用 C 语言实现的超快速 JSON 解析和编码库，专为 Python 设计。它是标准库 json 模块的替代品，专注于高性能和低内存占用。主要特性包括：
-- **极高性能**：比 Python 标准 json 模块快数倍，适合处理大型 JSON 数据。
-- **低内存使用**：优化了内存分配和解析过程，减少开销。
-- **兼容性强**：完全兼容 JSON 标准，支持 Python 2.7+ 和 Python 3.x。
-- **C 扩展**：核心用 C 编写，提供可选的 Cython 构建支持。
-- **Unicode 支持**：高效处理 Unicode 字符串和编码。
+UltraJSON 是一个用纯 C 编写的超快速 JSON 编码器和解码器，提供 Python 绑定。其主要功能包括：
 
-## 主要功能
-- **JSON 编码 (dumps/encode)**：将 Python 对象转换为 JSON 字符串，支持自定义选项如确保 ASCII、缩进等。
-- **JSON 解码 (loads/decode)**：将 JSON 字符串解析为 Python 对象，支持精确浮点数和自定义解码器。
-- **流式处理**：支持从文件或流中读取/写入 JSON 数据。
-- **错误处理**：提供详细的异常信息，如解析错误或编码错误。
-
-## 用法示例
-安装：使用 pip 安装 `pip install ujson`。
-
-### 基本编码和解码
-```python
-import ujson
-
-# 编码：Python 对象转 JSON
-data = {'name': 'Alice', 'age': 30, 'cities': ['Beijing', 'Shanghai']}
-json_str = ujson.dumps(data)
-print(json_str)  # 输出: {"name": "Alice", "age": 30, "cities": ["Beijing", "Shanghai"]}
-
-# 解码：JSON 转 Python 对象
-parsed_data = ujson.loads(json_str)
-print(parsed_data['name'])  # 输出: Alice
-```
-
-### 高级用法
-```python
-# 从文件读取
-with open('data.json', 'r') as f:
-    data = ujson.load(f)
-
-# 编码选项：确保 ASCII
-ujson.dumps(data, ensure_ascii=False)
-
-# 解码选项：精确浮点数
-ujson.loads('{"pi": 3.14159}', precise_float=True)
-```
-
-更多细节请参考项目 README 和文档。
+- **性能优势**：在多种 JSON 编解码场景中速度显著优于 `json`、`simplejson` 等库（如编码/解码数组、对象等场景下性能提升数倍）。
+- **使用方法**：可通过 `pip install ujson` 安装，支持 `dumps`/`loads` 方法作为 Python 标准库的替代，例如：
+  ```python
+  import ujson
+  ujson.dumps([{"key": "value"}, 81, True])
+  ```
+- **特性**：
+  - 支持 `encode_html_chars`、`ensure_ascii`、`escape_forward_slashes` 等选项，控制输出格式（如 HTML 转义、ASCII 限制、斜杠转义等）。
+  - 支持缩进输出（`indent` 参数）。
+- **注意事项**：
+  - 项目已进入**维护模式**，不推荐新增功能，建议迁移到更高效的 [orjson](https://pypi.org/project/orjson/)。
+  - 构建时可配置调试符号或使用外部 `double-conversion` 库。

@@ -1,40 +1,20 @@
+
 ---
-title: Neorg
+title: neorg
 ---
 
-# Neorg
+### [nvim-neorg neorg](https://github.com/nvim-neorg/neorg)
 
-> Description from GitHub: Modernity meets insane extensibility. The future of organizing your life in Neovim.
+**项目核心内容总结：**  
+Neorg 是一个基于 Neovim 的插件，旨在通过结构化笔记、项目管理、任务追踪、时间记录、幻灯片制作和文档编写等功能，提供一体化的组织工具。所有功能均基于统一的 `.norg` 文件格式，用户只需学习一次即可使用全部功能，且文件格式易于外部工具解析。  
 
-## 功能
+**使用方法：**  
+- **安装方式**：支持通过 `rocks.nvim`、`lazy.nvim`、`packer.nvim` 等插件管理器安装，需 Neovim 0.10 及以上版本。  
+- **配置**：安装后需在 Neovim 配置文件中添加 `require("neorg").setup()` 初始化。  
+- **学习资源**：提供 YouTube 教程和 Wiki 文档，帮助用户快速上手。  
 
-- **结构化笔记**：使用 `.norg` 格式进行高效的笔记记录。
-- **项目和任务管理**：内置 GTD（Getting Things Done）系统，支持任务跟踪和项目组织。
-- **时间跟踪**：记录和分析时间使用情况。
-- **幻灯片**：创建和展示幻灯片。
-- **写作和排版**：支持类型化文档的写作。
-- **可扩展性**：高度可扩展，允许自定义模块和功能。
-
-## 用法
-
-1. **安装**：
-   - 确保 Neovim 版本为 0.10 或以上。
-   - 使用插件管理器如 `lazy.nvim` 或 `rocks.nvim` 安装 Neorg。
-   - 示例配置：
-     ```lua
-     {
-       "nvim-neorg/neorg",
-       lazy = false,
-       version = "*",
-       config = true,
-     }
-     ```
-
-2. **基本使用**：
-   - 创建 `.norg` 文件开始笔记。
-   - 使用 Neorg 命令进行任务管理、时间跟踪等。
-   - 参考 [官方教程](https://www.youtube.com/watch?v=NnmRVY22Lq8) 或 [Wiki](https://github.com/nvim-neorg/neorg/wiki) 学习更多用法。
-
-3. **检查健康**：安装后运行 `:checkhealth neorg` 确保配置正确。
-
-注意：Neorg 仍在快速发展中，可能有破坏性更改，建议固定版本使用。
+**主要特性：**  
+- **统一文件格式**：所有功能基于 `.norg`，集成度高，语法简洁易学。  
+- **多功能集成**：涵盖笔记、任务管理、时间跟踪、文档编写等场景。  
+- **社区支持**：提供 Zulip、Discord 论坛及赞助支持，活跃开发者社区。  
+- **注意事项**：版本更新可能引入重大变更，建议锁定版本以避免兼容性问题。

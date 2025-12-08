@@ -1,91 +1,19 @@
+
 ---
 title: blink.indent
 ---
 
-## 功能介绍
+### [saghen blink.indent](https://github.com/saghen/blink.indent)
 
-blink.indent 是一个为 Neovim 提供高性能缩进引导线的插件。它能够在每次按键时实时显示缩进引导线，包括作用域范围，渲染速度极快（0.1-2ms），即使在大型文件中也能流畅运行。该插件使用约 500 行代码实现，比基于 Treesitter 的解决方案更快（约 10 倍）。
+**项目核心内容总结**  
+blink.indent 是一个高性能的缩进线插件，可在每次按键时实时显示缩进引导线（延迟约 0.1-1ms），支持超大文件。其缩进线适用于绝大多数合法代码，计算速度比 Treesitter 快约 10 倍。若需更丰富的功能，可考虑使用 indent-blankline 或 snacks.indent。
 
-主要特性：
+**使用方法**  
+1. 安装：支持 Lazy.nvim 和 vim.pack 方式。  
+2. 配置：通过 `setup()` 自定义选项，如禁用特定文件类型（如终端、帮助文档等）、设置缩进字符（默认 `▎`）、高亮颜色（支持多色渐变）及快捷键（如 `[i`/`]i` 跳转缩进层级）。  
+3. 禁用：全局或单文件通过 `vim.g.indent_guide = false` 或 `vim.b[bufnr].indent_guide = false` 控制。  
 
-- 实时缩进引导线，每按键更新
-- 支持作用域范围显示
-- 高性能，适用于大型文件
-- 可自定义字符、高亮和优先级
-- 支持彩虹风格的缩进引导线
-- 可按缓冲区或全局启用/禁用
-
-## 用法
-
-### 安装
-
-使用 lazy.nvim：
-
-```lua
-{
-  'saghen/blink.indent',
-  --- @module 'blink.indent'
-  --- @type blink.indent.Config
-  -- opts = {},
-}
-```
-
-使用 vim.pack：
-
-```lua
-vim.pack.add({ 'saghen/blink.indent' })
--- require('blink.indent').setup({})
-```
-
-### 配置
-
-调用 `setup()` 是可选的，插件会自动使用默认配置初始化。
-
-```lua
-require('blink.indent').setup({
-  blocked = {
-    -- 默认: 'terminal', 'quickfix', 'nofile', 'prompt'
-    buftypes = { include_defaults = true },
-    -- 默认: 'lspinfo', 'packer', 'checkhealth', 'help', 'man', 'gitcommit', 'dashboard', ''
-    filetypes = { include_defaults = true },
-  },
-  static = {
-    enabled = true,
-    char = '▎',
-    priority = 1,
-    -- 指定多个高亮以实现彩虹风格缩进引导线
-    -- highlights = { 'BlinkIndentRed', 'BlinkIndentOrange', 'BlinkIndentYellow', 'BlinkIndentGreen', 'BlinkIndentViolet', 'BlinkIndentCyan' },
-    highlights = { 'BlinkIndent' },
-  },
-  scope = {
-    enabled = true,
-    char = '▎',
-    priority = 1000,
-    -- 设置为单个高亮如 'BlinkIndent' 以禁用彩虹风格
-    -- highlights = { 'BlinkIndentScope' },
-    -- 可选添加: 'BlinkIndentRed', 'BlinkIndentCyan', 'BlinkIndentYellow', 'BlinkIndentGreen'
-    highlights = { 'BlinkIndentOrange', 'BlinkIndentViolet', 'BlinkIndentBlue' },
-    -- 启用以在当前作用域上方行显示下划线
-    underline = {
-      enabled = false,
-      -- 可选添加: 'BlinkIndentRedUnderline', 'BlinkIndentCyanUnderline', 'BlinkIndentYellowUnderline', 'BlinkIndentGreenUnderline'
-      highlights = { 'BlinkIndentOrangeUnderline', 'BlinkIndentVioletUnderline', 'BlinkIndentBlueUnderline' },
-    },
-  },
-})
-```
-
-### 启用/禁用
-
-全局禁用：`vim.g.indent_guide = false`
-
-按缓冲区禁用：`vim.b[bufnr].indent_guide = false`
-
-切换可见性：
-
-```lua
-local indent = require('blink.indent')
-vim.keymap.set('n', 'some-key', function() indent.enable(not indent.is_enabled()) end, { desc = 'Toggle indent guides' })
-```
-
-按缓冲区切换：`indent.enable(not indent.is_enabled({ bufnr = 0 }), { bufnr = 0 })`
+**主要特性**  
+- 极速渲染：性能远超 indent-blankline（每帧耗时约 0.15ms vs 2-5ms）。  
+- 灵活配置：支持静态缩进线、作用域缩进线、下划线高亮、多颜色渐变等。  
+- 兼容性：默认禁用终端、快速修复等非代码文件类型，避免干扰。

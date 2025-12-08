@@ -1,121 +1,30 @@
+
 ---
 title: polars
 ---
 
-# polars - Rust 数据帧与列式计算库
+### [pola-rs polars](https://github.com/pola-rs/polars)
 
-**仓库地址**
+### 核心内容总结
 
-[https://github.com/pola-rs/polars](https://github.com/pola-rs/polars)
+**项目功能**  
+Polars 是一个用 Rust 编写的高性能 DataFrame 查询引擎，支持 Python、Rust、Node.js、R 和 SQL 等多种语言。其核心功能包括：  
+- **懒加载与即时执行**：灵活控制查询执行方式。  
+- **流式处理**：支持处理超出内存容量的数据集。  
+- **多线程与 SIMD 优化**：利用硬件加速提升计算效率。  
+- **查询优化**：自动优化执行计划以提高性能。  
 
-## 主要特性
+**主要特性**  
+- 基于 Apache Arrow 列式存储格式，兼容性强。  
+- 性能远超 Pandas 和 NumPy（如导入时间：Polars 70ms，Pandas 520ms）。  
+- 支持超大规模数据（如 250GB 数据集可本地处理）。  
+- 提供丰富的表达式 API 和多语言接口。  
 
-- **列式内存布局**  
-  高效的“列优先”存储，结合 Arrow 兼容性提高向量化累加与 SIMD 计算性能。
+**使用方法**  
+- **Python 安装**：`pip install polars`，支持通过 `pl.show_versions()` 查看版本及依赖。  
+- **源码编译**：需安装 Rust 和 Maturin，通过 `make build` 等命令构建不同优化版本。  
+- **扩展功能**：支持通过 Rust 编写自定义 UDF（用户自定义函数）。  
 
-- **DataFrame 与 Series API**  
-  兼具类似 Pandas/SQL 的 DataFrame 语义，Series 提供向量化数值/字符串操作。
-
-- **惰性执行（Lazy API）**  
-  建立查询计划后统一优化与批量执行，显著提升批处理数据分析速度。
-
-- **多线程与 SIMD 并行**  
-  通过 Rayon 并行计算与 Intel AVX/AVX512 加速，支持多核与 SIMD 处理。
-
-- **SQL‑style 变换**  
-  `groupby`, `agg`, `filter`, `sort`, `join`, `merge`, `pivot` 等操作，类 SQL 数据操作。
-
-- **窗口函数与滚动统计**  
-  `rolling_window`, `expanding_window` 等窗口聚合功能。
-
-- **多种格式读写**  
-  `csv`, `parquet`, `orc`, `ipc`（Arrow）`, `json`, `excel` 等，支持压缩 & 冗余。
-
-- **时序分析**  
-  支持频率转换、时间窗聚合及行号/前向/后向索引计算。
-
-- **Rust & Python 接口**  
-  通过 `pyo3` 提供 Python 包 (`polars`)，兼容 Python 数据科学生态。
-
-- **动态列操作**  
-  `lazy_mutate`, `with_column`, `replace_at_idx` 等，支持按需添加/更新列。
-
-## 使用方法
-
-### Rust
-
-```toml
-# Cargo.toml
-[dependencies]
-polars = { version = "0.31", features = ["lazy", "parquet"] }
-```
-
-```rust
-use polars::prelude::*;
-
-fn main() -> Result<()> {
-    // CSV 读取
-    let df = CsvReader::from_path("data.csv")?
-        .infer_schema(None)
-        .has_header(true)
-        .finish()?;
-
-    // 基础变换
-    let rows = df.filter(&df.column("age")?.gt_eq(18).into_series())?;
-    println!("{}", rows);
-
-    // 惰性执行
-    let lazy = df.lazy()
-        .groupby([col("country")])
-        .agg([
-            col("salary").mean().alias("avg_salary"),
-            col("age").max().alias("max_age")
-        ])
-        .sort("avg_salary", Default::default())
-        .collect()?;
-
-    println!("{}", lazy);
-
-    Ok(())
-}
-```
-
-### Python
-
-```bash
-pip install polars
-```
-
-```python
-import polars as pl
-
-df = pl.read_csv("data.csv")
-df_filtered = df.filter(pl.col("age") >= 18)
-
-# 惰性查询
-lazy_df = df.lazy().groupby("country").agg(
-    pl.col("salary").mean().alias("avg_salary"),
-    pl.col("age").max().alias("max_age")
-).sort("avg_salary")
-
-print(lazy_df.collect())
-```
-
-## 安装与编译
-
-- **Rust**  
-  `cargo build --release`（或直接 `cargo install polars`）
-
-- **Python**  
-  `pip install polars`（基于 wheels）或 `pip install git+https://github.com/pola-rs/polars`（从源构建）
-
-- **IDE 集成**  
-  在 PyCharm、VS Code 等 IDE 中使用 `polars` 语法高亮与类型提示。
-
-## 进一步阅读
-
-- [官方文档](https://pola-rs.github.io/polars/)
-- [API 参考](https://pola-rs.github.io/polars/polars/)
-- [贡献指南](https://github.com/pola-rs/polars/blob/master/CONTRIBUTING.md)
-
----
+**其他**  
+- 提供云服务（[cloud.pola.rs](https://cloud.pola.rs/)）用于分布式计算。  
+- 支持特殊需求编译（如 `pip install polars[rt64]` 处理超 42 亿行数据，`pip install polars[rtcompat]` 适配老旧硬件）。

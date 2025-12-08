@@ -1,109 +1,26 @@
+
 ---
 title: higress
 ---
 
+### [alibaba higress](https://github.com/alibaba/higress)
 
-# Higress（阿里巴巴开源 API Gateway）
+**Higress 核心内容总结**  
 
-- **项目地址**  
-  <https://github.com/alibaba/higress>
+**项目功能**  
+Higress 是基于 Istio 和 Envoy 的云原生 API 网关，支持通过 Wasm 插件（Go/Rust/JS 编写）扩展功能，提供 AI、流量管理、安全防护等通用插件及开箱即用的控制台。核心能力包括：  
+- **AI 网关**：统一连接所有大语言模型（LLM）提供商，支持多模型负载均衡、令牌限流、缓存及可观测性。  
+- **MCP 服务器托管**：允许 AI 代理调用工具和服务，支持与主流模型提供商对接。  
+- **Kubernetes 入口控制器**：兼容 K8s nginx 入口注解，支持 Gateway API 标准。  
+- **微服务网关**：支持从 Nacos、ZooKeeper 等服务注册中心发现微服务，深度集成 Dubbo、Sentinel 等技术栈。  
+- **安全网关**：支持 WAF、JWT、OAuth 等认证策略及 CC 防护。  
 
-## 项目概述
-Higress 是基于 Envoy、Open Policy Agent（OPA）和 Kubernetes 的高性能 API Gateway 与服务网格平台。它融合了 API 网关的功能与服务网格的可观测性、流量管理能力，支持多租户、插件化扩展，并兼容 Kubernetes 原生生态。
+**使用方法**  
+- **快速部署**：通过单条 Docker 命令启动，支持 K8s 部署及企业版安装。  
+- **插件扩展**：使用官方插件库或自定义 Wasm 插件实现功能扩展，支持热更新。  
 
-## 主要特性
-
-| 特色 | 描述 |
-|------|------|
-| **API Gateway** | 提供速率限制、熔断、重试、流量镜像、负载均衡等常用网关功能。 |
-| **服务网格** | 通过 Envoy Sidecar 实现细粒度流量控制、链路追踪（OpenTelemetry）、服务发现与健康检查。 |
-| **动态配置** | 通过 Kubernetes CRD（`Gateway`, `Route`, `ServiceEntry` 等）实现零停机配置。 |
-| **多租户 & 安全** | 支持命名空间隔离、基于 OPA 的自定义策略（RBAC、ACL、API Key、JWT 等）。 |
-| **可观测性** | 集成 Prometheus、Grafana、Jaeger、Zipkin，自动生成监控与追踪数据。 |
-| **插件化扩展** | 通过 `Extension` CRD 或自定义 Envoy 插件实现功能扩展（如自定义鉴权、日志、计费等）。 |
-| **Kubernetes 原生** | 完全基于 CRD 与 Helm，支持 CRD 版本管理、滚动升级与回滚。 |
-| **多协议支持** | HTTP/1.1, HTTP/2, gRPC, WebSocket，甚至 TCP/UDP 的访问控制与流量管理。 |
-| **高可用与弹性** | 支持水平扩容、自动故障恢复、蓝绿/灰度发布。 |
-
-## 核心组件
-
-- **Higress Core**：负责配置解析、策略校验、动态 Envoy 配置生成。
-- **Gateway CRD**：定义入口网关、监听器、TLS 证书等。
-- **Route CRD**：路由规则、重写、镜像、限流等。
-- **ServiceEntry CRD**：外部服务声明与流量出口。
-- **Extension CRD**：自定义插件/鉴权逻辑。
-- **Kubernetes Operator**：监听 CRD 变更并同步到 Envoy。
-
-## 安装与使用
-
-1. **安装 Helm 仓库**
-
-   ```bash
-   helm repo add higress https://alibaba.github.io/higress-helm
-   helm repo update
-   ```
-
-2. **部署 Higress Operator**
-
-   ```bash
-   helm install higress higress/higress-operator \
-     --namespace higress-system \
-     --create-namespace
-   ```
-
-3. **创建 Gateway 与 Route**
-
-   ```yaml
-   apiVersion: networking.higress.io/v1alpha1
-   kind: Gateway
-   metadata:
-     name: example-gateway
-   spec:
-     listeners:
-     - protocol: HTTP
-       port: 80
-       routes:
-       - name: example-route
-         route:
-           - destination:
-               host: my-service
-               port: 80
-   ```
-
-4. **开启插件（如 JWT 鉴权）**
-
-   ```yaml
-   apiVersion: networking.higress.io/v1alpha1
-   kind: Extension
-   metadata:
-     name: jwt-auth
-   spec:
-     type: authentication
-     config:
-       jwt:
-         issuer: "example.com"
-         jwks_uri: "https://example.com/.well-known/jwks.json"
-   ```
-
-5. **监控与追踪**
-
-   - Prometheus: `http://<higress-prometheus-service>/metrics`
-   - Grafana: 默认 dashboard 可通过 `kubectl port-forward` 访问
-   - Jaeger/Zipkin: 访问相应服务端口即可查看链路
-
-## 常用命令
-
-| 命令 | 用途 |
-|------|------|
-| `kubectl get gateways` | 查看已部署的网关 |
-| `kubectl describe routes <name>` | 查看路由配置详情 |
-| `kubectl logs -l app=higress-operator` | 查看 Operator 日志 |
-| `helm upgrade higress higress/higress-operator` | 升级 Operator |
-
-## 贡献与社区
-
-- 项目主页: <https://github.com/alibaba/higress>
-- 文档: <https://higress.io/docs>
-- 讨论: 通过 Issues、Pull Requests 与社区交流
-
-> 以上内容仅为快速入门概览，详细使用请参阅官方文档及示例配置。
+**主要特性**  
+1. **生产级稳定性**：经阿里内部 2 年验证，支持百万级 QPS，配置变更毫秒级生效，无流量抖动。  
+2. **流式处理**：支持请求/响应体全流式处理，降低高带宽场景（如 AI 业务）的内存开销。  
+3. **扩展灵活**：90% 场景通过官方插件满足，Wasm 插件实现内存安全、多语言支持及独立升级。  
+4. **安全易用**：内置 WAF、自动证书管理（Let's Encrypt），支持非 K8s 环境部署，提供图形化控制台。

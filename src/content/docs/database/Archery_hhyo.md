@@ -1,40 +1,18 @@
+
 ---
 title: Archery
 ---
 
-# Archery 项目
+### [hhyo Archery](https://github.com/hhyo/Archery)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/hhyo/Archery)
+Archery 是一个支持多数据库的 SQL 审核与查询管理平台，主要功能包括 SQL 查询、审核、执行、备份、数据字典管理、慢日志分析、会话管理等。支持的数据库类型涵盖 MySQL、Oracle、MongoDB、ClickHouse 等，不同数据库功能支持程度存在差异（如 MySQL 支持最全面）。  
 
-## 主要特性
-Archery 是一个基于 Web 的 SQL 审核查询平台，主要用于数据库变更管理和 SQL 语句审核。它支持多数据库类型（如 MySQL、Oracle 等），并集成 Git 工作流，实现 SQL 变更的版本控制和团队协作。核心特性包括：
-- **SQL 审核流程**：支持 SQL 语句的在线编写、语法检查、影响分析和人工审核。
-- **多租户支持**：可配置多个数据源，支持不同环境的隔离管理。
-- **权限控制**：细粒度的角色和权限管理，确保安全访问。
-- **集成工具**：内置 SQL 优化建议、数据字典管理和历史变更记录。
-- **可视化界面**：Web 界面友好，支持 SQL 高亮显示和执行结果预览。
+**核心特性**：  
+- 提供可视化界面和代码级操作，集成 SQL 解析、索引优化、执行计划分析等功能；  
+- 支持通过 Docker 快速部署或手动安装，提供在线演示环境（账号：archer/archer）；  
+- 依赖 Django 框架，集成多种数据库连接器（MySQL、Redis、PostgreSQL 等）及第三方工具（如 goInception、SQLAdvisor、SOAR 等）；  
+- 支持 LDAP 认证、数据加密、RDS 管理等企业级功能。  
 
-## 主要功能
-- **SQL 提交与审核**：用户提交 SQL 变更，系统自动检查语法和潜在风险，审核员批准后执行。
-- **数据源管理**：添加和管理多个数据库连接，支持读写分离。
-- **变更历史追踪**：记录所有 SQL 执行历史，便于回滚和审计。
-- **批量操作**：支持批量 SQL 执行和定时任务。
-- **API 接口**：提供 RESTful API，便于与其他系统集成。
-- **通知机制**：集成邮件、钉钉等通知方式，提醒审核进度。
-
-## 用法
-1. **安装部署**：
-   - 克隆仓库：`git clone https://github.com/hhyo/Archery.git`
-   - 安装依赖：使用 Docker 或手动安装 Python 环境和所需库（如 `pip install -r requirements.txt`）。
-   - 配置数据库：修改 `conf/archery.ini` 文件，设置数据源和基本参数。
-   - 启动服务：运行 `python manage.py runserver` 或使用 Docker Compose。
-
-2. **基本使用**：
-   - 登录 Web 界面（默认账号：admin/admin）。
-   - 添加数据源：在“数据源管理”中配置数据库连接信息。
-   - 提交 SQL：在“SQL 审核”页面编写或上传 SQL，提交审核。
-   - 审核执行：审核员查看提交，批准后系统自动执行或手动执行。
-   - 查看历史：在“SQL 历史”中查询执行记录和结果。
-
-详细文档请参考项目仓库的 README 和 docs 目录。
+**使用方法**：  
+1. 在线体验：访问 [demo.archerydms.com](https://demo.archerydms.com)；  
+2. 安装部署：通过 Docker 或手动安装（详见 GitHub 文档）。

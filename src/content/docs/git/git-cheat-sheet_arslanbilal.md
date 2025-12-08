@@ -1,34 +1,13 @@
+
 ---
 title: git-cheat-sheet
 ---
 
-# Git 备忘单（中文版）
+### [arslanbilal git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-zh.md)
-
-## 主要特性
-- **全面覆盖 Git 命令**：提供从基础到高级的 Git 操作命令列表，包括初始化、克隆、分支管理、合并、远程操作等。
-- **中文翻译**：所有命令和说明均使用简体中文，便于中文用户快速参考。
-- **结构化组织**：内容按主题分类，如本地仓库、远程仓库、撤销操作、子模块等，便于查找。
-- **简洁实用**：采用备忘单格式，每条命令附带简短解释和示例，适合日常开发使用。
-- **开源免费**：基于 GitHub 仓库，易于 fork 和贡献。
-
-## 主要功能
-- **仓库初始化与克隆**：指导创建新仓库（`git init`）或从远程克隆（`git clone`）。
-- **文件管理**：添加文件（`git add`）、提交变更（`git commit`）、查看状态（`git status`）。
-- **分支与合并**：创建分支（`git branch`）、切换分支（`git checkout`）、合并（`git merge`）、变基（`git rebase`）。
-- **远程操作**：添加远程仓库（`git remote`）、推送（`git push`）、拉取（`git pull`）。
-- **撤销与重置**：撤销变更（`git checkout --`）、重置提交（`git reset`）、恢复删除（`git reflog`）。
-- **标签与日志**：创建标签（`git tag`）、查看历史（`git log`）、图形化日志（`git log --graph`）。
-- **子模块与配置**：管理子模块（`git submodule`）、配置 Git 设置（`git config`）。
-- **其他高级功能**：如 stash 操作、cherry-pick、bisect 等调试工具。
-
-## 用法
-1. **访问项目**：直接打开 GitHub 链接，复制内容到本地 Markdown 文件（如 `git-cheat-sheet.md`）保存。
-2. **日常参考**：在开发中遇到 Git 问题时，搜索关键词（如“分支”）查找对应命令。
-3. **打印或书签**：将 Markdown 转换为 PDF 或添加到浏览器书签，作为快速手册使用。
-4. **集成到工具**：可导入到 VS Code、Typora 等编辑器中，便于标注和自定义。
-5. **更新维护**：定期检查 GitHub 仓库更新，或 fork 仓库进行个性化修改。
-
-此备忘单不提供实际代码执行，仅作为参考文档。建议结合官方 Git 文档实践操作。
+该项目是一个全面的Git操作指南，提供Git命令参考、分支管理策略及Git Flow工作流教程。核心功能包括：  
+1. **Git基础操作**：涵盖提交、回滚、分支创建与合并、冲突解决等核心命令。  
+2. **版本管理**：支持功能开发（feature）、版本发布（release）和紧急修复（hotfix）的完整流程。  
+3. **Git Flow工作流**：提供标准化分支管理方案，包括初始化配置、功能开发、版本发布、热修复等操作步骤。  
+4. **多语言支持**：包含中文、英文、德语等12种语言版本，适应不同用户需求。  
+使用方法：通过命令行执行初始化、分支操作、合并变基等指令，支持交互式操作（如合并提交压缩）。主要特性包括详细的命令说明、团队协作流程规范及多语言文档支持。

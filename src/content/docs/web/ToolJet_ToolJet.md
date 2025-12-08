@@ -1,89 +1,22 @@
+
 ---
 title: ToolJet
 ---
 
+### [ToolJet ToolJet](https://github.com/ToolJet/ToolJet)
 
-# ToolJet
+**核心内容总结：**
 
-> 项目地址: <https://github.com/ToolJet/ToolJet>
+**项目功能**  
+ToolJet 是一个开源平台，用于构建和部署内部工具、工作流程及 AI 代理。社区版提供可视化拖拽式应用构建器、60+ 响应式组件、75+ 数据源连接能力（数据库、API、云存储等）及多环境部署支持。企业版（ToolJet AI）增加 AI 生成应用、智能查询构建、自动化工作流代理等能力，并支持企业级安全合规、多角色权限管理及 CI/CD 集成。
 
-## 主要特性
+**使用方法**  
+1. **快速启动**：通过 Docker 命令一键部署本地测试环境。  
+2. **部署方式**：支持 Docker、Kubernetes、AWS/GCP/Azure 等多平台自托管，或使用 ToolJet Cloud 官方托管服务。  
+3. **开发资源**：提供教程（如时间跟踪应用、CMS 构建）、组件/数据源文档及插件扩展工具（ToolJet CLI）。
 
-| 特性 | 说明 |
-|------|------|
-| **低代码平台** | 通过可视化拖拽和配置，快速创建 Web 应用。 |
-| **多数据源** | 原生支持 PostgreSQL、MySQL、MongoDB、SQLite 等，也可通过 API 接口集成任何 REST/GraphQL 服务。 |
-| **组件化** | 内置表格、图表、表单、地图、聊天等组件，支持自定义组件。 |
-| **实时协作** | 多人同屏编辑、实时预览，任务同步与权限管理。 |
-| **自定义安全** | 细粒度 RBAC、SAML/OIDC 单点登录与外部身份提供商集成。 |
-| **CI/CD 支持** | 与 Docker、Kubernetes、GitHub Actions 集成，实现一键部署与自动化。 |
-| **插件生态** | 可通过插件商店或自行开发插件，扩展功能。 |
-| **开源** | MIT 许可，社区可自由修改、发布。 |
-
-## 核心功能
-
-1. **应用开发**  
-   - 拖拽式 UI 编辑器  
-   - 可视化数据库查询  
-   - 事件驱动的逻辑配置（onClick, onChange 等）  
-
-2. **数据管理**  
-   - 多种数据库直接连接，无需代码写入  
-   - 支持视图、存储过程、SQL 语句执行  
-   - 数据同步与缓存层（Redis）  
-
-3. **用户与权限**  
-   - 行级/列级权限配置  
-   - 角色与组管理  
-   - OAuth2 / OIDC 认证  
-
-4. **部署与运维**  
-   - Docker Compose / Helm chart  
-   - 集成 CI/CD pipelines  
-   - 日志收集（Prometheus, Grafana）  
-
-5. **插件与扩展**  
-   - 通过 NodeJS 插件框架添加新组件或数据源  
-   - 主题定制（CSS/SCSS）  
-
-## 使用方法
-
-1. **克隆仓库**  
-   ```bash
-   git clone https://github.com/ToolJet/ToolJet.git
-   cd ToolJet
-   ```
-
-2. **安装依赖**  
-   ```bash
-   npm install
-   ```
-
-3. **启动本地开发环境**  
-   ```bash
-   npm run dev
-   ```
-   默认访问 <http://localhost:3000>。
-
-4. **构建生产包**  
-   ```bash
-   npm run build
-   ```
-
-5. **Docker 部署**  
-   ```bash
-   docker compose up -d
-   ```
-
-6. **插件添加**  
-   - 在 `src/plugins` 目录下创建插件文件  
-   - 使用 `npm run dev:plugin` 预览插件  
-   - `npm run publish:plugin` 打包发布
-
-> 详细配置与进阶使用请参考项目文档和官方教程。
-
-```
-
-
-
-路径：`src/content/docs/00/ToolJet_ToolJet.md
+**主要特性**  
+- **可视化开发**：无需代码即可构建多页面应用，支持多人协作编辑。  
+- **安全设计**：端到端加密、代理数据流、SSO 认证。  
+- **灵活扩展**：支持 JavaScript/Python 代码嵌入、自定义插件开发。  
+- **企业增强**：AI 自动化生成应用、细粒度权限控制、多环境管理及 GitSync 部署。

@@ -1,54 +1,37 @@
+
 ---
 title: pgsync
 ---
 
-# PGSync 项目描述
+### [ankane pgsync](https://github.com/ankane/pgsync)
 
-## 项目地址
-[https://github.com/ankane/pgsync](https://github.com/ankane/pgsync)
+**核心内容总结：**  
 
-## 主要特性
-PGSync 是一个 Ruby gem，用于将 PostgreSQL 数据库同步到 Elasticsearch。它支持实时数据同步、复杂查询优化和自动索引管理。主要特性包括：
-- **实时同步**：使用 PostgreSQL 的逻辑复制或触发器机制，实现数据变更的即时推送。
-- **复杂查询支持**：自动生成 Elasticsearch 索引，处理关联关系（如 JOIN 操作），允许在 Elasticsearch 中执行类似 SQL 的复杂查询。
-- **性能优化**：支持批量同步、增量更新和缓存机制，减少数据库负载。
-- **易集成**：与 Ruby on Rails 无缝集成，支持自定义映射和过滤规则。
-- **监控与错误处理**：内置日志记录和重试机制，确保同步可靠性。
+**功能**  
+pgsync 是一个用于在两个 PostgreSQL 数据库之间同步数据的工具，功能类似于 `pg_dump`/`pg_restore`，支持快速、安全、灵活的数据迁移。  
 
-## 主要功能
-- **数据同步**：从 PostgreSQL 表或视图同步数据到 Elasticsearch，支持全量和增量同步。
-- **关系处理**：自动处理多表关联，生成嵌套的 Elasticsearch 文档。
-- **搜索与查询**：在 Elasticsearch 中执行全文搜索、过滤和聚合，模拟数据库查询。
-- **配置灵活**：通过 YAML 或 Ruby 配置定义同步规则、索引结构和同步频率。
-- **扩展性**：支持插件扩展，如自定义数据转换或集成其他工具。
+**主要特性**  
+- **速度**：通过并行传输加速数据同步。  
+- **安全性**：内置规则防止敏感数据泄露（如替换为随机值或隐藏字段）。  
+- **灵活性**：兼容源库与目标库的 schema 差异（如列缺失、列多余）。  
+- **便利性**：支持同步部分表、表组、关联记录，提供过滤条件（如 `where store_id = 1`）。  
 
-## 用法
-1. **安装**：
-   - 确保已安装 PostgreSQL 和 Elasticsearch。
-   - 使用 Bundler：在 Gemfile 中添加 `gem 'pgsync'`，然后运行 `bundle install`。
+**使用方法**  
+1. **安装**：通过 `gem install pgsync`、Homebrew 或 Docker 安装。  
+2. **配置**：运行 `pgsync --init` 生成 `.pgsync.yml` 文件，定义源库、目标库、排除表、敏感数据规则等。  
+3. **同步数据**：  
+   - 默认同步所有表：`pgsync`  
+   - 指定表：`pgsync table1,table2`  
+   - 使用通配符：`pgsync "table*"`  
+   - 同步特定行：`pgsync products "where store_id = 1"`  
+   - 定义表组：在 `.pgsync.yml` 中配置 `groups`，通过 `pgsync group1` 调用。  
+4. **高级功能**：  
+   - **模式同步**：`--schema-first` 或 `--schema-only` 控制 schema 与数据的同步顺序。  
+   - **处理外键**：支持 `--defer-constraints`（推荐）或 `--disable-integrity`（不推荐）。  
+   - **敏感数据**：通过 `.pgsync.yml` 中的 `data_rules` 替换敏感字段（如 `email: unique_email`）。  
+   - **追加表**：对大表使用 `--append` 模式分批同步。  
 
-2. **配置**：
-   - 创建 `config/pgsync.yml` 文件，定义数据库连接、Elasticsearch 索引和同步规则。例如：
-     ```
-     database:
-       adapter: postgresql
-       host: localhost
-       database: mydb
-     elasticsearch:
-       hosts: ["localhost:9200"]
-     syncs:
-       - table: users
-         elasticsearch_index: users
-         relationships:
-           - posts
-     ```
-
-3. **运行同步**：
-   - 初始同步：`bundle exec pgsync`（同步所有配置的表）。
-   - 实时同步：`bundle exec pgsync --daemon`（后台运行，监听变更）。
-   - 特定表同步：`bundle exec pgsync users`。
-
-4. **高级用法**：
-   - 添加触发器：运行 `bundle exec pgsync triggers` 在 PostgreSQL 中安装同步触发器。
-   - 查询示例：在 Rails 控制中使用 `Pgsync.search('query', index: 'users')` 执行搜索。
-   - 更多细节参考项目 README 和文档。
+**其他支持**  
+- **多数据库**：支持多个数据库配置，通过 `.pgsync.yml` 管理。  
+- **框架集成**：兼容 Django、Heroku、Laravel、Rails 等框架的数据库迁移需求。  
+- **Docker 部署**：提供 Docker 镜像，便于容器化部署。

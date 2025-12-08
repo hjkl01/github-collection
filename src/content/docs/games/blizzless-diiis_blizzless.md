@@ -1,63 +1,23 @@
+
 ---
 title: blizzless-diiis
 ---
 
-# Blizzless Diiis
+### [blizzless blizzless-diiis](https://github.com/blizzless/blizzless-diiis)
 
-*项目地址:* https://github.com/blizzless/blizzless-diiis
+**项目核心内容总结：**  
 
-## 简介
+**功能**：DiIiS 是《暗黑破坏神3：复仇者之魂》的开源本地服务器，支持账户创建、角色大厅、聊天系统、公会系统、DRLG地牢生成、物品生成、全职业技能机制、套装系统、剧情任务脚本、冒险模式和挑战模式等，但移除了Donate Store功能。  
 
-Blizzless Diiis 是一款基于 Diablo II（圣物版）原版的温和补丁，旨在让游戏在现代 Windows 系统（Windows 10/11/Win Server 等）上无缝运行。通过修复原版游戏中的崩溃、性能瓶颈以及兼容性问题，提供更稳定、无错误的游戏体验。
+**使用方法**：  
+1. **数据库准备**：安装 PostgreSQL 9.5.25，创建 `diiis` 和 `worlds` 数据库，通过配置文件设置账号密码并导入备份数据，或使用 Docker 部署。  
+2. **编译运行**：安装 .NET 7 SDK，执行 `dotnet publish` 命令生成发布文件，修改配置文件中的 IP 地址后运行服务器。  
+3. **客户端设置**：使用支持的客户端版本（2.7.4.84161），安装证书并修改 hosts 文件或游戏文件，将连接指向本地服务器。  
 
-## 主要特性
+**主要特性**：  
+- 实现 Necromancer 类机制、80% 小怪 AI、50% 怪物 AI 和部分 Boss AI。  
+- 支持 LAN 玩法，可创建公共游戏房间。  
+- 包含基础的剧情任务脚本和冒险模式生成器。  
+- 限制：未实现 Donate Store 功能。  
 
-| 功能 | 说明 |
-|------|------|
-| **兼容性修复** | 解决因 64 位系统导致的崩溃、显示错误及 “Missing LDB” 等问题。 |
-| **性能提升** | 启用 DirectX 11 渲染、帧率上限等设置，保持画面流畅。 |
-| **资源更新** | 替换低分辨率纹理、音频，提升画面效果。 |
-| **自动更新** | 可配置为自动检测并下载 Diablo II 补丁。 |
-| **配置文件** | 通过 `blizzless.ini` 进行功能开关与细节调优。 |
-| **社区支持** | 开源维护，新问题可在仓库 Issues 中追踪。 |
-
-## 使用方法
-
-1. **准备游戏**  
-   确认您已合法拥有 Diablo II。
-
-2. **克隆仓库**  
-   ```bash
-   git clone https://github.com/blizzless/blizzless-diiis.git
-   cd blizzless-diiis
-   ```
-
-3. **安装依赖**（可选）  
-   Windows 下直接使用发布版压缩包即可；自行编译需安装 Visual Studio 2019+、.NET Framework 4.8 与 `NuGet`。
-
-4. **运行安装脚本**  
-   ```bash
-   setup.bat   # 或在 Linux/Mac 下 ./setup.sh
-   ```  
-   脚本自动下载补丁、解压并替换原始文件，同时生成 `blizzless.ini`。
-
-5. **启动游戏**  
-   直接双击 `Diablo II.exe` 或通过游戏启动器指向已补丁的路径即可。
-
-6. **配置调优**（可选）  
-   打开 `blizzless.ini`，按需修改参数，例如：
-   ```ini
-   [Rendering]
-   EnableDX11=1
-   MaxFPS=99
-   ```
-
-## 参考文件
-
-- `README.md`: 本文档  
-- `blizzless.ini`: 调整配置  
-- `setup.bat`/`setup.sh`: 安装脚本  
-- `Assets/`: 更新资源集合  
-- `Docs/`: 详细文档与常见问题  
-
-如需进一步帮助，请参阅本仓库 Issues 或加入社区 Discord。
+**系统要求**：最低需 4GB 内存、500MB 硬盘空间，推荐 16GB 内存及更高配置。

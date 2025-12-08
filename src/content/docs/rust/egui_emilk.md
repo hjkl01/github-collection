@@ -1,90 +1,37 @@
+
 ---
 title: egui
 ---
 
-# egui
+### [emilk egui](https://github.com/emilk/egui)
 
-## 项目简介
+**项目核心内容总结：**
 
-egui 是一个简单、快速且高度可移植的即时模式 GUI 库，用 Rust 编写。它专为易用性和性能而设计，支持桌面、Web 和移动平台。
+egui 是一个用 Rust 编写的即时模式图形用户界面（Immediate Mode GUI）库，适用于多种平台和后端。它主要用于构建交互式界面，支持与 3D 图形库结合使用。egui 的设计目标是简单、高效，适合嵌入到游戏引擎或其他图形应用中。
 
-## 主要功能
+**主要功能：**
 
-- **即时模式**：无需管理状态，UI 在每一帧中重新构建
-- **易移植**：支持 Windows、macOS、Linux、Web（通过 WebAssembly）和移动设备
-- **高性能**：低 CPU 和内存使用，适合游戏和实时应用
-- **丰富小部件**：按钮、滑块、文本输入、图像、布局等
-- **自定义样式**：可自定义主题、字体和外观
-- **集成简单**：易于集成到现有 Rust 项目中
+- 提供丰富的 UI 控件（如按钮、输入框、滑块等）。
+- 支持自定义绘制，包括使用回调函数进行 3D 渲染。
+- 可以与多种图形后端集成，如 eframe、bevy_egui、egui-miniquad 等。
+- 支持跨平台，包括 Web、桌面和移动端。
 
-## 用法
+**使用方法：**
 
-### 安装
+- 通过 `eframe` 使用 egui 时，可以快速构建一个独立的 Web 或桌面应用。
+- 在游戏引擎中，例如 Bevy，可以通过 `bevy_egui` 插件集成 egui。
+- 支持使用 `Shape::Callback` 实现自定义 3D 渲染，或通过纹理渲染将 3D 内容嵌入 UI。
 
-在 `Cargo.toml` 中添加：
+**主要特性：**
 
-```toml
-[dependencies]
-egui = "0.24"
-```
+- 使用即时模式 GUI，避免了传统 GUI 的复杂状态管理。
+- 简洁的 API，使用构建器模式和闭包实现 UI 元素的创建。
+- 高效的性能，适合实时应用。
+- 支持多种输入设备（如触摸屏、键盘等）。
+- 提供良好的跨平台支持，包括 Web、桌面和移动设备。
+- 支持中文及其他语言的界面显示。
+- 有活跃的社区和丰富的第三方扩展支持。
 
-对于 Web 支持，添加 `eframe`：
+**总结：**
 
-```toml
-eframe = "0.24"
-```
-
-### 基本示例
-
-```rust
-use eframe::egui;
-
-fn main() -> eframe::Result<()> {
-    let options = eframe::NativeOptions::default();
-    eframe::run_native(
-        "My egui App",
-        options,
-        Box::new(|_cc| Box::new(MyApp::default())),
-    )
-}
-
-#[derive(Default)]
-struct MyApp {
-    name: String,
-    age: u32,
-}
-
-impl eframe::App for MyApp {
-    fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
-        egui::CentralPanel::default().show(ctx, |ui| {
-            ui.heading("Hello World!");
-            ui.horizontal(|ui| {
-                ui.label("Your name: ");
-                ui.text_edit_singleline(&mut self.name);
-            });
-            ui.add(egui::Slider::new(&mut self.age, 0..=120).text("age"));
-            if ui.button("Click each year").clicked() {
-                self.age += 1;
-            }
-            ui.label(format!("Hello '{}', age {}", self.name, self.age));
-        });
-    }
-}
-```
-
-### 运行
-
-```bash
-cargo run
-```
-
-## 文档与资源
-
-- 官方文档：<https://emilk.github.io/egui/>
-- 代码仓库：<https://github.com/emilk/egui>
-- 示例项目：<https://github.com/emilk/egui/tree/master/examples>
-- 社区讨论：Discord、Rust 用户论坛
-
-## 结语
-
-egui 通过即时模式简化 UI 开发，保持高性能且易于集成。无论是游戏 UI、图形工具，还是调试面板，都能在 **Rust** 生态中快速实现。
+egui 是一个轻量、高效、跨平台的即时模式图形界面库，适合用于构建交互式 UI，特别适合嵌入到游戏引擎或图形应用中。它提供了丰富的功能和灵活的扩展方式，适用于多种应用场景。

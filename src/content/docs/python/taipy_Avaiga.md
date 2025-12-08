@@ -1,71 +1,57 @@
+
 ---
 title: taipy
 ---
 
-# Taipy 项目概述
+### [Avaiga taipy](https://github.com/Avaiga/taipy)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/Avaiga/taipy)
+**Taipy** 是一款专为数据科学家和机器学习工程师设计的工具，用于构建 **生产就绪的 Web 应用**，支持数据和 AI 驱动的开发需求。其核心优势包括：
 
-## 主要特性
-Taipy 是一个开源的 Python 库，专为构建和部署数据驱动的 Web 应用程序而设计。它将数据科学、机器学习和业务逻辑无缝集成到交互式 Web 界面中。主要特性包括：
-- **声明式 UI 开发**：使用 Python 代码定义用户界面，无需前端技能，支持动态更新和响应式设计。
-- **端到端管道管理**：内置数据管道功能，支持数据处理、模型训练和可视化的一体化工作流。
-- **可视化支持**：集成 Chart.js 和其他库，提供丰富的图表和仪表盘组件，便于数据探索和展示。
-- **多页面应用**：支持单页或多页 Web 应用构建，易于扩展复杂项目。
-- **跨平台兼容**：基于 Web 技术，可在浏览器中运行，支持桌面和移动端访问。
-- **开源与社区驱动**：Apache 2.0 许可，活跃社区，提供丰富的文档和示例。
+---
 
-## 主要功能
-Taipy 的核心功能聚焦于简化 AI 和数据应用开发：
-- **页面和组件管理**：通过 `tpy.Page` 和各种 GUI 组件（如按钮、输入框、图表）构建交互界面。
-- **数据管道（Pipeline）**：定义任务、数据节点和场景，实现自动化数据流和版本控制。
-- **状态管理**：使用 `State` 类处理前后端状态同步，支持实时更新。
-- **可视化与图表**：内置支持线图、柱状图、热力图等，结合 Pandas 和 NumPy 等库处理数据。
-- **部署与运行**：一键启动 Web 服务器，支持生产环境部署。
-- **扩展性**：可集成 TensorFlow、Scikit-learn 等 ML 框架，适用于数据科学和业务分析场景。
+### **核心功能**
+- **无需新语言**：仅需 Python 即可开发，简化学习曲线。
+- **专注于算法**：将开发复杂性交由 Taipy 处理，开发者可专注于数据和 AI 算法。
+- **简化生产流程**：提供托管、部署、维护等工具，降低生产操作难度。
 
-## 用法
-### 安装
-使用 pip 安装：
-```
-pip install taipy
-```
+---
 
-### 基本用法示例
-1. **创建简单页面**：
-   ```python
-   from taipy import Gui
+### **主要特性**
+- **开发功能**：
+  - 用户界面生成
+  - 数据集成
+  - 管道编排
+  - 什么是如果分析（What-If 分析）与场景管理
+  - 认证、角色和用户管理
+  - 定时任务与调度
+- **生态系统**：
+  - **Taipy Designer**：可视化界面设计工具
+  - **Taipy Studio**：开发环境
+  - 预定义模板与数据平台集成
+- **生产工具**：
+  - 命令行接口（CLI）
+  - 部署脚本
+  - 版本管理
+  - 数据迁移
+  - 远程监控（Telemetry）
 
-   def submit_action(state):
-       state.value = state.input_value.upper()
+---
 
-   pages = {
-       "/": "<h1>欢迎使用 Taipy</h1><|{input_value}|input|><|submit|button|on_action=submit_action|><|value|text|>"
-   }
+### **快速使用**
+- **安装**：通过 `pip install taipy` 一键安装。
+- **文档**：提供 [教程](https://docs.taipy.io/en/latest/tutorials/)、[用户手册](https://docs.taipy.io/en/latest/userman/)、[API 参考](https://docs.taipy.io/en/latest/refmans/) 和 [画廊](https://docs.taipy.io/en/latest/gallery/)。
 
-   if __name__ == "__main__":
-       Gui(pages=pages).run(use_reloader=True)
-   ```
-   这将启动一个 Web 应用，用户输入文本后点击按钮转换为大写显示。
+---
 
-2. **数据管道示例**：
-   ```python
-   from taipy import Config, Scope
-   from taipy.core import Pipeline
+### **社区与贡献**
+- **贡献指南**：[查看文档](https://github.com/Avaiga/taipy/blob/develop/CONTRIBUTING.md)
+- **行为准则**：[查看文档](https://github.com/Avaiga/taipy/blob/develop/CODE_OF_CONDUCT.md)
 
-   # 配置数据节点和任务
-   config_data = Config.load_data_node_config("data", Scope.SCENARIO)
-   config_task = Config.task_config("task", function=process_data, input=config_data)
-   config_pipeline = Config.pipeline_config("pipeline", [config_task])
+---
 
-   # 运行管道
-   scenario = Pipeline("my_scenario", config_pipeline)
-   scenario.run()
-   ```
+### **许可证**
+采用 **Apache 2.0** 开源协议，允许自由使用、修改和分发。
 
-3. **运行应用**：
-   - 执行 Python 脚本后，访问 `http://localhost:5000` 查看应用。
-   - 对于复杂项目，参考官方文档配置多场景和高级组件。
+---
 
-更多细节请参考项目文档和示例仓库。
+**适用场景**：从简单的试点到生产级应用，Taipy 帮助开发者高效构建数据驱动的 Web 应用，兼顾性能、可扩展性与可维护性。

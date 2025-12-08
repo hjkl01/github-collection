@@ -1,48 +1,26 @@
+
 ---
 title: maturin
 ---
 
+### [PyO3 maturin](https://github.com/PyO3/maturin)
 
-# maturin
+**项目核心内容总结：**  
+Maturin 是一个将 Rust 代码转换为 Python 模块的工具，支持生成 Python 绑定（如 cffi、pyo3 等），并处理跨平台兼容性问题。  
 
-> GitHub 项目地址: [https://github.com/PyO3/maturin](https://github.com/PyO3/maturin)
+**主要功能与特性：**  
+1. **功能**：  
+   - 将 Rust 库封装为 Python 可用的模块，支持多种绑定类型（如 cffi、pyo3、bin 等）。  
+   - 自动检测依赖并生成符合 manylinux 标准的 Linux 轮子（wheel），确保兼容性。  
+   - 提供命令行工具（如 `maturin build`、`maturin sdist`）简化构建流程。  
 
-## 概述
+2. **使用方法**：  
+   - 安装 Maturin 后，通过 `maturin build` 构建 Python 模块，支持指定参数（如 `--release`、`--manylinux`）。  
+   - 使用 Docker 容器（如 `ghcr.io/pyo3/maturin`）在 manylinux 环境中构建，确保 Linux 轮子合规。  
 
-maturin 是一个用于将 Rust 代码作为 Python 扩展模块构建、打包、发布的工具。
+3. **关键特性**：  
+   - **跨平台兼容**：支持 Windows、macOS、Linux，自动处理 manylinux 依赖。  
+   - **高效构建**：集成 Rust 编译器与 Python 工具链，支持增量构建和调试模式。  
+   - **社区支持**：提供示例项目（如 polars、deltalake-python）和贡献指南，支持多种 Rust 库的绑定。  
 
-## 主要特性
-
-- **一站式构建**：直接使用 Cargo 构建 Rust 代码并生成 Python 可导入的 `.so` / `.pyd` 文件。
-- **打包支持**：可生成 `.whl`（wheel）和 `.tar.gz` 两种 Python 包形式。
-- **PyPI 发布**：内置命令 `maturin upload`，可直接上传到 PyPI。
-- **`maturin develop`**：在本地开发时自动生成、安装并即时更新 Rust 代码，适用于持续集成/开发。
-- **透明的依赖管理**：使用 Cargo 的 `Cargo.toml` 来声明 Rust 依赖，同时支持互操作。
-
-## 功能
-
-- `maturin develop`：在本地安装开发版本，支持热更新。
-- `maturin build`：构建 wheel 或 tar.gz。
-- `maturin upload`：上传到 PyPI 或 TestPyPI。
-- `maturin init`：创建新项目模板。
-- 兼容 `setuptools-rust`、`poetry-dynamic-versioning` 等 Python 包管理工具。
-
-## 用法
-
-```bash
-# 初始化新项目
-maturin init --name my_crate
-
-# 开发模式（在 Python 环境中自动安装并随文件变更更新）
-maturin develop
-
-# 生成 wheel 包
-maturin build --release
-
-# 发布到 PyPI
-export TWINE_USERNAME=__token__
-export TWINE_PASSWORD=pk-xxxx
-maturin upload target/wheels/*.whl
-```
-
-> 进一步的命令与参数请参考官方文档：<https://www.maturin.rs/docs/>。
+**适用场景**：需要将高性能 Rust 代码集成到 Python 生态中的开发者，或需发布跨平台 Python 轮子的项目。

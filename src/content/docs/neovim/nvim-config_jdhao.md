@@ -1,73 +1,39 @@
+
 ---
 title: nvim-config
 ---
 
-# nvim-config by jdhao
+### [jdhao nvim-config](https://github.com/jdhao/nvim-config)
 
-> GitHub 位置：<https://github.com/jdhao/nvim-config>
-
-## 主要特性
-
-| 功能 | 描述 |
-|------|------|
-| **现代化插件管理** | 采用 **lazy.nvim**（最新版 Bundler）管理插件，插件按需加载，提升启动速度。 |
-| **LSP 支持** | 集成 **nvim-lspconfig** 与 **mason.nvim**，默认配置了对常见语言（如 C/C++, Rust, Python, JavaScript/TypeScript, Go）的一键安装与自动诊断。 |
-| **补全** | 基于 **nvim-cmp**，支持 LSP、树形结构、关键词、文件路径等多种补全源，并配有触发键位与易用的键盘映射。 |
-| **语法高亮 & 树状分析** | 使用 **nvim-treesitter**，提供丰富的语法高亮、代码折叠与导航。 |
-| **多人协作功能** | 通过 **nvim-tmux-scroll** 与 **mini.bufremove** 等插件增强多终端与缓冲区的互操作。 |
-| **代码质量检查** | 集成 **lspconfig inlay_hints** 与 **null-ls**，自动执行格式化、错误检查与代码建议。 |
-| **文件搜索与快速跳转** | 使用 **telescope.nvim** 结合 **fzf** 进行强大的模糊查找、Git 集成与快速文件跳转。 |
-| **状态栏** | 使用 **lualine.nvim** 提供美观且可定制化的状态栏，显示文件信息、Git 状态、LSP 信息等。 |
-| **主题** | 提供多套配色方案（如 **gruvbox**, **catppuccin**, **tokyonight** 等），并支持随需切换。 |
-| **可视化编辑** | 集成 **vim-snank**, **nvim-surround**，快速删除、复制与包围符号支持。 |
-
-## 快速上手
-
-1. **克隆项目**  
-   ```bash
-   git clone https://github.com/jdhao/nvim-config.git ~/.config/nvim
-   ```
-
-2. **安装依赖**  
-   - Neovim≥ 0.10已预装  
-   - 需要 `mason.nvim` 自动安装 LSP、fmt、lint 工具  
-   - 需要 `ripgrep`、`fd`、`fzy`、`fd-find` 等工具支持 telescope
-
-3. **启动 Neovim**  
-   ```bash
-   nvim
-   ```
-   第一次启动将自动安装并配置所有插件。之后开启即涵盖完整的开发功能。
-
-4. **自定义插件**  
-   新增插件只需要在 `lua/plugins.lua` 的 plugin table 添加即可，例如：
-   ```lua
-   use({ "glepnir/dashboard-nvim", config = function() require("dashboard").setup() end })
-   ```
-
-5. **切换主题**  
-   在 `lua/settings/colors.lua` 可更改默认主题。例如：
-   ```lua
-   vim.cmd[[colorscheme gruvbox]]
-   ```
-
-6. **键位说明**  
-   - `Ctrl + s` : 保存 `:w`  
-   - `Ctrl + q` : 退出 `:q`  
-   - `Ctrl + Space` : Trigger LSP completion  
-   - `Leader + p` : Telescope live grep  
-   - `Leader + o` : LSP diagnostics list  
-
-## 高级使用
-
-- **自定义 LSP 配置**：在 `lua/lsp.lua` 对特定语言的 LSP 服务进行优化或添加新功能。  
-- **多语言支持**：通过修改 `lua/dependencies/lsp.lua` 里 `null_ls` 的 `sources`，添加更多格式化或lint工具。  
-- **动态切换状态栏**：编辑 `lualine` 的 `sections`，插入自定义函数。  
-
-> **备注**：本配套始终使用 lazy.nvim，所有插件的下载与更新均通过 `:Lazy sync` 整体管理，确保配套与 Neovim 核心保持兼容。  
+该项目是一个高度定制化的 **Neovim 配置方案**，支持 **Linux、macOS 和 Windows** 平台，提供以下核心功能和特性：
 
 ---
-> `[INFO]` 若想了解当前版本特定细节与已知 Bug，可查看 `CHANGELOG.md`。  
-> `[INFO]` 对于自定义快捷键，可在 `lua/keymap.lua` 中进行修改。  
-> 祝你玩得开心，Happy coding! 
-💝 Support this free API: https://www.paypal.com/donate/?hosted_button_id=XS3CAYT8LE2BL
+
+### **核心功能**
+1. **插件集成**  
+   - 使用 **Lazy.nvim** 管理插件，支持代码补全（nvim-cmp）、LSP（nvim-lspconfig）、Git 操作（vim-fugitive）、文件搜索（fzf）、代码折叠（nvim-ufo）等功能。
+   - 内置 **快捷键系统**，例如 `<leader>ff` 快速搜索文件、`<F9>` 编译运行代码等（完整快捷键列表见文档）。
+
+2. **自定义命令**  
+   - 提供 `Redir`（捕获命令输出）、`Edit`（批量编辑文件）、`Datetime`（时间处理）、`JSONFormat`（格式化 JSON）等实用命令。
+
+3. **多平台兼容**  
+   - 支持跨平台使用，提供针对 **Windows、Linux 和 macOS** 的配置说明。
+
+---
+
+### **使用方法**
+1. **安装依赖**  
+   - 按照 `docs/README.md` 指南安装 Neovim 及相关依赖。
+2. **配置初始化**  
+   - 通过 `init.lua` 和 `ginit.vim` 初始化配置，**不建议直接克隆使用**，而是根据需求复制部分配置到个人项目中。
+3. **快捷键与命令**  
+   - 使用预设快捷键（如 `<leader>gs` 查看 Git 状态）或自定义命令（如 `Edit *.vim` 批量编辑文件）提升效率。
+
+---
+
+### **主要特性**
+- **高度可定制**：通过插件和快捷键灵活调整工作流。
+- **跨平台支持**：适配主流操作系统。
+- **开发效率工具**：集成代码补全、LSP、Git 操作、快速搜索等。
+- **文档完善**：提供详细安装指南（`docs/README.md`）及资源推荐（`nvim_resources.md`）。

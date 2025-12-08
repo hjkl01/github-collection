@@ -1,43 +1,25 @@
+
 ---
 title: nightingale
 ---
 
-# Nightingale 项目
+### [ccfos nightingale](https://github.com/ccfos/nightingale)
 
-## 项目地址
-[https://github.com/ccfos/nightingale](https://github.com/ccfos/nightingale)
+**Nightingale 核心内容总结**  
 
-## 主要特性
-Nightingale 是一个开源的监控系统，专注于分布式系统的监控和告警。它采用模块化设计，支持高可用性和扩展性。主要特性包括：
-- **实时监控**：支持多种数据源的实时数据采集和指标监控。
-- **告警机制**：内置灵活的告警规则引擎，支持多种通知渠道（如邮件、短信、企业微信）。
-- **可视化界面**：提供 Web 界面，用于配置、查询和图表展示监控数据。
-- **高性能存储**：集成 Prometheus 等存储后端，支持海量数据处理。
-- **插件扩展**：支持自定义采集器和处理器，便于集成第三方系统。
-- **多租户支持**：适用于企业级环境，支持用户隔离和权限管理。
+**项目功能**  
+Nightingale 是一个开源的监控告警系统，专注于告警规则配置、告警生成与分发。不提供数据采集功能，需通过 [Categraf](https://github.com/flashcatcloud/categraf) 等工具采集数据并推送到 Nightingale。支持对接多种数据源（如 VictoriaMetrics、ElasticSearch、Prometheus 等），提供告警规则、静默规则、通知规则配置，支持 20 种通知渠道（如电话、邮件、Slack 等）。  
 
-## 主要功能
-- **数据采集**：通过 Agent 或 Push 方式采集主机、应用和网络指标。
-- **规则引擎**：定义阈值、表达式等告警规则，支持抑制和恢复告警。
-- **查询与分析**：使用 PromQL 等语言查询历史数据，进行趋势分析。
-- **通知集成**：与 Slack、钉钉、Webhook 等集成，实现即时通知。
-- **集群部署**：支持 Kubernetes 等容器化环境部署，实现无状态扩展。
-- **API 接口**：提供 RESTful API，便于自动化管理和集成。
+**使用方法**  
+1. 通过 Categraf 等采集器收集监控数据，使用 Prometheus Remote Write 协议推送至 Nightingale。  
+2. 在 Nightingale 中配置告警规则、通知规则，对接数据源（如 Prometheus、VictoriaMetrics）。  
+3. 支持分布式部署，边缘数据中心可部署 `n9e-edge` 以实现断网环境下的告警处理。  
 
-## 用法
-1. **安装部署**：
-   - 克隆仓库：`git clone https://github.com/ccfos/nightingale.git`
-   - 使用 Docker 部署：运行 `docker-compose up`（需配置 docker-compose.yml）。
-   - 或二进制安装：下载 release 包，配置 n9e.conf 并启动服务。
-
-2. **配置**：
-   - 编辑配置文件（n9e.conf），设置数据库连接（如 MySQL）、存储后端（如 Prometheus）。
-   - 配置采集任务：在 Web 界面添加主机和指标采集规则。
-
-3. **使用**：
-   - 登录 Web 界面（默认端口 8000），创建监控模板和告警规则。
-   - 部署 Agent 到目标主机，配置采集插件。
-   - 查询数据：使用仪表盘查看实时指标，设置告警阈值。
-   - 测试告警：模拟异常触发通知，验证集成渠道。
-
-详细文档见仓库的 docs 目录。
+**主要特性**  
+- **告警规则**：支持复杂告警逻辑、静默规则、订阅规则，可导入 Prometheus 原生规则。  
+- **通知管理**：20 种通知渠道（电话、短信、邮件、DingTalk 等），支持自定义消息模板。  
+- **事件处理**：支持事件流水线（Pipeline）处理，可自动执行脚本（如清理磁盘、采集系统状态）。  
+- **权限与分类**：通过“业务组”划分权限，分类管理规则与数据。  
+- **历史分析**：存储历史告警，支持多维查询与统计，可视化告警分布。  
+- **集成能力**：兼容多种协议（Remote Write、OpenTSDB、Falcon 等），支持对接 Grafana、CMDB 等系统。  
+- **自愈功能**：告警触发后自动执行预设修复逻辑。

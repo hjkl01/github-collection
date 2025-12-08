@@ -1,45 +1,24 @@
+
 ---
 title: IPProxyPool
 ---
 
-# IPProxyPool 项目
+### [qiyeboy IPProxyPool](https://github.com/qiyeboy/IPProxyPool)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/qiyeboy/IPProxyPool)
+**项目核心内容总结：**
 
-## 主要特性
-- **代理池管理**：自动采集、验证和存储高质量IP代理，支持多种来源的代理获取。
-- **高可用性**：内置验证机制，确保代理IP的可用性和速度，支持定时更新代理列表。
-- **模块化设计**：包括采集器、验证器、存储器和API服务器等模块，便于扩展和自定义。
-- **支持多种协议**：兼容HTTP、HTTPS和SOCKS代理。
-- **轻量级部署**：基于Python开发，使用SQLite或Redis作为存储后端，易于部署在各种环境中。
+**1. 项目功能**  
+IPProxyPool 是一个用于爬虫的代理IP池管理系统，支持自动爬取、验证和维护代理IP，提供HTTP API接口供用户调用。支持多种数据库（SQLite/MySQL/MongoDB），具备评分机制筛选稳定IP，可自定义代理检测规则。
 
-## 主要功能
-- **代理采集**：从免费代理网站、API等来源自动爬取IP代理。
-- **代理验证**：通过多线程验证代理的有效性，包括连通性、匿名度和响应速度测试。
-- **代理存储与管理**：将有效代理存入数据库，支持按分数排序和淘汰无效代理。
-- **API 接口**：提供RESTful API，用于获取随机代理、指定类型代理或代理列表。
-- **调度任务**：使用APScheduler定时执行采集和验证任务，确保代理池的实时更新。
-- **监控与日志**：内置日志记录和简单监控，便于调试和维护。
+**2. 使用方法**  
+- 配置 `config.py` 中的数据库连接、线程数、API端口等参数。  
+- 启动爬虫自动采集代理IP（支持多网站解析规则）。  
+- 通过 `http://localhost:8000` 接口获取代理IP，支持按 `country`（国内/国外）、`type`（代理类型）、`protocol`（协议）等参数过滤。  
+- 自定义检测函数（如替换为百度验证）以提升代理可用性。
 
-## 用法
-1. **安装依赖**：
-   - 克隆仓库：`git clone https://github.com/qiyeboy/IPProxyPool.git`
-   - 进入目录：`cd IPProxyPool`
-   - 安装Python依赖：`pip install -r requirements.txt`
-
-2. **配置**：
-   - 编辑 `config.py` 文件，设置数据库类型（SQLite 或 Redis）、API 端口等参数。
-   - 如果使用 Redis，需安装并启动 Redis 服务。
-
-3. **运行**：
-   - 启动调度器（采集和验证任务）：`python run.py`
-   - 启动 API 服务器：`python api.py`
-   - 访问 API，例如获取随机代理：`http://localhost:5000/random`
-
-4. **使用 API**：
-   - `/random`：返回一个随机有效代理。
-   - `/count`：返回代理池中代理数量。
-   - `/all`：返回所有代理列表（支持分页）。
-
-更多细节请参考项目 README 文件。
+**3. 主要特性**  
+- **多数据库兼容**：适配 SQLite、MySQL、MongoDB。  
+- **自动维护机制**：定时检测IP有效性，失效IP自动降分并删除。  
+- **高效爬取**：基于多进程+协程技术，爬取速度提升50倍以上。  
+- **灵活扩展**：支持XPath/正则解析网页，可添加新代理网站规则。  
+- **兼容性强**：同时支持 Python 2 和 Python 3。

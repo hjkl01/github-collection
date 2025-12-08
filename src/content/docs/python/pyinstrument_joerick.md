@@ -1,69 +1,15 @@
+
 ---
 title: pyinstrument
 ---
 
-# pyinstrument 项目
+### [joerick pyinstrument](https://github.com/joerick/pyinstrument)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/joerick/pyinstrument)
+<think>
+好的，我现在需要处理用户提供的这个README文件，并完成两个任务：首先用简明中文总结其核心内容，包括项目功能、使用方法和主要特性；其次要注意用户提到的注意事项，比如不需要图片，原文如果是英文要先翻译成中文再总结，不需要原英文版本，并且只关注核心内容，不要额外废话。
 
-## 主要特性
-- **高精度性能分析**：pyinstrument 是一个 Python 性能分析器，使用采样方法（sampling profiler）来捕获代码执行的热点，精度高达毫秒级，支持异步代码（async/await）。
-- **低开销**：采样方式确保对程序性能的影响最小，不会显著减慢代码执行。
-- **易读输出**：生成易于理解的性能报告，包括调用栈、执行时间百分比和累计时间，支持多种输出格式如文本、HTML 和 JSON。
-- **跨平台支持**：兼容 CPython、PyPy 和 Jython，支持 Python 3.7+ 版本。
-- **无依赖**：核心功能无需额外依赖，轻量级安装。
+首先，我需要仔细阅读用户提供的README内容。看起来这是一个Python库的文档，名字是pyinstrument，用于性能分析。用户提供的文本中包含了版本更新历史、使用方法、开发环境设置等内容。用户的主要任务是总结这个项目的功能和使用方法等。
 
-## 主要功能
-- **实时分析**：在代码运行过程中启动和停止分析，捕获 CPU 时间消耗。
-- **异步支持**：无缝处理 asyncio 代码的性能瓶颈。
-- **报告生成**：自动生成分层报告，显示函数调用层次、时间分布和热点函数。
-- **集成友好**：可作为库集成到现有代码中，或通过命令行工具使用。
-- **可视化**：支持导出 HTML 报告，便于浏览器查看交互式性能图表。
+接下来，我需要确认原文是否是中文。用户提供的README内容是英文的，所以需要先将其准确翻译成中文，然后再进行总结。不过用户可能已经翻译好了，但根据用户提供的文本来看，原文是英文的。不过用户给的示例回答是中文的，所以可能用户希望将英文的README翻译成中文后再总结。但根据用户的问题描述，用户可能已经将原文翻译成中文，或者可能用户提供的文本已经是中文？需要仔细检查。
 
-## 用法
-### 安装
-使用 pip 安装：
-```
-pip install pyinstrument
-```
-
-### 基本用法
-1. **作为上下文管理器（推荐）**：
-   ```python
-   from pyinstrument import Profiler
-
-   with Profiler() as profiler:
-       # 你的代码
-       for i in range(1000000):
-           pass
-
-   print(profiler.output_text())
-   ```
-   这会自动启动和停止分析，并打印文本报告。
-
-2. **命令行工具**：
-   运行 Python 脚本时使用：
-   ```
-   pyinstrument your_script.py
-   ```
-   它会自动分析脚本并输出报告。支持选项如 `--html` 生成 HTML 文件：
-   ```
-   pyinstrument --html report.html your_script.py
-   ```
-
-3. **手动启动/停止**：
-   ```python
-   profiler = Profiler()
-   profiler.start()
-   # 你的代码
-   profiler.stop()
-   print(profiler.output_text())
-   ```
-
-4. **输出格式**：
-   - `output_text()`：纯文本报告。
-   - `output_html()`：HTML 报告。
-   - `output_json()`：JSON 数据，便于进一步处理。
-
-更多细节请参考项目文档。
+仔细看用户提供的文本，开头的“以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是以下是

@@ -1,50 +1,19 @@
+
 ---
 title: neogen
 ---
 
-# Neogen 项目概述
+### [danymat neogen](https://github.com/danymat/neogen)
 
-## 项目地址
+**核心内容总结：**  
+Neogen 是一款基于 Neovim 的注释生成工具，使用 Lua 编写并集成 Tree-sitter。其主要功能包括：  
+1. **多语言支持**：涵盖 Python、JavaScript、Ruby、Java 等 20+ 语言，每种语言支持多种注释规范（如 Google docstrings、JSDoc、KDoc 等）。  
+2. **灵活使用方式**：通过命令 `:Neogen` 或 Lua API 的 `generate` 函数生成注释，支持自定义快捷键（如 `<Leader>nf` 生成函数注释）。  
+3. **高度可定制**：支持代码片段引擎（如 luasnip、snippy）生成注释，或使用原生跳转功能在注释字段间移动。  
+4. **扩展性**：提供文档指导用户添加新语言支持，便于扩展功能。  
+5. **辅助功能**：包含测试用例、开发文档（`:h neogen-develop`）及社区支持。  
 
-[GitHub 项目地址](https://github.com/danymat/neogen)
-
-## 主要特性
-
-> Description from GitHub: A better annotation generator. Supports multiple languages and annotation conventions.
-
-## 主要功能
-
-- **自动生成函数注释**：在函数定义处生成参数、返回值和描述的文档字符串。
-- **类和模块注释**：为类、模块或全局变量添加结构化注释。
-- **批量处理**：支持在文件中批量生成或更新注释。
-- **语言特定适配**：针对不同语言（如 JSDoc、Python docstring、Lua 注释）提供专属模板。
-- **错误处理**：自动跳过无效代码块，避免生成不准确的注释。
-
-## 用法
-
-1. **安装**：
-   - 使用插件管理器如 packer.nvim 或 lazy.nvim 安装：
-     ```
-     use { 'danymat/neogen' }
-     ```
-   - 确保安装 Treesitter 解析器：`:TSInstall <language>`（例如 `:TSInstall lua`）。
-
-2. **配置**：
-   - 在 Neovim 配置中添加：
-     ```lua
-     require('neogen').setup {
-       enabled = true,
-       languages = {
-         lua = { template = { annotation_convention = "nerd" } },
-         python = { template = { annotation_convention = "sphinx" } },
-       },
-     }
-     ```
-
-3. **使用**：
-   - 在代码中定位到函数或类定义。
-   - 执行命令：`:Neogen`（生成当前节点注释）或 `:Neogen current_function`（指定生成函数注释）。
-   - 快捷键示例：映射到 `<leader>gf` 以快速生成函数注释。
-   - 生成后，可手动编辑注释内容。
-
-更多细节请参考项目 README。
+**使用方法**：  
+- 安装后通过 `:Neogen` 命令或 Lua 脚本调用 `generate` 函数生成注释。  
+- 配置代码片段引擎或使用原生跳转功能优化注释编辑体验。  
+- 通过文档学习如何添加新语言支持。

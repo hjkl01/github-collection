@@ -1,36 +1,22 @@
+
 ---
 title: oxker
 ---
 
-# Oxker 项目
+### [mrjackwills oxker](https://github.com/mrjackwills/oxker)
 
-**GitHub 项目地址:** [https://github.com/mrjackwills/oxker](https://github.com/mrjackwills/oxker)
+**项目功能**  
+oxker 是一个基于 Rust 的终端用户界面（TUI）工具，用于查看和控制 Docker 容器，支持容器管理、日志查看、命令执行等功能。
 
-## 主要特性
+**使用方法**  
+- **安装方式**：支持 Cargo、Docker（ghcr.io 和 Docker Hub）、Nix、AUR、Homebrew 及预编译二进制文件安装。  
+- **运行命令**：`oxker`，支持通过快捷键（如 Tab 切换面板、Enter 执行命令、F1 过滤等）和命令行参数（如 `-d` 设置更新间隔、`-r` 显示原始日志等）自定义操作。  
+- **配置文件**：通过 `config.toml`/`config.json` 等文件可自定义键位映射、颜色方案等设置，优先级高于命令行参数。
 
-Oxker 是一个开源的命令行工具，专注于简化 Docker 和 Kubernetes 的工作流程。它基于 Go 语言开发，提供轻量级、高效的接口，支持自动化容器管理和编排。主要特性包括：
-
-- **跨平台兼容**：支持 Linux、macOS 和 Windows 系统。
-- **集成 Docker 和 Kubernetes**：无缝连接 Docker 容器运行时和 Kubernetes 集群管理。
-- **命令简洁**：提供直观的 CLI 命令，减少复杂配置。
-- **插件扩展**：支持自定义插件，允许用户扩展功能。
-- **资源监控**：内置监控工具，可实时查看容器资源使用情况。
-
-## 主要功能
-
-A simple tui to view & control docker containers
-
-## 用法
-
-1. **安装**：
-   - 通过 Go 安装：`go install github.com/mrjackwills/oxker@latest`
-   - 或从 GitHub Releases 下载预编译二进制文件。
-
-2. **基本命令**：
-   - 初始化项目：`oxker init`
-   - 启动容器：`oxker run <image-name> [options]`
-   - 部署到 Kubernetes：`oxker deploy <yaml-file>`
-   - 查看日志：`oxker logs <container-id>`
-   - 帮助：`oxker --help`
-
-详细用法请参考项目 README 文件。项目采用 MIT 许可，欢迎贡献代码。
+**主要特性**  
+- 跨平台支持（x86_64、ARM64、ARMv6 等）。  
+- 支持 Docker 容器日志实时查看、搜索及保存。  
+- 提供丰富的快捷键和命令行参数，增强操作灵活性。  
+- 可通过配置文件持久化设置，适配不同用户需求。  
+- 构建支持本地编译及跨平台构建（如 Raspberry Pi）。  
+- 测试覆盖基础功能，确保安全性（不影响运行容器）。

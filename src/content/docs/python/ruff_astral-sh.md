@@ -1,98 +1,22 @@
+
 ---
 title: ruff
 ---
 
+### [astral-sh ruff](https://github.com/astral-sh/ruff)
 
-# Ruff
+**项目核心内容总结：**  
+Ruff 是一个高性能的 Python 代码检查工具，用于静态分析代码、发现错误、提供代码风格建议。其主要功能包括：  
+1. **代码质量保障**：自动检测语法错误、潜在逻辑问题、代码风格不一致等，支持 Python 3.8+。  
+2. **灵活配置**：可通过配置文件自定义规则，兼容主流编辑器（如 VS Code、PyCharm）和 CI/CD 工具。  
+3. **高效性**：相比传统工具（如 Pylint、Flake8），Ruff 的分析速度更快，资源占用更低。  
+4. **生态支持**：支持常见库（如 NumPy、Django）的代码规范，提供插件机制扩展功能。  
 
-- **项目地址**: https://github.com/astral-sh/ruff  
-- **简介**: Ruff 是一个极快的 Python 静态分析器（linter）和代码格式化工具，兼具 SQA、PEP8、代码质量检查、错误检测以及格式化功能。它借助 Rust 编写，性能远超传统工具，内置大量规则，可通过配置文件进行高度自定义。
+**使用方法**：  
+- 安装：`pip install ruff`  
+- 运行：`ruff check <文件或目录>`，支持命令行参数自定义检查范围和规则。  
 
-## 主要特性
+**适用场景**：  
+广泛应用于开源项目（如 FastAPI、PyTorch、Pandas）及企业级开发中，适合作为代码提交前的自动化校验工具。  
 
-| 序号 | 功能 | 说明 |
-|------|------|------|
-| 1 | **高速** | 通过 Rust 开发，单文件分析平均耗时 < 10 ms，CLI 速度较 Flake8 提升 10–50 倍。 |
-| 2 | **多功能** | 兼具 `flake8` + `black` + `isort` 等多工具功能。 |
-| 3 | **自带检查规则** |> 200 条内置规则（PEP8、PEP257、Python Typing 等）。支持按需开启/禁用。 |
-| 4 | **格式化** | 自带强大代码格式化器，可与 `black` 对齐或使用默认模式。 |
-| 5 | **快速修复** | 自动修复大部分错误（即 `ruff --fix`）。 |
-| 6 | **可扩展** | 支持自定义插件、规则以及配置文件（`pyproject.toml`）。 |
-| 7 | **兼容性** | 与 VS Code、PyCharm、CLI 以及 CI/CD 流程无缝集成。 |
-| 8 | **多语言支持** | 除 Python 外，还可分析 JavaScript/TypeScript（experimental）。 |
-
-## 安装
-
-```bash
-# 通过 pip
-pip install ruff
-
-# 或使用其他打包工具
-pipx install ruff
-```
-
-## 基本用法
-
-```bash
-# 检查
-ruff check path/to/file.py
-
-# 检查整个项目
-ruff check .
-
-# 自动修复
-ruff check . --fix
-
-# 仅运行格式化
-ruff format .
-
-# 查看可用命令
-ruff --help
-```
-
-## 配置
-
-在项目根目录添加 `pyproject.toml`，示例：
-
-```toml
-[tool.ruff]
-line-length = 88
-select = ["E", "F", "W"]
-ignore = ["E203", "W503"]
-```
-
-## 集成示例
-
-### VS Code
-
-```json
-// settings.json
-{
-    "python.linting.flake8Enabled": false,
-    "python.linting.ruffEnabled": true,
-    "python.formatting.provider": "ruff"
-}
-```
-
-### GitHub Actions
-
-```yaml
-name: Lint
-on: [push, pull_request]
-jobs:
-  ruff:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install ruff
-      - run: ruff check .
-```
-
-## 相关链接
-
-- 官方文档: https://docs.astral.sh/ruff/
-- GitHub 代码仓库: https://github.com/astral-sh/ruff
-
+**许可证**：采用 MIT 协议，免费开源。

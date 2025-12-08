@@ -1,49 +1,20 @@
+
 ---
 title: stremio-web
 ---
 
-# Stremio Web
+### [Stremio stremio-web](https://github.com/Stremio/stremio-web)
 
-## 功能
+**项目核心内容总结：**  
+Stremio 是一个现代媒体中心，提供视频娱乐的一站式解决方案，支持通过插件发现、观看和整理视频内容。  
 
-Stremio Web 是一个现代化的媒体中心，提供一站式视频娱乐解决方案。用户可以通过易于安装的插件发现、观看和组织视频内容。
+**使用方法：**  
+1. 安装 Node.js 12+ 和 pnpm 10+；  
+2. 通过 `pnpm install` 安装依赖；  
+3. 使用 `pnpm start` 启动开发服务器，或 `pnpm run build` 生成生产版本；  
+4. 支持 Docker 部署，通过 `docker build` 和 `docker run` 命令运行。  
 
-主要功能包括：
-
-- **Board**：展示用户的内容板。
-- **Discover**：发现新的视频内容。
-- **Meta Details**：查看媒体的详细信息。
-
-## 用法
-
-### 前置条件
-
-- Node.js 12 或更高版本
-- pnpm 10 或更高版本
-
-### 安装依赖
-
-```bash
-pnpm install
-```
-
-### 启动开发服务器
-
-```bash
-pnpm start
-```
-
-### 生产构建
-
-```bash
-pnpm run build
-```
-
-### 使用 Docker 运行
-
-```bash
-docker build -t stremio-web .
-docker run -p 8080:8080 stremio-web
-```
-
-许可证：GPL-2.0
+**主要特性：**  
+- 基于插件的扩展性内容获取方式；  
+- 提供开发、构建和容器化部署的完整流程；  
+- 开源，遵循 GPLv2 许可证。

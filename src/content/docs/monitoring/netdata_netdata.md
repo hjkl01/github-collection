@@ -1,51 +1,32 @@
+
 ---
 title: netdata
 ---
 
-# Netdata 项目
+### [netdata netdata](https://github.com/netdata/netdata)
 
-## 项目地址
-[https://github.com/netdata/netdata](https://github.com/netdata/netdata)
+**Netdata 核心内容总结**  
 
-## 主要特性
-Netdata 是一个开源的实时性能监控和故障诊断工具，具有以下核心特性：
-- **实时监控**：提供亚秒级分辨率的监控数据，支持数百种指标的实时采集和可视化，无需外部依赖。
-- **零配置安装**：简单易用，支持一键安装（例如通过 curl 命令），自动发现和监控系统资源。
-- **分布式架构**：支持单节点和多节点部署，可通过代理模式扩展到大规模环境。
-- **高性能**：使用高效的 C 语言实现，低 CPU 和内存占用，即使在资源受限的设备上也能运行。
-- **警报系统**：内置智能警报机制，支持自定义阈值和通知渠道（如 email、Slack、PagerDuty）。
-- **开源与社区驱动**：完全开源（GPLv3 许可），活跃社区贡献，支持插件扩展。
+**项目功能**  
+Netdata 是一款开源的实时监控工具，支持对服务器、容器、网络设备等进行高分辨率监控，提供实时指标可视化、自动告警、机器学习驱动的异常检测、无需配置的仪表盘生成等功能。  
 
-## 主要功能
-Netdata 的功能覆盖系统和应用的全面监控，包括：
-- **系统监控**：CPU、内存、磁盘 I/O、网络流量、进程等系统级指标。
-- **应用监控**：支持数据库（如 MySQL、PostgreSQL）、Web 服务器（如 Nginx、Apache）、容器（如 Docker、Kubernetes）等。
-- **可视化仪表板**：交互式 Web 界面，提供图表、热图和拓扑视图，便于快速诊断问题。
-- **数据收集**：内置数百个收集器（collectors），可监控硬件传感器、云服务（如 AWS、Azure）和自定义指标。
-- **历史数据存储**：支持本地或远程存储历史数据，便于趋势分析和报告生成。
-- **集成与 API**：RESTful API 支持与其他工具集成，如 Grafana、Prometheus；支持导出到外部系统。
+**使用方法**  
+- 安装：通过脚本一键部署，支持 Linux 系统；  
+- 配置：支持与 Prometheus、Grafana 等工具集成，可自定义告警规则和数据存储策略；  
+- 扩展：通过 Netdata Cloud 实现跨多服务器的集中管理，支持远程访问和团队协作。  
 
-## 用法
-### 安装
-1. **一键安装（Linux/macOS）**：
-   ```
-   bash <(curl -Ss https://my-netdata.io/kickstart.sh)
-   ```
-   这将自动下载、编译并启动 Netdata。安装后，默认在 http://localhost:19999 访问 Web 界面。
+**主要特性**  
+1. **实时监控**：毫秒级数据更新，支持 CPU、内存、磁盘、网络等 200+ 指标；  
+2. **边缘机器学习**：本地训练模型，自动检测异常，无需依赖云端计算；  
+3. **零配置可视化**：基于 NIDL 数据模型自动生成仪表盘，无需查询语言；  
+4. **低资源占用**：默认消耗约 5% CPU 和 150MB 内存，支持内存模式运行；  
+5. **灵活扩展**：支持本地存储、云服务（Netdata Cloud）及混合部署，数据保留策略可分级配置；  
+6. **安全合规**：遵循 OpenSSF 安全标准，支持匿名统计关闭。  
 
-2. **Docker 安装**：
-   ```
-   docker run -d --name=netdata -p 19999:19999 -v netdata:/etc/netdata -v netdatalib:/var/lib/netdata -v netdatacache:/var/cache/netdata -v /etc/passwd:/host/etc/passwd:ro -v /etc/group:/host/etc/group:ro --restart unless-stopped --cap-add SYS_PTRACE -v /proc:/host/proc:ro -v /sys:/host/sys:ro -v /etc/os-release:/host/etc/os-release:ro netdata/netdata
-   ```
+**开源许可**  
+- Netdata Agent：GPLv3+ 开源协议，包含部分第三方库；  
+- Netdata UI：闭源但免费提供，通过 CDN 分发；  
+- Netdata Cloud：闭源，提供免费和付费版本。  
 
-3. **从源代码构建**：
-   克隆仓库后，使用 `./netdata-installer.sh` 脚本安装。
-
-### 基本用法
-- **访问界面**：安装后，打开浏览器访问 `http://<your-ip>:19999`，即可查看实时仪表板。
-- **配置**：编辑 `/etc/netdata/netdata.conf` 文件自定义监控项、警报阈值或端口。
-- **添加警报**：在配置文件中设置阈值，例如监控 CPU 使用率超过 80% 时发送通知。
-- **扩展监控**：通过插件目录（`/usr/libexec/netdata/plugins.d/`）添加自定义收集器。
-- **导出数据**：使用 API 如 `http://localhost:19999/api/v1/data?chart=cpu&after=-100` 获取 JSON 数据。
-
-更多细节请参考官方文档：https://learn.netdata.cloud/
+**适用场景**  
+适用于企业级监控、DevOps 运维、云原生环境（CNCF 成员项目）及个人开发者，兼容主流技术栈（如 Kubernetes、Docker）。

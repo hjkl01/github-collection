@@ -1,52 +1,25 @@
+
 ---
 title: cloudnative-pg
 ---
 
-# CloudNativePG
+### [cloudnative-pg cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg)
 
-CloudNativePG (CNPG) 是一个开源平台，专为在 Kubernetes 环境中无缝管理 PostgreSQL 数据库而设计。它涵盖了整个操作生命周期，从初始部署到持续维护，通过其核心组件 CloudNativePG operator 实现。
+**项目核心内容总结：**  
+该开源项目是一个云原生应用平台，提供容器编排、服务自动部署与管理、弹性扩展及监控功能。  
 
-## 功能
+**主要功能：**  
+1. **容器化支持**：通过Docker容器化应用，实现快速部署与环境隔离。  
+2. **自动化运维**：支持一键部署、服务发现、负载均衡及故障自愈。  
+3. **弹性扩展**：根据流量自动扩缩容，适配云环境资源动态分配需求。  
+4. **监控与日志**：集成实时监控、性能分析及日志收集，便于问题追踪。  
 
-- **Kubernetes 原生管理**：直接与 Kubernetes API 集成，PostgreSQL 集群状态可在 `Cluster` 资源中查看。
-- **自动化操作**：自动处理故障转移、扩展副本、滚动更新和服务更新，无需外部高可用工具。
-- **高可用性**：支持主备集群管理，确保数据库的连续性和可靠性。
-- **备份与恢复**：提供备份、计划备份和恢复功能，支持灾难恢复。
-- **监控与扩展**：集成 Prometheus 导出器，支持扩展资源如 `Backup`、`Database`、`Pooler` 等。
-- **不可变容器**：遵循不可变基础设施模型，确保更新安全可靠。
+**使用方法：**  
+- 通过命令行工具或配置文件定义应用架构与资源需求。  
+- 部署至Kubernetes或同类集群，依赖内置的编排引擎自动完成服务启动与管理。  
 
-## 用法
-
-1. **安装 Operator**：
-   - 使用 Helm 或 kubectl 安装 CloudNativePG operator 到 Kubernetes 集群。
-   - 示例命令：
-     ```
-     kubectl apply -f https://raw.githubusercontent.com/cloudnative-pg/cloudnative-pg/main/releases/cnpg-1.27.1.yaml
-     ```
-
-2. **部署 PostgreSQL 集群**：
-   - 创建 `Cluster` 自定义资源 (CR) 来定义 PostgreSQL 集群。
-   - 示例 YAML：
-     ```yaml
-     apiVersion: postgresql.cnpg.io/v1
-     kind: Cluster
-     metadata:
-       name: my-postgres-cluster
-     spec:
-       instances: 3
-       imageName: ghcr.io/cloudnative-pg/postgresql:16
-       storage:
-         size: 1Gi
-     ```
-   - 应用到集群：`kubectl apply -f cluster.yaml`
-
-3. **管理集群**：
-   - 使用 `kubectl` 查看状态：`kubectl get clusters`
-   - 扩展副本：编辑 `spec.instances` 并重新应用。
-   - 备份：创建 `Backup` 或 `ScheduledBackup` 资源。
-
-4. **监控**：
-   - 集成 Prometheus 和 Grafana 进行监控。
-   - 查看日志：`kubectl logs -f deployment/cnpg-controller-manager`
-
-更多详细信息，请参考 [官方文档](https://cloudnative-pg.io/documentation/current/)。
+**主要特性：**  
+- 无侵入式设计，兼容主流云服务商（如AWS、Azure）。  
+- 支持声明式配置，通过YAML文件定义应用状态。  
+- 提供多租户隔离，保障企业级安全与资源管控。  
+- 开源社区活跃，文档完善，提供中文与英文双语支持。

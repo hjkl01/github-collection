@@ -1,140 +1,33 @@
+
 ---
 title: candle
 ---
 
+### [huggingface candle](https://github.com/huggingface/candle)
 
-# Candle (Hugging Face)
+**项目核心内容总结：**
 
-**GitHub 地址**: <https://github.com/huggingface/candle>
+**1. 项目简介**  
+Candle 是一个基于 Rust 的轻量级机器学习框架，旨在实现无服务器推理（Serverless Inference），支持多种后端（如 CUDA、MKL、Accelerate）和 ONNX 模型加载，适合部署轻量化机器学习服务。
 
-Candle 是 Hugging Face 推出的一个轻量级、跨平台的深度学习库，基于 Rust 编写，提供高性能的推理、训练以及模型量化工具。它通过 Rust 的安全性和速度优势，为 Python 开发者提供了简洁易用的接口，支持主流模型格式（PyTorch、ONNX、Hugging Face Hub）。
+**2. 主要功能**  
+- 提供核心张量操作、设备管理及神经网络工具（如线性层、Transformer 模块）  
+- 支持加载 Hugging Face 模型（如 LLaMA、BERT）和 ONNX 模型  
+- 包含 CUDA 自定义内核（如 Flash Attention v2）优化计算性能  
+- 提供数据集工具、模型训练示例及与 Hugging Face 生态集成（如 tokenizers、safetensors）  
 
-## 主要特性
+**3. 使用方法**  
+- 通过 Cargo 编译项目，运行示例（如 LLaMA 推理）  
+- 加载模型需指定设备（CPU/GPU）及模型路径，支持多后端切换  
+- 示例代码包含张量操作、模型训练及推理流程  
 
-| 特性 | 说明 |
-|------|------|
-| **高性能** | Rust 语言实现，利用 SIMD、GPU 加速（CUDA、ROCm） |
-| **跨平台** | 支持 Linux、macOS、Windows |
-| **多框架兼容** | 直接加载 Hugging Face Hub、PyTorch、ONNX 模型 |
-| **易用的 Python API** | `pip install candle-lightning` 或 `pip install candle` |
-| **模型量化** | 8-bit/4-bit 量化，降低显存占用 |
-| **训练与推理** | 支持微调、全流程训练、梯度累积 |
-| **ONNX 生态** | 支持 ONNX 2.6+，可将 PyTorch 模型导出为 ONNX 并在 Candle 运行 |
-| **Lightning 接口** | 与 PyTorch Lightning 对齐的训练脚本模板 |
+**4. 核心特性**  
+- **轻量化**：无需依赖 Python，避免 GIL 限制，适合生产环境  
+- **多后端支持**：兼容 CUDA、MKL、Accelerate 等加速库  
+- **跨平台**：支持 Windows、Linux、WSL 等环境，提供常见错误解决方案（如 MKL 缺失符号、LLaMA 访问权限）  
+- **高效推理**：通过 Flash Attention 等优化技术提升计算效率  
 
-## 核心组件
-
-- **`candle`**：核心张量（Tensor）与算子（Ops）实现。  
-- **`candle-transformers`**：Transformer 模型实现（BERT、GPT、T5 等）。  
-- **`candle-optimizers`**：优化器（Adam、AdamW 等）。  
-- **`candle-lightning`**：与 PyTorch Lightning 兼容的训练框架。  
-- **`candle-quantization`**：模型量化工具。
-
-## 安装
-
-```bash
-# 安装核心库（含 CUDA/ROCm 可选）
-pip install candle
-
-# 或者安装 Lightning 版（支持 Lightning 训练脚本）
-pip install candle-lightning
-```
-
-## 快速使用
-
-### 推理示例（BERT）
-
-```python
-from candle import Device, Tensor
-from candle_transformers import BertModel, BertTokenizer
-
-# 选择设备
-device = Device.cuda()  # 或 Device.cpu()
-
-# 加载 tokenizer 与模型
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-model = BertModel.from_pretrained("bert-base-uncased", device=device)
-
-# 编码
-inputs = tokenizer(["Hello, world!", "Candle is cool."], return_tensors="pt")
-input_ids = Tensor.from_numpy(inputs["input_ids"].numpy()).to(device)
-attention_mask = Tensor.from_numpy(inputs["attention_mask"].numpy()).to(device)
-
-# 推理
-outputs = model.forward(input_ids, attention_mask=attention_mask)
-print(outputs.last_hidden_state.shape)  # (batch_size, seq_len, hidden_dim)
-```
-
-### ONNX 导出与推理
-
-```python
-# 将 PyTorch 模型导出为 ONNX
-import torch
-from transformers import AutoModel
-
-torch_model = AutoModel.from_pretrained("bert-base-uncased")
-torch_model.eval()
-dummy_input = torch.randint(1000, (1, 128))
-torch.onnx.export(
-    torch_model,
-    dummy_input,
-    "bert-base-uncased.onnx",
-    opset_version=13,
-    input_names=["input_ids"],
-    output_names=["output"],
-)
-
-# 在 Candle 中加载 ONNX
-from candle import Device
-from candle_onnx import OnnxModel
-
-device = Device.cpu()
-onnx_model = OnnxModel.from_file("bert-base-uncased.onnx", device=device)
-input_ids = Tensor.from_numpy(dummy_input.numpy()).to(device)
-output = onnx_model.forward(input_ids)
-```
-
-### 模型量化
-
-```python
-from candle_quantization import quantize
-
-# 量化为 8-bit
-quantized_model = quantize(
-    model_path="bert-base-uncased",
-    output_path="bert-base-uncased-quantized",
-    bits=8,
-    device=device
-)
-```
-
-### Lightning 训练示例
-
-```python
-from candle_lightning import LightningModule, Trainer
-from candle_transformers import BertForSequenceClassification
-
-class SentimentModel(LightningModule):
-    def __init__(self):
-        super().__init__()
-        self.model = BertForSequenceClassification.from_pretrained("bert-base-uncased")
-
-    def training_step(self, batch, batch_idx):
-        outputs = self.model(**batch)
-        loss = outputs.loss
-        self.log("train_loss", loss)
-        return loss
-
-trainer = Trainer(max_epochs=3, gpus=1)
-model = SentimentModel()
-trainer.fit(model, train_dataloader, val_dataloader)
-```
-
-## 贡献与支持
-
-- 贡献指南请参阅 [CONTRIBUTING.md](https://github.com/huggingface/candle/blob/main/CONTRIBUTING.md)。
-- 文档与示例在 `docs/` 目录下，包含 API 参考、FAQ 与教程。
-- 如需进一步帮助，请在 GitHub Issues 或 Hugging Face 社区提交问题。
-
----
-> 以上内容为项目 **Candle** 的核心特性、功能与使用示例，帮助开发者快速上手并在生产环境中部署高效的 NLP 模型。
+**5. 常见问题**  
+- **模型加载失败**：需在 Hugging Face 注册并获取 LLaMA 模型授权  
+- **编译错误**：需安装 MKL/Accelerate 库或调整 CUDA 编译器版本（如 gcc-10）  
+- **Windows 链接错误**：需手动指定 native 库路径或重命名 CUDA 相关 DLL 文件

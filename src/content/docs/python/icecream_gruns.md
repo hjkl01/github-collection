@@ -1,61 +1,25 @@
+
 ---
 title: icecream
 ---
 
-# IceCream 项目
+### [gruns icecream](https://github.com/gruns/icecream)
 
-## 项目地址
-[https://github.com/gruns/icecream](https://github.com/gruns/icecream)
+**IceCream 核心内容总结：**
 
-## 主要特性
-IceCream 是一个极简的 Python 调试打印工具，旨在提供更优雅、易读的调试输出替代传统的 `print` 语句。其核心特性包括：
-- **简洁输出**：自动格式化变量值，显示为 `ic(variable)` 形式，便于快速识别来源。
-- **上下文信息**：自动包含函数名、文件名、行号等调试上下文，无需手动添加。
-- **支持多种类型**：处理字符串、列表、字典、对象等复杂数据结构，提供清晰的表示。
-- **无依赖**：纯 Python 实现，轻量级，不引入额外依赖。
-- **自定义配置**：支持调整输出格式、颜色、深度等选项。
-- **跨平台兼容**：适用于 Python 2.7+ 和 3.x 版本。
+IceCream 是一个 Python 调试工具，用于替代传统的 `print()` 语句，简化调试流程。其核心功能包括：
 
-## 主要功能
-- **调试打印**：快速打印变量值和表达式结果，便于代码调试。
-- **表达式求值**：支持 `ic()` 函数直接求值并打印表达式，如 `ic(1 + 2)`。
-- **错误追踪**：在异常发生时自动打印上下文，帮助定位问题。
-- **集成支持**：可与 Jupyter Notebook、IPython 等环境无缝集成。
-- **性能优化**：生产环境中可轻松禁用输出，避免影响性能。
+1. **自动打印变量与表达式**：无需手动写 `print("变量名", 变量)`，`ic()` 会自动输出变量名和值，例如 `ic(foo(123))` 输出 `ic| foo(123): 456`。
+2. **格式化输出**：支持数据结构（如字典、列表）的美观打印，语法高亮。
+3. **上下文信息**：可选显示调用 `ic()` 的文件名、行号及函数名，便于定位问题。
+4. **灵活配置**：支持自定义输出格式（如前缀、绝对路径）、禁用/启用调试输出、集成日志模块等。
+5. **无侵入性**：`ic()` 的返回值不影响原代码逻辑，可直接替换 `print()`。
 
-## 用法
-### 安装
-```bash
-pip install icecream
-```
+**使用方法**：
+- 安装：`pip install icecream`。
+- 导入并调用：`from icecream import ic; ic(变量)`。
+- 全局安装：通过 `install` 选项避免重复导入。
 
-### 基本用法
-1. **导入并使用**：
-   ```python
-   from icecream import ic
-
-   def greet(name):
-       ic(name)  # 打印变量 name 的值
-       return f"Hello, {name}!"
-
-   greet("World")  # 输出: ic| name='World'
-   ```
-
-2. **打印表达式**：
-   ```python
-   ic(1 + 2 * 3)  # 输出: ic| 1 + 2 * 3: 7
-   ```
-
-3. **自定义配置**：
-   ```python
-   from icecream import ic, install
-
-   ic.configure(output_function=print, context_absorb=False)  # 自定义输出函数
-   ```
-
-4. **禁用输出**（生产环境）：
-   ```python
-   ic.disable()  # 临时禁用
-   ```
-
-更多细节请参考项目 README。
+**其他特性**：
+- 支持 Python 3 和 PyPy3。
+- 提供多语言版本（如 Rust、Node.js、Go 等）。

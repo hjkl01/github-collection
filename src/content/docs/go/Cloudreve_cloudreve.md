@@ -1,55 +1,28 @@
+
 ---
 title: Cloudreve
 ---
 
-# Cloudreve 项目
+### [cloudreve Cloudreve](https://github.com/cloudreve/Cloudreve)
 
-## 项目地址
+### 项目核心内容总结
 
-[GitHub 项目地址](https://github.com/cloudreve/Cloudreve)
+**Cloudreve** 是一个自托管的多云文件管理系统，支持将文件存储到本地、OneDrive、S3兼容API、七牛Kodo、阿里云OSS、腾讯云COS等主流云存储平台。  
 
-## 主要特性
+**功能与特性**  
+- 支持客户端直接上传/下载文件，集成Aria2/qBittorrent实现后台多节点下载。  
+- 支持压缩/解压文件、批量下载、WebDAV协议、拖拽上传及断点续传。  
+- 提取媒体元数据并支持按标签/元数据搜索文件，提供多用户分组管理及带过期时间的分享链接。  
+- 在线预览视频、图片、音频、ePub文件，并支持编辑文本、图表、Markdown、Office文档。  
+- 支持自定义主题颜色、深色模式、PWA应用及多语言。  
 
-Cloudreve 是一个开源的云盘系统，支持多种存储后端（如本地存储、阿里云 OSS、腾讯云 COS、OneDrive 等），具有高性能、易部署和可扩展性强的特点。主要特性包括：
+**使用方法**  
+- 通过[快速开始指南](https://docs.cloudreve.org/overview/quickstart)进行本地测试部署，生产环境可参考[完整部署文档](https://docs.cloudreve.org/overview/deploy/)。  
+- 提供Docker镜像（[Docker Hub](https://hub.docker.com/r/cloudreve/cloudreve)），支持一键部署。  
+- 源码构建及贡献方式详见[构建文档](https://docs.cloudreve.org/overview/build/)和[贡献指南](https://docs.cloudreve.org/api/contributing/)。  
 
-- **多存储支持**：兼容本地文件系统、对象存储服务和云存储 API，灵活配置存储策略。
-- **用户管理**：支持多用户注册、权限控制、文件夹共享和访问限制。
-- **文件操作**：上传、下载、预览、分享、搜索和批量管理文件，支持断点续传和大文件处理。
-- **后台下载**：集成 Aria2/qBittorrent，支持后台下载和多节点负载分担。
-- **文件处理**：支持文件压缩/解压和批量下载。
-- **元数据与搜索**：提取媒体元数据，支持按元数据或标签搜索文件。
-- **在线编辑**：支持文本、图表、Markdown、图片、Office 文档的在线编辑。
-- **安全机制**：文件加密、访问日志、IP 白名单和防盗链功能，确保数据安全。
-- **界面友好**：响应式 Web 界面，支持移动端访问，内置主题、暗色模式、PWA 应用和国际化。
-- **扩展性**：支持插件系统和 API 接口，便于二次开发和集成。
+**技术栈**  
+后端基于Go + Gin + ent，前端使用React + Redux + Material-UI。  
 
-## 主要功能
-
-- **文件存储与同步**：用户可上传文件到云端，支持实时同步和版本控制。
-- **分享与协作**：生成分享链接，支持密码保护、有效期设置和外链下载。
-- **预览与编辑**：内置 Office、PDF、图片、视频、音频、ePub 预览，支持在线编辑文本、图表、Markdown、图片、Office 文档。
-- **后台下载**：通过 Aria2/qBittorrent 下载文件，支持多下载节点分担负载。
-- **文件压缩/解压**：支持文件压缩和解压，批量下载。
-- **元数据搜索**：提取媒体元数据，按元数据或标签搜索文件。
-- **管理员面板**：监控系统资源、用户行为和存储使用情况，提供备份和恢复功能。
-- **API 支持**：RESTful API 接口，可与第三方应用集成，如 WebDAV 协议支持。
-
-## 用法
-
-### 部署步骤
-
-1. **环境准备**：确保服务器安装 Go 1.15+、MySQL 5.7+ 或 SQLite，以及 Nginx/Apache 等 Web 服务器。推荐使用 Docker 快速部署。
-2. **下载与安装**：
-   - 从 GitHub Releases 下载最新二进制文件或使用 `go install github.com/cloudreve/Cloudreve/v3@latest` 编译。
-   - 配置 `cloudreve.ini` 文件，设置数据库连接、存储策略和监听端口。
-3. **启动服务**：
-   - 运行 `./cloudreve -p 8020`（默认端口 8020）。
-   - 使用 Docker：`docker run -d -p 8020:8020 --name cloudreve cloudreve/cloudreve`。
-4. **Web 访问**：浏览器打开 `http://your-server-ip:8020`，初始用户名/密码为 `admin/123456`，立即修改密码。
-5. **配置存储**：在管理面板中添加存储策略（如阿里云 OSS），测试连接后启用。
-6. **用户使用**：
-   - 注册新用户，登录后上传文件。
-   - 创建文件夹、分享文件或通过 API 集成。
-   - 管理员可在后台管理用户和策略。
-
-更多详情请参考项目 Wiki：https://github.com/cloudreve/Cloudreve/wiki
+**授权协议**  
+遵循GPL V3开源协议。

@@ -1,57 +1,27 @@
+
 ---
 title: dots-hyprland
 ---
 
-# dots-hyprland
+### [end-4 dots-hyprland](https://github.com/end-4/dots-hyprland)
 
-## 项目概述
+该项目是 **end_4 的 Hyprland 窗口管理器配置文件**，提供以下核心功能与特性：
 
-这是一个为 Hyprland 窗口管理器设计的 dotfiles 配置项目，提供了一个现代化的桌面环境。项目名为 "dots-hyprland"，由用户 end-4 维护。
+### **主要功能**
+1. **实时预览窗口管理**：通过 "Overview" 功能展示所有打开的应用程序实时预览，支持搜索/计算/运行操作。
+2. **AI 集成**：内置 Gemini API 和 Ollama 模型，支持 AI 相关功能。
+3. **自动配色系统**：根据壁纸自动生成符合 Material 设计规范的美观且无障碍的配色方案。
+4. **透明安装流程**：所有执行命令会在运行前显示，确保安装过程可追踪。
 
-## 主要功能
+### **使用方法**
+- **快速安装**：运行 `bash <(curl -s https://ii.clsty.link/get)`。
+- **手动安装**：克隆仓库后执行 `./setup install`。
+- **默认快捷键**：`Super`+`Enter` 打开终端，`Super`+`/` 查看快捷键列表。
 
-- **概述界面**：显示打开的应用及其实时预览，支持输入搜索、计算或运行命令
-- **AI 集成**：支持 Gemini API 和 Ollama 模型
-- **自动颜色生成**：基于壁纸自动生成符合 Material Design 3 的美观且易访问的颜色方案
-- **透明安装**：安装过程中每个命令都会在执行前显示，确保用户了解操作
+### **技术依赖**
+- **核心组件**：基于 [Hyprland](https://github.com/hyprwm/hyprland) 窗口管理器，使用 [Quickshell](https://quickshell.outfoxxed.me/) 作为小部件系统（状态栏、侧边栏等）。
+- **其他依赖**：详见 [deps-info.md](https://github.com/end-4/dots-hyprland/blob/main/sdata/deps-info.md)。
 
-## 安装方法
-
-### 推荐安装（illogical-impulse Quickshell）
-
-1. 运行以下命令进行自动安装：
-
-   ```bash
-   bash <(curl -s https://ii.clsty.link/get)
-   ```
-
-2. 或者手动克隆仓库并安装：
-   ```bash
-   git clone https://github.com/end-4/dots-hyprland.git
-   cd dots-hyprland
-   ./setup install
-   ```
-
-**注意**：如果您是 Linux 新手，使用 Hyprland 可能会遇到一些挑战。建议先熟悉 Linux 基础知识。
-
-## 默认键绑定
-
-- `Super + /`：显示键绑定列表
-- `Super + Enter`：打开终端
-
-其他键绑定类似于 Windows 或 GNOME 用户的习惯。
-
-## 软件依赖
-
-- **Hyprland**：Wayland 合成器，负责管理和渲染窗口
-- **Quickshell**：基于 QtQuick 的小部件系统，用于状态栏、侧边栏等
-- 完整依赖列表请查看项目中的 `sdata/dist-arch` 文件夹
-
-## 社区支持
-
-- Discord 服务器：[https://discord.gg/GtdRBXgMwq](https://discord.gg/GtdRBXgMwq)
-- GitHub Issues：用于报告问题和功能请求
-
-## 许可证
-
-本项目采用 GPL-3.0 许可证。
+### **备注**
+- 明确声明不使用 Waybar，反对将其称为 "Waybar"。
+- 项目提供 Discord 支持链接（https://discord.gg/GtdRBXgMwq），但建议通过 GitHub 解决问题。

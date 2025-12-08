@@ -1,49 +1,28 @@
+
 ---
 title: sonixd
 ---
 
-# Sonixd 项目
+### [jeffvli sonixd](https://github.com/jeffvli/sonixd)
 
-**GitHub 项目地址：** [https://github.com/jeffvli/sonixd](https://github.com/jeffvli/sonixd)
+**项目核心内容总结：**  
 
-**注意：** Sonixd 已进入维护模式，仅修复严重错误。新功能开发已停止。项目正在重写为 Feishin。
+**项目功能：**  
+Sonixd 是一款跨平台桌面客户端，支持 Subsonic-API 及 Jellyfin（0.8.0+）兼容的音乐服务器（如 Navidrome、Airsonic、Gonic、Astiga 等）。提供播放列表管理、拖拽排序、跨平台媒体键控制等功能。  
 
-## 主要特性
+**主要特性：**  
+- 支持 HTML5 音频播放（含淡入淡出、无间隙播放）  
+- 大型播放列表与队列管理  
+- 多主题界面  
+- 兼容多种音乐服务器（含 Jellyfin）  
+- 基于 Electron、React 和 rsuite 组件库开发  
 
-Sonixd 是一个开源的桌面音乐播放器，专为 Linux 系统设计，支持多种音乐流媒体服务（如 Tidal、Qobuz 等）。其核心特性包括：
+**使用方法：**  
+1. 从 [GitHub 发布页](https://github.com/jeffvli/sonixd/releases) 下载对应系统的安装包。  
+2. **Windows**：使用 `winget install sonixd` 或 [scoop](https://scoop.sh) 安装。  
+3. **MacOS**：通过 `brew install --cask sonixd` 安装。  
+4. **Linux**：Arch 用户可从 AUR 安装。  
+5. 启动后输入服务器地址、用户名及密码登录（如使用 Airsonic-Advanced 需创建 decodable 账户）。  
 
-- **跨平台支持**：主要针对 Linux，但可通过 Electron 框架在其他平台运行。
-- **高保真音频播放**：支持无损音频格式，提供高质量的音乐体验。
-- **现代用户界面**：采用 Material Design 风格，界面简洁、直观。
-- **插件扩展**：支持自定义插件，允许用户扩展功能。
-- **离线缓存**：可下载音乐以支持离线播放。
-- **多服务集成**：无缝连接 Tidal、Qobuz 和本地音乐库。
-
-## 功能
-
-Sonixd 提供丰富的功能，涵盖音乐管理和播放：
-
-- **音乐库管理**：导入本地音乐文件，支持播放列表创建、搜索和排序。
-- **流媒体播放**：直接从 Tidal 或 Qobuz 订阅服务中流式播放，支持高分辨率音频。
-- **播放控制**：包括播放/暂停、快进/快退、音量调节和均衡器设置。
-- **个性化推荐**：基于用户偏好提供音乐推荐和发现新曲目。
-- **同步功能**：与云服务同步播放历史和收藏夹。
-- **自定义主题**：支持浅色/深色模式和自定义皮肤。
-
-## 用法
-
-1. **安装**：
-   - 通过 GitHub Releases 下载预编译的 AppImage、Deb 或 RPM 包。
-   - 或者从源代码构建：克隆仓库后，使用 `npm install` 安装依赖，然后运行 `npm run build` 构建应用。
-
-2. **启动**：
-   - 运行可执行文件（如 `./Sonixd.AppImage`），或通过包管理器安装后在应用菜单中启动。
-
-3. **基本操作**：
-   - 首次启动时，登录 Tidal 或 Qobuz 账户。
-   - 导入本地音乐：点击“库”选项，添加文件夹。
-   - 播放音乐：搜索曲目、专辑或艺术家，点击播放。
-   - 管理播放列表：创建新列表，拖拽歌曲添加。
-   - 自定义设置：进入“设置”菜单调整音频输出、主题和插件。
-
-更多详情请参考项目 README 文件。
+**项目状态：**  
+当前版本 0.15.4 进入维护模式，仅修复严重漏洞，新功能开发已转向 [Feishin](https://github.com/jeffvli/feishin) 项目。

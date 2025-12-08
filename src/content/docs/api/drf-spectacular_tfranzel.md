@@ -1,99 +1,53 @@
+
 ---
 title: drf-spectacular
 ---
 
-# drf-spectacular 项目
+### [tfranzel drf-spectacular](https://github.com/tfranzel/drf-spectacular)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/tfranzel/drf-spectacular)
+**drf-spectacular** 是一个为 Django REST framework（DRF）生成 OpenAPI 3.0.3/3.1 规范文档的工具，具有以下核心功能和特性：
 
-## 主要特性
-drf-spectacular 是一个用于 Django REST Framework (DRF) 的 OpenAPI 3 规范生成器。它提供自动化的 API 文档生成，支持 OpenAPI 3 和 Swagger UI 的集成。主要特性包括：
-- **自动 schema 生成**：基于 DRF 的视图、序列化器和路由自动生成 OpenAPI 3 规范，无需手动编写 YAML 或 JSON。
-- **类型注解支持**：充分利用 Python 类型提示（typing）和 DRF 的序列化器来推断 API 结构，提高文档准确性。
-- **扩展性强**：支持自定义 schema 生成器、组件和操作扩展，便于处理复杂 API 场景。
-- **集成 Swagger UI 和 ReDoc**：内置浏览器端文档渲染，支持交互式 API 测试。
-- **兼容性好**：与 DRF 的核心功能无缝集成，支持分页、认证、过滤等高级特性。
-- **性能优化**：生成 schema 的过程高效，适合大型项目。
+### **功能与特性**
+1. **智能模式生成**  
+   自动从 DRF 中提取序列化器、视图、参数等信息，支持复杂嵌套、递归结构，提供灵活的自定义选项（如 `@extend_schema` 装饰器）。
+2. **高度可定制**  
+   - 支持覆盖请求/响应序列化器、添加参数、定义多态响应、设置示例、调整操作名称等。  
+   - 集成第三方库（如 `django-polymorphic`、`SimpleJWT`、`django-filter` 等）。
+3. **兼容性与扩展性**  
+   - 支持 OpenAPI 3.1，提供国际化、标签分类、认证配置（DRF 原生及自定义）、`SerializerMethodField` 类型推断等。  
+   - 可通过 `SpectacularAPIView` 直接在 API 中提供 Schema，并支持 Swagger UI/Redoc 界面。
+4. **开箱即用**  
+   默认配置可直接使用，仅需安装包、添加 `drf_spectacular` 到 `INSTALLED_APPS`，并设置 `DEFAULT_SCHEMA_CLASS`。
 
-## 主要功能
-- **OpenAPI Schema 生成**：从 DRF 代码中提取路径、方法、参数、请求/响应模型等信息，形成完整的 API 规范。
-- **组件管理**：自动处理 schemas、parameters、responses 等 OpenAPI 组件，支持复用和继承。
-- **认证与安全**：集成 DRF 的认证机制，如 Token、JWT 等，并在 schema 中正确表示。
-- **错误处理**：支持自定义错误响应 schema，提高 API 文档的完整性。
-- **版本控制**：通过命名空间或路径前缀支持 API 版本化。
-- **插件系统**：提供扩展点，如支持第三方包（drf-yasg 的替代）或自定义渲染。
-
-## 用法
-### 安装
-使用 pip 安装：
-```
-pip install drf-spectacular
-```
-
-### 配置
-在 Django 的 `settings.py` 中添加：
-```python
-INSTALLED_APPS = [
-    # ...
-    'drf_spectacular',
-]
-
-REST_FRAMEWORK = {
-    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
-}
-
-SPECTACULAR_SETTINGS = {
-    'TITLE': 'Your API Title',
-    'DESCRIPTION': 'Your API Description',
-    'VERSION': '1.0.0',
-    'SERVE_INCLUDE_SCHEMA': False,  # 如果需要动态生成
-}
-```
-
-在 `urls.py` 中添加 schema 视图：
-```python
-from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, SpectacularRedocView
-
-urlpatterns = [
-    # ...
-    path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
-    path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
-    path('api/redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),
-]
-```
-
-### 基本用法
-1. **在视图中使用**：DRF 视图无需额外修改，schema 会自动从序列化器和视图方法推断。
-   示例序列化器：
-   ```python
-   from rest_framework import serializers
-
-   class UserSerializer(serializers.ModelSerializer):
-       class Meta:
-           model = User
-           fields = ['id', 'name', 'email']
+### **使用方法**
+1. **安装**  
+   ```bash
+   pip install drf-spectacular
    ```
-
-2. **自定义 schema**：使用 `@extend_schema` 装饰器细化文档：
+2. **配置**  
    ```python
-   from drf_spectacular.utils import extend_schema, OpenApiExample
-
-   @extend_schema(
-       description='Create a new user',
-       examples=[
-           OpenApiExample('Example 1', value={'name': 'John', 'email': 'john@example.com'})
-       ]
-   )
-   def create(self, request):
-       # view logic
+   INSTALLED_APPS = ['drf_spectacular']
+   REST_FRAMEWORK = {'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema'}
    ```
+3. **设置元数据**  
+   ```python
+   SPECTACULAR_SETTINGS = {
+       'TITLE': '项目名称',
+       'DESCRIPTION': '描述',
+       'VERSION': '1.0.0',
+       # 其他配置如 UI 静态文件路径、验证规则等
+   }
+   ```
+4. **生成 Schema**  
+   - 命令行生成文件：  
+     ```bash
+     python manage.py spectacular --file schema.yml
+     ```
+   - 在 Django URL 中添加视图：  
+     ```python
+     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
+     path('api/schema/swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+     ```
 
-3. **访问文档**：运行 Django 服务器后，访问 `/api/docs/` 查看 Swagger UI，或 `/api/redoc/` 查看 ReDoc。
-
-### 高级用法
-- **组件扩展**：通过 `SPECTACULAR_SETTINGS` 配置全局组件，或使用 `extend_schema_component` 添加自定义 schemas。
-- **侧边栏生成**：启用 `SERVE_PERMISSIONS` 来控制 schema 访问权限。
-- **导出 schema**：通过 `/api/schema/` 端点获取 JSON/YAML 格式的 OpenAPI 文件，用于外部工具集成。
-
-更多细节请参考项目文档。
+### **适用场景**
+适用于需要生成高质量 OpenAPI 文档的 DRF 项目，尤其适合需自定义参数、多语言支持、集成第三方库的复杂 API 场景。

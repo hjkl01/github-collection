@@ -1,18 +1,16 @@
+
 ---
 title: impala
 ---
 
-该项目为 [impala](https://github.com/pythops/impala)，主要特性和功能包括：
+### [pythops impala](https://github.com/pythops/impala)
 
-- **高性能查询**：提供快速的SQL查询能力，适用于大数据环境。
-- **与Hadoop生态系统集成**：支持与Hadoop分布式存储系统（如HDFS）的无缝集成。
-- **支持多种数据格式**：可以处理多种数据格式，包括Parquet和JSON等。
-- **灵活的用户接口**：提供用户友好的界面，方便用户进行数据查询和管理。
-- **扩展性**：支持用户根据特定需求进行自定义扩展。
-
-### 用法
-1. 克隆项目：`git clone https://github.com/pythops/impala.git`
-2. 根据项目文档进行安装和配置。
-3. 使用提供的API或CLI进行数据查询。
-
-访问项目获取更多详细信息和使用指南。
+**项目核心内容总结：**  
+Impala 是一款用于管理 WiFi 的终端用户界面工具（TUI），支持以下功能：  
+- **核心特性**：支持 WPA 企业版（802.1X）认证、Station（站点）模式与 Access Point（热点）模式切换、通过 QR 码共享网络。  
+- **使用方法**：  
+  - **安装**：可通过二进制文件、`crates.io`、Arch Linux 官方仓库、Nixpkgs 或从源码编译安装（需 `cargo` 和 `git`）。  
+  - **操作**：使用键盘快捷键（如 `Tab` 切换界面、`j/k` 滚动、`Ctrl+R` 切换模式等）管理网络，支持扫描、连接、共享网络等操作。  
+  - **配置**：通过 `~/.config/impala/config.toml` 自定义快捷键和行为。  
+- **要求**：需在 Linux 系统上运行，依赖 `iwd` 服务，需禁用 `NetworkManager` 或 `wpa_supplicant` 以避免冲突。  
+- **许可证**：遵循 GPLv3 协议。

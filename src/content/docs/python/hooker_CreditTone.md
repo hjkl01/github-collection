@@ -1,64 +1,50 @@
+
 ---
 title: hooker
 ---
 
-# Hooker 项目
+### [CreditTone hooker](https://github.com/CreditTone/hooker)
 
-## 项目地址
-[https://github.com/CreditTone/hooker](https://github.com/CreditTone/hooker)
+### 项目核心内容总结
 
-## 主要特性
-Hooker 是一个基于 Python 的动态函数钩子（hooking）工具，主要用于拦截和修改程序运行时的函数调用。它支持多种钩子机制，包括函数入口/出口钩子、参数修改和返回值篡改。核心特性包括：
-- **跨平台支持**：兼容 Windows、Linux 和 macOS 系统。
-- **低侵入性**：无需修改源代码，即可动态注入钩子。
-- **灵活的钩子配置**：支持正则表达式匹配函数名、自定义回调函数。
-- **日志记录**：内置详细的调用日志和性能监控。
-- **模块化设计**：易于扩展，支持插件式钩子加载。
+#### **功能概述**
+1. **逆向分析工具集**  
+   - 提供多种Frida脚本，用于绕过反调试（如检测Frida Server、Root、VPN）、SSL Pinning、动态脱壳、加密算法分析（AES/RSA/HMAC）、WebView调试等。
+   - 支持识别Android应用加固壳（如爱加密、梆梆等）及动态脱壳。
+   - 可劫持Native层函数（如`dlsym`、`pthread_create`），对抗反调试机制。
 
-## 主要功能
-- **函数拦截**：实时捕获指定函数的调用，支持入口钩子（pre-hook）和出口钩子（post-hook）。
-- **参数与返回值操作**：允许修改输入参数或伪造输出结果，用于调试、测试或安全分析。
-- **性能分析**：监控函数执行时间和调用频率，提供统计报告。
-- **集成支持**：可与 Frida 或其他动态分析工具结合使用，适用于逆向工程和软件测试场景。
-- **错误处理**：内置异常捕获机制，确保钩子失败不影响主程序运行。
+2. **设备与应用分析**  
+   - 获取设备指纹信息（Android ID、IMEI、传感器数据、系统状态等）。
+   - 列出已安装应用及系统状态。
 
-## 用法
-1. **安装**：
-   - 克隆仓库：`git clone https://github.com/CreditTone/hooker.git`
-   - 安装依赖：`pip install -r requirements.txt`（通常包括 `frida`、`ctypes` 等）。
+3. **网络与数据抓包**  
+   - 绕过SSL证书验证（支持BoringSSL自定义验证函数劫持）。
+   - 记录SSL握手过程（`CLIENT_RANDOM`），配合抓包工具还原明文数据。
 
-2. **基本配置**：
-   - 编辑 `config.py` 文件，指定目标进程或模块，例如：
-     ```python
-     TARGET_MODULES = ['example.dll']
-     HOOK_PATTERNS = [r'func_\w+']  # 正则匹配函数名
-     ```
+4. **调试与监控**  
+   - 跟踪Activity生命周期、TextView/TextView内容、Native方法调用栈。
+   - 监控WebView初始化及JavaScript执行。
 
-3. **运行钩子**：
-   - 启动目标程序后，执行钩子脚本：
-     ```bash
-     python hooker.py --target process.exe --hook entry,exit
-     ```
-   - 示例钩子回调（在 `hooks.py` 中自定义）：
-     ```python
-     def on_entry(args):
-         print(f"Function called with args: {args}")
-         return args  # 可修改参数
+---
 
-     def on_exit(return_value):
-         print(f"Return value: {return_value}")
-         return 42  # 篡改返回值
-     ```
+#### **使用方法**
+1. **环境准备**  
+   - 安装WSL（推荐Ubuntu 24.04），配置代理（如需）。
+   - 安装Python 3.8及依赖（`build-essential`、`libssl-dev`等）。
 
-4. **高级用法**：
-   - 对于脚本化钩子，使用 API 注册：
-     ```python
-     from hooker import Hooker
-     h = Hooker()
-     h.attach_to_process('target.exe')
-     h.hook_function('example_func', on_entry, on_exit)
-     h.run()
-     ```
-   - 查看日志：运行后检查 `logs/hook.log` 文件。
+2. **工具部署**  
+   - 将自定义`frida-server`文件放入`mobile-deploy`目录，并修改`hooker.py`中默认文件名。
+   - 使用`hooker.py`脚本执行目标功能（如`spawn/attach`指定脚本）。
 
-更多细节请参考仓库的 README.md 和示例目录。
+3. **典型命令**  
+   - `spawn dump_dex.js`：脱壳。
+   - `attach get_device_info.js`：获取设备信息。
+   - `spawn find_boringssl_custom_verify_func.js`：绕过SSL Pinning。
+
+---
+
+#### **主要特性**
+- **多场景覆盖**：支持Android逆向、网络抓包、反调试绕过、加密分析等。
+- **动态劫持能力**：可修改Native函数行为（如劫持`dlsym`、修改SSL验证逻辑）。
+- **兼容性强**：适配多种加固壳、加密算法及Android版本。
+- **设备信息全面**：提供设备指纹、传感器、系统状态等详细数据。

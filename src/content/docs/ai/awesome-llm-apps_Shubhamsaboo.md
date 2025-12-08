@@ -1,42 +1,30 @@
+
 ---
 title: awesome-llm-apps
 ---
 
-# awesome-llm-apps
-一份关于大型语言模型（LLM）应用的精选列表，涵盖多种行业场景与技术实现。项目提供结构化的分类、标签和搜索功能，方便快速定位和学习优秀 LLM 项目。
+### [Shubhamsaboo awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
-## 主要特性
-- **全面覆盖**：列出从聊天机器人到生成式创作、代码助手、医疗诊断、教育工具等多领域 LLM 应用。
-- **结构化分类**：按行业、功能、技术栈等维度进行组织，帮助用户快速找到感兴趣的项目。
-- **持续更新**：项目维护者定期添加新应用和删除失效链接，保持列表时效。
-- **多语言支持**：包含中文、英文等多语种项目，满足不同语言需求的开发者。
-- **社区驱动**：支持 issue 与 pull request，任何人都可以贡献新的 LLM 应用。
+**项目核心内容总结：**
 
-## 功能
-- **搜索与筛选**：可通过关键字、标签或分类进行精准检索。
-- **项目详情**：每个条目链接到对应的 GitHub、Hugging Face 或官方文档，方便快速获取信息。
-- **技术栈标签**：标注使用的框架（如 PyTorch、TensorFlow、Transformers）和模型（如 GPT、BERT、LLaMA）。
-- **使用案例**：列举实际使用场景和示例代码，帮助快速上手。
+该项目是一个集成多种AI代理和大语言模型（LLM）应用的开源工具集，涵盖以下功能和特性：
 
-## 用法
-1. **浏览列表**  
-   直接在 GitHub 页面查看 `README.md`，按分类或标签浏览感兴趣的项目。  
-2. **克隆仓库**  
-   ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps
-   ```
-3. **贡献新项目**  
-   - Fork 本仓库  
-   - 新增或修改 `README.md` 中相应分类下的条目  
-   - 提交 PR，说明项目名称、链接、功能与技术栈
-4. **使用示例**  
-   ```bash
-   # 以 GPT-4 Chatbot 为例
-   pip install openai
-   export OPENAI_API_KEY='YOUR_KEY'
-   python -m openai chat --model gpt-4
-   ```
+**功能：**
+- 提供基于RAG（检索增强生成）的教程，支持Gemini、Llama3.1、Gemma等模型；
+- 包含多代理协作系统（如法律、招聘、教学团队），支持MCP协议（Model Context Protocol）；
+- 涵盖语音AI代理（如客服、音频导览）及本地化应用（如PDF、GitHub、YouTube交互）；
+- 提供记忆功能教程（如个性化聊天、旅行助手）和模型优化工具（如降低API成本30-60%）；
+- 包含模型微调教程（Gemma3、Llama3.2）及AI框架入门课程（Google ADK、OpenAI SDK）。
 
-## 项目地址
-https://github.com/Shubhamsaboo/awesome-llm-apps
+**使用方法：**
+1. 克隆仓库：`git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git`；
+2. 进入目标项目目录，如`cd awesome-llm-apps/starter_ai_agents/ai_travel_agent`；
+3. 安装依赖：`pip install -r requirements.txt`；
+4. 根据项目`README.md`中的具体说明运行应用。
+
+**主要特性：**
+- 支持主流模型（OpenAI、Claude、Gemini、Llama）；
+- 提供从基础到高级的完整教程（如多代理协作、RAG优化）；
+- 包含本地化部署方案（如本地RAG、记忆存储）；
+- 集成工具链（如MCP协议、数据库路由、语音交互）；
+- 提供性能优化（如TOON格式降本）和模型微调指导。

@@ -1,27 +1,21 @@
----
-title: marimo
----
-
-
 
 ---
 title: marimo
 ---
 
-该项目是Marimo，一个基于区块链的去中心化应用开发框架。它的主要特性包括：
+### [marimo-team marimo](https://github.com/marimo-team/marimo)
 
-1. **去中心化**：支持构建去中心化应用程序，确保数据的透明性和安全性。
-2. **可扩展性**：框架设计灵活，支持高度可扩展的应用结构，使开发者可以根据需求自由扩展功能。
-3. **用户友好**：提供简洁的API和文档，降低开发门槛，便于开发者上手。
+**marimo** 是一个可重复、交互式且可分享的 Python 编程环境，旨在替代传统笔记本的 JSON 草稿形式。其核心功能包括：  
+1. **响应式编程**：代码与数据自动同步更新，支持动态交互。  
+2. **多功能支持**：集成 SQL 单元、AI 代码补全、数据可视化及布局管理。  
+3. **兼容性**：支持将 Jupyter 笔记本自动转换为 marimo 格式，并可通过命令行工具创建、编辑和运行应用。  
+4. **灵活使用**：可作为脚本执行（`python your_notebook.py`），或通过 `marimo run` 以网页应用形式运行（隐藏代码）。  
+5. **社区资源**：提供教程、示例及云服务（molab）支持协作与分享。  
 
-功能包括：
-- 智能合约的创建与管理
-- 数据存储和交互
-- 用户身份验证和权限管理
+**使用方法**：  
+- 安装：`pip install marimo` 或 `conda install -c conda-forge marimo`。  
+- 创建/编辑笔记本：`marimo edit`。  
+- 运行应用：`marimo run your_notebook.py`。  
+- 转换 Jupyter 笔记本：`marimo convert your_notebook.ipynb > your_notebook.py`。  
 
-用法：
-1. 克隆项目：`git clone https://github.com/marimo-team/marimo`
-2. 安装依赖：按照项目文档中的指引进行依赖安装。
-3. 根据示例代码创建你的去中心化应用。
-
-项目地址：[https://github.com/marimo-team/marimo](https://github.com/marimo-team/marimo)
+**主要特性**：交互式数据可视化、模块化布局、支持云协作、与主流 Python 生态（如 NumPy、SciPy）兼容。

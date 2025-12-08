@@ -1,63 +1,31 @@
+
 ---
 title: PeerBanHelper
 ---
 
-# PeerBanHelper 项目
+### [PBH-BTN PeerBanHelper](https://github.com/PBH-BTN/PeerBanHelper)
 
-**GitHub 项目地址**: [https://github.com/PBH-BTN/PeerBanHelper](https://github.com/PBH-BTN/PeerBanHelper)
+**PeerBanHelper 核心内容总结：**
 
-## 主要特性
+**项目功能**  
+PeerBanHelper 是一款开源的个人网络防火墙工具，用于自动封禁异常、吸血或不受欢迎的 BT 客户端连接，支持自定义规则。主要功能包括：  
+- 通过 Web API 获取连接信息并识别潜在威胁  
+- 支持 PeerID、客户端名称、IP/GeoIP 等黑名单规则  
+- 虚假进度检测、自动连锁封禁、多拨追猎等高级功能  
+- 提供 WebUI 查看封禁列表、统计图表、规则订阅管理等  
 
-PeerBanHelper 是一个开源工具，专为 BTN (BroadcastTheNet) 社区设计，主要用于帮助用户管理 BT 下载中的 Peer 封禁（Peer Ban）问题。其核心特性包括：
+**使用方法**  
+1. 安装支持的客户端（如 qBittorrent 4.5.0+、Transmission 4.1.0+ 等），确保 Docker 容器使用 host 网络模式。  
+2. 通过 WebUI 管理封禁规则、订阅 IP 规则库（推荐使用 BTN-Collected-Rules）。  
+3. 安装后自动下载 GeoIP 数据库，支持按国家、网络类型等封禁 IP。  
 
-- **自动化检测与处理**：自动扫描和识别潜在的 Peer 封禁事件，支持实时监控下载进度。
-- **集成 BT 客户端**：兼容 qBittorrent、Transmission、BiglyBT、Deluge、BitComet 等流行 BT 客户端，提供插件式集成或脚本支持。
-- **数据可视化**：生成封禁报告和统计图表，帮助用户分析封禁原因（如 IP 泄露或协议违规）。
-- **隐私保护**：强调用户隐私，不收集个人信息，支持本地运行以避免数据外泄。
-- **跨平台支持**：适用于 Windows、macOS 和 Linux 系统，通过 Java 实现。
-- **PeerID 黑名单**：基于 PeerID 封禁不受欢迎的客户端。
-- **客户端名称黑名单**：基于客户端名称封禁。
-- **IP/GeoIP 黑名单**：基于 IP、地理位置或网络类型封禁。
-- **进度欺骗检查**：检测虚假进度以识别异常 Peer。
-- **自动连锁封禁**：自动封禁相关 IP 范围。
-- **多拨追猎**：支持多拨网络环境下的封禁。
-- **表达式引擎**：使用 AviatorScript 自定义封禁规则。
-- **主动监测**：提供本地数据分析功能。
-- **IP 规则订阅**：订阅外部 IP 规则列表。
-- **WebUI**：提供 Web 界面查看活跃封禁、历史日志、统计图表等。
+**主要特性**  
+- 支持多种 BT 客户端插件（需安装适配器）  
+- GeoIP 分析与封禁（显示 IP 归属地、AS 信息等）  
+- 提供本地数据分析、图表统计与历史封禁查询  
+- 可结合 BTN 网络规则库提升效果（非必需）  
 
-## 主要功能
-
-- **Peer 封禁检测**：监控 torrent 下载中的 Peer 连接，检测异常封禁信号，并自动隔离问题 Peer。
-- **日志分析**：解析 BT 客户端日志文件，提取封禁相关信息，并输出易读的报告。
-- **自动修复建议**：基于检测结果，提供 VPN 配置、端口转发或客户端设置的优化建议。
-- **批量处理**：支持同时处理多个 torrent 文件，提高效率。
-- **自定义规则**：用户可定义封禁过滤规则，例如忽略特定 IP 范围或协议类型。
-- **报告生成**：生成详细的封禁报告和统计。
-- **GeoIP 支持**：集成 GeoIP 库，支持按国家、城市、ASN 等封禁。
-- **通知系统**：可选的通知机制。
-
-## 用法
-
-1. **安装**：
-   - 克隆仓库：`git clone https://github.com/PBH-BTN/PeerBanHelper.git`
-   - 安装依赖：进入项目目录，运行 `pip install -r requirements.txt`（需要 Python 3.6+）。
-
-2. **配置**：
-   - 编辑 `config.yaml` 文件，设置 BT 客户端路径、监控目录和 VPN 接口。
-   - 示例配置：
-     ```
-     client_path: /path/to/qbittorrent
-     watch_dir: /downloads
-     vpn_interface: tun0
-     ```
-
-3. **运行**：
-   - 命令行启动：`python main.py --watch`（监控模式）。
-   - 分析日志：`python analyzer.py --log /path/to/logfile.log`。
-   - 生成报告：运行后，报告将保存在 `output/` 目录下。
-
-4. **注意事项**：
-   - 确保 BT 客户端启用日志记录。
-   - 项目仅供学习和个人使用，遵守 BTN 社区规则。
-   - 如遇问题，参考仓库的 README.md 或 issues 页面。
+**注意事项**  
+- Docker 安装需使用 host 网络驱动以获取真实 IP  
+- 不支持 I2P/Tor 连接、BitComet 的 P2SP 功能  
+- 需遵守软件声明，禁止用于非法活动

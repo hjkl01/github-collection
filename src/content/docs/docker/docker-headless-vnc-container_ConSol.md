@@ -1,26 +1,29 @@
+
 ---
 title: docker-headless-vnc-container
 ---
 
-# ConSol/docker-headless-vnc-container 项目描述
+### [ConSol docker-headless-vnc-container](https://github.com/ConSol/docker-headless-vnc-container)
 
-## 项目地址
+**项目核心内容总结：**
 
-[https://github.com/ConSol/docker-headless-vnc-container](https://github.com/ConSol/docker-headless-vnc-container)
+该项目提供基于Docker的无头VNC容器镜像，包含Xfce4或IceWM桌面环境、VNC服务器（默认端口5901）、noVNC HTML5客户端（默认端口6901）及Firefox/Chromium浏览器，支持Rocky 9和Debian 11系统。  
 
-## 主要特性
+**主要功能与特性：**  
+1. **使用方法**  
+   - 通过`docker run`命令启动容器，映射端口后可通过VNC客户端（如`localhost:5901`）或noVNC网页（`http://localhost:6901`）访问桌面环境。  
+   - 支持自定义用户权限（如`--user $(id -u):$(id -g)`）、调整VNC分辨率（`VNC_RESOLUTION`）、修改密码（`VNC_PW`）或启用只读模式（`VNC_VIEW_ONLY=true`）。  
 
-- **无头VNC容器**：提供基于Docker的无图形界面（headless）VNC服务器，支持远程桌面访问。
-- **多桌面环境支持**：内置多种Linux桌面环境，如XFCE、KDE、GNOME等，用户可根据需求选择。
-- **VNC协议兼容**：使用TigerVNC或TightVNC，支持标准VNC客户端连接，实现远程图形界面访问。
-- **轻量级设计**：容器化部署，资源占用低，适合开发、测试和CI/CD环境。
-- **安全性增强**：支持VNC密码认证、SSL/TLS加密（可选），并可配置防火墙规则。
-- **跨平台兼容**：基于Debian/Ubuntu等基础镜像，支持x86_64和ARM架构。
+2. **扩展性**  
+   - 可通过自定义Dockerfile安装额外软件（需切换至root用户）。  
 
-## 主要功能
+3. **已知问题**  
+   - 高分辨率下Chromium可能崩溃，需通过`--shm-size=256m`参数扩展共享内存。  
 
-带有 Xfce 桌面的无头 VNC 容器
+4. **部署支持**  
+   - 提供Kubernetes和OpenShift部署文档。  
 
-## 用法
-
-请参考项目文档获取详细用法。
+**默认配置：**  
+- VNC密码：`vncpassword`  
+- 默认用户ID：1000（可修改）  
+- 环境变量可自定义分辨率、密码等。

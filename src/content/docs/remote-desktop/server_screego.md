@@ -1,42 +1,25 @@
+
 ---
 title: server
 ---
 
-# Screego Server 项目
+### [screego server](https://github.com/screego/server)
 
-## 项目地址
-[https://github.com/screego/server](https://github.com/screego/server)
+**项目核心内容总结：**  
+screego/server 是一个用于高质量、低延迟屏幕共享的工具，解决传统协作工具（如 Microsoft Teams）在屏幕共享时的卡顿和画质差问题。  
 
-## 主要特性
-Screego Server 是一个开源的屏幕共享和远程访问工具，主要基于 WebRTC 技术实现实时视频流传输和协作功能。其核心特性包括：
-- **实时屏幕共享**：支持从浏览器或桌面应用快速共享屏幕，支持多用户同时查看。
-- **低延迟传输**：利用 WebRTC 协议，实现低延迟、高质量的视频和音频流传输，无需额外插件。
-- **简单部署**：支持 Docker 一键部署，便于在服务器或本地环境中运行。
-- **安全性**：内置加密机制，确保共享会话的安全性，支持自定义房间访问控制。
-- **跨平台支持**：兼容 Web 浏览器、桌面客户端，适用于远程协作、在线教学或技术支持场景。
+**主要功能与特性：**  
+- 支持多用户同时屏幕共享  
+- 基于 WebRTC 实现安全传输  
+- 低延迟、高分辨率画面传输  
+- 安装简单：支持 Docker 镜像或单文件二进制安装  
+- 集成 TURN 服务器，优化 NAT 网络环境下的连接稳定性  
 
-## 主要功能
-- **房间管理**：创建和管理共享房间，支持临时或持久化房间。
-- **多媒体流**：共享屏幕、摄像头视频和音频，支持全屏或窗口模式。
-- **协作工具**：集成基本绘图或标注功能，便于远程演示和互动。
-- **API 接口**：提供 RESTful API，用于集成到其他应用中，实现自动化共享。
-- **监控与日志**：内置性能监控和日志记录，帮助诊断连接问题。
+**使用方式：**  
+通过 Docker 部署或直接运行二进制文件安装，可参考项目提供的 [安装指南](https://screego.net/#/install) 和 [配置文档](https://screego.net/#/config) 进行设置。  
 
-## 用法
-1. **安装与部署**：
-   - 克隆仓库：`git clone https://github.com/screego/server.git`
-   - 使用 Docker 运行：`docker-compose up`（确保安装 Docker 和 Docker Compose）。
-   - 或手动构建：安装 Go 环境，运行 `go build` 后启动 `./server`。
+**版本管理：**  
+采用 [SemVer](http://semver.org/) 规范，版本信息见仓库标签。  
 
-2. **基本使用**：
-   - 启动服务器后，访问 `http://localhost:8080`（默认端口）。
-   - 创建新房间：点击“Create Room”生成唯一房间 ID。
-   - 共享屏幕：在浏览器中选择“Share Screen”，输入房间 ID 加入。
-   - 远程查看：其他用户通过房间 ID 加入，实时查看共享内容。
-
-3. **高级配置**：
-   - 编辑 `config.yaml` 文件自定义端口、TURN 服务器（用于 NAT 穿越）和认证设置。
-   - 对于生产环境，配置 HTTPS 以提升安全性。
-   - 集成客户端：使用官方 Web 客户端或下载桌面版连接服务器。
-
-更多细节请参考仓库的 README 和文档。
+**其他：**  
+提供 [在线演示实例](https://app.screego.net/) 供体验。

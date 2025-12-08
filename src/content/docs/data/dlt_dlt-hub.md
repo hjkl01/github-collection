@@ -1,70 +1,26 @@
+
 ---
 title: dlt
 ---
 
-# dlt (data load tool)
+### [dlt-hub dlt](https://github.com/dlt-hub/dlt)
 
-## 项目简介
+**项目核心内容总结**  
 
-dlt 是一个开源的 Python 库，用于简化数据加载任务。它可以从各种数据源（如 REST API、SQL 数据库、云存储等）提取数据，并将其加载到结构化的数据集中。dlt 设计简单、灵活且可扩展，支持增量加载、模式演化和多种目的地。
+dlt 是一个开源 Python 库，用于自动化从各种数据源（如 REST API、SQL 数据库、云存储等）提取数据，并将其结构化加载到目标系统（如 DuckDB、数据库等）。其核心功能包括：  
+- **数据处理**：自动推断数据模式、处理嵌套结构、支持增量加载和模式演变。  
+- **灵活部署**：适用于本地开发、云函数（如 AWS Lambda）、Airflow 等多种环境。  
+- **多源多目标**：支持从 API、文件、数据库等加载数据，并兼容多种数据存储目的地。  
 
-## 主要功能
+**使用方法**  
+通过 `pip install dlt` 安装后，可快速构建数据管道。例如，从 chess.com API 获取数据并保存到 DuckDB：  
+1. 创建管道对象，指定目标（如 DuckDB）和数据集名称。  
+2. 调用 API 获取数据。  
+3. 使用 `pipeline.run()` 方法执行数据加载。  
 
-- **数据提取**：支持从 REST API、SQL 数据库、文件系统、Python 数据结构等多种来源提取数据。
-- **数据规范化**：自动推断模式和数据类型，处理嵌套数据结构。
-- **多种目的地**：支持流行的数据仓库和数据库，如 DuckDB、BigQuery、Snowflake 等，并允许自定义目的地。
-- **增量加载**：自动化维护管道，支持增量数据加载。
-- **模式演化**：处理数据模式的变化。
-- **数据访问**：支持 Python 和 SQL 数据访问、转换和管道检查。
-- **部署灵活**：可在任何运行 Python 的环境中部署，如 Airflow、服务器less 函数等。
-
-## 安装
-
-dlt 支持 Python 3.9 到 3.14（3.14 支持为实验性）。
-
-```bash
-pip install dlt
-```
-
-## 快速开始
-
-以下是一个简单的示例，从 Chess.com API 加载玩家数据到 DuckDB：
-
-```python
-import dlt
-from dlt.sources.helpers import requests
-
-# 创建 dlt 管道，将数据加载到 DuckDB
-pipeline = dlt.pipeline(
-    pipeline_name='chess_pipeline',
-    destination='duckdb',
-    dataset_name='player_data'
-)
-
-# 从 Chess.com API 获取玩家数据
-data = []
-for player in ['magnuscarlsen', 'rpragchess']:
-    response = requests.get(f'https://api.chess.com/pub/player/{player}')
-    response.raise_for_status()
-    data.append(response.json())
-
-# 提取、规范化并加载数据
-pipeline.run(data, table_name='player')
-```
-
-你可以在 [Colab Demo](https://colab.research.google.com/drive/1NfSB1DpwbbHX9_t5vlalBTf13utwpMGx?usp=sharing) 或 [playground](https://dlthub.com/docs/tutorial/playground) 中试用。
-
-## 文档和示例
-
-- 详细文档：[dlthub.com/docs](https://dlthub.com/docs)
-- 示例代码：[examples](https://dlthub.com/docs/examples)
-
-## 社区和贡献
-
-- 加入社区：[Slack](https://dlthub.com/community)
-- 报告问题：[GitHub Issues](https://github.com/dlt-hub/dlt/issues)
-- 贡献代码：请阅读 [CONTRIBUTING.md](https://github.com/dlt-hub/dlt/blob/devel/CONTRIBUTING.md)
-
-## 许可证
-
-Apache 2.0 License
+**主要特性**  
+- 自动化数据清洗、模式推断与类型转换。  
+- 支持 Python 3.9-3.14（部分功能对 3.14 为实验性）。  
+- 提供增量加载、版本控制及数据合同校验功能。  
+- 可通过 LLM 工具链扩展至 5000+ 数据源，兼容 Marimo Notebooks 可视化。  
+- 社区驱动，提供文档、教程及 Slack 技术交流渠道。

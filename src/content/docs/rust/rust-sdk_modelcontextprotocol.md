@@ -1,98 +1,23 @@
+
 ---
-title: Rust Sdk
+title: rust-sdk
 ---
 
-# rust-sdk
+### [modelcontextprotocol rust-sdk](https://github.com/modelcontextprotocol/rust-sdk)
 
-## 功能介绍
+**项目核心内容总结：**
 
-rust-sdk 是 Model Context Protocol (MCP) 的官方 Rust SDK 实现，使用 tokio 异步运行时。该项目提供了构建 MCP 客户端和服务器的核心功能，支持通过 JSON-RPC 2.0 协议进行通信。
+**项目功能**  
+RMCP 是 Model Context Protocol（MCP）的官方 Rust SDK 实现，基于 tokio 异步运行时，提供协议核心功能及代码生成工具，支持构建客户端/服务端应用。
 
-主要组件包括：
+**使用方法**  
+1. **依赖导入**：通过 `Cargo.toml` 引入 `rmcp`（支持 `server` 功能）或开发分支。  
+2. **依赖项**：需使用 `tokio`、`serde` 和 `schemars`（用于 JSON Schema 生成）。  
+3. **客户端构建**：通过 `TokioChildProcess` 启动子进程连接服务端。  
+4. **服务端构建**：定义服务逻辑（如 `Counter`），结合 `stdin/stdout` 传输层启动服务，支持请求/通知交互及服务关闭监听。
 
-- **rmcp**: 核心 crate，提供 RMCP 协议实现
-- **rmcp-macros**: 过程宏 crate，用于生成 RMCP 工具实现
-
-## 用法
-
-### 导入 crate
-
-在 `Cargo.toml` 中添加依赖：
-
-```toml
-rmcp = { version = "0.8.0", features = ["server"] }
-# 或者使用开发版本
-rmcp = { git = "https://github.com/modelcontextprotocol/rust-sdk", branch = "main" }
-```
-
-### 第三方依赖
-
-基本依赖：
-
-- [tokio](https://github.com/tokio-rs/tokio) (必需)
-- [serde](https://github.com/serde-rs/serde) (必需)
-
-### 构建客户端
-
-```rust
-use rmcp::{ServiceExt, transport::{TokioChildProcess, ConfigureCommandExt}};
-use tokio::process::Command;
-
-#[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let client = ().serve(TokioChildProcess::new(Command::new("npx").configure(|cmd| {
-        cmd.arg("-y").arg("@modelcontextprotocol/server-everything");
-    }))?).await?;
-    Ok(())
-}
-```
-
-### 构建服务器
-
-1. 构建传输层：
-
-```rust
-use tokio::io::{stdin, stdout};
-let transport = (stdin(), stdout());
-```
-
-2. 构建服务：
-
-```rust
-let service = common::counter::Counter::new();
-```
-
-3. 启动服务器：
-
-```rust
-let server = service.serve(transport).await?;
-```
-
-4. 与服务器交互：
-
-```rust
-// 请求
-let roots = server.list_roots().await?;
-
-// 发送通知
-server.notify_cancelled(...).await?;
-```
-
-5. 等待服务关闭：
-
-```rust
-let quit_reason = server.waiting().await?;
-// 或者取消
-let quit_reason = server.cancel().await?;
-```
-
-更多示例请参考 [examples](https://github.com/modelcontextprotocol/rust-sdk/tree/main/examples) 目录。
-
-## OAuth 支持
-
-详情请参考 [OAuth 支持文档](https://github.com/modelcontextprotocol/rust-sdk/blob/main/docs/OAUTH_SUPPORT.md)。
-
-## 相关资源
-
-- [MCP 规范](https://spec.modelcontextprotocol.io/specification/2024-11-05/)
-- [Schema](https://github.com/modelcontextprotocol/specification/blob/main/schema/2024-11-05/schema.ts)
+**主要特性**  
+- 提供异步运行时支持，适配 tokio 生态；  
+- 包含代码生成宏（`rmcp-macros`），简化工具实现；  
+- 支持 OAuth 认证；  
+- 提供多个扩展项目（如 `actix-web` 后端、OpenAPI 转换工具）及实际应用案例（如 S3 兼容存储、容器管理、Neovim 插件等）。

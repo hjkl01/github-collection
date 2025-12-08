@@ -1,61 +1,28 @@
+
 ---
 title: gofr
 ---
 
-# GoFr
+### [gofr-dev gofr](https://github.com/gofr-dev/gofr)
 
-GoFr 是一个用于加速微服务开发的 Go 框架，提供内置的数据库和可观测性支持。
+**GoFr项目核心内容总结**：
 
-## 功能
+**项目功能**  
+GoFr是一个面向微服务开发的框架，专注于简化Kubernetes部署和提供开箱即用的可观测性（日志、追踪、指标）。支持构建通用应用，但核心定位是微服务。
 
-- **简单 API 语法**：提供直观的 API 定义方式。
-- **默认 REST 标准**：遵循 RESTful 设计原则。
-- **配置管理**：内置配置处理。
-- **可观测性**：支持日志、跟踪和指标收集。
-- **认证中间件**：内置认证支持和自定义中间件。
-- **gRPC 支持**：原生支持 gRPC 服务。
-- **HTTP 服务**：带断路器支持的 HTTP 通信。
-- **Pub/Sub**：发布-订阅模式支持。
-- **健康检查**：对所有数据源进行健康监控。
-- **数据库迁移**：简化数据库模式更新。
-- **Cron Jobs**：定时任务支持。
-- **动态日志级别**：无需重启更改日志级别。
-- **Swagger 渲染**：自动生成 API 文档。
-- **抽象文件系统**：统一的文件操作接口。
-- **Websockets**：实时通信支持。
+**主要特性**  
+- 简单API语法与默认REST标准  
+- 配置管理、认证中间件、gRPC、HTTP服务（含熔断）、Pub/Sub、健康检查、数据库迁移、定时任务  
+- 支持远程调整日志级别、Swagger文档生成、抽象文件系统、WebSocket  
+- 提供开箱即用的可观测性能力  
 
-## 用法
+**使用方法**  
+- **环境要求**：Go 1.24及以上  
+- **安装**：通过`go get -u gofr.dev/pkg/gofr`或导入包`import "gofr.dev/pkg/gofr"`  
+- **运行示例**：创建包含`gofr.New()`和路由定义的代码，执行`go run main.go`后访问`localhost:8000/greet`  
 
-### 安装
-
-```bash
-go get -u gofr.dev/pkg/gofr
-```
-
-### 基本示例
-
-```go
-package main
-
-import "gofr.dev/pkg/gofr"
-
-func main() {
-    app := gofr.New()
-
-    app.GET("/greet", func(ctx *gofr.Context) (any, error) {
-        return "Hello World!", nil
-    })
-
-    app.Run() // 监听 localhost:8000
-}
-```
-
-运行应用：
-
-```bash
-go run main.go
-```
-
-访问 `http://localhost:8000/greet` 查看结果。
-
-更多示例请参考 [GoFr 示例目录](https://github.com/gofr-dev/gofr/tree/development/examples)。
+**其他**  
+- 文档：提供[GoDoc](https://pkg.go.dev/gofr.dev)和[官方文档](https://gofr.dev/docs)  
+- 贡献：可通过提交PR、撰写教程等方式参与，贡献者可获纪念品  
+- 克隆方式：支持HTTPS或SSH克隆仓库  
+- 合作伙伴：如JetBrains等。

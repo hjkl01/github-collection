@@ -1,46 +1,27 @@
+
 ---
 title: nvm
 ---
 
-# NVM 项目概述
+### [nvm-sh nvm](https://github.com/nvm-sh/nvm)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/nvm-sh/nvm)
+**项目核心内容总结：**
 
-## 主要特性
-NVM (Node Version Manager) 是一个用于管理 Node.js 版本的工具，主要特性包括：
-- **多版本支持**：允许用户在同一系统上安装和管理多个 Node.js 版本，并轻松切换。
-- **自动切换**：根据当前项目目录自动切换到指定的 Node.js 版本（通过 `.nvmrc` 文件）。
-- **易于安装和卸载**：支持从源代码或二进制包安装 Node.js 版本，并可轻松移除不需要的版本。
-- **兼容性强**：支持 Unix-like 系统（如 Linux、macOS）和 Windows（通过 nvm-windows 变体）。
-- **开源免费**：基于 Bash 脚本实现，轻量级且无外部依赖。
+**1. 项目功能**  
+nvm（Node Version Manager）是一款用于管理Node.js版本的工具，支持安装、切换和管理多个Node.js版本，适用于开发环境中的版本兼容需求。
 
-## 主要功能
-- **安装 Node.js 版本**：下载并安装特定版本的 Node.js，包括 LTS（长期支持）版本和最新版本。
-- **版本管理**：列出已安装版本、设置默认版本、切换当前使用的版本。
-- **npm 集成**：每个 Node.js 版本对应独立的 npm 环境，避免版本冲突。
-- **项目级配置**：通过 `.nvmrc` 文件指定项目所需的 Node.js 版本，实现团队协作一致性。
-- **别名支持**：为常用版本创建别名，便于快速访问。
+**2. 使用方法**  
+- 通过命令行安装：使用 `curl` 或 `wget` 下载安装脚本并执行（如 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`）。  
+- 安装后可通过 `nvm install <版本号>` 安装指定版本，`nvm use <版本号>` 切换版本。  
+- 支持列出已安装版本（`nvm ls`）和查看可用版本（`nvm ls-remote`）。
 
-## 用法
-### 安装 NVM
-1. 对于 Unix-like 系统，运行以下命令：
-   ```
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-   ```
-   或使用 wget：
-   ```
-   wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-   ```
-2. 重启终端或运行 `source ~/.bashrc`（或对应 shell 配置文件）以加载 NVM。
+**3. 主要特性**  
+- **多版本管理**：支持同时安装多个Node.js版本，并快速切换。  
+- **跨平台兼容**：适用于Linux、macOS、Windows（WSL）等系统。  
+- **自动适配**：自动处理依赖库（如zlib）的编译问题。  
+- **特殊场景支持**：针对Apple Silicon芯片的Mac提供编译旧版本Node.js的解决方案（需通过Rosetta 2）。  
 
-### 基本命令
-- **安装 Node.js 版本**：`nvm install <version>`（例如：`nvm install 18.17.0` 或 `nvm install --lts`）。
-- **使用特定版本**：`nvm use <version>`（例如：`nvm use 18.17.0`）。
-- **设置默认版本**：`nvm alias default <version>`。
-- **列出已安装版本**：`nvm list` 或 `nvm ls`。
-- **列出可用版本**：`nvm ls-remote`。
-- **卸载版本**：`nvm uninstall <version>`。
-- **在项目中使用**：在项目根目录创建 `.nvmrc` 文件，写入所需版本（如 `18.17.0`），然后运行 `nvm use` 自动切换。
-
-更多详情请参考项目 README。
+**4. 注意事项**  
+- 安装旧版本Node.js（如v16以下）时，需在Rosetta 2环境下编译。  
+- WSL用户若遇到网络问题，需手动配置DNS（如设置 `nameserver 8.8.8.8`）。  
+- 项目仅维护最新版本，旧版本需通过商业支持获取安全更新。

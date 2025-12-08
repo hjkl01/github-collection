@@ -1,43 +1,21 @@
+
 ---
 title: docs
 ---
 
-# La Suite Docs
+### [suitenumerique docs](https://github.com/suitenumerique/docs)
 
-**GitHub 项目地址：** [https://github.com/suitenumerique/docs](https://github.com/suitenumerique/docs)
+### 核心内容总结  
+**项目功能**：Docs 是一个协作文本编辑器，支持实时协作、内容安全控制、多格式导出（如 `.docx`、`.pdf`）及子页面知识管理，适用于团队知识共建与共享。  
 
-## 主要特性
+**使用方法**：  
+- 浏览器测试：访问提供的[演示文档链接](https://impress-preprod.beta.numerique.gouv.fr/docs/6ee5aac4-4fb9-457d-95bf-bb56c2467713/)。  
+- 本地运行：需安装 Docker 和 Docker Compose，通过 `make bootstrap` 初始化项目，使用默认账号 `username: impress`、`password: impress` 登录。  
 
-- **协作文本编辑**：Docs 是一个协作文本编辑器，旨在解决知识构建和分享中的常见挑战。
-- **实时协作**：享受实时编辑，见证团队实时协作。
-- **安全访问控制**：通过细粒度访问控制保持信息安全，仅与合适的人分享。
-- **多格式导出**：以多种格式导出内容（.odt, .docx, .pdf），支持自定义模板。
-- **自托管**：易于在自己的服务器上安装，支持 Kubernetes 和 Docker Compose。
+**主要特性**：  
+- **写作**：支持 Markdown 语法、多种区块类型、离线编辑、AI 辅助功能（如改写、翻译）。  
+- **协作**：实时编辑、权限控制、多格式导出。  
+- **自托管**：支持 Kubernetes、Docker Compose 等部署方式，社区提供多种安装方案。  
+- **许可证**：核心代码为 MIT，部分高级功能依赖 GPL 许可证的组件，可通过环境变量 `PUBLISH_AS_MIT` 排除。  
 
-## 主要功能
-
-- **写作**：简单、可访问的在线编辑；美观格式；Markdown 语法；块类型和快捷键；离线写作；AI 动作如重述、总结、翻译。
-- **协作**：实时编辑；安全控制；导出；子页面组织知识。
-- **自托管**：支持 Docker Compose、Kubernetes 等安装方式。
-
-## 用法
-
-### 测试
-
-访问 [demo document](https://impress-preprod.beta.numerique.gouv.fr/docs/6ee5aac4-4fb9-457d-95bf-bb56c2467713/) 在浏览器中测试。
-
-### 本地运行
-
-使用 Docker 和 Docker Compose：
-
-1. 安装 Docker 和 Docker Compose。
-2. 运行 `make bootstrap FLUSH_ARGS='--no-input'` 启动服务。
-3. 访问 http://localhost:3000，默认凭据：username: impress, password: impress。
-
-### 自托管
-
-支持 Kubernetes、Docker Compose 等。详见 [安装文档](/docs/installation/README.md)。
-
-### 贡献
-
-在 [Crowdin](https://crowdin.com/project/lasuite-docs) 帮助翻译，或提交 PR。见 [CONTRIBUTING](https://github.com/suitenumerique/docs/blob/main/CONTRIBUTING.md)。
+**其他**：项目由法国与德国政府联合开发，使用 Django、Next.js、BlockNote.js 等技术栈，支持多语言翻译及社区贡献。

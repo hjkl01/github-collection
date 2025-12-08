@@ -1,56 +1,22 @@
+
 ---
 title: cpython
 ---
 
-## 功能介绍
+### [python cpython](https://github.com/python/cpython)
 
-CPython 是 Python 编程语言的官方实现，由 Python Software Foundation 维护。它提供了完整的 Python 解释器、标准库以及所有必要的组件，用于开发和运行 Python 应用程序。CPython 支持多种平台，包括 Unix、Linux、BSD、macOS、Windows 和 Cygwin。
+**项目核心内容总结**  
+1. **项目功能**：CPython是Python的官方实现，提供Python 3.15.0 alpha 2版本的源代码，包含标准库、构建工具及多平台支持（Unix/Linux/BSD/macOS/Windows）。  
 
-主要功能包括：
+2. **使用方法**：  
+   - **构建安装**：在Unix/macOS等系统通过`./configure`、`make`、`make install`编译安装；Windows需参考`PCbuild/readme.txt`。  
+   - **优化构建**：支持通过`--enable-optimizations`启用Profile Guided Optimization（PGO）和Link Time Optimization（LTO），提升性能。  
 
-- Python 解释器：执行 Python 代码
-- 标准库：内置模块和函数
-- 扩展支持：C/C++ 扩展模块
-- 跨平台兼容性
-- 性能优化：支持 Profile Guided Optimization (PGO) 和 Link Time Optimization (LTO)
+3. **主要特性**：  
+   - 提供多版本共存安装方案，通过`make altinstall`避免覆盖主版本。  
+   - 包含测试框架，支持`make test`运行测试，可调试失败用例。  
+   - 文档在线可下载（HTML/EPUB等格式），并附有“What’s New”说明新特性。  
 
-## 用法
-
-### 安装 Python
-
-从 [python.org](https://www.python.org) 下载预编译的安装包，或从源码构建。
-
-### 从源码构建
-
-在 Unix、Linux、BSD、macOS 和 Cygwin 上：
-
-```bash
-./configure
-make
-make test
-sudo make install
-```
-
-这将安装 Python 作为 `python3`。
-
-### 运行 Python
-
-安装后，可以使用 `python3` 命令运行 Python 脚本：
-
-```bash
-python3 script.py
-```
-
-### 测试
-
-运行测试套件：
-
-```bash
-make test
-```
-
-### 贡献
-
-如果想为 CPython 贡献代码，请参考 [Developer Guide](https://devguide.python.org/)。
-
-更多信息请访问 [Python 官方网站](https://www.python.org) 和 [文档](https://docs.python.org)。
+4. **其他**：  
+   - 开源许可为PSF许可，无GPL代码，允许商业使用。  
+   - 项目托管于GitHub，提供构建状态、问题跟踪及社区讨论链接。

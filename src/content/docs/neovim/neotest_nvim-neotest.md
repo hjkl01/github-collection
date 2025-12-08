@@ -1,78 +1,26 @@
+
 ---
 title: neotest
 ---
 
-# Neotest
+### [nvim-neotest neotest](https://github.com/nvim-neotest/neotest)
 
-Neotest 是一个用于在 NeoVim 中与测试交互的可扩展框架。它允许用户运行、调试和查看测试结果，支持多种测试运行器。
+**项目功能**  
+Neotest 是一个用于 Neovim 的测试工具，支持运行、调试、收集测试结果，并提供可视化界面展示测试状态和输出。  
 
-## 功能
+**使用方法**  
+- 运行单个测试：`require("neotest").run.run()`  
+- 运行当前文件：`require("neotest").run.run(vim.fn.expand("%"))`  
+- 调试测试：`require("neotest").run.run({strategy = "dap"})`  
+- 停止测试：`require("neotest").run.stop()`  
+- 查看测试输出：通过 `:h neotest.output` 或 `:h neotest.output_panel` 查看结果。  
 
-- **测试运行**：运行最近的测试、当前文件或整个测试套件。
-- **调试支持**：与 nvim-dap 集成，支持调试测试。
-- **输出显示**：提供输出窗口、摘要窗口和诊断消息。
-- **状态指示**：在代码中显示测试状态符号。
-- **可扩展性**：支持多种适配器，用于不同语言和测试框架。
+**主要特性**  
+1. **多策略支持**：支持 `integrated`（后台运行）和 `dap`（调试）两种测试运行方式。  
+2. **可视化工具**：提供输出窗口、摘要窗口、诊断信息、状态标志等，实时展示测试结果和状态。  
+3. **自动监听**：通过 `:h neotest.watch` 监听文件变化并自动重跑相关测试。  
+4. **适配器扩展**：支持自定义适配器，需实现测试解析、命令构造和结果收集三大功能，适用于不同测试框架（如 Plenary、Vim-test 等）。  
+5. **跨语言支持**：基于 Treesitter 或正则表达式解析测试文件，兼容多种编程语言。  
 
-## 用法
-
-### 安装
-
-Neotest 需要以下依赖：
-
-- [nvim-nio](https://github.com/nvim-neotest/nvim-nio)
-- [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [FixCursorHold.nvim](https://github.com/antoinemadec/FixCursorHold.nvim)（推荐）
-
-使用包管理器安装，例如 lazy.nvim：
-
-```lua
-{
-  "nvim-neotest/neotest",
-  dependencies = {
-    "nvim-neotest/nvim-nio",
-    "nvim-lua/plenary.nvim",
-    "antoinemadec/FixCursorHold.nvim",
-    "nvim-treesitter/nvim-treesitter"
-  }
-}
-```
-
-还需要安装适配器，例如 neotest-python 用于 Python 测试。
-
-### 配置
-
-在 init.lua 中配置：
-
-```lua
-require("neotest").setup({
-  adapters = {
-    require("neotest-python")({
-      dap = { justMyCode = false },
-    }),
-    require("neotest-plenary"),
-  },
-})
-```
-
-### 基本用法
-
-- 运行最近的测试：`require("neotest").run.run()`
-- 运行当前文件：`require("neotest").run.run(vim.fn.expand("%"))`
-- 调试最近的测试：`require("neotest").run.run({strategy = "dap"})`
-- 停止测试：`require("neotest").run.stop()`
-- 附加到测试：`require("neotest").run.attach()`
-
-### 消费者
-
-- **输出窗口**：显示测试输出。
-- **摘要窗口**：显示测试套件结构。
-- **诊断消息**：在代码中显示错误。
-- **状态符号**：显示测试状态。
-
-### 支持的运行器
-
-Neotest 支持多种测试运行器，包括 pytest、jest、rspec 等，通过相应的适配器。
-
-更多详情请参考 [Neotest GitHub](https://github.com/nvim-neotest/neotest)。
+**核心内容总结**  
+Neotest 是 Neovim 的测试管理工具，提供测试运行、调试、结果收集及可视化展示功能，支持自定义适配器和多语言测试框架，提升开发效率。

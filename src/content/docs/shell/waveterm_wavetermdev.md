@@ -1,58 +1,22 @@
+
 ---
 title: waveterm
 ---
 
-# waveterm
+### [wavetermdev waveterm](https://github.com/wavetermdev/waveterm)
 
-项目地址: https://github.com/wavetermdev/waveterm
+Wave Terminal 是一款跨平台（MacOS、Linux、Windows）开源终端工具，整合了传统终端功能与图形化能力，支持文件预览、网页浏览、AI 协助等功能，用户可在终端内直接操作，无需切换浏览器或编辑器。  
 
-## 项目简介
-waveterm 是一个现代化的终端模拟器，采用 Electron + xterm.js 构建，目标是提供轻量、可定制、跨平台的终端体验。它支持多标签、分屏、SSH/SFTP、插件化扩展、主题切换等功能。
+**核心功能**：  
+- 拖拽式界面管理终端块、编辑器、浏览器和 AI 助手；  
+- 内置远程文件编辑器（语法高亮、现代编辑功能）；  
+- 支持远程文件预览（Markdown、图片、视频、PDF 等）；  
+- AI 助手（Wave AI）可分析终端输出、执行文件操作，支持多模型（OpenAI、Claude 等）；  
+- 通过 `wsh` 命令管理终端工作区，支持文件在本地、远程服务器、S3 间同步；  
+- 安全存储 API 密钥等敏感信息，支持跨 SSH 会话访问。  
 
-## 主要特性
-- **多标签与分屏**：支持在同一窗口打开多个终端会话，支持水平/垂直拆分。
-- **SSH / SFTP**：内置 SSH 客户端，支持文件传输、目录同步。
-- **插件系统**：通过插件机制扩展功能，例如自动补全、脚本执行等。
-- **主题与皮肤**：内置多种主题，可自由切换；支持自定义配色。
-- **快捷键与命令行**：提供丰富的快捷键，支持自定义快捷键。
-- **弹性布局**：可拖拽调整终端窗口大小，支持最大化/恢复。
+**使用方法**：  
+通过官网下载安装包（[www.waveterm.dev/download](https://www.waveterm.dev/download)），或参考文档中的平台特定安装指南。最低系统要求包括 macOS 11、Windows 10 1809、Linux glibc 2.28 等。  
 
-## 功能概览
-| 功能 | 描述 |
-|------|------|
-| **终端交互** | 直接在应用中执行 shell 命令，支持多种 shell（bash, zsh, powershell 等）。 |
-| **文件管理** | 通过 SFTP 在终端内浏览、上传、下载文件。 |
-| **插件开发** | 通过提供的 API 开发自定义插件，添加新功能。 |
-| **配置管理** | 支持 JSON/YAML 配置文件，便于自动化部署。 |
-
-## 快速使用
-1. **克隆仓库**  
-   ```bash
-   git clone https://github.com/wavetermdev/waveterm.git
-   cd waveterm
-   ```
-
-2. **安装依赖**  
-   ```bash
-   npm install
-   ```
-
-3. **运行**  
-   ```bash
-   npm start
-   ```
-
-4. **打包**  
-   ```bash
-   npm run build
-   ```
-
-5. **配置 SSH**  
-   在 `~/.waveterm/ssh_config.json` 添加 SSH 连接信息，启动后即可通过 GUI 连接。
-
-## 文档与支持
-- **官方文档**：见仓库根目录的 `README.md` 与 `docs/` 目录。  
-- **社区支持**：在 GitHub Issues 讨论问题，或加入官方 Discord/Slack。  
-
-## 结语
-waveterm 旨在以现代化 UI 提供稳定、高效的终端体验，适合开发者、系统管理员甚至日常使用。欢迎贡献代码或提交 Issue。
+**主要特性**：  
+支持全屏切换、命令块监控、远程连接、主题自定义、AI 聊天插件等，适用于开发过程中需频繁切换终端与浏览器的场景。

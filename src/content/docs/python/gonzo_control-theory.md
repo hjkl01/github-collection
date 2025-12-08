@@ -1,53 +1,35 @@
+
 ---
 title: gonzo
 ---
 
-# Gonzo 项目
+### [control-theory gonzo](https://github.com/control-theory/gonzo)
 
-## 项目地址
-[https://github.com/control-theory/gonzo](https://github.com/control-theory/gonzo)
+**项目功能：**  
+Gonzo 是一个基于终端的实时日志分析工具，支持多种日志格式（包括 OTLP），并提供丰富的分析功能，如频率统计、AI 集成等。它还支持 Kubernetes 集成，允许用户通过 K9s 进行实时日志分析。
 
-## 主要特性
-Gonzo 是一个开源的控制理论工具包，主要用于模拟和分析动态系统。它基于 Python 开发，支持多种控制系统建模和仿真功能。核心特性包括：
-- **动态系统建模**：支持线性时不变 (LTI) 系统、状态空间模型和传递函数的创建与操作。
-- **仿真与可视化**：提供 Bode 图、Nyquist 图、根轨迹等控制系统分析图表的生成，以及时间域和频域响应仿真。
-- **控制器设计**：内置 PID 控制器、状态反馈和观测器设计工具，支持鲁棒控制和最优控制方法。
-- **模块化设计**：易于扩展，用户可以自定义系统模型和分析算法。
-- **跨平台兼容**：依赖 NumPy、SciPy 和 Matplotlib 等库，确保在 Windows、macOS 和 Linux 上运行顺畅。
+**使用方法：**  
+- 使用命令行参数指定日志文件或通过环境变量设置；
+- 支持通过 `kubectl logs` 与 K9s 集成；
+- 提供 Shell 补全功能，便于命令行操作；
+- 可通过 `--skin` 参数选择不同主题。
 
-## 主要功能
-- **系统分析**：计算系统的稳定性、极点/零点、增益裕度和相位裕度。
-- **响应模拟**：生成阶跃响应、冲激响应和任意输入的系统输出。
-- **优化工具**：使用 LQR（线性二次调节器）和 Kalman 滤波器等算法进行控制器优化。
-- **交互式界面**：通过 Jupyter Notebook 支持交互式探索和教学应用。
-- **数据导出**：支持将仿真结果导出为 CSV 或图像文件，便于进一步处理。
+**主要特性：**  
+- 支持 OTLP、JSON、CSV 等日志格式；
+- 实时频率统计和分析；
+- AI 集成，支持日志内容分析；
+- 多种主题支持，界面美观；
+- 支持 Kubernetes 集群日志分析；
+- 提供丰富的文档和社区支持；
+- 开源，基于 MIT 协议。
 
-## 用法
-1. **安装**：
-   - 克隆仓库：`git clone https://github.com/control-theory/gonzo.git`
-   - 进入目录：`cd gonzo`
-   - 安装依赖：`pip install -r requirements.txt`
+**开发信息：**  
+- 使用 Go 语言编写；
+- 使用 Bubble Tea、Lipgloss 等库构建终端 UI；
+- 支持跨平台编译；
+- 提供详细的开发文档和测试用例。
 
-2. **基本使用示例**：
-   ```python
-   import gonzo as gz
-   import numpy as np
-
-   # 创建一个传递函数系统
-   num = [1]
-   den = [1, 2, 1]
-   sys = gz.TransferFunction(num, den)
-
-   # 生成阶跃响应
-   t, y = gz.step_response(sys)
-
-   # 绘制 Bode 图
-   gz.bode_plot(sys)
-   ```
-
-3. **高级用法**：
-   - 对于状态空间系统：使用 `gz.StateSpace(A, B, C, D)` 创建模型，然后调用 `gz.lsim(sys, U, T)` 进行仿真。
-   - 设计 PID 控制器：`controller = gz.PID(Kp=1, Ki=0.5, Kd=0.1)`，并与系统连接：`closed_loop = gz.feedback(sys, controller)`。
-   - 运行示例脚本：仓库中提供 `examples/` 目录，包含完整教程，如根轨迹分析和鲁棒性测试。
-
-更多细节请参考仓库的 README 和文档。
+**扩展性：**  
+- 用户可自定义主题；
+- 社区提供扩展主题和插件；
+- 支持插件系统，便于集成到其他工具（如 K9s）。

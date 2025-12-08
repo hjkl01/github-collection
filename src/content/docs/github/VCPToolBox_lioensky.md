@@ -1,71 +1,28 @@
+
 ---
 title: VCPToolBox
 ---
 
-# VCPToolBox
+### [lioensky VCPToolBox](https://github.com/lioensky/VCPToolBox)
 
-项目地址: <https://github.com/lioensky/VCPToolBox>
+**VCP项目核心内容总结：**
 
-## 概述
-VCPToolBox 是一个跨平台的 Python 库，专为 Virtual COM Port（VCP）通信设计。它提供了统一的 API，简化了端口扫描、连接、数据读写、日志记录和错误处理等操作。
+VCP是一个用于构建和管理AI代理（Agent）的框架，核心功能包括：  
+1. **模块化系统提示词工程**：通过`Tar*`变量实现动态提示词组合，支持时间、天气、工具列表等实时信息注入，提升AI对环境和任务的适应性。  
+2. **插件集成与工具调用**：内置文生图、计算器、联网搜索、B站视频获取等工具，通过占位符（如`{{VCPFluxGen}}`）实现AI对工具的自动调用。  
+3. **Agent协作机制**：支持Agent间自主通信、任务分配与协同，通过标准化通信总线（ACB）实现团队式智能协作。  
+4. **动态变量系统**：包含`Tar*`（高优先级模板）、`Var*`（通用变量）、`Sar*`（模型适配变量），支持复杂场景下的灵活配置。  
+5. **主动交互能力**：集成`AgentMessage`和WebSocket，允许AI根据条件主动通知用户或执行动作。  
 
-## 主要特性
-- **端口自动检测**：一次扫描即可列出所有可用的 COM 端口。  
-- **多线程读写**：后台线程实时读取数据，主线程可安全发出写入请求。  
-- **数据帧解析**：支持自定义帧头/帧尾、长度字段、校验和等协议。  
-- **日志与调试**：可将通信日志写入文件或控制台，方便排错。  
-- **跨平台**：兼容 Windows、Linux、macOS。  
-- **命令行工具**：提供 `vcp_toolbox_cli`，可直接在终端中测试端口。
+**使用方法**：  
+- 在`config.env`中定义`Tar*`模块和变量；  
+- 通过组合`Tar*`模块生成系统提示词（如`{{Nova}}{{VCPTavern::dailychat}}`）；  
+- 调用插件工具时，使用预定义占位符注入功能。  
 
-## 功能
+**主要特性**：  
+- 高度可定制的提示词工程；  
+- 实时环境感知与工具调用；  
+- 支持Agent自主协作与主动交互；  
+- 开放的插件生态与未来扩展方向（如深度记忆回溯、事件总线等）。  
 
-| 模块/类 | 作用 |
-|---|---|
-| `VCPToolBox` | 主类，负责端口管理与数据处理。 |
-| `PortScanner` | 扫描并返回可用端口列表。 |
-| `DataParser` | 解析并构造自定义帧。 |
-| `Logger` | 记录通信日志。 |
-| `CLI` | 命令行交互工具。 |
-
-## 用法
-
-```python
-# 安装
-pip install vcp_toolbox
-
-# 示例代码
-import asyncio
-from vcp_toolbox import VCPToolBox
-
-async def main():
-    # 端口扫描
-    ports = await VCPToolBox.scan_ports()
-    print("可用端口:", ports)
-
-    # 连接到第一个可用端口
-    vcp = VCPToolBox(port=ports[0], baudrate=115200)
-    await vcp.connect()
-
-    # 发送数据
-    await vcp.send(b'\x01\x02\x03\x04')
-
-    # 接收数据（异步）
-    async for frame in vcp.receive():
-        print("收到帧:", frame)
-
-    await vcp.disconnect()
-
-asyncio.run(main())
-```
-
-### 命令行工具
-
-```bash
-# 查看帮助
-vcp_toolbox_cli --help
-
-# 连接并监控 COM3
-vcp_toolbox_cli -p COM3 -b 115200 -s 8 -p 0 -f 1
-```
-
-> 详细使用说明请参阅项目 README。
+项目采用CC BY-NC-SA 4.0许可证，适用于非商业场景，需注意API成本及安全责任。

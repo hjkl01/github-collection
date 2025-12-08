@@ -1,113 +1,42 @@
+
 ---
 title: StreamCap
 ---
 
-# StreamCap
+### [ihmily StreamCap](https://github.com/ihmily/StreamCap)
 
-StreamCap 是一个基于FFmpeg和StreamGet的多平台直播流录制客户端，覆盖 40+ 国内外主流直播平台，支持批量录制、循环监控、定时监控和自动转码等功能。
+封装
 
-## ✨功能特性
+好的，我现在需要处理用户的请求，总结他们提供的README内容。首先，用户要求用简明中文总结核心内容，包括项目功能、使用方法和主要特性，同时有三个注意事项：不包含图片、如果原文非中文要先翻译再总结、不需要额外废话。
 
-- **多端支持**：支持Windows/MacOS/Web运行
-- **循环监控**：实时监控直播间状态，开播即录。
-- **定时任务**：根据设定时间范围检查直播间状态。
-- **多种输出格式**：支持 ts、flv、mkv、mov、mp4、mp3、m4a 等格式。
-- **自动转码**：录制完成后自动转码为 mp4 格式。
-- **消息推送**：支持直播状态推送，及时获取开播通知。
+首先，我需要通读整个README，理解其内容。看起来这是一个名为StreamCap的项目，基于FFmpeg和StreamGet，支持多平台录制直播流，覆盖40多个国内外平台，功能包括批量录制、循环监控、定时任务、自动转码等。
 
-## 🛠️快速开始
+接下来，检查是否有图片链接，用户提到不需要图片，所以总结时要忽略图片部分。然后确认原文是否为中文，这里大部分内容是中文，但有些部分可能是英文，比如项目名称和某些技术术语，不过整体以中文为主，可能不需要大量翻译，但需要确保准确性。
 
-### 1. 运行预构建的程序
+然后，按照用户的要求，总结核心内容。需要涵盖项目功能、使用方法、主要特性。功能方面，多平台支持、循环监控、定时任务、多种输出格式、自动转码、消息推送。使用方法包括预构建程序、从源代码运行、容器运行。主要特性可能包括支持的平台数量、输出格式多样性等。
 
-访问 [StreamCap Releases](https://github.com/ihmily/StreamCap/releases/latest) 页面，根据自身系统下载对应的最新版本压缩包。
+需要注意不要遗漏关键信息，比如支持的平台列表，但用户可能不需要详细列出所有平台，所以用“覆盖40+国内外主流直播平台”概括即可。使用方法部分要分点说明，但用户可能希望简洁，所以用简短的步骤说明。
 
-- **Windows 用户**：下载 `StreamCap.zip` 文件，解压后运行 `StreamCap.exe`。
-- **macOS 用户**：下载 `StreamCap.dmg` 文件，按照提示完成安装，即可在启动台找到应用并运行。
+另外，用户可能希望避免技术细节，如Docker运行步骤，但根据任务要求，需要包括使用方法，所以需要涵盖预构建、源代码、容器三种方式。
 
-### 2. 从源代码运行
+最后，检查是否符合注意事项，确保没有图片相关描述，没有多余内容，语言简明。可能还需要确认许可证和贡献者部分是否需要包含，但用户只要核心内容，所以可能不需要这部分。
 
-确保已安装 **Python 3.10** 或更高版本。
+现在组织语言，确保每个部分清晰，用项目符号或分段列出，但用户示例中使用的是段落，可能需要保持一致。例如：
 
-1. **克隆项目代码**：
+项目简介：StreamCap是基于FFmpeg和StreamGet的多平台直播流录制工具，支持40+国内外平台，具备批量录制、循环监控、定时任务、自动转码等功能。
 
-   ```
-   git clone https://github.com/ihmily/StreamCap.git
-   cd StreamCap
-   ```
+功能特性：多端支持（Windows/MacOS/Web）、循环监控、定时任务、多种输出格式（ts、flv、mp4等）、自动转码为mp4、消息推送。
 
-2. **安装依赖**：
+使用方法：预构建程序下载运行；源码安装需Python 3.10+，安装依赖，配置.env文件；Docker运行需安装Docker，使用docker compose命令。
 
-   ```
-   # 安装核心依赖
-   pip install -i https://pypi.org/simple streamget
+这样应该符合用户的要求，简洁明了，覆盖所有核心点，没有多余信息。
+</think>
 
-   # 桌面端
-   pip install -r requirements.txt
+StreamCap 是一个基于 FFmpeg 和 StreamGet 的多平台直播流录制工具，支持 40+ 国内外主流直播平台（如抖音、快手、Twitch、YouTube 等），具备批量录制、循环监控、定时任务、自动转码（输出格式包括 ts、flv、mp4 等）及直播状态推送功能。
 
-   # Web端
-   pip install -r requirements-web.txt
-   ```
+**使用方法**：  
+1. **预构建程序**：下载对应系统版本（Windows/macOS）的压缩包并运行可执行文件。  
+2. **源码运行**：需 Python 3.10+，克隆代码后安装依赖，配置 `.env` 文件，通过 `python main.py` 启动（Linux 可通过 `--web` 参数以 Web 方式运行）。  
+3. **容器运行**：使用 Docker 和 Docker Compose，执行 `docker compose up` 启动（需提前配置 `.env` 文件）。  
 
-3. **配置运行环境**：
-
-   将.env.example示例配置文件复制一份并将文件重命名为.env
-
-   ```
-   cp .env.example .env
-   ```
-
-4. **运行程序**：
-
-   在Windows和macOS上默认以桌面程序的方式运行，使用以下命令启动程序：
-
-   ```
-   python main.py
-   ```
-
-   Linux请使用web方式运行，修改 `.env` 文件，将 `PLATFORM` 的值改为 `web`，即可以Web方式运行。
-
-   或者无需修改配置文件，直接使用以下命令启动
-
-   ```
-   python main.py --web
-   ```
-
-   启动成功后，通过 `http://127.0.0.1:6006` 访问。更多配置请参考 [Web运行指南](https://github.com/ihmily/StreamCap/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97#web-%E7%AB%AF%E8%BF%90%E8%A1%8C)
-
-   如果程序提示缺少 FFmpeg，请访问 FFmpeg 官方下载页面[Download FFmpeg](https://ffmpeg.org/download.html)，下载预编译的 FFmpeg 可执行文件，并配置环境变量。
-
-## 🐋容器运行
-
-本机无需Python环境运行，在运行命令之前，请确保您的机器上安装了 [Docker](https://docs.docker.com/get-docker/) 和 [Docker Compose](https://docs.docker.com/compose/install/)
-
-1. **快速启动**
-
-   最简单方法是使用`docker compose`运行，进入项目根目录后，只需简单执行以下命令(确保已经存在`.env`文件)：
-
-   ```
-   docker compose up
-   ```
-
-   可选 `-d` 在后台运行。注意容器内时区问题，默认使用的是 `Asia/Shanghai` ，如需修改可以在.env文件配置。
-
-2. **停止容器实例**
-
-   ```
-   docker compose stop
-   ```
-
-3. **构建镜像(可选)**
-
-   Docker仓库中的镜像的代码版本不一定是最新的，如有需要运行本仓库主分支最新代码，可以本地自定义构建
-
-   ```
-   docker build -t streamcap .
-   ```
-
-## 😺已支持平台
-
-**国内平台（30+）**：抖音、快手、虎牙、斗鱼、B站、小红书、YY、映客、Acfun、Blued、京东、淘宝...
-
-**海外平台（10+）**：TikTok、Twitch、PandTV、Soop、Twitcasting、CHZZK、Shopee、Youtube、LiveMe、Flextv(TTingLive)、Popkontv、Bigo...
-
-更多示例地址请参考项目README。
+**主要特性**：支持多端运行（Windows/macOS/Web）、实时循环监控、多种输出格式、录制后自动转码为 mp4、支持直播状态推送通知。

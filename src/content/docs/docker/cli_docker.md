@@ -1,33 +1,14 @@
+
 ---
 title: cli
 ---
 
-# Docker CLI 项目介绍
+### [docker cli](https://github.com/docker/cli)
 
-**GitHub 地址**: https://github.com/docker/cli
+**核心内容总结：**
 
-## 1. 项目概述
-
-Docker CLI 是 Docker 官方提供的命令行工具，负责与 Docker Engine 进行交互。通过统一的 `docker` 命令行，用户可以管理容器、镜像、网络、卷等 Docker 资源，并执行高层次应用部署与管理任务。
-
-## 2. 主要特性
-
-- **统一命令体系**：所有 Docker 操作均通过 `docker <command>` 形式调用，支持子命令层级组织。
-- **跨平台支持**：在 Linux、macOS、Windows 等主流操作系统上运行。
-- **插件化扩展**：可以通过 Docker 插件机制添加自定义命令与功能。
-- **本地与远程访问**：支持本地 Docker Engine 以及通过 Docker API 的远程服务器。
-
-## 3. 核心功能
-
-Docker CLI
-
-## 4. 基本用法
-
-请参考项目文档获取详细用法。
-
-## 5. 进一步阅读
-
-- Docker CLI 官方文档: https://docs.docker.com/engine/reference/commandline/docker/
-- GitHub 仓库: https://github.com/docker/cli
-
-**文件路径**：`src/content/docs/00/cli_docker.md`
+该项目是Docker命令行工具（CLI）的源代码仓库，提供Docker客户端的开发和构建功能。主要功能包括：  
+- **构建方式**：支持通过`docker buildx bake`命令编译CLI，可构建多平台二进制文件（如`cross`目标）或指定平台（如`linux/arm64`），还支持动态二进制构建（通过`USE_GLIBC`环境变量）。  
+- **开发与测试**：提供交互式容器开发环境（`make shell`）、代码检查（`lint shellcheck`）和测试运行（`test`目标）。  
+- **特性**：基于Docker开发，支持跨平台编译，集成多种测试和代码质量工具。  
+- **法律与许可**：遵循Apache 2.0许可证，使用和传输需遵守美国等政府的限制规定，具体见项目中的`NOTICE`文件。

@@ -1,34 +1,28 @@
+
 ---
 title: Microsoft-Activation-Scripts
 ---
 
-# Microsoft Activation Scripts 项目
+### [massgravel Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-## 项目地址
-[https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+**项目功能**：  
+Microsoft Activation Scripts (MAS) 是一款开源工具，支持通过 HWID、Ohook、TSforge、在线 KMS 等方法激活 Windows、Office 及扩展更新（ESU），并提供高级故障排除功能。
 
-## 主要特性
-- **开源激活工具**：提供多种Microsoft产品激活方法，包括Windows操作系统和Office套件，支持KMS、HWID、Online KMS等多种激活模式。
-- **多平台支持**：兼容Windows、Office及其他Microsoft软件的激活需求，适用于个人和企业环境。
-- **自动化脚本**：基于PowerShell脚本实现一键激活，减少手动操作，提高效率。
-- **安全性与合法性**：脚本使用公开的KMS服务器和官方方法激活，强调合法使用，避免盗版风险。
-- **更新维护**：定期更新以兼容最新Microsoft版本，支持Windows 10/11和Office 2016-2021等。
+**使用方法**：  
+1. **PowerShell 方法**（适用于 Windows 7/8/10/11）：  
+   - 执行 `irm https://get.activated.win | iex`（若被 ISP/DNS 阻挡，可使用 DoH 替代命令）。  
+   - 激活菜单出现后，选择绿色高亮选项完成激活。  
+2. **传统方法**（适用于 Vista 及以上版本）：  
+   - 下载并运行 `MAS_AIO.cmd` 文件，按提示操作。  
 
-## 主要功能
-- **Windows激活**：支持HWID（硬件ID）永久激活、KMS在线/离线激活，适用于LTSC、IoT等版本。
-- **Office激活**：提供Ohook、KMS等方法激活Office产品，包括 Visio、Project 等扩展组件。
-- **诊断工具**：内置检查激活状态、服务器连接测试和故障排除功能。
-- **自定义选项**：允许用户选择激活服务器、设置激活期限，并支持批量激活。
-- **无痕运行**：脚本设计为临时运行，不修改系统文件，确保可逆性。
+**主要特性**：  
+- 支持多种激活方式（HWID/KMS 等）及多版本 Windows/Office。  
+- 提供无网络依赖的离线激活选项。  
+- 包含故障排除指南及命令行参数支持（如无人值守模式）。  
 
-## 用法
-1. **下载项目**：从GitHub仓库克隆或下载ZIP文件，解压到本地文件夹。
-2. **运行脚本**：
-   - 以管理员权限打开PowerShell。
-   - 导航到脚本目录，执行 `irm https://massgrave.dev/get | iex`（在线方式）或直接运行本地MAS_AIO.cmd文件。
-3. **选择模式**：
-   - 运行后，选择激活类型（如Windows、Office）。
-   - 挑选具体方法（e.g., HWID for permanent activation）。
-   - 确认并执行，脚本会自动处理激活过程。
-4. **验证**：激活完成后，使用 `slmgr /xpr` 命令检查状态，或在设置中查看激活信息。
-5. **注意事项**：确保网络连接稳定，使用官方Microsoft产品；若遇问题，参考仓库的Wiki或Issues页面。建议备份系统前操作。
+**注意事项**：  
+- 执行 PowerShell 命令前需验证 URL 安全性，避免恶意软件伪装。  
+- 若网络被封锁，可通过启用 DNS-over-HTTPS（如 1.1.1.1）绕过限制。  
+- 部分产品（如 macOS Office、Windows XP）需参考额外激活链接。  
+
+**版本信息**：3.9（2025 年 11 月 19 日发布）。

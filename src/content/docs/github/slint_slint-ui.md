@@ -1,135 +1,27 @@
+
 ---
-title: Slint
+title: slint
 ---
 
-# Slint
+### [slint-ui slint](https://github.com/slint-ui/slint)
 
-## 简介
+Slint 是一个开源的声明式 GUI 工具包，支持跨平台开发（嵌入式系统、桌面、移动设备和 Web），用户可通过 `.slint` 文件用类似 XML 的标记语言定义 UI，再通过 Rust、C++、JavaScript 或 Python 实现业务逻辑。  
 
-Slint 是一个开源的声明式 GUI 工具包，用于构建原生用户界面，适用于嵌入式系统、桌面和移动平台。它使用简单的标记语言来定义用户界面。
+**核心功能**：  
+- **跨平台**：支持多种操作系统和硬件架构，UI 设计可适配不同设备。  
+- **轻量化**：占用资源少，提供流畅的用户交互体验。  
+- **原生渲染**：生成的 UI 界面符合各平台设计规范，支持 OpenGL ES、Skia 或 CPU 渲染。  
+- **工具链**：提供 Live Preview、Figma 插件、VSCode 扩展、在线编辑器（SlintPad）等开发辅助工具。  
+- **稳定 API**：1.x 版本接口长期兼容，避免代码迁移问题。  
 
-## 功能
+**使用方法**：  
+1. 用 `.slint` 文件定义 UI（如示例中的“Hello World”代码）。  
+2. 通过对应语言的 API（如 Rust、C++ 等）连接业务逻辑。  
+3. 使用编译器生成目标语言代码，或通过解释器运行。  
 
-- 声明式 UI 设计：使用 .slint 标记语言定义界面布局和组件。
-- 跨平台支持：支持桌面（Windows、macOS、Linux）、嵌入式系统和移动平台。
-- 多语言绑定：支持 Rust、C++、Python、Node.js 等编程语言。
-- 高性能渲染：优化的渲染引擎，确保流畅的用户体验。
-- 丰富的组件库：提供标准组件，如按钮、文本、列表等。
-- 实时预览：支持在开发过程中实时预览 UI 更改。
+**特性**：  
+- 支持多语言绑定（Rust、C++、JavaScript、Python）。  
+- 提供嵌入式设备、桌面和 WebAssembly 的应用案例。  
+- 提供三种许可证选项（开源 GPLv3、商业免费 Royalty-free、付费 Software 许可）。  
 
-## 用法
-
-### Rust 示例
-
-1. 在 `Cargo.toml` 中添加依赖：
-
-```toml
-[dependencies]
-slint = "1.0"
-```
-
-2. 创建 `.slint` 文件（例如 `main.slint`）：
-
-```rust
-export component MainWindow inherits Window {
-    title: "Hello World";
-    width: 400px;
-    height: 300px;
-
-    Text {
-        text: "Hello, Slint!";
-        horizontal-alignment: center;
-        vertical-alignment: center;
-    }
-}
-```
-
-3. 在 `main.rs` 中加载和运行：
-
-```rust
-slint::include_modules!();
-
-fn main() -> Result<(), slint::PlatformError> {
-    let main_window = MainWindow::new()?;
-    main_window.run()
-}
-```
-
-运行命令：
-
-```shell
-cargo run
-```
-
-### C++ 示例
-
-1. 使用 CMake 配置项目：
-
-```cmake
-cmake_minimum_required(VERSION 3.21)
-project(my_application LANGUAGES CXX)
-
-include(FetchContent)
-FetchContent_Declare(
-    Slint
-    GIT_REPOSITORY https://github.com/slint-ui/slint.git
-    GIT_TAG release/1
-    SOURCE_SUBDIR api/cpp
-)
-FetchContent_MakeAvailable(Slint)
-
-add_executable(my_application main.cpp)
-slint_target_sources(my_application my_application_ui.slint)
-target_link_libraries(my_application PRIVATE Slint::Slint)
-```
-
-2. 创建 `.slint` 文件和 `main.cpp`。
-
-3. 构建和运行：
-
-```shell
-mkdir build && cd build
-cmake ..
-cmake --build .
-./my_application
-```
-
-### Python 示例
-
-1. 安装依赖：
-
-```shell
-pip install slint
-```
-
-2. 创建 `main.py`：
-
-```python
-import slint
-
-def main():
-    window = slint.Window(ui_file="ui/app-window.slint")
-    window.run()
-
-if __name__ == "__main__":
-    main()
-```
-
-### Node.js 示例
-
-1. 安装依赖：
-
-```shell
-npm install slint-ui
-```
-
-2. 创建 `index.js`：
-
-```javascript
-import * as slint from 'slint-ui';
-let ui = slint.loadFile(new URL('main.slint', import.meta.url));
-let main = new ui.Main();
-main.run();
-```
-
-更多示例和详细文档请参考官方文档：[https://slint.dev/](https://slint.dev/)
+项目通过 GitHub 管理，提供文档、示例和社区支持。

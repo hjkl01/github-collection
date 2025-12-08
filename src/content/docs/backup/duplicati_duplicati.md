@@ -1,19 +1,43 @@
+
 ---
 title: duplicati
 ---
 
-# Duplicati 项目
+### [duplicati duplicati](https://github.com/duplicati/duplicati)
 
-**GitHub 项目地址:** [https://github.com/duplicati/duplicati](https://github.com/duplicati/duplicati)
+**Duplicati 简介与核心功能总结**
 
-## 主要特性
+**概述**  
+Duplicati 是一款免费、开源的备份工具，支持在多种云存储服务和远程服务器上安全存储加密、增量及压缩备份。适用于 **Windows、macOS 和 Linux** 系统。
 
-Duplicati 使用 AES-256 加密（或 GNU Privacy Guard）在上传前保护所有数据。只有初始备份包含完整内容，所有后续备份都是差异备份，以节省带宽和存储。内置调度器确保备份保持最新。集成更新器通知新版本。加密备份可以传输到 FTP、WebDAV、SSH (SFTP)、Amazon S3 等目的地。灵活的备份选项：备份文件夹、特定文件类型（如文档或图像）或使用自定义过滤器。可用作用户友好的应用程序或命令行工具。支持使用 Windows 上的 Volume Snapshot Service (VSS) 或 Linux 上的 Logical Volume Manager (LVM) 备份打开或锁定的文件。过滤器、删除规则、传输设置、带宽限制等的高级选项。
+**核心功能**  
+1. **数据安全**  
+   - 使用 **AES-256 加密**（或 GNU Privacy Guard）保护数据，确保备份内容私密性。  
+   - 所有版本均通过 **GPG 签名** 验证，保障下载安全性。  
 
-## 主要功能
+2. **高效备份策略**  
+   - **增量备份**：仅备份自上次备份以来的更改数据，节省存储空间与带宽。  
+   - **自动调度**：内置任务调度器，确保备份任务自动执行并保持最新。  
 
-Duplicati 支持以下存储服务：Amazon S3、IDrive e2、Backblaze (B2)、Box、Dropbox、FTP、Google Cloud 和 Drive、MEGA、Microsoft Azure 和 OneDrive、Rackspace Cloud Files、OpenStack Storage (Swift)、Storj DCS、SSH (SFTP)、WebDAV、Tencent Cloud Object Storage (COS)、Aliyun OSS 等。
+3. **多平台传输支持**  
+   - 支持 **FTP、SFTP、WebDAV、Amazon S3、Google Drive、MEGA、OneDrive 等** 多种云存储和远程服务器协议。  
 
-## 用法指南
+4. **灵活的备份选项**  
+   - 可备份文件夹、特定文件类型（如文档、图像）或自定义过滤规则。  
+   - **高级功能**：支持通过 **Windows 的 VSS（卷影复制服务）** 或 **Linux 的 LVM（逻辑卷管理）** 备份打开或锁定的文件。  
 
-请访问 [Duplicati 文档](https://docs.duplicati.com) 获取详细用法和配置说明。下载最新版本请前往 [Duplicati 下载页面](https://duplicati.com/download)。
+5. **用户友好性**  
+   - 提供图形界面工具和命令行接口，适应不同用户需求。  
+   - **自动更新**：Beta 版本支持自动更新通知，确保及时获取新功能与安全补丁。  
+
+**为何选择 Duplicati？**  
+- **数据保护**：加密备份与远程存储相结合，有效防范本地灾害（如火灾）和数据泄露。  
+- **节省资源**：增量备份与压缩技术显著减少存储成本与传输时间。  
+- **社区支持**：活跃的开发者社区和详尽的官方文档，用户可参与代码贡献或翻译项目。  
+
+**获取方式**  
+- 官网提供 **最新稳定版** 和 **Beta 版本** 下载。  
+- 通过 GitHub 可获取源码并参与开发。  
+
+**总结**  
+Duplicati 凭借其安全性、高效性及跨平台兼容性，成为企业及个人用户备份数据的理想选择。

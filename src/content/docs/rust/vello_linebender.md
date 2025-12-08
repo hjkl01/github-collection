@@ -1,110 +1,25 @@
+
 ---
 title: vello
 ---
 
+### [linebender vello](https://github.com/linebender/vello)
 
-# Vello – 高性能 2D GPU 渲染引擎（linebender/vello）
+**项目核心内容总结：**  
+Vello 是一个基于 GPU 计算的高性能 2D 渲染器，使用 Rust 编写，依赖 [wgpu](https://wgpu.rs/) 实现跨平台 GPU 访问。支持渲染形状、图像、渐变、文本等图形元素，采用类似 PostScript 的 API 设计。其核心特性是通过 GPU 并行计算和前缀和算法优化渲染性能，减少临时缓冲区使用，要求设备支持计算着色器。  
 
-**项目地址**: <https://github.com/linebender/vello>
+**使用方法：**  
+- 快速入门：通过 `cargo run -p with_winit` 启动示例项目。  
+- 开发流程：初始化 wgpu 上下文，创建场景对象，调用渲染接口将图形数据输出到纹理。  
+- 平台支持：提供 Web（需注意兼容性）、Android（通过 `cargo apk` 部署）等跨平台方案。  
 
-## 主要特性
-| Feature | 说明 |
-|---------|------|
-| **GPU 加速** | 基于 WebGPU、Vulkan、Metal、DX12 等后端，利用 GPU 进行路径、渐变、文本等多种渲染任务。 |
-| **向量图形支持** | 完整的 Path、Stroke、Fill、渐变、纹理填充、图形变换与层叠。 |
-| **无锁并行** | 不使用任何冲突锁，提供高并发、低延迟的渲染流水线。 |
-| **平台无关** | 纯 Rust，支持 Windows、macOS、Linux、WebAssembly 等多平台。 |
-| **可扩展性** | 提供 `RenderContext`、`SceneBuilder` 等 API，可与现有 UI / 游戏框架 (eg. winit, egui) 无缝集成。 |
-| **生态友好** | 与 `wgpu` 集成，能够直接复用已有 GPU 资源与命令缓冲区。 |
+**主要特性：**  
+- 基于 GPU 的并行计算，提升复杂场景渲染效率；  
+- 依赖 wgpu 实现跨平台（Web/Android 等）兼容；  
+- 集成扩展库（如 `vello_svg`、`vello_shaders`）支持更多功能；  
+- 开源社区活跃，讨论渠道为 [Linebender Zulip 的 #vello 频道](https://xi.zulipchat.com/#narrow/channel/197075-vello)。  
 
-## 核心 API
-- `Renderer` – GPU 资源管理、命令提交。  
-- `Scene`、`SceneBuilder` – 用于构造可重用的渲染图。  
-- `RenderContext` – 抽象渲染上下文，负责绘制与同步。  
-- `path::Path`、`style::Fill/Stroke` – 定义路径与样式。  
-
-## 快速上手
-
-### Cargo.toml
-```toml
-[dependencies]
-vello = "0.41"          # 根据官方推荐的最新版本更新
-wgpu = { version = "0.15", features = ["webgl"] }   # 视需要加入的后端
-```
-
-### 示例代码
-```rust
-use wgpu::util::DeviceExt;
-use vello::{
-    BasicRenderContext, Renderer, Scene, SceneBuilder, Style, Stroke, Fill,
-    RenderTarget, RenderSource, Transform,
-};
-
-fn main() {
-    // 1. 初始化 wgpu
-    let instance = wgpu::Instance::default();
-    let surface = /* 创建窗口表面 */;
-    let adapter = futures::executor::block_on(
-        instance.request_adapter(&wgpu::RequestAdapterOptions::default()),
-    ).unwrap();
-    let (device, queue) = futures::executor::block_on(
-        adapter.request_device(&wgpu::DeviceDescriptor::default(), None),
-    ).unwrap();
-
-    // 2. 创建渲染器
-    let mut renderer = Renderer::new(device, queue, surface).unwrap();
-
-    // 3. 构造场景
-    let mut builder = SceneBuilder::new();
-    let path = vello::drawing::Path::new()
-        .move_to((50.0, 50.0))
-        .line_to((150.0, 50.0))
-        .line_to((150.0, 150.0))
-        .close();
-    builder.stroke(
-        path.clone(),
-        Stroke::new().color(vello::penumbra::Pixel::rgba(0.5, 0.2, 0.8, 1.0)),
-    );
-    builder.fill(
-        path,
-        Fill::new().color(vello::penumbra::Pixel::rgba(0.2, 0.7, 0.3, 1.0)),
-    );
-    let scene = builder.build();
-
-    // 4. 渲染循环
-    let mut target = RenderTarget {
-        width: 800,
-        height: 600,
-    };
-    renderer
-        .update_target(&mut target)
-        .expect("更新目标失败");
-    renderer
-        .render(
-            RenderSource::new(scene),
-            target,
-            &wgpu::ColorTargetState {
-                format: wgpu::TextureFormat::Bgra8UnormSrgb,
-                ops: wgpu::Operations {
-                    load: wgpu::LoadOp::Clear(wgpu::Color::WHITE),
-                    store: true,
-                },
-                ..Default::default()
-            },
-            &wgpu::PrimitiveState::default(),
-        )
-        .expect("渲染失败");
-}
-```
-
-> ⚠️ 上述代码省略了窗口创建、事件循环等细节，主要展示 Vello 的核心编程流程。
-
-## 文档与资源
-- 官方 README 与 API 文档: <https://github.com/linebender/vello/blob/main/README.md>
-- 示例代码与集成案例: <https://github.com/linebender/vello/tree/main/examples>
-- 官方 Discord/讨论组 (用于绑定问答与技术交流)
-
---- 
-如需更详细的使用示例或高级功能（如渐变、纹理、层混合、动画等），请参考上述官方资源与 API 文档。祝使用愉快！
-
-💝 Support this free API: https://www.paypal.com/donate/?hosted_button_id=XS3CAYT8LE2BL
+**注意事项：**  
+- 项目处于 alpha 阶段，部分功能（如模糊效果、GPU 内存优化）尚未完善；  
+- 需 Rust 1.86 及以上版本，部分依赖可能要求更高版本；  
+- 许可证为 Apache 2.0 或 MIT，部分着色器代码采用 Unlicense。

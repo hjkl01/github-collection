@@ -1,59 +1,19 @@
+
 ---
-title: Lancedb
+title: lancedb
 ---
 
-# LanceDB
+### [lancedb lancedb](https://github.com/lancedb/lancedb)
 
-## 功能
+**项目核心内容总结：**  
+LanceDB 是一个面向 AI/ML 应用的多模态数据平台，基于 Lance 列式格式构建，支持存储、索引和搜索海量多模态数据（文本、图像、视频等）及向量，提供快速、可扩展的向量搜索能力。  
 
-LanceDB 是一个开发者友好的嵌入式检索引擎，专为多模态 AI 设计。它提供了高效的向量搜索、混合搜索和数据管理功能，支持搜索更多、管理更少。LanceDB 支持多种索引类型，如 HNSW、IVF 等，以优化搜索性能。它还集成了多种嵌入函数和重排序器，用于增强检索质量。适用于构建推荐系统、图像搜索、语义搜索等应用。
+**主要功能与特性：**  
+1. **高效搜索**：支持向量相似度搜索、全文检索、SQL 查询，结合 GPU 加速索引构建。  
+2. **多模态支持**：统一管理向量、元数据及多类型数据（如点云），支持复杂过滤条件。  
+3. **版本管理**：自动版本控制与零拷贝操作，无需额外基础设施。  
+4. **灵活部署**：开源本地版（支持自建云）与云企业版（托管服务），兼顾数据主权与安全性。  
+5. **生态集成**：兼容 Python、TypeScript、Rust 等语言 SDK，集成 LangChain、LlamaIndex、Pandas 等工具。  
 
-## 用法
-
-### 基本用法
-
-首先，安装 LanceDB：
-
-```bash
-pip install lancedb
-```
-
-连接到数据库并创建表：
-
-```python
-import lancedb
-
-# 连接到数据库
-db = lancedb.connect("data/sample-lancedb")
-
-# 创建表并添加数据
-table = db.create_table("my_table", [
-    {"id": 1, "vector": [0.1, 1.0], "item": "foo", "price": 10.0},
-    {"id": 2, "vector": [3.9, 0.5], "item": "bar", "price": 20.0}
-])
-
-# 进行向量搜索
-results = table.search([0.1, 0.3]).limit(20).to_list()
-print(results)
-```
-
-### 高级用法
-
-- **混合搜索**：结合 BM25 和语义搜索。
-
-```python
-from lancedb.rerankers import BM25Reranker
-
-bm25_reranker = BM25Reranker()
-results = table.search(query).rerank(bm25_reranker).limit(10).to_list()
-```
-
-- **创建索引**：使用 HNSW-SQ 索引。
-
-```python
-from lancedb.index import HnswSq
-
-table.create_index("vector_col", index_type=HnswSq, M=16, ef_construction=64)
-```
-
-更多示例和文档请参考 [LanceDB GitHub](https://github.com/lancedb/lancedb)。
+**使用方法：**  
+通过官方 [Quickstart 文档](https://lancedb.com/docs/quickstart/) 安装本地版本，或使用 Python/TypeScript/Rust SDK 及 REST API 连接云服务。

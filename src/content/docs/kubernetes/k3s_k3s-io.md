@@ -1,60 +1,25 @@
+
 ---
 title: k3s
 ---
 
-# K3s 项目
+### [k3s-io k3s](https://github.com/k3s-io/k3s)
 
-## 项目地址
-https://github.com/k3s-io/k3s
+**K3s核心内容总结：**
 
-## 主要特性
-K3s 是 Kubernetes 的轻量级发行版，由 Rancher Labs 开发，专为资源受限的环境设计，如边缘计算、IoT 设备和开发测试场景。它在保持 Kubernetes 核心功能的同时，显著减少了资源消耗和复杂性。主要特性包括：
-- **轻量级**：单一二进制文件（小于 40MB），启动时间快，内存占用低（通常小于 512MB）。
-- **简化安装**：无需外部依赖（如 etcd），内置 SQLite 或嵌入式 etcd，支持 ARM64 和 x86_64 架构。
-- **高可用性**：支持多节点集群，内置负载均衡和自动故障转移。
-- **安全性**：默认启用 RBAC、TLS 和 Pod 安全策略，集成 Flannel CNI 网络插件。
-- **易于维护**：支持自动更新、Helm 图表管理和 Traefik Ingress Controller。
-- **兼容性**：完全兼容 Kubernetes API，支持标准工具如 kubectl 和 Helm。
+**项目功能**  
+K3s是轻量级、生产级的Kubernetes发行版，专为资源受限环境设计，内存占用仅为原生Kubernetes的一半，二进制文件体积小于100MB。支持边缘计算、物联网、CI/CD、开发环境、ARM架构及嵌入式Kubernetes场景。  
 
-## 主要功能
-K3s 提供了一个完整的 Kubernetes 环境，但进行了优化：
-- **集群管理**：快速部署单节点或多节点集群，支持服务器（server）和代理（agent）模式。
-- **容器编排**：运行 Pod、Deployment、Service 等 Kubernetes 资源，支持 CRI 容器运行时（如 containerd）。
-- **网络与存储**：内置 CNI 插件（Flannel）和 CSI 驱动，支持持久卷。
-- **监控与日志**：易于集成 Prometheus 和 Fluentd 等工具。
-- **边缘支持**：适用于远程位置的部署，具有低延迟和离线能力。
+**主要特性**  
+1. **轻量化**：单二进制文件安装，集成Containerd、Flannel、CoreDNS、Traefik等组件，无需复杂依赖。  
+2. **灵活存储**：默认使用SQLite3，支持Etcd3、MariaDB、MySQL、PostgreSQL等。  
+3. **简化管理**：自动管理TLS证书、节点连接、集群资源部署及嵌入式etcd集群。  
+4. **安全默认**：轻量环境中合理的安全配置，无需额外调整。  
+5. **兼容性**：符合Kubernetes Conformance标准，移除原生存储驱动和云提供商，改用CSI/CCM等替代方案。  
 
-## 用法
-### 安装
-1. **单节点快速安装**（Linux/macOS/Windows with WSL）：
-   ```
-   curl -sfL https://get.k3s.io | sh -
-   ```
-   这将安装 K3s 并启动一个单节点集群。安装后，kubectl 命令可用（位于 `/usr/local/bin/kubectl`）。
+**使用方法**  
+- **快速安装**：通过脚本一键部署，执行命令`curl -sfL https://get.k3s.io | sh -`，自动生成kubeconfig文件。  
+- **手动安装**：下载二进制文件后运行`sudo k3s server`启动服务，工作节点通过`K3S_URL`和`K3S_TOKEN`加入集群。  
 
-2. **多节点集群**：
-   - 在主节点（server）运行：
-     ```
-     curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--cluster-init" sh -
-     ```
-     获取 token：`cat /var/lib/rancher/k3s/server/node-token`。
-   - 在工作节点（agent）运行：
-     ```
-     curl -sfL https://get.k3s.io | K3S_URL=https://<server-ip>:6443 K3S_TOKEN=<token> sh -
-     ```
-
-3. **卸载**：
-   ```
-   /usr/local/bin/k3s-uninstall.sh
-   ```
-
-### 基本操作
-- **检查集群状态**：`kubectl get nodes`。
-- **部署应用**：使用 YAML 文件或 Helm，例如：
-  ```
-  kubectl apply -f deployment.yaml
-  ```
-- **配置**：编辑 `/etc/rancher/k3s/config.yaml` 以自定义设置，如禁用 Traefik 或指定数据存储。
-- **更新**：运行安装脚本并添加 `--upgrade` 标志。
-
-更多细节请参考官方文档：https://docs.k3s.io。
+**适用场景**  
+适合资源受限设备、需要简化部署流程的场景，以及希望减少运维复杂度的用户。

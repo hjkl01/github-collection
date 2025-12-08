@@ -1,99 +1,29 @@
+
 ---
 title: etl
 ---
 
-# ETL by Supabase
+### [supabase etl](https://github.com/supabase/etl)
 
-## 项目简介
+**项目核心内容总结：**
 
-ETL 是 Supabase 开发的 Rust 框架，用于构建高性能、实时的 Postgres 数据复制应用程序。它基于 Postgres 逻辑复制，提供干净、Rust 原生的 API，用于将更改流式传输到自定义目的地。
+ETL 是 Supabase 开发的 Rust 框架，用于构建基于 PostgreSQL 的实时数据复制应用。其核心功能是通过 PostgreSQL 逻辑复制技术，将数据库变更实时流式传输至自定义目的地（如 BigQuery、Apache Iceberg 等），并提供类型安全的 Rust API。
 
-## 主要功能
+**主要特性：**
+- 实时复制：支持实时捕获 PostgreSQL 数据变更并传输至目标系统。
+- 高性能：支持批量配置和并行处理以提升吞吐量。
+- 容错性：内置错误处理和重试机制。
+- 可扩展：允许用户自定义目的地及状态/模式存储。
+- 生产级支持：官方提供 BigQuery 和 Iceberg 的完整复制能力。
+- 类型安全：Rust 原生 API 提供编译时类型校验。
 
-- **实时复制**：实时流式传输更改到自定义目的地。
-- **高性能**：可配置批处理和并行性以最大化吞吐量。
-- **容错**：内置强大的错误处理和重试逻辑。
-- **可扩展**：实现自定义目的地和状态/模式存储。
-- **Rust 原生**：类型化和符合人体工程学的 Rust API。
+**使用方法：**
+1. 通过 Git 安装依赖：`etl = { git = "https://github.com/supabase/etl" }`。
+2. 配置 PostgreSQL 连接参数（如主机、端口、数据库名等）。
+3. 选择目的地（如内存测试用 `MemoryDestination`）。
+4. 定义管道配置（包括批次大小、重试策略等）。
+5. 调用 `Pipeline::new()` 启动数据复制流程。
 
-## 要求
-
-- **PostgreSQL 版本**：官方支持并测试 PostgreSQL 14、15、16 和 17。
-- **推荐**：PostgreSQL 15+ 以访问高级发布功能，包括列级过滤、行级过滤（使用 WHERE 子句）和 `FOR ALL TABLES IN SCHEMA` 语法。
-
-有关详细配置说明，请参阅 [配置 Postgres 文档](https://supabase.github.io/etl/how-to/configure-postgres/)。
-
-## 快速开始
-
-通过 Git 安装（在准备 crates.io 发布时）：
-
-```toml
-[dependencies]
-etl = { git = "https://github.com/supabase/etl" }
-```
-
-使用内存目的地的快速示例：
-
-```rust
-use etl::{
-    config::{BatchConfig, PgConnectionConfig, PipelineConfig, TlsConfig},
-    destination::memory::MemoryDestination,
-    pipeline::Pipeline,
-    store::both::memory::MemoryStore,
-};
-
-#[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let pg = PgConnectionConfig {
-        host: "localhost".into(),
-        port: 5432,
-        name: "mydb".into(),
-        username: "postgres".into(),
-        password: Some("password".into()),
-        tls: TlsConfig { enabled: false, trusted_root_certs: String::new() },
-    };
-
-    let store = MemoryStore::new();
-    let destination = MemoryDestination::new();
-
-    let config = PipelineConfig {
-        id: 1,
-        publication_name: "my_publication".into(),
-        pg_connection: pg,
-        batch: BatchConfig { max_size: 1000, max_fill_ms: 5000 },
-        table_error_retry_delay_ms: 10_000,
-        table_error_retry_max_attempts: 5,
-        max_table_sync_workers: 4,
-    };
-
-    let mut pipeline = Pipeline::new(config, store, destination);
-    pipeline.start().await?;
-    // pipeline.wait().await?; // 可选：阻塞直到完成
-
-    Ok(())
-}
-```
-
-有关教程和更深入的指导，请参阅 [文档](https://supabase.github.io/etl) 或查看 [示例](https://github.com/supabase/etl/tree/main/etl-examples)。
-
-## 目的地
-
-ETL 设计为可扩展。您可以实现自己的目的地将数据发送到任何您喜欢的地方，但它附带了一些内置目的地：
-
-- BigQuery
-
-开箱即用的目的地在 `etl-destinations` crate 中可用：
-
-```toml
-[dependencies]
-etl = { git = "https://github.com/supabase/etl" }
-etl-destinations = { git = "https://github.com/supabase/etl", features = ["bigquery"] }
-```
-
-## 许可证
-
-Apache-2.0。详见 `LICENSE`。
-
----
-
-由 [Supabase](https://supabase.com) 团队用 ❤️ 制作
+**要求：**
+- PostgreSQL 14-17 版本（推荐 15+ 以使用高级发布功能）。
+- 需通过 `etl-destinations` 单独启用 BigQuery 等目的地支持。

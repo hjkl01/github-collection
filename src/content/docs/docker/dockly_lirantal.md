@@ -1,28 +1,23 @@
+
 ---
 title: dockly
 ---
 
-# Dockly 项目
+### [lirantal dockly](https://github.com/lirantal/dockly)
 
-## 项目地址
+**核心内容总结：**  
+Dockly 是一个用于管理 Docker 容器、服务和镜像的沉浸式终端工具，提供直观的界面和丰富的功能。  
 
-[GitHub 项目地址](https://github.com/lirantal/dockly)
+**功能与特性：**  
+- 支持本地和远程 Docker 守护进程连接（通过 Unix Socket 或远程主机/端口/协议）。  
+- 可通过 `--containerFilters` 参数按名称、状态等条件过滤容器。  
+- 提供命令行选项自定义连接参数（如 `-s` 指定 Socket 路径，`-H` 指定远程主机）。  
+- 支持通过 Docker 镜像运行（需挂载 `/var/run/docker.sock`）。  
 
-## 主要特性
+**使用方法：**  
+1. **安装**：使用 `npm install -g dockly` 全局安装，或通过 Docker 命令运行镜像。  
+2. **启动**：直接运行 `dockly` 连接本地 Docker 守护进程，或通过参数指定远程连接。  
+3. **过滤容器**：如 `--containerFilters="name=test&status=running"` 过滤运行中的 `test` 容器。  
 
-Dockly 是一个基于 Node.js 的 Docker 容器可视化管理工具，它将 Docker 的命令行界面（CLI）转化为一个 Web 界面，支持实时交互和监控。主要特性包括：
-
-- **可视化 Docker 管理**：通过浏览器访问 Docker 容器的状态、日志和资源使用情况，无需复杂的命令行操作。
-- **实时终端访问**：允许用户在 Web 界面中直接进入容器的交互式 shell，支持执行命令和查看输出。
-- **资源监控**：实时显示 CPU、内存和网络使用率，帮助诊断容器性能问题。
-- **容器生命周期管理**：支持启动、停止、重启、删除容器等基本操作。
-- **多容器支持**：可以同时管理多个 Docker 容器，提供列表视图和搜索功能。
-- **轻量级部署**：基于 Express.js 和 Socket.io 构建，易于集成到现有 Docker 环境中。
-
-## 主要功能
-
-用于管理 Docker 容器和服务的沉浸式终端界面
-
-## 用法
-
-请参考项目文档获取详细用法。
+**兼容性要求：**  
+需 Node.js v7.6 及以上版本，部分功能依赖 UTF-8 编码环境。

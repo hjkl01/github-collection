@@ -1,23 +1,24 @@
+
 ---
 title: kong
 ---
 
-# Kong
+### [Kong kong](https://github.com/Kong/kong)
 
-**GitHub 地址**：<https://github.com/Kong/kong>
+**Kong Gateway** 是一个云原生、平台无关的高性能 API 网关，支持 API、大型语言模型（LLM）和机器编排平台（MCP）流量管理，具备高可扩展性和插件生态。其核心功能包括：  
+- **API 管理**：代理、路由、负载均衡、健康检查、认证授权（JWT、OAuth 等）。  
+- **AI 能力**：支持多 LLM 提供商（如 OpenAI、Anthropic 等），提供语义安全、流量治理和可观测性。  
+- **插件系统**：60+ 插件用于流量控制、日志、监控、请求/响应转换等，支持 Lua、Go、JavaScript 开发。  
+- **部署灵活**：支持 Kubernetes 原生部署、声明式无数据库部署、混合部署等。  
 
-## 主要特性
+**使用方法**：  
+1. 通过 Docker Compose 安装，执行 `KONG_DATABASE=postgres docker-compose --profile database up` 启动。  
+2. 访问 `localhost:8000`（服务流量）、`localhost:8001`（Admin API）、`localhost:8002`（管理界面）。  
+3. 可通过 [Kong AI Gateway 文档](https://developer.konghq.com/ai-gateway/) 配置 LLM/MCP 功能。  
 
-- **API Gateway**：统一入口，支持 HTTP/HTTPS、gRPC、WebSocket 等协议。
-- **插件化架构**：可插拔插件实现认证、限流、日志、监控等功能。
-- **高可用与弹性**：支持多实例部署、服务发现、负载均衡、故障转移。
-- **声明式配置**：使用 YAML/JSON 文件一次性配置路由、插件、服务等，适合 GitOps。
-- **多环境支持**：内置数据库（PostgreSQL/MySQL）或无数据库模式，支持 Docker、Kubernetes、VM 等多种部署方式。
+**主要特性**：  
+- 支持 L4/L7 代理、SSL/TLS 终止。  
+- 提供 MCP 自动生成、语义路由、AI 缓存等 60+ AI 特性。  
+- 社区插件市场（[Plugin Hub](https://docs.konghq.com/hub/)）提供扩展功能。  
 
-## 关键功能
-
-🦍 The Cloud-Native Gateway for APIs & AI
-
-## 快速使用
-
-请参考项目文档获取详细用法。
+**许可证**：Apache 2.0 开源协议。

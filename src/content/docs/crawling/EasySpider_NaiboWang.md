@@ -1,49 +1,22 @@
+
 ---
 title: EasySpider
 ---
 
-# EasySpider 项目
+### [NaiboWang EasySpider](https://github.com/NaiboWang/EasySpider)
 
-**GitHub 项目地址:** [https://github.com/NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider)
+**核心内容总结：**  
+EasySpider 是一款无代码的可视化网页爬虫系统，支持通过图形化界面定义数据采集流程，无需编程即可完成网页内容抓取。主要功能包括：  
+1. **灵活选择方式**：支持块选择、子块匹配、表单定义等多种元素选取方法，自动识别同类元素并匹配。  
+2. **流程图设计**：通过拖拽生成采集流程图，支持循环、条件分支、服务调用等复杂逻辑。  
+3. **服务封装**：可封装自定义服务并调用，实现数据处理与存储的自动化。  
+4. **开源协议**：遵循 AGPL-3.0 协议，允许免费使用及二次开发，但需遵守开源代码共享规则。  
 
-## 主要特性
-EasySpider 是一个基于 Python 的简单网络爬虫框架，专为初学者和快速开发设计。主要特性包括：
-- **简单易用**：无需复杂配置，支持一键启动爬虫任务。
-- **支持多种数据源**：兼容 HTTP/HTTPS 请求，可处理 JSON、HTML 等格式的数据提取。
-- **模块化设计**：内置数据解析器、请求代理和存储模块，便于扩展。
-- **可视化界面**：提供 Web 界面管理爬虫任务，无需编写大量代码。
-- **轻量级**：依赖 Scrapy 或 Requests 等成熟库，资源占用低。
+**使用方法**：  
+- 下载项目中的示例任务（Examples 文件夹），重命名为数字后导入 EasySpider 的 `tasks` 文件夹，即可在软件中直接打开运行。  
 
-## 主要功能
-- **网页爬取**：自动抓取指定 URL 的内容，支持分页和动态加载。
-- **数据提取**：使用 XPath、CSS 选择器或正则表达式解析页面元素。
-- **数据存储**：支持导出到 CSV、JSON 或数据库（如 MySQL）。
-- **反爬虫绕过**：集成代理 IP 和 User-Agent 旋转，减少被封禁风险。
-- **任务调度**：定时执行爬虫，支持多线程并发处理。
-- **错误处理**：内置日志记录和重试机制，确保爬取稳定性。
-
-## 用法
-1. **安装**：
-   - 克隆仓库：`git clone https://github.com/NaiboWang/EasySpider.git`
-   - 进入目录：`cd EasySpider`
-   - 安装依赖：`pip install -r requirements.txt`
-
-2. **配置**：
-   - 编辑 `config.py` 文件，设置目标 URL、解析规则和存储路径。
-   - 示例配置：
-     ```python
-     TARGET_URL = 'https://example.com'
-     SELECTOR = '//div[@class="content"]'  # XPath 选择器
-     OUTPUT_FILE = 'output.csv'
-     ```
-
-3. **运行**：
-   - 命令行启动：`python main.py`
-   - 或通过 Web 界面：访问 `http://localhost:8000`，创建并运行任务。
-   - 监控日志：查看 `logs/` 目录下的输出文件。
-
-4. **扩展**：
-   - 添加自定义解析器：在 `parsers/` 目录创建新模块。
-   - 测试：运行 `python test.py` 验证配置。
-
-更多详情请参考仓库的 README.md 文件。
+**主要特性**：  
+- 可视化操作，降低使用门槛；  
+- 支持复杂流程设计（如循环翻页、条件判断）；  
+- 提供京东、58同城等平台的数据采集示例；  
+- 适配多种场景，如商品信息抓取、网页内容分析等。

@@ -1,26 +1,22 @@
+
 ---
 title: nginx-proxy-automation
 ---
 
-# NGINX Proxy Automation 项目
+### [evertramos nginx-proxy-automation](https://github.com/evertramos/nginx-proxy-automation)
 
-## 项目地址
+**项目核心内容总结：**  
 
-[GitHub 项目地址](https://github.com/evertramos/nginx-proxy-automation)
+**功能**  
+该项目通过自动化脚本实现 NGINX 反向代理配置，支持域名绑定、SSL 证书自动申请（基于 Let's Encrypt）及 Docker 容器集成，可简化 Web 服务的反向代理部署流程。  
 
-## 主要特性
+**使用方法**  
+1. 克隆代码库（需包含子模块）：`git clone --recurse-submodules https://github.com/evertramos/nginx-proxy-automation.git proxy`  
+2. 执行初始化脚本：`cd proxy/bin && ./fresh-start.sh --yes --skip-docker-image-check -e your_email@domain`（需替换为真实邮箱）  
+3. 测试代理：通过 Docker 启动测试容器或运行 `./test.sh your.domain.com`（需确保 DNS 解析正确）。  
 
-- **自动化代理管理**：通过脚本自动配置和管理 NGINX 反向代理，支持动态添加和更新代理规则。
-- **Docker 集成**：专为 Docker 环境设计，支持与 Docker Compose 结合，实现容器化部署和热重载。
-- **环境变量驱动**：使用环境变量简化配置，避免手动编辑 NGINX 配置文件，提高可维护性。
-- **SSL/TLS 支持**：内置 Let's Encrypt 集成，实现自动证书获取和续期，确保 HTTPS 安全访问。
-- **负载均衡与健康检查**：支持后端服务的负载均衡和健康检查机制，提高系统可用性。
-- **日志与监控**：提供详细的访问日志和错误日志，支持集成监控工具如 Prometheus。
-
-## 主要功能
-
-Automated docker nginx proxy integrated with letsencrypt.
-
-## 用法
-
-请参考项目文档获取详细用法。
+**主要特性**  
+- 自动化处理 SSL 证书申请与续期  
+- 支持 Docker 网络集成与容器化服务代理  
+- 提供一键初始化脚本简化部署流程  
+- 适配多种云服务器环境（如 AWS、Digital Ocean 等）

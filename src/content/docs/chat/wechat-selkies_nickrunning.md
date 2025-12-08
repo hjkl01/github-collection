@@ -1,42 +1,35 @@
+
 ---
 title: wechat-selkies
 ---
 
-# WeChat Selkies 项目简介
+### [nickrunning wechat-selkies](https://github.com/nickrunning/wechat-selkies)
 
-## 项目描述
+**项目核心内容总结：**
 
-WeChat Selkies 是一个基于 Docker 的微信/QQ Linux 客户端项目，利用 Selkies WebRTC 技术实现浏览器直接访问，无需本地安装客户端。适用于服务器部署、远程办公等场景。
+**项目功能**  
+基于Docker的微信/QQ Linux客户端，通过Selkies WebRTC技术实现浏览器直接访问，无需本地安装客户端，适用于服务器部署和远程办公场景。
 
-## 主要功能特性
+**主要特性**  
+- 浏览器访问微信/QQ（支持Chrome/Firefox等现代浏览器）  
+- Docker容器化部署，支持AMD64和ARM64架构  
+- 数据持久化存储（配置/聊天记录）  
+- 中文支持及本地输入法兼容  
+- 支持图片复制、文件传输、硬件加速（GPU）  
+- 自动启动微信/QQ（可配置）  
+- 窗口切换器（便于后台窗口管理）  
 
-- 🌐 **浏览器访问**：通过 Web 浏览器直接使用微信，无需本地安装
-- 🐳 **Docker化部署**：简单的容器化部署，环境隔离
-- 🔒 **数据持久化**：支持配置和聊天记录持久化存储
-- 🎨 **中文支持**：完整的中文字体和本地化支持，支持本地中文输入法
-- 🖼️ **图片复制**：支持通过侧边栏面板开启图片复制
-- 📁 **文件传输**：支持通过侧边栏面板进行文件传输
-- 🖥️ **多架构支持**：兼容 AMD64 和 ARM64 架构
-- 🔧 **硬件加速**：可选的 GPU 硬件加速支持
-- 🪟 **窗口切换器**：左上角增加切换悬浮窗，方便切换到后台窗口
-- 🤖 **自动启动**：可配置自动启动微信和 QQ 客户端
+**使用方法**  
+1. **环境要求**：Docker、Docker Compose、支持WebRTC的浏览器  
+2. **快速部署**：  
+   - 直接运行Docker镜像（支持Docker Hub和GitHub Container Registry）  
+   - 使用`docker-compose.yml`配置文件部署（含端口映射、数据卷、环境变量等）  
+3. **访问方式**：通过HTTPS访问`https://<服务器IP>:3001`  
 
-## 使用方法
+**注意事项**  
+- 升级后若功能异常，需清空挂载目录下的`openbox`文件夹  
+- 硬件加速需映射`/dev/dri`设备  
+- 支持自定义用户名、密码、时区等环境变量  
 
-### 环境要求
-
-- Docker
-- Docker Compose
-- 支持 WebRTC 的现代浏览器（Chrome、Firefox、Safari 等）
-
-### 快速部署
-
-1. 使用 Docker 命令直接运行：
-   ```bash
-   docker run -it -p 3001:3001 -v ./config:/config --device /dev/dri:/dev/dri nickrunning/wechat-selkies:latest
-   ```
-2. 或使用 Docker Compose：
-   创建 `docker-compose.yml` 文件并运行 `docker-compose up -d`
-3. 在浏览器中访问 `https://localhost:3001` 或 `https://<服务器IP>:3001`
-
-更多配置详情请参考项目 README。
+**许可证**  
+采用MIT开源协议，项目基于LinuxServer.io的Selkies基础镜像构建。

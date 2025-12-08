@@ -1,75 +1,25 @@
+
 ---
-title: Trellis
+title: TRELLIS
 ---
 
-# TRELLIS
+### [microsoft TRELLIS](https://github.com/microsoft/TRELLIS)
 
-## 项目简介
+**项目核心内容总结**  
+TRELLIS 是一个基于扩散模型和变分自编码器（VAE）的3D生成框架，支持通过图像或文本条件生成3D模型。其主要功能包括：  
+1. **图像到3D生成**：利用图像条件训练模型，生成高质量3D结构。  
+2. **文本到3D生成**：通过文本描述生成3D模型，支持基础、大型及超大型模型（文本条件）。  
+3. **多模态支持**：结合图像与文本条件，增强生成多样性。  
 
-TRELLIS 是微软开发的一个大型 3D 资产生成模型。它能够根据文本或图像提示生成高质量的 3D 资产，支持多种输出格式，如辐射场 (Radiance Fields)、3D 高斯 (3D Gaussians) 和网格 (Meshes)。TRELLIS 的核心是统一的结构化潜在 (Structured LATent, SLAT) 表示，以及专为 SLAT 设计的校正流变换器 (Rectified Flow Transformers)。该模型在包含 50 万个多样化对象的 3D 资产数据集上进行了预训练，参数规模高达 20 亿。
+**使用方法**  
+- **训练**：通过命令行调用 `train.py`，指定配置文件（如 `slat_flow_img_dit_L_64l8p2_fp16.json`）和输出目录，支持单节点（自动分配GPU）或多节点分布式训练（需设置节点数、地址及端口）。  
+- **恢复训练**：通过 `--load_dir` 和 `--ckpt` 参数加载预训练模型继续训练。  
 
-## 主要功能
+**主要特性**  
+- 提供多种预训练模型（如图像条件、文本条件模型），支持不同规模（基础、大型、超大型）。  
+- 支持灵活的训练配置，包括自动重试、性能分析及多GPU/多节点扩展。  
+- 使用MIT许可证，部分子模块（如渲染器、Flexicubes）采用其他开源协议。  
 
-- **高质量生成**：生成多样化的 3D 资产，具有精细的形状和纹理细节。
-- **多功能性**：支持文本或图像输入，可生成多种 3D 表示形式，满足不同下游需求。
-- **灵活编辑**：允许对生成的 3D 资产进行编辑，如生成同一对象的变体或局部编辑。
-
-## 安装和使用
-
-### 安装
-
-1. 克隆仓库：
-
-   ```sh
-   git clone --recurse-submodules https://github.com/microsoft/TRELLIS.git
-   cd TRELLIS
-   ```
-
-2. 安装依赖：
-   ```sh
-   . ./setup.sh --new-env --basic --xformers --flash-attn --diffoctreerast --spconv --mipgaussian --kaolin --nvdiffrast
-   ```
-
-### 预训练模型
-
-提供以下预训练模型：
-
-- TRELLIS-image-large：图像到 3D 大型模型 (1.2B 参数)
-- TRELLIS-text-base：文本到 3D 基础模型 (342M 参数)
-- TRELLIS-text-large：文本到 3D 大型模型 (1.1B 参数)
-- TRELLIS-text-xlarge：文本到 3D 超大型模型 (2.0B 参数)
-
-### 基本用法
-
-```python
-import os
-os.environ['SPCONV_ALGO'] = 'native'
-
-from PIL import Image
-from trellis.pipelines import TrellisImageTo3DPipeline
-
-# 加载模型
-pipeline = TrellisImageTo3DPipeline.from_pretrained("microsoft/TRELLIS-image-large")
-pipeline.cuda()
-
-# 加载图像
-image = Image.open("path/to/image.png")
-
-# 生成 3D 资产
-outputs = pipeline.run(image, seed=1)
-
-# 输出包括高斯、辐射场和网格
-# 可以渲染视频或导出为 GLB/PLY 文件
-```
-
-### Web 演示
-
-运行 Gradio 演示：
-
-```sh
-python app.py
-```
-
-## 许可证
-
-TRELLIS 模型和大部分代码采用 MIT 许可证。某些子模块可能有不同许可证。
+**注意事项**  
+- 训练需指定数据目录，支持多个数据集路径。  
+- 部分功能依赖CUDA加速的渲染器及Flexicubes库。

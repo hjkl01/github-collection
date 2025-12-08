@@ -1,73 +1,22 @@
+
 ---
 title: bottom
 ---
 
-# bottom
+### [ClementTsang bottom](https://github.com/ClementTsang/bottom)
 
-**作者**: ClementTsang  
-**项目地址**: https://github.com/ClementTsang/bottom  
-**许可证**: MIT
+**项目功能**  
+bottom 是一个用 Rust 编写的跨平台系统监控工具，可实时显示 CPU、内存、磁盘、网络等资源使用情况，并支持自定义监控指标和视图。用户可通过进程树查看详细信息，支持对进程排序、过滤及异常资源使用高亮显示，还提供插件扩展功能。
 
-## 项目简介
+**使用方法**  
+通过 `cargo install bottom` 安装，或从源码编译后运行 `bottom` 命令启动。支持命令行参数自定义监控项和显示方式。
 
-bottom (btm) 是一个跨平台的图形化进程/系统监控器，灵感来源于 gtop、gotop 和 htop。它提供了一个现代化的终端界面，用于监控系统资源和进程。
+**主要特性**  
+1. 实时更新系统资源数据；  
+2. 可自定义监控指标和视图布局；  
+3. 进程树展示及进程管理（排序、过滤）；  
+4. 异常资源使用高亮提醒；  
+5. 插件系统支持功能扩展；  
+6. 跨平台（Windows、Linux、macOS）兼容。  
 
-## 主要功能
-
-- **图形化可视化小部件**:
-  - CPU 使用率（平均和每核）
-  - RAM 和 swap 使用率
-  - 网络 I/O 使用率
-  - 磁盘容量/使用率
-  - 温度传感器
-  - 电池使用率
-
-- **进程管理**:
-  - 显示、排序和搜索进程
-  - 支持杀死信号
-  - 树模式查看进程关系
-
-- **跨平台支持**: Linux、macOS、Windows
-- **可定制性**: 内置和自定义颜色主题、布局调整、过滤选项等
-- **基本模式**: htop 风格的简单界面
-- **扩展模式**: 聚焦单个小部件
-
-## 用法
-
-### 安装
-
-#### 使用 Cargo
-
-```bash
-cargo install bottom --locked
-```
-
-#### 使用包管理器
-
-- Arch Linux: `pacman -S bottom`
-- Ubuntu/Debian: 下载 .deb 文件并安装
-- Homebrew: `brew install bottom`
-- 更多安装方式请参考项目文档
-
-### 运行
-
-```bash
-btm
-```
-
-### 命令行选项
-
-- `btm -h`: 快速帮助
-- `btm --help`: 详细帮助
-
-### 键绑定
-
-在应用内按 `?` 查看所有键绑定和鼠标操作。
-
-### 配置
-
-bottom 支持配置文件，可通过命令行参数或编辑配置文件自定义行为。首次运行时会自动生成配置文件。
-
-## 文档
-
-详细文档: https://bottom.pages.dev
+项目灵感来源于 gotop、gtop 和 htop，依赖多个开源库，感谢贡献者及 JetBrains 的工具支持。

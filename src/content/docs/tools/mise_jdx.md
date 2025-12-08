@@ -1,90 +1,26 @@
+
 ---
 title: mise
 ---
 
+### [jdx mise](https://github.com/jdx/mise)
 
-# mise (by jdx)
+**核心内容总结：**  
+`mise` 是一个集成开发环境管理工具，结合了 `asdf`（多语言版本管理）、`direnv`（环境变量管理）和 `make`（任务自动化）的功能，用于统一管理开发工具、环境变量和项目任务。  
 
-- **项目地址**: https://github.com/jdx/mise
+**主要功能：**  
+- **开发工具管理**：支持 Node.js、Python、Go、Terraform 等数百种工具的多版本安装与切换。  
+- **环境变量管理**：通过 `mise.toml` 配置文件定义项目级环境变量，或加载 `.env` 文件实现环境隔离。  
+- **任务自动化**：在 `mise.toml` 中定义任务（如构建、测试），支持依赖关系和命令执行。  
 
-## 主要特性
+**使用方法：**  
+1. **安装**：通过 `curl https://mise.run | sh` 安装，随后根据 Shell 类型（Bash/Zsh/Fish/PowerShell）配置激活命令。  
+2. **配置工具**：在 `mise.toml` 中指定工具版本（如 `[tools] terraform = "1"`）。  
+3. **执行命令**：使用 `mise exec <tool@version> -- <command>` 运行特定版本工具，或通过 `mise use` 全局安装工具。  
+4. **管理环境变量**：在 `mise.toml` 的 `[env]` 段定义变量，或使用 `mise set VAR=value` 动态设置。  
+5. **运行任务**：在 `mise.toml` 的 `[tasks]` 段定义任务（如 `[tasks.build] run = "npm install"`），通过 `mise run build` 执行。  
 
-| 特色 | 说明 |
-|------|------|
-| **轻量化** | 单个可执行文件，GitHub release 页面直接下载，内置快捷命令，启动速度快 |
-| **多语言支持** | 兼容 Node、Python、Ruby、Go、Rust、.NET、Java、Lua、Elixir 等 100+ 生态工具 |
-| **`.tool-versions` 配置** | 在项目根目录声明所需工具与版本，类似 asdf 但更简洁、速度更快 |
-| **插件化** | 通过 `mise plugin` 支持第三方插件，新增语言/工具几乎无缝集成 |
-| **全局与项目级别** | `mise use --global` 设置全局默认版本，`mise use` 或 `.tool-versions` 设置项目级别 |
-| **自动切换** | `mise shell` 侦测 `.tool-versions` 自动切换到对应版本，支持 `mise exec` 与 `mise run` |
-| **交互式安装** | 自动下载对应工具版本，缓存本地，已安装的版本不会再次下载 |
-
-## 核心命令
-
-| 命令 | 用途 |
-|------|------|
-| `mise install < TOOL_NAME >` | 安装工具或指定版本：`mise install python@3.11.4` |
-| `mise use < TOOL_NAME >` | 切换工具版本到全局或局部 |
-| `mise which < TOOL_NAME >` | 查看当前使用的工具路径 |
-| `mise ls-remote < TOOL_NAME >` | 列出远程可用版本 |
-| `mise ls `< TOOL_NAME > or `mise ls` | 列出本地已安装版本 |
-| `mise run < TASK >` | 在当前项目的环境中执行已定义的任务 |
-| `mise exec < TOOL_NAME > < CMD >` | 直接执行指定工具的命令，如 `mise exec python --version` |
-| `mise plugin install < PLUGIN_NAME >` | 安装插件 |
-
-## 安装步骤
-
-```bash
-# 方式 1：使用安装脚本
-curl -fsSL https://mise.jdx.dev/install.sh | sh
-
-# 方式 2：通过 Homebrew（macOS/Linux）
-brew install jdx/mise/mise
-
-# 方式 3：手动下载
-# 访问 https://github.com/jdx/mise/releases，下载对应系统的二进制文件，解压后加入 PATH
-```
-
-## 开箱即用示例
-
-1. **创建项目目录**  
-   ```bash
-   mkdir myproj && cd myproj
-   ```
-
-2. **声明工具与版本**  
-   在项目根目录新建 `.tool-versions`：  
-   ```
-   node 20.13.0
-   python 3.11.6
-   rust stable
-   ```
-
-3. **同步安装**  
-   ```bash
-   mise sync
-   # 或者
-   mise install
-   ```
-
-4. **使用工具**  
-   ```bash
-   # 直接使用已安装工具
-   node --version
-   python --version
-   ```
-
-5. **执行项目中定义的脚本**  
-   在 `package.json` 或 `mise.toml` 定义任务后，执行：  
-   ```bash
-   mise run build
-   ```
-
-## 进一步阅读
-
-- 官方文档: https://mise.jdx.dev
-- GitHub 仓库: https://github.com/jdx/mise
-- 发行管理: https://github.com/jdx/mise/releases
-
----
-**保存路径**: `src/content/docs/00/mise_jdx.md`
+**特性亮点：**  
+- 支持跨平台（macOS/Windows/Linux）。  
+- 工具安装路径可直接通过 `which <tool>` 查看真实路径，非符号链接。  
+- 提供官方文档、演示视频及社区讨论（GitHub Discussions）。

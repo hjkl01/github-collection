@@ -1,118 +1,28 @@
+
 ---
 title: go-sdk
 ---
 
-# MCP Go SDK
+### [modelcontextprotocol go-sdk](https://github.com/modelcontextprotocol/go-sdk)
 
-The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.
+**项目核心内容总结**  
+MCP Go SDK 是 Model Context Protocol（MCP）的官方 Go 语言开发工具包，提供构建和使用 MCP 客户端与服务器的完整功能。  
 
-## Package / Feature documentation
+**主要功能**  
+- 通过 `mcp` 包实现 MCP 协议的核心 API，支持创建客户端/服务器实例、工具注册与调用。  
+- `jsonrpc` 包用于自定义传输协议的实现。  
+- `auth` 和 `oauthex` 包提供 OAuth 认证及扩展功能（如 ProtectedResourceMetadata）。  
+- 完整兼容 MCP 规范，文档与代码示例位于 `docs/` 和 `examples/` 目录。  
 
-The SDK consists of several importable packages:
+**使用方法**  
+- **服务器端**：创建 `mcp.Server` 实例，添加工具并绑定传输（如 stdin/stdout），运行服务。  
+- **客户端**：通过 `mcp.Client` 连接服务器，调用工具并处理响应。  
+- 示例代码包含基于 stdin/stdout 的简单工具（如 `SayHi`）及客户端调用逻辑。  
 
-- The [`github.com/modelcontextprotocol/go-sdk/mcp`](https://pkg.go.dev/github.com/modelcontextprotocol/go-sdk/mcp) package defines the primary APIs for constructing and using MCP clients and servers.
-- The [`github.com/modelcontextprotocol/go-sdk/jsonrpc`](https://pkg.go.dev/github.com/modelcontextprotocol/go-sdk/jsonrpc) package is for users implementing their own transports.
-- The [`github.com/modelcontextprotocol/go-sdk/auth`](https://pkg.go.dev/github.com/modelcontextprotocol/go-sdk/auth) package provides some primitives for supporting OAuth.
-- The [`github.com/modelcontextprotocol/go-sdk/oauthex`](https://pkg.go.dev/github.com/modelcontextprotocol/go-sdk/oauthex) package provides extensions to the OAuth protocol, such as ProtectedResourceMetadata.
+**特性**  
+- 提供开箱即用的 `StdioTransport` 和 `CommandTransport` 传输方式。  
+- 支持 OAuth 认证扩展，适配多种 MCP 场景。  
+- 包含完整示例（`examples/`）和详细文档（`docs/`）。  
 
-The SDK endeavors to implement the full MCP spec. The [`docs/`](/modelcontextprotocol/go-sdk/blob/main/docs) directory contains feature documentation, mapping the MCP spec to the packages above.
-
-## Getting started
-
-To get started creating an MCP server, create an `mcp.Server` instance, add features to it, and then run it over an `mcp.Transport`. For example, this server adds a single simple tool, and then connects it to clients over stdin/stdout:
-
-```go
-package main
-
-import (
-	"context"
-	"log"
-
-	"github.com/modelcontextprotocol/go-sdk/mcp"
-)
-
-type Input struct {
-	Name string `json:"name" jsonschema:"the name of the person to greet"`
-}
-
-type Output struct {
-	Greeting string `json:"greeting" jsonschema:"the greeting to tell to the user"`
-}
-
-func SayHi(ctx context.Context, req *mcp.CallToolRequest, input Input) (
-	*mcp.CallToolResult,
-	Output,
-	error,
-) {
-	return nil, Output{Greeting: "Hi " + input.Name}, nil
-}
-
-func main() {
-	// Create a server with a single tool.
-	server := mcp.NewServer(&mcp.Implementation{Name: "greeter", Version: "v1.0.0"}, nil)
-	mcp.AddTool(server, &mcp.Tool{Name: "greet", Description: "say hi"}, SayHi)
-	// Run the server over stdin/stdout, until the client disconnects.
-	if err := server.Run(context.Background(), &mcp.StdioTransport{}); err != nil {
-		log.Fatal(err)
-	}
-}
-```
-
-To communicate with that server, create an `mcp.Client` and connect it to the corresponding server, by running the server command and communicating over its stdin/stdout:
-
-```go
-package main
-
-import (
-	"context"
-	"log"
-	"os/exec"
-
-	"github.com/modelcontextprotocol/go-sdk/mcp"
-)
-
-func main() {
-	ctx := context.Background()
-
-	// Create a new client, with no features.
-	client := mcp.NewClient(&mcp.Implementation{Name: "mcp-client", Version: "v1.0.0"}, nil)
-
-	// Connect to a server over stdin/stdout.
-	transport := &mcp.CommandTransport{Command: exec.Command("myserver")}
-	session, err := client.Connect(ctx, transport, nil)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer session.Close()
-
-	// Call a tool on the server.
-	params := &mcp.CallToolParams{
-		Name:      "greet",
-		Arguments: map[string]any{"name": "you"},
-	}
-	res, err := session.CallTool(ctx, params)
-	if err != nil {
-		log.Fatalf("CallTool failed: %v", err)
-	}
-	if res.IsError {
-		log.Fatal("tool failed")
-	}
-	for _, c := range res.Content {
-		log.Print(c.(*mcp.TextContent).Text)
-	}
-}
-```
-
-The [`examples/`](/modelcontextprotocol/go-sdk/blob/main/examples) directory contains more example clients and servers.
-
-## Contributing
-
-We welcome contributions to the SDK! Please see [CONTRIBUTING.md](/modelcontextprotocol/go-sdk/blob/main/CONTRIBUTING.md) for details of how to contribute.
-
-## Acknowledgements / Alternatives
-
-Several third party Go MCP SDKs inspired the development and design of this official SDK, and continue to be viable alternatives, notably [mcp-go](https://github.com/mark3labs/mcp-go), originally authored by Ed Zynda. We are grateful to Ed as well as the other contributors to mcp-go, and to authors and contributors of other SDKs such as [mcp-golang](https://github.com/metoro-io/mcp-golang) and [go-mcp](https://github.com/ThinkInAIXYZ/go-mcp). Thanks to their work, there is a thriving ecosystem of Go MCP clients and servers.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](/modelcontextprotocol/go-sdk/blob/main/LICENSE) file for details.
+**其他**  
+- 开源 MIT 协议，兼容第三方 Go MCP SDK（如 mcp-go）。

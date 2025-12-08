@@ -1,15 +1,15 @@
+
 ---
 title: ntsc-rs
 ---
 
-# ntsc-rs
+### [valadaptive ntsc-rs](https://github.com/valadaptive/ntsc-rs)
 
-## 功能
+**核心内容总结：**  
+ntsc-rs 是一个用于模拟 NTSC 和 VHS 视频伪影的视频效果工具，支持作为 After Effects、Premiere 或 OpenFX 插件使用，也可作为独立应用程序运行。  
 
-ntsc-rs 是一个免费的开源视频效果工具，用于模拟NTSC和VHS视频 artifacts。它可以作为After Effects、Premiere或OpenFX插件使用，或作为独立应用程序运行。该工具基于Rust实现，能够实现实时速度的图像处理。
+**使用方法：**  
+最新版本可通过 GitHub 发布页面下载，安装需参考文档说明。Linux 用户需额外安装文档中列出的 GStreamer 依赖包以确保正常运行。  
 
-## 用法
-
-1. 从 [GitHub releases页面](https://github.com/valadaptive/ntsc-rs/releases) 下载最新版本。
-2. 对于独立应用程序，参考 [官方文档](https://ntsc.rs/docs/standalone-installation/) 进行安装和运行。注意在Linux系统上需要安装所有列出的GStreamer包以确保正常工作。
-3. 作为插件，在After Effects、Premiere或其他支持OpenFX的软件中加载和使用。
+**主要特性：**  
+该项目基于 Rust 语言重写，采用多线程技术实现接近实时的处理速度，与原 Python 版本相比，部分处理流程结果存在差异，并新增了部分功能。

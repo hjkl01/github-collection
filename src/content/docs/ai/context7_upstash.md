@@ -1,57 +1,25 @@
+
 ---
 title: context7
 ---
 
-# Context7 项目描述
+### [upstash context7](https://github.com/upstash/context7)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/upstash/context7?tab=readme-ov-file)
+**项目核心内容总结：**
 
-## 主要特性
-Context7 是 Upstash 开发的开源工具，专注于为 AI 模型提供高效的上下文管理。主要特性包括：
-- **动态上下文注入**：自动分析和注入相关上下文，支持多模态数据（如文本、图像）。
-- **内存优化**：使用高效的向量存储和检索机制，减少 AI 模型的 token 消耗。
-- **插件化架构**：易于扩展，支持集成各种数据源和 API。
-- **实时更新**：支持上下文的实时同步和更新，确保 AI 响应的一致性。
-- **开源与免费**：基于 MIT 许可，社区驱动开发。
+**1. 项目功能**  
+Context7 是一个基于 Model Context Protocol (MCP) 的服务器工具，旨在帮助大语言模型（LLM）快速访问和检索代码库的文档与信息。其核心功能包括：  
+- 通过 `resolve-library-id` 工具将通用库名转换为 Context7 兼容的唯一库 ID。  
+- 通过 `get-library-docs` 工具按库 ID 获取文档，并支持按主题（如“路由”“钩子”）和分页查询。  
 
-## 主要功能
-- **上下文检索**：基于语义搜索从知识库中检索相关信息，提供给 LLM（如 GPT 模型）。
-- **多轮对话管理**：维护对话历史，自动过滤无关上下文，避免信息过载。
-- **集成支持**：兼容 Vercel、Upstash 等云平台，便于部署在 serverless 环境中。
-- **监控与调试**：内置日志和性能监控工具，帮助优化上下文处理效率。
-- **自定义适配器**：允许开发者自定义上下文提供者，支持本地文件、数据库等。
+**2. 使用方法**  
+- **安装配置**：支持通过 `npx`、`bunx` 或 `deno` 安装，需配置 API 密钥（可通过环境变量或命令行参数设置）。  
+- **集成开发环境**：提供针对 VS Code、LM Studio 等工具的安装指南，支持自定义规则（如自动触发 Context7 查询代码相关问题）。  
+- **本地运行**：通过 `bun run` 启动服务，支持 `stdio`（本地集成）或 `http`（远程服务器）传输方式，可自定义端口。  
 
-## 用法
-1. **安装**：
-   - 克隆仓库：`git clone https://github.com/upstash/context7.git`
-   - 安装依赖：`npm install`（或使用 yarn/pnpm）。
+**3. 主要特性**  
+- **灵活配置**：支持环境变量（如 `CONTEXT7_API_KEY`）和 `.env` 文件管理密钥，适配多种 MCP 客户端。  
+- **错误处理**：提供常见问题解决方案，如使用 `bunx` 替代 `npx` 解决模块未找到问题，或通过 `--experimental-fetch` 绕过 TLS 证书限制。  
+- **跨平台兼容**：适配 Node.js 18+，支持 Deno 等替代工具，确保在不同开发环境中的稳定性。  
 
-2. **配置**：
-   - 在 `config.js` 中设置 API 密钥（如 Upstash Redis）和模型提供者（e.g., OpenAI）。
-   - 示例配置：
-     ```javascript
-     module.exports = {
-       openaiApiKey: 'your-openai-key',
-       upstashUrl: 'your-upstash-url',
-       contextSources: ['local-files', 'web-api']
-     };
-     ```
-
-3. **基本用法**：
-   - 初始化 Context7：
-     ```javascript
-     const Context7 = require('context7');
-     const context = new Context7({ config });
-     ```
-   - 在 AI 查询中注入上下文：
-     ```javascript
-     const response = await context.enhancePrompt('用户查询', { maxTokens: 1000 });
-     // 使用 response 发送到 LLM
-     ```
-   - 运行示例：`node examples/basic.js` 以测试基本功能。
-
-4. **高级用法**：
-   - 添加自定义源：实现 `ContextProvider` 接口并注册。
-   - 部署：使用 Vercel CLI 部署 `api/` 目录下的端点。
-   - 更多细节参考仓库 README 和 `docs/` 目录。
+**适用场景**：适用于需要快速查询库文档、提升代码辅助工具（如 Cursor、Codex）效率的开发者及团队。

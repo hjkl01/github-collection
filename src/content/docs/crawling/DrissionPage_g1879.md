@@ -1,62 +1,19 @@
+
 ---
 title: DrissionPage
 ---
 
-# DrissionPage 项目介绍
+### [g1879 DrissionPage](https://github.com/g1879/DrissionPage)
 
-## 项目地址
-[https://github.com/g1879/DrissionPage](https://github.com/g1879/DrissionPage)
+**DrissionPage 项目核心内容总结：**
 
-## 主要特性
-DrissionPage 是一个开源的 Python 网页自动化库，结合了 Selenium 和 Requests 的优势，提供高效、灵活的网页浏览和数据采集功能。主要特性包括：
-- **双核支持**：无缝集成 Chromium 浏览器内核（类似 Selenium）和无头 Requests 模式，支持动态和静态网页处理。
-- **智能元素定位**：内置多种选择器（如 CSS、XPath、文本匹配），并支持元素等待和交互自动化。
-- **页面控制**：支持页面导航、表单提交、JavaScript 执行、截屏和下载管理。
-- **易用性和扩展性**：API 设计简洁，支持多线程、代理设置和自定义配置；兼容 Python 3.7+。
-- **轻量高效**：无需额外安装浏览器驱动，内置 Chromium 驱动管理，资源占用低。
+**项目功能**  
+DrissionPage 是一个基于 Python 的网页自动化工具，支持浏览器控制、数据包收发及两者结合使用，兼具浏览器自动化的便利性和 `requests` 的高效率。内置大量实用功能，适用于网页操作、数据抓取等场景。
 
-## 主要功能
-- **浏览器自动化**：模拟用户操作，如点击、输入、滚动和切换窗口。
-- **数据采集**：提取页面元素、HTML 源码、JSON 数据，支持 AJAX 加载处理。
-- **网络请求**：发送 HTTP 请求，处理 cookies、会话和重定向。
-- **调试工具**：提供页面快照、日志记录和元素高亮功能，便于开发调试。
-- **高级应用**：支持文件上传/下载、弹出窗口处理和跨域资源访问。
+**使用方法**  
+通过 [官方文档](https://DrissionPage.cn) 获取使用指南，支持 Windows、Linux、Mac 系统，兼容 Python 3.6 及以上版本，适用于 Chromium 内核浏览器（如 Chrome、Edge）及 Electron 应用。
 
-## 用法
-1. **安装**：使用 pip 安装库：
-   ```
-   pip install DrissionPage
-   ```
-
-2. **基本示例**（使用 Chromium 模式打开页面并提取标题）：
-   ```python
-   from DrissionPage import ChromiumPage
-
-   page = ChromiumPage()
-   page.get('https://www.example.com')
-   title = page.title
-   print(title)
-   page.quit()
-   ```
-
-3. **Requests 模式示例**（无头获取页面内容）：
-   ```python
-   from DrissionPage import SessionPage
-
-   page = SessionPage()
-   page.get('https://www.example.com')
-   html = page.html
-   print(html)
-   ```
-
-4. **元素操作示例**（定位并点击按钮）：
-   ```python
-   from DrissionPage import ChromiumPage
-
-   page = ChromiumPage()
-   page.get('https://www.example.com')
-   button = page.ele('#submit-btn')  # 使用 CSS 选择器
-   button.click()
-   ```
-
-详细文档和更多示例请参考 GitHub 仓库的 README 和 examples 文件夹。
+**主要特性**  
+1. **自研内核优势**：无需 WebDriver，无需安装浏览器驱动，运行更快；支持跨 iframe 查找元素、多标签页同时操作、浏览器缓存读取、全网页截图及非 `open` 状态 shadow-root 处理。  
+2. **人性化设计**：提供极简元素定位语法、内置 lxml 解析引擎（速度提升数级）、自动等待与重试机制、浏览器下载工具、INI 配置文件管理、POM 模式封装（便于测试扩展）。  
+3. **高效稳定**：通过优化减少代码量，提升开发效率；支持重复使用已打开的浏览器实例，简化调试流程。

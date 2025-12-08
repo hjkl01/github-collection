@@ -1,57 +1,34 @@
+
 ---
 title: firecrawl
 ---
 
-# Firecrawl 项目
+### [mendableai firecrawl](https://github.com/mendableai/firecrawl)
 
-**项目地址**: [https://github.com/mendableai/firecrawl](https://github.com/mendableai/firecrawl)
+**项目核心内容总结：**
 
-## 主要特性
-Firecrawl 是一个开源的网络爬虫和抓取工具，专为 AI 应用设计。它将网站内容转换为适合大型语言模型 (LLM) 处理的格式，如 Markdown 或结构化数据。主要特性包括：
-- **智能爬取**：支持爬取整个网站、单个页面或特定 URL，支持动态内容和 JavaScript 渲染。
-- **格式转换**：自动将 HTML 转换为干净的 Markdown，支持提取纯文本、图像和元数据。
-- **API 集成**：提供简单易用的 API 接口，便于集成到 AI 工作流中。
-- **可扩展性**：处理大规模爬取任务，支持代理、延迟控制和错误处理。
-- **开源与免费**：基于 Node.js 构建，易于自托管或使用托管版本。
+Firecrawl 是一个用于网络爬虫和数据提取的工具，支持通过 API 或 SDK 进行网站抓取、动态交互、批量处理和结构化数据提取。其主要功能包括：
 
-## 主要功能
-- **爬取模式**：包括“scrape”（单页抓取）、“crawl”（全站爬取）和“map”（站点映射）。
-- **数据提取**：提取链接、标题、内容，支持自定义选择器和过滤器。
-- **输出格式**：支持 Markdown、JSON 和纯文本输出，便于 LLM 摄取。
-- **高级选项**：处理登录、CAPTCHA、速率限制，以及多语言支持。
-- **监控与日志**：提供爬取进度跟踪和错误日志。
+- **网站抓取：** 可抓取网页的 Markdown、HTML 等格式内容。
+- **动态交互：** 支持在抓取前进行页面操作（如搜索、点击、截图等）。
+- **结构化数据提取：** 可通过 LLM 提取结构化数据，支持 Pydantic（Python）或 Zod（Node.js）等 schema 定义。
+- **批量处理：** 支持同时抓取多个 URL。
+- **SDK 支持：** 提供 Python 和 Node.js 的 SDK，简化开发流程。
 
-## 用法
-1. **安装**：
-   - 克隆仓库：`git clone https://github.com/mendableai/firecrawl.git`
-   - 安装依赖：`npm install`
+**使用方法：**
 
-2. **基本用法（API 示例）**：
-   - 使用 Node.js 脚本或直接调用 API。
-   - 示例（爬取单个页面）：
-     ```javascript
-     const { FirecrawlApp } = require('@mendable/firecrawl-js');
+- **API 调用：** 通过 REST API 实现网站抓取、爬取、提取等操作。
+- **SDK 使用：** 安装 Python 或 Node.js SDK 后，通过代码调用相关方法完成数据抓取与提取。
 
-     const app = new FirecrawlApp({ apiKey: 'your-api-key' });
+**主要特性：**
 
-     async function scrapePage() {
-       const result = await app.scrapeUrl('https://example.com');
-       console.log(result.data); // 输出 Markdown 或 JSON
-     }
+- 支持多种数据格式（Markdown、HTML、JSON 等）。
+- 提供结构化数据提取能力，支持自定义 schema。
+- 支持与动态网页交互（如搜索、点击等）。
+- 支持批量抓取多个 URL。
+- 提供开源版本及云服务版本，云服务提供更多高级功能。
 
-     scrapePage();
-     ```
-   - 全站爬取示例：
-     ```javascript
-     const crawlResult = await app.crawlUrl('https://example.com', { crawlerOptions: { excludes: ['/admin*'] } });
-     ```
+**开源与云服务：**
 
-3. **自托管**：
-   - 运行本地服务器：`npm run dev`
-   - 配置环境变量（如 API 密钥、代理设置）。
-
-4. **集成**：
-   - 与 LangChain 或其他 AI 框架结合使用。
-   - 托管版本：通过 Firecrawl 的云服务获取 API 密钥（免费额度可用）。
-
-更多细节请参考项目 README。
+- Firecrawl 开源版本基于 AGPL-3.0 许可证，云服务版本提供更丰富的功能和持续更新。
+- 用户需遵守网站的 robots.txt 和相关政策，确保合法合规使用。

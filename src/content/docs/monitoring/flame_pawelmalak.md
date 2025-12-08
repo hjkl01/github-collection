@@ -1,43 +1,27 @@
+
 ---
 title: flame
 ---
 
-# Flame 项目
+### [pawelmalak flame](https://github.com/pawelmalak/flame)
 
-**GitHub 项目地址:** [https://github.com/pawelmalak/flame](https://github.com/pawelmalak/flame)
+**Flame** 是一款自托管的服务器启动页应用，灵感源自 SUI，提供图形化界面管理应用和书签，无需手动编辑文件即可快速搭建个人应用中心。  
 
-## 主要特性
-Flame 是一个开源的系统监控和性能分析工具，专为 Linux 系统设计。它提供实时监控、历史数据可视化和警报功能，支持多种系统指标的跟踪。主要特性包括：
-- **实时监控**：实时显示 CPU、内存、磁盘 I/O、网络流量等系统资源的使用情况。
-- **数据可视化**：使用图表和仪表盘形式呈现数据，支持自定义视图。
-- **警报系统**：设置阈值，当资源使用超过阈值时发送通知（如邮件或 Slack）。
-- **轻量级设计**：资源占用低，适合服务器和桌面环境部署。
-- **模块化架构**：易于扩展，支持插件添加新监控指标。
-- **跨平台支持**：核心基于 Go 语言编写，支持 Linux 和部分 Unix-like 系统。
+**核心功能**：  
+- 通过 GUI 创建/编辑/删除应用和书签，支持首页固定、本地搜索（含 11 个搜索引擎）、自定义 CSS 和 15 种主题。  
+- 集成天气模块（需 API 密钥），显示实时天气信息。  
+- 支持 Docker 和 Kubernetes 集成，通过容器标签自动识别应用（如 `flame.type=application`）。  
 
-## 功能
-Flame 的核心功能聚焦于系统性能优化和故障诊断：
-- **资源监控**：跟踪 CPU 负载、内存使用、进程信息、文件系统状态。
-- **网络分析**：监控带宽使用、连接状态和数据包统计。
-- **历史记录**：存储监控数据，支持查询和导出为 CSV 或 JSON 格式。
-- **集成支持**：可与 Prometheus、Grafana 等工具集成，实现高级可视化。
-- **命令行界面**：提供 CLI 工具，便于脚本自动化和远程监控。
+**使用方法**：  
+- **Docker 安装**：  
+  ```bash  
+  docker run -p 5005:5005 -v /path/to/data:/app/data -e PASSWORD=flame_password pawelmalak/flame  
+  ```  
+  可通过 Docker-Compose 配置文件部署，支持密钥文件认证。  
+- **非 Docker 安装**：参考 Wiki 中的 [无 Docker 安装指南](https://github.com/pawelmalak/flame/wiki/Installation-without-docker)。  
 
-## 用法
-1. **安装**：
-   - 克隆仓库：`git clone https://github.com/pawelmalak/flame.git`
-   - 进入目录：`cd flame`
-   - 构建：`go build -o flame`
-   - 运行：`./flame`（默认启动 Web 界面，访问 http://localhost:8080）
-
-2. **基本用法**：
-   - **启动监控**：运行 `./flame start` 以开始实时监控。
-   - **查看仪表盘**：在浏览器中打开 Web UI，浏览不同模块的图表。
-   - **配置警报**：编辑 `config.yaml` 文件，设置阈值如 `cpu_threshold: 80`，然后重启服务。
-   - **CLI 查询**：使用 `./flame query --metric cpu` 查询特定指标的历史数据。
-   - **停止服务**：运行 `./flame stop`。
-
-3. **高级用法**：
-   - 自定义插件：参考 `plugins/` 目录，编写 Go 模块扩展功能。
-   - 部署到服务器：使用 systemd 服务文件（仓库中提供）实现后台运行。
-   - 更多细节请参考仓库的 README.md 和文档目录。
+**主要特性**：  
+- 支持自定义 CSS 和主题，提供主题构建器。  
+- 搜索栏支持自定义引擎（如 `/g` 前缀调用 Google）。  
+- Docker 集成需在容器标签中定义 `flame.type`、`flame.name`、`flame.url` 等参数。  
+- 可通过 Python 脚本导入 HTML 书签（实验性功能）。

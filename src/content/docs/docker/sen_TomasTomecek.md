@@ -1,41 +1,28 @@
+
 ---
 title: sen
 ---
 
-# sen 项目
+### [TomasTomecek sen](https://github.com/TomasTomecek/sen)
 
-## 项目地址
+**项目核心内容总结：**  
 
-[GitHub 项目地址](https://github.com/TomasTomecek/sen)
+**功能**：`sen` 是一个用于管理 Docker 容器和镜像的终端用户界面工具，支持容器/镜像的启动、停止、删除、日志查看、实时更新、空间占用统计等功能，并提供类似 `docker images --tree` 的镜像树视图。  
 
-## 主要特性
+**主要特性**：  
+- 支持 Vim 风格快捷键（如 `j/k` 移动、`/` 搜索等）；  
+- 实时同步 Docker 状态（如其他终端拉取镜像时自动更新）；  
+- 提供容器/镜像的详细信息查看、日志流式输出；  
+- 支持过滤、搜索、多缓冲区导航；  
+- 可通过 `:df` 查看磁盘使用情况。  
 
-- **简单高效**：sen 是一个轻量级的命令行工具，专注于简化终端操作，提供快速的系统监控和资源管理功能。
-- **跨平台支持**：兼容 Linux、macOS 和 Windows 系统，确保在不同环境中稳定运行。
-- **实时监控**：支持实时显示 CPU、内存、磁盘和网络使用情况，帮助用户快速诊断系统性能问题。
-- **自定义配置**：允许用户通过配置文件自定义显示格式、更新间隔和警报阈值，实现个性化监控。
-- **低资源占用**：设计时注重性能优化，即使在资源受限的环境中也能高效运行。
+**使用方法**：  
+1. **Docker 安装**：拉取镜像 `tomastomecek/sen`，并挂载 Docker 套接字 `/var/run/docker.sock`；  
+2. **PyPI 安装**：通过 `pip3 install sen` 安装，需先安装依赖 `urwidtrees`；  
+3. **Git 安装**：克隆仓库后使用 `pip3` 安装依赖并运行；  
+4. **Podman 支持**：通过设置 `DOCKER_HOST` 指向 Podman 的 Unix 套接字路径启动。  
 
-## 主要功能
-
-Terminal User Interface for containers.
-
-## 用法
-
-1. **安装**：
-   - 通过 GitHub 克隆仓库：`git clone https://github.com/TomasTomecek/sen.git`
-   - 进入目录并安装依赖（如果有）：`cd sen && pip install -r requirements.txt`（假设使用 Python）。
-   - 运行安装脚本或直接执行二进制文件。
-
-2. **基本用法**：
-   - 启动监控：`sen`（默认显示所有资源）。
-   - 指定监控项：`sen --cpu --memory`（仅显示 CPU 和内存）。
-   - 设置更新间隔：`sen -i 2`（每 2 秒更新一次）。
-   - 自定义配置：编辑 `~/.sen/config.yaml` 文件，调整显示选项和阈值，然后运行 `sen`。
-
-3. **高级用法**：
-   - 进程排序：`sen --top-cpu 10`（显示前 10 个 CPU 消耗进程）。
-   - 输出到文件：`sen --log output.log`（将数据记录到日志文件）。
-   - 帮助命令：`sen --help`（查看完整选项列表）。
-
-更多细节请参考项目 README 文件。
+**注意事项**：  
+- 项目处于维护模式，仅修复 bug，不新增功能；  
+- 需确保 Docker 或 Podman 的 Unix 套接字可访问；  
+- SELinux 系统需在挂载时添加 `:Z` 标志。

@@ -5,13 +5,14 @@ import base64
 
 import requests
 
-from .config import logger, OLLAMA_URL, OLLAMA_MODEL
+from .config import logger, OLLAMA_URL, OLLAMA_MODEL, GITHUB_TOKEN
 from .prompt import category_prompt
 
 
 def api_github_readme(owner, repo):
     url = f"https://api.github.com/repos/{owner}/{repo}/readme"
-    headers = {"Accept": "application/vnd.github.v3+json"}
+    # headers = {"Accept": "application/vnd.github.v3+json"}
+    headers = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
 
     resp = requests.get(url, headers=headers)
     if resp.status_code != 200:

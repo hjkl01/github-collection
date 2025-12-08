@@ -1,32 +1,25 @@
----
-title: searxng
----
-
-
 
 ---
 title: searxng
 ---
 
-项目名称：SearxNG
+### [searxng searxng](https://github.com/searxng/searxng)
 
-项目地址： [https://github.com/searxng/searxng](https://github.com/searxng/searxng)
+**项目核心内容总结：**
 
-主要特性：
-1. **隐私保护**：SearxNG 是一个自托管的元搜索引擎，强调用户隐私，不跟踪用户的搜索活动。
-2. **多种搜索引擎整合**：支持多种搜索引擎的结果聚合，用户可以通过单一界面获得来自不同来源的信息。
-3. **可定制性**：用户可以根据个人需求和喜好自定义搜索引擎的配置和外观。
-4. **开放源代码**：作为一个开源项目，用户可以自由审查代码，贡献开发，或在自己的服务器上部署。
-5. **扩展性**：支持使用插件扩展功能，可以通过社区或自定义开发添加新的搜索引擎和功能。
+SearXNG 是一个元搜索引擎，聚合多个搜索引擎的结果并返回给用户，全程不追踪或分析用户隐私。  
 
-功能：
-- 提供图片、视频、新闻、科学、维基百科等多种类型的搜索结果。
-- 支持多语言界面，适用于全球用户。
-- 具备API接口，方便开发者集成到其他应用中。
+**功能与特性：**  
+- 支持自定义安装与配置（提供安装指南和配置文档）  
+- 开源项目，采用 GNU AGPL-3.0 许可证  
+- 提供多语言支持（通过 Weblate 翻译平台）  
+- 拥有活跃社区，支持通过 Matrix 和 Libera.chat 参与交流  
 
-用法：
-1. 访问 [SearxNG](https://github.com/searxng/searxng) 项目页面下载源代码或查找部署指导。
-2. 配置服务器环境，按照文档中的说明进行安装和设置。
-3. 启动服务后，用户可以通过浏览器访问部署的搜索引擎界面进行搜索。
+**使用方法：**  
+1. 通过 [安装指南](https://docs.searxng.org/admin/installation.html) 部署服务  
+2. 通过 [配置指南](https://docs.searxng.org/admin/settings/index.html) 调整参数  
+3. 文档中心提供详细操作说明（[文档链接](https://docs.searxng.org)）  
 
-请根据需要进一步查阅项目的详细文档和使用示例。
+**其他信息：**  
+- 项目代码托管于 GitHub，支持贡献代码（详见 [CONTRIBUTING](https://github.com/searxng/searxng/blob/master/CONTRIBUTING.rst)）  
+- 提供版本更新动态（通过 GitHub 提交记录查看）

@@ -1,131 +1,26 @@
+
 ---
 title: bufferline.nvim
 ---
 
-# bufferline.nvim
+### [akinsho bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 
-**GitHub 地址**: <https://github.com/akinsho/bufferline.nvim>
+**核心内容总结：**  
+bufferline.nvim 是一个为 Neovim 设计的缓冲区管理插件，提供美观的缓冲区行（类似标签页）和高度自定义功能。  
 
-> Description from GitHub: A snazzy bufferline for Neovim
+**功能与特性：**  
+1. **缓冲区管理**：支持标签页集成，可显示当前打开的文件缓冲区，支持通过分组（Groups）将相关缓冲区聚类管理。  
+2. **可视化增强**：  
+   - 支持多种样式（Alternate styling）、悬停提示（Hover events）、LSP 错误提示（LSP indicators）。  
+   - 可为缓冲区添加序号（Numbers）、唯一名称标识（Unique names）、关闭按钮（Close icons）。  
+3. **交互功能**：支持缓冲区重新排序（Re-ordering）、通过点击分组隐藏/显示缓冲区（Picking）、固定缓冲区（Pin）。  
+4. **自定义能力**：允许通过函数或配置定义缓冲区显示规则，支持自定义区域（Custom areas）扩展功能。  
+5. **会话持久化**：缓冲区顺序默认持久化保存，支持跨会话恢复。  
 
-## 项目简介
+**使用方法：**  
+- 安装后需禁用其他同类插件（如 airline、lightline）避免冲突。  
+- 通过配置文件定义分组规则、样式、LSP 提示逻辑等，依赖用户色板的 `Normal`、`TabLineSel` 等基础高亮设置。  
 
-`bufferline.nvim` 是 Neovim 的一个插件，用于在顶部提供类似选择栏的缓冲区条（Bufferline）。它让你可以直观地查看、切换和管理打开的缓冲区，支持丰富的图标、状态指示、标签、自定义样式等功能。
-
-## 主要特性
-
-- **缓冲区标签显示**：在窗口顶部以标签形式展示所有打开的缓冲区名称，支持多列滚动。
-- **图标支持**：集成 NERDTree、Lualine、catppuccin 等主题的图标，可显示文件图标、状态图标等。
-- **缓冲区排序**：按扩展名、目录排序，或传入自定义比较函数。
-- **配置通过 Lua 函数**：为更大定制化提供 Lua 函数配置。
-- **备用样式**：斜标签、坡标签。
-- **悬停事件**：（仅适用于 >= neovim 0.8）。
-- **下划线指示器**：。
-- **标签页**：。
-- **LSP 指示器**：。
-- **组**：。
-- **侧边栏偏移**：。
-- **数字**：。
-- **拾取**：。
-- **固定**：。
-- **唯一名称**：。
-- **关闭图标**：。
-- **重新排序**：。
-- **自定义区域**：。
-- **切换快捷键**：默认采用 `<Ctrl-s>` 组合键快速切换缓冲区，也可以设置自定义映射。
-- **可关闭缓冲区**：使用 `x` 或 `X` 关闭标签栏中的缓冲区，支持多选关闭。
-- **标签高亮**：根据缓冲区状态（未保存、含错误、正被使用等）自动高亮显示。
-- **支持 Neovim 0.8+**。
-- **主题兼容**：内置多种主题样式（`default`, `palenight`, `tokyonight`, `catppuccin` 等），可完全自定义颜色和字体。
-- **插件依赖**：需要 `nvim-web-devicons` (用于文件图标) 与 `nvim-lspconfig` 或 `nvim-treesitter`（同名进行协同工作）。
-
-## 基本使用
-
-### 安装（推荐使用插件管理器）
-
-```lua
--- packer.nvim
-use {
-  'akinsho/bufferline.nvim',
-  requires = 'kyazdani42/nvim-web-devicons',  -- 可选，用于显示图标
-  tag = "v3.*",
-  config = function()
-    require('bufferline').setup {}
-  end
-}
-```
-
-### 配置示例（Lua）
-
-```lua
-require('bufferline').setup {
-  options = {
-    -- 关闭缓冲区的快捷键
-    close_command = "bd",  -- 关闭缓冲区命令
-    right_mouse_command = "buffer <c-r>",  -- 右键切换
-    left_mouse_command = "buffer <c-l>",   -- 左键切换
-
-    -- 显示文件图标
-    show_icons = true,
-    icon_separator_active = '',
-    icon_separator_inactive = '',
-
-    -- 高亮设置
-    buffer_close_icon = '',
-    modified_icon = '●',
-    close_icon = '',
-    diagnostics = "nvim_lsp",
-
-    -- 缓冲区列表长度
-    max_name_length = 30,
-    max_prefix_length = 30,
-
-    separator_style = "thin",
-    color_icons = true,
-    show_buffer_icons = true,
-    show_buffer_close_icons = true,
-    show_close_icon = false,
-    show_tab_indicators = true,
-
-    enforce_regular_tabs = false,
-    always_show_bufferline = true,
-    hover = {
-      enabled = true,
-      delay = 200,
-      reveal = {"close"}
-    }
-  }
-}
-```
-
-### 快捷键（默认）
-
-| 键位      | 操作                 |
-| --------- | -------------------- |
-| `<C-s>`   | 下一缓冲区           |
-| `<C-S>`   | 上一缓冲区           |
-| `x`       | 关闭当前检视栏缓冲区 |
-| `X`       | 关闭其他缓冲区       |
-| `<Tab>`   | 右侧缓冲区           |
-| `<S-Tab>` | 左侧缓冲区           |
-
-> 你可以在 `init.lua` 或 `init.vim` 中自定义上述映射。
-
-## 进阶功能
-
-| 功能                     | 说明                                      |
-| ------------------------ | ----------------------------------------- |
-| **自动关闭未保存缓冲区** | 通过 `auto_save` 选项实现                 |
-| **可展示 LSP 错误/警告** | `diagnostics` 官方集成                    |
-| **多标签页支持**         | 通过 `tabpages` 选项与 Tabline 集成       |
-| **缓存可视化**           | 通过 `separator_style` 设置不同分隔线样式 |
-| **多标签窗格**           | `both` & `separator_style` 兼容多窗口     |
-
-## 参考文档
-
-- [官方 Wiki](https://github.com/akinsho/bufferline.nvim/wiki)
-- [插件配置范例](https://github.com/akinsho/bufferline.nvim)
-
----
-
-> 以上描述基于最新 `v3.*` 版本，使用时请根据自己的 Neovim 版本或插件管理器进行相应调整。祝用得愉快！
+**注意事项：**  
+- 依赖色板的高亮配置，低对比度色板可能影响显示效果。  
+- 不兼容 Neovim 原生标签页的“局部缓冲区”概念，需配合 scope.nvim 实现类似功能。

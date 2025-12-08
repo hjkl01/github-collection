@@ -1,113 +1,24 @@
+
 ---
 title: neotest-go
 ---
 
-# neotest-go
+### [nvim-neotest neotest-go](https://github.com/nvim-neotest/neotest-go)
 
-## 功能介绍
+**项目核心内容总结：**
 
-neotest-go 是为 [Neotest](https://github.com/rcarriga/neotest) 框架提供 Go 语言适配器的插件。Neotest 是一个用于 Neovim 的测试框架，支持多种编程语言的测试运行和结果展示。该插件允许在 Neovim 中直接运行 Go 测试，并提供丰富的测试结果可视化功能。
+**功能**  
+neotest-go 是 Neotest 框架的 Go 语言适配器，用于在 Neovim 中运行 Go 单元测试，支持单个测试、文件、目录及整个项目测试。
 
-主要功能包括：
+**使用方法**  
+1. **安装**：通过 packer 安装 neotest 及 neotest-go，配置 Lua 脚本启用插件。  
+2. **运行测试**：  
+   - 单个测试：悬停测试函数并调用 `require('neotest').run.run()`（注意：testify 测试方法不支持单个运行）。  
+   - 文件/目录/项目：通过 `require('neotest').run.run({路径, extra_args = {参数}})` 指定范围及额外参数（如 `-race`）。  
+3. **配置选项**：支持递归运行测试（`recursive_run = true`）、设置 `go test` 参数（如 `-count=1`）及优化诊断信息显示格式。
 
-- 运行单个测试函数
-- 运行整个测试文件
-- 运行目录下的所有测试
-- 运行整个测试套件
-- 支持 testify 等测试框架的错误消息格式化
-- 可配置额外参数传递给 `go test` 命令
-
-## 安装
-
-使用 packer 安装：
-
-```lua
-use({
-  "nvim-neotest/neotest",
-  requires = {
-    "nvim-neotest/neotest-go",
-    -- 其他测试适配器
-  },
-  config = function()
-    -- 获取 neotest 命名空间
-    local neotest_ns = vim.api.nvim_create_namespace("neotest")
-    vim.diagnostic.config({
-      virtual_text = {
-        format = function(diagnostic)
-          local message =
-            diagnostic.message:gsub("\n", " "):gsub("\t", " "):gsub("%s+", " "):gsub("^%s+", "")
-          return message
-        end,
-      },
-    }, neotest_ns)
-    require("neotest").setup({
-      -- neotest 配置
-      adapters = {
-        require("neotest-go"),
-      },
-    })
-  end,
-})
-```
-
-可选配置参数：
-
-```lua
-require("neotest").setup({
-  adapters = {
-    require("neotest-go")({
-      experimental = {
-        test_table = true,
-      },
-      args = { "-count=1", "-timeout=60s" },
-      recursive_run = true  -- 递归运行测试
-    })
-  }
-})
-```
-
-## 用法
-
-注意：所有 `require('neotest').run.run` 调用可以映射到 Neovim 命令中。
-
-### 测试单个函数
-
-将光标悬停在测试函数上，运行：
-
-```lua
-require('neotest').run.run()
-```
-
-注意：使用 testify 的测试方法无法单独运行，因为 `go test` 无法使用 `-run` 标志单独运行这些测试。
-
-### 测试文件
-
-运行当前文件的测试：
-
-```lua
-require('neotest').run.run(vim.fn.expand('%'))
-```
-
-### 测试目录
-
-运行指定目录下的测试：
-
-```lua
-require('neotest').run.run("path/to/directory")
-```
-
-### 测试套件
-
-运行整个测试套件：
-
-```lua
-require('neotest').run.run(vim.fn.getcwd())
-```
-
-### 额外参数
-
-为 `go test` 命令添加额外参数：
-
-```lua
-require('neotest').run.run({path, extra_args = {"-race"}})
-```
+**主要特性**  
+- 支持 Go 测试的多级运行（单个、文件、目录、项目）。  
+- 可自定义 `go test` 参数及递归测试。  
+- 优化诊断信息格式，提升 testify 错误信息可读性。  
+- 提供实验性功能（如测试表支持）。

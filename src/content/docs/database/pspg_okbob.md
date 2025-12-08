@@ -1,62 +1,27 @@
+
 ---
 title: pspg
 ---
 
-# PSPG 项目
+### [okbob pspg](https://github.com/okbob/pspg)
 
-**GitHub 项目地址**: [https://github.com/okbob/pspg](https://github.com/okbob/pspg)
+**项目核心内容总结：**  
 
-## 主要特性
-PSPG（PostgreSQL Pager）是一个开源工具，专为 PostgreSQL 数据库设计，用于高效浏览和导航大型查询结果集。它类似于 `less` 命令，但针对 SQL 输出进行了优化。主要特性包括：
-- **交互式分页浏览**：支持上下滚动、搜索和过滤查询结果，支持数百万行数据的快速加载和显示。
-- **高效性能**：使用 C 语言编写，内存占用低，支持实时排序、过滤和聚合操作，而无需重新执行查询。
-- **颜色高亮和格式化**：自动高亮 SQL 输出，支持自定义颜色主题、列对齐和数值格式化（如货币、日期）。
-- **键盘快捷键**：丰富的快捷键支持，包括搜索（`/search`）、正则表达式过滤、标记行和导出子集。
-- **多平台支持**：兼容 Linux、macOS 和 Windows，支持终端和 SSH 环境。
-- **扩展性**：可与 `psql` 集成，作为 PostgreSQL 的默认分页器；支持 CSV/TSV 导入和导出。
+**功能**  
+pspg 是一个用于 PostgreSQL 的命令行客户端工具，支持 Unicode 编码、多语言字符显示及丰富的表格格式（如圆角、粗边框等），可处理大文本数据，支持鼠标操作，并兼容多种终端环境（如 KDE konsole、WSL2 等）。  
 
-## 主要功能
-- **查询结果导航**：加载 `\pset pager on` 后的 SQL 输出，支持水平/垂直滚动、跳到特定行或列。
-- **数据操作**：内置排序（按列升/降序）、过滤（基于条件或正则）、聚合统计（如求和、平均值）。
-- **搜索与高亮**：全文搜索、行/列高亮，支持忽略大小写和多模式匹配。
-- **自定义配置**：通过配置文件（`~/.pspgconf`）设置主题、默认行为和快捷键。
-- **导出功能**：将当前视图导出为 CSV、SQL INSERT 语句或剪贴板。
-- **其他**：支持多窗口模式、冻结列、数值编辑预览，以及与 `pgcli` 等工具的集成。
+**使用方法**  
+- 安装方式：支持通过 Homebrew（Linux/Mac）、Debian/Ubuntu、Fedora、Alpine Linux、Arch Linux、FreeBSD、OpenBSD 等系统的包管理器安装，或从源码编译。  
+- 配置：通过设置 `PSQL_PAGER` 环境变量（如 `pspg -b -X`）或命令行参数（如 `--csv`）调整输出格式。  
+- 使用场景：连接 PostgreSQL 数据库，执行查询并以表格、CSV 等格式显示结果。  
 
-## 用法
-### 安装
-- **从源代码编译**（推荐）：
-  1. 克隆仓库：`git clone https://github.com/okbob/pspg.git`
-  2. 进入目录：`cd pspg`
-  3. 配置并编译：`./configure && make && sudo make install`
-  - 依赖：PostgreSQL 开发库（`libpq`）、ncurses 和 readline。
+**主要特性**  
+1. **多终端兼容**：支持 true color 主题、鼠标操作（需终端支持），并适配不同操作系统（包括 Windows 通过 WSL2）。  
+2. **显示优化**：提供多种表格模式（如 `rounded`、`heavy`），支持隐藏列、调整列宽、循环遍历列等。  
+3. **扩展性**：支持通过 `st_menu` 库实现 CUA 菜单栏，便于用户交互操作。  
+4. **跨平台安装**：提供多种系统的安装方式，包括源码编译（需依赖 `ncursesw` 库）及包管理器安装。  
 
-- **预编译包**：
-  - Ubuntu/Debian：`sudo apt install pspg`
-  - Homebrew（macOS）：`brew install pspg`
-  - Windows：通过 MSYS2 或预构建二进制文件。
-
-### 基本用法
-1. **独立模式**（直接浏览文件或查询）：
-   - 浏览 SQL 输出文件：`pspg output.sql`
-   - 从 PostgreSQL 查询：`psql -c "SELECT * FROM large_table;" | pspg`
-
-2. **与 psql 集成**：
-   - 在 `psql` 中启用：`\pset pager always` 或设置环境变量 `PSPG_PAGER=pspg`。
-   - 示例：在 `psql` 中运行查询 `SELECT * FROM users LIMIT 1000000;`，结果将自动通过 PSPG 分页显示。
-   - 退出 PSPG：按 `q`。
-
-3. **命令行选项**：
-   - `-s <size>`：设置初始窗口大小。
-   - `-X`：禁用 X11 颜色（纯终端模式）。
-   - `-f <config>`：指定配置文件。
-   - 示例：`pspg -s 100x50 large_result.csv`
-
-4. **交互命令**（在 PSPG 内）：
-   - `h`：显示帮助。
-   - `Enter` 或 `j/k`：上下移动。
-   - `F`：全屏模式。
-   - `/`：搜索模式。
-   - `:`：执行命令，如 `:sort col1`（排序）或 `:filter value > 100`（过滤）。
-
-更多详情请参考项目 README 或运行 `pspg --help`。
+**注意事项**  
+- 安装时需确保系统已安装 `ncursesw` 开发库，部分系统需手动设置环境变量（如 `TERM=xterm-direct` 适配 true color）。  
+- Windows 平台建议通过 WSL2 使用，原生 Windows 支持有限。  
+- 部分终端（如 KDE konsole）需调整 `TERM` 变量或使用 `--direct-color` 选项优化颜色显示。

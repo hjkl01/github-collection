@@ -1,85 +1,29 @@
+
 ---
 title: kickstart.nvim
 ---
 
-# kickstart.nvim（nvim-lua/kickstart.nvim）
+### [nvim-lua kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
-项目地址：<https://github.com/nvim-lua/kickstart.nvim>
+**kickstart.nvim 核心内容总结：**
 
-## 项目概述
+**项目功能**  
+kickstart.nvim 是一个用于 Neovim 的最小化配置起点，提供单文件、完全文档化的初始化脚本（`init.lua`），帮助用户快速搭建 Neovim 环境。它**不是** Neovim 发行版，而是学习和扩展配置的参考模板。
 
-> Description from GitHub: A launch point for your personal nvim configuration
+**使用方法**  
+1. **安装 Neovim**：需使用最新稳定版或 nightly 版。  
+2. **安装依赖**：包括 `git`、`make`、`ripgrep`、`fd-find` 等工具，具体依赖根据语言需求（如 `npm`、`go` 等）。  
+3. **克隆配置**：将 kickstart.nvim 仓库克隆到 Neovim 配置目录（如 `~/.config/nvim`）。  
+4. **启动 Neovim**：运行 `nvim`，Lazy 插件管理器会自动安装所有依赖插件。  
+5. **阅读文档**：通过 `init.lua` 文件了解配置扩展方法和插件示例。
 
-## 主要特性
+**主要特性**  
+- **单文件设计**：`init.lua` 为单文件结构，便于学习和快速上手。  
+- **模块化扩展**：支持通过 `init.lua` 添加插件或拆分为多文件（可参考衍生项目如 `kickstart-modular.nvim`）。  
+- **跨平台支持**：提供 Windows、Linux、Mac 的详细安装指南（含 WSL、Chocolatey、Debian/Ubuntu/Fedora/Arch 等）。  
+- **文档友好**：所有配置均在 `init.lua` 中注释说明，插件文档可直接查阅其仓库。  
+- **灵活配置**：支持多配置共存（通过 `NVIM_APPNAME` 环境变量），可备份并替换原有配置。  
 
-| 特色           | 说明                                                                                  |
-| -------------- | ------------------------------------------------------------------------------------- |
-| **插件管理**   | 使用 `lazy.nvim` 作为插件管理器，按需加载、并行安装插件。                             |
-| **基础插件**   | 包含常用插件：nvim-treesitter、nvim-lspconfig、nvim-cmp、telescope、neotest 等。      |
-| **通信与 LSP** | 快速配置多种语言服务器（Python、TypeScript、Lua 等），并集成 LSP UI、诊断和代码动作。 |
-| **补全**       | 通过 `nvim-cmp` 为多种补全来源（LSP、snippets、buffer、path）提供统一体验。           |
-| **主题与界面** | 默认 `tokyonight` 主题，支持透明、状态栏、标题栏等自定义。                            |
-| **键盘映射**   | 以键位“jk”离开 insert mode、用 `gd` 跳转到定义、`K` 查看 hover 等快捷键。             |
-| **测试与调试** | 集成 `neotest`，支持多语言测试框架（Python pytest、Rust cargo test 等）。             |
-| **代码片段**   | `LuaSnip` 提供多种内置片段，支持 Snippet 触发。                                       |
-| **文件管理**   | `telescope.nvim` 提供快速文件搜索、buffers、git 状态等功能。                          |
-| **外观优化**   | 支持透明窗口、残留行、圆角、光标等高质量视觉体验。                                    |
-
-## 使用方法
-
-1. **克隆仓库**
-
-   ```bash
-   git clone https://github.com/nvim-lua/kickstart.nvim ~/.config/nvim
-   ```
-
-2. **安装 lazy.nvim**  
-   运行 Vim/ Neovim 并执行：
-
-   ```vim
-   :Lazy sync
-   ```
-
-   这将自动下载插件并同步安装。
-
-3. **启动 Neovim**
-
-   ```bash
-   nvim
-   ```
-
-   第一次启动会进 `lazy` 进行插件安装，等待完成后即成为完备开发环境。
-
-4. **自定义配置**
-   - `init.lua`：全局设置、键位、插件加载顺序。
-   - `lua/plugins.lua`：插件列表及其配置信息。
-   - `lua/keymaps.lua`：快捷键映射。  
-     可根据个人需求修改这些文件后重新执行 `:Lazy sync` 或重启 Neovim。
-
-5. **常用命令**  
-   | 命令 | 说明 |
-   |------|------|
-   | `:Lazy` | 打开插件管理器，查看已安装、待更新或可选插件。 |
-   | `:LspInfo` | 查看 LSP 服务器信息。 |
-   | `:Telescope find_files` | 快速打开文件。 |
-   | `:Git status` | 查看 git 状态。 |
-   | `:Neotest run` | 运行当前文件的测试。 |
-   | `:bash .` | 打开终端。 |
-
-## 快捷键简介
-
-| 快捷键       | 功能                   |
-| ------------ | ---------------------- |
-| `jk`         | 退出 Insert 模式       |
-| `gd`         | 跳转到定义（LSP）      |
-| `gD`         | 跳转到声明（LSP）      |
-| `<Leader>rn` | 重命名符号（LSP）      |
-| `K`          | 查看 hover 信息（LSP） |
-| `gd`         | 跳转到定义             |
-| `gr`         | 跳转到引用             |
-| `<Leader>f`  | 格式化文件（LSP）      |
-| `<Leader>t`  | 运行 Neotest 相关命令  |
-
----
-
-> 该项目仅为示例，实际使用时请根据项目需求做适配或自行扩展。祝你玩得愉快！
+**注意事项**  
+- 需确保 Neovim 版本为最新稳定版或 nightly。  
+- 安装前建议备份原有配置（如 `~/.config/nvim` 或 `~/.local/share/nvim`）。

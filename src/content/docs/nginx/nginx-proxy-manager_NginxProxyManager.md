@@ -1,71 +1,22 @@
+
 ---
 title: nginx-proxy-manager
 ---
 
-# Nginx Proxy Manager
+### [NginxProxyManager nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
 
-**GitHub项目地址:** [https://github.com/NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
+Nginx Proxy Manager 是一个基于 Docker 的反向代理管理工具，提供可视化界面简化 SSL 证书配置和网站流量转发。核心功能包括：  
+1. **主要特性**  
+- 提供图形化管理界面，无需 Nginx 或 Let's Encrypt 知识即可配置域名转发、重定向、SSL 证书等  
+- 支持自动获取 Let's Encrypt 免费 SSL 证书或自定义证书  
+- 包含访问控制、HTTP 认证、用户权限管理和操作日志功能  
+- 允许高级用户自定义 Nginx 配置  
 
-## 主要特性
+2. **使用方法**  
+- 安装 Docker 和 Docker Compose  
+- 创建包含镜像配置、端口映射（80/81/443）和数据卷的 docker-compose.yml 文件  
+- 运行 `docker compose up -d` 启动容器，通过 `http://IP:81` 访问管理界面  
+- 配置家庭网络需在路由器端口转发 80/443 到本机，并绑定域名  
 
-Nginx Proxy Manager 是一个基于 Web 的界面，用于管理 Nginx 代理主机。它通过用户友好的 Web UI 简化了 Nginx 反向代理、SSL 证书和访问控制的管理。主要特性包括：
-
-- 基于 Web 的管理界面
-- 通过 Let's Encrypt 自动 SSL 证书配置
-- HTTP/HTTPS 反向代理配置
-- 主机的访问列表和基本 HTTP 认证
-- 负载均衡支持
-- 自定义 Nginx 配置注入
-- 支持 Docker，提供官方镜像
-- 多语言支持
-- 开源且免费
-
-## 主要功能
-
-- Proxy Hosts: Create and manage reverse proxy hosts with HTTP to HTTPS redirects, WebSocket support, custom error pages
-- SSL Certificates: One-click certificate requests, uploads, and wildcard support
-- Redirection & Streaming: URL redirects, 301/302, streaming proxy
-- Access Control: Access restrictions with basic auth and IP filtering
-- Logs & Monitoring: View access logs and real-time status
-- Backup & Restore: Export/import configurations for migration
-
-## 用法指南
-
-### 1. 部署
-
-- **Docker (recommended)**:
-
-  ```
-  docker run -d \
-    --name nginx-proxy-manager \
-    -p 80:80 -p 443:443 -p 81:81 \
-    -v /path/to/data:/data \
-    -v /path/to/letsencrypt:/etc/letsencrypt \
-    --restart unless-stopped \
-    jc21/nginx-proxy-manager:latest
-  ```
-
-  Access at `http://your-server-ip:81`, default login: `admin@example.com` / `changeme`.
-
-- **Manual install**: Download source, install Node.js/Nginx, run `npm install` and `npm run build`.
-
-### 2. 配置代理
-
-- Login, go to Hosts > Proxy Hosts.
-- Add Proxy Host: Enter domain, backend IP/port, enable SSL with Let's Encrypt.
-- Save, NPM generates nginx config and reloads.
-
-### 3. 管理 SSL
-
-- SSL Certificates > Add SSL Certificate.
-- Choose Let's Encrypt, enter domain/email, auto-provision.
-- Apply to proxy hosts for HTTPS.
-
-### 4. 高级用法
-
-- Custom config in Advanced tab.
-- Access Lists for rules.
-- Update: `docker pull jc21/nginx-proxy-manager:latest`.
-- Troubleshoot: Check logs.
-
-See GitHub README/Wiki for more.
+3. **适用场景**  
+适合需要为本地服务（如家庭服务器）提供 HTTPS 访问的用户，简化反向代理和 SSL 配置流程。

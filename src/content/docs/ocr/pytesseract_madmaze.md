@@ -1,72 +1,26 @@
+
 ---
 title: pytesseract
 ---
 
-# pytesseract 项目
+### [madmaze pytesseract](https://github.com/madmaze/pytesseract)
 
-**GitHub 项目地址:** [https://github.com/madmaze/pytesseract](https://github.com/madmaze/pytesseract)
+**项目核心内容总结：**
 
-## 主要特性
-pytesseract 是一个 Python 包装器，用于 Tesseract OCR（光学字符识别）引擎。它提供了简单易用的接口，将图像转换为文本，支持多种语言识别和自定义配置。主要特性包括：
-- **跨平台支持**：兼容 Windows、Linux 和 macOS。
-- **多语言识别**：内置支持超过 100 种语言的 OCR 处理。
-- **图像预处理集成**：可与 Pillow 等图像库结合，进行 OCR 前处理。
-- **自定义选项**：支持 Tesseract 的各种参数配置，如页面分割模式（PSM）和字符白名单。
-- **轻量级**：作为 Tesseract 的 Python 绑定，依赖 Tesseract 二进制文件，易于集成到 Python 项目中。
+Python Tesseract 是基于 Google Tesseract-OCR 引擎的 Python 光学字符识别（OCR）工具，用于从图像中提取文字。支持多种图像格式（如 JPEG、PNG、BMP 等），可作为库或独立脚本使用，输出识别结果或保存为 PDF/HOCR 等格式。
 
-## 主要功能
-- **文本提取**：从图像、PDF 或扫描文档中提取文本内容。
-- **语言支持**：指定语言代码进行识别，例如英文（eng）、中文（chi_sim）。
-- **配置参数**：调整 OCR 精度，如设置 DPI、输出格式（纯文本、hOCR 等）。
-- **批量处理**：支持处理多页图像或文件序列。
-- **错误处理**：提供异常捕获机制，确保鲁棒性。
+**功能与使用方法：**  
+1. **基本用法**：通过 `image_to_string` 函数识别图像文字，支持指定语言（如 `lang='fra'` 识别法语）。  
+2. **高级功能**：提供边界框（`image_to_boxes`）、详细数据（`image_to_data`）、PDF 输出（`image_to_pdf_or_hocr`）、ALTO XML 等多种输出类型。  
+3. **OpenCV 支持**：兼容 OpenCV 图像，需将 BGR 格式转换为 RGB。  
+4. **配置自定义**：可通过 `config` 参数设置 Tesseract 配置（如 `--psm 6`），或指定 `tessdata` 路径解决数据文件缺失问题。
 
-## 用法
-### 安装
-首先安装 Tesseract OCR 引擎（从 [官方仓库](https://github.com/tesseract-ocr/tesseract) 下载），然后使用 pip 安装 pytesseract：
-```
-pip install pytesseract pillow
-```
+**主要特性：**  
+- 支持多语言识别（需安装对应语言包）。  
+- 批量处理图像文件（通过文件路径列表）。  
+- 超时控制（防止长时间无响应）。  
+- 多输出格式（文本、PDF、HOCR、XML 等）。  
+- 兼容 Pillow 和 OpenCV 图像处理库。
 
-### 基本用法示例
-1. **简单文本提取**：
-   ```python
-   import pytesseract
-   from PIL import Image
-
-   # 指定 Tesseract 路径（如果未在系统 PATH 中）
-   # pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'  # Linux 示例
-
-   # 打开图像
-   image = Image.open('example.png')
-
-   # 提取文本
-   text = pytesseract.image_to_string(image, lang='eng')  # 指定语言
-   print(text)
-   ```
-
-2. **带配置的提取**：
-   ```python
-   import pytesseract
-   from PIL import Image
-
-   image = Image.open('example.png')
-
-   # 使用自定义配置
-   custom_config = r'--oem 3 --psm 6'  # OEM: 引擎模式，PSM: 页面分割模式
-   text = pytesseract.image_to_string(image, config=custom_config, lang='chi_sim')
-   print(text)
-   ```
-
-3. **从 PDF 提取**（需结合 pdf2image 等库）：
-   ```python
-   from pdf2image import convert_from_path
-   import pytesseract
-
-   pages = convert_from_path('example.pdf', 300)  # DPI=300
-   for page in pages:
-       text = pytesseract.image_to_string(page, lang='eng')
-       print(text)
-   ```
-
-更多高级用法请参考项目文档，包括数据输出格式（如 `image_to_boxes`、`image_to_data`）和性能优化。
+**安装要求：**  
+需 Python 3.6+、Pillow 库及 Tesseract-OCR 引擎。可通过 `pip install pytesseract` 或 Conda 安装。若 Tesseract 未加入系统路径，需手动设置 `pytesseract.tesseract_cmd` 指向可执行文件路径。

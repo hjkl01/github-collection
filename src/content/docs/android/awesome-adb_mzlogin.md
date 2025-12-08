@@ -1,25 +1,28 @@
+
 ---
 title: awesome-adb
 ---
 
-# Awesome ADB
+### [mzlogin awesome-adb](https://github.com/mzlogin/awesome-adb)
 
-## 项目介绍
+**核心内容总结：**
 
-ADB，即 [Android Debug Bridge](https://developer.android.com/studio/command-line/adb.html)，是 Android 开发与测试人员不可替代的强大工具，同时也是 Android 设备玩家的好玩具。本项目提供了 ADB 的基本用法、设备连接管理、应用管理、文件管理及日志查看等功能的详细说明，旨在帮助用户更高效地使用 ADB。
+**项目功能**  
+ADB（Android Debug Bridge）是Android开发调试工具，提供设备连接、日志查看、文件传输、系统操作（如安装/卸载应用、模拟输入事件）、进程管理、网络调试等功能，支持开发、测试和设备管理全流程。
 
-## 主要特性与功能
+**使用方法**  
+1. **基础操作**：通过`adb devices`查看连接设备，`adb logcat`查看日志，`adb install`安装APK，`adb shell`执行设备命令。  
+2. **高级功能**：支持端口转发（`adb forward`）、模拟点击/按键（`adb shell input`）、屏幕截图（`adb shell screencap`）、文件传输（`adb push/pull`）。  
+3. **调试工具**：结合`dumpsys`分析系统状态，`am`启动Activity，`pm`管理应用包，`uiautomator`进行UI自动化测试。
 
-- **基本用法**：包含命令语法、指定目标设备、启动/停止 ADB 服务、查看 ADB 版本等。
-- **设备连接管理**：查询已连接的设备/模拟器，USB 连接，无线连接方法（包括需要借助 USB 和无需借助 USB 的方式）。
-- **应用管理**：查看应用列表，安装、卸载应用，停用/启用应用，清除应用数据与缓存，查看前台 Activity 和正在运行的 Services。
-- **与应用交互**：启动应用/调起 Activity，调起与停止 Service，发送广播，强制停止应用，收紧内存。
-- **文件管理**：复制设备里的文件到电脑，复制电脑里的文件到设备。
-- **模拟按键/输入**：支持模拟电源键、菜单键、HOME 键、返回键、音量控制及输入文本等操作。
-- **查看日志**：方便用户查看 Android 日志。
+**主要特性**  
+- 跨平台支持（Windows/Linux/macOS）；  
+- 支持多设备同时操作；  
+- 提供丰富的调试命令（如查看WiFi密码、MAC地址、进程UID等）；  
+- 可通过`logcat`过滤日志信息，辅助问题定位；  
+- 支持模拟器与真机调试，兼容Android各版本。  
 
-## 使用示例
-
-本项目文档包含多个示例命令，供用户参考。此外，用户可以在项目主页 [Awesome ADB](https://github.com/mzlogin/awesome-adb) 找到更详细的信息和用法，持续更新中，欢迎提 PR 与 Issue。
-
-关注微信公众号「闷骚的程序员」与作者交流、提建议，期待你的参与与支持！
+**注意事项**  
+- 首次连接需设备授权；  
+- 端口占用（如5037端口）可能导致ADB服务异常，需终止冲突进程；  
+- 使用`adb kill-server`重置服务可解决部分连接问题。

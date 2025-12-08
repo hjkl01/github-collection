@@ -1,82 +1,29 @@
+
 ---
 title: landscape
 ---
 
-# Landscape
+### [ThisSeanZhang landscape](https://github.com/ThisSeanZhang/landscape)
 
-Landscape 是一个基于 Rust / eBPF / AF_PACKET 的 Web 工具，帮助您轻松地将您喜欢的 Linux 发行版配置为路由器。
+**项目核心内容总结：**  
+Landscape 是一个基于 Web 的 Linux 路由器配置工具，使用 Rust、eBPF 和 AF_PACKET 开发，支持流量控制、eBPF 路由、独立 DNS 配置、Docker 流量导入及 Geo 管理。  
 
-## 核心功能
+**主要功能：**  
+- **流量控制**：支持流量分类、优先级设置及基于规则的路由。  
+- **eBPF 路由**：利用 eBPF 技术实现高性能网络数据包处理。  
+- **DNS 配置**：为不同流量设置独立 DNS，提升网络灵活性。  
+- **Docker 集成**：可将容器流量导入路由器进行统一管理。  
+- **Geo 管理**：支持基于地理位置的流量路由策略。  
 
-- **流量分流控制**：支持 SIP-CIDR、MAC、DIP、域名、地理位置匹配规则
-- **eBPF 路由**：高效的网络包处理
-- **独立 DNS 配置**：为每个流量流提供独立的 DNS 配置和缓存，防止 DNS 污染和泄漏
-- **Docker 容器流量导入**：将流量导入到 Docker 容器中
-- **地理位置管理**：管理多个地理位置源
+**使用方法：**  
+1. **系统要求**：需 Linux 6.9 或更高版本，部分功能依赖 Docker。  
+2. **部署步骤**：  
+   - 下载二进制文件，以 root 身份运行 `./landscape-webserver`，默认端口 6300，账号密码均为 `root`。  
+   - 配置 `landscape_init.toml` 文件，定义初始参数。  
+   - 可通过 systemd 设置为系统服务。  
+3. **构建说明**：参考项目提供的编译文档或交叉编译指南。  
 
-## 其他功能
+**许可证**：  
+- `landscape-ebpf` 模块使用 GNU GPL v2.0，其他部分使用 GNU GPL v3.0。  
 
-- **IP 配置**：静态 IP、DHCP 客户端、PPPoE、DHCP 服务器、IPv6 支持
-- **流量控制模块**：使用 IP/MAC 标记流量，每个流量流可有自己的 DNS 设置
-- **DNS**：支持 DoH、DoT、DoQ 上游，域名特定上游 DNS，DNS 劫持，地理站点文件支持
-- **NAT (eBPF)**：基本 NAT 支持，静态映射/端口转发
-- **指标**：报告连接统计（字节/包），显示活跃连接
-- **Docker**：基本 Docker 容器管理和运行时
-- **Wi-Fi**：启用/禁用 Wi-Fi，使用 hostapd 创建 AP
-- **存储**：使用数据库而非文件配置，导出配置为 TOML
-
-## 使用方法
-
-### 系统要求
-
-- 支持的 Linux 内核：6.9 或更高版本
-- （可选）Docker
-
-### 手动启动
-
-1. 创建配置目录：
-
-   ```
-   mkdir -p /root/.landscape-router
-   ```
-
-2. 从 [Releases](https://github.com/ThisSeanZhang/landscape/releases) 下载 **static.zip** 并解压到 `/root/.landscape-router/static`
-
-3. 如果您有桌面环境和浏览器，可以跳过此步骤。否则，参考 [配置文档](https://landscape.whileaway.dev/config/) 创建 `landscape_init.toml`
-
-4. 从 [Releases](https://github.com/ThisSeanZhang/landscape/releases) 下载发布二进制文件，然后以 root 身份运行：
-
-   ```
-   ./landscape-webserver
-   ```
-
-   默认端口：**6300**，默认用户名：**root**，默认密码：**root**。使用 `./landscape-webserver --help` 查看其他选项。
-
-5. 确认一切正常后，可以将其设置为 systemd 服务。创建 `/etc/systemd/system/landscape-router.service`：
-
-   ```
-   [Unit]
-   Description=Landscape Router
-
-   [Service]
-   ExecStart=/root/landscape-webserver  # 请相应修改此路径
-   Restart=always
-   User=root
-   LimitMEMLOCK=infinity
-
-   [Install]
-   WantedBy=multi-user.target
-   ```
-
-### Armbian 集成
-
-参考 [Armbian 集成指南](https://landscape.whileaway.dev/compilation/armbian.html)
-
-## 构建说明
-
-参考 [构建文档](https://landscape.whileaway.dev/compilation/) 或 [交叉编译指南](https://landscape.whileaway.dev/compilation/cross.html)
-
-## 许可证
-
-- `landscape-ebpf`：GNU GPL v2.0
-- 其他部分：GNU GPL v3.0
+**适用场景**：适用于需要精细化网络管理的场景，如家庭路由器、企业网络优化及开发测试环境。

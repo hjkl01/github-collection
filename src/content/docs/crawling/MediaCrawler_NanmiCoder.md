@@ -1,49 +1,29 @@
+
 ---
 title: MediaCrawler
 ---
 
-# MediaCrawler 项目
+### [NanmiCoder MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)
 
-## 项目地址
-https://github.com/NanmiCoder/MediaCrawler
+**项目核心内容总结：**
 
-## 主要特性
-MediaCrawler 是一个基于 Python 的媒体爬虫工具，主要用于从各种社交媒体平台（如 Twitter、Instagram、TikTok 等）爬取图片、视频和相关元数据。它支持多线程爬取、高效的代理管理和数据持久化存储，具有以下核心特性：
-- **多平台支持**：兼容多种社交媒体 API 和网页抓取接口，覆盖主流平台。
-- **高效爬取**：使用异步编程和多线程机制，实现快速批量下载媒体文件。
-- **数据过滤与去重**：内置过滤器，支持按关键词、用户或时间范围筛选内容，并自动去重避免重复下载。
-- **代理与反爬虫**：集成代理池和 User-Agent 轮换，增强爬取的稳定性和匿名性。
-- **存储灵活**：支持本地文件存储、数据库（如 SQLite 或 MySQL）持久化和 JSON 导出。
-- **模块化设计**：易于扩展，支持自定义爬虫模块和插件。
+1. **项目功能**  
+   - 多平台数据爬取：支持小红书、抖音、快手、B站、微博、知乎等主流自媒体平台，可抓取帖子信息、评论（含二级评论）、用户数据等。  
+   - 数据存储：支持CSV、JSON、Excel、SQLite、MySQL等多种格式存储。  
+   - 附加功能：生成评论词云图，支持IP代理池和登录态缓存。  
 
-## 主要功能
-- **用户/话题爬取**：根据指定用户 ID 或话题标签，爬取其发布的媒体内容。
-- **媒体下载**：自动下载图片、视频和 GIF，支持高清质量和批量处理。
-- **元数据提取**：捕获帖子描述、点赞数、评论等附加信息。
-- **调度与监控**：内置任务调度器，可设置定时爬取，并提供日志监控和错误重试机制。
-- **导出与可视化**：生成报告文件，支持 CSV/JSON 格式导出，便于后续分析。
+2. **主要特性**  
+   - 技术实现：基于Playwright框架，无需JS逆向，通过模拟登录获取签名参数，降低开发门槛。  
+   - 灵活性：提供配置文件（`config/base_config.py`）自定义功能（如是否启用评论抓取）。  
+   - 进阶版本（MediaCrawlerPro）：支持断点续爬、多账号管理、脱离Playwright依赖、Linux环境适配等优化。  
 
-## 用法
-1. **环境准备**：
-   - 克隆仓库：`git clone https://github.com/NanmiCoder/MediaCrawler.git`
-   - 安装依赖：`pip install -r requirements.txt`（需 Python 3.8+）
+3. **使用方法**  
+   - 依赖安装：需安装Python、uv（或pip）、Node.js及Playwright浏览器驱动。  
+   - 运行命令：通过`python main.py`或`python3 main.py`启动，参数指定平台、模式（如`--type search`关键词搜索或`--type detail`指定帖子ID）。  
+   - 验证方式：使用二维码登录验证（`--lt qrcode`参数）。  
 
-2. **配置**：
-   - 编辑 `config.py` 文件，设置平台 API 密钥、代理列表和目标平台。
-   - 示例配置：
-     ```python
-     PLATFORMS = ['twitter', 'instagram']
-     PROXY_LIST = ['http://proxy1:port', 'http://proxy2:port']
-     DOWNLOAD_PATH = './downloads'
-     ```
+4. **注意事项**  
+   - **仅限学习用途**：明确禁止用于商业或非法活动，开发者不承担因违规使用导致的法律风险。  
+   - **文档支持**：提供详细数据存储指南及项目文档链接（[MediaCrawler 完整文档](https://nanmicoder.github.io/MediaCrawler/)）。  
 
-3. **运行爬虫**：
-   - 基本命令：`python main.py --platform twitter --query "关键词" --limit 100`
-   - 高级选项：
-     - 用户爬取：`python main.py --platform instagram --user username --type video`
-     - 批量任务：使用 `tasks.json` 定义多个任务，然后运行 `python scheduler.py`
-
-4. **注意事项**：
-   - 遵守平台使用条款，避免滥用导致 IP 封禁。
-   - 对于大规模爬取，建议使用 VPS 并监控资源消耗。
-   - 详细文档见仓库的 `README.md` 和 `docs/` 目录。
+**其他**：项目包含开源教程（如[CrawlerTutorial](https://github.com/NanmiCoder/CrawlerTutorial)）及合作推广渠道（如TikHub数据接口服务）。

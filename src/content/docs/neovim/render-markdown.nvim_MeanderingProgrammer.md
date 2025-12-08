@@ -3,34 +3,24 @@
 title: render-markdown.nvim
 ---
 
-# [MeanderingProgrammer render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim)
+### [MeanderingProgrammer render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim)
 
+**项目核心内容总结：**  
+`render-markdown.nvim` 是一个 Vim 插件，用于美化 Markdown 文档的显示，提供语法高亮、代码块、表格、列表、数学公式等元素的渲染支持。  
 
+**主要功能：**  
+- **语法高亮与渲染**：支持标题、代码块、表格、列表、数学公式等 Markdown 元素的语法高亮和视觉美化。  
+- **集成 Treesitter**：基于语法树解析 Markdown，提升渲染准确性。  
+- **自定义配置**：用户可通过 Lua 脚本自定义高亮颜色、缩进样式、链接图标等。  
+- **兼容性支持**：与 `vimwiki` 和 `obsidian.nvim` 插件兼容，需在配置中禁用 `obsidian.nvim` 的默认 UI。  
+- **代码块增强**：支持代码块语言检测与语法高亮，兼容常见编程语言。  
 
-### 中文翻译
-该项目是一个基于 Neovim 的 Markdown 渲染插件，使用 Treesitter 解析 Markdown 文件，提供语法高亮、代码块、表格、列表、数学公式等渲染功能，支持自定义处理程序扩展。主要特性包括：
-- 通过 Lua 配置支持多种 Markdown 变体（如 Vimwiki、Obsidian）
-- 支持代码块语言高亮、表格渲染、数学公式显示
-- 提供颜色主题配置（如标题背景色、代码块样式）
-- 与 Obsidian.nvim 和 Vimwiki 插件的兼容性设置
-- 支持通过 `file_types` 配置扩展解析文件类型
-- 提供符号标记、缩进、链接图标等可视化增强功能
+**使用方法：**  
+1. 安装插件后，通过 Lua 配置启用功能（如 `file_types = { 'markdown', 'vimwiki' }`）。  
+2. 注册 `markdown` 为 `vimwiki` 文件的解析器（需调用 `vim.treesitter.language.register`）。  
+3. 可选配置缩进、符号、链接样式等参数。  
 
----
-
-### 核心内容总结
-**功能**  
-基于 Treesitter 的 Markdown 渲染插件，支持语法高亮、代码块、表格、数学公式等渲染，提供自定义处理程序扩展。
-
-**使用方法**  
-1. 安装依赖（Treesitter、Mini.nvim 等）
-2. 通过 Lua 配置插件，设置文件类型（如 `markdown`、`vimwiki`）
-3. 配置颜色主题、缩进规则、符号标记等
-4. 处理与其他插件（如 Obsidian.nvim）的兼容性（需禁用其 UI）
-
-**主要特性**  
-- 支持 Vimwiki、Obsidian 等 Markdown 变体
-- 代码块语言高亮、表格渲染、数学公式显示
-- 可自定义渲染规则和颜色主题
-- 提供符号标记、缩进、链接图标等增强功能
-- 支持通过 `file_types` 扩展解析文件类型
+**注意事项：**  
+- 与 `obsidian.nvim` 共存时需禁用其 UI 功能。  
+- 图像渲染仅提供基础支持，建议启用 `only_render_image_at_cursor` 避免冲突。  
+- 部分功能可能存在限制，可通过自定义处理程序扩展。

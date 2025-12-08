@@ -1,88 +1,35 @@
+
 ---
 title: octo.nvim
 ---
 
+### [pwntester octo.nvim](https://github.com/pwntester/octo.nvim)
 
-# octo.nvim
-> GitHub 项目地址：<https://github.com/pwntester/octo.nvim>
+**项目核心内容总结：**
 
-## 项目概述
-octo.nvim 是一款为 Neovim 设计的 GitHub 交互插件，整合了 GitHub 相关的核心功能，旨在让开发者能够在 Neovim 内部完成 Issue/PR 的创建、查看、评论、审核以及仓库状态查看等操作。
+octo.nvim 是一个 Vim 插件，用于在 GitHub 上管理 Issues、Pull Requests（PR）和项目。其主要功能包括：
 
-## 主要特性
-- **Issue/PR 管理**：搜索、打开、创建、关闭、重新打开、讨论、合并 PR。
-- **可定制化视图**：支持多种布局（分割、垂直分割、列表、网格）以适配不同工作流程。
-- **自动触发快捷键**：一键完成常见操作，如快速打开 PR、在 Markdown 文件中跳转到对应的 Issue。
-- **与 Git 集成**：可通过 git 命令检索相关 PR，并进行进一步操作，支持自定义 `git` 命令的映射。
+1. **核心功能**  
+   - 浏览、创建、评论 Issues/PR，查看详细信息（如状态、评论、测试结果）；  
+   - 管理 GitHub Projects（支持 Projects V2）；  
+   - 通过搜索功能查找 Issues/PR（支持 GitHub 搜索语法）；  
+   - 提供 PR 审查面板，显示代码差异和审查状态。
 
-## 功能细节
-| 功能 | 说明 |
-|------|------|
-| 创建 PR/Issue | 通过提示窗口输入标题、内容、标签等信息。 |
-| 浏览 PR/Issue 列表 | 支持分页、筛选（状态、标签、作者）以及排序。 |
-| 评论与讨论 | 在 PR 或 Issue 页面中直接输入评论，支持 Markdown。 |
-| 合并 PR | 一键执行合并操作，提供分支、冲突检查提示。 |
-| 标签管理 | 添加/删除标签，快速筛选。 |
-| 访问仓库健康状态 | 查看拉取请求、分支保护规则，快速定位问题。 |
+2. **主要特性**  
+   - 实时同步 GitHub 数据；  
+   - 丰富的快捷键和交互式操作（如快速创建 Issue/PR）；  
+   - 可自定义的高亮主题（如状态颜色、气泡样式）；  
+   - 支持与 `gh` CLI 工具集成，需配置 GitHub 认证；  
+   - 兼容 TreeSitter 语法解析，提升 Markdown 高亮效果。
 
-## 使用方法
-1. **安装**  
-   ```bash
-   # 以 packer 为例
-   use {
-     'pwntester/octo.nvim',
-     requires = 'nvim-lua/plenary.nvim'
-   }
-   ```
+3. **使用方法**  
+   - 安装后通过 `:Octo` 命令打开界面；  
+   - 使用搜索功能（如 `:Octo search is:pr author:xxx`）；  
+   - 配置 `gh` 认证（需 `read:project` 权限以启用 Projects V2）；  
+   - 自定义高亮规则（如禁用气泡样式）。
 
-2. **配置**可选，按需覆盖默认键位）  
-   ```lua
-   require('octo').setup({
-     -- 例如自定义快捷键
-     keymaps = {
-       switch_to_panel = '<cr>',  -- 跳转到面板
-       close = 'q',               -- 关闭面板
-     },
-     -- 其他可选设置
-   })
-   ```
-
-3. **使用快捷键**  
-   - `:Octo` 打开面板或执行全局命令  
-   - `:Octo pr create` 创建 Pull Request  
-   - `:Octo issue create` 创建 Issue  
-
-4. **自定义 GitHub OAuth**  
-   通过环境变量 `GH_TOKEN` 或 `GH_PAT` 设置访问令牌，或者在 Neovim 内部使用 `:Octo auth` 登录。
-
-## 快速命令参考
-| 命令 | 作用 |
-|------|------|
-| `:Octo` | 打开默认面板 |
-| `:Octo pr list` | 列出 PR |
-| `:Octo issue list` | 列出 Issue |
-| `:Octo pr review <id>` | 打开 PR 评审 |
-| `:Octo pr merge <id>` | 合并 PR |
-| `:Octo issue comment <id> <comment>` | 评论 Issue |
-
-## 示例
-```lua
--- 在 init.lua
-require('octo').setup({
-  colorscheme = 'onedark',
-  floating = {
-    border = 'rounded',
-  },
-  commands = {
-    -- 自定义命令
-    pr = 'Octo pr list',
-  },
-})
-```
-
-## 贡献
-欢迎提交 Issue 或 Pull Request，共同完善插件。
-
----
-> 文件路径：`src/content/docs/00/octo.nvim_pwntester.md`  
-> 内容已包含上述 Markdown 文档。
+**注意事项：**  
+- 部分功能（如 Projects V2）需 GitHub Token 拥有 `read:project` 权限；  
+- 若遇到认证错误，需通过 `gh auth login` 配置有效凭据；  
+- 可通过 `vim.keymap.set` 自定义 `@` 和 `#` 的自动补全行为；  
+- 需确保 `.git/config` 中的 SSH 别名正确映射到 GitHub。

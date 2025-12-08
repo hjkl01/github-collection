@@ -1,59 +1,24 @@
+
 ---
 title: x402
 ---
 
+### [coinbase x402](https://github.com/coinbase/x402)
 
-# x402
+**x402 支付协议核心内容总结：**
 
-**项目地址**：<https://github.com/coinbase/x402>
+**项目功能**  
+x402 是一个基于 HTTP 的开放支付协议，允许开发者通过一行代码实现数字美元支付功能，支持区块链网络上的快速结算（2秒内）、无手续费且最低支付门槛为 $0.001。协议通过 HTTP 402 状态码触发支付流程，兼容多种区块链和代币类型。
 
-## 概述
-x402 是 Coinbase 开源的 Go 语言实现，用于执行 X.402 标准（基于 X.509 证书的密钥协商与加密）的库。该库提供安全的密钥派生、签名验证、对称加密等核心功能，适配服务之间的安全通信与数据保护。
+**使用方法**  
+1. 服务器端：通过中间件 `paymentMiddleware("收款地址", { "/支付端点": "$金额" })` 一键集成支付功能。  
+2. 客户端：发送包含 `X-PAYMENT` 头的 HTTP 请求，内含加密的支付信息。  
+3. 支付验证与结算可通过第三方 **facilitator 服务器** 自动完成，无需服务器直接处理区块链交互。
 
-## 主要特性
-- **ECDH 密钥协商**：支持 P-256、P-384、P-521、secp256k1 等椭圆曲线。  
-- **签名与验证**：使用 ECDSA/ED25519 等算法对数据进行签名与验证。  
-- **对称加密**：基于共享密钥实现 AES‑GCM 加密/解密。  
-- **X.509 证书处理**：读取、解析并验证证书链。  
-- **简洁 API**：提供易用的函数接口，方便集成。  
-
-## 安装
-```bash
-go get github.com/coinbase/x402
-```
-
-## 用法示例
-
-### 生成密钥对
-```go
-package main
-
-import (
-    "github.com/coinbase/x402"
-)
-
-func main() {
-    priv, err := x402.GeneratePrivateKey(x402.P256)
-    if err != nil { panic(err) }
-    pub := priv.Public()
-    // ...
-}
-```
-
-### ECDH 共享密钥
-```go
-sharedSecret, err := x402.DeriveSharedSecret(priv, otherPub)
-```
-
-### 签名与验证
-```go
-sig, err := x402.Sign(priv, data)
-ok, err := x402.Verify(pub, data, sig)
-```
-
-### 对称加密
-```go
-cipherText, err := x402.Encrypt(sharedSecret, plaintext)
-plainText, err := x402.Decrypt(sharedSecret, cipherText)
-```
-```
+**主要特性**  
+- **开放标准**：不依赖单一服务商，支持多链、多代币扩展。  
+- **HTTP 原生**：与现有 HTTP 请求无缝集成，无需额外操作。  
+- **零信任设计**：支付流程由 facilitator 服务器验证，资源服务器无法擅自挪用资金。  
+- **极简集成**：服务器端仅需一行代码，客户端无需处理加密细节（如 gas 费）。  
+- **灵活支付方案**：支持多种支付模式（如精确金额支付 "exact"），未来可扩展至动态计费（如 "upto"）。  
+- **去中心化结算**：通过 facilitator 服务器实现 gasless 支付，降低开发与使用门槛。

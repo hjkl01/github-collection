@@ -1,78 +1,39 @@
+
 ---
 title: blur-my-shell
 ---
 
+### [aunetx blur-my-shell](https://github.com/aunetx/blur-my-shell)
 
-# blur-my-shell (by aunetx)
+**核心内容总结：**
 
-**项目地址**: https://github.com/aunetx/blur-my-shell
+**项目功能**  
+GNOME Shell扩展“Blur my Shell”为GNOME桌面环境添加模糊效果，支持对顶部面板、启动器、概览界面、窗口选择器、锁屏界面等组件进行静态或动态模糊处理，提升视觉效果与个性化体验。  
 
-## 主要特性
+**主要特性**  
+1. **模糊类型**：  
+   - **静态模糊**：基于壁纸静态图像应用多级效果（如高斯模糊、像素化、圆角等），支持自定义效果顺序和参数。  
+   - **动态模糊**：直接对组件后方内容进行实时模糊，仅支持高斯模糊，但可能产生黑框伪影，可通过“Hack等级”优化。  
 
-- **系统桌面模糊**  
-  为 GNOME 桌面、GTK3/GTK4 应用窗口以及 Unity/Unity‑Splash 桌面实现背景模糊效果。
+2. **兼容性**：  
+   - 支持主流扩展（如Dash to Dock、Dash to Panel、Hide Top Bar等），并提供针对性配置选项。  
 
-- **支持多种渲染后端**  
-  - `GLOES`（OpenGL ES）  
-  - `GLSL`（OpenGL Shading Language）  
-  - `Vulkan`（实验版）
+3. **高级配置**：  
+   - 自定义面板/启动器背景颜色、模糊触发条件（如全屏时关闭面板模糊）、应用窗口模糊模式（白名单/黑名单）。  
 
-- **兼容多种窗口**  
-  - GNOME Shell  
-  - Unity / Unity‑Splash  
-  - GTK3/GTK4 对话框与工具栏
+**使用方法**  
+- 通过[GNOME扩展商店](https://extensions.gnome.org/extension/3193/blur-my-shell/)安装，或从源码安装：  
+  ```sh  
+  git clone https://github.com/aunetx/blur-my-shell  
+  cd blur-my-shell  
+  make install  
+  ```  
+  安装后需重启GNOME Shell（如`Alt+F2`输入`r`）。  
 
-- **动态调整**  
-  自动根据主题和时间调整模糊强度与透明度。
+**版本支持**  
+- 主分支支持GNOME Shell 46，其他历史版本可通过标签（如`v58`、`v47`等）兼容GNOME 3.38至46。  
 
-- **插件化与自定义**  
-  通过配置文件 `~/.config/blur-my-shell/config.json` 进行细粒度设置。
-
-## 功能概览
-
-| 功能 | 说明 |
-|------|------|
-| `blur-my-shell` | 启动后在后台持续监控窗口变化并自动应用模糊。 |
-| `bmctl` | 命令行工具，用于开启/关闭模糊、切换后端等。 |
-| `bmctl status` | 查看当前系统状态与后端信息。 |
-| `bmctl clearcache` | 清除内部缓存，解决不刷新问题。 |
-| `bm` | 重新加载配置并应用新设置。 |
-
-## 用法示例
-
-```bash
-# 安装
-git clone https://github.com/aunetx/blur-my-shell.git
-cd blur-my-shell
-sudo ./install.sh
-
-# 启 blur-my-shell
-blur-my-shell
-
-# 使用 bmctl
-bmctl status          # 查看当前状态
-bmctl clearcache      # 清除缓存
-bmctl reload          # 重载配置
-```
-
-### 配置文件示例（`~/.config/blur-my-shell/config.json`）
-
-```json
-{
-  "enabled": true,
-  "forceEngine": "vulkan",
-  "blurRadius": 15,
-  "opacity": 0.8
-}
-```
-
-> **提示**：若使用 `vulkan` 后端，请确认显卡驱动已开启硬件加速。
-
-## 贡献与获取帮助
-
-- 访问 GitHub Issues 页面报告问题或提交流程。  
-- 查看 `docs/README.md` 或 `docs/reference.md` 了解更细致的配置与实现细节。
-
----
-*以上内容为项目快速说明，更多详情请参阅官方 GitHub 文档。*
-```
+**注意事项**  
+- 静态模糊性能较高，动态模糊可能影响流畅度；  
+- 部分模糊效果（如圆角）仅适用于静态模糊；  
+- 需注意模糊与窗口透明度、扩展冲突的兼容性。

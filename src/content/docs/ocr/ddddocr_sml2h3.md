@@ -1,58 +1,40 @@
+
 ---
 title: ddddocr
 ---
 
-# ddddocr 项目
+### [sml2h3 ddddocr](https://github.com/sml2h3/ddddocr)
 
-## 项目地址
-https://github.com/sml2h3/ddddocr
+**项目总结：**
 
-## 主要特性
-ddddocr 是一个开源的 OCR（光学字符识别）工具，专注于识别各种验证码图像，如滑动验证码、旋转验证码、点选验证码等。它采用纯 Python 实现，轻量级且无需依赖外部服务，支持高精度识别。核心优势包括：
-- **高兼容性**：支持多种验证码类型，包括常见的 12306 铁路验证码、腾讯滑动验证码等。
-- **无深度学习依赖**：基于传统图像处理算法，运行速度快，资源消耗低。
-- **易集成**：可作为 Python 库导入，支持命令行和 API 调用。
-- **开源免费**：MIT 许可，社区活跃，可自定义扩展。
+该项目是一个基于Python的OCR（光学字符识别）工具，名为`ddddocr`，主要用于识别验证码图片中的文字内容。其核心功能包括：
 
-## 主要功能
-- **验证码识别**：自动解析图像中的文字、数字、汉字或图形验证码。
-- **滑动验证码破解**：检测滑块缺口位置，支持自动计算偏移量。
-- **点选验证码处理**：识别图像中的特定点位或路径。
-- **批量处理**：支持处理多张图像，提高效率。
-- **自定义模型**：允许用户训练或加载自定义识别模型以适应特定场景。
+- **验证码识别**：支持多种验证码类型（如字母、数字、彩色验证码等），并提供颜色过滤功能，提升识别准确率。
+- **目标检测**：可检测图像中的目标区域（如验证码位置）。
+- **滑块匹配与比较**：支持滑块验证码的识别与处理。
+- **API服务支持**：提供RESTful API接口，方便集成到其他系统中使用。
+- **MCP协议支持**：支持AI Agent通过MCP协议调用服务。
+- **多平台兼容**：可在Windows、Linux、macOS等系统上运行，支持GPU加速。
 
-## 用法
-### 安装
-```bash
-pip install ddddocr
-```
+**使用方法：**
 
-### 基本用法（Python 脚本示例）
-1. **简单 OCR 识别**：
-   ```python
-   import ddddocr
+1. **安装**：通过pip安装`ddddocr`。
+2. **初始化**：使用`DdddOcr`类初始化OCR实例。
+3. **调用功能**：
+   - `ocr`：识别验证码图片中的文字。
+   - `detect`：检测图像中的目标区域。
+   - `slide_match` 和 `slide_comparison`：处理滑块验证码。
+4. **API服务**：通过启动API服务，使用HTTP接口进行远程调用。
+5. **颜色过滤**：支持预设颜色（如红色、蓝色）或自定义HSV颜色范围进行图像过滤。
 
-   ocr = ddddocr.DdddOcr()
-   with open('captcha.png', 'rb') as f:
-       image = f.read()
-   result = ocr.classificationResult(image)
-   print(result)  # 输出识别结果，如 "1234"
-   ```
+**主要特性：**
 
-2. **滑动验证码识别**：
-   ```python
-   import ddddocr
+- 支持多种模型（old、beta等）以适应不同类型的验证码。
+- 提供字符集限制功能（`set_ranges`），缩小识别范围，提高准确率。
+- 支持GPU加速，提升处理速度。
+- 提供命令行工具，如`python -m ddddocr colors`用于查看颜色预设。
+- 可训练自定义模型，适用于特定场景。
 
-   det = ddddocr.DdddOcrDet()
-   with open('slide.png', 'rb') as f:
-       image = f.read()
-   res = det.detection(image)
-   print(res)  # 输出滑块位置信息
-   ```
+**适用场景：**
 
-3. **命令行用法**：
-   ```bash
-   ddddocr -i captcha.png  # 识别单张图像
-   ```
-
-更多高级用法请参考 GitHub 仓库的 README 文档，包括 API 参数和示例代码。
+适用于需要自动识别验证码的场景，如自动化注册、登录、爬虫等。

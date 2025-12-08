@@ -1,45 +1,43 @@
+
 ---
 title: my-development-tools
 ---
 
-# my-development-tools 项目描述
+### [adoyle-h my-development-tools](https://github.com/adoyle-h/my-development-tools)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/adoyle-h/my-development-tools)
+### 核心内容总结
 
-## 主要特性
-该项目是一个个人开发工具集，旨在为开发者提供高效的命令行工具和脚本，支持自动化任务处理。主要特性包括：
-- **多语言支持**：集成 Shell、Python 和 Node.js 脚本，适用于不同开发环境。
-- **模块化设计**：工具分为文件处理、网络工具和系统管理等模块，便于扩展和维护。
-- **跨平台兼容**：主要针对 macOS 和 Linux 系统设计，支持部分 Windows 环境。
-- **开源免费**：基于 MIT 许可，用户可自由修改和分发。
+#### **开发工具**
+- **Homebrew**：Mac平台包管理器，用于安装和管理软件。
+- **KeePass**：开源密码管理工具，支持加密存储密码。
+- **PlantUML**：基于文本的UML绘图工具，支持生成图表。
+- **VS Code 插件**：提供代码格式化、调试等功能，提升开发效率。
 
-## 主要功能
-- **文件与目录管理**：提供批量重命名、搜索和备份工具，帮助开发者快速组织代码仓库。
-- **网络与 API 测试**：内置 HTTP 请求模拟器和 JSON 解析器，用于快速验证后端接口。
-- **开发环境配置**：脚本自动化安装常用工具，如 Git、Docker 和 IDE 插件。
-- **日志与监控**：简单日志生成器，支持实时监控开发进程和错误追踪。
-- **自定义扩展**：允许用户添加个人脚本，适应特定项目需求。
+#### **媒体播放与处理**
+- **OBS**：免费推流和录制工具，支持多平台。
+- **mpv**：跨平台媒体播放器，支持命令行控制。
+- **iina**：基于mpv的视频播放器，界面友好。
+- **HandBrake/ffmpeg**：视频转码工具，支持自定义参数。
 
-## 用法
-1. **克隆仓库**：
-   ```
-   git clone https://github.com/adoyle-h/my-development-tools.git
-   cd my-development-tools
-   ```
+#### **FTP客户端**
+- **Transmit**：支持FTP/SFTP等协议的图形化客户端（Mac平台）。
+- **WinSCP**：开源FTP/SFTP客户端，支持中文文件名。
+- **lftp**：命令行工具，支持FTP over TLS。
 
-2. **安装依赖**：
-   - 对于 Shell 脚本：无需额外安装，直接运行。
-   - 对于 Python 脚本：运行 `pip install -r requirements.txt`（如果有）。
-   - 对于 Node.js 脚本：运行 `npm install`。
+#### **RSS服务**
+- **RSSHub**：自定义订阅源生成工具，需编写JS代码。
+- **TTRSS**：自托管RSS阅读器，支持多平台访问。
 
-3. **运行工具**：
-   - 使用 `./run.sh <tool-name>` 执行特定工具，例如 `./run.sh file-rename` 用于文件重命名。
-   - 查看帮助：运行 `./run.sh --help` 获取所有可用命令和参数。
-   - 示例：批量备份文件 `bash backup.sh /path/to/source /path/to/backup`。
+#### **其他工具**
+- **Jellyfin**：多媒体管理工具，支持IPTV、字幕外挂。
+- **Godot**：免费游戏引擎，支持跨平台开发。
+- **QRCode生成器**：在线生成二维码，支持命令行工具。
+- **Wechatsync**：多平台文章同步工具，支持微信、知乎等。
 
-4. **自定义**：
-   - 编辑 `config.json` 文件调整工具参数。
-   - 添加新脚本到 `scripts/` 目录，并更新主入口文件。
+#### **特色项目**
+- **Suwayomi**：自部署漫画阅读器，兼容Mihon插件。
+- **Mihon/Kahon**：漫画阅读工具，需导入第三方源。
+- **Sound Siphon/BlackHole**：音频路由工具，支持虚拟设备创建。
 
-项目适合个人开发者或小型团队使用，建议结合 README.md 文件进一步探索具体示例。
+---
+**分类清晰，涵盖开发、媒体、网络传输等场景，提供开源与商业工具选择。**

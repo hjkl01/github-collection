@@ -1,42 +1,23 @@
+
 ---
 title: Duix.Heygem
 ---
 
+### [duixcom Duix.Heygem](https://github.com/duixcom/Duix.Heygem)
 
-# Duix.Heygem
+**项目核心内容总结：**  
+Duix.Avatar 是一个开源的数字人克隆与视频合成项目，支持语音合成、模型训练及视频生成。主要功能包括：  
+1. **功能**：通过本地部署实现数字人克隆、音频合成（TTS）与视频合成，提供 API 接口供开发者调用。  
+2. **使用方法**：  
+   - **本地部署**：支持 Windows 和 Ubuntu 系统，需通过 Docker 启动服务，包含模型训练、音频合成（调用 `fish-speech-ziming` 服务）及视频合成（调用 `http://127.0.0.1:8383` 接口）流程。  
+   - **API 调用**：提供模型训练、音频合成（参数如 `speaker`、`text`）及视频合成（参数如 `audio_url`、`video_url`）接口，适用于无需本地部署的用户。  
+3. **主要特性**：  
+   - 开源免费，支持商业使用（部分场景需授权）。  
+   - 提供多平台部署方案（Windows/Linux）。  
+   - 支持自定义模型训练与参数调整。  
+   - 提供两种服务模式：本地部署（适合技术用户）与 API 服务（适合企业用户）。  
+4. **硬件要求**：需 NVIDIA 显卡及驱动，部分版本适配 50 系列 GPU。  
 
-**项目地址**: https://github.com/duixcom/Duix.Heygem
-
-## 主要特性
-- 统一的 HeyGem API 客户端封装
-- 支持文本生成、对话、嵌入、模型管理等多种功能
-- 同步与异步调用兼容
-- 自动重试与速率限制处理
-- 可自定义请求参数、模型、温度等
-
-## 功能
-- `HeygemClient`：核心客户端，提供生成、聊天、嵌入接口
-- `ChatCompletionProvider`：对话式文本生成
-- `EmbeddingsProvider`：文本向量嵌入
-- `CompletionProvider`：传统文本补全
-- 环境变量与配置文件支持（如 `HEY_GEM_API_KEY`、`HEY_GEM_MODEL` 等）
-
-## 用法
-
-```csharp
-using Duix.Heygem;
-
-// 初始化客户端（可使用环境变量或显式传参）
-var client = new HeygemClient(apiKey: "YOUR_API_KEY");
-
-// 同步调用
-var completion = client.Completion("请给出一个简短的问候语");
-
-// 异步调用
-var chatAsync = await client.ChatAsync("你好，HeyGem");
-
-// 使用依赖注入（例如在 ASP.NET Core 中）
-builder.Services.AddHeyClient(apiKey: "YOUR_API_KEY");
-```
-
-> 详细使用方法请参考仓库中的 README_zh.md。
+**注意事项**：  
+- 部署前需确认显卡驱动及 Docker 环境正常。  
+- API 调用需参考文档中的接口参数及路径。

@@ -1,106 +1,23 @@
+
 ---
 title: kanagawa.nvim
 ---
 
-## 功能介绍
+### [rebelot kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
 
-kanagawa.nvim 是一个受葛饰北斋著名画作色彩启发的 NeoVim 深色配色方案。它提供了丰富的 TreeSitter 语法高亮支持，并兼容众多流行插件。该配色方案通过编译为 Lua 字节码，实现超快的启动时间。
+**项目核心内容总结：**
 
-主要特性：
+**功能**  
+Kanata 是一个受 Tokyonight、Gruvbox 等启发的 Neovim 主题，提供高可读性与视觉舒适的代码编辑体验，支持多语言语法高亮。
 
-- 广泛支持 TreeSitter 语法高亮和流行插件
-- 编译为 Lua 字节码以提升启动速度
-- 提供三种主题变体：wave（默认）、dragon 和 lotus
-- 高度可定制，包括颜色调色板和主题颜色
-- 符合 WCAG 2.1 Level AA 对比度标准
+**使用方法**  
+1. 安装 Neovim（需 v0.7+）；  
+2. 通过 Lua 配置加载主题（如 `require("kanata").setup()`）；  
+3. 安装依赖插件（如 lualine、nvim-tree）以适配主题样式。
 
-## 用法
-
-### 安装
-
-使用你喜欢的包管理器下载：
-
-```lua
-use "rebelot/kanagawa.nvim"
-```
-
-### 要求
-
-- 最新版本的 Neovim
-- 支持真彩色的终端
-- 可选：支持下划线终端
-
-### 基本使用
-
-设置配色方案：
-
-```vim
-colorscheme kanagawa
-```
-
-或在 Lua 中：
-
-```lua
-vim.cmd("colorscheme kanagawa")
-```
-
-### 配置
-
-无需调用 setup 即可使用默认设置。以下是默认配置选项：
-
-```lua
-require('kanagawa').setup({
-    compile = false,             -- 启用配色方案编译
-    undercurl = true,            -- 启用下划线
-    commentStyle = { italic = true },
-    functionStyle = {},
-    keywordStyle = { italic = true },
-    statementStyle = { bold = true },
-    typeStyle = {},
-    transparent = false,         -- 不设置背景色
-    dimInactive = false,         -- 调暗非活动窗口
-    terminalColors = true,       -- 定义 vim.g.terminal_color_{0,17}
-    colors = {                   -- 添加/修改主题和调色板颜色
-        palette = {},
-        theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
-    },
-    overrides = function(colors) -- 添加/修改高亮
-        return {}
-    end,
-    theme = "wave",              -- 加载 "wave" 主题
-    background = {               -- 将 'background' 选项的值映射到主题
-        dark = "wave",           -- 尝试 "dragon"！
-        light = "lotus"
-    },
-})
-```
-
-注意：如果启用编译，确保在更改配置后运行 `:KanagawaCompile` 命令。
-
-### 主题切换
-
-可以通过以下方式更改主题：
-
-- 设置 `config.theme` 为所需主题
-- 使用 `background` 选项：更改 `vim.o.background` 的值将选择映射的主题
-- 直接加载配色方案：
-
-```lua
-vim.cmd("colorscheme kanagawa-wave")
-vim.cmd("colorscheme kanagawa-dragon")
-vim.cmd("colorscheme kanagawa-lotus")
-```
-
-或
-
-```lua
-require("kanagawa").load("wave")
-```
-
-### 自定义
-
-可以通过 `config.colors` 修改调色板和主题颜色，通过 `config.overrides` 添加/修改高亮组。
-
-### 集成
-
-支持终端集成，如 Kitty 等。还提供获取调色板和主题颜色的 API。
+**主要特性**  
+- **多主题变体**：提供 wave、dragon、lotus 等预设风格；  
+- **高度定制**：支持通过 Lua 脚本调整配色、背景等参数；  
+- **可访问性**：符合 WCAG 2.1 AA 对比度标准（4.5:1）；  
+- **兼容性**：适配 Alacritty、Kitty、iTerm2 等终端，含额外配置模板（如 Fish Shell、Emacs、Windows Terminal）；  
+- **扩展性**：提供 Python 脚本提取图片色板，便于自定义主题。

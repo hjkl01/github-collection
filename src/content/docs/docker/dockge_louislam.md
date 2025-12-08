@@ -1,29 +1,22 @@
+
 ---
 title: dockge
 ---
 
-# Dockge 项目
+### [louislam dockge](https://github.com/louislam/dockge)
 
-**GitHub 项目地址:** [https://github.com/louislam/dockge](https://github.com/louislam/dockge)
+**项目核心内容总结：**  
 
-## 主要特性
+**功能：**  
+Dockge 是一款自托管的 Docker Compose 堆栈管理工具，支持创建/编辑/启动/停止/重启/删除堆栈、更新镜像、交互式编辑 Compose 文件、Web 终端、多 Docker 主机管理（1.4.0 新增）、将 `docker run` 命令转换为 Compose 文件。文件存储在本地，可直接使用 `docker compose` 命令操作。  
 
-Dockge 是一个轻量级的 Docker 容器管理工具，专为简化 Docker Compose 项目的管理和监控而设计。其核心特性包括：
+**使用方法：**  
+需安装 Docker 20+ 或 Podman（仅 Podman 需额外安装 `podman-docker`）。默认堆栈目录为 `/opt/stacks`，默认端口 5001。基本安装步骤为：创建目录、下载 Compose 文件、执行 `docker compose up -d`。高级用户可通过 URL 自定义端口和堆栈路径。更新时执行 `docker compose pull && docker compose up -d`。  
 
-- **可视化界面**：通过 Web 界面轻松管理 Docker Compose 文件，无需命令行操作。
-- **实时监控**：实时显示容器状态、日志和资源使用情况，支持一键启动、停止、重启和更新容器。
-- **栈（Stack）管理**：支持多个 Docker Compose 项目（称为栈）的组织和切换，便于管理复杂环境。
-- **文件同步**：自动同步 Docker Compose 文件的变化，并支持 Git 集成以实现版本控制。
-- **轻量高效**：基于 Node.js 构建，资源占用低，易于部署在 Raspberry Pi 等低功耗设备上。
-- **安全性**：内置基本认证，支持 HTTPS，并限制对 Docker API 的访问权限。
-- **跨平台支持**：兼容 Linux、Windows 和 macOS 等平台。
-
-## 主要功能
-
-一个漂亮、易用且响应式的自托管 Docker compose.yaml 栈导向管理器
-
-## 用法
-
-请参考项目文档获取详细用法。
-
-Dockge 适合个人开发者或小型团队管理 Docker 环境，安装简单，使用直观。
+**主要特性：**  
+- 实时响应（如镜像拉取、容器启动状态）  
+- 基于文件的本地存储，不强制迁移文件  
+- 支持多 Docker 主机管理  
+- 类似 Uptime Kuma 的美观 UI  
+- 交互式编辑器和 Web 终端  
+- 支持将 `docker run` 转换为 Compose 文件

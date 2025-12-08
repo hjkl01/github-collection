@@ -1,43 +1,21 @@
+
 ---
-title: wailsapp/wails
+title: wails
 ---
 
-# Wails
+### [wailsapp wails](https://github.com/wailsapp/wails)
 
-Wails 是一个用于使用 Go 和 Web 技术构建桌面应用程序的框架。它允许开发者将 Go 代码和 Web 前端打包成单个二进制文件，提供了一种不同于传统内置 Web 服务器的方法。
+**项目核心内容总结：**  
+Wails 是一个用于构建桌面应用程序的工具，支持使用 Go 语言作为后端，结合任意前端技术（如 HTML/JS/CSS）开发用户界面。其核心功能是将 Go 代码与 Web 前端打包成单一的可执行文件，无需依赖嵌入式浏览器，支持跨平台运行。  
 
-## 功能特性
+**主要特性：**  
+- 使用标准 Go 语言开发后端逻辑  
+- 支持任意前端技术构建 UI（如 React、Vue 等）  
+- 自动生 TypeScript 类型定义，便于前后端交互  
+- 提供原生菜单、对话框及暗黑/浅色模式支持  
+- 支持现代透明效果（如“毛玻璃”窗口）  
+- 前后端通过统一事件系统通信  
+- 内置 CLI 工具简化项目生成与构建流程  
 
-- **后端使用标准 Go**：利用 Go 的强大性能和并发能力。
-- **前端灵活性**：支持任何熟悉的前端技术（如 React、Vue、Angular、Svelte 等）构建 UI。
-- **快速开发**：提供预建模板，快速创建丰富的用户界面。
-- **Go-JS 互操作**：轻松从 JavaScript 调用 Go 方法，并自动生成 TypeScript 定义。
-- **原生功能**：支持原生对话框、菜单、暗/亮模式切换，以及现代半透明和“frosted window”效果。
-- **事件系统**：统一的 Go 和 JavaScript 事件系统。
-- **CLI 工具**：强大的命令行工具，用于项目生成、编译和打包。
-- **多平台支持**：支持 Windows、macOS 和 Linux。
-- **原生渲染**：使用原生渲染引擎，无需嵌入浏览器。
-
-## 使用方法
-
-1. **安装 Wails**：访问 [官方文档](https://wails.io/docs/gettingstarted/installation) 获取安装指南。
-
-2. **创建新项目**：
-
-   ```bash
-   wails init -n myproject
-   cd myproject
-   ```
-
-3. **运行项目**：
-
-   ```bash
-   wails dev
-   ```
-
-4. **构建生产版本**：
-   ```bash
-   wails build
-   ```
-
-更多详细信息请参考 [Wails 官方文档](https://wails.io/docs/gettingstarted/installation)。
+**使用方法：**  
+通过官方文档提供的安装指南进行安装，使用 CLI 工具创建项目并编译生成可执行文件。

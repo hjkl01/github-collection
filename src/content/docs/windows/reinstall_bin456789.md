@@ -1,54 +1,31 @@
+
 ---
 title: reinstall
 ---
 
-# reinstall 项目
+### [bin456789 reinstall](https://github.com/bin456789/reinstall)
 
-**项目地址：** [https://github.com/bin456789/reinstall](https://github.com/bin456789/reinstall)
+**项目核心内容总结：**
 
-## 主要特性
+该项目是一个用于自动化安装 Windows 系统的脚本工具，支持多种版本的 Windows（包括 Windows 7、Windows 10/11、Windows Server 等）以及 ARM 架构系统。主要功能包括自动下载 ISO 镜像、安装系统、配置 SSH 密钥等，适用于云服务器和虚拟化环境。
 
-reinstall 是一键 VPS 系统重装脚本，支持 Linux 和 Windows 重装，采用分区表 ID 识别硬盘，确保安全。主要特性包括：
+**使用方法：**
 
-- **一键重装 Linux**：支持 19 种发行版，如 Debian、Ubuntu、Alpine 等。
-- **一键重装 Windows**：使用官方 ISO，支持自动查找链接和安装驱动。
-- **任意方向重装**：Linux 到 Linux/Windows，Windows 到 Linux/Windows。
-- **智能 IP 配置**：自动设置静态/动态 IP，支持 IPv4/IPv6。
-- **低内存优化**：适配低配机器，内存 256MB 起。
-- **开源透明**：所有资源实时从镜像源获取，无自制包。
+- 通过 `--image-name` 参数指定要安装的系统版本（映像名称）；
+- 使用 `--ssh-key` 添加 SSH 公钥以实现无密码登录；
+- 支持从 GitHub 获取旧版本脚本以解决兼容性问题；
+- 可通过 `--force-boot-mode bios` 等参数解决特定硬件兼容性问题。
 
-## 主要功能
+**主要特性：**
 
-- **安装 Linux**：选择发行版和版本，自动下载和安装。
-- **安装 Windows**：指定 ISO 或自动查找，支持语言和版本。
-- **DD 原始镜像**：支持 raw/vhd 镜像到硬盘。
-- **引导到 Alpine Live OS**：内存系统，用于手动操作。
-- **引导到 netboot.xyz**：用于手动安装其他系统。
-- **高级选项**：SSH 密钥、端口、密码设置，frpc 内网穿透。
+- 支持多种云平台（如 Azure、AWS、阿里云、GCP 等）；
+- 支持 ARM 架构的 Windows 安装；
+- 自动化安装流程，减少手动操作；
+- 提供常见问题的解决方法，如 GCP 上的安装问题、Windows 10 LTSC 的 CPU 占用问题等；
+- 可自定义脚本，支持 Fork 仓库并修改配置。
 
-## 用法
+**注意事项：**
 
-脚本支持 Linux/Windows 下运行，使用 bash 或 batch 文件。
-
-### 下载
-
-国外：`curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh`
-国内：`curl -O https://cnb.cool/bin456789/reinstall/-/git/raw/main/reinstall.sh`
-
-### 安装 Linux
-
-`bash reinstall.sh debian 12` 或 `ubuntu 24.04 --minimal`
-
-### 安装 Windows
-
-`bash reinstall.sh windows --image-name "Windows 11 Pro" --lang zh-cn`
-
-### DD 镜像
-
-`bash reinstall.sh dd --img "https://example.com/image.xz"`
-
-### 其他功能
-
-`bash reinstall.sh alpine --hold 1` 或 `netboot.xyz`
-
-注意：重装会清除硬盘，使用前备份。更多选项见 README。
+- 部分旧系统（如 Vista、Windows 7）可能缺少驱动；
+- 安装 Windows 7 时需注意 EFI 引导和虚拟机类型；
+- 部分云平台（如 Google Cloud）可能需要手动加载驱动。

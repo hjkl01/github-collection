@@ -1,59 +1,26 @@
+
 ---
-title: MaxText
+title: maxtext
 ---
 
-## 功能介绍
+### [AI-Hypercomputer maxtext](https://github.com/AI-Hypercomputer/maxtext)
 
-MaxText 是一个高性能、高可扩展的开源大语言模型 (LLM) 库和参考实现，使用纯 Python/JAX 编写，针对 Google Cloud TPUs 和 GPUs 进行训练。它提供了高性能模型库，包括 Gemma、Llama、DeepSeek、Qwen 和 Mistral 等模型。对于每个模型，MaxText 支持预训练（可扩展到数万个芯片）和可扩展的后训练，包括监督微调 (SFT) 和组相对策略优化 (GRPO，一种强化学习)。
+**MaxText 核心内容总结：**
 
-MaxText 通过 JAX 和 XLA 编译器的强大功能，在保持简单和“优化免费”的同时，实现高模型 FLOPs 利用率 (MFU) 和每秒令牌数，从单主机到大型集群。
+**项目功能**  
+MaxText 是一个高性能、可扩展的开源大语言模型（LLM）库，基于 Python/JAX，专为 Google Cloud TPU/GPU 优化。支持多种模型（如 Gemma、Llama、Qwen、Mistral 等）的预训练（支持数万芯片规模）和微调（SFT、GRPO/RL 等技术），并提供多模态训练能力（如 Gemma 3、Llama 4 VLM）。
 
-MaxText 是研究和生产中雄心勃勃的 LLM 项目的起点。我们鼓励您从开箱即用的 MaxText 开始实验，然后分叉并修改以满足您的需求。
+**使用方法**  
+- 安装：通过 PyPI（`pip install maxtext`）或阅读文档指南安装。  
+- 运行：支持单机/多机 TPU/GPU 训练，提供单机和多机微调教程（SFT/RL）。  
+- 解耦模式：无需依赖 GCP 即可运行。  
 
-## 用法
+**主要特性**  
+1. **高性能**：利用 JAX/XLA 实现高 MFU（模型 FLOPs 利用率）和高吞吐（token/s），优化无冗余。  
+2. **模型支持**：覆盖主流开源模型（如 Llama 4、Qwen 3 MoE、DeepSeek-V3 等），支持稠密模型与 MoE（专家混合）模型。  
+3. **扩展性**：支持大规模集群训练，提供词汇分片（Vocabulary Tiling）、多令牌预测（MTP）等优化技术。  
+4. **工具链集成**：整合 Flax（神经网络）、Tunix（微调）、Orbax（检查点）、Optax（优化）等库，支持全流程训练与推理。  
 
-### 安装
-
-通过 pip 安装 MaxText：
-
-```bash
-pip install maxtext
-```
-
-详细安装指南请参考 [官方文档](https://maxtext.readthedocs.io/en/latest/guides/install_maxtext.html)。
-
-### 快速开始
-
-访问 [Read The Docs 站点](https://maxtext.readthedocs.io/en/latest/) 或直接 [开始您的第一次运行](https://maxtext.readthedocs.io/en/latest/tutorials/first_run.html)。
-
-### 支持的模型
-
-- **Google**: Gemma 3 (4B, 12B, 27B), Gemma 2 (2B, 9B, 27B), Gemma 1 (2B, 7B)
-- **Alibaba**: Qwen 3 MoE 2507 (235B, 480B), Qwen 3 MoE (30B, 235B), Qwen 3 Dense (0.6B, 1.7B, 4B, 8B, 14B, 32B)
-- **DeepSeek**: DeepSeek-V3 0324 (671B) & DeepSeek-R1 0528 (671B), DeepSeek-V2 (16B, 236B)
-- **Meta**: Llama 4 Scout (109B) & Maverick (400B), Llama 3.3 70B, 3.1 (8B, 70B, 405B), 3.0 (8B, 70B, 405B), Llama 2 (7B, 13B, 70B)
-- **OpenAI**: GPT-OSS (20B, 120B), GPT3 (52K, 6B, 22B, 175B)
-- **Mistral**: Mixtral (8x7B, 8x22B), Mistral (7B)
-
-### 预训练
-
-MaxText 可作为从头构建模型的参考实现，支持从小模型如 Llama 8B 到大 MoE 如 DeepSeek-V3 的训练。提供分片、量化、检查点等方面的优化实现。
-
-### 后训练
-
-使用 Tunix 进行可扩展的后训练框架，支持 SFT 和 GRPO 等技术。
-
-示例脚本：
-
-- [SFT](https://github.com/AI-Hypercomputer/maxtext/blob/main/end_to_end/tpu/llama3.1/8b/run_sft.sh)
-- [GRPO](https://maxtext.readthedocs.io/en/latest/tutorials/grpo.html)
-
-### 多模态支持
-
-支持 Gemma 3 和 Llama 4 VLM 的多模态训练。
-
-## 参与贡献
-
-加入 [Discord 频道](https://discord.com/invite/2H9PhvTcDU)，或在 [GitHub Issues](https://github.com/AI-Hypercomputer/maxtext/issues/new/choose) 提交反馈。
-
-许可证：Apache-2.0
+**其他**  
+- 提供模型库、性能指标文档、教程（如首次运行、SFT/RL 指南）。  
+- 社区支持：通过 Discord 参与，GitHub 提交反馈。

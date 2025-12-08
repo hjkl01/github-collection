@@ -1,57 +1,25 @@
+
 ---
 title: ali
 ---
 
-# ali 项目
+### [nakabonne ali](https://github.com/nakabonne/ali)
 
-## 项目地址
+**项目核心内容总结：**  
+`ali` 是一个受 Vegeta 和 jplot 启发的负载测试工具，支持实时分析和终端内嵌图表展示。  
 
-[GitHub 项目地址](https://github.com/nakabonne/ali)
+**功能特点：**  
+- 提供终端实时图表（如延迟、百分位数等），支持鼠标交互操作；  
+- 可自定义请求参数（如方法、速率、持续时间、请求体等）；  
+- 支持多种安装方式（Homebrew、APT、Go 等）；  
+- 可通过命令行直接发起测试，默认参数为速率 50 RPS、持续时间 10 秒。  
 
-## 主要特性
+**使用方法：**  
+1. 安装后通过 `ali <目标URL>` 启动测试；  
+2. 按回车开始攻击，使用 `-d` 设置持续时间、`-r` 设置速率等参数；  
+3. 实时图表可通过 `l`/`h` 切换显示内容，支持区域缩放。  
 
-- **实时负载测试工具**：ali 是一个能够进行实时分析的负载测试工具，受 vegeta 和 jplot 启发。
-- **实时绘图**：内置终端界面，可以实时绘制指标。
-- **多种安装方式**：支持通过 Go 安装、二进制下载、Homebrew、MacPorts、APT、RPM、Pacman、APK、Docker 等。
-- **跨平台支持**：支持 Windows、macOS、Linux。
-
-## 主要功能
-
-- **实时分析**：支持实时绘制延迟、百分位数、字节等图表。
-- **可视化攻击进度**：帮助在长时间测试中监控进度。
-- **鼠标支持**：使用 termdash 可以直观操作。
-- **多种选项**：支持设置速率、持续时间、并发数、超时、请求方法、请求体等。
-
-## 用法
-
-1. **安装**：
-   - 通过 Go 安装：`go install github.com/nakabonne/ali@latest`
-   - 或从 GitHub Releases 下载预编译二进制文件。
-   - Homebrew：`brew install nakabonne/ali/ali`
-   - MacPorts：`sudo port selfupdate && sudo port install ali`
-   - APT：下载 deb 文件并安装。
-   - RPM：下载 rpm 文件并安装。
-   - Pacman：`pacman -S ali`
-   - APK：启用 community repo 后 `apk add ali`
-   - Docker：`docker run --rm -it nakabonne/ali ali`
-
-2. **快速开始**：
-   `ali http://host.xz`
-   按 Enter 启动攻击，默认速率 50，持续时间 10s。
-
-3. **选项**：
-   - `-r`：请求速率每秒（默认 50）。
-   - `-d`：持续时间（默认 10s）。
-   - `-m`：HTTP 请求方法（默认 GET）。
-   - `-b`：请求体。
-   - `-H`：请求头。
-   - `--debug`：调试模式。
-   - 等等。
-
-4. **图表**：
-   - **延迟**：X 轴为请求计数，Y 轴为延迟毫秒。
-   - **百分位数**：显示 50th、90th、95th、99th 百分位数的变化。
-   - **字节**：（待定）。
-   - **直方图**：（待定）。
-
-更多详细用法请参考项目 README 文件。
+**主要特性：**  
+- 实时绘图与进度可视化；  
+- 支持 HTTP/2、TLS 配置及自定义 DNS 解析；  
+- 基于 termdash 实现终端图形渲染，兼容鼠标操作。

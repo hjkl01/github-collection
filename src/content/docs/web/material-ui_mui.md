@@ -1,59 +1,23 @@
+
 ---
-title: Material-UI
+title: material-ui
 ---
 
-Material-UI 是一个全面的 React 组件库，实现了 Google 的 Material Design 系统。它提供了丰富的预构建组件，帮助开发者快速构建美观、响应式的用户界面。
+### [mui material-ui](https://github.com/mui/material-ui)
 
-## 功能
+**项目功能**  
+Material UI 是一个基于 React 的 UI 组件库，提供对 Google Material Design 系统的完整实现，包含大量可复用的组件，用于构建现代 Web 应用。  
 
-- **组件丰富**：包括按钮、表单、导航、布局等各种 UI 组件。
-- **Material Design**：遵循 Google 的 Material Design 规范，确保一致性和美观性。
-- **自定义主题**：支持主题定制，包括颜色、字体等。
-- **TypeScript 支持**：提供完整的 TypeScript 类型定义。
-- **无障碍性**：组件内置无障碍性支持。
-- **扩展性**：核心功能可通过 MUI X 扩展，用于高级用例。
+**使用方法**  
+通过 [官方文档](https://mui.com/material-ui/getting-started/) 获取入门指南，使用 npm 安装核心包 `@mui/material`，并参考文档集成到项目中。  
 
-## 用法
+**主要特性**  
+1. **组件丰富**：涵盖基础控件（按钮、表单等）和高级组件（数据表格、图表等），支持自定义主题和样式。  
+2. **稳定性与兼容性**：经过多年开发验证，被广泛用于生产环境，提供多版本迁移指南（v5/v4/v3 等）。  
+3. **扩展性**：通过 [MUI X](https://github.com/mui/mui-x) 支持复杂场景（如数据网格、日历）。  
+4. **文档完善**：提供详细教程、示例代码和社区支持，支持多语言版本。  
+5. **开源协议**：采用 MIT 许可证，免费用于商业和开源项目。  
 
-1. **安装**：使用 npm 或 yarn 安装。
-
-   ```bash
-   npm install @mui/material @emotion/react @emotion/styled
-   ```
-
-2. **基本使用**：导入组件并在 React 应用中使用。
-
-   ```jsx
-   import React from 'react';
-   import Button from '@mui/material/Button';
-
-   function App() {
-     return (
-       <Button variant="contained" color="primary">
-         Hello World
-       </Button>
-     );
-   }
-
-   export default App;
-   ```
-
-3. **主题定制**：使用 ThemeProvider 自定义主题。
-
-   ```jsx
-   import { ThemeProvider, createTheme } from '@mui/material/styles';
-
-   const theme = createTheme({
-     palette: {
-       primary: {
-         main: '#1976d2',
-       },
-     },
-   });
-
-   function App() {
-     return <ThemeProvider theme={theme}>{/* 应用内容 */}</ThemeProvider>;
-   }
-   ```
-
-更多详细信息，请参考 [官方文档](https://mui.com/material-ui/getting-started/)。
+**其他**  
+- 提供实验性组件库 Joy UI（当前不推荐使用）。  
+- 社区由数千名贡献者维护，支持通过赞助和协作持续发展。

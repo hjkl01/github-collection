@@ -1,79 +1,27 @@
+
 ---
 title: which-key.nvim
 ---
 
-# which-key.nvim
+### [folke which-key.nvim](https://github.com/folke/which-key.nvim)
 
-**GitHub 项目地址:** [https://github.com/folke/which-key.nvim](https://github.com/folke/which-key.nvim)
+**项目核心内容总结：**  
+WhichKey 是一个 Neovim 插件，用于实时显示按键提示，帮助用户快速查找和执行自定义快捷键。  
 
-## 主要特性
-which-key.nvim 是一个 Neovim 插件，灵感来源于 Emacs 的 which-key 包。它旨在帮助用户快速发现和学习键绑定，提供一个交互式的前缀键提示界面。主要特性包括：
-- **智能键绑定提示**：当用户输入前缀键（如 leader 键）后，自动弹出浮动窗口显示所有可用的后续键绑定。
-- **延迟触发**：支持配置延迟时间，避免频繁弹出干扰正常输入。
-- **自定义分组**：键绑定可以按组分类显示，支持图标和描述文本，提升视觉体验。
-- **集成支持**：兼容 Telescope、LSP 等插件，提供搜索和过滤功能。
-- **性能优化**：使用 Lua 实现，轻量高效，不依赖外部依赖。
-- **可扩展性**：允许用户注册自定义键绑定和事件钩子。
+**功能与特性：**  
+1. **动态按键提示**：通过自定义触发器（如 `<leader>`）或模式切换事件自动弹出提示窗口，支持延迟显示（如操作符模式下按键后显示）。  
+2. **灵活配置**：  
+   - 支持自定义映射（如 `wk.add` 定义快捷键、分组、动态子菜单）。  
+   - 可设置图标（需安装 `mini.icons` 或 `nvim-web-devicons`），图标颜色、类别、高亮可自定义。  
+3. **高级特性**：  
+   - **Hydra 模式**：保持提示窗口持续显示，直至按 `<esc>` 退出。  
+   - **内置插件**：提供常见操作（如窗口切换、文件搜索）的快捷键提示，支持书签、寄存器、拼写建议等功能。  
+4. **可视化与交互**：  
+   - 提供丰富的高亮主题（如 `WhichKeyDesc`、`WhichKeyGroup` 等）。  
+   - 支持键盘导航（如 `<bs>` 返回上一级、`<c-d>`/`<c-u>` 滚动）。  
 
-## 主要功能
-- **前缀键可视化**：显示当前前缀下所有子命令，帮助新手快速上手 Neovim 的复杂键绑定。
-- **自动注册**：插件会自动检测并注册已安装插件的键绑定，无需手动配置。
-- **搜索与过滤**：在弹出窗口中支持实时搜索键绑定，提高导航效率。
-- **模式支持**：适用于 normal、visual 等多种 Vim 模式。
-- **主题集成**：无缝集成 Neovim 的颜色方案，支持暗黑模式等。
-- **事件驱动**：支持在特定事件（如插件加载）时动态更新键绑定提示。
-
-## 用法
-### 安装
-使用插件管理器安装，例如 packer.nvim：
-```lua
-use {
-  "folke/which-key.nvim",
-  config = function()
-    require("which-key").setup {}
-  end
-}
-```
-
-### 基本配置
-在 Neovim 配置中（init.lua）添加：
-```lua
-require("which-key").setup {
-  -- 延迟时间（毫秒）
-  delay = 300,
-  -- 自定义图标
-  icons = {
-    breadcrumb = "»", -- 面包屑分隔符
-    separator = "➜", -- 子菜单分隔符
-    group = "+", -- 组前缀
-  },
-  -- 窗口选项
-  window = {
-    border = "single", -- 窗口边框
-    position = "bottom", -- 位置：top, bottom, left, right
-  },
-}
-```
-
-### 手动注册键绑定
-```lua
-local wk = require("which-key")
-wk.register({
-  ["<leader>"] = {
-    f = { "<cmd>Telescope find_files<cr>", "Find Files" }, -- 键绑定和描述
-    b = { "<cmd>Telescope buffers<cr>", "Buffers" },
-    g = {
-      name = "Git", -- 分组名称
-      s = { "<cmd>Git status<cr>", "Status" },
-      b = { "<cmd>Git blame<cr>", "Blame" },
-    },
-  },
-}, { prefix = "<leader>" }) -- 指定前缀
-```
-
-### 使用示例
-1. 启动 Neovim，按下 leader 键（默认 `<Space>`），插件会弹出窗口显示所有 leader 开头的绑定。
-2. 输入部分键序列（如 `<leader>f`），窗口会过滤并显示匹配项。
-3. 支持缩写和别名，帮助记忆复杂命令。
-
-更多高级用法请参考项目 README。
+**使用方法：**  
+1. 定义映射：通过 `wk.add` 添加快捷键、分组、动态子菜单。  
+2. 配置触发器：设置 `opts.triggers` 指定触发模式（如 `n`、`v`）。  
+3. 调整延迟：通过 `opts.defer` 函数控制特定模式下是否延迟显示。  
+4. 启用插件：如拼写建议需手动开启 `opts.icons.mappings`。

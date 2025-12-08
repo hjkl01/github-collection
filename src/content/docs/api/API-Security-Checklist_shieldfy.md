@@ -1,42 +1,47 @@
+
 ---
 title: API-Security-Checklist
 ---
 
-# API 安全检查清单
+### [shieldfy API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist)
 
-**GitHub 项目地址：** [https://github.com/shieldfy/API-Security-Checklist/blob/master/README-zh.md](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-zh.md)
+该文档是一个**API安全检查清单**，旨在为开发者在设计、测试和发布API时提供全面的安全措施参考。其核心内容涵盖以下关键领域：
 
-## 项目主要特性
-API-Security-Checklist 是一个开源的 API 安全检查清单项目，由 Shieldfy 维护。它提供了一个全面、结构化的指南，帮助开发者、架构师和安全团队评估和提升 API 的安全性。项目的主要特性包括：
-- **多语言支持**：提供英文和中文版本的 README，便于全球开发者使用。
-- **分类清晰**：将安全检查项分为多个类别，如身份验证、授权、数据验证、加密等，便于针对性检查。
-- **实用性强**：基于 OWASP API Security Top 10 等行业标准，结合实际最佳实践，包含可操作的建议和潜在风险说明。
-- **开源协作**：鼓励社区贡献，持续更新以适应新兴威胁，如 API 滥用和供应链攻击。
-- **易于集成**：可作为开发流程的一部分，用于 CI/CD 管道或安全审计。
+1. **认证与授权**  
+   - 推荐使用标准认证方式（如JWT），避免使用Basic Auth。  
+   - 对于OAuth，需严格验证`redirect_uri`，防止CSRF攻击，并强制使用代码交换（禁用`response_type=token`）。  
 
-## 主要功能
-该项目的主要功能是为 API 开发提供安全审计框架，帮助识别和缓解常见漏洞。具体功能包括：
-- **安全检查项列表**：涵盖从设计阶段到部署的全面检查，例如：
-  - 身份验证与授权：确保使用强认证机制，如 OAuth 2.0，避免弱密码。
-  - 输入验证与输出编码：防止注入攻击，如 SQL 注入或 XSS。
-  - 速率限制与节流：防御 DDoS 和滥用攻击。
-  - 数据加密：要求传输层（TLS）和静态数据加密。
-  - 错误处理与日志：避免泄露敏感信息，并记录可疑活动。
-- **风险评估**：每个检查项标注风险级别（高、中、低），并提供修复建议和参考资源。
-- **最佳实践指导**：包括 API 设计原则，如使用 HTTPS、API 密钥管理和版本控制。
-- **扩展性**：支持自定义检查项，适用于 RESTful API、GraphQL 等各种 API 类型。
+2. **访问控制**  
+   - 启用HTTPS（TLS 1.2+）和HSTS头，防止中间人攻击和SSL剥离攻击。  
+   - 通过速率限制（如限制请求次数）防御DDoS攻击。  
+   - 对私有API限制访问源IP或主机。  
 
-## 用法
-1. **访问项目**：克隆仓库或直接查看 README 文件（英文版或中文版）。
-2. **审计流程**：
-   - 选择相关类别（如“身份验证”），逐项检查你的 API 是否符合要求。
-   - 对于每个检查项，评估当前实现（是/否/部分），记录问题并应用建议修复。
-   - 示例：对于“使用强认证”检查，如果你的 API 使用基本认证，建议升级到 JWT 或 API 密钥，并测试其强度。
-3. **集成到开发中**：
-   - 在设计阶段作为 checklist 使用。
-   - 在代码审查或渗透测试中引用。
-   - 通过脚本自动化部分检查（如使用工具验证 TLS 配置）。
-4. **贡献与更新**：如果发现遗漏或新威胁，提交 Pull Request 到 GitHub 仓库。
-5. **工具推荐**：结合 OWASP ZAP、Postman 或 Burp Suite 等工具进行实际测试。
+3. **输入验证**  
+   - 使用HTTP方法（GET/POST/PUT/DELETE）与业务逻辑匹配，返回`405 Method Not Allowed`错误。  
+   - 验证`Content-Type`及数据格式，防止XSS、SQL注入等攻击。  
+   - 禁止在URL中暴露敏感信息（如密码、API密钥），改用`Authorization`头。  
 
-此清单适用于 Web API、移动 API 等场景，帮助构建更安全的系统。
+4. **数据处理安全**  
+   - 避免使用自动递增ID，改用UUID确保唯一性与隐私。  
+   - 禁用XML实体解析（防止XXE攻击），并限制数据大小。  
+   - 使用CDN处理文件上传，后台处理大数据时启用Workers/Queues。  
+
+5. **输出安全**  
+   - 添加安全头信息（如`X-Content-Type-Options: nosniff`、`X-Frame-Options: DENY`、`Content-Security-Policy`）防御XSS、MIME嗅探和点击劫持。  
+   - 强制HTTPS，禁止跨域策略（`X-Permitted-Cross-Domain-Policies: none`）。  
+
+6. **CI/CD与依赖安全**  
+   - 在CI/CD流程中集成静态代码分析（如SonarQube）、动态测试（如OWASP ZAP）和依赖项漏洞扫描（如Snyk）。  
+   - 部署前进行安全审计。  
+
+7. **监控与日志**  
+   - 实时监控异常活动，记录请求/响应日志（IP、时间戳、用户代理等）。  
+   - 使用日志分析工具检测攻击行为，并设置警报机制。  
+
+8. **工具推荐**  
+   - 推荐使用OWASP ZAP、SonarQube、Snyk等工具进行渗透测试、代码审计和依赖扫描。  
+
+9. **社区贡献**  
+   - 项目接受社区提交Pull Request，鼓励协作完善安全实践。  
+
+**总结**：该清单为开发者提供了一套系统化的API安全检查框架，覆盖从认证到监控的全生命周期，结合技术实践与工具推荐，帮助构建更安全的API服务。

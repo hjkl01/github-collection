@@ -1,95 +1,25 @@
+
 ---
 title: pgx
 ---
 
-# pgx
+### [jackc pgx](https://github.com/jackc/pgx)
 
-**项目地址**: https://github.com/jackc/pgx
+**项目核心内容总结：**
 
-## 主要特性
-- **纯 Go 实现**：无依赖 C 库，适合云原生部署。
-- **高性能二进制协议**：使用 PostgreSQL 的二进制协议，减少序列化开销。
-- **连接池（pgxpool）**：自动管理连接，支持并发、高可用。
-- **事务与批处理**：`Tx`、`Batch` 支持原子操作与批量执行。
-- **COPY 与 COPY FROM**：高效批量导入/导出数据。
-- **自定义类型映射**：灵活注册自定义 Go 类型与 PostgreSQL 类型。
-- **Context 支持**：通过 `context.Context` 进行查询超时与取消。
-- **多版本兼容**：支持 PostgreSQL 9.6+，并提供 v4 与 v5 版本。
+pgx 是一个用于 PostgreSQL 的高性能 Go 语言驱动和工具包，提供直接访问 PostgreSQL 特有功能（如 `LISTEN`/`NOTIFY`、`COPY` 协议）的低级别接口，同时兼容标准 `database/sql` 接口。
 
-## 功能概览
-| 功能 | 说明 |
-|------|------|
-| `pgx.Connect` | 单连接方式，适合轻量级应用 |
-| `pgxpool.Connect` | 连接池，适合高并发 |
-| `Conn.Query`, `Conn.Exec` | 标准 SQL 执行 |
-| `Conn.QueryRow` | 单行查询 |
-| `Conn.CopyFrom` | 大量数据写入 |
-| `Conn.CopyTo` | 大量数据读取 |
-| `Tx` | 事务管理 |
-| `Batch` | 批量查询/执行 |
-| `CopyFromRows` | 通过 `[]pgx.CopyFromSource` 写入 |
-| `pgxpool.Config` | 连接池配置 |
-| `pgx.ConnConfig` | 单连接配置 |
-| `pgx.TypeMapper` | 类型映射与解析 |
+**使用方法**：通过 `Connect` 建立数据库连接，使用 `QueryRow` 执行 SQL 查询并用 `Scan` 获取结果，支持通过环境变量配置连接参数。
 
-## 用法示例
+**主要特性**：
+- 支持 70+ PostgreSQL 数据类型，包括 `json`、`hstore`、`inet` 等；
+- 提供自动语句缓存、批量查询、单次往返模式等性能优化；
+- 支持 TLS、二进制格式传输、`COPY` 协议实现高速数据导入；
+- 包含连接池、通知响应处理、模拟嵌套事务等高级功能；
+- 支持自定义类型与 `database/sql` 接口适配。
 
-```go
-package main
+**适用场景**：推荐在仅使用 PostgreSQL 的场景下优先使用 pgx 接口，以获得更优性能和功能；若需兼容其他数据库，可通过 `database/sql` 接口实现。
 
-import (
-    "context"
-    "fmt"
-    "github.com/jackc/pgx/v5"
-    "github.com/jackc/pgx/v5/pgxpool"
-)
+**支持版本**：Go 1.24+、PostgreSQL 13+，并兼容 CockroachDB。
 
-func main() {
-    ctx := context.Background()
-
-    // 1. 连接池方式
-    pool, err := pgxpool.New(ctx, "postgres://user:pass@localhost:5432/dbname")
-    if err != nil {
-        panic(err)
-    }
-    defer pool.Close()
-
-    // 2. 执行查询
-    var count int
-    err = pool.QueryRow(ctx, "SELECT COUNT(*) FROM users").Scan(&count)
-    if err != nil {
-        panic(err)
-    }
-    fmt.Println("用户数量:", count)
-
-    // 3. 事务
-    tx, err := pool.Begin(ctx)
-    if err != nil {
-        panic(err)
-    }
-    defer tx.Rollback(ctx)
-
-    _, err = tx.Exec(ctx, "INSERT INTO users(name) VALUES ($1)", "Alice")
-    if err != nil {
-        panic(err)
-    }
-    tx.Commit(ctx)
-
-    // 4. COPY FROM 示例
-    rows := [][]interface{}{
-        {"Bob", 30},
-        {"Carol", 25},
-    }
-    _, err = pool.CopyFrom(ctx,
-        pgx.Identifier{"users"},
-        []string{"name", "age"},
-        pgx.CopyFromRows(rows),
-    )
-    if err != nil {
-        panic(err)
-    }
-}
-```
-
-> 以上示例演示了连接池创建、单行查询、事务操作以及 COPY FROM 批量写入。  
-> 更多高级用法请参阅官方文档与源码示例。
+**相关库**：包含逻辑复制、模拟服务器、SQL 迁移等工具，以及第三方适配器（如 UUID、PostGIS）和第三方库（如 mock 框架、ORM 工具）。

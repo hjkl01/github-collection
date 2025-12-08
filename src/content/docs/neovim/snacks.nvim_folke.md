@@ -1,92 +1,22 @@
+
 ---
 title: snacks.nvim
 ---
 
-# snacks.nvim
+### [folke snacks.nvim](https://github.com/folke/snacks.nvim)
 
-snacks.nvim 是一个为 Neovim 提供高质量生活 (QoL) 插件的集合，由 folke 创建。它包含多个小型插件，用于增强 Neovim 的功能和用户体验。
+**项目核心内容总结：**  
 
-## 功能特性
+**功能**：  
+Snacks 是一个 Neovim 插件，集成文件管理、终端控制、LSP 符号跳转、Zen 模式、通知管理、Git 操作等功能，支持快速切换缓冲区、删除文件、查看诊断信息、管理颜色主题等。  
 
-snacks.nvim 提供了以下插件模块：
+**使用方法**：  
+- 通过 `<leader>` 快捷键组合（如 `<leader>z` 进入 Zen 模式，`<leader>gB` 浏览 Git 仓库）调用功能。  
+- 使用 `Snacks.picker` 系列命令（如 `grep`、`lsp_symbols`）进行搜索和导航。  
+- 自定义快捷键映射（如 `<leader>us` 切换拼写检查）。  
 
-- **animate**: 高效动画库，支持超过 45 种缓动函数
-- **bigfile**: 处理大文件
-- **bufdelete**: 删除缓冲区而不破坏窗口布局
-- **dashboard**: 美观的声明式仪表板
-- **debug**: 调试用的漂亮检查和回溯
-- **dim**: 通过调暗其余部分来聚焦活动范围
-- **explorer**: 文件浏览器 (伪装成选择器)
-- **gh**: GitHub CLI 集成
-- **git**: Git 工具
-- **gitbrowse**: 在浏览器中打开当前文件、分支、提交或仓库
-- **image**: 使用 Kitty 图形协议的图像查看器
-- **indent**: 缩进指南和范围
-- **input**: 更好的 `vim.ui.input`
-- **keymap**: 支持文件类型和 LSP 客户端的更好 `vim.keymap`
-- **layout**: 窗口布局
-- **lazygit**: 在浮动窗口中打开 LazyGit，自动配置配色方案和 Neovim 集成
-- **notifier**: 漂亮的 `vim.notify`
-- **notify**: 处理 Neovim `vim.notify` 的工具函数
-- **picker**: 选择项目的选择器
-- **profiler**: Neovim Lua 性能分析器
-- **quickfile**: 快速渲染文件，在加载插件之前
-- **rename**: LSP 集成的文件重命名，支持 neo-tree.nvim 和 mini.files 等插件
-- **scope**: 基于 treesitter 或缩进的范围检测、文本对象和跳转
-- **scratch**: 带有持久文件的草稿缓冲区
-- **scroll**: 平滑滚动
-- **statuscolumn**: 漂亮的状态列
-- **terminal**: 创建和切换浮动/分割终端
-- **toggle**: 与 which-key 图标/颜色集成的切换键映射
-- **util**: Snacks 的工具函数库
-- **win**: 创建和管理浮动窗口或分割
-- **words**: 自动显示 LSP 引用并快速导航
-- **zen**: 禅模式 • 无干扰编码
-
-## 要求
-
-- Neovim >= 0.9.4
-- 可选：mini.icons、nvim-web-devicons 和 Nerd Font 以获得更好的图标支持
-
-## 安装
-
-使用 lazy.nvim 安装：
-
-```lua
-{
-  "folke/snacks.nvim",
-  priority = 1000,
-  lazy = false,
-  ---@type snacks.Config
-  opts = {
-    -- 启用所需的插件
-    bigfile = { enabled = true },
-    dashboard = { enabled = true },
-    explorer = { enabled = true },
-    indent = { enabled = true },
-    input = { enabled = true },
-    picker = { enabled = true },
-    notifier = { enabled = true },
-    quickfile = { enabled = true },
-    scope = { enabled = true },
-    scroll = { enabled = true },
-    statuscolumn = { enabled = true },
-    words = { enabled = true },
-  },
-}
-```
-
-## 用法
-
-snacks.nvim 提供了丰富的键映射和功能。例如：
-
-- `<leader><space>`: 智能查找文件
-- `<leader>/`: 全局搜索
-- `<leader>e`: 文件浏览器
-- `<leader>z`: 切换禅模式
-- `<leader>.`: 切换草稿缓冲区
-- `<leader>gg`: 打开 LazyGit
-- `gd`: 跳转到定义
-- `gr`: 查找引用
-
-更多用法请参考项目的 README 和各个插件的文档。
+**主要特性**：  
+- 提供 100+ 预设快捷键，覆盖文件、终端、LSP、Git 等场景。  
+- 支持 Zen 模式（全屏专注编辑）和通知系统（实时显示提示信息）。  
+- 可通过 `init` 配置自定义调试工具（如 `dd` 查看变量值）。  
+- 模块化设计，支持通过 `Snacks.toggle` 快速切换选项（如显示行号、语法高亮）。

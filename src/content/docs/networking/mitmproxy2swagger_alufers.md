@@ -1,46 +1,30 @@
+
 ---
 title: mitmproxy2swagger
 ---
 
-# mitmproxy2swagger 项目
+### [alufers mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger)
 
-## 项目地址
-[https://github.com/alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger)
+**mitmproxy2swagger** 是一个将 mitmproxy 捕获的 HTTP 流量自动转换为 OpenAPI 3.0 规范的工具，可用于逆向工程 REST API。  
 
-## 主要特性
-- **自动生成 OpenAPI/Swagger 规范**：通过拦截 HTTP/HTTPS 流量，自动捕获 API 请求和响应，生成符合 OpenAPI 2.0 (Swagger 2) 规范的 JSON 或 YAML 文件。
-- **支持 mitmproxy 集成**：作为 mitmproxy 的插件运行，无缝集成到代理流程中，支持实时流量分析和规范生成。
-- **智能推断 API 结构**：自动识别路径、方法（GET、POST 等）、参数、请求体、响应体和状态码，支持 JSON、XML 等常见格式的推断。
-- **自定义配置**：允许用户配置过滤规则、忽略特定流量、自定义描述和标签，便于生成更精确的 API 文档。
-- **轻量级和易扩展**：基于 Python 开发，易于修改和扩展，支持命令行和脚本化使用。
+**核心功能**  
+- 通过 mitmproxy 捕获流量，生成 OpenAPI 文档；  
+- 支持从浏览器 DevTools 导出的 HAR 文件作为输入。  
 
-## 主要功能
-- **流量捕获与规范生成**：在 mitmproxy 中运行插件，捕获 API 调用后，一键导出 Swagger 规范文件，用于 API 文档化或测试。
-- **API 端点发现**：自动发现和组织 API 端点，支持分组和标签化，便于大型项目的文档管理。
-- **响应验证**：生成规范时包括示例响应，帮助验证 API 行为和错误处理。
-- **导出与集成**：支持直接导出到文件，或集成到 CI/CD 流程中自动化生成文档。
-- **隐私与安全**：仅处理本地代理流量，不上传数据，确保敏感信息的安全。
+**使用方法**  
+1. **mitmproxy 方式**  
+   - 用 mitmproxy 捕获流量并保存为 flow 文件；  
+   - 运行工具两次：第一次生成路径模板，第二次生成完整接口描述（可选添加示例数据）；  
+   - 需指定 API 基础路径（如 `https://api.example.com/v1`）。  
 
-## 用法
-1. **安装**：
-   - 确保已安装 mitmproxy（`pip install mitmproxy`）。
-   - 克隆仓库：`git clone https://github.com/alufers/mitmproxy2swagger.git`。
-   - 进入目录：`cd mitmproxy2swagger`。
+2. **HAR 文件方式**  
+   - 从浏览器 DevTools 导出 HAR 文件，后续处理方式与 mitmproxy flow 文件相同。  
 
-2. **运行 mitmproxy 与插件**：
-   - 使用命令启动 mitmproxy 并加载插件：`mitmproxy -s mitmproxy2swagger.py`。
-   - 配置浏览器或应用使用 mitmproxy 作为代理（默认端口 8080），并安装 mitmproxy CA 证书以支持 HTTPS。
+**主要特性**  
+- 支持多次运行合并不同流量数据；  
+- 可自定义忽略路径或调整参数；  
+- 提供示例数据（需注意敏感信息风险）；  
+- 支持 Docker 安装与运行。  
 
-3. **捕获流量**：
-   - 通过代理访问目标 API，插件会自动记录请求/响应。
-   - 在 mitmproxy 界面（按 `?` 查看帮助）中，按 `w` 键写入生成的 Swagger 文件（默认输出到当前目录的 `swagger.json`）。
-
-4. **自定义选项**：
-   - 编辑 `mitmproxy2swagger.py` 中的配置，如 `output_file`（输出文件名）、`filter`（流量过滤规则，例如只捕获特定主机）。
-   - 示例：运行时添加脚本选项 `mitmproxy -s mitmproxy2swagger.py -O swagger.yaml` 以输出 YAML 格式。
-
-5. **高级用法**：
-   - 集成到脚本：编写 Python 脚本来自动化运行，例如结合 `mitmdump` 用于批量测试。
-   - 生成后，使用 Swagger UI 或 Editor 查看和编辑规范文件。
-
-更多细节请参考仓库的 README.md 文件。
+**安装**  
+通过 pip 安装或 Docker 构建镜像。

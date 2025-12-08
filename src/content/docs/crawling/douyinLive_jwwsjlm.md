@@ -1,37 +1,26 @@
+
 ---
 title: douyinLive
 ---
 
-# DouyinLive 项目
+### [jwwsjlm douyinLive](https://github.com/jwwsjlm/douyinLive)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/jwwsjlm/douyinLive)
+### 项目核心内容总结
 
-## 主要特性
-- **直播间监控与数据采集**：支持实时监控抖音直播间，支持提取直播流地址、弹幕、礼物等实时数据。
-- **多平台兼容**：基于Python开发，兼容Windows、Linux和macOS系统。
-- **高效解析**：使用先进的逆向工程技术解析抖音直播协议，提供稳定的数据流获取。
-- **轻量级设计**：代码简洁，易于二次开发和自定义扩展。
+**功能**  
+该项目通过WebSocket抓取抖音直播间弹幕和礼物数据，支持单进程监控多个直播间，数据以JSON格式输出。
 
-## 主要功能
-- **直播流下载**：获取抖音直播的RTMP或HLS流地址，支持下载或转播。
-- **弹幕与互动数据**：实时捕获直播间的弹幕、点赞、礼物等互动信息，并可输出为JSON或日志格式。
-- **自动化脚本**：提供脚本化接口，可集成到自动化任务中，如批量监控多个直播间。
-- **错误处理与日志**：内置错误恢复机制和详细日志记录，便于调试和监控运行状态。
+**使用方法**  
+1. 运行命令：`go run main/main.go --room 抖音直播间号 --port 端口号（默认18080）`，或编译后使用`main.exe --room 抖音直播间号`。  
+2. 客户端通过`ws://127.0.0.1:1088/ws/直播间ID`连接，例如`ws://127.0.0.1:1088/ws/AAAAA`。  
+3. 客户端需每30秒发送一次`ping`心跳包以维持连接。
 
-## 用法
-1. **环境准备**：
-   - 安装Python 3.8+。
-   - 克隆仓库：`git clone https://github.com/jwwsjlm/douyinLive.git`。
-   - 安装依赖：`pip install -r requirements.txt`（假设有requirements文件）。
+**主要特性**  
+- 单进程支持多直播间监控  
+- 数据输出为JSON格式（需自行解析）  
+- 内置心跳包机制  
+- 可通过`--unknown`参数控制是否输出未解析数据（默认不输出）  
 
-2. **基本运行**：
-   - 使用命令行运行主脚本：`python main.py --room_id <直播间ID>`，其中`<直播间ID>`为目标抖音直播间ID。
-   - 示例：`python main.py --room_id 123456789` 开始监控并输出流地址。
-
-3. **高级用法**：
-   - 下载直播流：`python downloader.py --room_id <ID> --output <路径>`。
-   - 捕获弹幕：`python danmu.py --room_id <ID> --duration <秒数>`，持续捕获指定时长的弹幕数据。
-   - 查看帮助：运行`python main.py --help` 获取所有参数说明。
-
-注意：使用时需遵守抖音平台规则，避免滥用。项目可能需更新以适应抖音协议变化。
+**其他说明**  
+- Proto文件需完善（提供相关链接供参考）  
+- 默认端口为18080，可自定义修改

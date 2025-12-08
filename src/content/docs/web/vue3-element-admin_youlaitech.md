@@ -1,63 +1,36 @@
+
 ---
 title: vue3-element-admin
 ---
 
-# vue3-element-admin 项目
+### [youlaitech vue3-element-admin](https://github.com/youlaitech/vue3-element-admin)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/youlaitech/vue3-element-admin)
+### 项目核心内容总结
 
-## 主要特性
-vue3-element-admin 是一个基于 Vue 3 和 Element Plus 的后台管理系统模板，采用现代化的前端技术栈构建，旨在为开发者提供高效、可扩展的后台管理解决方案。主要特性包括：
-- **Vue 3 核心**：使用 Composition API 和 Vue 3 的新特性，实现更高效的组件开发和状态管理。
-- **Element Plus UI 框架**：集成 Element Plus 组件库，提供美观、响应式的 UI 界面，支持主题定制。
-- **TypeScript 支持**：全项目使用 TypeScript 编写，确保类型安全和代码可维护性。
-- **路由管理**：基于 Vue Router 的动态路由，支持权限控制和懒加载。
-- **状态管理**：集成 Pinia 作为状态管理库，轻量且易用。
-- **国际化支持**：内置 i18n 功能，支持多语言切换（如中文、英文）。
-- **权限系统**：角色-based 访问控制（RBAC），支持动态菜单和按钮级权限。
-- **响应式设计**：适配 PC 和移动端，支持暗黑模式切换。
-- **开发工具集成**：支持 Vite 构建工具，提供热重载和快速开发体验。
+#### **项目功能**
+- 提供企业级后台管理前端模板，支持用户管理、角色管理、菜单管理、数据权限控制等核心功能模块。
+- 配套 Java（youlai-boot）和 Node（youlai-nest）后端源码，支持快速搭建全栈开发环境。
+- 提供简版（vue3-element-template）和 JS 版本（vue3-element-admin-js）满足不同开发需求。
 
-## 主要功能
-该项目提供了一个完整的后台管理系统框架，核心功能模块包括：
-- **用户管理**：用户列表、添加/编辑/删除用户，支持角色分配和权限设置。
-- **角色与权限管理**：角色创建、权限分配、菜单管理，实现细粒度访问控制。
-- **仪表盘**：实时数据展示、图表统计（如 ECharts 集成），用于监控系统状态。
-- **系统设置**：配置管理、日志查看、缓存清理等后台维护功能。
-- **表单与表格**：CRUD 操作支持，使用 Element Plus 的表单和表格组件，实现数据增删改查。
-- **文件上传**：集成上传组件，支持拖拽和多文件上传。
-- **通知与消息**：实时消息推送和通知中心。
-- **错误处理**：全局异常捕获和 404/500 页面处理。
+#### **主要特性**
+1. **技术栈**：基于 Vue3、Vite7、TypeScript 和 Element-Plus 构建，支持国际化、暗黑模式、接口文档生成等功能。
+2. **权限管理**：支持动态路由、按钮权限、数据权限等精细化权限控制。
+3. **开发友好**：集成 Mock 数据和线上接口文档（Apifox），支持代码规范（ESLint、Prettier）和 Git 提交规范（Commitlint）。
+4. **持续更新**：项目持续维护，实时更新依赖和工具。
 
-## 用法
-1. **环境准备**：
-   - 确保 Node.js 版本 >= 16。
-   - 安装 pnpm 或 yarn 作为包管理器（推荐 pnpm）。
+#### **使用方法**
+1. **开发环境**：
+   - 安装 Node.js（LTS 版本）、pnpm 包管理器和 VSCode。
+   - 执行命令：`git clone` → `pnpm install` → `pnpm run dev` 启动开发服务器。
+2. **部署**：
+   - 运行 `pnpm run build` 生成 `dist` 目录。
+   - 配置 Nginx 反向代理，将 `dist` 文件部署至服务器。
+3. **接口切换**：
+   - 修改 `.env.development` 文件，启用本地 Mock 或切换后端接口地址（如 `http://localhost:8989`）。
 
-2. **克隆与安装**：
-   ```
-   git clone https://github.com/youlaitech/vue3-element-admin.git
-   cd vue3-element-admin
-   pnpm install  # 或 yarn install
-   ```
-
-3. **启动开发服务器**：
-   ```
-   pnpm dev  # 或 yarn dev
-   ```
-   访问 `http://localhost:5173` 查看效果。
-
-4. **构建生产版本**：
-   ```
-   pnpm build  # 或 yarn build
-   ```
-   构建输出在 `dist` 目录下，可部署到服务器。
-
-5. **自定义开发**：
-   - 修改 `src/views` 目录下的页面组件。
-   - 在 `src/router` 配置路由和权限。
-   - 使用 `src/store` 扩展状态管理模块。
-   - 参考 `src/api` 添加后端接口调用（需配置 axios 或其他 HTTP 客户端）。
-
-项目文档详见仓库的 README.md 文件，适合快速搭建企业级后台管理系统。
+#### **注意事项**
+- 自动导入插件默认关闭，新增组件需手动开启生成。
+- 低版本浏览器可能因不支持新语法（如 `?.`）导致页面空白。
+- 项目更新后需执行 `pnpm install` 安装依赖。
+- VSCode 中组件爆红时可尝试重启编辑器。
+- 问题反馈可通过 Gitee 提交 ISSUE。

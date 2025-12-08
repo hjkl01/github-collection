@@ -1,80 +1,34 @@
+
 ---
 title: todo-comments.nvim
 ---
 
-## 项目简介
+### [folke todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
 
-todo-comments.nvim 是一个用于 Neovim >= 0.8.0 的 Lua 插件，用于高亮、列出和搜索项目中的 TODO 注释，如 `TODO`、`HACK`、`BUG` 等。
+**项目核心内容总结：**
 
-## 功能特性
+**功能**  
+`todo-comments` 是 Neovim 0.8.0+ 的 Lua 插件，用于高亮和搜索代码中的待办事项注释（如 `TODO`、`HACK`、`BUG` 等），支持通过快捷键跳转、快速修复列表、Trouble 插件、Telescope 和 FzfLua 搜索。
 
-- **高亮注释**：以不同样式高亮 TODO 注释
-- **可选 TreeSitter 支持**：仅高亮注释中的 TODO
-- **可配置标志**：自定义标志图标和颜色
-- **快速修复列表**：在 quickfix 列表中打开 TODO
-- **Trouble 集成**：在 Trouble 中显示 TODO
-- **搜索功能**：使用 Telescope 或 FzfLua 搜索 TODO
+**主要特性**  
+- 多种样式高亮 TODO 注释  
+- 通过 TreeSitter 限定在注释中高亮  
+- 可自定义符号（signs）和颜色  
+- 支持快速修复列表（Quickfix）和 Trouble 插件展示  
+- 集成 Telescope/FzfLua 搜索 TODO 注释  
 
-## 安装要求
+**使用方法**  
+1. **快捷键跳转**：`]t`（下一个）、`[t`（上一个），可指定关键词过滤（如 `ERROR`、`WARNING`）。  
+2. **命令**：  
+   - `:TodoQuickFix`：显示所有 TODO 的快速修复列表  
+   - `:TodoLocList`：显示位置列表  
+   - `:Trouble todo`：通过 Trouble 插件查看 TODO  
+   - `:TodoTelescope` / `:TodoFzfLua`：通过 Telescope/FzfLua 搜索 TODO  
 
-- Neovim >= 0.8.0
-- 补丁字体（如 Nerd Fonts）用于图标显示
-- 可选依赖：
-  - ripgrep 和 plenary.nvim 用于搜索
-  - Trouble
-  - Telescope
-  - FzfLua
+**依赖**  
+- Neovim 0.8.0+（旧版本需使用 `neovim-pre-0.8.0` 分支）  
+- 建议安装 [ripgrep](https://github.com/BurntSushi/ripgrep) 和 [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)  
+- 可选集成：[Trouble](https://github.com/folke/trouble.nvim)、[Telescope](https://github.com/nvim-telescope/telescope.nvim)、[FzfLua](https://github.com/ibhagwan/fzf-lua)  
 
-## 安装方法
-
-使用 lazy.nvim 安装：
-
-```lua
-{
-  "folke/todo-comments.nvim",
-  dependencies = { "nvim-lua/plenary.nvim" },
-  opts = {
-    -- 配置选项
-  }
-}
-```
-
-## 配置选项
-
-插件提供丰富的配置选项，包括关键字定义、颜色设置、高亮样式等。默认支持的关键字包括 FIX、TODO、HACK、WARN、PERF、NOTE、TEST 等。
-
-## 使用方法
-
-### 基本用法
-
-插件会自动匹配以关键字后跟冒号的注释，如：
-
-- `TODO: 做某事`
-- `FIX: 修复这个问题`
-- `HACK: 奇怪的代码警告`
-
-### 命令
-
-- `:TodoQuickFix` - 在 quickfix 列表中显示所有 TODO
-- `:TodoLocList` - 在位置列表中显示所有 TODO
-- `:Trouble todo` - 在 Trouble 中显示 TODO
-- `:TodoTelescope` - 使用 Telescope 搜索 TODO
-- `:TodoFzfLua` - 使用 FzfLua 搜索 TODO
-
-### 跳转
-
-可以使用快捷键跳转到下一个/上一个 TODO：
-
-```lua
-vim.keymap.set("n", "]t", function()
-  require("todo-comments").jump_next()
-end, { desc = "下一个 TODO 注释" })
-
-vim.keymap.set("n", "[t", function()
-  require("todo-comments").jump_prev()
-end, { desc = "上一个 TODO 注释" })
-```
-
-### 过滤
-
-命令支持参数过滤，如 `cwd` 指定目录，`keywords` 指定关键字。
+**安装**  
+使用 Lazy.nvim 安装，需依赖 `plenary.nvim`，配置支持自定义关键词、颜色、高亮样式等。

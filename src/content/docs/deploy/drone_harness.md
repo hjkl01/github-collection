@@ -1,51 +1,22 @@
+
 ---
 title: drone
 ---
 
-# Drone 项目概述
+### [harness drone](https://github.com/harness/drone)
 
-**项目地址：** [https://github.com/harney/drone](https://github.com/harney/drone)
+Harness Open Source 是一个开源的开发平台，集成了代码托管、自动化 DevOps 流水线、托管开发环境（Gitspaces）和制品仓库等功能，提供端到端的 DevOps 解决方案。
 
-## 主要特性
-Drone 是一个开源的持续集成和持续部署 (CI/CD) 平台，基于容器化技术构建。它具有以下核心特性：
-- **容器化执行**：每个构建任务在独立的 Docker 容器中运行，确保环境隔离和可重复性。
-- **简单配置**：使用 YAML 文件（.drone.yml）定义流水线，支持插件生态系统扩展功能。
-- **与 Git 集成**：无缝支持 GitHub、GitLab 等代码托管平台，通过 webhook 触发构建。
-- **轻量级**：无代理架构，易于部署在各种环境中，如 Kubernetes、Docker 等。
-- **安全与可扩展**：支持秘密管理、权限控制，并通过插件实现自定义任务（如部署、测试等）。
+**核心功能：**  
+- 提供代码托管、CI/CD 流水线、开发环境（Gitspaces）及制品仓库，支持全栈开发流程。  
+- 基于 Drone 的下一代版本，扩展了源代码托管和开发环境能力，未来将与 Drone 的流水线功能实现兼容。  
 
-## 主要功能
-- **构建与测试**：自动拉取代码、编译、运行单元测试和集成测试。
-- **部署自动化**：集成部署插件，支持推送镜像到仓库、部署到云服务等。
-- **通知与报告**：构建完成后发送通知到 Slack、Email 等，并生成报告。
-- **多管道支持**：允许定义多个阶段（如 build、test、deploy），并行或顺序执行。
-- **插件系统**：内置插件用于 Docker、Slack、AWS 等，社区贡献丰富。
+**使用方法：**  
+- 通过 Docker 镜像快速部署：运行 `docker run` 命令，访问 `http://localhost:3000` 启动服务。  
+- 本地开发需安装 Node、Go 1.20+、Protobuf 3.21.11 及相关工具，执行 `make build` 构建项目，使用 `./gitness server` 启动服务。  
 
-## 用法指南
-1. **安装与部署**：
-   - 使用 Docker 快速启动：`docker run --restart=always -p 80:80 --env-file drone.env drone/drone server`
-   - 配置数据库（如 SQLite 或 PostgreSQL）和 GitHub OAuth。
-   - 访问 Web 界面激活仓库，启用 Drone。
-
-2. **配置流水线**：
-   - 在仓库根目录创建 `.drone.yml` 文件，例如：
-     ```
-     kind: pipeline
-     type: docker
-     name: default
-
-     steps:
-     - name: build
-       image: golang
-       commands:
-       - go build
-       - go test
-     ```
-   - 推送代码到仓库，Drone 会自动触发构建。
-
-3. **扩展与管理**：
-   - 添加插件：如 `docker://plugins/docker` 用于构建镜像。
-   - 通过 Web UI 查看构建日志、历史记录和管理秘密。
-   - 高级用法：集成 Kubernetes 部署，或自定义插件开发。
-
-更多详情请参考项目文档：[https://docs.drone.io/](https://docs.drone.io/)
+**主要特性：**  
+- 提供 REST API 和 Swagger 文档（`http://localhost:3000/swagger`），支持 API 自动化测试。  
+- 内置 CLI 工具，支持用户认证、令牌生成（PAT）及服务管理。  
+- 支持注册表一致性测试（`make conformance-test`），确保功能合规性。  
+- 开源协议为 Apache 2.0，代码托管于 GitHub，贡献指南详见 CONTRIBUTING.md。

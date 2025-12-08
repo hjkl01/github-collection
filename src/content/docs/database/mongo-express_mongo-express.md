@@ -1,69 +1,31 @@
+
 ---
 title: mongo-express
 ---
 
-# mongo-express 项目
+### [mongo-express mongo-express](https://github.com/mongo-express/mongo-express)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/mongo-express/mongo-express)
+**Mongo Express 是一个用于 MongoDB 的 Web 管理工具，支持数据库查询、文档编辑、数据管理等操作。**  
 
-## 主要特性
-mongo-express 是一个轻量级的 Web 界面，用于 MongoDB 数据库的管理。它基于 Node.js 开发，提供了一个直观的图形化工具来浏览、查询和操作 MongoDB 数据。核心特性包括：
-- **Web-based 界面**：通过浏览器访问，支持实时查看和编辑数据库。
-- **多数据库支持**：可以连接多个 MongoDB 实例，并切换管理不同数据库。
-- **用户认证**：内置基本认证机制，支持用户名/密码登录。
-- **实时查询**：支持 MongoDB 查询语言（包括聚合管道），并显示结果。
-- **数据操作**：允许创建、读取、更新和删除（CRUD）集合中的文档。
-- **文件上传**：支持上传文件到 GridFS。
-- **主题和自定义**：可自定义界面主题和配置选项。
-- **Docker 支持**：易于通过 Docker 部署，适合容器化环境。
+**核心功能：**  
+- 提供简单和高级搜索功能，支持 MongoDB 查询语法；  
+- 支持多种 BSON 数据类型（如 ObjectId、ISODate、UUID、Binary 等）的编辑与展示；  
+- 可通过 Docker 快速部署，支持 IBM Cloud 和 OpenID Connect 认证；  
+- 支持 SSL 加密、GridFS 文件管理、自定义分页显示等特性；  
+- 可作为独立应用运行，或集成到其他项目中作为中间件使用。  
 
-## 主要功能
-- **数据库浏览**：列出所有数据库、集合，并查看文档结构。
-- **查询与过滤**：执行自定义查询，支持排序、分页和投影。
-- **文档编辑**：直接在界面中编辑 JSON 文档，支持批量操作。
-- **索引管理**：查看和创建集合索引。
-- **统计信息**：显示数据库统计、集合大小和性能指标。
-- **连接管理**：支持 MongoDB 的副本集、共享集群和 SSL 连接。
-- **导出/导入**：基本的数据导出功能（JSON 格式）。
+**使用方法：**  
+1. **独立运行**：修改 `config.js` 配置数据库连接、认证信息，启动服务后通过浏览器访问 `http://localhost:8081`；  
+2. **Docker 部署**：通过环境变量配置 MongoDB 连接和认证参数，运行镜像即可；  
+3. **云平台部署**：支持 IBM Cloud 手动或自动部署，需配置对应服务和环境变量；  
+4. **OpenID Connect 认证**：需安装 `express-openid-connect` 依赖，并设置 Identity Provider 的相关参数。  
 
-## 用法
-### 安装与运行
-1. **前提条件**：确保 Node.js 已安装（推荐 v14+），并有 MongoDB 服务器运行。
-2. **克隆仓库**：
-   ```
-   git clone https://github.com/mongo-express/mongo-express.git
-   cd mongo-express
-   ```
-3. **安装依赖**：
-   ```
-   npm install
-   ```
-4. **配置**：
-   编辑 `config.js` 或使用环境变量设置 MongoDB 连接字符串（如 `ME_CONFIG_MONGODB_URL=mongodb://localhost:27017`），以及认证信息（如 `ME_CONFIG_BASICAUTH_USERNAME` 和 `ME_CONFIG_BASICAUTH_PASSWORD`）。
-5. **启动**：
-   ```
-   npm start
-   ```
-   应用将在 `http://localhost:8080` 上运行。使用浏览器访问，并输入认证凭据登录。
+**主要特性：**  
+- 支持复杂数据类型（如代码、时间戳、符号等）的可视化编辑；  
+- 提供文档导入、导出、删除确认等交互功能；  
+- 通过环境变量灵活配置 SSL、认证、端口等参数；  
+- 支持 Docker Extensions 一键部署（需 Docker Desktop 4.15+）。  
 
-### Docker 部署（推荐）
-使用官方 Docker 镜像快速启动：
-```
-docker run -it --rm \
-  -p 8081:8081 \
-  -e ME_CONFIG_MONGODB_URL="mongodb://mongo:27017" \
-  -e ME_CONFIG_BASICAUTH_USERNAME=admin \
-  -e ME_CONFIG_BASICAUTH_PASSWORD=pass \
-  mongo-express
-```
-- 将 `mongo:27017` 替换为你的 MongoDB 主机和端口。
-- 访问 `http://localhost:8081`。
-
-### 使用界面
-- 登录后，选择数据库和集合。
-- 使用左侧导航浏览数据。
-- 在查询栏输入 MongoDB 查询（如 `{ "field": "value" }`）并执行。
-- 编辑文档时，直接修改 JSON 并保存。
-
-更多细节请参考项目 README 和官方文档。
+**注意事项：**  
+- 项目仅适用于开发环境，**禁止在生产环境中使用**，因 Web 界面可能执行恶意 JavaScript；  
+- 二进制数据类型（Binary/BinData）未经过充分测试。

@@ -1,46 +1,25 @@
+
 ---
 title: tempo
 ---
 
-# Grafana Tempo
+### [grafana tempo](https://github.com/grafana/tempo)
 
-**GitHub 项目地址**：<https://github.com/grafana/tempo>
+**核心内容总结：**
 
-## 主要特性
+**项目功能**  
+Grafana Tempo 是一个开源的分布式追踪后端，支持与 Grafana、Prometheus 和 Loki 深度集成，仅需对象存储即可运行，具备高扩展性和低成本特性。兼容 Jaeger、Zipkin、OpenTelemetry 等多种数据格式，支持将追踪数据写入 Azure、GCS、S3 或本地磁盘。
 
-- **分布式追踪**：支持 Jaeger、OpenTelemetry 等协议，聚合、存储和可视化分布式系统的请求链路。  
-- **可水平扩展的存储**：兼容多种后端（CDynamoDB、S3、GCS 等），可横向扩展至数百 TB。  
-- **低成本压缩**：采用高效压缩与分区存储，避免冗余索引，降低磁盘与网络成本。  
-- **无缝集成**：与 Grafana、Prometheus、Kubernetes、Kong 等监控栈原生集成。  
-- **多租户 & 安全**：支持 IAM、RBAC、VPC、TLS/MTLS，保障数据隔离与访问控制。
+**主要特性**  
+1. **Traces Drilldown UI**：提供无需查询的交互式分析界面，支持快速定位性能问题、错误和延迟瓶颈，集成 RED 指标（速率、错误率、持续时间）和自动对比功能。  
+2. **TraceQL**：基于 LogQL 和 PromQL 的查询语言，支持复杂查询和指标生成（实验性功能）。  
+3. **低成本存储**：依赖对象存储，无需额外数据库，简化运维。  
+4. **工具链**：包含 `tempo-vulture`（一致性校验工具）和 `tempo-cli`（命令行工具）。  
 
-## 核心功能
+**使用方法**  
+- 通过官方文档 [Getting Started](https://grafana.com/docs/tempo/latest/getting-started/) 部署。  
+- 支持多种部署方式：[Docker Compose](./example/docker-compose)、[Helm](./example/helm)、[Jsonnet](./example/tk)。  
+- 参考 [OpenTelemetry 集成指南](https://grafana.com/docs/tempo/latest/guides/instrumentation/) 进行应用埋点。  
 
-1. **采集与采样**  
-   - 通过 OpenTelemetry Collector、Prometheus、Jaeger Collector/Agent 等采集器接入。  
-   - 支持无代理采样与侧信道采样。
-
-2. **存储层**  
-   - 支持多种后端：Cassandra、DynamoDB、S3、GCS、Local FS。  
-   - 自动分段、压缩与分区，支持运行时切换后端。
-
-3. **查询与分析**  
-   - HTTP API 兼容 OpenTelemetry Trace API。  
-   - 与 Grafana Trace Explorer 集成，实现链路、服务依赖、错误率等可视化。
-
-4. **数据迁移 & 兼容**  
-   - 支持从 Zipkin、OpenTelemetry、Jaeger 等多种格式导入。  
-   - 与 Tempo‑s3、Tempo‑aggregation 等工具兼容。
-
-5. **运维与监控**  
-   - 提供健康检查、Prometheus 原生指标。  
-   - Grafana Dashboards 可查看节点状态、查询延迟、存储使用等。
-
-## 快速使用
-
-```bash
-# Docker Compose 快速启动
-docker compose -f docker-compose.yaml up -d
-```
-
-> 详细说明可参考官方文档: <https://github.com/grafana/tempo#documentations>
+**许可证**  
+采用 AGPL-3.0-only 许可，部分组件支持 Apache-2.0 异常许可。

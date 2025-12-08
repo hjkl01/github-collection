@@ -1,45 +1,23 @@
+
 ---
 title: ghostty
 ---
 
-# Ghostty 项目介绍
+### [ghostty-org ghostty](https://github.com/ghostty-org/ghostty)
 
-**项目地址**: [https://github.com/ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
+**项目核心内容总结：**
 
-## 主要特性
-- **现代化终端模拟器**：专为高性能和跨平台优化设计。
-- **GPU 加速渲染**：利用硬件加速提供更流畅的输出和更低的延迟。
-- **多平台支持**：支持 macOS、Linux，并计划提供 Windows 版本。
-- **高度可配置**：通过配置文件定制界面、主题、快捷键和行为。
-- **分屏与标签页**：在同一窗口中方便切换和管理多个会话。
-- **符合终端标准**：兼容常见终端协议和应用。
-- **快速启动速度**：优化启动流程，减少延迟。
+Ghostty 是一款功能丰富、速度快且原生的终端模拟器，支持跨平台使用（Mac、Linux、Windows）。其核心特性包括：
+1. **标准兼容性**：严格遵循终端标准（如 ECMA-48）及主流终端（如 xterm）行为，确保与现有工具兼容。
+2. **高性能**：采用 Metal（Mac）和 OpenGL（Linux）渲染技术，支持高帧率（60fps）及高效 IO 处理。
+3. **原生体验**：Mac 端基于 SwiftUI 实现完整菜单栏和设置界面，Linux 端使用 GTK。
+4. **窗口功能**：支持多窗口、标签页、分屏操作。
+5. **可嵌入库**：提供 `libghostty` 库，允许第三方应用集成终端功能（目前支持 Zig/C 语言）。
 
-## 功能简介
-- **主题与配色方案**：支持自定义配色，包括透明度与背景纹理。
-- **字体与字形渲染**：可选择多种字体，支持 ligatures 及高 DPI 显示。
-- **输入法与剪贴板支持**：方便在终端中输入多语言文字及复制粘贴。
-- **终端行为控制**：控制光标样式、滚动历史记录长度等。
-- **插件与扩展**：通过脚本及扩展机制增强功能。
+**使用方法：**
+- 下载地址：[ghostty.org/download](https://ghostty.org/download)
+- 文档：[ghostty.org/docs](https://ghostty.org/docs)
+- 贡献方式：阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [HACKING.md](HACKING.md) 文件。
 
-## 用法示例
-1. **安装**
-   ```bash
-   git clone https://github.com/ghostty-org/ghostty.git
-   cd ghostty
-   # 根据系统进行编译安装
-   make install
-   ```
-
-2. **运行**
-   ```bash
-   ghostty
-   ```
-
-3. **配置**
-   编辑配置文件（如 `~/.config/ghostty/config`）：
-   ```ini
-   font=JetBrains Mono
-   theme=dracula
-   enable_gpu=true
-   ```
+**其他：**
+- 支持崩溃报告生成（保存路径：`$XDG_STATE_HOME/ghostty/crash`），可通过 Sentry CLI 上传至项目团队。

@@ -1,33 +1,25 @@
+
 ---
 title: nginx-tutorial
 ---
 
-# Nginx Tutorial 项目
+### [dunwu nginx-tutorial](https://github.com/dunwu/nginx-tutorial)
 
-## 项目地址
+**核心内容总结：**
 
-[https://github.com/dunwu/nginx-tutorial](https://github.com/dunwu/nginx-tutorial)
+**项目功能：**  
+提供Nginx配置方案，涵盖反向代理、负载均衡、静态站点部署、文件服务器搭建、跨域问题解决等场景。支持多Web应用路由、HTTPS配置、静态资源压缩（gzip）及目录浏览功能。
 
-## 主要特性
+**使用方法：**  
+1. **反向代理**：通过`proxy_pass`指令将不同路径请求转发至对应后端服务（如`/api/`指向后端接口，`/`指向前端应用）。  
+2. **负载均衡**：定义`upstream`模块，配置多个后端服务器地址，支持轮询、IP Hash、URL Hash等策略。  
+3. **静态站点**：设置`root`指向静态文件目录，配合`index`指定首页，启用gzip优化传输效率。  
+4. **文件服务器**：开启`autoindex`显示目录结构，设置`root`为文件根路径，支持中文编码处理。  
+5. **跨域处理**：通过`Access-Control-Allow-Origin`等HTTP头配置，解决前后端分离架构下的跨域问题。
 
-- Comprehensive Nginx learning resources for beginners to advanced users.
-- Chinese documentation for easy reference.
-- Structured content with modules on installation, configuration, optimization, and real-world examples.
-- Open source and free, contributions welcome.
-- Practical examples with config files and commands.
-
-## 主要功能
-
-- Nginx installation and deployment on Linux, Windows, etc.
-- Core configuration: HTTP, server blocks, location blocks, reverse proxy, load balancing.
-- Performance optimization: Caching, Gzip, SSL/TLS, logging.
-- Security hardening: DDoS protection, access control, HTTPS.
-- Advanced applications: Lua scripting, dynamic modules, microservices.
-
-## 用法
-
-1. Clone repo: `git clone https://github.com/dunwu/nginx-tutorial.git`
-2. Read docs: Browse `docs/` folder, learn from basics to advanced.
-3. Practice: Copy examples to `/etc/nginx/`, test with `nginx -t`, reload with `nginx -s reload`.
-4. Run examples: For load balancing, start backends, apply config, test access.
-5. Contribute: Fork, edit, PR. Use with official docs.
+**主要特性：**  
+- 支持多Web应用共存，通过路径区分不同服务。  
+- 提供灵活的负载均衡算法（轮询、IP绑定、URL哈希）。  
+- 静态资源优化：压缩传输、目录浏览、修改时间显示。  
+- 跨域解决方案集成，适配前后端分离架构需求。  
+- 配置模块化，可通过`include`引入通用配置片段（如跨域策略文件）。

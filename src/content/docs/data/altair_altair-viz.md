@@ -1,63 +1,34 @@
+
 ---
 title: altair
 ---
 
-# Altair 项目
+### [altair-viz altair](https://github.com/altair-viz/altair)
 
-**GitHub 项目地址：** [https://github.com/altair-viz/altair](https://github.com/altair-viz/altair)
+**Vega-Altair** 是一个基于 Python 的声明式统计可视化库，依托 [Vega-Lite](https://vega.github.io/vega-lite/) 规范，提供简洁友好的 API，用于快速生成交互式数据可视化图表。  
 
-## 主要特性
-Altair 是一个声明式的统计可视化库，基于 Python 和 Vega/Vega-Lite 可视化规范构建。主要特性包括：
-- **声明式语法**：通过简洁的 Python API 描述数据和可视化需求，而非手动编写底层绘图代码。
-- **集成性强**：无缝集成 Pandas DataFrame，支持与 Jupyter Notebook 等环境协作。
-- **交互式可视化**：生成交互式图表，支持缩放、悬停提示和动态过滤。
-- **主题和自定义**：内置多种主题，支持自定义颜色、布局和样式。
-- **多图表组合**：易于创建复合图表，如分面图、层叠图和重复图。
-- **导出支持**：可导出为 HTML、SVG、PNG 等格式，便于分享和嵌入。
+**核心功能**：  
+- 通过声明式语法定义图表（如散点图、联动直方图等），支持数据筛选、联动交互等复杂操作。  
+- 自动适配 JupyterLab、VS Code、GitHub 等环境，支持导出为 PNG/SVG/HTML 等格式，或序列化为 JSON。  
 
-## 主要功能
-Altair 专注于数据探索和统计可视化，支持多种图表类型：
-- **基本图表**：线图、散点图、柱状图、面积图、条形图等。
-- **高级功能**：分面（Facet）、层叠（Layer）、变换（Transform，如聚合、过滤、计算）。
-- **统计功能**：内置统计变换，如回归线、箱线图、 violin 图。
-- **交互与链接**：支持多视图链接，实现刷选和高亮交互。
-- **数据处理**：自动处理数据类型推断和编码（位置、颜色、形状等）。
-- **扩展性**：通过 Vega-Lite 规范，可扩展到复杂可视化场景。
+**使用方法**：  
+1. 安装：`pip install altair` 或 `conda install -c conda-forge altair`。  
+2. 示例代码：  
+   ```python  
+   import altair as alt  
+   from altair.datasets import data  
+   alt.Chart(data.cars()).mark_point().encode(x='Horsepower', y='Miles_per_Gallon', color='Origin')  
+   ```  
 
-## 用法示例
-安装 Altair：`pip install altair`
+**主要特性**：  
+- 声明式 API 设计，代码简洁且符合 Vega-Lite 规范。  
+- 内置类型检查，确保可视化逻辑正确性。  
+- 支持交互操作（如通过选择区域联动过滤数据）。  
+- 兼容多种显示环境及导出格式，适合学术研究与数据探索。  
 
-### 基本用法
-```python
-import altair as alt
-import pandas as pd
+**获取帮助**：  
+- 技术问题可咨询 [StackOverflow](https://stackoverflow.com/questions/tagged/altair)（标签 `altair`）。  
+- Bug 报告或功能请求请提交 [GitHub Issues](https://github.com/vega/altair/issues)。  
 
-# 示例数据
-data = pd.DataFrame({
-    'x': [1, 2, 3, 4],
-    'y': [1, 4, 2, 3]
-})
-
-# 创建散点图
-chart = alt.Chart(data).mark_circle().encode(
-    x='x',
-    y='y'
-)
-
-# 在 Jupyter 中显示
-chart
-```
-
-### 高级用法
-```python
-# 交互式线图
-chart = alt.Chart(data).mark_line().encode(
-    x='x:Q',
-    y='y:Q',
-    color='category:N'
-).interactive()
-
-chart
-```
-
-更多用法请参考官方文档：https://altair-viz.github.io/
+**引用说明**：  
+如用于学术研究，需引用 [JOSS 论文](https://joss.theoj.org/papers/10.21105/joss.01057) 及 [Vega-Lite 原文](https://dl.acm.org/doi/10.1109/TVCG.2016.2599030)。

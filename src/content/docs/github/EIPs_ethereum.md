@@ -1,44 +1,19 @@
+
 ---
 title: EIPs
 ---
 
-# EIPs_ethereum
+### [ethereum EIPs](https://github.com/ethereum/EIPs)
 
-## 项目介绍
+**项目核心内容总结：**  
+EIPs（以太坊改进提案）项目旨在标准化和规范以太坊协议及其应用层标准，通过EIP文档记录协议改进和相关技术规范。EIPs分为核心协议改进、网络层、接口标准、ERC（应用层标准）、元提案及信息类提案等类别，所有提案需通过社区讨论（如Ethereum Magicians或Ethereum Research）并遵循EIP-1流程提交。  
 
-EIPs (Ethereum Improvement Proposals) 是 Ethereum 改进提案的仓库，旨在标准化和提供高质量文档给 Ethereum 协议及其上的约定。该仓库跟踪过去和正在进行的 Ethereum 改进，以 EIP (Ethereum Improvement Proposal) 的形式记录。
+**使用方法：**  
+1. 提交EIP前需在指定社区讨论并达成共识，按EIP-1规则撰写提案；  
+2. 通过GitHub提交PR时，需通过自动化验证（如eip-review-bot、eipw工具检查格式与规范）；  
+3. 构建本地状态页面需安装Ruby、Bundler及Jekyll，执行`bundle exec jekyll serve`启动本地服务器预览。  
 
-## 功能
-
-- **标准化文档**：提供高质量的 Ethereum 协议和约定文档。
-- **分类提案**：
-  - Core EIPs：Ethereum 共识协议的改进。
-  - Networking EIPs：指定 Ethereum 的点对点网络层。
-  - Interface EIPs：标准化用户和应用与区块链交互的接口。
-  - Meta EIPs：需要某种共识的杂项改进。
-  - Informational EIPs：不需要共识的非标准改进。
-- **状态跟踪**：通过 https://eips.ethereum.org/ 网站跟踪 EIP 状态。
-- **自动化验证**：PR 通过 eip-review-bot、eipw、HTMLProofer、CodeSpell 和 markdownlint 检查。
-
-注意：ERCs (Ethereum Request for Comments) 现在位于单独的仓库 https://github.com/ethereum/ercs。
-
-## 用法
-
-1. **讨论想法**：在 [Ethereum Magicians](https://ethereum-magicians.org/) 或 [Ethereum Research](https://ethresear.ch/) 上彻底讨论提案。
-2. **阅读 EIP-1**：了解 EIP 流程，详见 https://eips.ethereum.org/EIPS/eip-1。
-3. **提交提案**：向此仓库提交 PR，提案必须遵循 EIP-1 规则。
-4. **本地验证**：使用 `eipw` 工具验证 EIP：
-   ```
-   cargo install eipw
-   eipw --config ./config/eipw.toml <文件或目录>
-   ```
-5. **构建状态页面**：
-   - 安装 Ruby 3.1.4 和 Bundler。
-   - 运行 `bundle install` 安装依赖。
-   - 运行 `bundle exec jekyll serve` 启动本地服务器，预览于 http://localhost:4000。
-
-## 注意事项
-
-- 此仓库仅用于记录标准，不提供实现帮助。实现问题请咨询 [Ethereum Stack Exchange](https://ethereum.stackexchange.com)。
-- 成为 EIP 编辑者请阅读 EIP-5069。
-- 引用格式：规范 URL 为 https://eips.ethereum.org/，如 https://eips.ethereum.org/EIPS/eip-1。
+**主要特性：**  
+- 严格验证流程：自动检查格式、拼写、链接及EIP-1合规性；  
+- 分类管理：按功能划分提案类型（如核心协议、ERC等），明确适用范围；  
+- 开放协作：通过GitHub社区参与提案讨论与修改，支持编辑者申请（EIP-5069）。

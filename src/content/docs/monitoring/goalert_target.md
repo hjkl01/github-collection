@@ -1,44 +1,21 @@
+
 ---
 title: goalert
 ---
 
-# GoAlert 项目
+### [target goalert](https://github.com/target/goalert)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/target/goalert)
+GoAlert 是一个提供值班调度、自动升级和多渠道通知（如短信、语音）的系统，用于在合适的时间通过正确方式联系相关人员。  
 
-## 主要特性
-GoAlert 是一个开源的警报和事件管理工具，专为现代 DevOps 和 SRE（Site Reliability Engineering）团队设计。它由 Target 公司开发，主要用于监控系统警报的自动化处理、通知和响应。核心特性包括：
-- **警报自动化**：自动处理来自各种监控系统的警报，支持集成 Prometheus、Grafana、PagerDuty 等工具。
-- **调度管理**：内置排班系统，支持轮班、假期和用户分组，确保警报通知发送给正确的责任人。
-- **通知集成**：支持多种通知渠道，如 Slack、Microsoft Teams、SMS、电话和电子邮件，实现多渠道警报分发。
-- **事件聚合**：智能聚合相关警报，减少噪音，避免警报洪水。
-- **API 和 Webhook 支持**：提供 RESTful API 和 Webhook 接口，便于与其他系统的集成。
-- **用户界面**：直观的 Web 仪表板，用于查看警报历史、配置规则和管理团队。
-- **高可用性**：支持集群部署，确保系统可靠运行，支持数据库如 PostgreSQL。
+**使用方法**  
+- 可通过 GitHub Releases 下载二进制文件，或使用 Docker Hub 镜像（如 `docker run -it --rm -p 8081:8081 goalert/demo`）快速启动，访问地址为 `localhost:8081`，默认登录凭据为 `admin`/`admin123`。  
+- 开发环境可通过 `make start` 启动，服务运行在 `localhost:3030`，支持本地代码修改实时生效。  
 
-## 主要功能
-- **警报规则配置**：定义警报触发条件、抑制规则和升级策略。
-- **用户和团队管理**：创建用户角色、权限控制和通知偏好设置。
-- **报告和分析**：生成警报响应时间、MTTR（平均修复时间）等报告，帮助优化运维流程。
-- **集成扩展**：易于扩展，支持自定义脚本和插件。
-- **移动端支持**：通过 API 兼容移动应用，实现随时响应。
+**主要特性**  
+- 支持自动化升级规则和多类型通知；  
+- 提供演示环境及测试用户（`user`/`user1234`）；  
+- 开发者可跳过初始化数据（通过 `SKIP_SEED=1` 环境变量）；  
+- 提供 API 获取会话令牌（如通过 `curl` 命令）。  
 
-## 用法
-1. **安装部署**：
-   - 使用 Docker 快速启动：运行 `docker run -p 80:80 target/sofrego/goalert:latest`。
-   - 或从源代码构建：克隆仓库后，使用 Go 构建并配置数据库（推荐 PostgreSQL）。
-   - 详细安装指南见 [官方文档](https://goalert.io/docs/)。
-
-2. **配置**：
-   - 通过 Web 界面或配置文件设置集成源（如 Prometheus exporter）。
-   - 定义通知策略：例如，配置 Slack 频道或 PagerDuty 集成。
-   - 设置排班：添加用户、创建轮班日历。
-
-3. **使用流程**：
-   - 监控系统发送警报到 GoAlert 的 API 端点。
-   - 系统自动路由警报，根据规则通知责任人。
-   - 用户在 Web 界面或移动端确认、解决警报。
-   - 查看仪表板分析警报趋势，优化配置。
-
-更多细节请参考项目 README 和官方文档。
+**许可证**  
+采用 Apache License 2.0 开源协议。

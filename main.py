@@ -56,10 +56,11 @@ def list_files(dirname="src/content/docs"):
 
 
 async def category_md_files(dirname="src/content/docs/00"):
+    if not os.path.exists(dirname):
+        logger.warning(f"dirname not exists {dirname}")
+        return
     category_dirs = [
-        str(child).lstrip("src/content/docs/").rstrip("/")
-        for child in Path("src/content/docs").iterdir()
-        if child.is_dir()
+        str(child).replace("src/content/docs/", "") for child in Path("src/content/docs").iterdir() if child.is_dir()
     ]
 
     md_files = os.listdir(dirname)
@@ -108,7 +109,7 @@ async def main(args=None):
 
         filename = f"{repository}_{username}.md"
         if filename in md_files:
-            logger.debug(f"文件已存在：{filename}")
+            # logger.debug(f"文件已存在：{filename}")
             continue
 
         logger.info(project_line)
@@ -126,13 +127,13 @@ async def main(args=None):
                 logger.info(f"无法解析：{temp}")
 
             title = """
-         ---
-         title: repository
-         ---
+---
+title: repository
+---
 
-         ### [username repository](https://github.com/username/repository)
+### [username repository](https://github.com/username/repository)
 
-         """
+"""
 
             text = title.replace("username", username).replace("repository", repository) + ai_resp
 

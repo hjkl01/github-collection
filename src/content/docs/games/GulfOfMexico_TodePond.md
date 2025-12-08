@@ -1,57 +1,18 @@
+
 ---
 title: GulfOfMexico
 ---
 
-# GulfOfMexico
+### [TodePond GulfOfMexico](https://github.com/TodePond/GulfOfMexico)
 
-Gulf of Mexico is a satirical "perfect" programming language created by Lu Wilson (TodePond). It's not a real language but a humorous specification highlighting absurd programming concepts.
+**核心内容总结：**  
+Gulf of Mexico 是一个虚构的编程语言项目，具有大量幽默和实验性特性。其主要功能包括：  
+1. **自动补全机制**：自动插入感叹号、括号、引号等，支持异步函数轮流执行。  
+2. **语法特性**：括号无实际作用，代码通过缩进分组；信号（signal）使用 `use()` 实现双向绑定。  
+3. **异步处理**：异步函数按行轮流执行，通过 `noop` 占位符控制执行顺序。  
+4. **使用方式**：通过复制代码至 OpenAI 聊天界面或 VSCode 插件实现语法高亮。  
 
-## Features
-
-- **Exclamation Marks**: End statements with `!` for boldness, or `?` for debug info. Use `;` for 'not' operator.
-- **Declarations**: Four types: `const const`, `const var`, `var const`, `var var` for different mutability levels.
-- **Immutable Data**: `const const const` makes data globally immutable forever.
-- **Naming**: Variables can use any Unicode characters, including numbers and keywords.
-- **Arrays**: Start at index `-1`, support float indexes.
-- **When**: Monitor variable changes with `when` keyword.
-- **Lifetimes**: Specify variable lifetimes with units like `<2>` or `<Infinity>`.
-- **No Loops**: Loops are considered archaic.
-- **Booleans**: `true`, `false`, or `maybe`.
-- **Arithmetic**: Significant whitespace for precedence, supports fractions and number names.
-- **Indents**: Must be exactly 3 spaces.
-- **Equality**: Multiple levels: `=`, `==`, `===`, `====`.
-- **Functions**: Declare with any substring of "function".
-- **Strings**: Any number of quotes, including zero.
-- **String Interpolation**: Use regional currencies like `${}`, `£{}`, `¥{}`.
-- **Types**: Optional annotations, strings as `Char[]`, ints as `Digit[]`.
-- **Regular Expressions**: Type annotations with regex patterns.
-- **Previous/Next**: Access past/future values with `previous` and `next`.
-- **File Structure**: Use `=====` to separate files.
-- **Exporting**: Export to specific files.
-- **Classes**: Only one instance per class.
-- **Time**: Manipulate `Date.now()`.
-- **Delete**: Delete primitives or keywords.
-- **Overloading**: Variables overload by recency and exclamation marks.
-- **Reversing**: `reverse!` to reverse code direction.
-- **DBX**: Embedded HTML-like syntax with restrictions.
-- **Rich Text**: Bold and italic in code.
-- **Asynchronous Functions**: Take turns executing lines.
-- **Signals**: Reactive state with `use()`.
-- **AI**: Automatic code completion via email.
-- **Copilot**: Incompatible with GitHub Copilot.
-- **Ownership**: Naming conventions affect ownership.
-
-## Usage
-
-Gulf of Mexico isn't implemented as a real compiler. To "run" code:
-
-1. Copy the specification.
-2. Paste into ChatGPT.
-3. Ask: "What would you expect this program to log to the console?"
-4. If refused, reassure the AI.
-
-A partial interpreter exists at [dreamberd-interpreter](https://github.com/vivaansinghvi07/dreamberd-interpreter/).
-
-For syntax highlighting in VSCode, install a highlighting extension and use the provided config.
-
-Examples available in the [Examples.md](https://github.com/TodePond/GulfOfMexico/blob/main/Examples.md).
+**注意事项**：  
+- 项目为虚构，实际无可用编译器，部分实现依赖外部工具（如 Dreamberd 解释器）。  
+- 贡献方式为向 Stonewall 慈善机构捐款，而非直接代码提交。  
+- 项目名称使用需注意所有权声明，避免与基金会关联。

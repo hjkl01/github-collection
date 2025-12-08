@@ -1,54 +1,24 @@
+
 ---
 title: vim-translator
 ---
 
-# vim-translator 项目
+### [voldikss vim-translator](https://github.com/voldikss/vim-translator)
 
-**GitHub 项目地址**: [https://github.com/voldikss/vim-translator](https://github.com/voldikss/vim-translator)
+**项目核心内容总结：**
 
-## 主要特性
+**功能**  
+Vim/Neovim 的异步翻译插件，支持多种翻译引擎（如 Bing、Google、有道等），可翻译光标处文本、选中内容或剪贴板内容，支持弹窗显示、替换原文本等操作。
 
-- **集成翻译引擎**：支持 bing、google、haici、youdao、sdcv、trans 等多种翻译服务（iciba 已过期），提供准确的翻译结果。
-- **多语言支持**：可翻译英文、中文、日文等常见语言，并支持自定义语言对。
-- **Vim 友好界面**：无缝集成 Vim 编辑器，支持弹出窗口、浮动窗口或新标签页显示翻译结果。
-- **批量翻译**：可翻译选中文本、单词、句子或整个文件内容。
-- **离线模式**：部分引擎支持缓存或本地翻译，减少网络依赖。
-- **自定义配置**：高度可配置，包括 API 密钥、翻译引擎优先级和输出格式。
-- **扩展性**：支持命令行模式和脚本集成，适用于自动化任务。
+**使用方法**  
+- 安装：通过 Vim 插件管理器（如 Plug）安装。  
+- 配置：设置目标语言、源语言、默认引擎、代理等参数。  
+- 操作：通过自定义快捷键（如 `<Leader>t`）触发翻译，或使用命令（如 `:Translate`）执行翻译任务。
 
-## 主要功能
-
-- **单词/短语翻译**：光标置于单词上，一键获取翻译、发音和解释。
-- **选中文本翻译**：选中任意文本段落，进行即时翻译。
-- **文件翻译**：翻译整个缓冲区或指定文件，支持输出到新缓冲区。
-- **历史记录**：保存翻译历史，便于回顾和复用。
-- **无需 API 密钥**：无需 appid/appkey，直接使用翻译服务。
-
-## 用法
-
-1. **安装**：
-   - 使用 Vim 插件管理器（如 Vim-Plug）安装：
-     ```
-     Plug 'voldikss/vim-translator'
-     ```
-   - 运行 `:PlugInstall` 完成安装。
-
-2. **配置**：
-   - 在 `~/.vimrc` 或 `init.vim` 中添加基本配置：
-     ```
-     let g:translator_default_engines = ['google', 'haici']
-     let g:translator_proxy = 'socks5://127.0.0.1:1086'  " 如需代理
-     nmap <leader>t <Plug>Translate
-     vmap <leader>t <Plug>TranslateV
-     ```
-   - 保存并重启 Vim，或运行 `:source %` 生效。
-
-3. **基本命令**：
-   - **翻译单词**：在 Normal 模式下，光标置于单词，按 `<leader>t`（默认映射）或运行 `:Translate`。
-   - **翻译选中文本**：在 Visual 模式下选中文本，按 `<leader>t` 或运行 `:TranslateV`。
-   - **翻译整个行**：运行 `:TranslateL` 或 `:1,10Translate`（指定行范围）。
-   - **翻译文件**：运行 `:TranslateB`（当前缓冲区）或 `:w !translator`（通过管道）。
-   - **查询历史**：运行 `:TranslatorHistory` 查看翻译记录。
-   - **自定义**：使用 `:help translator` 查看完整命令和选项。
-
-更多细节请参考项目 README。
+**主要特性**  
+- 异步多线程翻译，提升效率；  
+- 支持 Vim8 弹出窗口和 Neovim 浮动窗口显示结果；  
+- 多引擎可选，无需注册密钥；  
+- 支持代理设置，适配不同网络环境；  
+- 可自定义窗口大小、边框样式及高亮主题；  
+- 提供翻译历史导出、日志查看等功能。

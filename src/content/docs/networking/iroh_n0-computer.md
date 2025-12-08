@@ -1,107 +1,22 @@
+
 ---
 title: iroh
 ---
 
-# Iroh
+### [n0-computer iroh](https://github.com/n0-computer/iroh)
 
-**项目地址**: [https://github.com/n0-computer/iroh](https://github.com/n0-computer/iroh)
+**核心内容总结：**  
+Iroh 是一个基于 QUIC 协议的网络通信库，提供通过公钥拨号的 API，自动寻找并维护最快连接（支持打洞和中继服务器回退），适用于跨网络设备的高效通信。  
 
-## 主要特性
+**主要功能与特性：**  
+1. **网络连接优化**：自动尝试直接连接（打洞），失败时回退到公共中继服务器，确保连接速度。  
+2. **QUIC 协议支持**：使用 Quinn 实现 QUIC，提供加密、流优先级、多路复用等特性，避免阻塞。  
+3. **协议扩展性**：集成现有协议（如 iroh-blobs 内容分发、iroh-gossip 聊天网络、iroh-docs 数据存储等），无需自行开发。  
+4. **跨语言支持**：主要通过 Rust 库实现，其他语言可通过 FFI 绑定使用。  
 
-- **轻量级**：使用 Rust 编写，二进制体积小，启动速度快，适合嵌入式和边缘设备。
-- **跨平台**：支持 Linux、macOS、Windows，及多种处理器架构（amd64、arm64、armv7 等）。
-- **高并发**：采用异步 I/O（async/await），并发数可达数千，适合高吞吐量网络服务。
-- **安全性**：默认开启 TLS/SSL，支持自签证书与证书链校验。
-- **插件化**：内置插件系统，可通过插件扩展功能，插件均以可编译字段形式分发。
-- **易于运维**：提供 `irohctl` 命令行工具，支持日志管理、配置热 reload、服务状态查询等。
+**使用方法：**  
+- **Rust 库**：通过 `cargo add iroh` 安装，示例代码包含客户端连接和服务器端回显协议实现。  
+- **现有协议**：可直接使用 iroh-blobs、iroh-gossip 等预构建协议。  
+- **其他语言**：参考 iroh-ffi 的 FFI 绑定。  
 
-## 核心功能
-
-| 功能 | 说明 |
-|------|------|
-| **网络代理** | 支持 HTTP/HTTPS 和 SOCKS5 代理，支持透明代理与链路加密。 |
-| **服务转发** | 动态配置服务端口，实现端口映射、负载均衡。 |
-| **负载均衡** | 基于 IP 哈希或轮询算法实现简单的 L4 负载均衡。 |
-| **访问控制** | 通过 ACL 与 JWT 结合进行细粒度访问控制。 |
-| **监控集成** | 输出 Prometheus 格式指标，支持自定义 Pushgateway。 |
-| **自动化脚本** | 提供脚本接口，可基于 Lua/VimScript 编写自定义业务逻辑。 |
-
-## 安装与使用
-
-### 安装方式
-
-```bash
-# 通过 cargo 安装（需要 Rust 1.64+）
-cargo install iroh
-
-# 或使用预编译二进制
-curl -LO https://github.com/n0-computer/iroh/releases/latest/download/iroh-$(uname)-$(uname -m).tar.gz
-tar -xf iroh-*.tar.gz
-sudo mv iroh /usr/local/bin
-```
-
-### 快速上手
-
-```bash
-# 启动 Iroh 并监听本地 8080 端口，转发到远程服务器
-iroh proxy --listen 0.0.0.0:8080 --remote example.com:443
-
-# 推送服务端口到内网代理服务器
-iroh service --publish 80 --to 0.0.0.0:8080
-
-# 查看当前配置与状态
-iroh status
-```
-
-### 配置文件
-
-Iroh 支持 `iroh.yaml` 或 `iroh.json` 配置文件。示例（`iroh.yaml`）：
-
-```yaml
-listen: 0.0.0.0:8443
-remote: example.com:443
-protocol: https
-tls:
-  cert_file: /path/to/cert.pem
-  key_file: /path/to/key.pem
-logging:
-  level: info
-plugins:
-  - name: auth
-    config:
-      type: jwt
-      secret: "supersecret"
-```
-
-直接运行：
-
-```bash
-iroh run -c iroh.yaml
-```
-
-### 管理命令
-
-| 命令 | 说明 |
-|------|------|
-| `irohctl status` | 显示当前运行实例状态 |
-| `irohctl reload` | 热加载配置文件 |
-| `irohctl logs --tail 100` | 查看最新日志 |
-| `irohctl plugin list` | 列出已加载插件 |
-
-### 运行示例（完整 pipeline）
-
-1. **准备 TLS 证书**  
-   ```bash
-   mkcert example.com
-   ```
-2. **写入配置**  
-   保存为 `iroh.yaml`。
-3. **运行**  
-   ```bash
-   iroh run -c iroh.yaml
-   ```
-4. **验证**  
-   在浏览器访问 `https://your.hostname:8443`，应该能通过 Iroh 成功代理到目标服务。
-
----
-如果想了解更详细的功能、插件体系或性能调优，可参阅仓库中的 `docs/` 目录或贡献者指南。祝使用愉快！
+**许可证**：Apache 2.0 或 MIT 双许可。

@@ -1,65 +1,29 @@
+
 ---
-title: Ic
+title: ic
 ---
 
-# ic_dfinity
+### [dfinity ic](https://github.com/dfinity/ic)
 
-## 功能
+**核心内容总结：**
 
-Internet Computer Protocol (ICP) 是世界上第一个以web速度运行的区块链，可以无限扩展其容量。它由遵守ICP协议的机器组成，提供去中心化的云计算服务。
+**项目功能**  
+Internet Computer（IC）是首个以Web速度运行且可无限扩展的区块链，采用类似TCP/IP协议的架构，支持去中心化应用开发。其核心功能包括：  
+- 通过无界容量扩展支持大规模应用  
+- 基于新型密码学（如非交互式分布式密钥生成）实现无需挖矿的共识机制  
+- 内置去中心化治理系统（Network Nervous System，NNS）管理网络升级和资源分配  
 
-主要特点：
+**使用方法**  
+1. **开发者**：使用DFINITY提供的Canister SDK快速部署本地测试环境（<2分钟启动）。  
+2. **研究者**：通过协议文档（如共识机制、Token经济学）及接口规范（IC Interface Specification）深入理解协议设计。  
+3. **节点提供者**：参考Wiki文档参与网络节点运行，无需传统挖矿。  
+4. **生态构建者**：基于接口规范开发SDK、钱包等工具。  
 
-- 以web速度运行
-- 无限扩展容量
-- 去中心化
-- 支持智能合约（称为canisters）
-- 使用新型密码学，无需传统挖矿
+**主要特性**  
+- **技术架构**：模块化设计（GuestOS/HostOS/SetupOS），支持Rust语言实现的Replica节点。  
+- **验证机制**：提供代码构建与发布版本的完整性验证流程（通过repro-check脚本）。  
+- **开源政策**：Apache 2.0授权，部分组件采用更严格的社区源代码许可。  
+- **资源管理**：通过NNS提案系统（如https://github.com/dfinity/nns-proposals）实现去中心化决策。  
 
-## 用法
-
-### 对于应用开发者
-
-使用 [Canister SDK](https://sdk.dfinity.org/docs/quickstart/quickstart-intro.html) 来构建应用。它提供本地replica用于部署和测试。
-
-### 对于节点提供者
-
-运行replica软件，成为网络的一部分。
-
-系统要求：
-
-- x86-64 系统（最低16GB内存/交换空间，100GB可用磁盘空间）
-- Ubuntu 22.04 或更新版本
-- [Podman](https://podman.io/getting-started/installation)
-
-构建代码：
-
-```bash
-./ci/container/build-ic.sh -i
-```
-
-构建二进制文件和canisters：
-
-```bash
-./ci/container/build-ic.sh -b -c
-```
-
-### 验证发布
-
-使用repro-check脚本验证IC-OS更新镜像。
-
-快速开始：
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/dfinity/ic/{COMMIT_ID}/ci/scripts/repro-check | python3 - -p <proposal_number>
-```
-
-### 贡献
-
-目前不接受pull requests，但欢迎在论坛讨论。遵循开源政策和Rust依赖政策。
-
-更多资源：
-
-- [ICP Dashboard](https://dashboard.internetcomputer.org)
-- [开发者论坛](https://forum.dfinity.org/)
-- [协议文档](https://sdk.dfinity.org/docs/interface-spec/index.html)
+**构建要求**  
+需Ubuntu 22.04+系统、16GB内存、Podman环境，支持容器化编译（`./ci/container/build-ic.sh`）。

@@ -1,28 +1,21 @@
+
 ---
 title: datadog-agent
 ---
 
-# Datadog Agent
+### [DataDog datadog-agent](https://github.com/DataDog/datadog-agent)
 
-## 项目简介
+**核心内容总结：**  
+Datadog Agent 是用于监控和收集系统、应用性能数据的工具，包含版本 6 和 7 的源代码。  
 
-Datadog Agent 是 Datadog 平台的核心组件，用于收集和发送数据到 Datadog，实现对基础设施和应用的全面监控和可观测性。
+**功能与特性：**  
+- 提供不同版本（v6/v7）的 Agent，支持多种平台安装（通过预包装二进制文件）。  
+- 文档包含用户指南（说明版本差异）和开发者文档（开发 Agent 的方法）。  
+- 支持代码贡献，提供开发规范和流程说明。  
 
-## 主要功能
+**使用方法：**  
+- 安装：通过 [预打包二进制文件链接](https://app.datadoghq.com/fleet/install-agent/latest?platform=overview) 获取。  
+- 开发：参考 [开发者文档](https://datadoghq.dev/datadog-agent/setup/) 和 `docs/dev` 目录的贡献指南。  
 
-- **指标收集**：收集系统和应用指标，如CPU、内存、磁盘、网络等。
-- **日志收集**：聚合和转发日志数据。
-- **APM（应用性能监控）**：跟踪应用请求和性能。
-- **安全监控**：检测安全威胁和异常行为。
-- **自定义集成**：支持数百种第三方服务的集成。
-
-## 用法
-
-1. **安装**：从 [Datadog 官网](https://app.datadoghq.com/fleet/install-agent/latest?platform=overview) 下载并安装预打包的二进制文件。
-2. **配置**：设置 API 密钥和其他配置选项。
-3. **运行**：启动 Agent 服务。
-4. **监控**：在 Datadog 仪表板查看收集的数据。
-
-## 许可证
-
-Apache License, Version 2.0
+**许可证：**  
+- 用户空间组件采用 Apache 2.0 许可证，BPF 代码采用 GPL 2.0 许可证。

@@ -1,63 +1,28 @@
+
 ---
 title: copier
 ---
 
-# Copier 项目
+### [copier-org copier](https://github.com/copier-org/copier)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/copier-org/copier)
+**项目核心内容总结：**  
 
-## 主要特性
-Copier 是一个基于 Python 的文件复制和模板生成工具，主要用于项目脚手架（scaffolding）和模板管理。它具有以下核心特性：
-- **模板驱动**：支持使用 Jinja2 模板引擎生成文件，支持变量注入、条件逻辑和循环等高级功能。
-- **交互式生成**：允许用户在生成项目时通过命令行交互输入参数，支持默认值和验证。
-- **版本控制集成**：可以从 Git 仓库拉取模板，并支持模板的更新和子模板嵌套。
-- **灵活的配置**：通过 YAML 或 JSON 文件定义模板结构，支持自定义钩子（hooks）来执行预/后处理脚本。
-- **跨平台兼容**：纯 Python 实现，支持 Windows、macOS 和 Linux。
-- **轻量高效**：专注于文件复制和渲染，避免不必要的依赖。
+**功能**：Copier 是一个用于渲染项目模板的库和命令行工具，支持从本地路径或 Git 仓库生成项目结构，动态替换文件中的变量，并避免意外覆盖已有文件。  
 
-## 主要功能
-- **项目生成**：从模板快速创建新项目，支持自定义变量替换。
-- **模板更新**：使用 `copier update` 命令拉取模板的最新版本，并智能合并变化。
-- **子模板支持**：模板可以引用其他模板，实现模块化复用。
-- **钩子执行**：在生成前后运行自定义 Python 脚本，例如安装依赖或初始化 Git 仓库。
-- **CLI 界面**：提供简单的命令行工具，支持 `--vcs` 选项自动初始化版本控制系统。
-- **扩展性**：可作为库集成到其他 Python 项目中。
+**使用方法**：  
+1. **安装**：需 Python 3.10+ 和 Git 2.27+，可通过 `pipx`、`uv`、`pip` 或 Homebrew 安装。  
+2. **模板创建**：在模板目录中编写 `copier.yml` 定义变量，使用 Jinja2 语法标记需替换的文件（如 `{{variable}}`）。  
+3. **生成项目**：  
+   - 命令行：`copier copy <模板路径> <目标路径>`  
+   - Python 代码：调用 `copier.run_copy()`，支持本地路径或 Git URL（如 `gh:username/repo.git`）。  
 
-## 用法
-### 安装
-使用 pip 安装：
-```
-pip install copier
-```
+**主要特性**：  
+- 支持本地路径和 Git 仓库作为模板来源。  
+- 动态替换文本文件中的变量，兼容多种文件类型。  
+- 智能处理文件生成，避免覆盖已有文件（除非明确允许）。  
+- 提供问答式配置（`copier.yml`），生成项目时交互式填写变量。  
+- 可扩展为复杂模板，适用于代码 scaffolding 和项目生命周期管理。  
 
-### 基本用法
-1. **生成项目**：
-   ```
-   copier copy <template-source> <output-destination> [options]
-   ```
-   - `<template-source>`：模板来源，可以是本地路径、Git URL 或 copier 模板仓库。
-   - `<output-destination>`：输出目录。
-   - 示例：`copier copy https://github.com/example/project-template.git my-project`
-
-2. **交互输入**：运行时会提示输入模板中定义的变量。
-
-3. **更新模板**：
-   ```
-   copier update <output-destination>
-   ```
-   这会检查模板变化并应用更新。
-
-4. **创建模板**：
-   - 在项目目录中创建 `copier.yml` 文件定义模板变量和结构。
-   - 示例 `copier.yml`：
-     ```
-     _templates:
-       - README.md.j2
-     project_name:
-       type: str
-       default: "My Project"
-     ```
-   - 然后使用 `copier` 命令分享或生成。
-
-更多细节请参考官方文档：https://copier.readthedocs.io/
+**适用场景**：  
+- 模板开发者：快速构建可复用的项目模板。  
+- 开发者：通过模板快速初始化新项目或更新现有项目结构。

@@ -1,41 +1,29 @@
+
 ---
 title: r0capture
 ---
 
-# r0capture 项目
+### [r0ysue r0capture](https://github.com/r0ysue/r0capture)
 
-**GitHub 项目地址:** [https://github.com/r0ysue/r0capture](https://github.com/r0ysue/r0capture)
+### 项目核心内容总结
 
-## 主要特性
-r0capture 是一个基于 Android 的屏幕捕获和录制工具，专为 root 设备设计。它利用系统底层 API 实现高效的屏幕截图和视频录制，支持多种分辨率和帧率选项。主要特性包括：
-- **无水印捕获**：直接从系统表面（Surface）捕获屏幕内容，避免应用层水印或干扰。
-- **高性能录制**：支持硬件加速编码，适用于游戏录制、调试和自动化测试。
-- **Root 权限优化**：通过 root 访问 MediaProjection 服务，实现更稳定的捕获。
-- **自定义参数**：可调整分辨率、比特率、帧率等参数，以适应不同设备和场景。
-- **跨设备兼容**：针对 Android 5.0+ 版本优化，支持 ARM 和 x86 架构。
+**项目功能**  
+r0capture 是一个专为安卓平台设计的抓包工具，可绕过证书校验和加固机制，通杀 TCP/IP 应用层协议（如 HTTP、WebSocket、FTP、Protobuf 等）及主流框架（如 OkHttp、Retrofit 等），支持抓取明文和 SSL 加密流量，并可导出客户端证书。
 
-## 主要功能
-- **屏幕截图**：实时捕获当前屏幕图像，支持 PNG/JPG 输出。
-- **屏幕录制**：录制屏幕视频，支持 H.264 编码，输出 MP4 文件。
-- **音频捕获**：可选集成系统音频录制（需额外权限）。
-- **自动化脚本支持**：可集成到 ADB 或自动化框架中，用于 UI 测试或逆向工程。
-- **日志与调试**：内置日志输出，便于排查捕获问题。
+**使用方法**  
+1. **Spawn 模式**：启动应用时注入抓包逻辑，命令示例：`python3 r0capture.py -U -f 包名 -v`  
+2. **Attach 模式**：附加到已运行的应用并保存抓包结果为 pcap 文件，命令示例：`python3 r0capture.py -U 应用名 -v -p 文件名.pcap`  
+3. **功能选项**：  
+   - `-H`：指定 Frida-Server 非标准端口连接；  
+   - 支持定位应用收发包函数；  
+   - 以 Spawn 模式运行可导出客户端证书（需提前授予存储权限）。
 
-## 用法
-### 安装与准备
-1. 确保设备已 root，并安装 BusyBox。
-2. 从 GitHub 下载 APK 或源代码，编译安装（使用 Android Studio）。
-3. 通过 ADB 推送文件：`adb push r0capture /data/local/tmp/`。
+**主要特性**  
+- 支持安卓 7-14 真机（不支持模拟器）；  
+- 无视证书校验、加固壳（包括 VMP）；  
+- 通杀应用层协议及框架；  
+- 支持导出客户端证书（需 App 部署相关机制）；  
+- 适配 Frida 16 及以上版本，兼容多平台（原项目基础）。  
 
-### 基本用法
-- **启动服务**：运行 APK 或通过 ADB 执行 `./r0capture start`（需在 root shell 中）。
-- **截图**：使用命令 `r0capture screenshot /sdcard/screenshot.png` 捕获当前屏幕。
-- **录制视频**：`r0capture record -d 10 -o /sdcard/video.mp4`（-d 指定时长秒数，-o 输出路径）。
-- **高级选项**：
-  - 指定分辨率：`-w 1920 -h 1080`。
-  - 设置帧率：`-fps 30`。
-  - 比特率：`-bitrate 5000`（单位 kbps）。
-- **停止录制**：`r0capture stop` 或 Ctrl+C。
-- **示例脚本**：在 shell 中结合 ADB 使用，如 `adb shell su -c '/data/local/tmp/r0capture record -d 60'`。
-
-详细文档请参考项目 README。注意：使用需遵守设备权限和法律规定，仅限合法用途。
+**局限性**  
+暂不支持 WebView、小程序、Flutter 等自研 SSL 框架，以及 HTTP/2/3 协议；不支持多进程（如 Service 子进程）抓包。

@@ -1,88 +1,25 @@
+
 ---
 title: chat-ui
 ---
 
+### [huggingface chat-ui](https://github.com/huggingface/chat-ui)
 
-# Hugging Face Chat UI
+**项目核心内容总结：**
 
-项目地址: https://github.com/huggingface/chat-ui
+Chat UI 是一个基于 SvelteKit 构建的聊天界面，用于与大型语言模型（LLM）进行交互，主要支持 OpenAI 兼容的 API。该项目是 HuggingChat 应用（hf.co/chat）的底层技术支撑。
 
-## 主要特性
+**功能与使用方法：**
 
-- **多模型支持**：可与任意 Hugging Face Hub 上的对话模型配合使用（LLM、Seq2Seq、ChatGLM 等）。
-- **实时交互**：WebSocket + SSE 实现低延迟流式回复。
-- **多轮对话**：自动管理上下文，支持会话重置与历史记录查看。
-- **多语言**：前端支持多语言切换，后端可自定义语言模型。
-- **可扩展插件**：通过插件机制可添加自定义功能（如检索增强、工具调用等）。
-- **轻量部署**：基于 FastAPI + React，Docker 化，支持单机或多实例部署。
+- **快速启动**：支持通过 Hugging Face 推理服务、llama.cpp、Ollama、OpenRouter 等 OpenAI 兼容的 API 进行部署。只需设置 `.env.local` 文件，配置 `OPENAI_BASE_URL` 和 `OPENAI_API_KEY`，并选择 MongoDB 数据库即可启动。
+- **数据库支持**：使用 MongoDB 存储聊天记录、用户信息、设置等数据，支持 MongoDB Atlas（托管服务）和本地 MongoDB 容器两种部署方式。
+- **运行方式**：通过 `npm run dev` 启动开发服务器，默认监听 `http://localhost:5173`；也可使用 Docker 容器化部署。
+- **自定义功能**：支持主题定制、模型路由（如使用 Arch-Router 进行模型选择）、MCP 工具调用（如 Web 搜索、Hugging Face 登录等），并提供用户级别的工具调用和多模态输入开关。
 
-## 核心功能
+**主要特性：**
 
-| 功能 | 说明 |
-|------|------|
-| **对话接口** | 通过 `/v1/chat/completions` 接口提交用户消息，返回模型回复。 |
-| **模型管理** | 在 `config.yaml` 中配置可用模型及其参数；支持动态切换。 |
-| **前端 UI** | 响应式聊天窗口，支持滚动加载历史、复制/下载答案、撤回消息。 |
-| **安全控制** | 基于 API Key 或 JWT 进行访问控制，支持速率限制。 |
-| **日志与监控** | 统一日志记录，支持 Prometheus 指标导出。 |
-
-## 快速使用
-
-### 1. 克隆仓库
-
-```bash
-git clone https://github.com/huggingface/chat-ui.git
-cd chat-ui
-```
-
-### 2. 配置模型
-
-编辑 `config.yaml`，填写 Hugging Face 模型路径或 Hugging Face Hub ID，例如：
-
-```yaml
-model_id: "gpt-4o-mini"
-base_url: "https://api-inference.huggingface.co/models"
-api_key: "YOUR_HF_API_KEY"
-```
-
-### 3. 启动服务
-
-```bash
-# 直接运行（需要 Python 3.10+）
-python -m uvicorn app.main:app --reload
-```
-
-或使用 Docker：
-
-```bash
-docker build -t chat-ui .
-docker run -p 8000:8000 --env HF_TOKEN=YOUR_HF_API_KEY chat-ui
-```
-
-### 4. 访问前端
-
-浏览器访问 `http://localhost:8000`，即可使用聊天界面。
-
-### 5. 调用 API
-
-```bash
-curl -X POST http://localhost:8000/v1/chat/completions \
-     -H "Authorization: Bearer YOUR_HF_API_KEY" \
-     -H "Content-Type: application/json" \
-     -d '{
-           "model": "gpt-4o-mini",
-           "messages": [
-             {"role": "user", "content": "你好，天气怎么样？"}
-           ],
-           "stream": false
-         }'
-```
-
-## 进一步扩展
-
-- **自定义插件**：在 `app/plugins` 目录创建插件，按接口规范实现后自动加载。  
-- **多实例部署**：使用 `docker-compose` 或 Kubernetes 部署多实例，配合 Nginx 负载均衡。  
-- **前端主题**：在 `src/components` 处替换 CSS 或使用 Tailwind 进行主题定制。
-
----
-> 以上即为 Hugging Face Chat UI 的核心特性与使用方法。祝开发愉快！
+- 仅支持 OpenAI 兼容的 API，适用于 llama.cpp、Ollama、OpenRouter 等服务。
+- 支持灵活的数据库部署方式（本地或托管）。
+- 提供模型路由功能，可根据用户输入自动选择最佳模型。
+- 支持 MCP 工具调用，允许用户与外部服务进行交互。
+- 可通过环境变量自定义应用名称、主题、数据共享等设置。

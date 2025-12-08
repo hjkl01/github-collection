@@ -1,26 +1,22 @@
----
-title: grpcurl
----
-
-
 
 ---
 title: grpcurl
 ---
 
-项目地址: [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
+### [fullstorydev grpcurl](https://github.com/fullstorydev/grpcurl)
 
-该项目是 `grpcurl`，一个用于与 gRPC 服务器交互的命令行工具。它的主要特性和功能包括：
+**核心内容总结：**  
+`grpcurl` 是一个用于与 gRPC 服务器交互的命令行工具，功能类似于 `curl`，但专为 gRPC 设计。它支持通过 JSON 格式发送请求，自动转换为二进制 Protobuf 数据，便于人类和脚本使用。主要功能包括：  
+1. **调用 RPC 方法**：支持所有类型（包括流式）的 RPC 调用，可通过 `-d` 参数发送 JSON 请求体，或通过标准输入（`-d @`）动态输入数据。  
+2. **服务与方法浏览**：通过 `list` 命令列出服务器提供的服务及方法，支持使用服务器反射、Proto 源文件或预编译的 Protoset 文件解析服务定义。  
+3. **描述符支持**：若服务器不支持反射，可通过 `-import-path` 指定 Proto 源文件路径，或使用 `-protoset` 指定 Protoset 文件获取服务定义。  
 
-1. **简单的 gRPC 调用**：可以方便地通过命令行调用 gRPC 方法，而无需写代码。
-2. **支持反射**：可以自动获取服务定义和方法信息，支持通过 gRPC 反射与服务器交互。
-3. **JSON 输入输出**：支持将请求和响应以 JSON 格式进行编码和解码，便于调试和测试。
-4. **支持多种认证方式**：可以通过 TLS、JWT 等多种身份验证机制与 gRPC 服务进行安全通信。
+**主要特性**：  
+- 支持 TLS/非 TLS 服务器及双向认证（mTLS）。  
+- 支持交互式操作双向流式 RPC（通过终端输入输出）。  
+- 提供库（`github.com/fullstorydev/grpcurl`）供开发其他动态调用 gRPC 的工具。  
 
-用法示例：
-- 通过命令行调用 gRPC 方法，示例：
-  ```
-  grpcurl -plaintext localhost:50051 ServiceName.MethodName
-  ```
-
-该工具非常适合开发人员在调试和测试 gRPC 服务时使用。
+**使用方法**：  
+- **安装**：可通过 Homebrew、Docker、Snap 或 Go 安装（`go install`）。  
+- **调用示例**：`grpcurl [参数] 服务器地址 方法路径`，如 `grpcurl -d '{"id":123}' grpc.server.com:443 my.service/Method`。  
+- **高级功能**：使用 `describe` 查看服务定义详情，通过 `-H` 添加请求头，或用 `-protoset`/`-import-path` 指定描述符来源。

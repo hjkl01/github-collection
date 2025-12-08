@@ -1,64 +1,20 @@
+
 ---
 title: wire
 ---
 
-# Wire
+### [google wire](https://github.com/google/wire)
 
-## 项目简介
+**项目核心内容总结：**  
+Wire 是一个 Go 语言代码生成工具，用于自动化初始化过程，通过**依赖注入**实现组件间的依赖管理。其核心功能是通过函数参数显式声明依赖关系，替代全局变量，生成的代码无需运行时状态或反射，适用于手动初始化场景。  
 
-Wire 是 Google 开发的 Go 语言代码生成工具，用于自动化依赖注入（Dependency Injection）。它通过编译时生成代码来连接组件，避免使用全局变量，鼓励显式初始化。Wire 不依赖运行时状态或反射，使得代码即使在手动初始化时也能正常工作。
+**使用方法：**  
+通过命令 `go install github.com/google/wire/cmd/wire@latest` 安装，确保 `$GOPATH/bin` 在环境变量 `PATH` 中。  
 
-## 主要功能
+**主要特性：**  
+1. **依赖注入**：依赖关系通过函数参数显式定义，提升代码可维护性。  
+2. **无运行时开销**：完全基于代码生成，不依赖反射或运行时状态。  
+3. **兼容性高**：生成的代码即使不使用 Wire 也具备可用性。  
 
-- **编译时依赖注入**：在编译时生成初始化代码，确保类型安全和性能。
-- **显式依赖管理**：依赖关系通过函数参数表示，便于理解和维护。
-- **代码生成**：自动生成 wire_gen.go 文件，包含初始化逻辑。
-- **无运行时开销**：生成的代码是纯 Go 代码，无需额外运行时库。
-
-## 安装
-
-使用以下命令安装 Wire：
-
-```bash
-go install github.com/google/wire/cmd/wire@latest
-```
-
-确保 `$GOPATH/bin` 在你的 `$PATH` 中。
-
-## 基本用法
-
-1. 定义提供者函数（Provider Functions）：这些函数创建和返回依赖项。
-2. 使用 `wire.Build` 函数声明依赖图。
-3. 运行 `wire` 命令生成代码。
-
-示例：
-
-```go
-// +build wireinject
-
-package main
-
-import "github.com/google/wire"
-
-func InitializeApp() (*App, error) {
-    wire.Build(NewApp, NewDB, NewLogger)
-    return &App{}, nil
-}
-```
-
-运行 `wire` 后，会生成 `wire_gen.go` 文件。
-
-## 文档
-
-- [教程](https://github.com/google/wire/blob/main/_tutorial/README.md)
-- [用户指南](https://github.com/google/wire/blob/main/docs/guide.md)
-- [最佳实践](https://github.com/google/wire/blob/main/docs/best-practices.md)
-- [FAQ](https://github.com/google/wire/blob/main/docs/faq.md)
-
-## 项目状态
-
-Wire 目前处于 beta 阶段，被认为是功能完整的。我们不再接受新功能请求，但欢迎 bug 报告和修复。
-
-## 社区
-
-如有问题，请使用 [GitHub Discussions](https://github.com/google/wire/discussions)。
+**项目状态：**  
+当前版本为 v0.3.0（Beta 阶段），功能已完备，**不再维护**，不接受新功能，仅支持 Bug 修复。建议通过 Fork 扩展或更新。

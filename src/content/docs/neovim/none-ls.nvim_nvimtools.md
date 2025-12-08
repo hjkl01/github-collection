@@ -1,40 +1,32 @@
+
 ---
 title: none-ls.nvim
 ---
 
-# none-ls.nvim
+### [nvimtools none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
 
-## 项目简介
+**项目核心内容总结：**
 
-none-ls.nvim（原 null-ls.nvim）是一个 Neovim 插件，它允许使用 Neovim 作为语言服务器，通过 Lua 注入 LSP 诊断、代码操作等功能。该项目由社区维护，是 null-ls.nvim 的重载版本。
+**功能**  
+`none-ls.nvim`（原 `null-ls.nvim`）是一个 Neovim 插件，通过 Lua 实现 LSP 功能（如代码格式化、诊断、代码操作等），无需依赖外部语言服务器，提升性能并减少配置复杂度。
 
-## 主要功能
+**使用方法**  
+1. 安装：通过包管理器安装，需依赖 `plenary.nvim`。  
+2. 配置：通过 Lua 注册内置或自定义源，例如：  
+   ```lua  
+   null_ls.setup({ sources = { null_ls.builtins.formatting.stylua } })  
+   ```  
+3. 支持通过 CLI 工具生成诊断（如 `markdownlint`）或自定义 Lua 逻辑（如检测 `really` 关键字）。
 
-- **代码操作 (Code Actions)**: 提供代码重构和修复建议。
-- **诊断 (Diagnostics)**: 支持文件级和项目级诊断，包括语法检查和错误报告。
-- **格式化 (Formatting)**: 支持代码格式化，包括范围格式化。
-- **悬停 (Hover)**: 提供悬停信息，如文档或类型信息。
-- **补全 (Completion)**: 提供代码补全建议。
+**主要特性**  
+- 支持 LSP 的核心功能：格式化、诊断、代码操作、悬停提示、补全。  
+- 内置多种语言工具源（如 `stylua`、`eslint`），可直接调用。  
+- 提供 CLI 工具解析辅助函数，简化外部命令集成。  
+- 纯 Lua 实现，无需外部进程，性能更优。  
+- 社区协作维护，支持贡献者提交代码并审核。
 
-该插件内置了许多源，并提供辅助工具来创建自定义源，无需外部进程，提高性能。
-
-## 用法
-
-1. 安装插件（依赖 plenary.nvim）。
-2. 在配置中设置 null-ls 并注册源：
-
-```lua
-local null_ls = require("null-ls")
-
-null_ls.setup({
-    sources = {
-        null_ls.builtins.formatting.stylua,
-        null_ls.builtins.completion.spell,
-        -- 添加更多源
-    },
-})
-```
-
-3. 使用 LSP 功能，如 `:lua vim.lsp.buf.format()` 进行格式化。
-
-更多配置和内置源请参考项目文档。
+**注意事项**  
+- 项目处于 Beta 阶段，需兼容 Neovim 最新稳定版。  
+- 调试时启用 `debug = true`，通过 `:NullLsLog` 查看日志。  
+- 格式化超时可调整 `timeout_ms` 参数。  
+- 避免与 LSP 插件冲突时，需配置 `formatting` 优先级。

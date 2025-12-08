@@ -1,39 +1,30 @@
+
 ---
 title: newsnow
 ---
 
-# NewsNow 项目描述
+### [ourongxing newsnow](https://github.com/ourongxing/newsnow)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/ourongxing/newsnow)
+**项目核心内容总结：**
 
-## 主要特性
-NewsNow 是一个开源的新闻聚合和个性化推荐项目，主要特性包括：
-- **实时新闻爬取**：支持从多个主流新闻源（如 CNN、BBC、Reuters 等）自动抓取最新新闻，支持 RSS 和 API 集成。
-- **个性化推荐**：基于用户兴趣和浏览历史，使用机器学习算法（如协同过滤和内容推荐）提供定制化新闻 feed。
-- **多语言支持**：内置中文、英文等语言处理，支持新闻翻译和多源聚合。
-- **轻量级架构**：采用 Python 和 Flask 构建的后端，结合前端 React 界面，易于部署和扩展。
-- **离线阅读**：允许用户缓存新闻，支持移动端适配和推送通知。
+**功能特点**  
+- 提供简洁优雅的界面，支持实时更新热门新闻；  
+- 支持GitHub账号登录及数据同步；  
+- 默认30分钟缓存（登录用户可强制刷新），根据新闻源更新频率自动调整抓取间隔，优化资源使用并避免IP封禁；  
+- 支持自定义MCP服务器（提供配置示例）；  
+- 未来计划增加多语言、个性化分类及全球新闻源。  
 
-## 主要功能
-- **新闻聚合**：一键订阅多个新闻频道，实时更新头条、分类新闻（如科技、政治、体育）。
-- **用户管理**：注册登录系统，用户可自定义偏好、标签和过滤规则，避免无关内容。
-- **搜索与分析**：内置搜索功能，支持关键词查询和新闻情感分析，生成摘要或趋势图。
-- **数据可视化**：提供新闻热度图表、来源分布等可视化工具，便于用户分析信息流。
-- **API 接口**：暴露 RESTful API，允许第三方集成或自定义扩展。
+**部署方式**  
+1. **基础部署**：Fork仓库后导入Cloudflare Page或Vercel；  
+2. **Cloudflare Page**：构建命令`pnpm run build`，输出目录`dist/output/public`；  
+3. **Docker**：项目根目录执行`docker compose up`；  
+4. **数据库**：推荐使用Cloudflare D1，需配置`wrangler.toml`文件。  
 
-## 用法
-1. **安装与部署**：
-   - 克隆仓库：`git clone https://github.com/ourongxing/newsnow.git`
-   - 安装依赖：`pip install -r requirements.txt`（后端），`npm install`（前端）。
-   - 配置环境：编辑 `config.py` 设置新闻源 API 密钥和数据库连接（支持 SQLite 或 PostgreSQL）。
-   - 运行后端：`python app.py`，前端：`npm start`。
-   - 访问：浏览器打开 `http://localhost:5000`。
+**关键配置**  
+- GitHub OAuth需创建App并设置回调地址`https://your-domain.com/api/oauth/github`，填写Client ID/Secret及JWT密钥；  
+- 环境变量参考`.env.server`文件，首次运行需启用`INIT_TABLE=true`；  
+- MCP服务器可修改`BASE_URL`为自定义域名。  
 
-2. **日常使用**：
-   - 注册账号后，进入仪表盘设置兴趣标签（如“AI”或“财经”）。
-   - 浏览首页 feed，点击新闻查看详情，支持分享和收藏。
-   - 使用搜索栏查询特定主题，或通过移动 App（若构建）接收推送。
-   - 管理员模式：通过 `/admin` 路径管理新闻源和用户数据。
-
-项目适合个人或小型团队使用，代码开源，便于二次开发。
+**开发要求**  
+- 依赖Node.js 20+，使用`pnpm`安装依赖并启动开发环境；  
+- 新增数据源需参考`shared/sources`和`server/sources`目录的类型定义及架构。

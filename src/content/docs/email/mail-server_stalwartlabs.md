@@ -1,56 +1,26 @@
+
 ---
 title: mail-server
 ---
 
-# Stalwart Mail Server 项目
+### [stalwartlabs mail-server](https://github.com/stalwartlabs/mail-server)
 
-## 项目地址
+**核心内容总结：**  
+Stalwart 是一个功能完整的开源邮件与协作平台，支持标准协议（如 SMTP、IMAP、JMAP、CalDAV、CardDAV 等）及现代特性（如 DMARC、TLS 报告、Webhook 通知等）。其主要功能包括：  
+- **全面协议支持**：覆盖邮件收发、日历、联系人管理等。  
+- **企业级功能**：如两步验证、OpenID Connect 认证、OAuth 2.0 授权、ACL 控制等。  
+- **可观测性**：集成 OpenTelemetry、Prometheus，提供日志、指标、告警和实时监控。  
+- **管理界面**：支持 Web 控制台，可管理账户、域名、队列、日志等。  
+- **部署灵活**：支持 Linux/MacOS/Windows/Docker，兼容 Kubernetes、Docker Swarm 等容器编排工具。  
 
-[GitHub 项目地址](https://github.com/stalwartlabs/mail-server)
+**使用方法**：  
+通过官方文档（[stalw.art/docs](https://stalw.art/docs/install/get-started)）选择对应平台安装，或通过 Docker 部署。  
 
-## 主要特性
+**主要特性**：  
+- 支持多种存储后端（如 SQL、Redis）和消息队列（如 Kafka、NATS）。  
+- 提供企业级许可证（需付费）以获取优先支持。  
+- 社区驱动开发，通过 GitHub 提交功能建议并投票优先级。  
+- 项目已实现功能完整，当前重点优化性能和数据库架构，计划发布 1.0 版本。  
 
-Stalwart Mail Server 是一个开源的全功能邮件服务器，采用 Rust 语言开发，强调安全性、可扩展性和高性能。其核心特性包括：
-
-- **多协议支持**：兼容 SMTP、IMAP、POP3、ManageSieve、JMAP、CalDAV、CardDAV、WebDAV 等标准邮件和协作协议，支持 TLS/SSL 加密。
-- **内置 Web 管理界面**：提供直观的 Web UI 用于配置和管理服务器，无需命令行操作。
-- **现代架构**：使用事件驱动的异步框架（如 Tokio），支持高并发处理和低资源消耗。
-- **数据存储灵活**：支持多种后端存储，如 RocksDB、FoundationDB、PostgreSQL、MySQL、SQLite、S3-Compatible、Azure、Redis、ElasticSearch 等，便于集成现有系统。
-- **安全增强**：内置反垃圾邮件（SpamAssassin 集成）、反病毒扫描、DKIM/SPF/DMARC/ARC 支持，以及细粒度访问控制（ACL）。
-- **可扩展性**：模块化设计，支持插件扩展和 Webhooks，用于自定义工作流。
-- **跨平台**：可在 Linux、macOS 和 Windows 上运行，支持 Docker 部署。
-
-## 主要功能
-
-- **邮件路由与投递**：智能路由规则，支持虚拟域、别名和重定向；自动处理退信和队列管理。
-- **用户管理**：支持 LDAP/Active Directory 集成、多租户环境，以及基于角色的权限控制。
-- **搜索与索引**：内置全文搜索功能，使用 Tantivy 引擎，实现快速邮件检索。
-- **备份与恢复**：自动快照和导出工具，确保数据完整性。
-- **监控与日志**：详细的审计日志、Prometheus 指标集成，便于监控服务器健康状态。
-- **移动友好**：优化了 IMAP 支持，与主流邮件客户端（如 Outlook、Thunderbird）无缝兼容。
-- **协作功能**：支持 JMAP for Mail、Calendars 和 Contacts，CalDAV、CardDAV 和 WebDAV，用于邮件、联系人和文件存储。
-
-## 用法
-
-### 安装
-
-1. **从源代码构建**：
-   - 克隆仓库：`git clone https://github.com/stalwartlabs/mail-server.git`
-   - 安装 Rust：通过 rustup 安装。
-   - 构建：`cargo build --release`
-   - 配置：编辑 `config.toml` 文件，设置域名、存储路径等。
-
-2. **Docker 部署**（推荐）：
-   - 拉取镜像：`docker pull stalwartlabs/mail-server:latest`
-   - 运行：`docker run -d -p 25:25 -p 143:143 -p 993:993 -v /path/to/config:/opt/stalwart-mail-server/etc stalwartlabs/mail-server`
-   - 访问 Web UI：通过 `https://your-server:8080` 配置。
-
-### 配置与运行
-
-- **基本配置**：在 `config.toml` 中定义服务器主机名、TLS 证书路径、数据库连接等。
-- **启动服务器**：运行 `./target/release/stalwart-mail-server` 或使用 systemd 服务。
-- **添加域与用户**：通过 Web UI 或 CLI 工具（如 `stalwart-cli`）创建虚拟域和用户账户。
-- **测试**：使用工具如 `swaks` 发送测试邮件，验证 SMTP/IMAP 连接。
-- **高级用法**：集成外部服务（如 PostgreSQL 用于存储），启用 Webhooks 处理事件；参考官方文档进行自定义脚本开发。
-
-更多细节请参考项目 README 和文档。
+**许可证**：  
+采用 AGPL-3.0 开源协议，或企业专有 SELv1 许可证（商业用途）。

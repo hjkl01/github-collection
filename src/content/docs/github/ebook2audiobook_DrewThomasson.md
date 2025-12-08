@@ -1,65 +1,24 @@
+
 ---
 title: ebook2audiobook
 ---
 
+### [DrewThomasson ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook)
 
-# ebook2audiobook
+**项目核心内容总结：**  
+ebook2audiobook 是一个将电子书转换为有声书的工具，支持多种格式（如 EPUB、MOBI、PDF 等）和输出格式（如 M4B、MP3、WAV 等）。主要功能包括：  
+1. **多格式支持**：自动识别电子书章节，支持 20+ 种电子书格式，推荐使用 EPUB/MOBI 以获得最佳章节分割效果。  
+2. **语音合成**：基于 XTTSv2 等模型实现文本转语音，支持自定义微调模型和语音参考音频。  
+3. **GPU 加速**：通过 Docker 容器支持 GPU 加速，显著提升转换速度。  
+4. **灵活部署**：提供本地脚本运行、Docker 部署（含无头模式）及 Compose 配置选项，支持自定义参数（如输出格式、GPU 配置）。  
+5. **便捷操作**：支持通过 Web 界面上传电子书并转换，或使用命令行参数实现无头模式批量处理。  
 
-**项目地址:** https://github.com/DrewThomasson/ebook2audiobook
+**使用方法**：  
+- **本地运行**：克隆仓库后执行脚本，通过 `--help` 查看参数。  
+- **Docker 部署**：修改 `docker-compose.yml` 配置后启动容器，支持 GPU 启用/禁用、镜像版本控制等。  
+- **特殊功能**：添加 `###` 或 `[pause]` 可插入静音间隔，支持自定义配置文件调整参数。  
 
-## 主要特性
-- ✔ 支持多种电子书格式（EPUB、PDF、MOBI、AZW3 等）  
-- ✔ 自动提取文本并按章节或段落拆分  
-- ✔ 多语音引擎：Google TTS、Amazon Polly、Microsoft Azure TTS、pyttsx3  
-- ✔ 语言、语速、音量自定义  
-- ✔ 输出 MP3 / WAV，可设置声道和比特率  
-- ✔ 命令行工具，CLI 与 Python API 双接口  
-- ✔ 配置文件（JSON/YAML）支持批量转换  
-- ✔ 进度条、日志记录、异常处理  
-
-## 快速使用
-### 安装
-### CLI
-```bash
-# 单文件转换
-ebook2audiobook input.epub \
-    --voice google \
-    --lang en \
-    --rate 200 \
-    --output book.mp3
-
-# 批量转换
-ebook2audiobook --config config.yaml
-```
-
-### Python API
-```python
-from ebook2audiobook import Ebook2AudioBook
-
-converter = Ebook2AudioBook('my_book.epub')
-converter.convert(
-    output='my_book.mp3',
-    voice='aws',
-    language='fr',
-    rate=180,
-)
-```
-
-## 配置示例（config.yaml）
-```yaml
-files:
-  - path: books/book1.epub
-    output: output/book1.mp3
-  - path: books/book2.pdf
-    output: output/book2.mp3
-voice: google
-language: en
-rate: 210
-volume: 1.0
-```
-
-## 依赖
-- ebooklib、pdfminer.six、pydub、gTTS、boto3、requests、pyttsx3  
-
-## 许可证
-MIT © DrewThomasson
+**主要特性**：  
+- 支持多语言、多模型（如 XTTSv2、Coqui TTS）及自定义微调模型。  
+- 提供 Docker 镜像和 Compose 模板，便于部署和扩展。  
+- 可通过 Web 界面交互操作，或直接使用命令行实现自动化处理。

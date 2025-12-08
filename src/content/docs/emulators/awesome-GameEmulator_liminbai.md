@@ -1,40 +1,26 @@
+
 ---
 title: awesome-GameEmulator
 ---
 
-# Awesome-GameEmulator 项目
+### [liminbai awesome-GameEmulator](https://github.com/liminbai/awesome-GameEmulator)
 
-## 项目地址
+该文档介绍了多个与游戏模拟器、ROM管理及社区工具相关的项目，涵盖以下核心内容：
 
-[https://github.com/liminbai/awesome-GameEmulator](https://github.com/liminbai/awesome-GameEmulator)
+1. **模拟器工具**  
+   - 提供多种经典游戏主机（如Game Boy Advance、N64、PS1等）的模拟器，支持多平台运行（Windows、Android等），部分工具优化图形显示和输入设备适配。
 
-## 概述
+2. **ROM管理工具**  
+   - **RomM**：支持多平台ROM扫描、标签管理及跨设备播放。  
+   - **oxyROMon**：基于Rust的CLI工具，验证ROM完整性，支持按区域/1G1R模式分类，兼容No-Intro/Redump数据库。  
+   - **ClrMamePro**：专业ROM验证工具，检查文件一致性并支持批量处理。  
+   - **Steam ROM Manager**：将模拟器游戏导入Steam，实现控制器管理、远程流媒体等功能。  
+   - **RomVault**：通过DAT文件自动整理ROM集，支持新增ROM合并与DAT更新。
 
-Awesome-GameEmulator 是一个精心整理的游戏模拟器资源集合，致力于为复古游戏爱好者和开发者提供全面的模拟器信息和工具。
+3. **论坛与社区**  
+   - 包括NesDev（NES开发社区）、ngemu（多平台模拟器讨论）、GBAtemp（独立游戏社区）、Sega Retro（SEGA历史资料库）等，提供技术交流、资源共享及汉化支持。
 
-## 主要特性
-
-- **全面覆盖**：涵盖 Arcade、Nintendo、Sony、Sega 等多个平台的模拟器。
-- **开源优先**：专注于开源模拟器项目，提供可靠的资源链接。
-- **持续更新**：定期更新新的模拟器和改进。
-- **社区驱动**：鼓励社区贡献，保持内容的时效性和准确性。
-
-## 功能
-
-- **模拟器分类**：按平台和类型组织模拟器列表。
-- **详细介绍**：每个模拟器包括描述、下载链接和使用指南。
-- **兼容性信息**：提供模拟器的系统要求和兼容性提示。
-- **资源链接**：包含官方网站、文档和社区论坛。
-
-## 用法
-
-1. **浏览分类**：根据游戏平台选择相应的模拟器类别。
-2. **查看详情**：点击模拟器名称查看详细介绍和下载链接。
-3. **下载使用**：根据指南下载并配置模拟器。
-4. **贡献内容**：提交 Pull Request 添加新模拟器或更新信息。
-
-## 贡献
-
-欢迎通过 GitHub Issues 或 Pull Requests 贡献新的模拟器信息或改进现有内容。
-
----
+4. **其他工具**  
+   - **SimUI**：专注模拟游戏ROM管理的免费软件。  
+   - **Retrom**：自托管游戏库管理系统，支持多设备访问与下载。  
+   - **ARRM**：由开发者兄弟团队提供的模拟器辅助工具。

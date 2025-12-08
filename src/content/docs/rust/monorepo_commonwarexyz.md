@@ -1,52 +1,20 @@
+
 ---
 title: monorepo
 ---
 
-# Commonware Monorepo
+### [commonwarexyz monorepo](https://github.com/commonwarexyz/monorepo)
 
-Commonware是一个Rust库，提供用于构建分布式系统的核心原语和示例。旨在在对抗环境中部署，确保安全性和可靠性。
+**项目核心内容总结：**  
+Commonware 是一个包含多种基础模块的库，旨在构建安全、高效的分布式系统。其核心功能模块包括：  
+- **原语（Primitives）**：提供广播、共识、加密通信、数据存储等基础能力，适用于对抗性环境（如拜占庭场景）。  
+- **示例（Examples）**：包含区块链、加密聊天、随机数生成等应用场景，用于演示如何结合原语实现具体功能。  
+- **辅助工具**：提供文档、Docker 镜像、宏工具等，便于开发和部署。  
 
-## 功能
+**主要特性**：  
+- 双许可（Apache 2.0/MIT），可自由选择使用协议。  
+- 模块化设计，支持跨云部署、异步任务调度、数据恢复等复杂场景。  
+- 提供安全机制（如阈值签名、时间锁加密），适用于高安全需求的系统。  
 
-Commonware库包含多个原语模块：
-
-- **broadcast**: 在广域网上传播数据。
-- **codec**: 序列化结构化数据。
-- **coding**: 编码数据以从部分片段中恢复。
-- **collector**: 收集对可提交请求的响应。
-- **consensus**: 在拜占庭环境中对不透明消息进行排序。
-- **cryptography**: 生成密钥、签名任意消息并确定性验证签名。
-- **deployer**: 在云提供商之间部署基础设施。
-- **p2p**: 通过加密连接与认证对等方通信。
-- **resolver**: 解析由固定长度密钥标识的数据。
-- **runtime**: 使用可配置调度程序执行异步任务。
-- **storage**: 从抽象存储中持久化和检索数据。
-- **stream**: 通过任意传输交换消息。
-
-此外，还提供示例应用，如聊天、日志同步、VRF随机数生成等。
-
-## 用法
-
-1. 克隆仓库：
-
-   ```bash
-   git clone https://github.com/commonwarexyz/monorepo.git
-   cd monorepo
-   ```
-
-2. 构建项目：
-
-   ```bash
-   cargo build
-   ```
-
-3. 运行示例：
-
-   ```bash
-   cargo run --example chat
-   ```
-
-4. 查看文档：
-   访问 [https://commonware.xyz](https://commonware.xyz) 获取详细文档。
-
-注意：示例可能包含不安全代码，仅用于演示目的，不应直接用于生产环境。
+**使用方法**：  
+通过引入具体模块（如 `consensus`、`p2p`）实现分布式功能，或参考示例项目（如 `alto` 区块链）学习集成方式。

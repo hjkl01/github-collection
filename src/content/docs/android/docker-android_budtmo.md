@@ -1,60 +1,24 @@
+
 ---
 title: docker-android
 ---
 
-# Docker Android 项目
+### [budtmo docker-android](https://github.com/budtmo/docker-android)
 
-## 项目地址
-[https://github.com/budtmo/docker-android](https://github.com/budtmo/docker-android)
+**项目核心内容总结：**  
+Docker-Android 是一个基于 Docker 的镜像，专为 Android 开发和测试设计，支持原生、Web 和混合应用的开发。其核心功能包括：  
+1. **多设备模拟器**：支持多种设备型号（如 Samsung Galaxy 系列、Nexus 系列、Pixel C 等）和不同 Android 版本（9.0 至 14.0 及 Genymotion 云集成）。  
+2. **可视化与控制**：通过 VNC 实时查看容器内操作，支持通过 ADB 连接远程控制模拟器，提供 Web 界面查看日志。  
+3. **云集成与构建**：兼容 Genymotion 云服务，支持 Android 项目构建及 Appium、Espresso 等测试框架的 UI 测试。  
+4. **数据持久化**：通过挂载卷实现容器重启后数据保留。  
 
-## 主要特性
-- **Android 模拟器支持**：提供基于 Docker 的 Android 模拟器环境，支持多个 Android 版本（如 API 24 到 30），无需本地安装 Android Studio 或 SDK。
-- **自动化测试友好**：集成 Appium、Selenium 等工具，适合移动应用自动化测试、UI 测试和 CI/CD 管道集成。
-- **多设备模拟**：支持同时运行多个模拟器实例，每个实例可自定义设备配置（如分辨率、CPU、内存）。
-- **浏览器访问**：通过 VNC 或 Web 界面远程访问模拟器，支持实时屏幕共享和交互。
-- **轻量级部署**：容器化设计，易于在 Linux、macOS 或 Windows 上运行，减少环境依赖。
-- **开源免费**：基于 MIT 许可，社区维护，包含预构建镜像。
+**使用方法**：  
+- 确保系统支持虚拟化（如 Ubuntu），安装 Docker。  
+- 使用 `docker run` 命令启动容器，指定设备型号、端口映射及必要参数（如 `-e EMULATOR_DEVICE="Samsung Galaxy S10"`）。  
+- 通过 `http://localhost:6080` 访问 Web 界面，查看模拟器状态及日志。  
 
-## 主要功能
-- **运行 Android 模拟器**：启动虚拟设备，支持 ARM 或 x86 架构，模拟真实手机行为。
-- **应用安装与测试**：内置 ADB（Android Debug Bridge）工具，可安装 APK、执行 shell 命令、运行测试脚本。
-- **集成测试框架**：兼容 Espresso、UIAutomator 等 Android 测试框架，以及跨平台工具如 Appium。
-- **资源管理**：动态调整模拟器资源（如屏幕大小、方向），支持硬件加速（需主机支持）。
-- **监控与日志**：提供容器日志输出、性能监控，便于调试和故障排除。
-- **扩展性**：可自定义 Dockerfile，添加特定应用或插件。
-
-## 用法
-1. **安装 Docker**：确保系统已安装 Docker（推荐 Docker Compose）。
-2. **克隆仓库**：
-   ```
-   git clone https://github.com/budtmo/docker-android.git
-   cd docker-android
-   ```
-3. **启动模拟器**（使用 Docker Compose 示例）：
-   ```
-   docker-compose up -d
-   ```
-   这将启动一个默认 Android 模拟器（例如 API 28 版本）。
-4. **自定义配置**：
-   - 编辑 `docker-compose.yml` 文件，指定 Android 版本、设备型号等参数。
-   - 示例：设置 API 29 设备：
-     ```
-     environment:
-       - DEVICE="29"
-       - RESOLUTION="1080x1920"
-     ```
-   - 重新启动：`docker-compose down && docker-compose up -d`。
-5. **访问模拟器**：
-   - VNC 访问：使用 VNC 客户端连接 `localhost:5900`（密码：secret）。
-   - Web 访问：通过浏览器打开 `http://localhost:6080`（noVNC 接口）。
-6. **ADB 交互**：
-   - 连接 ADB：`adb connect localhost:5555`。
-   - 安装 APK：`adb install app.apk`。
-   - 运行测试：集成 Appium Server，启动测试脚本。
-7. **停止与清理**：
-   ```
-   docker-compose down
-   docker system prune -f  # 清理镜像（可选）
-   ```
-
-更多细节请参考仓库的 README.md 文件。
+**主要特性**：  
+- 提供多种 Android 版本镜像（如 `budtmo/docker-android:emulator_11.0`）。  
+- 支持 Windows 11 下 WSL2 的硬件加速配置。  
+- 包含多个使用场景文档（如构建项目、Jenkins 集成、云部署等）。  
+- 有 Pro 版本（需赞助），提供代理设置、多语言支持、新 Android 版本、资源优化等功能。

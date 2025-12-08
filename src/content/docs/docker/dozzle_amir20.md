@@ -1,28 +1,22 @@
+
 ---
 title: dozzle
 ---
 
-# Dozzle 项目
+### [amir20 dozzle](https://github.com/amir20/dozzle)
 
-## 项目地址
+**项目核心内容总结：**  
 
-[GitHub 项目地址](https://github.com/amir20/dozzle)
+**功能**：Dozzle 是一个轻量级工具，通过网页界面实时监控 Docker 容器日志，不存储日志文件，支持智能模糊搜索、正则表达式、SQL 查询、多屏分视图、实时资源统计、多用户认证、Swarm 模式及多主机监控（Agent 模式），并提供暗色模式。  
 
-## 主要特性
+**使用方法**：  
+1. **Docker 命令**：运行容器并挂载 `/var/run/docker.sock`，映射 8080 端口。  
+2. **Docker Compose**：配置 `docker-compose.yml` 文件，挂载 socket 并开放端口。  
+3. **Swarm 模式**：通过 `docker service create` 命令部署为全局服务。  
+4. **Agent 模式**：运行容器时指定 `agent` 参数，用于监控多个 Docker 主机。  
 
-Dozzle 是一个轻量级的 Docker 日志查看器，基于 Web 界面设计，类似于 Docker 的实时日志输出工具。它具有以下主要特性：
-
-- **实时日志流式传输**：支持实时查看容器日志，支持过滤和搜索功能。
-- **简单易用**：无需复杂配置，即开即用，支持多用户访问和权限控制。
-- **轻量级部署**：体积小巧，资源占用低，可作为 Docker 容器运行。
-- **浏览器访问**：通过 Web 界面访问日志，无需 SSH 或命令行。
-- **支持 Docker Compose**：无缝集成 Docker 环境，提供日志聚合视图。
-- **开源免费**：基于 MIT 许可，社区活跃，支持自定义扩展。
-
-## 主要功能
-
-容器的实时日志查看器。支持 Docker、Swarm 和 K8s。
-
-## 用法
-
-请参考项目文档获取详细用法。
+**主要特性**：  
+- 轻量高效（7MB 镜像），低内存占用；  
+- 支持复杂查询（SQL、正则）与多容器日志对比；  
+- 兼容 Docker Swarm、Podman 等环境；  
+- 提供匿名使用数据统计（可关闭）。

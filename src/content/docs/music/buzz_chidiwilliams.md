@@ -1,43 +1,23 @@
+
 ---
 title: buzz
 ---
 
-# Buzz 项目
+### [chidiwilliams buzz](https://github.com/chidiwilliams/buzz)
 
-## 项目地址
+**项目核心内容总结：**
 
-[GitHub 项目地址](https://github.com/chidiwilliams/buzz)
+**功能**  
+Buzz 是一款支持离线音频转录与翻译的工具，基于 OpenAI 的 Whisper 技术，可在个人电脑上运行。Mac 版本提供原生界面、音频播放、拖拽导入、字幕编辑、搜索等功能。
 
-## 主要特性
+**使用方法**  
+1. **macOS/Windows/Linux**：通过 SourceForge 下载安装包（Windows 需手动运行安装程序）。  
+2. **Linux**：支持 Flatpak 或 Snap 安装（需提前安装依赖库）。  
+3. **PyPI**：通过 `pip install buzz-captions` 安装，需先安装 ffmpeg；若需 GPU 加速，需额外安装 CUDA 相关库。  
+4. **开发版**：通过官方文档获取最新版本。  
 
-Buzz 是一个简单的 Linux 桌面语音助手。它使用 OpenAI 的 Whisper 模型进行语音转录和翻译。主要特性包括：
-
-- **语音转录**：使用 Whisper 模型准确转录语音输入。
-- **语音翻译**：支持将语音翻译成其他语言。
-- **桌面集成**：专为 Linux 桌面设计，支持全局快捷键激活。
-- **隐私保护**：本地处理语音数据，不上传到云端。
-- **多语言支持**：支持多种语言的语音转录和翻译。
-
-## 主要功能
-
-- **语音激活**：通过快捷键激活语音输入。
-- **实时转录**：实时将语音转换为文本。
-- **语音翻译**：将语音翻译成其他语言。
-- **导出转录**：支持导出转录和翻译结果。
-
-## 用法
-
-1. **安装**：
-   - 从 GitHub Releases 下载适用于 Linux 的 AppImage 或安装包。
-   - 运行安装程序。
-
-2. **配置**：
-   - 设置 OpenAI API 密钥。
-   - 配置快捷键以激活语音助手。
-
-3. **使用**：
-   - 按下快捷键开始录音。
-   - 说话后，Buzz 会转录并生成响应。
-   - 查看和导出对话历史。
-
-Buzz 适合需要桌面语音助手的用户，提供便捷的 AI 交互。更多详情请参考 GitHub 仓库的 README 文件。
+**主要特性**  
+- 离线处理音频，无需网络连接；  
+- 支持多平台（Mac、Windows、Linux）；  
+- 提供 App Store 的 Mac 专用版本（含优化功能）；  
+- 支持 GPU 加速（PyPI 版需配置 CUDA）。

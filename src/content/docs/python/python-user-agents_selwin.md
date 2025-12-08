@@ -1,64 +1,31 @@
+
 ---
 title: python-user-agents
 ---
 
-# python-user-agents 项目
+### [selwin python-user-agents](https://github.com/selwin/python-user-agents)
 
-**项目地址:** [https://github.com/selwin/python-user-agents](https://github.com/selwin/python-user-agents)
+**核心内容总结**  
 
-## 主要特性
-- **轻量级用户代理解析器**：基于纯Python实现，无需外部依赖，支持快速解析User-Agent字符串。
-- **浏览器和设备检测**：准确识别浏览器类型（如Chrome、Firefox）、操作系统（如Windows、iOS）和设备类型（如移动设备、桌面）。
-- **高性能**：使用正则表达式和高效算法，适合高并发场景。
-- **开源免费**：MIT许可，易于集成到Web应用中。
+**项目功能**  
+`python-user-agents` 是一个 Python 库，通过解析用户代理字符串（User Agent String），识别设备类型（如手机、平板、PC）、操作系统、浏览器信息，并判断设备是否具备触摸能力或为爬虫。  
 
-## 主要功能
-- **解析User-Agent**：从HTTP请求头中提取浏览器、OS、设备等信息。
-- **多平台支持**：兼容主流浏览器和操作系统，包括移动端和智能设备。
-- **版本检测**：支持浏览器和OS版本号的提取。
-- **自定义扩展**：允许开发者添加自定义规则以支持新兴User-Agent。
+**使用方法**  
+1. 安装：`pip install user-agents`（需依赖 `ua-parser`）。  
+2. 用法示例：  
+   - 解析用户代理字符串：  
+     ```python  
+     from user_agents import parse  
+     user_agent = parse("Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) ...")  
+     ```  
+   - 获取信息：  
+     ```python  
+     user_agent.browser.family  # 浏览器名称（如 "Mobile Safari"）  
+     user_agent.os.version      # 操作系统版本（如 (5, 1)）  
+     user_agent.device.brand    # 设备品牌（如 "Apple"）  
+     ```  
 
-## 用法
-1. **安装**：
-   ```
-   pip install user-agents
-   ```
-
-2. **基本用法**（Python代码示例）：
-   ```python
-   from user_agents import parse
-
-   user_agent_string = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-
-   ua = parse(user_agent_string)
-
-   # 检查是否为移动设备
-   print(ua.is_mobile)  # False
-
-   # 获取浏览器信息
-   print(ua.browser.family)  # 'Chrome'
-   print(ua.browser.version_string)  # '91.0.4472.124'
-
-   # 获取操作系统信息
-   print(ua.os.family)  # 'Windows'
-   print(ua.os.version_string)  # '10'
-
-   # 获取设备类型
-   print(ua.device.family)  # 'Other'
-   ```
-
-3. **高级用法**：
-   - 在Django/Flask等框架中集成：直接从request.headers['User-Agent']解析。
-   - 示例：在Django视图中：
-     ```python
-     from user_agents import parse
-
-     def my_view(request):
-         ua = parse(request.META.get('HTTP_USER_AGENT', ''))
-         if ua.is_mobile:
-             return render(request, 'mobile.html')
-         else:
-             return render(request, 'desktop.html')
-     ```
-
-更多细节请参考项目README文档。
+**主要特性**  
+- 提供 `is_mobile`、`is_tablet`、`is_pc`、`is_touch_capable`、`is_bot` 等属性，精准识别设备类型及能力。  
+- 支持主流设备（如 iPhone、iPad、Android、Windows 8、Kindle 等）的检测。  
+- 可通过 `str(user_agent)` 获取简洁的字符串描述（如 `"iPhone / iOS 5.1 / Mobile Safari 5.1"`）。

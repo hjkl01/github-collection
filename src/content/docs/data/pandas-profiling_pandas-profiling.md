@@ -1,52 +1,36 @@
+
 ---
 title: pandas-profiling
 ---
 
-# pandas-profiling 项目
+### [pandas-profiling pandas-profiling](https://github.com/pandas-profiling/pandas-profiling)
 
-## 项目地址
-[GitHub 项目地址](https://github.com/pandas-profiling/pandas-profiling)
+**项目核心内容总结：**
 
-## 主要特性
-pandas-profiling 是一个 Python 库，用于生成数据分析报告。它基于 pandas DataFrame，自动分析数据集的统计信息、相关性和模式，提供可视化图表和摘要报告。主要特性包括：
-- **自动化分析**：快速生成全面的数据集概述，包括缺失值、唯一值分布和数据类型检测。
-- **可视化支持**：内置图表，如直方图、散点图和相关性热图，帮助可视化数据分布和关系。
-- **报告生成**：输出 HTML 格式的交互式报告，便于分享和探索。
-- **高效处理**：支持大规模数据集，通过并行计算和内存优化，提高性能。
-- **扩展性**：可自定义分析选项，集成到 Jupyter Notebook 或其他工作流中。
+ydata-profiling 是一个用于数据分析的 Python 库，能够自动生成详细的 HTML 格式数据探查报告，帮助用户快速了解数据集的结构、统计信息、缺失值、重复值、分布情况等。它支持多种数据格式，包括 pandas DataFrame、Spark DataFrame 等，并具备以下主要功能和特性：
 
-## 主要功能
-- **数据集摘要**：计算变量类型、缺失值比例、唯一值计数和基本统计（如均值、标准差）。
-- **相关性分析**：检测数值变量间的相关性，并可视化潜在关联。
-- **异常检测**：识别高基数变量、零方差列和不平衡类别。
-- **交互式报告**：生成可排序、可过滤的 HTML 报告，支持警告和建议（如数据清洗提示）。
-- **多语言支持**：报告可生成多种语言版本，包括中文。
+- **数据探查功能**：自动分析数据类型、统计描述、缺失值、唯一值、相关性等。
+- **可视化支持**：提供丰富的图表，如直方图、箱线图、热力图等，用于展示数据分布和关系。
+- **支持多种数据源**：除 pandas 外，还支持 Spark、Dask 等大数据框架。
+- **集成与扩展**：可与 Great Expectations、Streamlit、Dash 等工具集成，支持在数据管道中使用。
+- **使用方法**：通过 pip 安装后，导入库并调用 `ProfileReport` 类即可生成报告，支持 Jupyter Notebook 中的交互式显示。
+- **安装方式**：支持 pip、conda 安装，也可从源码安装，支持多种额外依赖安装（如 notebook、unicode、pyspark）。
 
-## 用法
-1. **安装**：
-   使用 pip 安装：
-   ```
-   pip install pandas-profiling
-   ```
+**使用方法简述**：
 
-2. **基本用法**：
-   在 Python 环境中导入并生成报告：
+1. 安装：`pip install ydata-profiling`。
+2. 导入库并生成报告：
    ```python
-   import pandas as pd
-   from pandas_profiling import ProfileReport
-
-   # 加载数据
-   df = pd.read_csv('your_dataset.csv')
-
-   # 生成报告
-   profile = ProfileReport(df, title="数据集报告", explorative=True)
-   profile.to_file("report.html")
+   from ydata_profiling import ProfileReport
+   profile = ProfileReport(df)
+   profile.to_file("output.html")
    ```
-   这将生成一个名为 `report.html` 的文件，可在浏览器中打开查看。
+3. 报告可在浏览器中打开查看，支持多种主题和自定义设置。
 
-3. **高级选项**：
-   - 自定义报告：`ProfileReport(df, minimal=True)` 用于简化版本，或指定 `pool_size` 调整并行处理。
-   - Jupyter 集成：在 Notebook 中直接运行 `profile` 以内嵌显示报告。
-   - 示例：对于小型数据集，报告生成通常只需几秒；对于大型数据，可添加 `sample` 参数采样分析。
+**主要特性**：
 
-更多细节请参考项目文档。
+- 自动分析数据质量。
+- 支持大规模数据处理（通过 pyspark）。
+- 提供详细的可交互式 HTML 报告。
+- 支持中文、Unicode 文本分析（需安装 unicode 依赖）。
+- 可扩展性强，适用于数据科学工作流、数据清洗、数据预处理等场景。

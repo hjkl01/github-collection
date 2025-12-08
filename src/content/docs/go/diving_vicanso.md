@@ -1,26 +1,16 @@
+
 ---
 title: diving
 ---
 
-# diving
+### [vicanso diving](https://github.com/vicanso/diving)
 
-**注意：此仓库已归档，请改用 [diving-rs](https://github.com/vicanso/diving-rs) 代替。它更快、更简单，使用 Rust 开发。**
+**项目核心内容总结：**  
+该项目用于通过网站分析 Docker 镜像，基于 [dive](https://github.com/wagoodman/dive) 工具获取分析信息。首次使用时需先拉取镜像，可能稍慢。  
 
-## 项目地址
+**使用方法：**  
+通过 Docker 命令运行容器，挂载 `/var/run/docker.sock` 卷并映射 7001 端口。  
 
-[https://github.com/vicanso/diving](https://github.com/vicanso/diving)
-
-## 项目简介
-
-使用 diving 可以在网站上分析 Docker 镜像。它使用 [dive](https://github.com/wagoodman/dive) 来获取分析信息。
-
-第一次可能很慢，因为它首先拉取镜像。
-
-## 安装
-
-```
-docker run -d --restart=always \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -p 7001:7001 \
-  vicanso/diving
-```
+**主要特性：**  
+- 使用 Rust 开发，性能更快、更简洁；  
+- 已存档，推荐使用 [diving-rs](https://github.com/vicanso/diving-rs) 替代。

@@ -1,64 +1,29 @@
+
 ---
 title: PrettyErrors
 ---
 
-# PrettyErrors 项目
+### [onelivesleft PrettyErrors](https://github.com/onelivesleft/PrettyErrors)
 
-**GitHub 项目地址:** [https://github.com/onelivesleft/PrettyErrors](https://github.com/onelivesleft/PrettyErrors)
+**核心内容总结：**
 
-## 主要特性
-PrettyErrors 是一个 Python 库，主要用于美化 Python 错误消息的输出。它将原本枯燥的 traceback 信息转化为彩色、易读的格式，提高了调试效率。主要特性包括：
-- **彩色输出**：使用 ANSI 颜色代码突出显示错误类型、文件名、行号和错误消息，使其在终端中更醒目。
-- **简洁格式**：去除冗余信息，聚焦于关键错误细节，如变量值和调用栈。
-- **自定义主题**：支持多种预设主题（如默认、黑暗模式），并允许用户自定义颜色和样式。
-- **兼容性强**：适用于 Python 3.x 版本，支持各种 IDE 和终端环境。
-- **轻量级**：无需额外依赖，仅通过简单导入即可激活。
+`pretty_errors` 是一个用于美化 Python 异常输出的库，使错误信息更易读。主要功能包括：
 
-## 主要功能
-- **错误美化**：自动替换标准 Python 错误输出，提供更直观的 traceback 显示，包括语法错误、异常等。
-- **变量高亮**：在错误上下文中突出显示局部变量的值，帮助快速定位问题。
-- **多行支持**：处理长错误消息时，支持折行和分页显示，避免信息溢出。
-- **主题切换**：通过配置文件或代码动态切换显示主题，适应不同开发环境。
-- **扩展性**：可与其他调试工具集成，如 pdb 或 ipdb，进一步增强调试体验。
+1. **使用方法**  
+   - 安装：`python -m pip install pretty_errors`  
+   - 全局启用：运行 `python -m pretty_errors`，使所有脚本的异常输出自动美化。  
+   - 项目内使用：直接导入 `import pretty_errors`，但需在支持颜色的终端（如 Windows 的 PowerShell）中使用，否则需调用 `pretty_errors.mono()` 开启黑白模式。
 
-## 用法
-1. **安装**：
-   使用 pip 安装：
-   ```
-   pip install PrettyErrors
-   ```
+2. **主要特性**  
+   - **高度可配置**：通过 `configure()` 方法自定义分隔符、显示行数、颜色、文件路径显示方式等。  
+   - **黑白名单控制**：使用 `whitelist()` 和 `blacklist()` 设置需显示或排除的路径。  
+   - **路径化配置**：为不同路径设置独立的显示规则（如系统路径使用灰色显示）。  
+   - **环境变量控制**：通过 `PYTHON_PRETTY_ERRORS` 禁用库，或 `PYTHON_PRETTY_ERRORS_ISATTY_ONLY` 限制其仅在交互式终端生效。  
+   - **异常信息增强**：支持显示局部变量、代码上下文、语法错误箭头提示等。  
+   - **兼容性处理**：提供 `replace_stderr()` 替代 `sys.excepthook`，解决部分框架（如 `uvicorn`）冲突问题。  
 
-2. **基本使用**：
-   在 Python 脚本开头导入并激活：
-   ```python
-   import pretty_errors
-   ```
-   一旦导入，库会自动捕获并美化所有后续错误输出，无需额外配置。
+3. **配置选项**  
+   - 包括颜色设置（如 `line_color`、`filename_color`）、显示格式（如 `lines_before`、`display_locals`）、路径规则等，支持通过 `pretty_errors.default_config` 查看默认值并自定义。  
 
-3. **自定义配置**：
-   - 通过环境变量设置主题，例如：
-     ```
-     export PRETTY_ERRORS_THEME=Dark
-     ```
-   - 或在代码中配置：
-     ```python
-     import pretty_errors
-     pretty_errors.configure(
-         theme='Dark',
-         display_vars=True  # 显示变量值
-     )
-     ```
-
-4. **示例**：
-   运行一个出错的脚本：
-   ```python
-   import pretty_errors
-
-   def faulty_function(x):
-       return 1 / x  # 除零错误
-
-   faulty_function(0)
-   ```
-   输出将显示彩色的错误信息，包括文件名、行号和变量 `x=0` 的高亮。
-
-更多细节请参考项目 README。
+4. **高级定制**  
+   - 可通过继承 `ExceptionWriter` 类覆盖 `write_` 方法，实现完全自定义的输出格式。

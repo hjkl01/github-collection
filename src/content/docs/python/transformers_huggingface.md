@@ -1,59 +1,29 @@
+
 ---
-title: Transformers
+title: transformers
 ---
 
-## 功能介绍
+### [huggingface transformers](https://github.com/huggingface/transformers)
 
-🤗 Transformers 是 Hugging Face 开发的开源库，提供最先进的预训练模型，用于文本、视觉、音频、视频和多模态任务的推理和训练。它作为模型定义框架，在生态系统中统一模型定义，确保兼容性。
+**项目核心内容总结：**
 
-- 支持超过 100 万个预训练模型检查点
-- 涵盖自然语言处理、计算机视觉、音频处理等多个领域
-- 易于使用，降低入门门槛
-- 支持 PyTorch、JAX、TensorFlow 等框架
-- 提供高性能推理和训练 API
+1. **项目功能**  
+   Hugging Face Transformers 是一个提供多种预训练模型的工具库，支持自然语言处理（NLP）、计算机视觉、音频处理、多模态任务等。用户可通过统一 API 调用模型，覆盖文本生成、分类、图像识别、语音识别等场景。
 
-## 用法
+2. **使用方法**  
+   - 通过简单代码调用预训练模型（如 3 行代码训练模型）。  
+   - 支持 PyTorch、JAX、TensorFlow 等框架切换。  
+   - 提供示例代码和模型文件，便于快速实验与定制。
 
-### 安装
+3. **主要特性**  
+   - **易用性**：低门槛，仅需学习三个核心类，统一 API 简化模型使用。  
+   - **高效性**：减少重复训练，降低计算成本与碳足迹，提供 100 万+ 预训练模型检查点。  
+   - **灵活性**：支持模型架构定制，暴露模型内部结构，适配研究、生产等不同阶段需求。
 
-需要 Python 3.9+ 和 PyTorch 2.1+。
+4. **注意事项**  
+   - 该库非模块化工具箱，模型代码未抽象为通用组件，适合快速迭代研究。  
+   - 训练 API 优化用于 PyTorch，通用机器学习任务建议使用 [Accelerate](https://huggingface.co/docs/accelerate)。  
+   - 示例代码需根据具体场景调整，可能无法直接运行。  
 
-```bash
-pip install "transformers[torch]"
-```
-
-### 快速开始
-
-使用 Pipeline API 进行推理，支持文本生成、语音识别、图像分类等任务。
-
-#### 文本生成示例
-
-```python
-from transformers import pipeline
-
-pipeline = pipeline(task="text-generation", model="Qwen/Qwen2.5-1.5B")
-result = pipeline("the secret to baking a really good cake is ")
-print(result)
-```
-
-#### 语音识别示例
-
-```python
-from transformers import pipeline
-
-pipeline = pipeline(task="automatic-speech-recognition", model="openai/whisper-large-v3")
-result = pipeline("https://example.com/audio.flac")
-print(result)
-```
-
-#### 图像分类示例
-
-```python
-from transformers import pipeline
-
-pipeline = pipeline(task="image-classification", model="facebook/dinov2-small-imagenet1k-1-layer")
-result = pipeline("https://example.com/image.png")
-print(result)
-```
-
-更多示例和文档请参考 [官方文档](https://huggingface.co/docs/transformers/index)。
+5. **应用案例**  
+   包含 100+ 项目示例，涵盖音频、视觉、多模态、NLP 等领域，如 Whisper（语音识别）、SAM（图像分割）、Llama（文本生成）等。

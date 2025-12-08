@@ -1,111 +1,39 @@
+
 ---
 title: RustPython
 ---
 
-# RustPython
+### [RustPython RustPython](https://github.com/RustPython/RustPython)
 
-**GitHub 项目地址**  
-[https://github.com/RustPython/RustPython](https://github.com/RustPython/RustPython)
+**项目核心内容总结：**  
+RustPython 是一个用 Rust 编写的 Python 3 解释器，支持 CPython 3.13.0 及以上版本，目标是提供一个完全用 Rust 实现的 Python 环境，无需依赖 CPython 绑定或兼容性补丁。  
 
-## 主要特性
+**功能与特性：**  
+- **跨平台支持**：可在本地运行（包括 Windows）、WebAssembly（WASI）及嵌入到 Rust 应用中。  
+- **JIT 编译器**：实验性功能，可将 Python 函数编译为本地代码以提升性能。  
+- **WebAssembly 支持**：可构建为独立的 WASI 模块，通过 `wasmer` 或 `wapm` 运行。  
+- **嵌入能力**：提供示例代码展示如何将 RustPython 集成到 Rust 应用中，用于脚本扩展。  
+- **SSL 配置**：默认使用 `rustls`，也可切换为 `openssl`（需依赖或编译）。  
 
-- **Python-3 解释器**：用 Rust 编写的完整 Python-3 (CPython >= 3.13.0) 解释器。
-- **高性能**：结合 JIT 编译器，实现热点代码的原生执行。
-- **可嵌入**：可嵌入到 Rust 应用中，提供脚本功能。
-- **跨平台**：支持多种平台，包括 WebAssembly 和 WASI。
-- **标准库**：实现大部分 CPython 标准库。
+**使用方法：**  
+1. 安装 Rust（通过 [rustup.rs](https://rustup.rs/)）。  
+2. 克隆仓库并构建：  
+   ```bash  
+   git clone https://github.com/RustPython/RustPython  
+   cd RustPython  
+   cargo run --release demo_closures.py  
+   ```  
+3. 交互式 shell：`cargo run --release`。  
+4. 安装 pip：`cargo install --git ... rustpython && rustpython --install-pip`。  
+5. WASI 构建：  
+   ```bash  
+   cargo build --target wasm32-wasip1 --features freeze-stdlib  
+   ```  
 
-## 主要功能
+**注意事项：**  
+- 项目尚在开发中，非完全生产就绪，但已支持部分实际应用（如数据库、游戏引擎等）。  
+- Windows 用户需设置 `RUSTPYTHONPATH` 环境变量指向 `Lib/` 目录。  
+- JIT 和 WASI 需额外依赖或编译工具（如 `clang`、`make`）。  
 
-| 项目            | 功能说明                                                    |
-| --------------- | ----------------------------------------------------------- |
-| **解释器引擎**  | 运行 .py 文件、交互式 REPL、执行字符串代码                  |
-| **JIT 编译**    | 可选的 LLVM/JIT 编译器，提高热点代码执行速度                |
-| **模块系统**    | 完整的 import 系统，支持自定义扩展和 C/C++ 模块（通过 FFI） |
-| **标准库**      | os、sys、math、datetime 等常用模块                          |
-| **可交互性**    | 标准 REPL，支持输入历史、自动补全                           |
-| **调试工具**    | 支持 `pdb` 调试、堆栈追踪，以及 Rust 调试接口               |
-| **WebAssembly** | 编译为 WASM，可在浏览器中运行 Python 代码                   |
-
-## 用法
-
-### 1. 直接使用可执行文件
-
-```bash
-# 克隆项目
-git clone https://github.com/RustPython/RustPython
-cd RustPython
-
-# 配置 rustup 并打开项目
-rustup override set stable
-
-# 编译并安装 CLI
-cargo install --path .
-
-# 运行 Python 脚本
-rustpython my_script.py
-```
-
-### 2. 交互式 REPL
-
-```bash
-rustpython
-```
-
-按 `Ctrl+Z(Windows)` 或 `Ctrl+D(Linux/macOS)` 退出。
-
-### 3. 嵌入到 Rust 项目
-
-```toml
-# Cargo.toml
-[dependencies]
-rustpython-compiler = "0.1"
-rustpython-vm = "0.1"          # 或 version 对应
-```
-
-```rust
-use rustpython_vm as vm;
-use rustpython_vm::Interpreter;
-
-fn main() {
-    let interpreter = Interpreter::new();
-    let res = interpreter.run_context(
-        "print('Hello from RustPython!')",
-        &[],
-    );
-    println!("Result: {:?}", res);
-}
-```
-
-### 4. 启用 JIT 编译
-
-```bash
-RUSTPYTHON_JIT=1 rustpython my_script.py
-```
-
-### 5. 在 WebAssembly 中使用
-
-```bash
-cargo build --target wasm32-unknown-unknown
-```
-
-然后在前端通过 JavaScript 调用：
-
-```js
-import init, { run } from './pkg/rustpython.js';
-
-(async () => {
-  await init();
-  run("print('Hello WASM')");
-})();
-```
-
-## 贡献
-
-- Fork 项目，提交 Pull Request。
-- 查看 `CONTRIBUTING.md` 获取详细流程。
-- 关注 `issues`、`pull requests` 以及 `issues` 目录中的 [Roadmap](https://github.com/RustPython/RustPython/labels/roadmap)。
-
----
-
-> 文件存放路径: **src/content/docs/00/RustPython_RustPython.md**
+**许可证：**  
+采用 MIT 许可证，项目 Logo 使用 CC-BY-4.0 许可证。

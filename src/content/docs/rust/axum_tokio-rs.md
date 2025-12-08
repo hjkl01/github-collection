@@ -1,95 +1,29 @@
+
 ---
 title: axum
 ---
 
+### [tokio-rs axum](https://github.com/tokio-rs/axum)
 
-# Axum（tokio-rs/axum）
+**axum 核心内容总结：**
 
-[GitHub 项目地址](https://github.com/tokio-rs/axum)
+1. **项目功能**  
+   axum 是一个基于 Rust 的 Web 应用框架，专注于易用性和模块化设计，提供高效、灵活的请求处理能力，支持构建高性能的 Web 服务。
 
-## 项目简介
-Axum 是基于 Tokio 的 async/await Web 框架，目标是提供高性能、类型安全、可组合的 HTTP 服务器。
+2. **使用方法**  
+   - 通过 `Router` 定义路由，使用宏免费（macro-free）API 映射请求路径到处理函数。  
+   - 使用 `Json` 等提取器（extractors）自动解析请求体为结构体。  
+   - 依赖 `tokio`、`hyper` 和 `serde` 等库，需通过 Cargo 安装。  
+   - 示例代码包含 `GET`/`POST` 路由定义、请求处理及响应生成。
 
-## 主要特性
-- **类型安全**：Rust 的类型系统保证运行时错误最小化  
-- **可组合**：路由、Extractor、Middleware 等组件可自由组合  
-- **基于 Tower**：共享 Tower 的 Service 抽象，支持链式中间件、限流、超时、重试等  
-- **高性能**：利用 Tokio 的事件循环和多线程调度，适合大并发场景  
-- **易用**：简洁 API + 丰富示例，快速上手并且易于扩展
+3. **主要特性**  
+   - **无宏 API**：无需依赖宏定义路由，代码简洁。  
+   - **声明式解析**：通过提取器自动解析请求参数、JSON 等数据。  
+   - **错误处理**：提供简单、可预测的错误处理模型。  
+   - **生态集成**：基于 `tower` 和 `tower-http`，支持中间件、压缩、日志、授权等功能，兼容 `hyper` 和 `tonic` 生态。  
+   - **性能**：基于 `hyper` 实现，开销极低，性能接近原生 `hyper`。  
+   - **安全性**：全程使用安全 Rust 实现，禁用 `unsafe_code`。  
 
-## 核心功能
-| 功能 | 说明 |
-|------|------|
-| 路由 | 支持路径参数、查询参数、正则路径匹配等 |
-| Extractors | `Path`, `Query`, `Json`, `Form`, `State` 等内置 Extractor，亦可自定义 Extractor |
-| 中间件 | 通过 `tower_http` 或自定义 Service 实现日志、鉴权、错误处理等 |
-| 静态文件 | `ServeDir`, `ServeFile` 快速提供静态资源 |
-| WebSocket | `WebSocketUpgrade` 与 Tokio 的异步 I/O 整合 |
-| OpenAPI | 与 `utoipa` 等结合可自动生成 API 规范 |
-| 集成数据库 | 与 `sqlx`, `sea-orm`, `diesel` 等无缝对接 |
-
-## 快速开始
-
-```bash
-cargo add axum
-cargo add tower-http
-cargo add tokio --features full
-```
-
-```rust
-// src/main.rs
-use axum::{
-    routing::{get, post},
-    Router, Json,
-};
-use serde::{Serialize};
-
-#[derive(Serialize)]
-struct Greeting {
-    message: String,
-}
-
-async fn hello() -> Json<Greeting> {
-    Json(Greeting {
-        message: "Hello, Axum!".to_string(),
-    })
-}
-
-#[tokio::main]
-async fn main() {
-    let app = Router::new()
-        .route("/", get(hello))
-        .route("/echo", post(echo));
-
-    axum::Server::bind(&"0.0.0.0:3000".parse().unwrap())
-        .serve(app.into_make_service())
-        .await
-        .unwrap();
-}
-
-async fn echo(Json(body): Json<serde_json::Value>) -> Json<serde_json::Value> {
-    Json(body)
-}
-```
-
-### 运行
-
-```bash
-cargo run
-```
-
-访问 <http://localhost:3000> 查看 "Hello, Axum!"。
-
-## 目录结构示例
-
-```
-my_axum_app/
-├─ Cargo.toml
-├─ src/
-│  ├─ main.rs
-│  └─ ...
-```
-
-## 参考资料
-- 官方文档: https://docs.rs/axum
-- GitHub 仓库: https://github.com/tokio-rs/axum
+4. **注意事项**  
+   - 当前 `main` 分支处于 0.9 版本开发中，存在 breaking changes，稳定版本见 `0.8.x` 分支。  
+   - 需 Rust 1.78 及以上版本支持。

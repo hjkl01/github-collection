@@ -1,70 +1,30 @@
+
 ---
 title: celery
 ---
 
-# Celery 项目
+### [celery celery](https://github.com/celery/celery)
 
-**GitHub 项目地址:** [https://github.com/celery/celery](https://github.com/celery/celery)
+**Celery核心内容总结：**
 
-## 主要特性
-Celery 是一个开源的分布式任务队列系统，专为 Python 设计。它支持异步任务处理、分布式执行和高可用性。主要特性包括：
-- **异步任务执行**：允许将耗时任务从主程序中分离出来，后台异步运行，提高应用响应速度。
-- **分布式支持**：可以跨多台机器和多个进程/线程执行任务，支持水平扩展。
-- **多种消息代理**：兼容 RabbitMQ、Redis、Amazon SQS 等作为消息 broker。
-- **结果存储**：支持将任务结果持久化到数据库、缓存或文件系统中。
-- **监控与管理**：内置 Flower 工具用于实时监控任务状态、性能和错误。
-- **定时任务**：类似于 cron 的调度功能，支持周期性任务执行。
-- **错误处理与重试**：自动重试失败任务，支持自定义重试策略。
-- **高性能**：基于事件驱动架构，支持 gevent 和 eventlet 等并发模型。
+1. **项目功能**  
+   Celery是一个基于Python的分布式任务队列系统，用于处理异步任务和定时任务。支持多种消息中间件（如RabbitMQ、Redis、Amazon SQS等）和结果存储后端（如数据库、云存储、文件系统等），适用于需要解耦和异步处理的场景。
 
-## 主要功能
-Celery 的核心功能围绕任务队列展开：
-- **任务定义**：使用装饰器（如 `@app.task`）将 Python 函数定义为可分发任务。
-- **任务调度**：通过 `delay()` 或 `apply_async()` 方法异步调用任务，支持参数传递、延迟执行和优先级设置。
-- **工作进程管理**：启动 worker 进程（`celery -A tasks worker`）来消费和执行队列中的任务。
-- **任务链与组合**：支持任务链（chord）、组（group）和画布（canvas）来构建复杂工作流。
-- **信号与事件**：提供任务事件钩子，用于日志记录、审计或外部集成。
-- **安全机制**：支持任务签名和访问控制，防止未授权执行。
+2. **使用方法**  
+   - 安装：可通过`pip`安装，或从源码编译。  
+   - 配置：定义任务函数，通过`@app.task`装饰器标记。  
+   - 启动：使用`celery worker`启动工作进程，通过消息中间件接收任务并执行。  
+   - 扩展：支持多种并发方式（如Eventlet、Gevent）和插件机制。
 
-## 用法
-### 安装
-```bash
-pip install celery
-# 对于 Redis broker
-pip install celery[redis]
-# 对于 RabbitMQ broker
-pip install celery[librabbitmq]
-```
+3. **主要特性**  
+   - **多中间件支持**：兼容AMQP、Redis、SQS、RabbitMQ等消息传输协议。  
+   - **灵活后端**：结果可存储在数据库（如SQLAlchemy、MongoDB）、云存储（如S3、Azure）或本地文件系统。  
+   - **任务管理**：支持任务重试、优先级、定时任务（使用Cron表达式）、任务链式调用。  
+   - **监控与调试**：提供管理界面（如Flower）用于实时监控任务状态和性能。  
+   - **高可用性**：支持集群部署、负载均衡和故障转移。  
 
-### 基本用法示例
-1. **创建 Celery 应用**：
-   ```python
-   from celery import Celery
+4. **适用场景**  
+   适用于需要处理大量异步任务、需要延迟执行或周期性任务的系统，如Web应用后台处理、数据处理流水线、实时消息队列等。  
 
-   app = Celery('tasks', broker='redis://localhost:6379/0')
-   ```
-
-2. **定义任务**：
-   ```python
-   @app.task
-   def add(x, y):
-       return x + y
-   ```
-
-3. **调用任务**：
-   ```python
-   result = add.delay(4, 5)  # 异步调用
-   print(result.get())  # 获取结果（阻塞）
-   ```
-
-4. **启动 Worker**：
-   ```bash
-   celery -A tasks worker --loglevel=info
-   ```
-
-5. **启动调度器（Beat）**（用于定时任务）：
-   ```bash
-   celery -A tasks beat --loglevel=info
-   ```
-
-更多高级用法请参考官方文档：http://docs.celeryproject.org/。
+5. **社区与支持**  
+   拥有活跃的社区，提供详细的文档和问题跟踪系统，支持通过GitHub提交贡献。

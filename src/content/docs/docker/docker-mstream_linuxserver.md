@@ -1,42 +1,24 @@
+
 ---
 title: docker-mstream
 ---
 
-# mStream Docker 项目
+### [linuxserver docker-mstream](https://github.com/linuxserver/docker-mstream)
 
-**项目地址:** [https://github.com/linuxserver/docker-mstream](https://github.com/linuxserver/docker-mstream)
+**项目功能**：  
+mStream 是一个基于 Docker 的音乐流媒体服务器，支持通过 Web 界面管理音乐库和播放列表，用户可自定义配置文件路径、端口映射及权限设置。
 
-## 主要特性
-- **开源音乐流媒体服务器**: mStream 是一个轻量级的自托管音乐流媒体解决方案，支持跨设备同步和流式传输音乐库。
-- **Docker 容器化部署**: 由 LinuxServer.io 维护，提供易于安装和管理的 Docker 镜像，支持多种架构（如 x86-64、ARM 等）。
-- **多平台支持**: 兼容 Linux、macOS 和 Windows 主机，支持 Web 界面访问和移动 App 客户端。
-- **高效资源使用**: 低内存占用，适合在 NAS、Raspberry Pi 或 VPS 上运行。
-- **安全特性**: 支持 HTTPS 配置和用户认证，确保音乐库隐私。
+**使用方法**：  
+1. **Docker Compose**：通过 `docker-compose.yml` 文件定义容器参数，如端口映射（`-p 3000:3000`）、用户权限（`PUID=1000`, `PGID=1000`）及配置目录（`-v /config`）。  
+2. **Docker CLI**：使用 `docker run` 命令直接运行容器，参数与 Compose 类似，需手动指定端口、卷挂载及环境变量。  
 
-## 主要功能
-- **音乐库管理**: 自动扫描和索引本地音乐文件夹，支持 MP3、FLAC 等常见格式。
-- **远程访问**: 通过 Web 界面或专用 App（如 Android/iOS）从任何设备流式传输音乐，无需上传到云端。
-- **同步功能**: 支持设备间音乐同步，自动更新新添加的曲目。
-- **播放列表支持**: 创建和管理播放列表，支持随机播放和跨设备共享。
-- **扩展性**: 可集成外部存储（如 SMB/NFS），并支持插件扩展（如 Last.fm 集成）。
+**主要特性**：  
+- **灵活配置**：支持通过环境变量（如 `TZ` 设置时区、`UMASK` 调整文件权限）和卷挂载（`/music` 存储音乐文件，`/config` 存储配置）定制化部署。  
+- **用户权限管理**：通过 `PUID` 和 `PGID` 确保容器与主机文件权限一致，避免因权限问题导致的配置异常。  
+- **日志与监控**：提供实时日志查看（`docker logs -f`）和容器版本查询（`docker inspect`）。  
+- **更新支持**：支持通过 `docker-compose pull` 或 `docker pull` 更新镜像，并通过 `docker-compose up -d` 或 `docker rm` 重建容器。  
+- **版本兼容性**：基于 Alpine Linux 构建，历史版本记录包括 Alpine 升级（如 3.10 至 3.20）、弃用 armhf 架构、迁移至 s6v3 等。  
 
-## 用法
-1. **安装 Docker**: 确保主机已安装 Docker 和 Docker Compose。
-2. **拉取镜像**: 使用命令 `docker pull lscr.io/linuxserver/mstream` 下载最新镜像。
-3. **运行容器**: 通过 Docker Compose 或命令行启动，例如：
-   ```
-   docker run -d \
-     --name=mstream \
-     -e PUID=1000 \
-     -e PGID=1000 \
-     -p 3000:3000 \
-     -v /path/to/music:/music \
-     -v /path/to/config:/config \
-     --restart unless-stopped \
-     lscr.io/linuxserver/mstream
-   ```
-   - `-v /path/to/music:/music`: 挂载音乐文件夹。
-   - `-v /path/to/config:/config`: 挂载配置文件目录。
-   - `-p 3000:3000`: 暴露 Web 端口。
-4. **访问界面**: 在浏览器中打开 `http://your-host-ip:3000`，设置用户名和密码后开始使用。
-5. **配置**: 编辑容器内的 `server.ini` 文件调整设置，如启用 HTTPS 或更改端口。更多细节参考项目 README。
+**注意事项**：  
+- mStream v5 后版本需通过 `config.json` 配置用户密码，弃用 `USER`、`PASSWORD` 环境变量。  
+- 镜像更新需重建容器，不建议在容器内直接更新应用。

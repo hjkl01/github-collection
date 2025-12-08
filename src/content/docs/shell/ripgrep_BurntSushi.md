@@ -1,31 +1,33 @@
+
 ---
 title: ripgrep
 ---
 
----
+### [BurntSushi ripgrep](https://github.com/BurntSushi/ripgrep)
 
-## title: ripgrep
+**项目核心内容总结：**
 
-# ripgrep
+**功能：**  
+ripgrep 是一个基于 Rust 的高性能文本搜索工具，支持递归搜索、正则表达式、多编码格式（如 UTF-8/UTF-16）及文件类型过滤，适用于代码、日志等文本处理场景。
 
-ripgrep 是一个快速、行导向的搜索工具，它递归搜索当前目录中的正则表达式模式，默认情况下尊重 gitignore 规则并跳过隐藏/二进制文件。
+**使用方法：**  
+1. **安装方式**  
+   - 通过包管理器（如 Debian/Ubuntu 的 `apt`、Homebrew、Nix、Guix 等）直接安装。  
+   - 使用 `cargo install ripgrep` 或 `cargo binstall ripgrep` 从源码安装。  
+   - 手动下载 `.deb` 或静态编译二进制文件。  
 
-## 功能
+2. **构建方式**  
+   - 需安装 Rust 1.85.0 及以上版本，执行 `cargo build --release` 编译。  
+   - 支持静态链接（如 MUSL 目标）及 PCRE2 库扩展（需启用 `pcre2` 特性）。  
 
-- 极致速度：使用 Rust 编写，搜索速度极快。
-- 递归搜索：自动遍历目录。
-- 正则表达式：支持 PCRE 风格的正则表达式。
-- 忽略规则：自动读取 .gitignore 等。
-- 多文件类型：支持按类型过滤。
-- 并行处理：利用多核 CPU。
-- 输出丰富：支持行号、高亮等。
+**主要特性：**  
+- **高性能**：利用 Rust 的内存安全和 SIMD 优化，搜索速度显著优于传统工具。  
+- **智能过滤**：自动跳过二进制文件，支持 `.gitignore` 规则过滤无关文件。  
+- **灵活输出**：支持 `--json` 格式输出，兼容语法高亮工具（如 delta）。  
+- **跨平台支持**：覆盖 Linux、Windows、macOS、FreeBSD、OpenBSD 等系统。  
+- **扩展性**：可通过 `pcre2` 特性集成 PCRE2 库，增强正则表达式功能。  
 
-## 用法
-
-1. 安装：从 GitHub Releases 下载，或使用 cargo install ripgrep。
-2. 运行：rg "pattern"
-3. 选项：rg -n "pattern" 显示行号。
-
-## 许可证
-
-ripgrep 根据 MIT 许可证或 Apache License, Version 2.0 发布。
+**其他：**  
+- 提供完整的测试套件（`cargo test --all`）。  
+- 支持多语言文档（如中文、西班牙语）。  
+- 安全漏洞可通过指定邮箱联系开发者报告。

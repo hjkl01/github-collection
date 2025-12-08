@@ -1,71 +1,36 @@
+
 ---
 title: uv
 ---
 
-# uv — Astral-sh
+### [astral-sh uv](https://github.com/astral-sh/uv)
 
-项目地址: https://github.com/astral-sh/uv
+**uv 项目核心内容总结：**
 
-## 简介
+uv 是一个用 Rust 编写的 Python 包和项目管理工具，旨在替代 pip、pip-tools、poetry 等工具，具备以下核心功能和特性：
 
-uv 是一个用 Rust 编写的高速、跨平台 Python 包管理器和构建工具，兼容 pip 的命令行接口，旨在提供更快、更可靠、更可预测的 Python 包安装与解析体验。
+### **主要功能**
+1. **快速依赖管理**：比 pip 快 10-100 倍，支持依赖解析、锁定和同步。
+2. **项目管理**：支持初始化项目、添加依赖、生成锁文件（平台无关的 requirements 文件）。
+3. **脚本与工具集成**：可运行脚本、安装第三方工具（如 black、flake8 等）。
+4. **Python 版本管理**：支持安装、切换 Python 版本，通过 `.python-version` 文件进行版本锁定。
+5. **兼容 pip 工作流**：提供 `uv pip` 接口，兼容 pip、pip-tools 命令，如 `pip compile`、`pip sync`。
 
-## 主要特性
+### **使用方法**
+- **安装**：通过 `curl` 安装（如 `curl -L https://astral.sh/uv/install.sh | sh`），或使用 `pip install uv`。
+- **项目操作**：
+  - 初始化项目：`uv init`。
+  - 添加依赖：`uv add package_name`。
+  - 生成锁文件：`uv pip compile requirements.in --universal --output-file requirements.txt`。
+  - 安装依赖：`uv pip sync requirements.txt`。
+- **Python 版本管理**：`uv python pin 3.11` 锁定版本，`uv python install 3.11` 安装指定版本。
 
-- **极速安装**：使用 Rust 的依赖解析与多线程下载，安装速度比 pip 快数倍。
-- **可锁定依赖**：`uv lock` 生成精确的 lockfile，确保团队环境一致。
-- **全功能包管理**：`uv sync`、`uv pip install`、`uv pip uninstall` 等命令覆盖 pip 常用功能。
-- **虚拟环境管理**：`uv venv` 创建、激活、删除虚拟环境，支持多版本 Python。
-- **构建与发布**：`uv build` 构建 wheel，`uv publish` 发布到 PyPI 或私服。
-- **运行脚本**：`uv run` 直接执行项目脚本，自动激活虚拟环境与依赖。
-- **缓存与离线**：本地缓存已下载的 wheel，支持离线安装。
-- **多平台兼容**：支持 Windows、macOS、Linux，且在 32/64 位平台均可运行。
-- **与 pip 兼容**：大多数 pip 命令行参数均被 uv 支持，迁移成本低。
+### **主要特性**
+- **高性能**：基于 PubGrub 依赖解析器，优化依赖解析速度。
+- **统一锁文件**：使用 `uv.lock` 文件实现跨平台、可复现的依赖管理。
+- **工作区支持**：类似 Cargo 的工作区机制，管理多项目依赖。
+- **磁盘优化**：通过全局缓存减少重复下载，节省磁盘空间。
+- **兼容性**：提供与 pip 兼容的接口，便于迁移和集成现有流程。
 
-## 基本用法
-
-```bash
-# 安装 uv
-curl -Ls https://astral.sh/uv/install.sh | sh
-
-# 生成 lockfile
-uv lock
-
-# 同步依赖到虚拟环境
-uv sync
-
-# 安装单个包
-uv pip install requests
-
-# 升级包
-uv pip install --upgrade requests
-
-# 创建虚拟环境
-uv venv .venv
-
-# 激活虚拟环境（bash/zsh）
-source .venv/bin/activate
-
-# 运行脚本
-uv run python script.py
-
-# 构建 wheel
-uv build
-
-# 发布到 PyPI
-uv publish
-
-# 查看已安装包
-uv list
-```
-
-## 进阶功能
-
-- **多项目依赖锁**：`uv lock --workspace` 生成工作区锁文件，支持 monorepo 风格项目。
-- **镜像源配置**：`uv config` 可以添加自定义镜像，加速国内访问。
-- **离线模式**：`uv sync --offline` 仅使用本地缓存安装。
-
-## 参考文档
-
-- 官方文档: https://docs.astral.sh/uv/
-- GitHub 仓库: https://github.com/astral-sh/uv
+### **适用场景**
+适用于需要快速构建 Python 项目、管理复杂依赖、多版本 Python 开发的场景，尤其适合对性能和可复现性有要求的团队。

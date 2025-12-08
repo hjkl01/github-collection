@@ -1,25 +1,28 @@
+
 ---
 title: docker-wechat
 ---
 
-# Docker WeChat 项目
+### [huan docker-wechat](https://github.com/huan/docker-wechat)
 
-## 项目地址
+**项目核心内容总结：**  
+该项目通过Docker容器在Linux系统上运行微信PC客户端，支持Debian、Ubuntu、openSUSE等发行版。  
 
-[https://github.com/huan/docker-wechat](https://github.com/huan/docker-wechat)
+**功能：**  
+- 在Linux桌面运行微信PC客户端，支持消息、文件传输、小程序等功能。  
+- 提供多版本微信客户端选择（如2.8.0.112、3.3.0.115等）。  
 
-## 主要特性
+**使用方法：**  
+1. 安装Docker及依赖（如Wine、X11转发支持）。  
+2. 执行Shell脚本启动容器，通过环境变量配置DPI缩放、微信版本等参数。  
 
-- **基于Docker的WeChat实现**：使用Docker容器化技术封装WeChat（微信）功能，支持在Linux、macOS和Windows等平台上运行，无需安装原生WeChat客户端。
-- **跨平台兼容**：通过Docker确保在不同操作系统上的一致性运行，适合服务器部署或开发环境。
-- **开源与模块化**：项目采用开源许可，基于Node.js和WeChaty框架构建，便于扩展和自定义。
-- **轻量级部署**：无需图形界面，支持命令行操作，资源占用低，适用于自动化脚本和机器人开发。
-- **集成WeChaty**：内置WeChaty puppet支持，可实现消息监听、发送、群管理等自动化功能。
+**主要特性：**  
+- 支持多显示器配置，可通过脚本调整显示器布局避免窗口显示异常。  
+- 提供`DOCHAT_DPI`环境变量自定义屏幕分辨率缩放比例。  
+- 支持通过`DOCHAT_WECHAT_VERSION`选择不同版本的微信客户端。  
+- 修复了声音、升级过程异常退出等问题。  
 
-## 主要功能
-
-DoChat is a Dockerized WeChat (盒装微信) PC Windows Client for Linux
-
-## 用法
-
-请参考项目文档获取详细用法。
+**注意事项：**  
+- 需安装`xhost`并执行`xhost +`允许X服务器连接。  
+- GNOME桌面用户需安装“TopIcons Plus Git”扩展显示系统托盘图标。  
+- 多显示器启动时需先单显示器运行，再调整布局，避免窗口位置异常。

@@ -1,81 +1,27 @@
+
 ---
 title: swagger-ui
 ---
 
+### [swagger-api swagger-ui](https://github.com/swagger-api/swagger-ui)
 
-# Swagger UI（swagger-api/swagger-ui）
+**核心内容总结：**  
+Swagger UI 是一个基于 OpenAPI 规范自动生成 API 文档的工具，支持可视化交互 API 接口，适用于开发、测试和文档展示。  
 
-> GitHub 项目地址: <https://github.com/swagger-api/swagger-ui>
+**功能与使用方法：**  
+1. **项目功能**：根据 OpenAPI 规范自动生成 API 文档，提供交互式界面测试接口，支持多种前端框架（如 React、Vue）。  
+2. **模块使用**：提供三个 NPM 模块：  
+   - `swagger-ui`：适用于单页应用，需依赖解析。  
+   - `swagger-ui-dist`：适用于无法解析依赖的项目，直接使用静态资源。  
+   - `swagger-ui-react`：集成 React 框架。  
+3. **兼容性**：支持 OpenAPI 3.0 规范，但部分功能（如 JSON 表单编辑器、多语言支持）未完全实现。  
 
-## 项目概览
-Swagger UI 是一套基于浏览器的前端工具，能够根据 OpenAPI（Swagger）规范生成交互式 API 文档。开发者可以通过它快速查看 API 接口、发送请求、查看响应结果，极大地提升文档可读性与测试效率。
+**主要特性：**  
+- 支持多种认证方式（OAuth2、API Key）。  
+- 提供丰富的 UI 组件和交互功能。  
+- 可定制主题和布局。  
 
-## 主要特性
-- **自动化渲染**：直接读取 `swagger.json` / `swagger.yaml`，无需手动编写文档页面。
-- **交互式 API 调用**：内置请求发送器（XHR/Fetch），可实时测试接口。
-- **丰富 UI**：支持主题切换、响应预览、参数验证、请求头/查询参数/路径参数/请求体可视化。
-- **可嵌入**：可通过 CDN、NPM 或直接下载源码嵌入任意 Web 项目。
-- **多语言支持**：默认支持多种语言，易于国际化。
-- **自定义扩展**：通过配置 `swagger-ui` 提供的插件机制，可扩展功能（如 OAuth2、Auth0 等身份验证）。
-
-## 功能与使用方式
-
-### 1. 安装方式
-```bash
-# 通过 npm
-npm install swagger-ui-dist
-
-# 通过 CDN
-<link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist/swagger-ui.css">
-<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
-<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
-```
-
-### 2. 基础配置示例
-```html
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <title>API 文档</title>
-  <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist/swagger-ui.css">
-</head>
-<body>
-  <div id="swagger-ui"></div>
-  <script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
-  <script src="https://unpkg.com/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
-  <script>
-    window.onload = () => {
-      const ui = SwaggerUIBundle({
-        url: 'https://petstore.swagger.io/v2/swagger.json', // 你的 OpenAPI 文档地址
-        dom_id: '#swagger-ui',
-        deepLinking: true,
-        presets: [
-          SwaggerUIBundle.presets.apis,
-          SwaggerUIStandalonePreset
-        ],
-        layout: "StandaloneLayout"
-      });
-      window.ui = ui;
-    };
-  </script>
-</body>
-</html>
-```
-
-### 3. 开发环境集成
-- **Vue / React / Angular**：使用官方提供的组件包 `swagger-ui-express` 与 `swagger-ui-react` 等进行集成。
-- **后端框架**：在 Node.js Express 中可以使用 `swagger-ui-express`，在 Spring Boot 中可使用 `springdoc-openapi-ui`。
-
-### 4. 常见配置
-- `docExpansion`（`none` | `list` | `full`）：控制 API 列表展开状态。
-- `defaultModelsExpandDepth`：模型展开深度。
-- `supportedSubmitMethods`：支持的请求方法。
-- `requestInterceptor` / `responseInterceptor`：请求/响应拦截器，用于身份验证、日志等。
-
-## 如何贡献
-- Fork 本仓库 → 新建分支 → 提交代码 → Pull Request。
-- 查看 `CONTRIBUTING.md`，遵循编码规范与测试要求。
-
----
-> 本文档旨在快速了解 Swagger UI 的核心特性与基本使用方法，详情请参阅官方文档及源代码。
+**注意事项：**  
+- **已知限制**：部分参数支持不完整，外部文件相对路径功能未实现。  
+- **安全问题**：需通过邮件（security@swagger.io）披露漏洞，而非公开问题跟踪器。  
+- **浏览器支持**：仅兼容最新版 Chrome、Safari、Firefox 和 Edge。

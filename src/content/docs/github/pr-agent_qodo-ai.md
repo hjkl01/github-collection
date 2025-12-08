@@ -1,67 +1,18 @@
+
 ---
-title: Pr Agent
+title: pr-agent
 ---
 
-# pr-agent
+### [qodo-ai pr-agent](https://github.com/qodo-ai/pr-agent)
 
-## 功能
+**项目核心内容总结：**  
+PR Agent 是 Qodo 开发的首个 AI 代码审查工具，用于自动化处理拉取请求（PR），支持代码审查、最佳实践校验、代码分析等功能。其开源版本包含基础功能，而 Qodo 的付费版（基于 Google Gemini 2.5 Pro）提供更高级特性：  
+1. **PR 与工单系统自动关联**：实现开发流程全链路追踪。  
+2. **自动执行团队编码规范**：学习并强制执行团队标准。  
+3. **代码静态与语义分析**：提前发现潜在问题。  
+4. **PR 聊天界面**：通过对话解释、总结或优化代码。  
+5. **变更影响评估**：分析代码改动对业务和技术的影响。  
 
-PR-Agent 是一个由 AI 驱动的工具，用于自动化拉取请求（Pull Request）的分析、反馈、建议等。它是第一个用于 PR 的 AI 助手，由 Qodo 团队构建并开源。
-
-主要功能包括：
-
-- 自动分析 PR 的代码变更
-- 提供智能反馈和改进建议
-- 生成 PR 描述和总结
-- 代码审查和质量检查
-- 支持多种命令如 /review, /describe, /improve 等
-
-这是一个开源的 legacy 版本，Qodo 提供了更先进的付费版本。
-
-## 用法
-
-PR-Agent 可以作为 GitHub Action 或 CLI 工具使用。
-
-### 安装
-
-通过 pip 安装：
-
-```bash
-pip install pr-agent
-```
-
-### 配置
-
-需要配置 OpenAI API key 和 GitHub token：
-
-```bash
-export OPENAI_API_KEY=your_key
-export GITHUB_TOKEN=your_token
-```
-
-### GitHub Action 使用
-
-在 `.github/workflows/pr-agent.yml` 中添加：
-
-```yaml
-name: PR Agent
-on:
-  pull_request:
-    types: [opened, reopened, synchronize]
-
-jobs:
-  pr_agent:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: qodo-ai/pr-agent@latest
-        with:
-          command: /review
-```
-
-### CLI 使用
-
-```bash
-pr-agent --pr_url https://github.com/owner/repo/pull/123 --command /review
-```
-
-更多用法请参考官方文档。
+**使用方式**：  
+- 开源版本可直接使用；  
+- 付费版本需申请（开源项目可免费获取），提供更高级功能及 250 个令牌额度，支持试用和贡献者奖励。

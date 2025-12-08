@@ -1,102 +1,23 @@
+
 ---
-title: Smear Cursor.Nvim
+title: smear-cursor.nvim
 ---
 
-# smear-cursor.nvim
+### [sphamba smear-cursor.nvim](https://github.com/sphamba/smear-cursor.nvim)
 
-## 功能介绍
+**项目功能**  
+为 Neovim 提供终端中的动画光标效果（类似 Neovide 的光标动画），适用于无法显示图形的终端环境，支持光标拖尾、插入模式动画等。
 
-smear-cursor.nvim 是一个 Neovim 插件，为光标添加涂抹效果动画，在所有终端中工作。该插件受 Neovide 的动画光标启发，旨在为仅能显示文本的终端/GUI 提供光标动画效果（不像 Neovide 或 Kitty 终端那样具有图形能力）。
+**使用方法**  
+- 安装：通过 [lazy.nvim](https://lazy.folke.io/) 或 [vim-plug](https://github.com/junegunn/vim-plug) 添加插件。  
+- 配置：启用插件后，使用 `:SmearCursorToggle` 或 Lua 脚本切换动画；通过 `opts` 调整参数（如动画速度、颜色、阻尼等）。
 
-主要特性：
+**主要特性**  
+- 支持切换缓冲区/窗口时的光标拖尾效果。  
+- 可配置动画参数（如 `stiffness`、`damping`、`time_interval`），调整动画流畅度和速度。  
+- 适配透明背景和无图形字体（如 Cascadia Code），减少阴影干扰。  
+- 提供插入模式下的光标动画，兼容 `termguicolors` 和无 GUI 颜色模式。  
 
-- 在所有终端中提供光标涂抹动画
-- 支持缓冲区切换和窗口切换时的涂抹效果
-- 支持插入模式下的光标涂抹
-- 可配置的动画参数，如刚度、阻尼、颜色等
-- 支持透明背景和无 GUI 颜色模式
-
-## 用法
-
-### 安装
-
-#### 使用 lazy.nvim
-
-在 `~/.config/nvim/lua/plugins/smear_cursor.lua` 中添加：
-
-```lua
-return {
-  "sphamba/smear-cursor.nvim",
-  opts = {},
-}
-```
-
-#### 使用 vim-plug
-
-在 `init.vim` 中添加：
-
-```vim
-call plug#begin()
-Plug 'sphamba/smear-cursor.nvim'
-call plug#end()
-
-lua require('smear_cursor').enabled = true
-```
-
-### 配置
-
-插件支持多种配置选项。以下是默认配置：
-
-```lua
-opts = {
-  -- 在切换缓冲区或窗口时涂抹光标
-  smear_between_buffers = true,
-  -- 在行内移动或到相邻行时涂抹光标
-  smear_between_neighbor_lines = true,
-  -- 在滚动时在缓冲区空间而不是屏幕空间绘制涂抹
-  scroll_buffer_space = true,
-  -- 如果字体支持旧式计算符号（块 unicode 符号），设置为 true
-  legacy_computing_symbols_support = false,
-  -- 在插入模式下涂抹光标
-  smear_insert_mode = true,
-}
-```
-
-### 命令
-
-- `:SmearCursorToggle` - 切换涂抹光标开关
-- `:lua require("smear_cursor").toggle()` - 切换涂抹光标开关
-
-### 示例配置
-
-#### 更快的涂抹效果
-
-```lua
-opts = {
-  stiffness = 0.8,
-  trailing_stiffness = 0.6,
-  damping = 0.95,
-}
-```
-
-#### 平滑光标（无涂抹）
-
-```lua
-opts = {
-  stiffness = 0.5,
-  trailing_stiffness = 0.5,
-  matrix_pixel_threshold = 0.5,
-}
-```
-
-#### 透明背景
-
-```lua
-opts = {
-  legacy_computing_symbols_support = true,
-}
-```
-
-### 最低要求
-
-- Neovim 0.10.2
+**注意事项**  
+- 部分终端可能因颜色覆盖导致光标阴影，需手动设置 `cursor_color` 或 `transparent_bg_fallback_color`。  
+- 与修改光标的其他插件可能存在兼容性问题。

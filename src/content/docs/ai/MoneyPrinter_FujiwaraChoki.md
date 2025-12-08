@@ -1,46 +1,23 @@
+
 ---
 title: MoneyPrinter
 ---
 
-# MoneyPrinter
+### [FujiwaraChoki MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter)
 
-MoneyPrinter 是一个自动化工具，用于创建 YouTube Shorts。只需提供一个视频主题，它就能自动生成视频脚本、语音、字幕，并使用 MoviePy 合成视频。
+**项目核心内容总结：**  
+MoneyPrinter 是一个自动化生成 YouTube Shorts 的工具，用户只需提供视频主题即可生成内容。  
 
-## 功能
+**主要功能与特性：**  
+1. **自动化生成**：通过输入视频主题，自动生成 YouTube Shorts。  
+2. **TikTok 集成**：需获取 TikTok 的 `sessionid`（通过浏览器登录后复制 Cookie 值）。  
+3. **依赖配置**：需正确设置 ImageMagick 路径（如 `.env` 文件中指定 `IMAGEMAGICK_BINARY` 路径，注意使用双反斜杠）。  
+4. **依赖安装**：若安装 `playsound` 失败，可先升级 `wheel` 后重试。  
 
-- 自动化生成 YouTube Shorts 视频
-- 使用 AI 生成视频脚本和内容
-- 支持语音合成和字幕添加
-- 基于 MoviePy 进行视频编辑和合成
-- 支持本地运行和 Docker 部署
+**使用方法：**  
+- 参考本地版本说明文档（[Local.md](Local.md)）进行部署。  
+- 通过 Discord 社区（[dsc.gg/fuji-community](https://dsc.gg/fuji-community)）咨询问题或寻求帮助。  
 
-## 用法
-
-1. 克隆仓库：
-
-   ```
-   git clone https://github.com/FujiwaraChoki/MoneyPrinter.git
-   cd MoneyPrinter
-   ```
-
-2. 安装依赖：
-
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. 设置环境变量：复制 `.env.example` 到 `.env`，并填写必要的 API 密钥和其他配置（如 OpenAI API、TikTok session ID 等）。
-
-4. 运行脚本：
-   - 本地运行：参考 `Local.md` 文件中的说明。
-   - Docker 运行：使用 `docker-compose.yml` 启动。
-
-5. 提供视频主题，工具将自动生成完整的视频。
-
-## 注意事项
-
-- 确保安装 ImageMagick，并正确设置路径。
-- 获取 TikTok session ID 需要登录 TikTok 浏览器并复制 cookie 中的 `sessionid` 值。
-- 如果遇到 `playsound` 安装问题，可以尝试 `pip install -U wheel` 和 `pip install -U playsound`。
-
-更多详细信息请参考项目的 [GitHub 页面](https://github.com/FujiwaraChoki/MoneyPrinter) 和本地说明文件。
+**注意事项：**  
+- 开发者暂不接受 Pull Request。  
+- 项目提供捐赠渠道，支持者可获得仓库内署名或 Logo 展示。
