@@ -5,8 +5,6 @@ title: redroid-doc
 
 ### [remote-android redroid-doc](https://github.com/remote-android/redroid-doc)
 
-语句通顺，准确，简洁，符合中文表达习惯，没有语法错误。
-</think>
 
 ### 项目核心内容总结
 

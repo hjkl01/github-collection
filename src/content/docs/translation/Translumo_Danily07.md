@@ -5,9 +5,6 @@ title: Translumo
 
 ### [Danily07 Translumo](https://github.com/Danily07/Translumo)
 
-语句不通顺，需要优化
-
-</think>
 
 **项目核心内容总结：**
 

@@ -5,9 +5,6 @@ title: sui
 
 ### [MystenLabs sui](https://github.com/MystenLabs/sui)
 
-语句不通顺，需要优化
-
-</think>
 
 **项目核心内容总结：**
 
