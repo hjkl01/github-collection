@@ -10,7 +10,7 @@ from api.api_ai import auto_category, api_ollama_generate, api_github_readme
 from api.github_trending_scraper import main as github_trending_scraper
 
 
-def clean_small_md_files(dirname="src/content/docs", min_size=500):
+def clean_small_md_files(dirname="src/content/docs", min_size=200):
     for root, dirs, files in os.walk(dirname):
         for file in files:
             if file.endswith(".md"):
@@ -71,8 +71,6 @@ async def category_md_files(dirname="src/content/docs/00"):
                 category = await auto_category(content, category_dirs)
                 logger.info(f"{md_file}, {category}")
                 if category in category_dirs:
-                    new_dir = os.path.join(dirname, category)
-                    os.makedirs(new_dir, exist_ok=True)
                     logger.debug(os.path.join(dirname, md_file))
                     logger.debug("src/content/docs/" + category + "/" + md_file)
                     os.rename(
