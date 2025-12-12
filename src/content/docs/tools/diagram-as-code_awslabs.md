@@ -27,8 +27,3 @@ title: diagram-as-code
 - CloudFormation模板生成图表功能为Beta，可能存在不准确问题。  
 - 使用`--dac-file`可将CloudFormation模板转换为自定义YAML文件，再通过`awsdac`生成图表。  
 - 支持通过MCP客户端配置服务器，生成图表并保存到指定路径。  
-
----
-
-### 图片URL修复（未发现明显错误，保持原样）  
-README中的图片路径为相对路径，如`doc/static/introduction2.png`和`examples/vpc-subnet-ec2-cfn.png`，假设项目结构正确，无需修改。若需绝对路径，需根据实际部署环境调整。

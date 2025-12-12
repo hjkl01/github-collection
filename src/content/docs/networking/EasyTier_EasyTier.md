@@ -32,8 +32,3 @@ EasyTier 是一个基于 Rust 和 Tokio 的去中心化虚拟专用网络（VPN�
 - **子网代理**：自动同步子网路由信息，实现跨节点 IP 访问。  
 - **零配置部署**：通过命令行参数快速启动网络，支持自托管公共共享节点。  
 - **扩展性**：兼容 WireGuard 客户端，支持与现有网络工具（如 ZeroTier、TailScale）协同使用。  
-
-**其他信息**  
-- 许可证：LGPL-3.0  
-- 赞助方：腾讯 EdgeOne、Langlang Cloud、RainCloud  
-- 社区支持：Telegram 群组及 QQ 群（多个群号）

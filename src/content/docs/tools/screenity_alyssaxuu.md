@@ -33,25 +33,3 @@ title: screenity
   3. 启动开发服务器：`npm start`。
   4. 在 Chrome 中加载开发版本（`chrome://extensions/`，选择 **加载未打包扩展程序**，指向 `build` 文件夹）。
   5. 修改代码后重新构建：`npm run build`。
-
----
-
-#### **4. 许可与商业用途**
-- **许可证**：从版本 3.0.0 起，采用 **GPLv3** 协议，需阅读 [许可证条款](https://github.com/alyssaxuu/screenity/blob/master/LICENSE)。
-- **商业用途**：如需基于 Screenity 开发商业产品，需联系开发者 [Alyssa X](https://alyssax.com)。
-
----
-
-#### **5. 致谢与推荐**
-- **Recall.ai**：提供桌面录制 API 服务，支持 Zoom、Google Meet 等平台。
-- **推荐平台**：[Product Hunt](https://www.producthunt.com/posts/screenity)、[Hacker News](https://news.ycombinator.com/item?id=25150804)。
-
----
-
-#### **6. 其他信息**
-- **高级功能**：[Screenity Pro](https://screenity.io/pro) 提供欧盟托管服务，支持链接分享、多场景编辑、字幕等功能。
-- **隐私保障**：所有数据本地处理，不收集用户信息，支持离线使用。
-
----
-
-通过以上信息，用户可根据需求选择安装方式或开发配置，充分利用 Screenity 的功能。
