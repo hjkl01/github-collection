@@ -19,6 +19,8 @@ def clean_small_md_files(dirname="src/content/docs", min_size=200):
                 if size < min_size:
                     os.remove(filepath)
                     logger.info(f"Deleted small file: {filepath}")
+                elif size > 2000:
+                    logger.warning(file)
 
 
 def extract_github_info(github_url):
@@ -129,7 +131,7 @@ async def main(args=None):
 title: repository
 ---
 
-### [username repository](https://github.com/username/repository)
+### [username repository](https://github.com/username/repository)  ![GitHub Repo stars](https://img.shields.io/github/stars/username/repository?style=social)
 
 """
 
