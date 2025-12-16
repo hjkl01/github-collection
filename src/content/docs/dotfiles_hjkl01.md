@@ -2,7 +2,7 @@
 title: dotfiles
 ---
 
-# GitHub 项目：hjkl01/dotfiles
+# GitHub 项目：hjkl01/dotfiles ![GitHub Repo stars](https://img.shields.io/github/stars/hjkl01/dotfiles?style=social)
 
 ## 项目地址
 [https://github.com/hjkl01/dotfiles](https://github.com/hjkl01/dotfiles)
