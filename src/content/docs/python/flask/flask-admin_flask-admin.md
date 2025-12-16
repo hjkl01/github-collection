@@ -3,6 +3,7 @@
 title: flask-admin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/flask-admin/flask-admin?style=social) ](https://github.com/flask-admin/flask-admin)
 ### [flask-admin flask-admin](https://github.com/flask-admin/flask-admin)
 
 **核心内容总结：**

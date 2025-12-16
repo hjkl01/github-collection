@@ -3,6 +3,7 @@
 title: containerd
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/containerd/containerd?style=social) ](https://github.com/containerd/containerd)
 ### [containerd containerd](https://github.com/containerd/containerd)
 
 containerd 是一个行业标准的容器运行时，专注于简单性、稳健性和可移植性，支持 Linux 和 Windows 系统，可管理容器的完整生命周期（包括镜像传输、存储、容器执行、网络配置等）。作为 CNCF 的毕业项目，其设计目标是嵌入到更大系统中，而非直接面向开发者或终端用户。  

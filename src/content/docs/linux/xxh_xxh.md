@@ -3,6 +3,7 @@
 title: xxh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xxh/xxh?style=social) ](https://github.com/xxh/xxh)
 ### [xxh xxh](https://github.com/xxh/xxh)
 
 **项目核心内容总结：**

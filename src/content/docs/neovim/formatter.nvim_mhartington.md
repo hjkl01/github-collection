@@ -3,6 +3,7 @@
 title: formatter.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mhartington/formatter.nvim?style=social) ](https://github.com/mhartington/formatter.nvim)
 ### [mhartington formatter.nvim](https://github.com/mhartington/formatter.nvim)
 
 **项目核心内容总结：**  

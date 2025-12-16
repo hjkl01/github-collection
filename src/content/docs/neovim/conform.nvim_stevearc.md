@@ -3,6 +3,7 @@
 title: conform.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stevearc/conform.nvim?style=social) ](https://github.com/stevearc/conform.nvim)
 ### [stevearc conform.nvim](https://github.com/stevearc/conform.nvim)
 
 **项目功能**  

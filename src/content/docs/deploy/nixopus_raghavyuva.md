@@ -3,6 +3,7 @@
 title: nixopus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/raghavyuva/nixopus?style=social) ](https://github.com/raghavyuva/nixopus)
 ### [raghavyuva nixopus](https://github.com/raghavyuva/nixopus)
 
 **核心内容总结：**

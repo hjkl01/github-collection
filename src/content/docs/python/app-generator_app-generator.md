@@ -3,6 +3,7 @@
 title: app-generator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/app-generator/app-generator?style=social) ](https://github.com/app-generator/app-generator)
 ### [app-generator app-generator](https://github.com/app-generator/app-generator)
 
 **核心内容总结：**  

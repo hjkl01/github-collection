@@ -3,6 +3,7 @@
 title: fish-shell
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social) ](https://github.com/fish-shell/fish-shell)
 ### [fish-shell fish-shell](https://github.com/fish-shell/fish-shell)
 
 fish 是一个用户友好的交互式命令行 shell，支持 macOS、Linux 等系统，具备语法高亮、实时自动补全、智能提示等功能，无需额外配置即可使用。

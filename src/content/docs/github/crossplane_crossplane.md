@@ -3,6 +3,7 @@
 title: crossplane
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social) ](https://github.com/crossplane/crossplane)
 ### [crossplane crossplane](https://github.com/crossplane/crossplane)
 
 Crossplane 是一个由 Cloud Native Computing Foundation（CNCF）支持的开源框架，用于构建无需编写代码的云原生控制平面。其核心功能包括：  

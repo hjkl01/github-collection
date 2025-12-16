@@ -3,6 +3,7 @@
 title: Scraperr
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jaypyles/Scraperr?style=social) ](https://github.com/jaypyles/Scraperr)
 ### [jaypyles Scraperr](https://github.com/jaypyles/Scraperr)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: WuKongIM
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WuKongIM/WuKongIM?style=social) ](https://github.com/WuKongIM/WuKongIM)
 ### [WuKongIM WuKongIM](https://github.com/WuKongIM/WuKongIM)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: tracing
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tokio-rs/tracing?style=social) ](https://github.com/tokio-rs/tracing)
 ### [tokio-rs tracing](https://github.com/tokio-rs/tracing)
 
 **项目核心内容总结：**  

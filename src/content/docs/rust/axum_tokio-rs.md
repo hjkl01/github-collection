@@ -3,6 +3,7 @@
 title: axum
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tokio-rs/axum?style=social) ](https://github.com/tokio-rs/axum)
 ### [tokio-rs axum](https://github.com/tokio-rs/axum)
 
 **axum 核心内容总结：**

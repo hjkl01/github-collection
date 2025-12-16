@@ -3,6 +3,7 @@
 title: public-apis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social) ](https://github.com/public-apis/public-apis)
 ### [public-apis public-apis](https://github.com/public-apis/public-apis)
 
 **项目功能**  

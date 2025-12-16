@@ -3,6 +3,7 @@
 title: simplex-chat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/simplex-chat/simplex-chat?style=social) ](https://github.com/simplex-chat/simplex-chat)
 ### [simplex-chat simplex-chat](https://github.com/simplex-chat/simplex-chat)
 
 SimpleX Chat 是一款注重隐私的加密通信应用，支持端到端加密、群组聊天、文件传输及跨平台使用（iOS/Android/桌面）。核心功能包括：  

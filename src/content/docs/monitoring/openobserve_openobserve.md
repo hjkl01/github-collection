@@ -3,6 +3,7 @@
 title: openobserve
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social) ](https://github.com/openobserve/openobserve)
 ### [openobserve openobserve](https://github.com/openobserve/openobserve)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: cadvisor
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google/cadvisor?style=social) ](https://github.com/google/cadvisor)
 ### [google cadvisor](https://github.com/google/cadvisor)
 
 **核心内容总结：**  

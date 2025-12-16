@@ -3,6 +3,7 @@
 title: focalboard
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mattermost/focalboard?style=social) ](https://github.com/mattermost/focalboard)
 ### [mattermost focalboard](https://github.com/mattermost/focalboard)
 
 **核心内容总结：**  

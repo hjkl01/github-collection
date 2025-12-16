@@ -3,6 +3,7 @@
 title: ecapture
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gojue/ecapture?style=social) ](https://github.com/gojue/ecapture)
 ### [gojue ecapture](https://github.com/gojue/ecapture)
 
 **项目核心内容总结：**

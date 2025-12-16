@@ -3,6 +3,7 @@
 title: tiny-rdm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tiny-craft/tiny-rdm?style=social) ](https://github.com/tiny-craft/tiny-rdm)
 ### [tiny-craft tiny-rdm](https://github.com/tiny-craft/tiny-rdm)
 
 **项目功能**  

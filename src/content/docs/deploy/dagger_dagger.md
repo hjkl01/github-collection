@@ -3,6 +3,7 @@
 title: dagger
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dagger/dagger?style=social) ](https://github.com/dagger/dagger)
 ### [dagger dagger](https://github.com/dagger/dagger)
 
 **Dagger 核心内容总结：**  

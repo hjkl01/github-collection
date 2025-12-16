@@ -3,6 +3,7 @@
 title: crossdesk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kunkundi/crossdesk?style=social) ](https://github.com/kunkundi/crossdesk)
 ### [kunkundi crossdesk](https://github.com/kunkundi/crossdesk)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: Mindustry
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Anuken/Mindustry?style=social) ](https://github.com/Anuken/Mindustry)
 ### [Anuken Mindustry](https://github.com/Anuken/Mindustry)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: short-video-factory
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/YILS-LIN/short-video-factory?style=social) ](https://github.com/YILS-LIN/short-video-factory)
 ### [YILS-LIN short-video-factory](https://github.com/YILS-LIN/short-video-factory)
 
 **项目核心内容总结：**

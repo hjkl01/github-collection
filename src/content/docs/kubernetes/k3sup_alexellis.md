@@ -3,6 +3,7 @@
 title: k3sup
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alexellis/k3sup?style=social) ](https://github.com/alexellis/k3sup)
 ### [alexellis k3sup](https://github.com/alexellis/k3sup)
 
 **项目核心内容总结：**

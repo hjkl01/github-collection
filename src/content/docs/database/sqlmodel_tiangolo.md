@@ -3,6 +3,7 @@
 title: sqlmodel
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tiangolo/sqlmodel?style=social) ](https://github.com/tiangolo/sqlmodel)
 ### [tiangolo sqlmodel](https://github.com/tiangolo/sqlmodel)
 
 **核心内容总结：**

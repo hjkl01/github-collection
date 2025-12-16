@@ -3,6 +3,7 @@
 title: orjson
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ijl/orjson?style=social) ](https://github.com/ijl/orjson)
 ### [ijl orjson](https://github.com/ijl/orjson)
 
 **项目核心内容总结：**  

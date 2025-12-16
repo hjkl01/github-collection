@@ -3,6 +3,7 @@
 title: semaphore
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ansible-semaphore/semaphore?style=social) ](https://github.com/ansible-semaphore/semaphore)
 ### [ansible-semaphore semaphore](https://github.com/ansible-semaphore/semaphore)
 
 **Semaphore UI 核心内容总结**  

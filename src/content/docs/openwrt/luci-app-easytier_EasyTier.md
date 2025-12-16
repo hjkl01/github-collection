@@ -3,6 +3,7 @@
 title: luci-app-easytier
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/EasyTier/luci-app-easytier?style=social) ](https://github.com/EasyTier/luci-app-easytier)
 ### [EasyTier luci-app-easytier](https://github.com/EasyTier/luci-app-easytier)
 
 **项目功能**  

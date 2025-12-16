@@ -3,6 +3,7 @@
 title: vllm-omni
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vllm-project/vllm-omni?style=social) ](https://github.com/vllm-project/vllm-omni)
 ### [vllm-project vllm-omni](https://github.com/vllm-project/vllm-omni)
 
 **项目核心内容总结：**  

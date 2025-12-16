@@ -3,6 +3,7 @@
 title: geetest-crack
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yanglbme/geetest-crack?style=social) ](https://github.com/yanglbme/geetest-crack)
 ### [yanglbme geetest-crack](https://github.com/yanglbme/geetest-crack)
 
 **核心内容总结：**  

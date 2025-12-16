@@ -3,6 +3,7 @@
 title: flask-security
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Flask-Middleware/flask-security?style=social) ](https://github.com/Flask-Middleware/flask-security)
 ### [Flask-Middleware flask-security](https://github.com/Flask-Middleware/flask-security)
 
 **核心内容总结：**  

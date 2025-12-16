@@ -3,6 +3,7 @@
 title: fx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/antonmedv/fx?style=social) ](https://github.com/antonmedv/fx)
 ### [antonmedv fx](https://github.com/antonmedv/fx)
 
 **核心内容总结：**  

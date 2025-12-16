@@ -3,6 +3,7 @@
 title: screenity
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alyssaxuu/screenity?style=social) ](https://github.com/alyssaxuu/screenity)
 ### [alyssaxuu screenity](https://github.com/alyssaxuu/screenity)
 
 ### **Screenity 核心信息总结**

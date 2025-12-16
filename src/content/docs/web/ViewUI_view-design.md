@@ -3,6 +3,7 @@
 title: ViewUI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/view-design/ViewUI?style=social) ](https://github.com/view-design/ViewUI)
 ### [view-design ViewUI](https://github.com/view-design/ViewUI)
 
 **核心内容总结：**  

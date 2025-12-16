@@ -3,6 +3,7 @@
 title: Stalker_GAMMA
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Grokitach/Stalker_GAMMA?style=social) ](https://github.com/Grokitach/Stalker_GAMMA)
 ### [Grokitach Stalker_GAMMA](https://github.com/Grokitach/Stalker_GAMMA)
 
 **核心内容总结：**  

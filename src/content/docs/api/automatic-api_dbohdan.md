@@ -3,6 +3,7 @@
 title: automatic-api
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dbohdan/automatic-api?style=social) ](https://github.com/dbohdan/automatic-api)
 ### [dbohdan automatic-api](https://github.com/dbohdan/automatic-api)
 
 该README文档列出了多个自动生成REST/GraphQL API的开源项目，核心功能是通过数据库schema自动创建API接口，简化后端开发。所有项目均支持Docker部署，主要特性包括：  

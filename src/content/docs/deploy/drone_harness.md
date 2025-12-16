@@ -3,6 +3,7 @@
 title: drone
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/harness/drone?style=social) ](https://github.com/harness/drone)
 ### [harness drone](https://github.com/harness/drone)
 
 Harness Open Source 是一个开源的开发平台，集成了代码托管、自动化 DevOps 流水线、托管开发环境（Gitspaces）和制品仓库等功能，提供端到端的 DevOps 解决方案。

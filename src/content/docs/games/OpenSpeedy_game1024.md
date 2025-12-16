@@ -3,6 +3,7 @@
 title: OpenSpeedy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/game1024/OpenSpeedy?style=social) ](https://github.com/game1024/OpenSpeedy)
 ### [game1024 OpenSpeedy](https://github.com/game1024/OpenSpeedy)
 
 **OpenSpeedy 核心内容总结**  

@@ -3,6 +3,7 @@
 title: amazon-q-developer-cli
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aws/amazon-q-developer-cli?style=social) ](https://github.com/aws/amazon-q-developer-cli)
 ### [aws amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli)
 
 **核心内容总结：**  

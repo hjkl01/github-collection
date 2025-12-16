@@ -3,6 +3,7 @@
 title: MagicMirror
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MagicMirrorOrg/MagicMirror?style=social) ](https://github.com/MagicMirrorOrg/MagicMirror)
 ### [MagicMirrorOrg MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror)
 
 **核心内容总结：**  

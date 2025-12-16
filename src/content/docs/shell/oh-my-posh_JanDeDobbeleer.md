@@ -3,6 +3,7 @@
 title: oh-my-posh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/JanDeDobbeleer/oh-my-posh?style=social) ](https://github.com/JanDeDobbeleer/oh-my-posh)
 ### [JanDeDobbeleer oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 
 Oh My Posh 是一个跨平台的终端提示主题引擎，支持 PowerShell、Zsh、Fish 等主流 Shell，提供高度可定制的提示符样式。主要特性包括：  

@@ -3,6 +3,7 @@
 title: tarantool
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tarantool/tarantool?style=social) ](https://github.com/tarantool/tarantool)
 ### [tarantool tarantool](https://github.com/tarantool/tarantool)
 
 **项目功能**  

@@ -3,6 +3,7 @@
 title: analytics
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/plausible/analytics?style=social) ](https://github.com/plausible/analytics)
 ### [plausible analytics](https://github.com/plausible/analytics)
 
 **Plausible Analytics 核心内容总结：**  

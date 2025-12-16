@@ -3,6 +3,7 @@
 title: blender-mcp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ahujasid/blender-mcp?style=social) ](https://github.com/ahujasid/blender-mcp)
 ### [ahujasid blender-mcp](https://github.com/ahujasid/blender-mcp)
 
 **项目功能**  

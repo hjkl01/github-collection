@@ -3,6 +3,7 @@
 title: solana
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/solana-labs/solana?style=social) ](https://github.com/solana-labs/solana)
 ### [solana-labs solana](https://github.com/solana-labs/solana)
 
 **项目核心内容总结：**  

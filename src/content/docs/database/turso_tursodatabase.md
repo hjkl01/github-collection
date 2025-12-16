@@ -3,6 +3,7 @@
 title: turso
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tursodatabase/turso?style=social) ](https://github.com/tursodatabase/turso)
 ### [tursodatabase turso](https://github.com/tursodatabase/turso)
 
 **核心内容总结：**

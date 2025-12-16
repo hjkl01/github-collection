@@ -3,6 +3,7 @@
 title: Courseplay_FS25
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Courseplay/Courseplay_FS25?style=social) ](https://github.com/Courseplay/Courseplay_FS25)
 ### [Courseplay Courseplay_FS25](https://github.com/Courseplay/Courseplay_FS25)
 
 **项目核心内容总结：**  

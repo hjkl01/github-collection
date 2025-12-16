@@ -3,6 +3,7 @@
 title: django-react-soft-dashboard
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/app-generator/django-react-soft-dashboard?style=social) ](https://github.com/app-generator/django-react-soft-dashboard)
 ### [app-generator django-react-soft-dashboard](https://github.com/app-generator/django-react-soft-dashboard)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: lo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/samber/lo?style=social) ](https://github.com/samber/lo)
 ### [samber lo](https://github.com/samber/lo)
 
 **项目核心内容总结：**  

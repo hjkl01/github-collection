@@ -3,6 +3,7 @@
 title: PySimpleGUI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PySimpleGUI/PySimpleGUI?style=social) ](https://github.com/PySimpleGUI/PySimpleGUI)
 ### [PySimpleGUI PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
 
 **核心内容总结：**  

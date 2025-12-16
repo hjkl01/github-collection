@@ -3,6 +3,7 @@
 title: git-flight-rules
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/k88hudson/git-flight-rules?style=social) ](https://github.com/k88hudson/git-flight-rules)
 ### [k88hudson git-flight-rules](https://github.com/k88hudson/git-flight-rules)
 
 **核心内容总结：**  

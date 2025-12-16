@@ -3,6 +3,7 @@
 title: AreaCity-JsSpider-StatsGov
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xiangyuecn/AreaCity-JsSpider-StatsGov?style=social) ](https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov)
 ### [xiangyuecn AreaCity-JsSpider-StatsGov](https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov)
 
 **项目核心内容总结：**  

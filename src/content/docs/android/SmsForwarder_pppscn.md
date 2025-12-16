@@ -3,6 +3,7 @@
 title: SmsForwarder
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pppscn/SmsForwarder?style=social) ](https://github.com/pppscn/SmsForwarder)
 ### [pppscn SmsForwarder](https://github.com/pppscn/SmsForwarder)
 
 **项目核心内容总结：**

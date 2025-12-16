@@ -3,6 +3,7 @@
 title: blink.indent
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/saghen/blink.indent?style=social) ](https://github.com/saghen/blink.indent)
 ### [saghen blink.indent](https://github.com/saghen/blink.indent)
 
 **项目核心内容总结**  

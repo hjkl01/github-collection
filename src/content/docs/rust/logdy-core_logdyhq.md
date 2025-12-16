@@ -3,6 +3,7 @@
 title: logdy-core
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/logdyhq/logdy-core?style=social) ](https://github.com/logdyhq/logdy-core)
 ### [logdyhq logdy-core](https://github.com/logdyhq/logdy-core)
 
 **Logdy 核心内容总结：**

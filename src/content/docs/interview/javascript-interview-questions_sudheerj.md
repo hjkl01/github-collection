@@ -3,6 +3,7 @@
 title: javascript-interview-questions
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sudheerj/javascript-interview-questions?style=social) ](https://github.com/sudheerj/javascript-interview-questions)
 ### [sudheerj javascript-interview-questions](https://github.com/sudheerj/javascript-interview-questions)
 
 **项目核心内容总结：**  

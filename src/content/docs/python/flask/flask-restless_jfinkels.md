@@ -3,6 +3,7 @@
 title: flask-restless
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jfinkels/flask-restless?style=social) ](https://github.com/jfinkels/flask-restless)
 ### [jfinkels flask-restless](https://github.com/jfinkels/flask-restless)
 
 **项目核心内容总结：**

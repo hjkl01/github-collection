@@ -3,6 +3,7 @@
 title: azerothcore-wotlk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/azerothcore/azerothcore-wotlk?style=social) ](https://github.com/azerothcore/azerothcore-wotlk)
 ### [azerothcore azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk)
 
 **核心内容总结：**

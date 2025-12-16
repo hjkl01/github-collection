@@ -3,6 +3,7 @@
 title: containers-the-hard-way
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/shuveb/containers-the-hard-way?style=social) ](https://github.com/shuveb/containers-the-hard-way)
 ### [shuveb containers-the-hard-way](https://github.com/shuveb/containers-the-hard-way)
 
 **项目核心内容总结：**

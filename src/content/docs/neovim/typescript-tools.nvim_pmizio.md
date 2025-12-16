@@ -3,6 +3,7 @@
 title: typescript-tools.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pmizio/typescript-tools.nvim?style=social) ](https://github.com/pmizio/typescript-tools.nvim)
 ### [pmizio typescript-tools.nvim](https://github.com/pmizio/typescript-tools.nvim)
 
 **项目核心内容总结：**

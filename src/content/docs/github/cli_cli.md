@@ -3,6 +3,7 @@
 title: cli
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cli/cli?style=social) ](https://github.com/cli/cli)
 ### [cli cli](https://github.com/cli/cli)
 
 ### 核心内容总结

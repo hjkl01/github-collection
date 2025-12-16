@@ -3,6 +3,7 @@
 title: tree-sitter
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tree-sitter/tree-sitter?style=social) ](https://github.com/tree-sitter/tree-sitter)
 ### [tree-sitter tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: polars
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pola-rs/polars?style=social) ](https://github.com/pola-rs/polars)
 ### [pola-rs polars](https://github.com/pola-rs/polars)
 
 ### 核心内容总结

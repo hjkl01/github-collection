@@ -3,6 +3,7 @@
 title: grm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gphper/grm?style=social) ](https://github.com/gphper/grm)
 ### [gphper grm](https://github.com/gphper/grm)
 
 **项目核心内容总结：**

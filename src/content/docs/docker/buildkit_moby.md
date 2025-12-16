@@ -3,6 +3,7 @@
 title: buildkit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/moby/buildkit?style=social) ](https://github.com/moby/buildkit)
 ### [moby buildkit](https://github.com/moby/buildkit)
 
 **BuildKit 核心内容总结：**

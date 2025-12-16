@@ -3,6 +3,7 @@
 title: compose
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/docker/compose?style=social) ](https://github.com/docker/compose)
 ### [docker compose](https://github.com/docker/compose)
 
 **Docker Compose 核心内容总结：**  

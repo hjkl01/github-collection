@@ -3,6 +3,7 @@
 title: Olares
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/beclab/Olares?style=social) ](https://github.com/beclab/Olares)
 ### [beclab Olares](https://github.com/beclab/Olares)
 
 **Olares 核心内容总结**  

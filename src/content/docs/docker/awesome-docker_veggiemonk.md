@@ -3,6 +3,7 @@
 title: awesome-docker
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/veggiemonk/awesome-docker?style=social) ](https://github.com/veggiemonk/awesome-docker)
 ### [veggiemonk awesome-docker](https://github.com/veggiemonk/awesome-docker)
 
 该README文档是Docker相关资源的全面汇总，核心内容包括：

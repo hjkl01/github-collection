@@ -3,6 +3,7 @@
 title: ore
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/regolith-labs/ore?style=social) ](https://github.com/regolith-labs/ore)
 ### [regolith-labs ore](https://github.com/regolith-labs/ore)
 
 ORE 是一个加密货币挖矿协议，支持挖矿、质押和管理员操作等功能。项目提供模块化指令结构，包含以下核心功能：

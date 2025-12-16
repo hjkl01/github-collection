@@ -3,6 +3,7 @@
 title: meeting-minutes
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Zackriya-Solutions/meeting-minutes?style=social) ](https://github.com/Zackriya-Solutions/meeting-minutes)
 ### [Zackriya-Solutions meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes)
 
 **项目核心内容总结：**  

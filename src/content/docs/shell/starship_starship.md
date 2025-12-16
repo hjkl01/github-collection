@@ -3,6 +3,7 @@
 title: starship
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/starship/starship?style=social) ](https://github.com/starship/starship)
 ### [starship starship](https://github.com/starship/starship)
 
 **Starship** 是一个跨平台的命令行提示符工具，支持多种 Shell（如 Bash、Zsh、Fish 等），提供高度可定制的提示符界面。其核心功能包括：

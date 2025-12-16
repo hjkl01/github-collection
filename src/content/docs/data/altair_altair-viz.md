@@ -3,6 +3,7 @@
 title: altair
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/altair-viz/altair?style=social) ](https://github.com/altair-viz/altair)
 ### [altair-viz altair](https://github.com/altair-viz/altair)
 
 **Vega-Altair** 是一个基于 Python 的声明式统计可视化库，依托 [Vega-Lite](https://vega.github.io/vega-lite/) 规范，提供简洁友好的 API，用于快速生成交互式数据可视化图表。  

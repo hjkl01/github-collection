@@ -3,6 +3,7 @@
 title: trio
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/python-trio/trio?style=social) ](https://github.com/python-trio/trio)
 ### [python-trio trio](https://github.com/python-trio/trio)
 
 **项目简介**  

@@ -3,6 +3,7 @@
 title: return-youtube-dislike
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Anarios/return-youtube-dislike?style=social) ](https://github.com/Anarios/return-youtube-dislike)
 ### [Anarios return-youtube-dislike](https://github.com/Anarios/return-youtube-dislike)
 
 **项目核心内容总结：**  

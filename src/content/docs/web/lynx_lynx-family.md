@@ -3,6 +3,7 @@
 title: lynx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lynx-family/lynx?style=social) ](https://github.com/lynx-family/lynx)
 ### [lynx-family lynx](https://github.com/lynx-family/lynx)
 
 **项目核心内容总结：**  

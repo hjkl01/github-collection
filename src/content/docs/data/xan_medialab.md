@@ -3,6 +3,7 @@
 title: xan
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/medialab/xan?style=social) ](https://github.com/medialab/xan)
 ### [medialab xan](https://github.com/medialab/xan)
 
 **项目核心内容总结：**

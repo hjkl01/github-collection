@@ -3,6 +3,7 @@
 title: mailcow-dockerized
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mailcow/mailcow-dockerized?style=social) ](https://github.com/mailcow/mailcow-dockerized)
 ### [mailcow mailcow-dockerized](https://github.com/mailcow/mailcow-dockerized)
 
 **项目核心内容总结：**  

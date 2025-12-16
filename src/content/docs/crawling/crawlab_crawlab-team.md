@@ -3,6 +3,7 @@
 title: crawlab
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/crawlab-team/crawlab?style=social) ](https://github.com/crawlab-team/crawlab)
 ### [crawlab-team crawlab](https://github.com/crawlab-team/crawlab)
 
 **项目核心内容总结：**  

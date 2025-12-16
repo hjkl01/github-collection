@@ -3,6 +3,7 @@
 title: penpot
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/penpot/penpot?style=social) ](https://github.com/penpot/penpot)
 ### [penpot penpot](https://github.com/penpot/penpot)
 
 **核心内容总结：**  

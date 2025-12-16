@@ -3,6 +3,7 @@
 title: loonflow
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/blackholll/loonflow?style=social) ](https://github.com/blackholll/loonflow)
 ### [blackholll loonflow](https://github.com/blackholll/loonflow)
 
 **项目核心内容总结：**  

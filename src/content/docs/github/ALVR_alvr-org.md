@@ -3,6 +3,7 @@
 title: ALVR
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alvr-org/ALVR?style=social) ](https://github.com/alvr-org/ALVR)
 ### [alvr-org ALVR](https://github.com/alvr-org/ALVR)
 
 **ALVR 核心内容总结：**

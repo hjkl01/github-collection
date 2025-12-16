@@ -3,6 +3,7 @@
 title: exatorrent
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/varbhat/exatorrent?style=social) ](https://github.com/varbhat/exatorrent)
 ### [varbhat exatorrent](https://github.com/varbhat/exatorrent)
 
 **项目核心内容总结：**

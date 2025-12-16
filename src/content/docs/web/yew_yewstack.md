@@ -3,6 +3,7 @@
 title: yew
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yewstack/yew?style=social) ](https://github.com/yewstack/yew)
 ### [yewstack yew](https://github.com/yewstack/yew)
 
 Yew 是一个基于 Rust 和 WebAssembly 的现代前端 Web 应用框架，支持多线程开发。其核心特性包括：  

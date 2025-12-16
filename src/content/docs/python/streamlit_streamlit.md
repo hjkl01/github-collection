@@ -3,6 +3,7 @@
 title: streamlit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social) ](https://github.com/streamlit/streamlit)
 ### [streamlit streamlit](https://github.com/streamlit/streamlit)
 
 **项目功能**  

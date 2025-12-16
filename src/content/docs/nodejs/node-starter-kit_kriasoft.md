@@ -3,6 +3,7 @@
 title: node-starter-kit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kriasoft/node-starter-kit?style=social) ](https://github.com/kriasoft/node-starter-kit)
 ### [kriasoft node-starter-kit](https://github.com/kriasoft/node-starter-kit)
 
 **Node.js API Starter Kit 核心内容总结**

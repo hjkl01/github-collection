@@ -3,6 +3,7 @@
 title: librespot
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/librespot-org/librespot?style=social) ](https://github.com/librespot-org/librespot)
 ### [librespot-org librespot](https://github.com/librespot-org/librespot)
 
 **项目核心内容总结：**

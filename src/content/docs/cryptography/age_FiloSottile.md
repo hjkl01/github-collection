@@ -3,6 +3,7 @@
 title: age
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FiloSottile/age?style=social) ](https://github.com/FiloSottile/age)
 ### [FiloSottile age](https://github.com/FiloSottile/age)
 
 **核心内容总结：**  

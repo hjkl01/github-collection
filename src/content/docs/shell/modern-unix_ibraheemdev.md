@@ -3,6 +3,7 @@
 title: modern-unix
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ibraheemdev/modern-unix?style=social) ](https://github.com/ibraheemdev/modern-unix)
 ### [ibraheemdev modern-unix](https://github.com/ibraheemdev/modern-unix)
 
 核心内容总结：  

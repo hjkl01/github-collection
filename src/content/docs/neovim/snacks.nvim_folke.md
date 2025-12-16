@@ -3,6 +3,7 @@
 title: snacks.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/snacks.nvim?style=social) ](https://github.com/folke/snacks.nvim)
 ### [folke snacks.nvim](https://github.com/folke/snacks.nvim)
 
 **项目核心内容总结：**  

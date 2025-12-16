@@ -3,6 +3,7 @@
 title: transfer.sh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dutchcoders/transfer.sh?style=social) ](https://github.com/dutchcoders/transfer.sh)
 ### [dutchcoders transfer.sh](https://github.com/dutchcoders/transfer.sh)
 
 **项目核心内容总结：**  

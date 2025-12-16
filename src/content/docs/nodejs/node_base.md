@@ -3,6 +3,7 @@
 title: node
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/base/node?style=social) ](https://github.com/base/node)
 ### [base node](https://github.com/base/node)
 
 **项目功能**  

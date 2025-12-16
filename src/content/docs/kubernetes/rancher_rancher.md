@@ -3,6 +3,7 @@
 title: rancher
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rancher/rancher?style=social) ](https://github.com/rancher/rancher)
 ### [rancher rancher](https://github.com/rancher/rancher)
 
 **Rancher 核心内容总结**  

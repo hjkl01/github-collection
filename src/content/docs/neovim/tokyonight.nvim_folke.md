@@ -3,6 +3,7 @@
 title: tokyonight.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/tokyonight.nvim?style=social) ](https://github.com/folke/tokyonight.nvim)
 ### [folke tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 
 **项目功能**：TokyoNight 是一个为 Neovim 设计的色彩主题插件，提供四种风格（storm、moon、night、day），支持透明模式、自定义颜色和高亮组，兼容多个插件（如 Lualine、Barbecue）。  

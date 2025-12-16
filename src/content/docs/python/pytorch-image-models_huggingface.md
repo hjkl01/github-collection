@@ -3,6 +3,7 @@
 title: pytorch-image-models
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/pytorch-image-models?style=social) ](https://github.com/huggingface/pytorch-image-models)
 ### [huggingface pytorch-image-models](https://github.com/huggingface/pytorch-image-models)
 
 **核心内容总结：**

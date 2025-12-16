@@ -3,6 +3,7 @@
 title: surrealdb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social) ](https://github.com/surrealdb/surrealdb)
 ### [surrealdb surrealdb](https://github.com/surrealdb/surrealdb)
 
 **项目核心内容总结：**  

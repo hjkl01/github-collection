@@ -3,6 +3,7 @@
 title: MoneyPrinterTurbo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo?style=social) ](https://github.com/harry0703/MoneyPrinterTurbo)
 ### [harry0703 MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
 
 **项目核心内容总结：**

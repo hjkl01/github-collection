@@ -3,6 +3,7 @@
 title: sa-sdk-android
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sensorsdata/sa-sdk-android?style=social) ](https://github.com/sensorsdata/sa-sdk-android)
 ### [sensorsdata sa-sdk-android](https://github.com/sensorsdata/sa-sdk-android)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: dae
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/daeuniverse/dae?style=social) ](https://github.com/daeuniverse/dae)
 ### [daeuniverse dae](https://github.com/daeuniverse/dae)
 
 **项目核心内容总结：**

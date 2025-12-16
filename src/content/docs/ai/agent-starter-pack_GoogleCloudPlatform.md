@@ -3,6 +3,7 @@
 title: agent-starter-pack
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/GoogleCloudPlatform/agent-starter-pack?style=social) ](https://github.com/GoogleCloudPlatform/agent-starter-pack)
 ### [GoogleCloudPlatform agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: coze-loop
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coze-dev/coze-loop?style=social) ](https://github.com/coze-dev/coze-loop)
 ### [coze-dev coze-loop](https://github.com/coze-dev/coze-loop)
 
 **核心内容总结：**

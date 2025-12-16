@@ -3,6 +3,7 @@
 title: orchest
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/orchest/orchest?style=social) ](https://github.com/orchest/orchest)
 ### [orchest orchest](https://github.com/orchest/orchest)
 
 **项目核心内容总结：**

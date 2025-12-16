@@ -3,6 +3,7 @@
 title: telescope.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-telescope/telescope.nvim?style=social) ](https://github.com/nvim-telescope/telescope.nvim)
 ### [nvim-telescope telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 **项目功能**  

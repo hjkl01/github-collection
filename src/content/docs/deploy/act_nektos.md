@@ -3,6 +3,7 @@
 title: act
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nektos/act?style=social) ](https://github.com/nektos/act)
 ### [nektos act](https://github.com/nektos/act)
 
 **项目核心内容总结：**  

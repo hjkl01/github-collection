@@ -3,6 +3,7 @@
 title: atrilabs-engine
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Atri-Labs/atrilabs-engine?style=social) ](https://github.com/Atri-Labs/atrilabs-engine)
 ### [Atri-Labs atrilabs-engine](https://github.com/Atri-Labs/atrilabs-engine)
 
 该README文件为一个开源项目的贡献者列表，展示了参与该项目的开发者及其贡献类型。项目功能、使用方法和特性等核心信息未在提供的文本中体现，仅有以下内容：

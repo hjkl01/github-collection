@@ -3,6 +3,7 @@
 title: Comment.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/numToStr/Comment.nvim?style=social) ](https://github.com/numToStr/Comment.nvim)
 ### [numToStr Comment.nvim](https://github.com/numToStr/Comment.nvim)
 
 **Comment.nvim** 是一款为 Neovim 设计的智能注释插件，支持以下核心功能：

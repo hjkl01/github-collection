@@ -3,6 +3,7 @@
 title: flask-restx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/python-restx/flask-restx?style=social) ](https://github.com/python-restx/flask-restx)
 ### [python-restx flask-restx](https://github.com/python-restx/flask-restx)
 
 **Flask-RESTX 核心内容总结：**  

@@ -3,6 +3,7 @@
 title: WeakAuras2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WeakAuras/WeakAuras2?style=social) ](https://github.com/WeakAuras/WeakAuras2)
 ### [WeakAuras WeakAuras2](https://github.com/WeakAuras/WeakAuras2)
 
 WeakAuras 是《魔兽世界》的插件，用于自定义显示游戏内增益、减益等信息的图形界面。其核心功能包括：  

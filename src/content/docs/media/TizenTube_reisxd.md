@@ -3,6 +3,7 @@
 title: TizenTube
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/reisxd/TizenTube?style=social) ](https://github.com/reisxd/TizenTube)
 ### [reisxd TizenTube](https://github.com/reisxd/TizenTube)
 
 **TizenTube 核心内容总结：**  

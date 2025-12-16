@@ -3,6 +3,7 @@
 title: dataset
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pudo/dataset?style=social) ](https://github.com/pudo/dataset)
 ### [pudo dataset](https://github.com/pudo/dataset)
 
 **项目核心内容总结：**

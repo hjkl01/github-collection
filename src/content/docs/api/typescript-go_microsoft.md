@@ -3,6 +3,7 @@
 title: typescript-go
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/typescript-go?style=social) ](https://github.com/microsoft/typescript-go)
 ### [microsoft typescript-go](https://github.com/microsoft/typescript-go)
 
 **核心内容总结：**

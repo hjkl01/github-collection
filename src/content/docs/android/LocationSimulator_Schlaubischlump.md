@@ -3,6 +3,7 @@
 title: LocationSimulator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Schlaubischlump/LocationSimulator?style=social) ](https://github.com/Schlaubischlump/LocationSimulator)
 ### [Schlaubischlump LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator)
 
 **项目核心内容总结：**  

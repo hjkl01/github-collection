@@ -3,6 +3,7 @@
 title: caddy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social) ](https://github.com/caddyserver/caddy)
 ### [caddyserver caddy](https://github.com/caddyserver/caddy)
 
 **项目核心内容总结：**

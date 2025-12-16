@@ -3,6 +3,7 @@
 title: netbird
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social) ](https://github.com/netbirdio/netbird)
 ### [netbirdio netbird](https://github.com/netbirdio/netbird)
 
 NetBird 是一个基于 WireGuard 的开源网络工具，提供免配置的对等私有网络和集中访问控制，支持跨平台设备和多用户管理。其核心功能包括：  

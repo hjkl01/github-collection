@@ -3,6 +3,7 @@
 title: zdir
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/helloxz/zdir?style=social) ](https://github.com/helloxz/zdir)
 ### [helloxz zdir](https://github.com/helloxz/zdir)
 
 Zdir 是一款基于 Go 语言和 Vue3 开发的多功能私有文件存储管理工具，支持文件索引、在线预览（支持图片、文档、音视频等）、私有文件管理、文件上传/下载/删除/重命名/移动/复制、全局搜索、WebDAV 服务、云下载、多语言界面等功能。适用于个人、工作室及小型团队在 NAS 或大容量 VPS 上部署，用于文件共享与管理。  

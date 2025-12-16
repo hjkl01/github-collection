@@ -3,6 +3,7 @@
 title: engine
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/playcanvas/engine?style=social) ](https://github.com/playcanvas/engine)
 ### [playcanvas engine](https://github.com/playcanvas/engine)
 
 **PlayCanvas 引擎核心内容总结：**

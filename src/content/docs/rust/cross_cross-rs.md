@@ -3,6 +3,7 @@
 title: cross
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cross-rs/cross?style=social) ](https://github.com/cross-rs/cross)
 ### [cross-rs cross](https://github.com/cross-rs/cross)
 
 **项目核心内容总结：**

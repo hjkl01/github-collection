@@ -3,6 +3,7 @@
 title: sharpkeys
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/randyrants/sharpkeys?style=social) ](https://github.com/randyrants/sharpkeys)
 ### [randyrants sharpkeys](https://github.com/randyrants/sharpkeys)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: vue3-element-admin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/youlaitech/vue3-element-admin?style=social) ](https://github.com/youlaitech/vue3-element-admin)
 ### [youlaitech vue3-element-admin](https://github.com/youlaitech/vue3-element-admin)
 
 ### 项目核心内容总结

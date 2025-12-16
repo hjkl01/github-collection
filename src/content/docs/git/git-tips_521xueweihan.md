@@ -3,6 +3,7 @@
 title: git-tips
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/521xueweihan/git-tips?style=social) ](https://github.com/521xueweihan/git-tips)
 ### [521xueweihan git-tips](https://github.com/521xueweihan/git-tips)
 
 该文档是Git操作指南，涵盖常用命令及工作流规范，核心内容包括：

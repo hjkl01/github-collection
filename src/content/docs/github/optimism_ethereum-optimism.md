@@ -3,6 +3,7 @@
 title: optimism
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ethereum-optimism/optimism?style=social) ](https://github.com/ethereum-optimism/optimism)
 ### [ethereum-optimism optimism](https://github.com/ethereum-optimism/optimism)
 
 **项目核心内容总结：**

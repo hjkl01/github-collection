@@ -3,6 +3,7 @@
 title: rnote
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/flxzt/rnote?style=social) ](https://github.com/flxzt/rnote)
 ### [flxzt rnote](https://github.com/flxzt/rnote)
 
 **Rnote 核心内容总结：**  

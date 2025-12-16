@@ -3,6 +3,7 @@
 title: another-tmp-mailbox
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rev1si0n/another-tmp-mailbox?style=social) ](https://github.com/rev1si0n/another-tmp-mailbox)
 ### [rev1si0n another-tmp-mailbox](https://github.com/rev1si0n/another-tmp-mailbox)
 
 **项目核心内容总结：**

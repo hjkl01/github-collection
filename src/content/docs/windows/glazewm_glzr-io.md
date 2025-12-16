@@ -3,6 +3,7 @@
 title: glazewm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/glzr-io/glazewm?style=social) ](https://github.com/glzr-io/glazewm)
 ### [glzr-io glazewm](https://github.com/glzr-io/glazewm)
 
 **项目核心内容总结：**  

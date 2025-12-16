@@ -3,6 +3,7 @@
 title: fastapi-react
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Buuntu/fastapi-react?style=social) ](https://github.com/Buuntu/fastapi-react)
 ### [Buuntu fastapi-react](https://github.com/Buuntu/fastapi-react)
 
 **项目核心内容总结：**

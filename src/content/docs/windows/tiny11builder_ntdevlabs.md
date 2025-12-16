@@ -3,6 +3,7 @@
 title: tiny11builder
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ntdevlabs/tiny11builder?style=social) ](https://github.com/ntdevlabs/tiny11builder)
 ### [ntdevlabs tiny11builder](https://github.com/ntdevlabs/tiny11builder)
 
 **核心内容总结：**  

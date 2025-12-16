@@ -3,6 +3,7 @@
 title: oxker
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mrjackwills/oxker?style=social) ](https://github.com/mrjackwills/oxker)
 ### [mrjackwills oxker](https://github.com/mrjackwills/oxker)
 
 **项目功能**  

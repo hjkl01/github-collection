@@ -3,6 +3,7 @@
 title: VCPToolBox
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lioensky/VCPToolBox?style=social) ](https://github.com/lioensky/VCPToolBox)
 ### [lioensky VCPToolBox](https://github.com/lioensky/VCPToolBox)
 
 **VCP项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: PaddleOCR
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social) ](https://github.com/PaddlePaddle/PaddleOCR)
 ### [PaddlePaddle PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 **项目核心内容总结：**

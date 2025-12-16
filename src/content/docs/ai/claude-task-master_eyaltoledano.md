@@ -3,6 +3,7 @@
 title: claude-task-master
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/eyaltoledano/claude-task-master?style=social) ](https://github.com/eyaltoledano/claude-task-master)
 ### [eyaltoledano claude-task-master](https://github.com/eyaltoledano/claude-task-master)
 
 **项目功能：**  

@@ -3,6 +3,7 @@
 title: sandman2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jeffknupp/sandman2?style=social) ](https://github.com/jeffknupp/sandman2)
 ### [jeffknupp sandman2](https://github.com/jeffknupp/sandman2)
 
 **项目核心内容总结：**  

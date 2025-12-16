@@ -3,6 +3,7 @@
 title: AdGuardHome
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AdguardTeam/AdGuardHome?style=social) ](https://github.com/AdguardTeam/AdGuardHome)
 ### [AdguardTeam AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: computer-science
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ossu/computer-science?style=social) ](https://github.com/ossu/computer-science)
 ### [ossu computer-science](https://github.com/ossu/computer-science)
 
 **项目核心内容总结：**  

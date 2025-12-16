@@ -3,6 +3,7 @@
 title: wechat-app-unpack
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/leo9960/wechat-app-unpack?style=social) ](https://github.com/leo9960/wechat-app-unpack)
 ### [leo9960 wechat-app-unpack](https://github.com/leo9960/wechat-app-unpack)
 
 **项目核心内容总结：**  

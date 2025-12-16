@@ -3,6 +3,7 @@
 title: docker-mailserver
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/docker-mailserver/docker-mailserver?style=social) ](https://github.com/docker-mailserver/docker-mailserver)
 ### [docker-mailserver docker-mailserver](https://github.com/docker-mailserver/docker-mailserver)
 
 **项目核心内容总结：**

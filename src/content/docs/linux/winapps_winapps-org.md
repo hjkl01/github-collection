@@ -3,6 +3,7 @@
 title: winapps
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/winapps-org/winapps?style=social) ](https://github.com/winapps-org/winapps)
 ### [winapps-org winapps](https://github.com/winapps-org/winapps)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: 15-minute-apps
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/learnpyqt/15-minute-apps?style=social) ](https://github.com/learnpyqt/15-minute-apps)
 ### [learnpyqt 15-minute-apps](https://github.com/learnpyqt/15-minute-apps)
 
 **核心内容总结：**  

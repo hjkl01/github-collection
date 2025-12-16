@@ -3,6 +3,7 @@
 title: Everywhere
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/DearVa/Everywhere?style=social) ](https://github.com/DearVa/Everywhere)
 ### [DearVa Everywhere](https://github.com/DearVa/Everywhere)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: vim-be-good
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ThePrimeagen/vim-be-good?style=social) ](https://github.com/ThePrimeagen/vim-be-good)
 ### [ThePrimeagen vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
 
 **项目核心内容总结：**

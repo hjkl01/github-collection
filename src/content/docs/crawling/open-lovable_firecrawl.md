@@ -3,6 +3,7 @@
 title: open-lovable
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/firecrawl/open-lovable?style=social) ](https://github.com/firecrawl/open-lovable)
 ### [firecrawl open-lovable](https://github.com/firecrawl/open-lovable)
 
 **项目功能**：通过AI聊天快速生成React应用，由Firecrawl团队开发，提供本地开发示例及云解决方案Lovable.dev。  

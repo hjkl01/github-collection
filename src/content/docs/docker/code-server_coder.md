@@ -3,6 +3,7 @@
 title: code-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coder/code-server?style=social) ](https://github.com/coder/code-server)
 ### [coder code-server](https://github.com/coder/code-server)
 
 **项目核心内容总结：**  

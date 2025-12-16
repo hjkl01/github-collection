@@ -3,6 +3,7 @@
 title: opencode.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sudo-tee/opencode.nvim?style=social) ](https://github.com/sudo-tee/opencode.nvim)
 ### [sudo-tee opencode.nvim](https://github.com/sudo-tee/opencode.nvim)
 
 **核心内容总结：**

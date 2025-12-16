@@ -3,6 +3,7 @@
 title: WhisperLiveKit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/QuentinFuxa/WhisperLiveKit?style=social) ](https://github.com/QuentinFuxa/WhisperLiveKit)
 ### [QuentinFuxa WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit)
 
 WhisperLiveKit 是一个支持实时语音转文字（STT）及说话人识别的工具，具有以下核心功能和特性：  

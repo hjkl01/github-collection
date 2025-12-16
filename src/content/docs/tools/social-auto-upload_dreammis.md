@@ -3,6 +3,7 @@
 title: social-auto-upload
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dreammis/social-auto-upload?style=social) ](https://github.com/dreammis/social-auto-upload)
 ### [dreammis social-auto-upload](https://github.com/dreammis/social-auto-upload)
 
 **项目核心内容总结**：

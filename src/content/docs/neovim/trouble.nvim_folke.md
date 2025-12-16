@@ -3,6 +3,7 @@
 title: trouble.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/trouble.nvim?style=social) ](https://github.com/folke/trouble.nvim)
 ### [folke trouble.nvim](https://github.com/folke/trouble.nvim)
 
 **项目功能**  

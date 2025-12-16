@@ -3,6 +3,7 @@
 title: LibreTV
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LibreSpark/LibreTV?style=social) ](https://github.com/LibreSpark/LibreTV)
 ### [LibreSpark LibreTV](https://github.com/LibreSpark/LibreTV)
 
 LibreTV 是一个轻量级、无需注册的在线视频搜索与播放平台，聚合多个视频源内容，支持多设备访问。项目提供多种部署方式（如 Vercel、Netlify、Cloudflare Pages、Docker 等），需设置 `PASSWORD` 环境变量以启用密码保护，禁止商业用途。  

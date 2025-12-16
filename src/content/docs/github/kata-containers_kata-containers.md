@@ -3,6 +3,7 @@
 title: kata-containers
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kata-containers/kata-containers?style=social) ](https://github.com/kata-containers/kata-containers)
 ### [kata-containers kata-containers](https://github.com/kata-containers/kata-containers)
 
 **Kata Containers 核心内容总结：**

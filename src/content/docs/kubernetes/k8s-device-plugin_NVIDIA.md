@@ -3,6 +3,7 @@
 title: k8s-device-plugin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/k8s-device-plugin?style=social) ](https://github.com/NVIDIA/k8s-device-plugin)
 ### [NVIDIA k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin)
 
 **项目核心内容总结：**  

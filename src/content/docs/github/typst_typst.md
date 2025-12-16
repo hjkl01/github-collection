@@ -3,6 +3,7 @@
 title: typst
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/typst/typst?style=social) ](https://github.com/typst/typst)
 ### [typst typst](https://github.com/typst/typst)
 
 Typst 是一个功能强大且易于学习的基于标记的排版系统，旨在替代 LaTeX。其核心功能包括：  

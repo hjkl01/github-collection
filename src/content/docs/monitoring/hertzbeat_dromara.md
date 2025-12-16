@@ -3,6 +3,7 @@
 title: hertzbeat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dromara/hertzbeat?style=social) ](https://github.com/dromara/hertzbeat)
 ### [dromara hertzbeat](https://github.com/dromara/hertzbeat)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: spotify-downloader
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/spotDL/spotify-downloader?style=social) ](https://github.com/spotDL/spotify-downloader)
 ### [spotDL spotify-downloader](https://github.com/spotDL/spotify-downloader)
 
 **核心内容总结：**

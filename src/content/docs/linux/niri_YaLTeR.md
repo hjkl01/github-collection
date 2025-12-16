@@ -3,6 +3,7 @@
 title: niri
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/YaLTeR/niri?style=social) ](https://github.com/YaLTeR/niri)
 ### [YaLTeR niri](https://github.com/YaLTeR/niri)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: redis-tui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mylxsw/redis-tui?style=social) ](https://github.com/mylxsw/redis-tui)
 ### [mylxsw redis-tui](https://github.com/mylxsw/redis-tui)
 
 **核心内容总结：**  

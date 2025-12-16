@@ -3,6 +3,7 @@
 title: mactype
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/snowie2000/mactype?style=social) ](https://github.com/snowie2000/mactype)
 ### [snowie2000 mactype](https://github.com/snowie2000/mactype)
 
 **核心内容总结：**  

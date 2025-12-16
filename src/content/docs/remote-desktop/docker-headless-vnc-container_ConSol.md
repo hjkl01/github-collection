@@ -3,6 +3,7 @@
 title: docker-headless-vnc-container
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ConSol/docker-headless-vnc-container?style=social) ](https://github.com/ConSol/docker-headless-vnc-container)
 ### [ConSol docker-headless-vnc-container](https://github.com/ConSol/docker-headless-vnc-container)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: awesome-flask
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/humiaozuzu/awesome-flask?style=social) ](https://github.com/humiaozuzu/awesome-flask)
 ### [humiaozuzu awesome-flask](https://github.com/humiaozuzu/awesome-flask)
 
 **核心内容总结**  

@@ -3,6 +3,7 @@
 title: Compose-Examples
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Haxxnet/Compose-Examples?style=social) ](https://github.com/Haxxnet/Compose-Examples)
 ### [Haxxnet Compose-Examples](https://github.com/Haxxnet/Compose-Examples)
 
 该README文档是一个Docker Compose示例项目集合，包含多个可直接部署的应用服务。核心内容为：  

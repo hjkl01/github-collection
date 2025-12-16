@@ -3,6 +3,7 @@
 title: sui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MystenLabs/sui?style=social) ](https://github.com/MystenLabs/sui)
 ### [MystenLabs sui](https://github.com/MystenLabs/sui)
 
 

@@ -3,6 +3,7 @@
 title: GoogleScraper
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NikolaiT/GoogleScraper?style=social) ](https://github.com/NikolaiT/GoogleScraper)
 ### [NikolaiT GoogleScraper](https://github.com/NikolaiT/GoogleScraper)
 
 **项目核心内容总结：**  

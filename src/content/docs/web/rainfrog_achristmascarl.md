@@ -3,6 +3,7 @@
 title: rainfrog
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/achristmascarl/rainfrog?style=social) ](https://github.com/achristmascarl/rainfrog)
 ### [achristmascarl rainfrog](https://github.com/achristmascarl/rainfrog)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: marimo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/marimo-team/marimo?style=social) ](https://github.com/marimo-team/marimo)
 ### [marimo-team marimo](https://github.com/marimo-team/marimo)
 
 **marimo** 是一个可重复、交互式且可分享的 Python 编程环境，旨在替代传统笔记本的 JSON 草稿形式。其核心功能包括：  

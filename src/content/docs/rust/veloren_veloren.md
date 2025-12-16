@@ -3,6 +3,7 @@
 title: veloren
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/veloren/veloren?style=social) ](https://github.com/veloren/veloren)
 ### [veloren veloren](https://github.com/veloren/veloren)
 
 **核心内容总结：**  

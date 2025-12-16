@@ -3,6 +3,7 @@
 title: judge0
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/judge0/judge0?style=social) ](https://github.com/judge0/judge0)
 ### [judge0 judge0](https://github.com/judge0/judge0)
 
 

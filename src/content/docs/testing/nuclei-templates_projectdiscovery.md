@@ -3,6 +3,7 @@
 title: nuclei-templates
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/projectdiscovery/nuclei-templates?style=social) ](https://github.com/projectdiscovery/nuclei-templates)
 ### [projectdiscovery nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
 
 **项目功能**  

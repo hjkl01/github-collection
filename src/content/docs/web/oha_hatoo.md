@@ -3,6 +3,7 @@
 title: oha
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hatoo/oha?style=social) ](https://github.com/hatoo/oha)
 ### [hatoo oha](https://github.com/hatoo/oha)
 
 **oha 核心内容总结**

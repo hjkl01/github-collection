@@ -3,6 +3,7 @@
 title: mason.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mason-org/mason.nvim?style=social) ](https://github.com/mason-org/mason.nvim)
 ### [mason-org mason.nvim](https://github.com/mason-org/mason.nvim)
 
 **项目功能**  

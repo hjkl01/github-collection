@@ -3,6 +3,7 @@
 title: Vita3K
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Vita3K/Vita3K?style=social) ](https://github.com/Vita3K/Vita3K)
 ### [Vita3K Vita3K](https://github.com/Vita3K/Vita3K)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: dbmate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/amacneil/dbmate?style=social) ](https://github.com/amacneil/dbmate)
 ### [amacneil dbmate](https://github.com/amacneil/dbmate)
 
 **项目核心内容总结：**

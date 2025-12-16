@@ -3,6 +3,7 @@
 title: PageIndex
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/VectifyAI/PageIndex?style=social) ](https://github.com/VectifyAI/PageIndex)
 ### [VectifyAI PageIndex](https://github.com/VectifyAI/PageIndex)
 
 **PageIndex 项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: Python
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TheAlgorithms/Python?style=social) ](https://github.com/TheAlgorithms/Python)
 ### [TheAlgorithms Python](https://github.com/TheAlgorithms/Python)
 
 **项目核心内容总结：**  

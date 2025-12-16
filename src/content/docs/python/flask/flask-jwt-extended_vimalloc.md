@@ -3,6 +3,7 @@
 title: flask-jwt-extended
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vimalloc/flask-jwt-extended?style=social) ](https://github.com/vimalloc/flask-jwt-extended)
 ### [vimalloc flask-jwt-extended](https://github.com/vimalloc/flask-jwt-extended)
 
 **项目核心内容总结：**

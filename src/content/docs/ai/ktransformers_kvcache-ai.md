@@ -3,6 +3,7 @@
 title: ktransformers
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kvcache-ai/ktransformers?style=social) ](https://github.com/kvcache-ai/ktransformers)
 ### [kvcache-ai ktransformers](https://github.com/kvcache-ai/ktransformers)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: hftbacktest
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nkaz001/hftbacktest?style=social) ](https://github.com/nkaz001/hftbacktest)
 ### [nkaz001 hftbacktest](https://github.com/nkaz001/hftbacktest)
 
 HftBacktest 是一个高频交易回测工具，支持多资产、多交易所的策略模拟和实时交易部署。其核心功能包括：基于订单簿（Level-3 数据）的深度重建、订单延迟模拟、市场做市策略回测（如 GLFT 模型）、多市场同时交易，以及通过 Rust 实现的实时交易机器人。主要特性包括：  

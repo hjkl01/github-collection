@@ -3,6 +3,7 @@
 title: locust
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/locustio/locust?style=social) ](https://github.com/locustio/locust)
 ### [locustio locust](https://github.com/locustio/locust)
 
 **Locust核心内容总结：**

@@ -3,6 +3,7 @@
 title: esbuild
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/evanw/esbuild?style=social) ](https://github.com/evanw/esbuild)
 ### [evanw esbuild](https://github.com/evanw/esbuild)
 
 esbuild 是一个极快的 JavaScript 打包工具，旨在提升构建工具性能，速度比现有工具快 10-100 倍。其核心功能包括：  

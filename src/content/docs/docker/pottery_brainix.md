@@ -3,6 +3,7 @@
 title: pottery
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/brainix/pottery?style=social) ](https://github.com/brainix/pottery)
 ### [brainix pottery](https://github.com/brainix/pottery)
 
 **项目核心内容总结：**

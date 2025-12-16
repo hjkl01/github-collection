@@ -3,6 +3,7 @@
 title: ai-agents-for-beginners
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/ai-agents-for-beginners?style=social) ](https://github.com/microsoft/ai-agents-for-beginners)
 ### [microsoft ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
 
 **核心内容总结：**  

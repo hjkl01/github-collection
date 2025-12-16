@@ -3,6 +3,7 @@
 title: sqlalchemy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sqlalchemy/sqlalchemy?style=social) ](https://github.com/sqlalchemy/sqlalchemy)
 ### [sqlalchemy sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
 
 **项目功能**  

@@ -3,6 +3,7 @@
 title: reinstall
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bin456789/reinstall?style=social) ](https://github.com/bin456789/reinstall)
 ### [bin456789 reinstall](https://github.com/bin456789/reinstall)
 
 **项目核心内容总结：**

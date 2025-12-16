@@ -3,6 +3,7 @@
 title: kagent
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kagent-dev/kagent?style=social) ](https://github.com/kagent-dev/kagent)
 ### [kagent-dev kagent](https://github.com/kagent-dev/kagent)
 
 **项目功能**  

@@ -3,6 +3,7 @@
 title: hashcat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hashcat/hashcat?style=social) ](https://github.com/hashcat/hashcat)
 ### [hashcat hashcat](https://github.com/hashcat/hashcat)
 
 hashcat 是全球最快的密码恢复工具，支持五种攻击模式和300余种优化哈希算法，可在 Linux、Windows 和 macOS 的 CPU、GPU 及其他硬件加速器上运行，并支持分布式密码破解。  

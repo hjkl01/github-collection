@@ -3,6 +3,7 @@
 title: ansible
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ansible/ansible?style=social) ](https://github.com/ansible/ansible)
 ### [ansible ansible](https://github.com/ansible/ansible)
 
 **Ansible核心内容总结**  

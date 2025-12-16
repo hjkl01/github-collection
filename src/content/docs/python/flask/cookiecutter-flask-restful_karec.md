@@ -3,6 +3,7 @@
 title: cookiecutter-flask-restful
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/karec/cookiecutter-flask-restful?style=social) ](https://github.com/karec/cookiecutter-flask-restful)
 ### [karec cookiecutter-flask-restful](https://github.com/karec/cookiecutter-flask-restful)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: RLinf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RLinf/RLinf?style=social) ](https://github.com/RLinf/RLinf)
 ### [RLinf RLinf](https://github.com/RLinf/RLinf)
 
 **项目核心内容总结：**  

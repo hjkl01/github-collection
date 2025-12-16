@@ -3,6 +3,7 @@
 title: kickstart.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-lua/kickstart.nvim?style=social) ](https://github.com/nvim-lua/kickstart.nvim)
 ### [nvim-lua kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 **kickstart.nvim 核心内容总结：**

@@ -3,6 +3,7 @@
 title: Kronos
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/shiyu-coder/Kronos?style=social) ](https://github.com/shiyu-coder/Kronos)
 ### [shiyu-coder Kronos](https://github.com/shiyu-coder/Kronos)
 
 **项目核心内容总结：**  

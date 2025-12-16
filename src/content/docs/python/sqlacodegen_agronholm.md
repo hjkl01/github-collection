@@ -3,6 +3,7 @@
 title: sqlacodegen
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/agronholm/sqlacodegen?style=social) ](https://github.com/agronholm/sqlacodegen)
 ### [agronholm sqlacodegen](https://github.com/agronholm/sqlacodegen)
 
 **项目核心内容总结**：

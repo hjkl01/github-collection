@@ -3,6 +3,7 @@
 title: vue-vben-admin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vbenjs/vue-vben-admin?style=social) ](https://github.com/vbenjs/vue-vben-admin)
 ### [vbenjs vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
 
 **Vue Vben Admin 核心内容总结：**

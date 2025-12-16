@@ -3,6 +3,7 @@
 title: SeleniumBase
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/seleniumbase/SeleniumBase?style=social) ](https://github.com/seleniumbase/SeleniumBase)
 ### [seleniumbase SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
 
 **SeleniumBase 核心内容总结：**

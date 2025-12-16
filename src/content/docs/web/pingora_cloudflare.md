@@ -3,6 +3,7 @@
 title: pingora
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cloudflare/pingora?style=social) ](https://github.com/cloudflare/pingora)
 ### [cloudflare pingora](https://github.com/cloudflare/pingora)
 
 **Pingora 核心内容总结**  

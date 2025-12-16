@@ -3,6 +3,7 @@
 title: Daft
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Eventual-Inc/Daft?style=social) ](https://github.com/Eventual-Inc/Daft)
 ### [Eventual-Inc Daft](https://github.com/Eventual-Inc/Daft)
 
 **Daft 项目核心内容总结：**

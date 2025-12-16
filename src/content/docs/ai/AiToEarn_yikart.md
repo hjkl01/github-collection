@@ -3,6 +3,7 @@
 title: AiToEarn
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yikart/AiToEarn?style=social) ](https://github.com/yikart/AiToEarn)
 ### [yikart AiToEarn](https://github.com/yikart/AiToEarn)
 
 **项目核心内容总结：**

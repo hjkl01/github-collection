@@ -3,6 +3,7 @@
 title: SafeLine
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chaitin/SafeLine?style=social) ](https://github.com/chaitin/SafeLine)
 ### [chaitin SafeLine](https://github.com/chaitin/SafeLine)
 
 SafeLine 是一款自托管的 Web 应用防火墙（WAF），用于防御 SQL 注入、XSS、代码注入、路径遍历、暴力破解等常见攻击，支持动态加密 HTML/JS 代码、IP 限流、反爬虫挑战、访问控制等功能。  

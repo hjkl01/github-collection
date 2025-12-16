@@ -3,6 +3,7 @@
 title: sqlx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jmoiron/sqlx?style=social) ](https://github.com/jmoiron/sqlx)
 ### [jmoiron sqlx](https://github.com/jmoiron/sqlx)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: databases
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/encode/databases?style=social) ](https://github.com/encode/databases)
 ### [encode databases](https://github.com/encode/databases)
 
 **项目功能**  

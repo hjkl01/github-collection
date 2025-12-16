@@ -3,6 +3,7 @@
 title: term.everything
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mmulet/term.everything?style=social) ](https://github.com/mmulet/term.everything)
 ### [mmulet term.everything](https://github.com/mmulet/term.everything)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: csghub-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenCSGs/csghub-server?style=social) ](https://github.com/OpenCSGs/csghub-server)
 ### [OpenCSGs csghub-server](https://github.com/OpenCSGs/csghub-server)
 
 **项目核心内容总结：**  

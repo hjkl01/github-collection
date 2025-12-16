@@ -3,6 +3,7 @@
 title: xiaomusic
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hanxi/xiaomusic?style=social) ](https://github.com/hanxi/xiaomusic)
 ### [hanxi xiaomusic](https://github.com/hanxi/xiaomusic)
 
 **项目核心内容总结：**

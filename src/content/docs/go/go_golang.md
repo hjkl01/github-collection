@@ -3,6 +3,7 @@
 title: go
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/golang/go?style=social) ](https://github.com/golang/go)
 ### [golang go](https://github.com/golang/go)
 
 **核心内容总结：**  

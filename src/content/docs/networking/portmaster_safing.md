@@ -3,6 +3,7 @@
 title: portmaster
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/safing/portmaster?style=social) ](https://github.com/safing/portmaster)
 ### [safing portmaster](https://github.com/safing/portmaster)
 
 **项目核心内容总结：**

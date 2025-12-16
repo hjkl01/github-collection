@@ -3,6 +3,7 @@
 title: n
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tj/n?style=social) ](https://github.com/tj/n)
 ### [tj n](https://github.com/tj/n)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: MoneyPrinter
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FujiwaraChoki/MoneyPrinter?style=social) ](https://github.com/FujiwaraChoki/MoneyPrinter)
 ### [FujiwaraChoki MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter)
 
 **项目核心内容总结：**  

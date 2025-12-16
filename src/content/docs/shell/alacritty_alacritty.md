@@ -3,6 +3,7 @@
 title: alacritty
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alacritty/alacritty?style=social) ](https://github.com/alacritty/alacritty)
 ### [alacritty alacritty](https://github.com/alacritty/alacritty)
 
 **核心内容总结：**  

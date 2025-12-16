@@ -3,6 +3,7 @@
 title: chat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tinode/chat?style=social) ](https://github.com/tinode/chat)
 ### [tinode chat](https://github.com/tinode/chat)
 
 **项目核心内容总结：**  

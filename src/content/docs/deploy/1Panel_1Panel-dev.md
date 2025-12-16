@@ -3,6 +3,7 @@
 title: 1Panel
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/1Panel-dev/1Panel?style=social) ](https://github.com/1Panel-dev/1Panel)
 ### [1Panel-dev 1Panel](https://github.com/1Panel-dev/1Panel)
 
 **核心内容总结：**

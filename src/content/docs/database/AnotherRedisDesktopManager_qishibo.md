@@ -3,6 +3,7 @@
 title: AnotherRedisDesktopManager
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qishibo/AnotherRedisDesktopManager?style=social) ](https://github.com/qishibo/AnotherRedisDesktopManager)
 ### [qishibo AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)
 
 **项目核心内容总结：**

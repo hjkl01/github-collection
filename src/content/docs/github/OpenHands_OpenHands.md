@@ -3,6 +3,7 @@
 title: OpenHands
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenHands/OpenHands?style=social) ](https://github.com/OpenHands/OpenHands)
 ### [OpenHands OpenHands](https://github.com/OpenHands/OpenHands)
 
 **项目核心内容总结：**  

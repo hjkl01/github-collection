@@ -3,6 +3,7 @@
 title: ToolJet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social) ](https://github.com/ToolJet/ToolJet)
 ### [ToolJet ToolJet](https://github.com/ToolJet/ToolJet)
 
 **核心内容总结：**

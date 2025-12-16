@@ -3,6 +3,7 @@
 title: gitea
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social) ](https://github.com/go-gitea/gitea)
 ### [go-gitea gitea](https://github.com/go-gitea/gitea)
 
 **核心内容总结：**  

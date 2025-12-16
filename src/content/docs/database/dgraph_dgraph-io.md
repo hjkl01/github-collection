@@ -3,6 +3,7 @@
 title: dgraph
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dgraph-io/dgraph?style=social) ](https://github.com/dgraph-io/dgraph)
 ### [dgraph-io dgraph](https://github.com/dgraph-io/dgraph)
 
 **核心内容总结：**

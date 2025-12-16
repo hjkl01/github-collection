@@ -3,6 +3,7 @@
 title: metallb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/metallb/metallb?style=social) ](https://github.com/metallb/metallb)
 ### [metallb metallb](https://github.com/metallb/metallb)
 
 **核心内容总结：**  

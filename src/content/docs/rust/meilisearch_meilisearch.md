@@ -3,6 +3,7 @@
 title: meilisearch
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social) ](https://github.com/meilisearch/meilisearch)
 ### [meilisearch meilisearch](https://github.com/meilisearch/meilisearch)
 
 **核心内容总结：**  

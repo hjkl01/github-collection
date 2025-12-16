@@ -3,6 +3,7 @@
 title: cloudbase-framework
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/cloudbase-framework?style=social) ](https://github.com/Tencent/cloudbase-framework)
 ### [Tencent cloudbase-framework](https://github.com/Tencent/cloudbase-framework)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: awesome-mac
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/awesome-mac?style=social) ](https://github.com/jaywcjlove/awesome-mac)
 ### [jaywcjlove awesome-mac](https://github.com/jaywcjlove/awesome-mac)
 
 **核心内容总结：**  

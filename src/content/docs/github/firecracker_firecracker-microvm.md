@@ -3,6 +3,7 @@
 title: firecracker
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/firecracker-microvm/firecracker?style=social) ](https://github.com/firecracker-microvm/firecracker)
 ### [firecracker-microvm firecracker](https://github.com/firecracker-microvm/firecracker)
 
 **项目核心内容总结：**

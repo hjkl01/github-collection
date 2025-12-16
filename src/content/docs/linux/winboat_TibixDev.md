@@ -3,6 +3,7 @@
 title: winboat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TibixDev/winboat?style=social) ](https://github.com/TibixDev/winboat)
 ### [TibixDev winboat](https://github.com/TibixDev/winboat)
 
 **项目核心内容总结：**

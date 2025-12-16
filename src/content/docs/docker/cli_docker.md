@@ -3,6 +3,7 @@
 title: cli
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/docker/cli?style=social) ](https://github.com/docker/cli)
 ### [docker cli](https://github.com/docker/cli)
 
 **核心内容总结：**

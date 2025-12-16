@@ -3,6 +3,7 @@
 title: pgloader
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dimitri/pgloader?style=social) ](https://github.com/dimitri/pgloader)
 ### [dimitri pgloader](https://github.com/dimitri/pgloader)
 
 pgloader 是一个用于 PostgreSQL 的数据加载工具，核心功能是通过 `COPY` 命令实现高效数据迁移。其主要特性包括：  

@@ -3,6 +3,7 @@
 title: kombu
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/celery/kombu?style=social) ](https://github.com/celery/kombu)
 ### [celery kombu](https://github.com/celery/kombu)
 
 **项目核心内容总结：**  

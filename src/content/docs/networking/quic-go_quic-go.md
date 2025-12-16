@@ -3,6 +3,7 @@
 title: quic-go
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/quic-go/quic-go?style=social) ](https://github.com/quic-go/quic-go)
 ### [quic-go quic-go](https://github.com/quic-go/quic-go)
 
 **核心内容总结：**  

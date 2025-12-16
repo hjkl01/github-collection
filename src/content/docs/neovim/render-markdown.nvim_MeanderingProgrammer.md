@@ -3,6 +3,7 @@
 title: render-markdown.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MeanderingProgrammer/render-markdown.nvim?style=social) ](https://github.com/MeanderingProgrammer/render-markdown.nvim)
 ### [MeanderingProgrammer render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim)
 
 **项目核心内容总结：**  

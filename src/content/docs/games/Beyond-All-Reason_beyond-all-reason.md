@@ -3,6 +3,7 @@
 title: Beyond-All-Reason
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/beyond-all-reason/Beyond-All-Reason?style=social) ](https://github.com/beyond-all-reason/Beyond-All-Reason)
 ### [beyond-all-reason Beyond-All-Reason](https://github.com/beyond-all-reason/Beyond-All-Reason)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: django-autocomplete-light
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yourlabs/django-autocomplete-light?style=social) ](https://github.com/yourlabs/django-autocomplete-light)
 ### [yourlabs django-autocomplete-light](https://github.com/yourlabs/django-autocomplete-light)
 
 **项目核心内容总结：**  

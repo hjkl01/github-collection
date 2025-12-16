@@ -3,6 +3,7 @@
 title: overleaf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/overleaf/overleaf?style=social) ](https://github.com/overleaf/overleaf)
 ### [overleaf overleaf](https://github.com/overleaf/overleaf)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: fastapi-admin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fastapi-admin/fastapi-admin?style=social) ](https://github.com/fastapi-admin/fastapi-admin)
 ### [fastapi-admin fastapi-admin](https://github.com/fastapi-admin/fastapi-admin)
 
 **项目核心内容总结：**

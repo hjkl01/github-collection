@@ -3,6 +3,7 @@
 title: grype
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/anchore/grype?style=social) ](https://github.com/anchore/grype)
 ### [anchore grype](https://github.com/anchore/grype)
 
 **项目核心内容总结：**

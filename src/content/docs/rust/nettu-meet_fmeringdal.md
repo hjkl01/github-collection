@@ -3,6 +3,7 @@
 title: nettu-meet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fmeringdal/nettu-meet?style=social) ](https://github.com/fmeringdal/nettu-meet)
 ### [fmeringdal nettu-meet](https://github.com/fmeringdal/nettu-meet)
 
 **项目核心内容总结：**  

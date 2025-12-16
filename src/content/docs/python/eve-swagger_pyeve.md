@@ -3,6 +3,7 @@
 title: eve-swagger
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pyeve/eve-swagger?style=social) ](https://github.com/pyeve/eve-swagger)
 ### [pyeve eve-swagger](https://github.com/pyeve/eve-swagger)
 
 **项目核心内容总结：**  

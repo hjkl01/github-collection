@@ -3,6 +3,7 @@
 title: social-engineer-toolkit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/trustedsec/social-engineer-toolkit?style=social) ](https://github.com/trustedsec/social-engineer-toolkit)
 ### [trustedsec social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit)
 
 **项目核心内容总结：**  

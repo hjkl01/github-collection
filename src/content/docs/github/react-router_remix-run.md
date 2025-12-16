@@ -3,6 +3,7 @@
 title: react-router
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/remix-run/react-router?style=social) ](https://github.com/remix-run/react-router)
 ### [remix-run react-router](https://github.com/remix-run/react-router)
 
 **核心内容总结：**  

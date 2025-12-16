@@ -3,6 +3,7 @@
 title: BitNet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/BitNet?style=social) ](https://github.com/microsoft/BitNet)
 ### [microsoft BitNet](https://github.com/microsoft/BitNet)
 
 **项目核心内容总结**  

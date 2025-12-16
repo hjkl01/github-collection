@@ -3,6 +3,7 @@
 title: social-analyzer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qeeqbox/social-analyzer?style=social) ](https://github.com/qeeqbox/social-analyzer)
 ### [qeeqbox social-analyzer](https://github.com/qeeqbox/social-analyzer)
 
 **核心内容总结：**  

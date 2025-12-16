@@ -3,6 +3,7 @@
 title: VictoriaMetrics
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social) ](https://github.com/VictoriaMetrics/VictoriaMetrics)
 ### [VictoriaMetrics VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
 
 VictoriaMetrics 是一个高性能的时间序列数据库，用于监控和管理时间序列数据，支持作为 Prometheus 的替代方案。其核心功能包括：  

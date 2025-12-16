@@ -3,6 +3,7 @@
 title: helix
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/helix-editor/helix?style=social) ](https://github.com/helix-editor/helix)
 ### [helix-editor helix](https://github.com/helix-editor/helix)
 
 **项目核心内容总结：**  

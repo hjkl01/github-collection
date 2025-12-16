@@ -3,6 +3,7 @@
 title: cs-self-learning
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning?style=social) ](https://github.com/PKUFlyingPig/cs-self-learning)
 ### [PKUFlyingPig cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)
 
 **项目核心内容总结：**  

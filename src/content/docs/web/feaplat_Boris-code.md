@@ -3,6 +3,7 @@
 title: feaplat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Boris-code/feaplat?style=social) ](https://github.com/Boris-code/feaplat)
 ### [Boris-code feaplat](https://github.com/Boris-code/feaplat)
 
 **核心内容总结：**  

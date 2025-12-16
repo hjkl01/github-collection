@@ -3,6 +3,7 @@
 title: diving
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vicanso/diving?style=social) ](https://github.com/vicanso/diving)
 ### [vicanso diving](https://github.com/vicanso/diving)
 
 **项目核心内容总结：**  

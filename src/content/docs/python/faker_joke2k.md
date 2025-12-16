@@ -3,6 +3,7 @@
 title: faker
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/joke2k/faker?style=social) ](https://github.com/joke2k/faker)
 ### [joke2k faker](https://github.com/joke2k/faker)
 
 **项目核心内容总结：**  

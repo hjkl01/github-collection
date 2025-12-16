@@ -3,6 +3,7 @@
 title: pyecharts
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pyecharts/pyecharts?style=social) ](https://github.com/pyecharts/pyecharts)
 ### [pyecharts pyecharts](https://github.com/pyecharts/pyecharts)
 
 **项目核心内容总结：**  

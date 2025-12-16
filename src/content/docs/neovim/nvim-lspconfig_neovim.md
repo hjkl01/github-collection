@@ -3,6 +3,7 @@
 title: nvim-lspconfig
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/neovim/nvim-lspconfig?style=social) ](https://github.com/neovim/nvim-lspconfig)
 ### [neovim nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 
 ### 核心内容总结

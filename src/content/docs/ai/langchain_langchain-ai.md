@@ -3,6 +3,7 @@
 title: langchain
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social) ](https://github.com/langchain-ai/langchain)
 ### [langchain-ai langchain](https://github.com/langchain-ai/langchain)
 
 LangChain 是一个用于构建代理和大型语言模型（LLM）应用的框架，通过可互操作的组件和第三方集成简化 AI 应用开发，适应技术演变。  

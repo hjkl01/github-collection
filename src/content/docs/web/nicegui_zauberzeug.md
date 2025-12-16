@@ -3,6 +3,7 @@
 title: nicegui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zauberzeug/nicegui?style=social) ](https://github.com/zauberzeug/nicegui)
 ### [zauberzeug nicegui](https://github.com/zauberzeug/nicegui)
 
 **核心内容总结：**  

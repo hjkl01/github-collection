@@ -3,6 +3,7 @@
 title: blur-my-shell
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aunetx/blur-my-shell?style=social) ](https://github.com/aunetx/blur-my-shell)
 ### [aunetx blur-my-shell](https://github.com/aunetx/blur-my-shell)
 
 **核心内容总结：**

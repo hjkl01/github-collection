@@ -3,6 +3,7 @@
 title: bat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sharkdp/bat?style=social) ](https://github.com/sharkdp/bat)
 ### [sharkdp bat](https://github.com/sharkdp/bat)
 
 **bat工具核心内容总结：**  

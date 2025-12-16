@@ -3,6 +3,7 @@
 title: otclient
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mehah/otclient?style=social) ](https://github.com/mehah/otclient)
 ### [mehah otclient](https://github.com/mehah/otclient)
 
 **核心内容总结：**  

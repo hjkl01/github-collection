@@ -3,6 +3,7 @@
 title: claudecode.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coder/claudecode.nvim?style=social) ](https://github.com/coder/claudecode.nvim)
 ### [coder claudecode.nvim](https://github.com/coder/claudecode.nvim)
 
 **项目核心内容总结：**  

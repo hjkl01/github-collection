@@ -3,6 +3,7 @@
 title: uv
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/astral-sh/uv?style=social) ](https://github.com/astral-sh/uv)
 ### [astral-sh uv](https://github.com/astral-sh/uv)
 
 **uv 项目核心内容总结：**

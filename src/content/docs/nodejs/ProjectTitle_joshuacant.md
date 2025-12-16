@@ -3,6 +3,7 @@
 title: ProjectTitle
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/joshuacant/ProjectTitle?style=social) ](https://github.com/joshuacant/ProjectTitle)
 ### [joshuacant ProjectTitle](https://github.com/joshuacant/ProjectTitle)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: gopher64
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gopher64/gopher64?style=social) ](https://github.com/gopher64/gopher64)
 ### [gopher64 gopher64](https://github.com/gopher64/gopher64)
 
 **项目核心内容总结：**  

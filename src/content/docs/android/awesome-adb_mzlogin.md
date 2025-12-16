@@ -3,6 +3,7 @@
 title: awesome-adb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mzlogin/awesome-adb?style=social) ](https://github.com/mzlogin/awesome-adb)
 ### [mzlogin awesome-adb](https://github.com/mzlogin/awesome-adb)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: validator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/go-playground/validator?style=social) ](https://github.com/go-playground/validator)
 ### [go-playground validator](https://github.com/go-playground/validator)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: alertmanager
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social) ](https://github.com/prometheus/alertmanager)
 ### [prometheus alertmanager](https://github.com/prometheus/alertmanager)
 
 **项目核心内容总结：**

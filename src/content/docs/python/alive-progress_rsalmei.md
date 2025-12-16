@@ -3,6 +3,7 @@
 title: alive-progress
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rsalmei/alive-progress?style=social) ](https://github.com/rsalmei/alive-progress)
 ### [rsalmei alive-progress](https://github.com/rsalmei/alive-progress)
 
 **项目功能**  

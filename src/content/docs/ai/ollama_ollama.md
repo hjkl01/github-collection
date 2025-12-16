@@ -3,6 +3,7 @@
 title: ollama
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ollama/ollama?style=social) ](https://github.com/ollama/ollama)
 ### [ollama ollama](https://github.com/ollama/ollama)
 
 **项目核心内容总结：**

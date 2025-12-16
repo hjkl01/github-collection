@@ -3,6 +3,7 @@
 title: nes
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fogleman/nes?style=social) ](https://github.com/fogleman/nes)
 ### [fogleman nes](https://github.com/fogleman/nes)
 
 **核心内容总结：**  

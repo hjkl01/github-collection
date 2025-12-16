@@ -3,6 +3,7 @@
 title: API-Security-Checklist
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/shieldfy/API-Security-Checklist?style=social) ](https://github.com/shieldfy/API-Security-Checklist)
 ### [shieldfy API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist)
 
 该文档是一个**API安全检查清单**，旨在为开发者在设计、测试和发布API时提供全面的安全措施参考。其核心内容涵盖以下关键领域：

@@ -3,6 +3,7 @@
 title: erigon
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/erigontech/erigon?style=social) ](https://github.com/erigontech/erigon)
 ### [erigontech erigon](https://github.com/erigontech/erigon)
 
 **项目核心内容总结：**  

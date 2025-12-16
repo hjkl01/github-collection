@@ -3,6 +3,7 @@
 title: vue-pure-admin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pure-admin/vue-pure-admin?style=social) ](https://github.com/pure-admin/vue-pure-admin)
 ### [pure-admin vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)
 
 **项目核心内容总结：**

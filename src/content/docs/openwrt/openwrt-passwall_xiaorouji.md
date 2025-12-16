@@ -3,6 +3,7 @@
 title: openwrt-passwall
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xiaorouji/openwrt-passwall?style=social) ](https://github.com/xiaorouji/openwrt-passwall)
 ### [xiaorouji openwrt-passwall](https://github.com/xiaorouji/openwrt-passwall)
 
 **项目功能**：Passwall 是 OpenWrt 系统中用于实现网络分流的工具，兼容 Xray 和 Sing-box 的分流方式。  

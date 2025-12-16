@@ -3,6 +3,7 @@
 title: typos
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/crate-ci/typos?style=social) ](https://github.com/crate-ci/typos)
 ### [crate-ci typos](https://github.com/crate-ci/typos)
 
 **项目核心内容总结：**  

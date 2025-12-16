@@ -3,6 +3,7 @@
 title: blizzless-diiis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/blizzless/blizzless-diiis?style=social) ](https://github.com/blizzless/blizzless-diiis)
 ### [blizzless blizzless-diiis](https://github.com/blizzless/blizzless-diiis)
 
 **项目核心内容总结：**  

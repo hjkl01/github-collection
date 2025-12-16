@@ -3,6 +3,7 @@
 title: wails
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wailsapp/wails?style=social) ](https://github.com/wailsapp/wails)
 ### [wailsapp wails](https://github.com/wailsapp/wails)
 
 **项目核心内容总结：**  

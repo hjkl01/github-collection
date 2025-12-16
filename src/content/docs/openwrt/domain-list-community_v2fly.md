@@ -3,6 +3,7 @@
 title: domain-list-community
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/v2fly/domain-list-community?style=social) ](https://github.com/v2fly/domain-list-community)
 ### [v2fly domain-list-community](https://github.com/v2fly/domain-list-community)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: lazysql
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jorgerojas26/lazysql?style=social) ](https://github.com/jorgerojas26/lazysql)
 ### [jorgerojas26 lazysql](https://github.com/jorgerojas26/lazysql)
 
 **项目核心内容总结：**  

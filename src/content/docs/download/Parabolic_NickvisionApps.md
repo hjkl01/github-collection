@@ -3,6 +3,7 @@
 title: Parabolic
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NickvisionApps/Parabolic?style=social) ](https://github.com/NickvisionApps/Parabolic)
 ### [NickvisionApps Parabolic](https://github.com/NickvisionApps/Parabolic)
 
 **项目核心内容总结：**

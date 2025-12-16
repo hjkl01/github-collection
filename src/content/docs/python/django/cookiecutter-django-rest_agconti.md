@@ -3,6 +3,7 @@
 title: cookiecutter-django-rest
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/agconti/cookiecutter-django-rest?style=social) ](https://github.com/agconti/cookiecutter-django-rest)
 ### [agconti cookiecutter-django-rest](https://github.com/agconti/cookiecutter-django-rest)
 
 **核心内容总结：**  

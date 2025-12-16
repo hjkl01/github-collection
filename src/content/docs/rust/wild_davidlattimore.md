@@ -3,6 +3,7 @@
 title: wild
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/davidlattimore/wild?style=social) ](https://github.com/davidlattimore/wild)
 ### [davidlattimore wild](https://github.com/davidlattimore/wild)
 
 Wild 是一个旨在提升迭代开发效率的快速链接器，未来计划支持增量链接（当前尚未实现）。其核心功能包括：  

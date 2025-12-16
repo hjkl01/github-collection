@@ -3,6 +3,7 @@
 title: sqlite-web
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coleifer/sqlite-web?style=social) ](https://github.com/coleifer/sqlite-web)
 ### [coleifer sqlite-web](https://github.com/coleifer/sqlite-web)
 
 **核心内容总结：**  

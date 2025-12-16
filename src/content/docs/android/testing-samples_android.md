@@ -3,6 +3,7 @@
 title: testing-samples
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/android/testing-samples?style=social) ](https://github.com/android/testing-samples)
 ### [android testing-samples](https://github.com/android/testing-samples)
 
 **项目核心内容总结：**

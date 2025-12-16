@@ -3,6 +3,7 @@
 title: mullvadvpn-app
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mullvad/mullvadvpn-app?style=social) ](https://github.com/mullvad/mullvadvpn-app)
 ### [mullvad mullvadvpn-app](https://github.com/mullvad/mullvadvpn-app)
 
 **核心内容总结：**  

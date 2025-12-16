@@ -3,6 +3,7 @@
 title: frp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fatedier/frp?style=social) ](https://github.com/fatedier/frp)
 ### [fatedier frp](https://github.com/fatedier/frp)
 
 **项目核心内容总结：**

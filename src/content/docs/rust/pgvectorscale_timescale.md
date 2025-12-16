@@ -3,6 +3,7 @@
 title: pgvectorscale
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/timescale/pgvectorscale?style=social) ](https://github.com/timescale/pgvectorscale)
 ### [timescale pgvectorscale](https://github.com/timescale/pgvectorscale)
 
 **核心内容总结：**  

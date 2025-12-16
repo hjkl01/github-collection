@@ -3,6 +3,7 @@
 title: bullet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Mckinsey666/bullet?style=social) ](https://github.com/Mckinsey666/bullet)
 ### [Mckinsey666 bullet](https://github.com/Mckinsey666/bullet)
 
 **项目功能**：`bullet` 是一个用于美化 Python 命令行交互界面（CLI）的工具库，支持自定义提示样式、颜色、背景色、字体样式及表情符号，提供多种输入提示类型（如列表选择、复选框、密码输入、数字输入、是/否确认等）。  

@@ -3,6 +3,7 @@
 title: xh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ducaale/xh?style=social) ](https://github.com/ducaale/xh)
 ### [ducaale xh](https://github.com/ducaale/xh)
 
 **项目核心内容总结：**  

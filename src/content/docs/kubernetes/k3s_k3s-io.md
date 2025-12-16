@@ -3,6 +3,7 @@
 title: k3s
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social) ](https://github.com/k3s-io/k3s)
 ### [k3s-io k3s](https://github.com/k3s-io/k3s)
 
 **K3s核心内容总结：**

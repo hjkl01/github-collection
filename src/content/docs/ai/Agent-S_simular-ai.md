@@ -3,6 +3,7 @@
 title: Agent-S
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/simular-ai/Agent-S?style=social) ](https://github.com/simular-ai/Agent-S)
 ### [simular-ai Agent-S](https://github.com/simular-ai/Agent-S)
 
 **项目核心内容总结：**  

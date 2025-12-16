@@ -3,6 +3,7 @@
 title: Flask-AppBuilder
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dpgaspar/Flask-AppBuilder?style=social) ](https://github.com/dpgaspar/Flask-AppBuilder)
 ### [dpgaspar Flask-AppBuilder](https://github.com/dpgaspar/Flask-AppBuilder)
 
 **Flask App Builder 核心内容总结**  

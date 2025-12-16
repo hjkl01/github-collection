@@ -3,6 +3,7 @@
 title: zitadel
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social) ](https://github.com/zitadel/zitadel)
 ### [zitadel zitadel](https://github.com/zitadel/zitadel)
 
 **核心内容总结：**  

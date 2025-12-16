@@ -3,6 +3,7 @@
 title: umami
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/umami-software/umami?style=social) ](https://github.com/umami-software/umami)
 ### [umami-software umami](https://github.com/umami-software/umami)
 
 **项目功能**：Umami 是一个简单、快速且注重隐私的 Google Analytics 替代方案，提供网站访问数据分析功能。  

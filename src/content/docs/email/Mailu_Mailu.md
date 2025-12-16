@@ -3,6 +3,7 @@
 title: Mailu
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Mailu/Mailu?style=social) ](https://github.com/Mailu/Mailu)
 ### [Mailu Mailu](https://github.com/Mailu/Mailu)
 
 Mailu 是一个基于 Docker 镜像的开源邮件服务器解决方案，提供完整功能且易于部署和维护。其核心功能包括：标准邮件协议支持（IMAP/SMTP）、高级功能（邮件别名、域名转发、全文搜索）、多网页邮箱访问、用户管理（自动回复、邮件转发）、管理员控制（全局权限、域名分配、存储配额）、安全特性（强制 TLS、DKIM、反病毒扫描、垃圾邮件过滤）以及完全开源的 FOSS 组件。用户可通过 Docker 快速部署，或先体验官方演示服务器，相关文档和社区交流渠道（Matrix）也已提供。

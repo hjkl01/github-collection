@@ -3,6 +3,7 @@
 title: aiortc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aiortc/aiortc?style=social) ](https://github.com/aiortc/aiortc)
 ### [aiortc aiortc](https://github.com/aiortc/aiortc)
 
 **项目核心内容总结：**

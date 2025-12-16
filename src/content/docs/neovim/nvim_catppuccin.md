@@ -3,6 +3,7 @@
 title: nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/catppuccin/nvim?style=social) ](https://github.com/catppuccin/nvim)
 ### [catppuccin nvim](https://github.com/catppuccin/nvim)
 
 Catppuccin 是一款高度可定制的 Neovim/Vim 颜色主题插件，支持 LSP、Treesitter、Git 等多种插件的配置。核心功能包括：  

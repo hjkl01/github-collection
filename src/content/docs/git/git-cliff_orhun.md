@@ -3,6 +3,7 @@
 title: git-cliff
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/orhun/git-cliff?style=social) ](https://github.com/orhun/git-cliff)
 ### [orhun git-cliff](https://github.com/orhun/git-cliff)
 
 **项目核心内容总结：**  

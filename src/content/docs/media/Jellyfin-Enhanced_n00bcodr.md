@@ -3,6 +3,7 @@
 title: Jellyfin-Enhanced
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/n00bcodr/Jellyfin-Enhanced?style=social) ](https://github.com/n00bcodr/Jellyfin-Enhanced)
 ### [n00bcodr Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced)
 
 **Jellyfin Enhanced 核心内容总结：**  

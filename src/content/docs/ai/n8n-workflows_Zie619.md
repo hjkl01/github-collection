@@ -3,6 +3,7 @@
 title: n8n-workflows
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Zie619/n8n-workflows?style=social) ](https://github.com/Zie619/n8n-workflows)
 ### [Zie619 n8n-workflows](https://github.com/Zie619/n8n-workflows)
 
 **项目核心内容总结：**  

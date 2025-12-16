@@ -3,6 +3,7 @@
 title: cypress
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social) ](https://github.com/cypress-io/cypress)
 ### [cypress-io cypress](https://github.com/cypress-io/cypress)
 
 **项目核心内容总结：**  

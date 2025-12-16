@@ -3,6 +3,7 @@
 title: tokio
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tokio-rs/tokio?style=social) ](https://github.com/tokio-rs/tokio)
 ### [tokio-rs tokio](https://github.com/tokio-rs/tokio)
 
 **Tokio 是一个基于 Rust 的异步运行时框架，用于构建高性能、可靠且可扩展的应用程序。**  

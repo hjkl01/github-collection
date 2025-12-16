@@ -3,6 +3,7 @@
 title: mox
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mjl-/mox?style=social) ](https://github.com/mjl-/mox)
 ### [mjl- mox](https://github.com/mjl-/mox)
 
 **项目核心内容总结：**

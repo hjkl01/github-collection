@@ -3,6 +3,7 @@
 title: edgevpn
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mudler/edgevpn?style=social) ](https://github.com/mudler/edgevpn)
 ### [mudler edgevpn](https://github.com/mudler/edgevpn)
 
 **核心内容总结：**  

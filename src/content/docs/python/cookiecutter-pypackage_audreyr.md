@@ -3,6 +3,7 @@
 title: cookiecutter-pypackage
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/audreyr/cookiecutter-pypackage?style=social) ](https://github.com/audreyr/cookiecutter-pypackage)
 ### [audreyr cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
 
 **核心内容总结：**  

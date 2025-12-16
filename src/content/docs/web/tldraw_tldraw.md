@@ -3,6 +3,7 @@
 title: tldraw
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tldraw/tldraw?style=social) ](https://github.com/tldraw/tldraw)
 ### [tldraw tldraw](https://github.com/tldraw/tldraw)
 
 **项目功能**：tldraw 是一个用于在 React 中创建无限画布体验的库，是数字白板 tldraw.com 的核心软件。  

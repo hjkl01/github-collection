@@ -3,6 +3,7 @@
 title: flask-api
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/flask-api/flask-api?style=social) ](https://github.com/flask-api/flask-api)
 ### [flask-api flask-api](https://github.com/flask-api/flask-api)
 
 **核心内容总结：**  

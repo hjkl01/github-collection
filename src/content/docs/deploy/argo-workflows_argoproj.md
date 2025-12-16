@@ -3,6 +3,7 @@
 title: argo-workflows
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social) ](https://github.com/argoproj/argo-workflows)
 ### [argoproj argo-workflows](https://github.com/argoproj/argo-workflows)
 
 **核心内容总结：**

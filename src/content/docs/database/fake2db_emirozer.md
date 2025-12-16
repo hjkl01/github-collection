@@ -3,6 +3,7 @@
 title: fake2db
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/emirozer/fake2db?style=social) ](https://github.com/emirozer/fake2db)
 ### [emirozer fake2db](https://github.com/emirozer/fake2db)
 
 **项目功能**  

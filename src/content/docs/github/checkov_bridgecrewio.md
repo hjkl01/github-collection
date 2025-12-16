@@ -3,6 +3,7 @@
 title: checkov
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social) ](https://github.com/bridgecrewio/checkov)
 ### [bridgecrewio checkov](https://github.com/bridgecrewio/checkov)
 
 **Checkov 项目核心内容总结：**

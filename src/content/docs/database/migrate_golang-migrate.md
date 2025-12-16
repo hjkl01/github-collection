@@ -3,6 +3,7 @@
 title: migrate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/golang-migrate/migrate?style=social) ](https://github.com/golang-migrate/migrate)
 ### [golang-migrate migrate](https://github.com/golang-migrate/migrate)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: django-environ
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/joke2k/django-environ?style=social) ](https://github.com/joke2k/django-environ)
 ### [joke2k django-environ](https://github.com/joke2k/django-environ)
 
 **项目功能**  

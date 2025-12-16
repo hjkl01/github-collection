@@ -3,6 +3,7 @@
 title: live
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fanmingming/live?style=social) ](https://github.com/fanmingming/live)
 ### [fanmingming live](https://github.com/fanmingming/live)
 
 **核心内容总结：**  

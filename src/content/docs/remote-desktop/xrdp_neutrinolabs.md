@@ -3,6 +3,7 @@
 title: xrdp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/neutrinolabs/xrdp?style=social) ](https://github.com/neutrinolabs/xrdp)
 ### [neutrinolabs xrdp](https://github.com/neutrinolabs/xrdp)
 
 **项目核心内容总结：**

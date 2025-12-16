@@ -3,6 +3,7 @@
 title: fishes
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aldenhallak/fishes?style=social) ](https://github.com/aldenhallak/fishes)
 ### [aldenhallak fishes](https://github.com/aldenhallak/fishes)
 
 **核心内容总结：**  

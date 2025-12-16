@@ -3,6 +3,7 @@
 title: nvim-colorizer.lua
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/norcalli/nvim-colorizer.lua?style=social) ](https://github.com/norcalli/nvim-colorizer.lua)
 ### [norcalli nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)
 
 **项目功能**  

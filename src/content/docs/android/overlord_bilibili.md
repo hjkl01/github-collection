@@ -3,6 +3,7 @@
 title: overlord
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bilibili/overlord?style=social) ](https://github.com/bilibili/overlord)
 ### [bilibili overlord](https://github.com/bilibili/overlord)
 
 **Overlord** 是哔哩哔哩基于 Go 语言开发的缓存服务解决方案，提供 memcache 和 redis 集群的代理及自动化管理功能，核心特性包括：  

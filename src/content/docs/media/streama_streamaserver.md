@@ -3,6 +3,7 @@
 title: streama
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/streamaserver/streama?style=social) ](https://github.com/streamaserver/streama)
 ### [streamaserver streama](https://github.com/streamaserver/streama)
 
 Streama 是一款自托管的媒体管理工具，功能类似 Netflix，用于集中管理本地电影、电视剧并提供播放服务。核心功能包括：  

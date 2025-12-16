@@ -3,6 +3,7 @@
 title: discordo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ayn2op/discordo?style=social) ](https://github.com/ayn2op/discordo)
 ### [ayn2op discordo](https://github.com/ayn2op/discordo)
 
 **项目核心内容总结：**  

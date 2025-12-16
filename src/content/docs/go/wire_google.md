@@ -3,6 +3,7 @@
 title: wire
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google/wire?style=social) ](https://github.com/google/wire)
 ### [google wire](https://github.com/google/wire)
 
 **项目核心内容总结：**  

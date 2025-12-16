@@ -3,6 +3,7 @@
 title: atlantis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social) ](https://github.com/runatlantis/atlantis)
 ### [runatlantis atlantis](https://github.com/runatlantis/atlantis)
 
 **项目核心内容总结：**  

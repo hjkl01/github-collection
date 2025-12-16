@@ -3,6 +3,7 @@
 title: cobra
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/spf13/cobra?style=social) ](https://github.com/spf13/cobra)
 ### [spf13 cobra](https://github.com/spf13/cobra)
 
 **Cobra 核心内容总结**  

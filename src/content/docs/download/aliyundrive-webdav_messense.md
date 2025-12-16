@@ -3,6 +3,7 @@
 title: aliyundrive-webdav
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/messense/aliyundrive-webdav?style=social) ](https://github.com/messense/aliyundrive-webdav)
 ### [messense aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav)
 
 **项目核心内容总结：**

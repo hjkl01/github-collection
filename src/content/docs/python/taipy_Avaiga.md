@@ -3,6 +3,7 @@
 title: taipy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Avaiga/taipy?style=social) ](https://github.com/Avaiga/taipy)
 ### [Avaiga taipy](https://github.com/Avaiga/taipy)
 
 **Taipy** 是一款专为数据科学家和机器学习工程师设计的工具，用于构建 **生产就绪的 Web 应用**，支持数据和 AI 驱动的开发需求。其核心优势包括：

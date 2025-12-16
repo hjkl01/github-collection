@@ -3,6 +3,7 @@
 title: opencode.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NickvanDyke/opencode.nvim?style=social) ](https://github.com/NickvanDyke/opencode.nvim)
 ### [NickvanDyke opencode.nvim](https://github.com/NickvanDyke/opencode.nvim)
 
 **项目核心内容总结**  

@@ -3,6 +3,7 @@
 title: aibrix
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vllm-project/aibrix?style=social) ](https://github.com/vllm-project/aibrix)
 ### [vllm-project aibrix](https://github.com/vllm-project/aibrix)
 
 **AIBrix核心内容总结**  

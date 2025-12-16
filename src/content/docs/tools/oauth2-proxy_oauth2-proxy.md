@@ -3,6 +3,7 @@
 title: oauth2-proxy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=social) ](https://github.com/oauth2-proxy/oauth2-proxy)
 ### [oauth2-proxy oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy)
 
 OAuth2-Proxy 是一个灵活的开源工具，支持作为独立的反向代理或集成到现有基础设施中的中间件，通过 OAuth2/OIDC 认证保护 Web 应用。其核心功能包括：

@@ -3,6 +3,7 @@
 title: datastation
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/multiprocessio/datastation?style=social) ](https://github.com/multiprocessio/datastation)
 ### [multiprocessio datastation](https://github.com/multiprocessio/datastation)
 
 **核心内容总结：**

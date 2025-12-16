@@ -3,6 +3,7 @@
 title: NanaZip
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/M2Team/NanaZip?style=social) ](https://github.com/M2Team/NanaZip)
 ### [M2Team NanaZip](https://github.com/M2Team/NanaZip)
 
 **NanaZip 项目核心内容总结：**  

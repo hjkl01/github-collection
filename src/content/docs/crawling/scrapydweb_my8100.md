@@ -3,6 +3,7 @@
 title: scrapydweb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/my8100/scrapydweb?style=social) ](https://github.com/my8100/scrapydweb)
 ### [my8100 scrapydweb](https://github.com/my8100/scrapydweb)
 
 **ScrapydWeb** 是一个用于管理 **Scrapyd 集群** 的 Web 应用，支持 **Scrapy 日志分析与可视化**。  

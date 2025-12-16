@@ -3,6 +3,7 @@
 title: strawberry
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/strawberry-graphql/strawberry?style=social) ](https://github.com/strawberry-graphql/strawberry)
 ### [strawberry-graphql strawberry](https://github.com/strawberry-graphql/strawberry)
 
 **项目功能**：Strawberry GraphQL 是一个基于 Python 数据类的 GraphQL 库，允许通过定义 Python 类快速构建 GraphQL schema，支持 Django 集成和类型检查。  

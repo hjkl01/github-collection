@@ -3,6 +3,7 @@
 title: Retrieval-based-Voice-Conversion-WebUI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RVC-Project/Retrieval-based-Voice-Conversion-WebUI?style=social) ](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
 ### [RVC-Project Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
 
 **项目核心内容总结：**

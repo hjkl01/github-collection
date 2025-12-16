@@ -3,6 +3,7 @@
 title: KeymouseGo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/taojy123/KeymouseGo?style=social) ](https://github.com/taojy123/KeymouseGo)
 ### [taojy123 KeymouseGo](https://github.com/taojy123/KeymouseGo)
 
 KeymouseGo 是一个跨平台（Windows/Linux/macOS）自动化工具，用于记录用户的鼠标和键盘操作，并可重复执行录制的操作，适用于简化重复性任务。  

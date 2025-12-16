@@ -3,6 +3,7 @@
 title: TrackersListCollection
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/XIU2/TrackersListCollection?style=social) ](https://github.com/XIU2/TrackersListCollection)
 ### [XIU2 TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
 
 **项目核心内容总结：**  

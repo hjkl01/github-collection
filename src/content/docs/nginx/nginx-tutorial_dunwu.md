@@ -3,6 +3,7 @@
 title: nginx-tutorial
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dunwu/nginx-tutorial?style=social) ](https://github.com/dunwu/nginx-tutorial)
 ### [dunwu nginx-tutorial](https://github.com/dunwu/nginx-tutorial)
 
 **核心内容总结：**

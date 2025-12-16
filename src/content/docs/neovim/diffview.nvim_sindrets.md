@@ -3,6 +3,7 @@
 title: diffview.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sindrets/diffview.nvim?style=social) ](https://github.com/sindrets/diffview.nvim)
 ### [sindrets diffview.nvim](https://github.com/sindrets/diffview.nvim)
 
 **diffview.nvim** 是一个基于 Neovim 的插件，用于在 Git 仓库中高效查看文件差异。其核心功能包括：

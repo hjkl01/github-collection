@@ -3,6 +3,7 @@
 title: GulfOfMexico
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TodePond/GulfOfMexico?style=social) ](https://github.com/TodePond/GulfOfMexico)
 ### [TodePond GulfOfMexico](https://github.com/TodePond/GulfOfMexico)
 
 **核心内容总结：**  

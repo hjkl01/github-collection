@@ -3,6 +3,7 @@
 title: superpowers
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/obra/superpowers?style=social) ](https://github.com/obra/superpowers)
 ### [obra superpowers](https://github.com/obra/superpowers)
 
 **核心内容总结：**

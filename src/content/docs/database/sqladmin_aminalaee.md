@@ -3,6 +3,7 @@
 title: sqladmin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aminalaee/sqladmin?style=social) ](https://github.com/aminalaee/sqladmin)
 ### [aminalaee sqladmin](https://github.com/aminalaee/sqladmin)
 
 SQLAdmin 是一个为 SQLAlchemy 模型提供管理界面的工具，支持 Starlette 和 FastAPI 框架。核心功能包括：  

@@ -3,6 +3,7 @@
 title: neogen
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/danymat/neogen?style=social) ](https://github.com/danymat/neogen)
 ### [danymat neogen](https://github.com/danymat/neogen)
 
 **核心内容总结：**  

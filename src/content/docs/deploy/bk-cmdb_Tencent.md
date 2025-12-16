@@ -3,6 +3,7 @@
 title: bk-cmdb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/bk-cmdb?style=social) ](https://github.com/Tencent/bk-cmdb)
 ### [Tencent bk-cmdb](https://github.com/Tencent/bk-cmdb)
 
 **核心内容总结：**  

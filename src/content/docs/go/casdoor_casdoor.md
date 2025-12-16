@@ -3,6 +3,7 @@
 title: casdoor
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social) ](https://github.com/casdoor/casdoor)
 ### [casdoor casdoor](https://github.com/casdoor/casdoor)
 
 **核心内容总结：**  

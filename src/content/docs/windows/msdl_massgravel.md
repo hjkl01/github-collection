@@ -3,6 +3,7 @@
 title: msdl
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/massgravel/msdl?style=social) ](https://github.com/massgravel/msdl)
 ### [massgravel msdl](https://github.com/massgravel/msdl)
 
 **项目核心内容总结：**  

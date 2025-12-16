@@ -3,6 +3,7 @@
 title: noVNC
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/novnc/noVNC?style=social) ](https://github.com/novnc/noVNC)
 ### [novnc noVNC](https://github.com/novnc/noVNC)
 
 **项目核心内容总结：**  

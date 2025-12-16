@@ -3,6 +3,7 @@
 title: lan-mouse
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/feschber/lan-mouse?style=social) ](https://github.com/feschber/lan-mouse)
 ### [feschber lan-mouse](https://github.com/feschber/lan-mouse)
 
 **项目核心内容总结：**

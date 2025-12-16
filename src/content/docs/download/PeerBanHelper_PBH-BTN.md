@@ -3,6 +3,7 @@
 title: PeerBanHelper
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PBH-BTN/PeerBanHelper?style=social) ](https://github.com/PBH-BTN/PeerBanHelper)
 ### [PBH-BTN PeerBanHelper](https://github.com/PBH-BTN/PeerBanHelper)
 
 **PeerBanHelper 核心内容总结：**

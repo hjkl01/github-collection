@@ -3,6 +3,7 @@
 title: s-ui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alireza0/s-ui?style=social) ](https://github.com/alireza0/s-ui)
 ### [alireza0 s-ui](https://github.com/alireza0/s-ui)
 
 **项目核心内容总结：**

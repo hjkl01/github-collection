@@ -3,6 +3,7 @@
 title: dockge
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/louislam/dockge?style=social) ](https://github.com/louislam/dockge)
 ### [louislam dockge](https://github.com/louislam/dockge)
 
 **项目核心内容总结：**  

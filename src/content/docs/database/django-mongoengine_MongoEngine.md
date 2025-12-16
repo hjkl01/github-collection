@@ -3,6 +3,7 @@
 title: django-mongoengine
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MongoEngine/django-mongoengine?style=social) ](https://github.com/MongoEngine/django-mongoengine)
 ### [MongoEngine django-mongoengine](https://github.com/MongoEngine/django-mongoengine)
 
 **项目核心内容总结：**

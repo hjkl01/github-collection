@@ -3,6 +3,7 @@
 title: deepwiki-open
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AsyncFuncAI/deepwiki-open?style=social) ](https://github.com/AsyncFuncAI/deepwiki-open)
 ### [AsyncFuncAI deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open)
 
 **项目核心内容总结：**  

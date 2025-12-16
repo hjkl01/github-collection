@@ -3,6 +3,7 @@
 title: whatsapp-web.js
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pedroslopez/whatsapp-web.js?style=social) ](https://github.com/pedroslopez/whatsapp-web.js)
 ### [pedroslopez whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: ZLUDA
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vosen/ZLUDA?style=social) ](https://github.com/vosen/ZLUDA)
 ### [vosen ZLUDA](https://github.com/vosen/ZLUDA)
 
 **核心内容总结：**  

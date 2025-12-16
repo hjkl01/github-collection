@@ -3,6 +3,7 @@
 title: waydroid
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/waydroid/waydroid?style=social) ](https://github.com/waydroid/waydroid)
 ### [waydroid waydroid](https://github.com/waydroid/waydroid)
 
 **项目功能**：Waydroid 通过容器化技术，在 GNU/Linux 系统上运行完整的 Android 系统，提供 Android 应用支持。  

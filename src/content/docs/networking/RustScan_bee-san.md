@@ -3,6 +3,7 @@
 title: RustScan
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bee-san/RustScan?style=social) ](https://github.com/bee-san/RustScan)
 ### [bee-san RustScan](https://github.com/bee-san/RustScan)
 
 **项目核心内容总结：**

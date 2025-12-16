@@ -3,6 +3,7 @@
 title: rust-libp2p
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/libp2p/rust-libp2p?style=social) ](https://github.com/libp2p/rust-libp2p)
 ### [libp2p rust-libp2p](https://github.com/libp2p/rust-libp2p)
 
 **项目核心内容总结：**  

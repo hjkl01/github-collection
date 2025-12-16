@@ -3,6 +3,7 @@
 title: folium
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/python-visualization/folium?style=social) ](https://github.com/python-visualization/folium)
 ### [python-visualization folium](https://github.com/python-visualization/folium)
 
 **核心内容总结：**

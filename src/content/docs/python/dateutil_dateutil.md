@@ -3,6 +3,7 @@
 title: dateutil
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dateutil/dateutil?style=social) ](https://github.com/dateutil/dateutil)
 ### [dateutil dateutil](https://github.com/dateutil/dateutil)
 
 **核心内容总结：**  

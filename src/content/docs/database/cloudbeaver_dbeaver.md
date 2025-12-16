@@ -3,6 +3,7 @@
 title: cloudbeaver
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dbeaver/cloudbeaver?style=social) ](https://github.com/dbeaver/cloudbeaver)
 ### [dbeaver cloudbeaver](https://github.com/dbeaver/cloudbeaver)
 
 **核心内容总结**  

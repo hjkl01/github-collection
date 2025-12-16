@@ -3,6 +3,7 @@
 title: esp-hal
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/esp-rs/esp-hal?style=social) ](https://github.com/esp-rs/esp-hal)
 ### [esp-rs esp-hal](https://github.com/esp-rs/esp-hal)
 
 **项目核心内容总结：**  

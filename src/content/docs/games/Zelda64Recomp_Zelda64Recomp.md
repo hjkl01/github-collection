@@ -3,6 +3,7 @@
 title: Zelda64Recomp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Zelda64Recomp/Zelda64Recomp?style=social) ](https://github.com/Zelda64Recomp/Zelda64Recomp)
 ### [Zelda64Recomp Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)
 
 **项目核心内容总结：**  

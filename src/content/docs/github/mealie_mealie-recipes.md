@@ -3,6 +3,7 @@
 title: mealie
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mealie-recipes/mealie?style=social) ](https://github.com/mealie-recipes/mealie)
 ### [mealie-recipes mealie](https://github.com/mealie-recipes/mealie)
 
 **项目核心内容总结：**

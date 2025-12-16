@@ -3,6 +3,7 @@
 title: RyTuneX
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rayenghanmi/RyTuneX?style=social) ](https://github.com/rayenghanmi/RyTuneX)
 ### [rayenghanmi RyTuneX](https://github.com/rayenghanmi/RyTuneX)
 
 **项目核心内容总结：**

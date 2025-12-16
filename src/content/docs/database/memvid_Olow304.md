@@ -3,6 +3,7 @@
 title: memvid
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Olow304/memvid?style=social) ](https://github.com/Olow304/memvid)
 ### [Olow304 memvid](https://github.com/Olow304/memvid)
 
 **Memvid 项目核心内容总结：**

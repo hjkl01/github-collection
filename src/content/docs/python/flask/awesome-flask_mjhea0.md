@@ -3,6 +3,7 @@
 title: awesome-flask
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mjhea0/awesome-flask?style=social) ](https://github.com/mjhea0/awesome-flask)
 ### [mjhea0 awesome-flask](https://github.com/mjhea0/awesome-flask)
 
 ### 项目核心内容总结：

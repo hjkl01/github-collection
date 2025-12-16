@@ -3,6 +3,7 @@
 title: datasette
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/simonw/datasette?style=social) ](https://github.com/simonw/datasette)
 ### [simonw datasette](https://github.com/simonw/datasette)
 
 **Datasette核心内容总结：**  

@@ -3,6 +3,7 @@
 title: adb-enhanced
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ashishb/adb-enhanced?style=social) ](https://github.com/ashishb/adb-enhanced)
 ### [ashishb adb-enhanced](https://github.com/ashishb/adb-enhanced)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: KAG
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenSPG/KAG?style=social) ](https://github.com/OpenSPG/KAG)
 ### [OpenSPG KAG](https://github.com/OpenSPG/KAG)
 
 **核心内容总结：**  

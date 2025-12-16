@@ -3,6 +3,7 @@
 title: structlog
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hynek/structlog?style=social) ](https://github.com/hynek/structlog)
 ### [hynek structlog](https://github.com/hynek/structlog)
 
 **项目核心内容总结：**  

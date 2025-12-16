@@ -3,6 +3,7 @@
 title: kulala.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mistweaverco/kulala.nvim?style=social) ](https://github.com/mistweaverco/kulala.nvim)
 ### [mistweaverco kulala.nvim](https://github.com/mistweaverco/kulala.nvim)
 
 **核心内容总结：**

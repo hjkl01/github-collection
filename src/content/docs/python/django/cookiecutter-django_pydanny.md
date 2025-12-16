@@ -3,6 +3,7 @@
 title: cookiecutter-django
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pydanny/cookiecutter-django?style=social) ](https://github.com/pydanny/cookiecutter-django)
 ### [pydanny cookiecutter-django](https://github.com/pydanny/cookiecutter-django)
 
 **项目核心内容总结：**

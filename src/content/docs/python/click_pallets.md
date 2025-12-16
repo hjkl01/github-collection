@@ -3,6 +3,7 @@
 title: click
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pallets/click?style=social) ](https://github.com/pallets/click)
 ### [pallets click](https://github.com/pallets/click)
 
 **核心内容总结：**  

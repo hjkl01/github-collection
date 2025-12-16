@@ -3,6 +3,7 @@
 title: GlobalBuildingAtlas
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zhu-xlab/GlobalBuildingAtlas?style=social) ](https://github.com/zhu-xlab/GlobalBuildingAtlas)
 ### [zhu-xlab GlobalBuildingAtlas](https://github.com/zhu-xlab/GlobalBuildingAtlas)
 
 **核心内容总结：**  

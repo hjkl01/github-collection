@@ -3,6 +3,7 @@
 title: orgmode
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-orgmode/orgmode?style=social) ](https://github.com/nvim-orgmode/orgmode)
 ### [nvim-orgmode orgmode](https://github.com/nvim-orgmode/orgmode)
 
 **项目核心内容总结：**

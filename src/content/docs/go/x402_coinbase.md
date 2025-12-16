@@ -3,6 +3,7 @@
 title: x402
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coinbase/x402?style=social) ](https://github.com/coinbase/x402)
 ### [coinbase x402](https://github.com/coinbase/x402)
 
 **x402 支付协议核心内容总结：**

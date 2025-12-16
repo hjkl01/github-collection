@@ -3,6 +3,7 @@
 title: linux-insides
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/0xAX/linux-insides?style=social) ](https://github.com/0xAX/linux-insides)
 ### [0xAX linux-insides](https://github.com/0xAX/linux-insides)
 
 **项目核心内容总结：**  

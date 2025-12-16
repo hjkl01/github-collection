@@ -3,6 +3,7 @@
 title: EasyTier
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/EasyTier/EasyTier?style=social) ](https://github.com/EasyTier/EasyTier)
 ### [EasyTier EasyTier](https://github.com/EasyTier/EasyTier)
 
 ### 项目核心内容总结

@@ -3,6 +3,7 @@
 title: lighter-python
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/elliottech/lighter-python?style=social) ](https://github.com/elliottech/lighter-python)
 ### [elliottech lighter-python](https://github.com/elliottech/lighter-python)
 
 **核心内容总结：**  

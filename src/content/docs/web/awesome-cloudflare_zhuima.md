@@ -3,6 +3,7 @@
 title: awesome-cloudflare
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zhuima/awesome-cloudflare?style=social) ](https://github.com/zhuima/awesome-cloudflare)
 ### [zhuima awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare)
 
 该README文档是一个基于Cloudflare的开源项目合集，旨在汇总多种实用工具和应用。核心内容包括：

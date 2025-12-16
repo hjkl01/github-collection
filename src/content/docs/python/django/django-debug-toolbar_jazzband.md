@@ -3,6 +3,7 @@
 title: django-debug-toolbar
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jazzband/django-debug-toolbar?style=social) ](https://github.com/jazzband/django-debug-toolbar)
 ### [jazzband django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar)
 
 **核心内容总结：**  

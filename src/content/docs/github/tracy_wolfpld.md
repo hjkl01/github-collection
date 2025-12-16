@@ -3,6 +3,7 @@
 title: tracy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wolfpld/tracy?style=social) ](https://github.com/wolfpld/tracy)
 ### [wolfpld tracy](https://github.com/wolfpld/tracy)
 
 **核心内容总结：**  

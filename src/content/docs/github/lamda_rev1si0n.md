@@ -3,6 +3,7 @@
 title: lamda
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rev1si0n/lamda?style=social) ](https://github.com/rev1si0n/lamda)
 ### [rev1si0n lamda](https://github.com/rev1si0n/lamda)
 
 FIRERPA 是一个面向移动优先时代的 Android 自动化框架，具备以下核心内容：

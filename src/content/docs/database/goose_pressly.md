@@ -3,6 +3,7 @@
 title: goose
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pressly/goose?style=social) ](https://github.com/pressly/goose)
 ### [pressly goose](https://github.com/pressly/goose)
 
 **Goose 项目核心内容总结：**  

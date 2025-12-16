@@ -3,6 +3,7 @@
 title: harlequin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tconbeer/harlequin?style=social) ](https://github.com/tconbeer/harlequin)
 ### [tconbeer harlequin](https://github.com/tconbeer/harlequin)
 
 ### 项目核心内容总结

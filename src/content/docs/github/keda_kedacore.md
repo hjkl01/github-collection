@@ -3,6 +3,7 @@
 title: keda
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kedacore/keda?style=social) ](https://github.com/kedacore/keda)
 ### [kedacore keda](https://github.com/kedacore/keda)
 
 **核心内容总结：**  

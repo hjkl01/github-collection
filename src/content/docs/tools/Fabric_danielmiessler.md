@@ -3,6 +3,7 @@
 title: Fabric
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/danielmiessler/Fabric?style=social) ](https://github.com/danielmiessler/Fabric)
 ### [danielmiessler Fabric](https://github.com/danielmiessler/Fabric)
 
 **Fabric 项目核心内容总结：**

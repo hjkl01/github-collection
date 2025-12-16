@@ -3,6 +3,7 @@
 title: asynq
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hibiken/asynq?style=social) ](https://github.com/hibiken/asynq)
 ### [hibiken asynq](https://github.com/hibiken/asynq)
 
 **Asynq 核心内容总结**  

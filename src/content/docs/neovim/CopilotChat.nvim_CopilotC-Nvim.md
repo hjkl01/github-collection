@@ -3,6 +3,7 @@
 title: CopilotChat.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/CopilotC-Nvim/CopilotChat.nvim?style=social) ](https://github.com/CopilotC-Nvim/CopilotChat.nvim)
 ### [CopilotC-Nvim CopilotChat.nvim](https://github.com/CopilotC-Nvim/CopilotChat.nvim)
 
 **项目核心内容总结：**

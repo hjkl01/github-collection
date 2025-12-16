@@ -3,6 +3,7 @@
 title: harpoon
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ThePrimeagen/harpoon?style=social) ](https://github.com/ThePrimeagen/harpoon)
 ### [ThePrimeagen harpoon](https://github.com/ThePrimeagen/harpoon)
 
 **核心内容总结：**  

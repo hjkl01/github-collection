@@ -3,6 +3,7 @@
 title: Cloudreve
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cloudreve/Cloudreve?style=social) ](https://github.com/cloudreve/Cloudreve)
 ### [cloudreve Cloudreve](https://github.com/cloudreve/Cloudreve)
 
 ### 项目核心内容总结

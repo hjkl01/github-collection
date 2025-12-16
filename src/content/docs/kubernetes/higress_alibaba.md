@@ -3,6 +3,7 @@
 title: higress
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/higress?style=social) ](https://github.com/alibaba/higress)
 ### [alibaba higress](https://github.com/alibaba/higress)
 
 **Higress 核心内容总结**  

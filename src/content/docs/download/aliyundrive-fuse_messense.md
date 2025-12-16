@@ -3,6 +3,7 @@
 title: aliyundrive-fuse
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/messense/aliyundrive-fuse?style=social) ](https://github.com/messense/aliyundrive-fuse)
 ### [messense aliyundrive-fuse](https://github.com/messense/aliyundrive-fuse)
 
 aliyundrive-fuse 是一个将阿里云盘挂载为本地磁盘的 FUSE 工具，主要用于配合 Emby 或 Jellyfin 播放云盘视频内容。核心特性包括：  

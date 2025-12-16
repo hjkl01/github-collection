@@ -3,6 +3,7 @@
 title: d2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/terrastruct/d2?style=social) ](https://github.com/terrastruct/d2)
 ### [terrastruct d2](https://github.com/terrastruct/d2)
 
 **项目功能**  

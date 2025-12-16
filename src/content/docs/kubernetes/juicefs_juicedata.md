@@ -3,6 +3,7 @@
 title: juicefs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/juicedata/juicefs?style=social) ](https://github.com/juicedata/juicefs)
 ### [juicedata juicefs](https://github.com/juicedata/juicefs)
 
 **JuiceFS 核心内容总结**：

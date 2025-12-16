@@ -3,6 +3,7 @@
 title: sonixd
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jeffvli/sonixd?style=social) ](https://github.com/jeffvli/sonixd)
 ### [jeffvli sonixd](https://github.com/jeffvli/sonixd)
 
 **项目核心内容总结：**  

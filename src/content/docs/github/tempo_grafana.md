@@ -3,6 +3,7 @@
 title: tempo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/grafana/tempo?style=social) ](https://github.com/grafana/tempo)
 ### [grafana tempo](https://github.com/grafana/tempo)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: crontab-ui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alseambusher/crontab-ui?style=social) ](https://github.com/alseambusher/crontab-ui)
 ### [alseambusher crontab-ui](https://github.com/alseambusher/crontab-ui)
 
 **核心内容总结：**

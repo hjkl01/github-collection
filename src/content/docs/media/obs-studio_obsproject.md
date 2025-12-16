@@ -3,6 +3,7 @@
 title: obs-studio
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=social) ](https://github.com/obsproject/obs-studio)
 ### [obsproject obs-studio](https://github.com/obsproject/obs-studio)
 
 **OBS Studio 核心内容总结：**

@@ -3,6 +3,7 @@
 title: fastapi-best-practices
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zhanymkanov/fastapi-best-practices?style=social) ](https://github.com/zhanymkanov/fastapi-best-practices)
 ### [zhanymkanov fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices)
 
 **核心内容总结：**  

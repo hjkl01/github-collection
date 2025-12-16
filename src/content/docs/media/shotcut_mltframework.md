@@ -3,6 +3,7 @@
 title: shotcut
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mltframework/shotcut?style=social) ](https://github.com/mltframework/shotcut)
 ### [mltframework shotcut](https://github.com/mltframework/shotcut)
 
 **项目功能**  

@@ -3,6 +3,7 @@
 title: helix-db
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/HelixDB/helix-db?style=social) ](https://github.com/HelixDB/helix-db)
 ### [HelixDB helix-db](https://github.com/HelixDB/helix-db)
 
 **核心内容总结：**

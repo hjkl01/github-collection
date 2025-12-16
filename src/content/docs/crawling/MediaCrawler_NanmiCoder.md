@@ -3,6 +3,7 @@
 title: MediaCrawler
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NanmiCoder/MediaCrawler?style=social) ](https://github.com/NanmiCoder/MediaCrawler)
 ### [NanmiCoder MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)
 
 **项目核心内容总结：**

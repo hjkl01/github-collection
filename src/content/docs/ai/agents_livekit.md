@@ -3,6 +3,7 @@
 title: agents
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/livekit/agents?style=social) ](https://github.com/livekit/agents)
 ### [livekit agents](https://github.com/livekit/agents)
 
 **项目核心内容总结：**  

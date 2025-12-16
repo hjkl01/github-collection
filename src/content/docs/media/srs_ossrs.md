@@ -3,6 +3,7 @@
 title: srs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ossrs/srs?style=social) ](https://github.com/ossrs/srs)
 ### [ossrs srs](https://github.com/ossrs/srs)
 
 **项目核心内容总结：**  

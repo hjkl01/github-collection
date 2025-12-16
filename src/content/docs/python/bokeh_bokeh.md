@@ -3,6 +3,7 @@
 title: bokeh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bokeh/bokeh?style=social) ](https://github.com/bokeh/bokeh)
 ### [bokeh bokeh](https://github.com/bokeh/bokeh)
 
 **Bokeh核心内容总结：**

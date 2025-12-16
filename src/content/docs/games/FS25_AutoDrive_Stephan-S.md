@@ -3,6 +3,7 @@
 title: FS25_AutoDrive
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Stephan-S/FS25_AutoDrive?style=social) ](https://github.com/Stephan-S/FS25_AutoDrive)
 ### [Stephan-S FS25_AutoDrive](https://github.com/Stephan-S/FS25_AutoDrive)
 
 **项目核心内容总结：**  

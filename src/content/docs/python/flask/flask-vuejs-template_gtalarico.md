@@ -3,6 +3,7 @@
 title: flask-vuejs-template
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/flask-vuejs-template?style=social) ](https://github.com/gtalarico/flask-vuejs-template)
 ### [gtalarico flask-vuejs-template](https://github.com/gtalarico/flask-vuejs-template)
 
 **项目核心内容总结：**  

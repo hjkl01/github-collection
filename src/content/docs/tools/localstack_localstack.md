@@ -3,6 +3,7 @@
 title: localstack
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/localstack/localstack?style=social) ](https://github.com/localstack/localstack)
 ### [localstack localstack](https://github.com/localstack/localstack)
 
 **核心内容总结：**

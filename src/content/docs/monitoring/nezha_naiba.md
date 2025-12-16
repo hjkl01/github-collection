@@ -3,6 +3,7 @@
 title: nezha
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/naiba/nezha?style=social) ](https://github.com/naiba/nezha)
 ### [naiba nezha](https://github.com/naiba/nezha)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: noice.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/noice.nvim?style=social) ](https://github.com/folke/noice.nvim)
 ### [folke noice.nvim](https://github.com/folke/noice.nvim)
 
 **项目核心内容总结：**

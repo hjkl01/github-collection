@@ -3,6 +3,7 @@
 title: sigma
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social) ](https://github.com/SigmaHQ/sigma)
 ### [SigmaHQ sigma](https://github.com/SigmaHQ/sigma)
 
 **项目核心内容总结：**  

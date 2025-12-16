@@ -3,6 +3,7 @@
 title: imove
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/i5ting/imove?style=social) ](https://github.com/i5ting/imove)
 ### [i5ting imove](https://github.com/i5ting/imove)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@ title: openwrt-passwall2
 ---
 
 ### [xiaorouji openwrt-passwall2](https://github.com/xiaorouji/openwrt-passwall2)
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xiaorouji/openwrt-passwall2?style=social) ](https://github.com/xiaorouji/openwrt-passwall2)
 
 # 📌 项目概述
 

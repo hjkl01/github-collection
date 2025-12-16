@@ -3,6 +3,7 @@
 title: github-mcp-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/github/github-mcp-server?style=social) ](https://github.com/github/github-mcp-server)
 ### [github github-mcp-server](https://github.com/github/github-mcp-server)
 
 ### 核心内容总结

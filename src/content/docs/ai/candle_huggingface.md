@@ -3,6 +3,7 @@
 title: candle
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/candle?style=social) ](https://github.com/huggingface/candle)
 ### [huggingface candle](https://github.com/huggingface/candle)
 
 **项目核心内容总结：**

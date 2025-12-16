@@ -3,6 +3,7 @@
 title: darkwire.io
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/darkwire/darkwire.io?style=social) ](https://github.com/darkwire/darkwire.io)
 ### [darkwire darkwire.io](https://github.com/darkwire/darkwire.io)
 
 **核心内容总结：**  

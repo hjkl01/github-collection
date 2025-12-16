@@ -3,6 +3,7 @@
 title: gutenberg
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WordPress/gutenberg?style=social) ](https://github.com/WordPress/gutenberg)
 ### [WordPress gutenberg](https://github.com/WordPress/gutenberg)
 
 **核心内容总结：**  

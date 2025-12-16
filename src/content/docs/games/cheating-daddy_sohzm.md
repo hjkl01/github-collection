@@ -3,6 +3,7 @@
 title: cheating-daddy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sohzm/cheating-daddy?style=social) ](https://github.com/sohzm/cheating-daddy)
 ### [sohzm cheating-daddy](https://github.com/sohzm/cheating-daddy)
 
 **项目核心内容总结：**  

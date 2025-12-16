@@ -3,6 +3,7 @@
 title: ServerStatus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cppla/ServerStatus?style=social) ](https://github.com/cppla/ServerStatus)
 ### [cppla ServerStatus](https://github.com/cppla/ServerStatus)
 
 **核心内容总结：**

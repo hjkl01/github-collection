@@ -3,6 +3,7 @@
 title: cube
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cube-js/cube?style=social) ](https://github.com/cube-js/cube)
 ### [cube-js cube](https://github.com/cube-js/cube)
 
 **核心内容总结：**  

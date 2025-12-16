@@ -3,6 +3,7 @@
 title: hacker-scripts
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NARKOZ/hacker-scripts?style=social) ](https://github.com/NARKOZ/hacker-scripts)
 ### [NARKOZ hacker-scripts](https://github.com/NARKOZ/hacker-scripts)
 
 ### 项目核心内容总结

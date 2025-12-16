@@ -3,6 +3,7 @@
 title: enaml
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nucleic/enaml?style=social) ](https://github.com/nucleic/enaml)
 ### [nucleic enaml](https://github.com/nucleic/enaml)
 
 Enaml 是一个基于 Python 的声明式编程语言和框架，用于高效构建跨平台原生 GUI 应用。其核心功能包括：  

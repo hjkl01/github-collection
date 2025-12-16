@@ -3,6 +3,7 @@
 title: Administrative-divisions-of-China
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/modood/Administrative-divisions-of-China?style=social) ](https://github.com/modood/Administrative-divisions-of-China)
 ### [modood Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
 
 **核心内容总结：**  

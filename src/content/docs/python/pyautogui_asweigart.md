@@ -3,6 +3,7 @@
 title: pyautogui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/asweigart/pyautogui?style=social) ](https://github.com/asweigart/pyautogui)
 ### [asweigart pyautogui](https://github.com/asweigart/pyautogui)
 
 **PyAutoGUI核心内容总结：**  

@@ -3,6 +3,7 @@
 title: LunarBar
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LunarBar-app/LunarBar?style=social) ](https://github.com/LunarBar-app/LunarBar)
 ### [LunarBar-app LunarBar](https://github.com/LunarBar-app/LunarBar)
 
 **核心内容总结：**  

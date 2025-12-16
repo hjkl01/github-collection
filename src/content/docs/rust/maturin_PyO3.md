@@ -3,6 +3,7 @@
 title: maturin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PyO3/maturin?style=social) ](https://github.com/PyO3/maturin)
 ### [PyO3 maturin](https://github.com/PyO3/maturin)
 
 **项目核心内容总结：**  

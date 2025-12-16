@@ -3,6 +3,7 @@
 title: toggleterm.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/akinsho/toggleterm.nvim?style=social) ](https://github.com/akinsho/toggleterm.nvim)
 ### [akinsho toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: pydictor
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LandGrey/pydictor?style=social) ](https://github.com/LandGrey/pydictor)
 ### [LandGrey pydictor](https://github.com/LandGrey/pydictor)
 
 **pydictor 核心内容总结：**

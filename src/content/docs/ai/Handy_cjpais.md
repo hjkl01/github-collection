@@ -3,6 +3,7 @@
 title: Handy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cjpais/Handy?style=social) ](https://github.com/cjpais/Handy)
 ### [cjpais Handy](https://github.com/cjpais/Handy)
 
 **核心内容总结：**  

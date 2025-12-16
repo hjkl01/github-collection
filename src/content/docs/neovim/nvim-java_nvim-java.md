@@ -3,6 +3,7 @@
 title: nvim-java
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-java/nvim-java?style=social) ](https://github.com/nvim-java/nvim-java)
 ### [nvim-java nvim-java](https://github.com/nvim-java/nvim-java)
 
 **项目核心内容总结：**

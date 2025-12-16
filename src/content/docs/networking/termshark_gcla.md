@@ -3,6 +3,7 @@
 title: termshark
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gcla/termshark?style=social) ](https://github.com/gcla/termshark)
 ### [gcla termshark](https://github.com/gcla/termshark)
 
 **项目核心内容总结：**  

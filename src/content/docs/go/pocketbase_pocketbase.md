@@ -3,6 +3,7 @@
 title: pocketbase
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pocketbase/pocketbase?style=social) ](https://github.com/pocketbase/pocketbase)
 ### [pocketbase pocketbase](https://github.com/pocketbase/pocketbase)
 
 **项目核心内容总结：**

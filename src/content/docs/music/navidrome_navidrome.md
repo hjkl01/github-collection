@@ -3,6 +3,7 @@
 title: navidrome
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/navidrome/navidrome?style=social) ](https://github.com/navidrome/navidrome)
 ### [navidrome navidrome](https://github.com/navidrome/navidrome)
 
 Navidrome 是一个开源的基于 Web 的音乐服务器和流媒体工具，允许用户通过浏览器或移动设备访问个人音乐库，功能类似个人版 Spotify。  

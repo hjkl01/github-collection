@@ -3,6 +3,7 @@
 title: xterm.js
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xtermjs/xterm.js?style=social) ](https://github.com/xtermjs/xterm.js)
 ### [xtermjs xterm.js](https://github.com/xtermjs/xterm.js)
 
 **核心内容总结：**  

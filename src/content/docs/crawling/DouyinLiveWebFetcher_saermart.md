@@ -3,6 +3,7 @@
 title: DouyinLiveWebFetcher
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/saermart/DouyinLiveWebFetcher?style=social) ](https://github.com/saermart/DouyinLiveWebFetcher)
 ### [saermart DouyinLiveWebFetcher](https://github.com/saermart/DouyinLiveWebFetcher)
 
 **项目核心内容总结：**  

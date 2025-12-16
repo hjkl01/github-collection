@@ -3,6 +3,7 @@
 title: neotest-go
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-neotest/neotest-go?style=social) ](https://github.com/nvim-neotest/neotest-go)
 ### [nvim-neotest neotest-go](https://github.com/nvim-neotest/neotest-go)
 
 **项目核心内容总结：**

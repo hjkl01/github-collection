@@ -3,6 +3,7 @@
 title: aisuite
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/andrewyng/aisuite?style=social) ](https://github.com/andrewyng/aisuite)
 ### [andrewyng aisuite](https://github.com/andrewyng/aisuite)
 
 **项目核心内容总结：**

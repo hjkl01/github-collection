@@ -3,6 +3,7 @@
 title: kms-tools
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ikxin/kms-tools?style=social) ](https://github.com/ikxin/kms-tools)
 ### [ikxin kms-tools](https://github.com/ikxin/kms-tools)
 
 **项目核心内容总结：**

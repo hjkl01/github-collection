@@ -3,6 +3,7 @@
 title: beszel
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/henrygd/beszel?style=social) ](https://github.com/henrygd/beszel)
 ### [henrygd beszel](https://github.com/henrygd/beszel)
 
 **Beszel 核心内容总结**  

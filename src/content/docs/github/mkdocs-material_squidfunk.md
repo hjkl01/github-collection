@@ -3,6 +3,7 @@
 title: mkdocs-material
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social) ](https://github.com/squidfunk/mkdocs-material)
 ### [squidfunk mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 
 ### 项目核心内容总结

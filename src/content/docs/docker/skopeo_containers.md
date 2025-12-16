@@ -3,6 +3,7 @@
 title: skopeo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/containers/skopeo?style=social) ](https://github.com/containers/skopeo)
 ### [containers skopeo](https://github.com/containers/skopeo)
 
 Skopeo 是一个用于管理容器镜像和仓库的命令行工具，支持跨存储机制操作，无需依赖守护进程或 root 权限。核心功能包括：  

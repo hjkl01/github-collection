@@ -3,6 +3,7 @@
 title: nvim-config
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jdhao/nvim-config?style=social) ](https://github.com/jdhao/nvim-config)
 ### [jdhao nvim-config](https://github.com/jdhao/nvim-config)
 
 该项目是一个高度定制化的 **Neovim 配置方案**，支持 **Linux、macOS 和 Windows** 平台，提供以下核心功能和特性：

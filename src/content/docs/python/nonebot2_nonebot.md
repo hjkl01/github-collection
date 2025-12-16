@@ -3,6 +3,7 @@
 title: nonebot2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nonebot/nonebot2?style=social) ](https://github.com/nonebot/nonebot2)
 ### [nonebot nonebot2](https://github.com/nonebot/nonebot2)
 
 **NoneBot2 核心内容总结：**

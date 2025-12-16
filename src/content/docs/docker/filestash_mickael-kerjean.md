@@ -3,6 +3,7 @@
 title: filestash
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mickael-kerjean/filestash?style=social) ](https://github.com/mickael-kerjean/filestash)
 ### [mickael-kerjean filestash](https://github.com/mickael-kerjean/filestash)
 
 Filestash 是一款支持多种协议和云存储的文件管理平台，提供类似 Dropbox 的图形化操作界面。核心功能包括：  

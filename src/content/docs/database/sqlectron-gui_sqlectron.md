@@ -3,6 +3,7 @@
 title: sqlectron-gui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sqlectron/sqlectron-gui?style=social) ](https://github.com/sqlectron/sqlectron-gui)
 ### [sqlectron sqlectron-gui](https://github.com/sqlectron/sqlectron-gui)
 
 **项目核心内容总结**  

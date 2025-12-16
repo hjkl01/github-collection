@@ -3,6 +3,7 @@
 title: PrettyErrors
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/onelivesleft/PrettyErrors?style=social) ](https://github.com/onelivesleft/PrettyErrors)
 ### [onelivesleft PrettyErrors](https://github.com/onelivesleft/PrettyErrors)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: DiffSynth-Studio
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/modelscope/DiffSynth-Studio?style=social) ](https://github.com/modelscope/DiffSynth-Studio)
 ### [modelscope DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)
 
 **项目核心内容总结**  

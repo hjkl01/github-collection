@@ -3,6 +3,7 @@
 title: channels
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/django/channels?style=social) ](https://github.com/django/channels)
 ### [django channels](https://github.com/django/channels)
 
 **Django Channels 核心内容总结：**

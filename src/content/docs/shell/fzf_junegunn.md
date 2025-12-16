@@ -3,6 +3,7 @@
 title: fzf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/junegunn/fzf?style=social) ](https://github.com/junegunn/fzf)
 ### [junegunn fzf](https://github.com/junegunn/fzf)
 
 **项目核心内容总结：**

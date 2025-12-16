@@ -3,6 +3,7 @@
 title: goose
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/block/goose?style=social) ](https://github.com/block/goose)
 ### [block goose](https://github.com/block/goose)
 
 **项目核心内容总结**  

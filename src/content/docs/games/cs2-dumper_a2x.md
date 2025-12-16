@@ -3,6 +3,7 @@
 title: cs2-dumper
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/a2x/cs2-dumper?style=social) ](https://github.com/a2x/cs2-dumper)
 ### [a2x cs2-dumper](https://github.com/a2x/cs2-dumper)
 
 **核心内容总结：**  

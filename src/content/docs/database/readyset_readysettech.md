@@ -3,6 +3,7 @@
 title: readyset
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/readysettech/readyset?style=social) ](https://github.com/readysettech/readyset)
 ### [readysettech readyset](https://github.com/readysettech/readyset)
 
 **核心内容总结：**  

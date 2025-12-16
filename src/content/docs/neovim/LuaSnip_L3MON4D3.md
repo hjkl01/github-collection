@@ -3,6 +3,7 @@
 title: LuaSnip
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/L3MON4D3/LuaSnip?style=social) ](https://github.com/L3MON4D3/LuaSnip)
 ### [L3MON4D3 LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 
 **项目核心内容总结：**

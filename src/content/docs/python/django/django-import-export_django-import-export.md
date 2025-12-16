@@ -3,6 +3,7 @@
 title: django-import-export
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/django-import-export/django-import-export?style=social) ](https://github.com/django-import-export/django-import-export)
 ### [django-import-export django-import-export](https://github.com/django-import-export/django-import-export)
 
 **项目核心内容总结：**  

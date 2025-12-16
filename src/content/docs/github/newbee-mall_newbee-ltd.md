@@ -3,6 +3,7 @@
 title: newbee-mall
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/newbee-ltd/newbee-mall?style=social) ](https://github.com/newbee-ltd/newbee-mall)
 ### [newbee-ltd newbee-mall](https://github.com/newbee-ltd/newbee-mall)
 
 **项目核心内容总结：**

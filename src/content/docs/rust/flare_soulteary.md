@@ -3,6 +3,7 @@
 title: flare
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/soulteary/flare?style=social) ](https://github.com/soulteary/flare)
 ### [soulteary flare](https://github.com/soulteary/flare)
 
 **项目核心内容总结：**  

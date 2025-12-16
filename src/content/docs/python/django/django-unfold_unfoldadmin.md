@@ -3,6 +3,7 @@
 title: django-unfold
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/unfoldadmin/django-unfold?style=social) ](https://github.com/unfoldadmin/django-unfold)
 ### [unfoldadmin django-unfold](https://github.com/unfoldadmin/django-unfold)
 
 Unfold 是一个用于 Django 的现代管理界面主题，通过 Tailwind CSS 框架提供美观设计和增强功能。核心特性包括：  

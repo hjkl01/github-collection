@@ -3,6 +3,7 @@
 title: go-whatsapp-web-multidevice
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aldinokemal/go-whatsapp-web-multidevice?style=social) ](https://github.com/aldinokemal/go-whatsapp-web-multidevice)
 ### [aldinokemal go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice)
 
 **项目核心内容总结：**

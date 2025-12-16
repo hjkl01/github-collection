@@ -3,6 +3,7 @@
 title: next-forge
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/haydenbleasel/next-forge?style=social) ](https://github.com/haydenbleasel/next-forge)
 ### [haydenbleasel next-forge](https://github.com/haydenbleasel/next-forge)
 
 **项目核心内容总结：**

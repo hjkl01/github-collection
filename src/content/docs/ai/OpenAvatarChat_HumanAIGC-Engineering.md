@@ -3,6 +3,7 @@
 title: OpenAvatarChat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/HumanAIGC-Engineering/OpenAvatarChat?style=social) ](https://github.com/HumanAIGC-Engineering/OpenAvatarChat)
 ### [HumanAIGC-Engineering OpenAvatarChat](https://github.com/HumanAIGC-Engineering/OpenAvatarChat)
 
 **项目核心内容总结：**  

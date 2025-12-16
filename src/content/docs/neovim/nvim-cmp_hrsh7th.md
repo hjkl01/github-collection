@@ -3,6 +3,7 @@
 title: nvim-cmp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hrsh7th/nvim-cmp?style=social) ](https://github.com/hrsh7th/nvim-cmp)
 ### [hrsh7th nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 
 **项目功能**  

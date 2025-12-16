@@ -3,6 +3,7 @@
 title: dracula.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Mofiqul/dracula.nvim?style=social) ](https://github.com/Mofiqul/dracula.nvim)
 ### [Mofiqul dracula.nvim](https://github.com/Mofiqul/dracula.nvim)
 
 **项目核心内容总结**：  

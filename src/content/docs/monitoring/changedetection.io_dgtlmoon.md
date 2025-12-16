@@ -3,6 +3,7 @@
 title: changedetection.io
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dgtlmoon/changedetection.io?style=social) ](https://github.com/dgtlmoon/changedetection.io)
 ### [dgtlmoon changedetection.io](https://github.com/dgtlmoon/changedetection.io)
 
 **项目核心内容总结：**  

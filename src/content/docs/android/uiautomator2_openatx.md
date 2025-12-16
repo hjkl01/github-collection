@@ -3,6 +3,7 @@
 title: uiautomator2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/openatx/uiautomator2?style=social) ](https://github.com/openatx/uiautomator2)
 ### [openatx uiautomator2](https://github.com/openatx/uiautomator2)
 
 **项目功能**  

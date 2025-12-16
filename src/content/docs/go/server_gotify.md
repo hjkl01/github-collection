@@ -3,6 +3,7 @@
 title: server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gotify/server?style=social) ](https://github.com/gotify/server)
 ### [gotify server](https://github.com/gotify/server)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: syft
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/anchore/syft?style=social) ](https://github.com/anchore/syft)
 ### [anchore syft](https://github.com/anchore/syft)
 
 **Syft 核心内容总结：**  

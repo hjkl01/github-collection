@@ -3,6 +3,7 @@
 title: AzuraCast
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AzuraCast/AzuraCast?style=social) ](https://github.com/AzuraCast/AzuraCast)
 ### [AzuraCast AzuraCast](https://github.com/AzuraCast/AzuraCast)
 
 AzuraCast 是一个自托管的网络电台管理套件，提供一键安装和直观的网页管理界面，可快速部署电台站。支持各类规模的电台，兼容低价 VPS 服务器，当前为测试版。主要功能包括：  

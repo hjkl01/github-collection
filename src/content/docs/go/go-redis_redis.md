@@ -3,6 +3,7 @@
 title: go-redis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/redis/go-redis?style=social) ](https://github.com/redis/go-redis)
 ### [redis go-redis](https://github.com/redis/go-redis)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: ebpf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cilium/ebpf?style=social) ](https://github.com/cilium/ebpf)
 ### [cilium ebpf](https://github.com/cilium/ebpf)
 
 **项目核心内容总结：**  

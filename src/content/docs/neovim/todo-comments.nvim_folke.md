@@ -3,6 +3,7 @@
 title: todo-comments.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/todo-comments.nvim?style=social) ](https://github.com/folke/todo-comments.nvim)
 ### [folke todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
 
 **项目核心内容总结：**

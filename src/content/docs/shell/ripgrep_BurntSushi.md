@@ -3,6 +3,7 @@
 title: ripgrep
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=social) ](https://github.com/BurntSushi/ripgrep)
 ### [BurntSushi ripgrep](https://github.com/BurntSushi/ripgrep)
 
 **项目核心内容总结：**

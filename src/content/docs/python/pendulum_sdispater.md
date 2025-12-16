@@ -3,6 +3,7 @@
 title: pendulum
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sdispater/pendulum?style=social) ](https://github.com/sdispater/pendulum)
 ### [sdispater pendulum](https://github.com/sdispater/pendulum)
 
 **核心内容总结：**  

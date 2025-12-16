@@ -3,6 +3,7 @@
 title: nocobase
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nocobase/nocobase?style=social) ](https://github.com/nocobase/nocobase)
 ### [nocobase nocobase](https://github.com/nocobase/nocobase)
 
 **核心内容总结**  

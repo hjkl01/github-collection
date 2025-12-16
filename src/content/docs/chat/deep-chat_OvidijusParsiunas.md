@@ -3,6 +3,7 @@
 title: deep-chat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OvidijusParsiunas/deep-chat?style=social) ](https://github.com/OvidijusParsiunas/deep-chat)
 ### [OvidijusParsiunas deep-chat](https://github.com/OvidijusParsiunas/deep-chat)
 
 **核心内容总结：**  

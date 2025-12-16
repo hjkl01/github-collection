@@ -3,6 +3,7 @@
 title: CyberChef
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gchq/CyberChef?style=social) ](https://github.com/gchq/CyberChef)
 ### [gchq CyberChef](https://github.com/gchq/CyberChef)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: lima
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lima-vm/lima?style=social) ](https://github.com/lima-vm/lima)
 ### [lima-vm lima](https://github.com/lima-vm/lima)
 
 **Lima 是一个用于启动 Linux 虚拟机的工具，支持自动文件共享和端口转发（类似 WSL2）。**  

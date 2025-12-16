@@ -3,6 +3,7 @@
 title: filegator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/filegator/filegator?style=social) ](https://github.com/filegator/filegator)
 ### [filegator filegator](https://github.com/filegator/filegator)
 
 **核心内容总结：**  

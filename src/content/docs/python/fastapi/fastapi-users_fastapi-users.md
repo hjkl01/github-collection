@@ -3,6 +3,7 @@
 title: fastapi-users
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fastapi-users/fastapi-users?style=social) ](https://github.com/fastapi-users/fastapi-users)
 ### [fastapi-users fastapi-users](https://github.com/fastapi-users/fastapi-users)
 
 **项目核心内容总结：**

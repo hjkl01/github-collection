@@ -3,6 +3,7 @@
 title: ntopng
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ntop/ntopng?style=social) ](https://github.com/ntop/ntopng)
 ### [ntop ntopng](https://github.com/ntop/ntopng)
 
 **核心内容总结：**  

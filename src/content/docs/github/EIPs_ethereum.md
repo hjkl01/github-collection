@@ -3,6 +3,7 @@
 title: EIPs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ethereum/EIPs?style=social) ](https://github.com/ethereum/EIPs)
 ### [ethereum EIPs](https://github.com/ethereum/EIPs)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: newsnow
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ourongxing/newsnow?style=social) ](https://github.com/ourongxing/newsnow)
 ### [ourongxing newsnow](https://github.com/ourongxing/newsnow)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: proxypin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wanghongenpin/proxypin?style=social) ](https://github.com/wanghongenpin/proxypin)
 ### [wanghongenpin proxypin](https://github.com/wanghongenpin/proxypin)
 
 ProxyPin 是一款开源免费的 HTTP(S) 流量抓包工具，支持 Windows、Mac、Android、iOS 和 Linux 全平台。基于 Flutter 开发，界面美观易用，可捕获 Flutter 应用流量。

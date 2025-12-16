@@ -3,6 +3,7 @@
 title: gpui-component
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/longbridge/gpui-component?style=social) ](https://github.com/longbridge/gpui-component)
 ### [longbridge gpui-component](https://github.com/longbridge/gpui-component)
 
 GPUI Component 是一个基于 GPUI 的跨平台桌面应用 UI 组件库，提供 60+ 跨平台组件，支持 macOS 和 Windows 原生控件风格与现代设计结合。主要特性包括：多主题定制、灵活布局（支持 Dock 和 Tiles 布局）、高性能虚拟化表格/列表、Markdown 和 HTML 渲染、内置图表、支持 20 万行代码的高性能编辑器（含 LSP 和语法高亮）。  

@@ -3,6 +3,7 @@
 title: minimind
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jingyaogong/minimind?style=social) ](https://github.com/jingyaogong/minimind)
 ### [jingyaogong minimind](https://github.com/jingyaogong/minimind)
 
 **项目核心内容总结：**  

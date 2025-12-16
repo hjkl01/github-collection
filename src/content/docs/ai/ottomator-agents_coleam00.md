@@ -3,6 +3,7 @@
 title: ottomator-agents
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coleam00/ottomator-agents?style=social) ](https://github.com/coleam00/ottomator-agents)
 ### [coleam00 ottomator-agents](https://github.com/coleam00/ottomator-agents)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: incubator-devlake
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/incubator-devlake?style=social) ](https://github.com/apache/incubator-devlake)
 ### [apache incubator-devlake](https://github.com/apache/incubator-devlake)
 
 **Apache DevLake（孵化中）核心内容总结：**  

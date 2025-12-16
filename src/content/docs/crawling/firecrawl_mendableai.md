@@ -3,6 +3,7 @@
 title: firecrawl
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=social) ](https://github.com/mendableai/firecrawl)
 ### [mendableai firecrawl](https://github.com/mendableai/firecrawl)
 
 **项目核心内容总结：**

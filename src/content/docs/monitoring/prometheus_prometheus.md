@@ -3,6 +3,7 @@
 title: prometheus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social) ](https://github.com/prometheus/prometheus)
 ### [prometheus prometheus](https://github.com/prometheus/prometheus)
 
 **核心内容总结：**  

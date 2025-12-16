@@ -3,6 +3,7 @@
 title: archinstall
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/archlinux/archinstall?style=social) ](https://github.com/archlinux/archinstall)
 ### [archlinux archinstall](https://github.com/archlinux/archinstall)
 
 **核心内容总结：**  

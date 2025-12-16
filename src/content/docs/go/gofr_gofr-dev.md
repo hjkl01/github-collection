@@ -3,6 +3,7 @@
 title: gofr
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gofr-dev/gofr?style=social) ](https://github.com/gofr-dev/gofr)
 ### [gofr-dev gofr](https://github.com/gofr-dev/gofr)
 
 **GoFr项目核心内容总结**：

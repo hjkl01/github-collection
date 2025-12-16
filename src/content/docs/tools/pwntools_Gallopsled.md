@@ -3,6 +3,7 @@
 title: pwntools
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Gallopsled/pwntools?style=social) ](https://github.com/Gallopsled/pwntools)
 ### [Gallopsled pwntools](https://github.com/Gallopsled/pwntools)
 
 **项目功能**：pwntools 是一个用于 CTF 比赛的 Python 框架和漏洞利用开发库，旨在简化漏洞利用代码的编写，支持快速原型设计。  

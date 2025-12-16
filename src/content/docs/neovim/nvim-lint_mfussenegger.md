@@ -3,6 +3,7 @@
 title: nvim-lint
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mfussenegger/nvim-lint?style=social) ](https://github.com/mfussenegger/nvim-lint)
 ### [mfussenegger nvim-lint](https://github.com/mfussenegger/nvim-lint)
 
 该项目是一个代码检查工具，支持多种编程语言，用于检测代码中的错误、规范问题及潜在风险。其核心功能包括：  

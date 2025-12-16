@@ -3,6 +3,7 @@
 title: waveterm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wavetermdev/waveterm?style=social) ](https://github.com/wavetermdev/waveterm)
 ### [wavetermdev waveterm](https://github.com/wavetermdev/waveterm)
 
 Wave Terminal 是一款跨平台（MacOS、Linux、Windows）开源终端工具，整合了传统终端功能与图形化能力，支持文件预览、网页浏览、AI 协助等功能，用户可在终端内直接操作，无需切换浏览器或编辑器。  

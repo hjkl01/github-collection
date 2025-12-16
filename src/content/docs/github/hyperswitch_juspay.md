@@ -3,6 +3,7 @@
 title: hyperswitch
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social) ](https://github.com/juspay/hyperswitch)
 ### [juspay hyperswitch](https://github.com/juspay/hyperswitch)
 
 **核心内容总结：**

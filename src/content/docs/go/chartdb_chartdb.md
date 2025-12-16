@@ -3,6 +3,7 @@
 title: chartdb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chartdb/chartdb?style=social) ](https://github.com/chartdb/chartdb)
 ### [chartdb chartdb](https://github.com/chartdb/chartdb)
 
 **ChartDB核心内容总结：**

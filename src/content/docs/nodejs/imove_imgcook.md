@@ -3,6 +3,7 @@
 title: imove
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/imgcook/imove?style=social) ](https://github.com/imgcook/imove)
 ### [imgcook imove](https://github.com/imgcook/imove)
 
 **iMove 核心内容总结：**

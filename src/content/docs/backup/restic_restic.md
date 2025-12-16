@@ -3,6 +3,7 @@
 title: restic
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/restic/restic?style=social) ](https://github.com/restic/restic)
 ### [restic restic](https://github.com/restic/restic)
 
 **项目核心内容总结：**

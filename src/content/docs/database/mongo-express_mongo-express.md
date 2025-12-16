@@ -3,6 +3,7 @@
 title: mongo-express
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mongo-express/mongo-express?style=social) ](https://github.com/mongo-express/mongo-express)
 ### [mongo-express mongo-express](https://github.com/mongo-express/mongo-express)
 
 **Mongo Express 是一个用于 MongoDB 的 Web 管理工具，支持数据库查询、文档编辑、数据管理等操作。**  

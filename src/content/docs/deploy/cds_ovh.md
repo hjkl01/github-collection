@@ -3,6 +3,7 @@
 title: cds
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ovh/cds?style=social) ](https://github.com/ovh/cds)
 ### [ovh cds](https://github.com/ovh/cds)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: postgrest
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PostgREST/postgrest?style=social) ](https://github.com/PostgREST/postgrest)
 ### [PostgREST postgrest](https://github.com/PostgREST/postgrest)
 
 **项目核心内容总结：**

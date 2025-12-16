@@ -3,6 +3,7 @@
 title: open-webui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social) ](https://github.com/open-webui/open-webui)
 ### [open-webui open-webui](https://github.com/open-webui/open-webui)
 
 **核心内容总结：**

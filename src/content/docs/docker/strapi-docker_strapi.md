@@ -3,6 +3,7 @@
 title: strapi-docker
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/strapi/strapi-docker?style=social) ](https://github.com/strapi/strapi-docker)
 ### [strapi strapi-docker](https://github.com/strapi/strapi-docker)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: zulip
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zulip/zulip?style=social) ](https://github.com/zulip/zulip)
 ### [zulip zulip](https://github.com/zulip/zulip)
 
 **核心内容总结：**  

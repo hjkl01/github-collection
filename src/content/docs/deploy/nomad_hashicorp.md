@@ -3,6 +3,7 @@
 title: nomad
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hashicorp/nomad?style=social) ](https://github.com/hashicorp/nomad)
 ### [hashicorp nomad](https://github.com/hashicorp/nomad)
 
 **项目核心内容总结：**  

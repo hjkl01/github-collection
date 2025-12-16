@@ -3,6 +3,7 @@
 title: cognee
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/topoteretes/cognee?style=social) ](https://github.com/topoteretes/cognee)
 ### [topoteretes cognee](https://github.com/topoteretes/cognee)
 
 **项目核心内容总结：**

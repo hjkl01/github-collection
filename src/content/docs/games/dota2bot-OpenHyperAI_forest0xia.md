@@ -3,6 +3,7 @@
 title: dota2bot-OpenHyperAI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/forest0xia/dota2bot-OpenHyperAI?style=social) ](https://github.com/forest0xia/dota2bot-OpenHyperAI)
 ### [forest0xia dota2bot-OpenHyperAI](https://github.com/forest0xia/dota2bot-OpenHyperAI)
 
 **项目核心内容总结：**

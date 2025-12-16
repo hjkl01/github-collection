@@ -3,6 +3,7 @@
 title: argos-translate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/argosopentech/argos-translate?style=social) ](https://github.com/argosopentech/argos-translate)
 ### [argosopentech argos-translate](https://github.com/argosopentech/argos-translate)
 
 **Argos Translate 核心内容总结：**

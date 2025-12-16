@@ -3,6 +3,7 @@
 title: runc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/opencontainers/runc?style=social) ](https://github.com/opencontainers/runc)
 ### [opencontainers runc](https://github.com/opencontainers/runc)
 
 **项目核心内容总结：**  

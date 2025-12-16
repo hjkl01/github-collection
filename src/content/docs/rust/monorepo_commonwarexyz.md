@@ -3,6 +3,7 @@
 title: monorepo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/commonwarexyz/monorepo?style=social) ](https://github.com/commonwarexyz/monorepo)
 ### [commonwarexyz monorepo](https://github.com/commonwarexyz/monorepo)
 
 **项目核心内容总结：**  

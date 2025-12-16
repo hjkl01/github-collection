@@ -3,6 +3,7 @@
 title: cai
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aliasrobotics/cai?style=social) ](https://github.com/aliasrobotics/cai)
 ### [aliasrobotics cai](https://github.com/aliasrobotics/cai)
 
 CAI是一款开源的网络安全AI工具，主要用于漏洞评估、渗透测试和攻防演练。其核心功能包括自动化渗透测试、攻击与防御CTF评估、集成多种安全工具（如Metasploit、Nmap）以及支持自定义脚本扩展。主要特性包括：  

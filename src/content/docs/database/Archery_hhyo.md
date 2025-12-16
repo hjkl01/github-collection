@@ -3,6 +3,7 @@
 title: Archery
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hhyo/Archery?style=social) ](https://github.com/hhyo/Archery)
 ### [hhyo Archery](https://github.com/hhyo/Archery)
 
 Archery 是一个支持多数据库的 SQL 审核与查询管理平台，主要功能包括 SQL 查询、审核、执行、备份、数据字典管理、慢日志分析、会话管理等。支持的数据库类型涵盖 MySQL、Oracle、MongoDB、ClickHouse 等，不同数据库功能支持程度存在差异（如 MySQL 支持最全面）。  

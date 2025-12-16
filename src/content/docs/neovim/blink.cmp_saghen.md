@@ -3,6 +3,7 @@
 title: blink.cmp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/saghen/blink.cmp?style=social) ](https://github.com/saghen/blink.cmp)
 ### [saghen blink.cmp](https://github.com/saghen/blink.cmp)
 
 **项目核心内容总结：**  

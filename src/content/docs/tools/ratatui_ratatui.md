@@ -3,6 +3,7 @@
 title: ratatui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ratatui/ratatui?style=social) ](https://github.com/ratatui/ratatui)
 ### [ratatui ratatui](https://github.com/ratatui/ratatui)
 
 Ratatui 是一个用于构建终端用户界面（TUI）的 Rust 库，支持创建命令行应用、仪表板等交互式终端程序。其核心功能包括：  

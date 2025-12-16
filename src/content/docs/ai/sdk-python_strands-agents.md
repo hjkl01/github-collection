@@ -3,6 +3,7 @@
 title: sdk-python
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/strands-agents/sdk-python?style=social) ](https://github.com/strands-agents/sdk-python)
 ### [strands-agents sdk-python](https://github.com/strands-agents/sdk-python)
 
 **项目核心内容总结：**  

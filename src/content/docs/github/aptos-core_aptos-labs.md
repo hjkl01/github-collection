@@ -3,6 +3,7 @@
 title: aptos-core
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aptos-labs/aptos-core?style=social) ](https://github.com/aptos-labs/aptos-core)
 ### [aptos-labs aptos-core](https://github.com/aptos-labs/aptos-core)
 
 **项目核心内容总结：**  

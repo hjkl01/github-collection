@@ -3,6 +3,7 @@
 title: CookLikeHOC
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Gar-b-age/CookLikeHOC?style=social) ](https://github.com/Gar-b-age/CookLikeHOC)
 ### [Gar-b-age CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC)
 
 **项目核心内容总结：**

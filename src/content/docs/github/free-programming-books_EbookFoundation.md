@@ -3,6 +3,7 @@
 title: free-programming-books
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/EbookFoundation/free-programming-books?style=social) ](https://github.com/EbookFoundation/free-programming-books)
 ### [EbookFoundation free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
 **核心内容总结：**  

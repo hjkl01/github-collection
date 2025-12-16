@@ -3,6 +3,7 @@
 title: boa
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/boa-dev/boa?style=social) ](https://github.com/boa-dev/boa)
 ### [boa-dev boa](https://github.com/boa-dev/boa)
 
 **核心内容总结：**  

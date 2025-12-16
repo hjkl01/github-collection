@@ -3,6 +3,7 @@
 title: oil.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stevearc/oil.nvim?style=social) ](https://github.com/stevearc/oil.nvim)
 ### [stevearc oil.nvim](https://github.com/stevearc/oil.nvim)
 
 **项目核心内容总结：**  

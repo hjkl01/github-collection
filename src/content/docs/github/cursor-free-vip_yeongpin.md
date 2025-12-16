@@ -3,6 +3,7 @@
 title: cursor-free-vip
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yeongpin/cursor-free-vip?style=social) ](https://github.com/yeongpin/cursor-free-vip)
 ### [yeongpin cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: distribution
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/distribution/distribution?style=social) ](https://github.com/distribution/distribution)
 ### [distribution distribution](https://github.com/distribution/distribution)
 
 该项目是用于存储、分发容器镜像及其他内容的开源注册表实现，基于[OCI Distribution Specification](https://github.com/opencontainers/distribution-spec)。其核心功能包括：  

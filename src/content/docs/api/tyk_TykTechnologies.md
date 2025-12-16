@@ -3,6 +3,7 @@
 title: tyk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social) ](https://github.com/TykTechnologies/tyk)
 ### [TykTechnologies tyk](https://github.com/TykTechnologies/tyk)
 
 **Tyk API网关核心内容总结：**

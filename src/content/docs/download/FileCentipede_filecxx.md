@@ -3,6 +3,7 @@
 title: FileCentipede
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/filecxx/FileCentipede?style=social) ](https://github.com/filecxx/FileCentipede)
 ### [filecxx FileCentipede](https://github.com/filecxx/FileCentipede)
 
 **项目功能**  

@@ -3,6 +3,7 @@
 title: NvChad
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NvChad/NvChad?style=social) ](https://github.com/NvChad/NvChad)
 ### [NvChad NvChad](https://github.com/NvChad/NvChad)
 
 **项目核心内容总结：**  

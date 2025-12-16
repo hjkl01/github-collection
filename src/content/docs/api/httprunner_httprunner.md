@@ -3,6 +3,7 @@
 title: httprunner
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/httprunner/httprunner?style=social) ](https://github.com/httprunner/httprunner)
 ### [httprunner httprunner](https://github.com/httprunner/httprunner)
 
 **HttpRunner** 是一个开源测试框架，最初用于 API 接口和性能测试，后扩展为支持 UI 自动化（Android/iOS/Harmony/Browser）、API 测试（HTTP/HTTPS/WebSocket/RPC）、负载测试等的通用智能自动化测试框架。v5 版本引入大模型技术，采用纯视觉驱动（OCR/CV/VLM）方案，追求低性能损耗和跨平台统一 API，支持 Golang 技术栈二进制部署。

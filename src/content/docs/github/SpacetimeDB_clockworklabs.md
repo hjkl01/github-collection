@@ -3,6 +3,7 @@
 title: SpacetimeDB
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/clockworklabs/SpacetimeDB?style=social) ](https://github.com/clockworklabs/SpacetimeDB)
 ### [clockworklabs SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)
 
 **核心内容总结：**  

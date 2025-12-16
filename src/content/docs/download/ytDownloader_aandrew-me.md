@@ -3,6 +3,7 @@
 title: ytDownloader
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aandrew-me/ytDownloader?style=social) ](https://github.com/aandrew-me/ytDownloader)
 ### [aandrew-me ytDownloader](https://github.com/aandrew-me/ytDownloader)
 
 **项目核心内容总结：**

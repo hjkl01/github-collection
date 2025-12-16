@@ -3,6 +3,7 @@
 title: yazi.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mikavilpas/yazi.nvim?style=social) ](https://github.com/mikavilpas/yazi.nvim)
 ### [mikavilpas yazi.nvim](https://github.com/mikavilpas/yazi.nvim)
 
 **项目核心内容总结：**

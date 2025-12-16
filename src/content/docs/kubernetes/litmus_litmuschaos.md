@@ -3,6 +3,7 @@
 title: litmus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/litmuschaos/litmus?style=social) ](https://github.com/litmuschaos/litmus)
 ### [litmuschaos litmus](https://github.com/litmuschaos/litmus)
 
 **LitmusChaos 核心内容总结：**

@@ -3,6 +3,7 @@
 title: undetected-chromedriver
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ultrafunkamsterdam/undetected-chromedriver?style=social) ](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
 ### [ultrafunkamsterdam undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
 
 **项目核心内容总结：**

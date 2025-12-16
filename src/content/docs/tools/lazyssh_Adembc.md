@@ -3,6 +3,7 @@
 title: lazyssh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Adembc/lazyssh?style=social) ](https://github.com/Adembc/lazyssh)
 ### [Adembc lazyssh](https://github.com/Adembc/lazyssh)
 
 **Lazyssh 是一个基于终端的交互式 SSH 管理工具**，灵感源自 lazydocker 和 k9s，用于直接从终端管理服务器。  

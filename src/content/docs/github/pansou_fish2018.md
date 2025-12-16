@@ -3,6 +3,7 @@
 title: pansou
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fish2018/pansou?style=social) ](https://github.com/fish2018/pansou)
 ### [fish2018 pansou](https://github.com/fish2018/pansou)
 
 **项目核心内容总结：**

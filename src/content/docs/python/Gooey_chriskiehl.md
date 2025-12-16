@@ -3,6 +3,7 @@
 title: Gooey
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chriskiehl/Gooey?style=social) ](https://github.com/chriskiehl/Gooey)
 ### [chriskiehl Gooey](https://github.com/chriskiehl/Gooey)
 
 **项目核心内容总结：**

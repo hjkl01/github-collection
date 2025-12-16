@@ -3,6 +3,7 @@
 title: chat-ui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/chat-ui?style=social) ](https://github.com/huggingface/chat-ui)
 ### [huggingface chat-ui](https://github.com/huggingface/chat-ui)
 
 **项目核心内容总结：**

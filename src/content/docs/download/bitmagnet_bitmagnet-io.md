@@ -3,6 +3,7 @@
 title: bitmagnet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bitmagnet-io/bitmagnet?style=social) ](https://github.com/bitmagnet-io/bitmagnet)
 ### [bitmagnet-io bitmagnet](https://github.com/bitmagnet-io/bitmagnet)
 
 **项目核心内容总结：**  

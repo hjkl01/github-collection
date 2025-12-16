@@ -3,6 +3,7 @@
 title: bytebot
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bytebot-ai/bytebot?style=social) ](https://github.com/bytebot-ai/bytebot)
 ### [bytebot-ai bytebot](https://github.com/bytebot-ai/bytebot)
 
 **项目核心内容总结：**  

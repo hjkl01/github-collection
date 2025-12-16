@@ -3,6 +3,7 @@
 title: ibis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ibis-project/ibis?style=social) ](https://github.com/ibis-project/ibis)
 ### [ibis-project ibis](https://github.com/ibis-project/ibis)
 
 **Ibis 核心内容总结：**

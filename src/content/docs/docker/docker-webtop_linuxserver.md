@@ -3,6 +3,7 @@
 title: docker-webtop
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/linuxserver/docker-webtop?style=social) ](https://github.com/linuxserver/docker-webtop)
 ### [linuxserver docker-webtop](https://github.com/linuxserver/docker-webtop)
 
 **核心内容总结：**  

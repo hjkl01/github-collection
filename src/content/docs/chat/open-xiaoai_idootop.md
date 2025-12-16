@@ -3,6 +3,7 @@
 title: open-xiaoai
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/idootop/open-xiaoai?style=social) ](https://github.com/idootop/open-xiaoai)
 ### [idootop open-xiaoai](https://github.com/idootop/open-xiaoai)
 
 **核心内容总结：**

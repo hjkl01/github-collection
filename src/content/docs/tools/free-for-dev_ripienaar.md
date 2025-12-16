@@ -3,6 +3,7 @@
 title: free-for-dev
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ripienaar/free-for-dev?style=social) ](https://github.com/ripienaar/free-for-dev)
 ### [ripienaar free-for-dev](https://github.com/ripienaar/free-for-dev)
 
 核心内容总结：

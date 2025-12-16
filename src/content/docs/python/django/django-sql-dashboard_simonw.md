@@ -3,6 +3,7 @@
 title: django-sql-dashboard
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/simonw/django-sql-dashboard?style=social) ](https://github.com/simonw/django-sql-dashboard)
 ### [simonw django-sql-dashboard](https://github.com/simonw/django-sql-dashboard)
 
 **项目核心内容总结：**  

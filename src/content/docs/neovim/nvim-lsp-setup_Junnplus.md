@@ -3,6 +3,7 @@
 title: nvim-lsp-setup
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Junnplus/nvim-lsp-setup?style=social) ](https://github.com/Junnplus/nvim-lsp-setup)
 ### [Junnplus nvim-lsp-setup](https://github.com/Junnplus/nvim-lsp-setup)
 
 lsp-setup.nvim 是一个用于简化 Neovim 中 LSP 服务器配置的工具，支持与 `nvim-lspconfig` 和 `mason-lspconfig` 集成。其主要功能和特点包括：

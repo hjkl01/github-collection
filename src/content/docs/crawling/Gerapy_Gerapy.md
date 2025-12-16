@@ -3,6 +3,7 @@
 title: Gerapy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Gerapy/Gerapy?style=social) ](https://github.com/Gerapy/Gerapy)
 ### [Gerapy Gerapy](https://github.com/Gerapy/Gerapy)
 
 **核心内容总结：**

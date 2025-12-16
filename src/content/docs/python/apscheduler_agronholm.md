@@ -3,6 +3,7 @@
 title: apscheduler
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/agronholm/apscheduler?style=social) ](https://github.com/agronholm/apscheduler)
 ### [agronholm apscheduler](https://github.com/agronholm/apscheduler)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: datafusion
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/datafusion?style=social) ](https://github.com/apache/datafusion)
 ### [apache datafusion](https://github.com/apache/datafusion)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: Kimi-K2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MoonshotAI/Kimi-K2?style=social) ](https://github.com/MoonshotAI/Kimi-K2)
 ### [MoonshotAI Kimi-K2](https://github.com/MoonshotAI/Kimi-K2)
 
 **项目核心内容总结：**  

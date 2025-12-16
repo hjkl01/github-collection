@@ -3,6 +3,7 @@
 title: Fooocus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lllyasviel/Fooocus?style=social) ](https://github.com/lllyasviel/Fooocus)
 ### [lllyasviel Fooocus](https://github.com/lllyasviel/Fooocus)
 
 **核心内容总结：**  

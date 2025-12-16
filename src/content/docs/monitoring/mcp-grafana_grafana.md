@@ -3,6 +3,7 @@
 title: mcp-grafana
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/grafana/mcp-grafana?style=social) ](https://github.com/grafana/mcp-grafana)
 ### [grafana mcp-grafana](https://github.com/grafana/mcp-grafana)
 
 **项目核心内容总结：**  

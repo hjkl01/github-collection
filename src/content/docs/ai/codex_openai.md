@@ -3,6 +3,7 @@
 title: codex
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex?style=social) ](https://github.com/openai/codex)
 ### [openai codex](https://github.com/openai/codex)
 
 **项目核心内容总结：**

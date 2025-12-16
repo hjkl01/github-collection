@@ -3,6 +3,7 @@
 title: consul
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hashicorp/consul?style=social) ](https://github.com/hashicorp/consul)
 ### [hashicorp consul](https://github.com/hashicorp/consul)
 
 **Consul 核心内容总结：**

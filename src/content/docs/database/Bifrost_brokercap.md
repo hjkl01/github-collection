@@ -3,6 +3,7 @@
 title: Bifrost
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/brokercap/Bifrost?style=social) ](https://github.com/brokercap/Bifrost)
 ### [brokercap Bifrost](https://github.com/brokercap/Bifrost)
 
 **Bifrost** 是一款用于将 MySQL/MariaDB 数据实时同步到 Redis、ClickHouse、Elasticsearch、Kafka 等异构系统的中间件，支持全量与增量同步。  

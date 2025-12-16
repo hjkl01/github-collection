@@ -3,6 +3,7 @@
 title: bun
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/oven-sh/bun?style=social) ](https://github.com/oven-sh/bun)
 ### [oven-sh bun](https://github.com/oven-sh/bun)
 
 **核心内容总结：**  

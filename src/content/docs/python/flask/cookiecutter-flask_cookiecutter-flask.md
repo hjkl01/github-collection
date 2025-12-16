@@ -3,6 +3,7 @@
 title: cookiecutter-flask
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cookiecutter-flask/cookiecutter-flask?style=social) ](https://github.com/cookiecutter-flask/cookiecutter-flask)
 ### [cookiecutter-flask cookiecutter-flask](https://github.com/cookiecutter-flask/cookiecutter-flask)
 
 **核心内容总结：**  

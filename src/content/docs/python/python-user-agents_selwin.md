@@ -3,6 +3,7 @@
 title: python-user-agents
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/selwin/python-user-agents?style=social) ](https://github.com/selwin/python-user-agents)
 ### [selwin python-user-agents](https://github.com/selwin/python-user-agents)
 
 **核心内容总结**  

@@ -3,6 +3,7 @@
 title: ghidra
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=social) ](https://github.com/NationalSecurityAgency/ghidra)
 ### [NationalSecurityAgency ghidra](https://github.com/NationalSecurityAgency/ghidra)
 
 Ghidra 是由美国国家安全局（NSA）开发的逆向工程分析框架，支持 Windows、macOS 和 Linux 多平台，具备反汇编、反编译、图形化分析、脚本开发等功能，可处理多种处理器指令集和可执行文件格式。用户可通过 Java 或 Python 开发扩展组件。

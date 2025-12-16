@@ -3,6 +3,7 @@
 title: evcc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/evcc-io/evcc?style=social) ](https://github.com/evcc-io/evcc)
 ### [evcc-io evcc](https://github.com/evcc-io/evcc)
 
 **evcc** 是一个可扩展的电动汽车充电控制器和家庭能源管理系统，旨在通过本地能源管理（无需依赖云服务）实现高效能管理。  

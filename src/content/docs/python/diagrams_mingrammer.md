@@ -3,6 +3,7 @@
 title: diagrams
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mingrammer/diagrams?style=social) ](https://github.com/mingrammer/diagrams)
 ### [mingrammer diagrams](https://github.com/mingrammer/diagrams)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: hyperliquid-python-sdk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hyperliquid-dex/hyperliquid-python-sdk?style=social) ](https://github.com/hyperliquid-dex/hyperliquid-python-sdk)
 ### [hyperliquid-dex hyperliquid-python-sdk](https://github.com/hyperliquid-dex/hyperliquid-python-sdk)
 
 **项目核心内容总结：**  

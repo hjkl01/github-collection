@@ -3,6 +3,7 @@
 title: influxdb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/influxdata/influxdb?style=social) ](https://github.com/influxdata/influxdb)
 ### [influxdata influxdb](https://github.com/influxdata/influxdb)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: immich
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/immich-app/immich?style=social) ](https://github.com/immich-app/immich)
 ### [immich-app immich](https://github.com/immich-app/immich)
 
 **项目简介**  

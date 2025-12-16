@@ -3,6 +3,7 @@
 title: transformers
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/transformers?style=social) ](https://github.com/huggingface/transformers)
 ### [huggingface transformers](https://github.com/huggingface/transformers)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: kanagawa.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rebelot/kanagawa.nvim?style=social) ](https://github.com/rebelot/kanagawa.nvim)
 ### [rebelot kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: ratatui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ratatui/ratatui?style=social) ](https://github.com/ratatui/ratatui)
 ### [ratatui ratatui](https://github.com/ratatui/ratatui)
 
 **项目核心内容总结：**  

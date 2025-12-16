@@ -3,6 +3,7 @@
 title: TabPy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tableau/TabPy?style=social) ](https://github.com/tableau/TabPy)
 ### [tableau TabPy](https://github.com/tableau/TabPy)
 
 **TabPy核心内容总结：**  

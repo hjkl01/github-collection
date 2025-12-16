@@ -3,6 +3,7 @@
 title: vocechat-web
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Privoce/vocechat-web?style=social) ](https://github.com/Privoce/vocechat-web)
 ### [Privoce vocechat-web](https://github.com/Privoce/vocechat-web)
 
 **项目核心内容总结：**  

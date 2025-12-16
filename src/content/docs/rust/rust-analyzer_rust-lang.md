@@ -3,6 +3,7 @@
 title: rust-analyzer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/rust-analyzer?style=social) ](https://github.com/rust-lang/rust-analyzer)
 ### [rust-lang rust-analyzer](https://github.com/rust-lang/rust-analyzer)
 
 **项目核心内容总结：**  

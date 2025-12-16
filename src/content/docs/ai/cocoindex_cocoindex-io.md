@@ -3,6 +3,7 @@
 title: cocoindex
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cocoindex-io/cocoindex?style=social) ](https://github.com/cocoindex-io/cocoindex)
 ### [cocoindex-io cocoindex](https://github.com/cocoindex-io/cocoindex)
 
 **核心内容总结：**  

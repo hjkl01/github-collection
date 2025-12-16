@@ -3,6 +3,7 @@
 title: awesome-nest-boilerplate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NarHakobyan/awesome-nest-boilerplate?style=social) ](https://github.com/NarHakobyan/awesome-nest-boilerplate)
 ### [NarHakobyan awesome-nest-boilerplate](https://github.com/NarHakobyan/awesome-nest-boilerplate)
 
 **核心内容总结：**

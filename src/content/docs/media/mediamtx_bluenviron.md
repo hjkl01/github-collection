@@ -3,6 +3,7 @@
 title: mediamtx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social) ](https://github.com/bluenviron/mediamtx)
 ### [bluenviron mediamtx](https://github.com/bluenviron/mediamtx)
 
 **项目核心内容总结：**  

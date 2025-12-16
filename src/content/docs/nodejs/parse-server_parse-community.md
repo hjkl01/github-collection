@@ -3,6 +3,7 @@
 title: parse-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/parse-community/parse-server?style=social) ](https://github.com/parse-community/parse-server)
 ### [parse-community parse-server](https://github.com/parse-community/parse-server)
 
 **项目核心内容总结：**

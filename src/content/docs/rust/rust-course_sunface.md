@@ -3,6 +3,7 @@
 title: rust-course
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sunface/rust-course?style=social) ](https://github.com/sunface/rust-course)
 ### [sunface rust-course](https://github.com/sunface/rust-course)
 
 **项目核心内容总结：**  

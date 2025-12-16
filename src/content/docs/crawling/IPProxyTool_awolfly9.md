@@ -3,6 +3,7 @@
 title: IPProxyTool
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/awolfly9/IPProxyTool?style=social) ](https://github.com/awolfly9/IPProxyTool)
 ### [awolfly9 IPProxyTool](https://github.com/awolfly9/IPProxyTool)
 
 **项目核心内容总结：**

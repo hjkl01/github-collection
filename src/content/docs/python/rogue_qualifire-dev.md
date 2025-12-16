@@ -3,6 +3,7 @@
 title: rogue
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qualifire-dev/rogue?style=social) ](https://github.com/qualifire-dev/rogue)
 ### [qualifire-dev rogue](https://github.com/qualifire-dev/rogue)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: react-antd-admin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WinmezzZ/react-antd-admin?style=social) ](https://github.com/WinmezzZ/react-antd-admin)
 ### [WinmezzZ react-antd-admin](https://github.com/WinmezzZ/react-antd-admin)
 
 **项目核心内容总结**：

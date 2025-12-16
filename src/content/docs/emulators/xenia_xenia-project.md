@@ -3,6 +3,7 @@
 title: xenia
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xenia-project/xenia?style=social) ](https://github.com/xenia-project/xenia)
 ### [xenia-project xenia](https://github.com/xenia-project/xenia)
 
 **Xenia 项目核心内容总结：**  

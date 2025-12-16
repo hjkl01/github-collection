@@ -3,6 +3,7 @@
 title: etcd
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/etcd-io/etcd?style=social) ](https://github.com/etcd-io/etcd)
 ### [etcd-io etcd](https://github.com/etcd-io/etcd)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: How-To-Ask-Questions-The-Smart-Way
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ryanhanwu/How-To-Ask-Questions-The-Smart-Way?style=social) ](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
 ### [ryanhanwu How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
 
 **项目核心内容总结：**  

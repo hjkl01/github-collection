@@ -3,6 +3,7 @@
 title: spotifyd
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Spotifyd/spotifyd?style=social) ](https://github.com/Spotifyd/spotifyd)
 ### [Spotifyd spotifyd](https://github.com/Spotifyd/spotifyd)
 
 Spotifyd 是一个开源的 Spotify 客户端，作为 UNIX 守护进程运行。其核心功能包括：  

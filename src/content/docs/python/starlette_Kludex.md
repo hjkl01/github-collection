@@ -3,6 +3,7 @@
 title: starlette
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Kludex/starlette?style=social) ](https://github.com/Kludex/starlette)
 ### [Kludex starlette](https://github.com/Kludex/starlette)
 
 **核心内容总结：**

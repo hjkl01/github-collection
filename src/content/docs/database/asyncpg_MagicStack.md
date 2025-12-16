@@ -3,6 +3,7 @@
 title: asyncpg
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MagicStack/asyncpg?style=social) ](https://github.com/MagicStack/asyncpg)
 ### [MagicStack asyncpg](https://github.com/MagicStack/asyncpg)
 
 **asyncpg** 是一个专为 PostgreSQL 和 Python/asyncio 设计的高性能异步数据库客户端库，支持原生 PostgreSQL 协议，提供高效的数据交互能力。  

@@ -3,6 +3,7 @@
 title: WSABuilds
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MustardChef/WSABuilds?style=social) ](https://github.com/MustardChef/WSABuilds)
 ### [MustardChef WSABuilds](https://github.com/MustardChef/WSABuilds)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: mumble
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mumble-voip/mumble?style=social) ](https://github.com/mumble-voip/mumble)
 ### [mumble-voip mumble](https://github.com/mumble-voip/mumble)
 
 **核心内容总结：**  

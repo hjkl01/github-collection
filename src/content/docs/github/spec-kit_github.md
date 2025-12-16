@@ -3,6 +3,7 @@
 title: spec-kit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/github/spec-kit?style=social) ](https://github.com/github/spec-kit)
 ### [github spec-kit](https://github.com/github/spec-kit)
 
 **核心内容总结：**

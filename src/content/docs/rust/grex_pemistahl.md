@@ -3,6 +3,7 @@
 title: grex
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pemistahl/grex?style=social) ](https://github.com/pemistahl/grex)
 ### [pemistahl grex](https://github.com/pemistahl/grex)
 
 **项目核心内容总结：**  

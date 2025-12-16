@@ -3,6 +3,7 @@
 title: maxtext
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AI-Hypercomputer/maxtext?style=social) ](https://github.com/AI-Hypercomputer/maxtext)
 ### [AI-Hypercomputer maxtext](https://github.com/AI-Hypercomputer/maxtext)
 
 **MaxText 核心内容总结：**

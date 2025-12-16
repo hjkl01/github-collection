@@ -3,6 +3,7 @@
 title: terraform-provider-azurerm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hashicorp/terraform-provider-azurerm?style=social) ](https://github.com/hashicorp/terraform-provider-azurerm)
 ### [hashicorp terraform-provider-azurerm](https://github.com/hashicorp/terraform-provider-azurerm)
 
 **核心内容总结：**  

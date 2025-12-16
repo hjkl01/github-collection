@@ -3,6 +3,7 @@
 title: banana-slides
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Anionex/banana-slides?style=social) ](https://github.com/Anionex/banana-slides)
 ### [Anionex banana-slides](https://github.com/Anionex/banana-slides)
 
 **项目核心内容总结：**

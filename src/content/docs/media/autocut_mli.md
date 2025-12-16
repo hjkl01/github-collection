@@ -3,6 +3,7 @@
 title: autocut
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mli/autocut?style=social) ](https://github.com/mli/autocut)
 ### [mli autocut](https://github.com/mli/autocut)
 
 **项目功能**：AutoCut 是一个基于字幕自动剪切视频的工具。它能够自动为视频生成字幕，用户可以选择需要保留的句子，AutoCut 会根据这些句子对视频进行裁剪并保存，无需使用专业视频编辑软件，只需编辑文本文件即可完成剪切。

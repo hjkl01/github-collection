@@ -3,6 +3,7 @@
 title: bottom
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ClementTsang/bottom?style=social) ](https://github.com/ClementTsang/bottom)
 ### [ClementTsang bottom](https://github.com/ClementTsang/bottom)
 
 **项目功能**  

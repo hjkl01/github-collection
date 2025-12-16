@@ -3,6 +3,7 @@
 title: fff.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dmtrKovalenko/fff.nvim?style=social) ](https://github.com/dmtrKovalenko/fff.nvim)
 ### [dmtrKovalenko fff.nvim](https://github.com/dmtrKovalenko/fff.nvim)
 
 **FFF.nvim 核心内容总结：**

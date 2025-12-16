@@ -3,6 +3,7 @@
 title: adk-docs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google/adk-docs?style=social) ](https://github.com/google/adk-docs)
 ### [google adk-docs](https://github.com/google/adk-docs)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: parlant
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/emcie-co/parlant?style=social) ](https://github.com/emcie-co/parlant)
 ### [emcie-co parlant](https://github.com/emcie-co/parlant)
 
 **项目核心内容总结：**

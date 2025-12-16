@@ -3,6 +3,7 @@
 title: Open-IM-Server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenIMSDK/Open-IM-Server?style=social) ](https://github.com/OpenIMSDK/Open-IM-Server)
 ### [OpenIMSDK Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)
 
 **项目核心内容总结：**

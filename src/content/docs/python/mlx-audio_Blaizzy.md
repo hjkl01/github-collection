@@ -3,6 +3,7 @@
 title: mlx-audio
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Blaizzy/mlx-audio?style=social) ](https://github.com/Blaizzy/mlx-audio)
 ### [Blaizzy mlx-audio](https://github.com/Blaizzy/mlx-audio)
 
 **核心内容总结：**  

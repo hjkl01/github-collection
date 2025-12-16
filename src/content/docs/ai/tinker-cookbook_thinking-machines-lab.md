@@ -3,6 +3,7 @@
 title: tinker-cookbook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/thinking-machines-lab/tinker-cookbook?style=social) ](https://github.com/thinking-machines-lab/tinker-cookbook)
 ### [thinking-machines-lab tinker-cookbook](https://github.com/thinking-machines-lab/tinker-cookbook)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: wechat-selkies
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nickrunning/wechat-selkies?style=social) ](https://github.com/nickrunning/wechat-selkies)
 ### [nickrunning wechat-selkies](https://github.com/nickrunning/wechat-selkies)
 
 **项目核心内容总结：**

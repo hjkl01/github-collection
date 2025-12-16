@@ -3,6 +3,7 @@
 title: django-oscar
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/django-oscar/django-oscar?style=social) ](https://github.com/django-oscar/django-oscar)
 ### [django-oscar django-oscar](https://github.com/django-oscar/django-oscar)
 
 **项目核心内容总结：**  

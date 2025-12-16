@@ -3,6 +3,7 @@
 title: scylla
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/imWildCat/scylla?style=social) ](https://github.com/imWildCat/scylla)
 ### [imWildCat scylla](https://github.com/imWildCat/scylla)
 
 Scylla 是一个智能代理池工具，用于从互联网抓取内容并构建大型语言模型。其核心功能包括：自动爬取和验证代理IP、提供JSON API接口、支持网页界面（可查看代理IP地理分布等信息）、集成Scrapy和requests库（仅需一行代码）、内置HTTP转发代理服务器。  

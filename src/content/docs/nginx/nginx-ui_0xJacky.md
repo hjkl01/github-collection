@@ -3,6 +3,7 @@
 title: nginx-ui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/0xJacky/nginx-ui?style=social) ](https://github.com/0xJacky/nginx-ui)
 ### [0xJacky nginx-ui](https://github.com/0xJacky/nginx-ui)
 
 **项目核心内容总结：**

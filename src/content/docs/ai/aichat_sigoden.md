@@ -3,6 +3,7 @@
 title: aichat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sigoden/aichat?style=social) ](https://github.com/sigoden/aichat)
 ### [sigoden aichat](https://github.com/sigoden/aichat)
 
 **项目核心内容总结：**

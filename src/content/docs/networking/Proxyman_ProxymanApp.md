@@ -3,6 +3,7 @@
 title: Proxyman
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ProxymanApp/Proxyman?style=social) ](https://github.com/ProxymanApp/Proxyman)
 ### [ProxymanApp Proxyman](https://github.com/ProxymanApp/Proxyman)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: inc-rename.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/smjonas/inc-rename.nvim?style=social) ](https://github.com/smjonas/inc-rename.nvim)
 ### [smjonas inc-rename.nvim](https://github.com/smjonas/inc-rename.nvim)
 
 **项目核心内容总结：**

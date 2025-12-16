@@ -3,6 +3,7 @@
 title: jam
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jam-systems/jam?style=social) ](https://github.com/jam-systems/jam)
 ### [jam-systems jam](https://github.com/jam-systems/jam)
 
 **Jam 项目核心内容总结：**

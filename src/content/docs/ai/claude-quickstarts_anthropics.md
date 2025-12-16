@@ -3,6 +3,7 @@
 title: claude-quickstarts
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-quickstarts?style=social) ](https://github.com/anthropics/claude-quickstarts)
 ### [anthropics claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
 
 **核心内容总结：**  

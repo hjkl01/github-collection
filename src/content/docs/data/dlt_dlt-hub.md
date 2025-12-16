@@ -3,6 +3,7 @@
 title: dlt
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social) ](https://github.com/dlt-hub/dlt)
 ### [dlt-hub dlt](https://github.com/dlt-hub/dlt)
 
 **项目核心内容总结**  

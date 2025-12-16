@@ -3,6 +3,7 @@
 title: droidrun
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/droidrun/droidrun?style=social) ](https://github.com/droidrun/droidrun)
 ### [droidrun droidrun](https://github.com/droidrun/droidrun)
 
 **DroidRun 核心内容总结**  

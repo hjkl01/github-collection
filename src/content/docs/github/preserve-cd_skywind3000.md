@@ -3,6 +3,7 @@
 title: preserve-cd
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/skywind3000/preserve-cd?style=social) ](https://github.com/skywind3000/preserve-cd)
 ### [skywind3000 preserve-cd](https://github.com/skywind3000/preserve-cd)
 
 **项目核心内容总结：**  

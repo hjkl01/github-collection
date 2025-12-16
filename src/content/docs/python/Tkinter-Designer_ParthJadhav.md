@@ -3,6 +3,7 @@
 title: Tkinter-Designer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ParthJadhav/Tkinter-Designer?style=social) ](https://github.com/ParthJadhav/Tkinter-Designer)
 ### [ParthJadhav Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)
 
 **核心内容总结：**

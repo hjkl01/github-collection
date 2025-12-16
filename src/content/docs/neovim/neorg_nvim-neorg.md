@@ -3,6 +3,7 @@
 title: neorg
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-neorg/neorg?style=social) ](https://github.com/nvim-neorg/neorg)
 ### [nvim-neorg neorg](https://github.com/nvim-neorg/neorg)
 
 **项目核心内容总结：**  

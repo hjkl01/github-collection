@@ -3,6 +3,7 @@
 title: AndroidSecurityStudy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/r0ysue/AndroidSecurityStudy?style=social) ](https://github.com/r0ysue/AndroidSecurityStudy)
 ### [r0ysue AndroidSecurityStudy](https://github.com/r0ysue/AndroidSecurityStudy)
 
 **核心内容总结：**

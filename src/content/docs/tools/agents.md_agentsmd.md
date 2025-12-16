@@ -3,6 +3,7 @@
 title: agents.md
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/agentsmd/agents.md?style=social) ](https://github.com/agentsmd/agents.md)
 ### [agentsmd agents.md](https://github.com/agentsmd/agents.md)
 
 AGENTS.md 是一个为 AI 编码代理提供标准化指导的开放格式文件，用于明确项目协作规则和操作流程。其核心功能包括：

@@ -3,6 +3,7 @@
 title: ddddocr
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sml2h3/ddddocr?style=social) ](https://github.com/sml2h3/ddddocr)
 ### [sml2h3 ddddocr](https://github.com/sml2h3/ddddocr)
 
 **项目总结：**

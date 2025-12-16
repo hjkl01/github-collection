@@ -3,6 +3,7 @@
 title: landscape
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ThisSeanZhang/landscape?style=social) ](https://github.com/ThisSeanZhang/landscape)
 ### [ThisSeanZhang landscape](https://github.com/ThisSeanZhang/landscape)
 
 **项目核心内容总结：**  

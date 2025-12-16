@@ -3,6 +3,7 @@
 title: just
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/casey/just?style=social) ](https://github.com/casey/just)
 ### [casey just](https://github.com/casey/just)
 
 **核心内容总结：**  

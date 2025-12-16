@@ -3,6 +3,7 @@
 title: lf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gokcehan/lf?style=social) ](https://github.com/gokcehan/lf)
 ### [gokcehan lf](https://github.com/gokcehan/lf)
 
 **项目核心内容总结：**  

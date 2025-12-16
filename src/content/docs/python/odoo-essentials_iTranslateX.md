@@ -3,6 +3,7 @@
 title: odoo-essentials
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/iTranslateX/odoo-essentials?style=social) ](https://github.com/iTranslateX/odoo-essentials)
 ### [iTranslateX odoo-essentials](https://github.com/iTranslateX/odoo-essentials)
 
 **核心内容总结：**  

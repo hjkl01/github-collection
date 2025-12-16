@@ -3,6 +3,7 @@
 title: apisix
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/apisix?style=social) ](https://github.com/apache/apisix)
 ### [apache apisix](https://github.com/apache/apisix)
 
 **核心内容总结：**  

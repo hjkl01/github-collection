@@ -3,6 +3,7 @@
 title: LazyVim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LazyVim/LazyVim?style=social) ](https://github.com/LazyVim/LazyVim)
 ### [LazyVim LazyVim](https://github.com/LazyVim/LazyVim)
 
 **LazyVim 核心内容总结**  

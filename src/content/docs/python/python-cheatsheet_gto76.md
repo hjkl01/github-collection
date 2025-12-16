@@ -3,6 +3,7 @@
 title: python-cheatsheet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gto76/python-cheatsheet?style=social) ](https://github.com/gto76/python-cheatsheet)
 ### [gto76 python-cheatsheet](https://github.com/gto76/python-cheatsheet)
 
 **核心内容总结：**

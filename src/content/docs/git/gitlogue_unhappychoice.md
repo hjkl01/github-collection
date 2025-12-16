@@ -3,6 +3,7 @@
 title: gitlogue
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/unhappychoice/gitlogue?style=social) ](https://github.com/unhappychoice/gitlogue)
 ### [unhappychoice gitlogue](https://github.com/unhappychoice/gitlogue)
 
 **gitlogue** 是一款用于终端的电影级 Git 提交回放工具，通过动画形式将 Git 历史转化为生动的视觉故事，支持真实打字动画、语法高亮、文件树转换等功能。

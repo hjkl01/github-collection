@@ -3,6 +3,7 @@
 title: jellyfin-web
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jellyfin/jellyfin-web?style=social) ](https://github.com/jellyfin/jellyfin-web)
 ### [jellyfin jellyfin-web](https://github.com/jellyfin/jellyfin-web)
 
 **项目核心内容总结：**  

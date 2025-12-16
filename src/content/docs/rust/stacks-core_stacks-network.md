@@ -3,6 +3,7 @@
 title: stacks-core
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stacks-network/stacks-core?style=social) ](https://github.com/stacks-network/stacks-core)
 ### [stacks-network stacks-core](https://github.com/stacks-network/stacks-core)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: nesrom
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dream1986/nesrom?style=social) ](https://github.com/dream1986/nesrom)
 ### [dream1986 nesrom](https://github.com/dream1986/nesrom)
 
 核心内容：  

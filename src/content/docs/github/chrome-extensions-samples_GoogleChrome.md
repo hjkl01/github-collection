@@ -3,6 +3,7 @@
 title: chrome-extensions-samples
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/GoogleChrome/chrome-extensions-samples?style=social) ](https://github.com/GoogleChrome/chrome-extensions-samples)
 ### [GoogleChrome chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)
 
 **项目核心内容总结：**  

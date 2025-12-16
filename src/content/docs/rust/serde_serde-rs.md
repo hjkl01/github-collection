@@ -3,6 +3,7 @@
 title: serde
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/serde-rs/serde?style=social) ](https://github.com/serde-rs/serde)
 ### [serde-rs serde](https://github.com/serde-rs/serde)
 
 **核心内容总结：**  

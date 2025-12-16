@@ -3,6 +3,7 @@
 title: sen
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TomasTomecek/sen?style=social) ](https://github.com/TomasTomecek/sen)
 ### [TomasTomecek sen](https://github.com/TomasTomecek/sen)
 
 **项目核心内容总结：**  

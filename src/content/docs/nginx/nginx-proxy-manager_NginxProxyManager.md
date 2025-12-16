@@ -3,6 +3,7 @@
 title: nginx-proxy-manager
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NginxProxyManager/nginx-proxy-manager?style=social) ](https://github.com/NginxProxyManager/nginx-proxy-manager)
 ### [NginxProxyManager nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
 
 Nginx Proxy Manager 是一个基于 Docker 的反向代理管理工具，提供可视化界面简化 SSL 证书配置和网站流量转发。核心功能包括：  

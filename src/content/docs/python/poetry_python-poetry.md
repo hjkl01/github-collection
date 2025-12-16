@@ -3,6 +3,7 @@
 title: poetry
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/python-poetry/poetry?style=social) ](https://github.com/python-poetry/poetry)
 ### [python-poetry poetry](https://github.com/python-poetry/poetry)
 
 **项目核心内容总结：**  

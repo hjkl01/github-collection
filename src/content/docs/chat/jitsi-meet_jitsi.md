@@ -3,6 +3,7 @@
 title: jitsi-meet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social) ](https://github.com/jitsi/jitsi-meet)
 ### [jitsi jitsi-meet](https://github.com/jitsi/jitsi-meet)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: rust
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/rust?style=social) ](https://github.com/rust-lang/rust)
 ### [rust-lang rust](https://github.com/rust-lang/rust)
 
 **项目核心内容总结：**  

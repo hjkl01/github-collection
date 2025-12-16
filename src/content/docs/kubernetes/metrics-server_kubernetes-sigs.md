@@ -3,6 +3,7 @@
 title: metrics-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes-sigs/metrics-server?style=social) ](https://github.com/kubernetes-sigs/metrics-server)
 ### [kubernetes-sigs metrics-server](https://github.com/kubernetes-sigs/metrics-server)
 
 ### 核心内容总结  

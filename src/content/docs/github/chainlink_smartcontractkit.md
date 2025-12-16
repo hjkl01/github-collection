@@ -3,6 +3,7 @@
 title: chainlink
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/smartcontractkit/chainlink?style=social) ](https://github.com/smartcontractkit/chainlink)
 ### [smartcontractkit chainlink](https://github.com/smartcontractkit/chainlink)
 
 **核心内容总结：**  

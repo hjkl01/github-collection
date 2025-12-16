@@ -3,6 +3,7 @@
 title: drawio
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jgraph/drawio?style=social) ](https://github.com/jgraph/drawio)
 ### [jgraph drawio](https://github.com/jgraph/drawio)
 
 **核心内容总结：**  

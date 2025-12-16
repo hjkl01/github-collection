@@ -3,6 +3,7 @@
 title: scan4all
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hktalent/scan4all?style=social) ](https://github.com/hktalent/scan4all)
 ### [hktalent scan4all](https://github.com/hktalent/scan4all)
 
 **项目核心内容总结：**

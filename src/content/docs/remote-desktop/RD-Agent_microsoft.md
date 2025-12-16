@@ -3,6 +3,7 @@
 title: RD-Agent
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/RD-Agent?style=social) ](https://github.com/microsoft/RD-Agent)
 ### [microsoft RD-Agent](https://github.com/microsoft/RD-Agent)
 
 **项目核心内容总结：**  

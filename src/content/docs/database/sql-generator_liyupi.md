@@ -3,6 +3,7 @@
 title: sql-generator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/liyupi/sql-generator?style=social) ](https://github.com/liyupi/sql-generator)
 ### [liyupi sql-generator](https://github.com/liyupi/sql-generator)
 
 **项目核心内容总结：**

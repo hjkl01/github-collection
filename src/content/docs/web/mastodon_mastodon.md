@@ -3,6 +3,7 @@
 title: mastodon
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mastodon/mastodon?style=social) ](https://github.com/mastodon/mastodon)
 ### [mastodon mastodon](https://github.com/mastodon/mastodon)
 
 **Mastodon核心内容总结：**

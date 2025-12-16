@@ -3,6 +3,7 @@
 title: hello-agents
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/datawhalechina/hello-agents?style=social) ](https://github.com/datawhalechina/hello-agents)
 ### [datawhalechina hello-agents](https://github.com/datawhalechina/hello-agents)
 
 **项目核心内容总结：**

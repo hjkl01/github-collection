@@ -3,6 +3,7 @@
 title: octo.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pwntester/octo.nvim?style=social) ](https://github.com/pwntester/octo.nvim)
 ### [pwntester octo.nvim](https://github.com/pwntester/octo.nvim)
 
 **项目核心内容总结：**

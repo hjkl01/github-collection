@@ -3,6 +3,7 @@
 title: bottlerocket
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bottlerocket-os/bottlerocket?style=social) ](https://github.com/bottlerocket-os/bottlerocket)
 ### [bottlerocket-os bottlerocket](https://github.com/bottlerocket-os/bottlerocket)
 
 **Bottlerocket 项目核心内容总结**  

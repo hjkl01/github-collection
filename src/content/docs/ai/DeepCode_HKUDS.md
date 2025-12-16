@@ -3,6 +3,7 @@
 title: DeepCode
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/DeepCode?style=social) ](https://github.com/HKUDS/DeepCode)
 ### [HKUDS DeepCode](https://github.com/HKUDS/DeepCode)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: jesse
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jesse-ai/jesse?style=social) ](https://github.com/jesse-ai/jesse)
 ### [jesse-ai jesse](https://github.com/jesse-ai/jesse)
 
 **Jesse** 是一个用于加密货币交易的高级框架，旨在简化交易策略的研究、定义及实盘交易。其核心功能包括：  

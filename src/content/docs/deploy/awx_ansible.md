@@ -3,6 +3,7 @@
 title: awx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ansible/awx?style=social) ](https://github.com/ansible/awx)
 ### [ansible awx](https://github.com/ansible/awx)
 
 **核心内容总结：**  

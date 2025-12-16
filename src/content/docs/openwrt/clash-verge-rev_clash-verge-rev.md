@@ -3,6 +3,7 @@
 title: clash-verge-rev
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/clash-verge-rev/clash-verge-rev?style=social) ](https://github.com/clash-verge-rev/clash-verge-rev)
 ### [clash-verge-rev clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
 
 **项目核心内容总结：**  

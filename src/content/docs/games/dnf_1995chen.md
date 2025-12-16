@@ -3,6 +3,7 @@
 title: dnf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/1995chen/dnf?style=social) ](https://github.com/1995chen/dnf)
 ### [1995chen dnf](https://github.com/1995chen/dnf)
 
 **项目核心内容总结：**

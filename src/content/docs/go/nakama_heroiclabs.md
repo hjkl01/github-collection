@@ -3,6 +3,7 @@
 title: nakama
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/heroiclabs/nakama?style=social) ](https://github.com/heroiclabs/nakama)
 ### [heroiclabs nakama](https://github.com/heroiclabs/nakama)
 
 **项目核心内容总结：**

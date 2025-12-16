@@ -3,6 +3,7 @@
 title: rerun
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rerun-io/rerun?style=social) ](https://github.com/rerun-io/rerun)
 ### [rerun-io rerun](https://github.com/rerun-io/rerun)
 
 **项目核心内容总结：**  

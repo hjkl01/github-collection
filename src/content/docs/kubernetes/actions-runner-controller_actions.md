@@ -3,6 +3,7 @@
 title: actions-runner-controller
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/actions/actions-runner-controller?style=social) ](https://github.com/actions/actions-runner-controller)
 ### [actions actions-runner-controller](https://github.com/actions/actions-runner-controller)
 
 **核心内容总结：**  

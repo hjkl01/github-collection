@@ -3,6 +3,7 @@
 title: redlib
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/redlib-org/redlib?style=social) ](https://github.com/redlib-org/redlib)
 ### [redlib-org redlib](https://github.com/redlib-org/redlib)
 
 **项目核心内容总结：**  

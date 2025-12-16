@@ -3,6 +3,7 @@
 title: avante.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yetone/avante.nvim?style=social) ](https://github.com/yetone/avante.nvim)
 ### [yetone avante.nvim](https://github.com/yetone/avante.nvim)
 
 **avante.nvim** 是一个基于 Neovim 的 AI 辅助插件，核心功能包括：  

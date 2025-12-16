@@ -3,6 +3,7 @@
 title: logrus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sirupsen/logrus?style=social) ](https://github.com/sirupsen/logrus)
 ### [sirupsen logrus](https://github.com/sirupsen/logrus)
 
 **Logrus核心内容总结：**  

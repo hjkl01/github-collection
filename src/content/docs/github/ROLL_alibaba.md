@@ -3,6 +3,7 @@
 title: ROLL
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/ROLL?style=social) ](https://github.com/alibaba/ROLL)
 ### [alibaba ROLL](https://github.com/alibaba/ROLL)
 
 ROLL是一个由阿里巴巴开发的强化学习优化库，专注于大规模机器学习任务。其核心功能包括：  

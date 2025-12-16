@@ -3,6 +3,7 @@
 title: grpc-go
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/grpc/grpc-go?style=social) ](https://github.com/grpc/grpc-go)
 ### [grpc grpc-go](https://github.com/grpc/grpc-go)
 
 **项目核心内容总结：**  

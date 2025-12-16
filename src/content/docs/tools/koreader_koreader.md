@@ -3,6 +3,7 @@
 title: koreader
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/koreader/koreader?style=social) ](https://github.com/koreader/koreader)
 ### [koreader koreader](https://github.com/koreader/koreader)
 
 **项目核心内容总结：**  

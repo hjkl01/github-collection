@@ -3,6 +3,7 @@
 title: PythonDataScienceHandbook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jakevdp/PythonDataScienceHandbook?style=social) ](https://github.com/jakevdp/PythonDataScienceHandbook)
 ### [jakevdp PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 
 **项目功能**：提供《Python数据科学手册》的完整Jupyter笔记本版本，涵盖IPython、NumPy、Pandas、Matplotlib、Scikit-Learn等核心数据科学库的使用，支持在线阅读和代码运行。  

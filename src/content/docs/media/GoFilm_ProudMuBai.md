@@ -3,6 +3,7 @@
 title: GoFilm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ProudMuBai/GoFilm?style=social) ](https://github.com/ProudMuBai/GoFilm)
 ### [ProudMuBai GoFilm](https://github.com/ProudMuBai/GoFilm)
 
 GoFilm 是一个基于 Vue（前端）和 Gin（后端）构建的在线观影网站，支持影视资源采集、定时更新和管理功能。项目采用 Vite + Vue + ElementPlus 作为前端技术栈，后端使用 Gin + gorm + go-redis 框架，通过 gocolly 和 robfig/cron 实现资源采集与定时任务。  

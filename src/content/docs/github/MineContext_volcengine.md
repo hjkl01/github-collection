@@ -3,6 +3,7 @@
 title: MineContext
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/volcengine/MineContext?style=social) ](https://github.com/volcengine/MineContext)
 ### [volcengine MineContext](https://github.com/volcengine/MineContext)
 
 MineContext 是一个开源工具，旨在捕捉用户的数字活动（如屏幕截图、文件、链接等），并基于这些数据自动生成摘要、待办事项和活动报告，帮助用户提升信息处理效率。其核心功能包括：  

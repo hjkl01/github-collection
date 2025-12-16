@@ -3,6 +3,7 @@
 title: nightingale
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ccfos/nightingale?style=social) ](https://github.com/ccfos/nightingale)
 ### [ccfos nightingale](https://github.com/ccfos/nightingale)
 
 **Nightingale 核心内容总结**  

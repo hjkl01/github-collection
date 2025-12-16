@@ -3,6 +3,7 @@
 title: lighthouse
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/GoogleChrome/lighthouse?style=social) ](https://github.com/GoogleChrome/lighthouse)
 ### [GoogleChrome lighthouse](https://github.com/GoogleChrome/lighthouse)
 
 Lighthouse是一款用于审计网页性能和质量的工具，支持运行性能、可访问性、SEO等多维度检查，并生成详细报告。核心功能包括：  

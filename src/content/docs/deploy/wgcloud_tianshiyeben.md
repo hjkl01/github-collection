@@ -3,6 +3,7 @@
 title: wgcloud
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tianshiyeben/wgcloud?style=social) ](https://github.com/tianshiyeben/wgcloud)
 ### [tianshiyeben wgcloud](https://github.com/tianshiyeben/wgcloud)
 
 **WGCLOUD运维监控系统核心内容总结：**

@@ -3,6 +3,7 @@
 title: kms-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/luodaoyi/kms-server?style=social) ](https://github.com/luodaoyi/kms-server)
 ### [luodaoyi kms-server](https://github.com/luodaoyi/kms-server)
 
 **核心内容总结：**  

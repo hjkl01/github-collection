@@ -3,6 +3,7 @@
 title: patina
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenDevicePartnership/patina?style=social) ](https://github.com/OpenDevicePartnership/patina)
 ### [OpenDevicePartnership patina](https://github.com/OpenDevicePartnership/patina)
 
 **核心内容总结：**  

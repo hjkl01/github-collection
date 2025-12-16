@@ -3,6 +3,7 @@
 title: opendevops
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/opendevops-cn/opendevops?style=social) ](https://github.com/opendevops-cn/opendevops)
 ### [opendevops-cn opendevops](https://github.com/opendevops-cn/opendevops)
 
 **项目核心内容总结：**  

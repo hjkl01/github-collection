@@ -3,6 +3,7 @@
 title: xbmc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xbmc/xbmc?style=social) ](https://github.com/xbmc/xbmc)
 ### [xbmc xbmc](https://github.com/xbmc/xbmc)
 
 **项目核心内容总结：**  

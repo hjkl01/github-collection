@@ -3,6 +3,7 @@
 title: stf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social) ](https://github.com/DeviceFarmer/stf)
 ### [DeviceFarmer stf](https://github.com/DeviceFarmer/stf)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: insomnia
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Kong/insomnia?style=social) ](https://github.com/Kong/insomnia)
 ### [Kong insomnia](https://github.com/Kong/insomnia)
 
 **Insomnia API 客户端核心内容总结：**  

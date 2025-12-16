@@ -3,6 +3,7 @@
 title: pgx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jackc/pgx?style=social) ](https://github.com/jackc/pgx)
 ### [jackc pgx](https://github.com/jackc/pgx)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: django-filter
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/carltongibson/django-filter?style=social) ](https://github.com/carltongibson/django-filter)
 ### [carltongibson django-filter](https://github.com/carltongibson/django-filter)
 
 **核心内容总结：**

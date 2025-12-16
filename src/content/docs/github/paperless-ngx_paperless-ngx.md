@@ -3,6 +3,7 @@
 title: paperless-ngx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social) ](https://github.com/paperless-ngx/paperless-ngx)
 ### [paperless-ngx paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
 
 **Paperless-ngx 核心内容总结：**

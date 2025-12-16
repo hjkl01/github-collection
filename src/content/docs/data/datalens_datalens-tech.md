@@ -3,6 +3,7 @@
 title: datalens
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/datalens-tech/datalens?style=social) ](https://github.com/datalens-tech/datalens)
 ### [datalens-tech datalens](https://github.com/datalens-tech/datalens)
 
 DataLens 是一个开源的商业智能（BI）和数据可视化平台，支持连接 ClickHouse、PostgreSQL 等数据库，提供数据处理、用户界面、权限管理和元数据管理功能。核心特性包括：  

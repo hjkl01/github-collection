@@ -3,6 +3,7 @@
 title: universal-android-debloater-next-generation
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Universal-Debloater-Alliance/universal-android-debloater-next-generation?style=social) ](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
 ### [Universal-Debloater-Alliance universal-android-debloater-next-generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: opencloud
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/opencloud-eu/opencloud?style=social) ](https://github.com/opencloud-eu/opencloud)
 ### [opencloud-eu opencloud](https://github.com/opencloud-eu/opencloud)
 
 **核心内容总结：**  

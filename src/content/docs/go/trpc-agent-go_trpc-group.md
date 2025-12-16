@@ -3,6 +3,7 @@
 title: trpc-agent-go
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/trpc-group/trpc-agent-go?style=social) ](https://github.com/trpc-group/trpc-agent-go)
 ### [trpc-group trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)
 
 **项目核心内容总结：**  

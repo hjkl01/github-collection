@@ -3,6 +3,7 @@
 title: kubernetes
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social) ](https://github.com/kubernetes/kubernetes)
 ### [kubernetes kubernetes](https://github.com/kubernetes/kubernetes)
 
 **核心内容总结：**  

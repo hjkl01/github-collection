@@ -3,6 +3,7 @@
 title: wsldl
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yuk7/wsldl?style=social) ](https://github.com/yuk7/wsldl)
 ### [yuk7 wsldl](https://github.com/yuk7/wsldl)
 
 **项目核心内容总结：**

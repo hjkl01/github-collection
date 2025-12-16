@@ -3,6 +3,7 @@
 title: TastyIgniter
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tastyigniter/TastyIgniter?style=social) ](https://github.com/tastyigniter/TastyIgniter)
 ### [tastyigniter TastyIgniter](https://github.com/tastyigniter/TastyIgniter)
 
 **核心内容总结：**  

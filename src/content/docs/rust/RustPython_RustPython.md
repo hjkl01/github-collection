@@ -3,6 +3,7 @@
 title: RustPython
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RustPython/RustPython?style=social) ](https://github.com/RustPython/RustPython)
 ### [RustPython RustPython](https://github.com/RustPython/RustPython)
 
 **项目核心内容总结：**  

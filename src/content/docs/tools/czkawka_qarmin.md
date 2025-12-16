@@ -3,6 +3,7 @@
 title: czkawka
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qarmin/czkawka?style=social) ](https://github.com/qarmin/czkawka)
 ### [qarmin czkawka](https://github.com/qarmin/czkawka)
 
 **项目核心内容总结：**

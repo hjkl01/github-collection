@@ -3,6 +3,7 @@
 title: macos
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dockur/macos?style=social) ](https://github.com/dockur/macos)
 ### [dockur macos](https://github.com/dockur/macos)
 
 **项目核心内容总结**  

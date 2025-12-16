@@ -3,6 +3,7 @@
 title: IPProxyPool
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qiyeboy/IPProxyPool?style=social) ](https://github.com/qiyeboy/IPProxyPool)
 ### [qiyeboy IPProxyPool](https://github.com/qiyeboy/IPProxyPool)
 
 **项目核心内容总结：**

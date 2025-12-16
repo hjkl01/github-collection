@@ -3,6 +3,7 @@
 title: ArchiveBox
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ArchiveBox/ArchiveBox?style=social) ](https://github.com/ArchiveBox/ArchiveBox)
 ### [ArchiveBox ArchiveBox](https://github.com/ArchiveBox/ArchiveBox)
 
 **项目核心内容总结：**  

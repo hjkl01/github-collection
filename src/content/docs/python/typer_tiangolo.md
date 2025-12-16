@@ -3,6 +3,7 @@
 title: typer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tiangolo/typer?style=social) ](https://github.com/tiangolo/typer)
 ### [tiangolo typer](https://github.com/tiangolo/typer)
 
 **核心内容总结：**  

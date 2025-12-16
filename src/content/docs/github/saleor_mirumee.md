@@ -3,6 +3,7 @@
 title: saleor
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mirumee/saleor?style=social) ](https://github.com/mirumee/saleor)
 ### [mirumee saleor](https://github.com/mirumee/saleor)
 
 **核心内容总结：**  

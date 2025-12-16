@@ -3,6 +3,7 @@
 title: ygege
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/UwUDev/ygege?style=social) ](https://github.com/UwUDev/ygege)
 ### [UwUDev ygege](https://github.com/UwUDev/ygege)
 
 **项目核心内容总结**：

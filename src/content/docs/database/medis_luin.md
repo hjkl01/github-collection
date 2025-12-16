@@ -3,6 +3,7 @@
 title: medis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/luin/medis?style=social) ](https://github.com/luin/medis)
 ### [luin medis](https://github.com/luin/medis)
 
 ### 核心内容总结

@@ -3,6 +3,7 @@
 title: opendal
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/opendal?style=social) ](https://github.com/apache/opendal)
 ### [apache opendal](https://github.com/apache/opendal)
 
 **核心内容总结：**  

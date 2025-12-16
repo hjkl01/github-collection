@@ -3,6 +3,7 @@
 title: posting
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/darrenburns/posting?style=social) ](https://github.com/darrenburns/posting)
 ### [darrenburns posting](https://github.com/darrenburns/posting)
 
 **核心内容总结：**

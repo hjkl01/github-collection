@@ -3,6 +3,7 @@
 title: OpenGFW
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apernet/OpenGFW?style=social) ](https://github.com/apernet/OpenGFW)
 ### [apernet OpenGFW](https://github.com/apernet/OpenGFW)
 
 **项目核心内容总结：**

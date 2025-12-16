@@ -3,6 +3,7 @@
 title: IPTV
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Free-TV/IPTV?style=social) ](https://github.com/Free-TV/IPTV)
 ### [Free-TV IPTV](https://github.com/Free-TV/IPTV)
 
 **项目核心内容总结：**

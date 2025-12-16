@@ -3,6 +3,7 @@
 title: lake
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/merico-dev/lake?style=social) ](https://github.com/merico-dev/lake)
 ### [merico-dev lake](https://github.com/merico-dev/lake)
 
 Apache DevLake 是一个开源的开发数据平台，用于整合 DevOps 工具中的碎片化数据，通过分析和可视化帮助团队提升工程效率、优化开发者体验并推动社区发展。其核心功能包括：  

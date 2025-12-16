@@ -3,6 +3,7 @@
 title: weblate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WeblateOrg/weblate?style=social) ](https://github.com/WeblateOrg/weblate)
 ### [WeblateOrg weblate](https://github.com/WeblateOrg/weblate)
 
 **Weblate** 是一款基于网络的自由软件持续本地化系统，支持超过2500个自由项目和公司（覆盖165个国家）使用。其核心功能包括多语言翻译管理、本地化协作及自动化流程。  

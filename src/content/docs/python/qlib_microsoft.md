@@ -3,6 +3,7 @@
 title: qlib
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/qlib?style=social) ](https://github.com/microsoft/qlib)
 ### [microsoft qlib](https://github.com/microsoft/qlib)
 
 **Qlib核心内容总结：**  

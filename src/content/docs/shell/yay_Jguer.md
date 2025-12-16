@@ -3,6 +3,7 @@
 title: yay
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Jguer/yay?style=social) ](https://github.com/Jguer/yay)
 ### [Jguer yay](https://github.com/Jguer/yay)
 
 ### 核心内容总结

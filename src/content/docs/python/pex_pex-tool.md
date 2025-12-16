@@ -3,6 +3,7 @@
 title: pex
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pex-tool/pex?style=social) ](https://github.com/pex-tool/pex)
 ### [pex-tool pex](https://github.com/pex-tool/pex)
 
 **PEX核心内容总结**  

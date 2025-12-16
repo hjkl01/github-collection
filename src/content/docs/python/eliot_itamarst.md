@@ -3,6 +3,7 @@
 title: eliot
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/itamarst/eliot?style=social) ](https://github.com/itamarst/eliot)
 ### [itamarst eliot](https://github.com/itamarst/eliot)
 
 Eliot 是一个 Python 日志系统，通过输出 **因果链日志** 帮助开发者追踪软件行为的完整过程。其核心功能是记录代码执行的因果关系：每个操作（Action）可生成子操作，并最终标记为成功或失败，从而清晰呈现事件发生的原因和上下文。

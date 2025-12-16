@@ -3,6 +3,7 @@
 title: usql
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xo/usql?style=social) ](https://github.com/xo/usql)
 ### [xo usql](https://github.com/xo/usql)
 
 **usql 核心内容总结：**

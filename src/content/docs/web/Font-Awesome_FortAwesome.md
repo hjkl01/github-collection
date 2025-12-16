@@ -3,6 +3,7 @@
 title: Font-Awesome
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FortAwesome/Font-Awesome?style=social) ](https://github.com/FortAwesome/Font-Awesome)
 ### [FortAwesome Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
 **项目功能**  

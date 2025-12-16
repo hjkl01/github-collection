@@ -3,6 +3,7 @@
 title: appium
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/appium/appium?style=social) ](https://github.com/appium/appium)
 ### [appium appium](https://github.com/appium/appium)
 
 Appium 是一个开源的跨平台自动化测试框架，支持原生、混合、移动网页和桌面应用的自动化测试。其核心功能包括：  

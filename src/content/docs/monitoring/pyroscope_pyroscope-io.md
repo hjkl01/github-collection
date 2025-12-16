@@ -3,6 +3,7 @@
 title: pyroscope
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pyroscope-io/pyroscope?style=social) ](https://github.com/pyroscope-io/pyroscope)
 ### [pyroscope-io pyroscope](https://github.com/pyroscope-io/pyroscope)
 
 **项目核心内容总结：**  

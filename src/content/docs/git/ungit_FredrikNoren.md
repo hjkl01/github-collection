@@ -3,6 +3,7 @@
 title: ungit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FredrikNoren/ungit?style=social) ](https://github.com/FredrikNoren/ungit)
 ### [FredrikNoren ungit](https://github.com/FredrikNoren/ungit)
 
 **核心内容总结：**  

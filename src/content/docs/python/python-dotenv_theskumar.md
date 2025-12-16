@@ -3,6 +3,7 @@
 title: python-dotenv
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/theskumar/python-dotenv?style=social) ](https://github.com/theskumar/python-dotenv)
 ### [theskumar python-dotenv](https://github.com/theskumar/python-dotenv)
 
 **核心内容总结：**  

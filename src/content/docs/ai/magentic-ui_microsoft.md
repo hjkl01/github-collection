@@ -3,6 +3,7 @@
 title: magentic-ui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/magentic-ui?style=social) ](https://github.com/microsoft/magentic-ui)
 ### [microsoft magentic-ui](https://github.com/microsoft/magentic-ui)
 
 **项目核心内容总结：**  

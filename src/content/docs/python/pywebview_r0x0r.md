@@ -3,6 +3,7 @@
 title: pywebview
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/r0x0r/pywebview?style=social) ](https://github.com/r0x0r/pywebview)
 ### [r0x0r pywebview](https://github.com/r0x0r/pywebview)
 
 **项目核心内容总结**  

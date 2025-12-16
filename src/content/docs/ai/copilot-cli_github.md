@@ -3,6 +3,7 @@
 title: copilot-cli
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/github/copilot-cli?style=social) ](https://github.com/github/copilot-cli)
 ### [github copilot-cli](https://github.com/github/copilot-cli)
 
 **GitHub Copilot CLI 核心内容总结：**  

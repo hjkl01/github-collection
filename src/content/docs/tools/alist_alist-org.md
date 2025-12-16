@@ -3,6 +3,7 @@
 title: alist
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alist-org/alist?style=social) ](https://github.com/alist-org/alist)
 ### [alist-org alist](https://github.com/alist-org/alist)
 
 **核心内容总结：**  

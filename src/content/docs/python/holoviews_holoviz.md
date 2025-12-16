@@ -3,6 +3,7 @@
 title: holoviews
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/holoviz/holoviews?style=social) ](https://github.com/holoviz/holoviews)
 ### [holoviz holoviews](https://github.com/holoviz/holoviews)
 
 **核心内容总结：**  

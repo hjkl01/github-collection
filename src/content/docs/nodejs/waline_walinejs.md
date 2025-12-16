@@ -3,6 +3,7 @@
 title: waline
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/walinejs/waline?style=social) ](https://github.com/walinejs/waline)
 ### [walinejs waline](https://github.com/walinejs/waline)
 
 Waline 是一个支持后端的轻量级评论系统，核心功能包括：  

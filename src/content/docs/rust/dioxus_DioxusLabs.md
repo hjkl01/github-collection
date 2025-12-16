@@ -3,6 +3,7 @@
 title: dioxus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/DioxusLabs/dioxus?style=social) ](https://github.com/DioxusLabs/dioxus)
 ### [DioxusLabs dioxus](https://github.com/DioxusLabs/dioxus)
 
 **核心内容总结：**  

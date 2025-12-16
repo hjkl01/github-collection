@@ -3,6 +3,7 @@
 title: gitbatch
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/isacikgoz/gitbatch?style=social) ](https://github.com/isacikgoz/gitbatch)
 ### [isacikgoz gitbatch](https://github.com/isacikgoz/gitbatch)
 
 **核心内容总结：**

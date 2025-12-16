@@ -3,6 +3,7 @@
 title: ip2region
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lionsoul2014/ip2region?style=social) ](https://github.com/lionsoul2014/ip2region)
 ### [lionsoul2014 ip2region](https://github.com/lionsoul2014/ip2region)
 
 ### 核心内容总结

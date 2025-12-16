@@ -3,6 +3,7 @@
 title: stremio-web
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Stremio/stremio-web?style=social) ](https://github.com/Stremio/stremio-web)
 ### [Stremio stremio-web](https://github.com/Stremio/stremio-web)
 
 **项目核心内容总结：**  

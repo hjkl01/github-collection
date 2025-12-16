@@ -3,6 +3,7 @@
 title: free-llm-api-resources
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cheahjs/free-llm-api-resources?style=social) ](https://github.com/cheahjs/free-llm-api-resources)
 ### [cheahjs free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources)
 
 **核心内容总结：**  

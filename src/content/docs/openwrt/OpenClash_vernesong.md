@@ -3,6 +3,7 @@
 title: OpenClash
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vernesong/OpenClash?style=social) ](https://github.com/vernesong/OpenClash)
 ### [vernesong OpenClash](https://github.com/vernesong/OpenClash)
 
 **项目核心内容总结：**

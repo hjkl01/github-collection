@@ -3,6 +3,7 @@
 title: rod
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/go-rod/rod?style=social) ](https://github.com/go-rod/rod)
 ### [go-rod rod](https://github.com/go-rod/rod)
 
 **项目核心内容总结：**  

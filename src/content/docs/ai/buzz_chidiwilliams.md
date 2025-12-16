@@ -3,6 +3,7 @@
 title: buzz
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chidiwilliams/buzz?style=social) ](https://github.com/chidiwilliams/buzz)
 ### [chidiwilliams buzz](https://github.com/chidiwilliams/buzz)
 
 **项目核心内容总结：**

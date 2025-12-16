@@ -3,6 +3,7 @@
 title: ghostty
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ghostty-org/ghostty?style=social) ](https://github.com/ghostty-org/ghostty)
 ### [ghostty-org ghostty](https://github.com/ghostty-org/ghostty)
 
 **项目核心内容总结：**

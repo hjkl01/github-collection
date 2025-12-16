@@ -3,6 +3,7 @@
 title: Telegram-Media-Downloader
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Neet-Nestor/Telegram-Media-Downloader?style=social) ](https://github.com/Neet-Nestor/Telegram-Media-Downloader)
 ### [Neet-Nestor Telegram-Media-Downloader](https://github.com/Neet-Nestor/Telegram-Media-Downloader)
 
 **项目核心内容总结：**  

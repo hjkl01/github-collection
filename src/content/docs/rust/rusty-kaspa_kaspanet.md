@@ -3,6 +3,7 @@
 title: rusty-kaspa
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kaspanet/rusty-kaspa?style=social) ](https://github.com/kaspanet/rusty-kaspa)
 ### [kaspanet rusty-kaspa](https://github.com/kaspanet/rusty-kaspa)
 
 **项目核心内容总结：**

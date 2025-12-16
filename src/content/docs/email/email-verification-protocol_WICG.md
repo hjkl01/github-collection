@@ -3,6 +3,7 @@
 title: email-verification-protocol
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WICG/email-verification-protocol?style=social) ](https://github.com/WICG/email-verification-protocol)
 ### [WICG email-verification-protocol](https://github.com/WICG/email-verification-protocol)
 
 **核心内容总结：**

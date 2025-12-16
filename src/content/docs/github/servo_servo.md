@@ -3,6 +3,7 @@
 title: servo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/servo/servo?style=social) ](https://github.com/servo/servo)
 ### [servo servo](https://github.com/servo/servo)
 
 **核心内容总结：**

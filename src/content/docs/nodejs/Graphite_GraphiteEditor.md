@@ -3,6 +3,7 @@
 title: Graphite
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=social) ](https://github.com/GraphiteEditor/Graphite)
 ### [GraphiteEditor Graphite](https://github.com/GraphiteEditor/Graphite)
 
 **项目核心内容总结：**  

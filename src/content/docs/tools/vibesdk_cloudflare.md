@@ -3,6 +3,7 @@
 title: vibesdk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cloudflare/vibesdk?style=social) ](https://github.com/cloudflare/vibesdk)
 ### [cloudflare vibesdk](https://github.com/cloudflare/vibesdk)
 
 **项目核心内容总结：**

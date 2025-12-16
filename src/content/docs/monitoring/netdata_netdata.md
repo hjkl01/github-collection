@@ -3,6 +3,7 @@
 title: netdata
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/netdata/netdata?style=social) ](https://github.com/netdata/netdata)
 ### [netdata netdata](https://github.com/netdata/netdata)
 
 **Netdata 核心内容总结**  

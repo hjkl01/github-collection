@@ -3,6 +3,7 @@
 title: vello
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/linebender/vello?style=social) ](https://github.com/linebender/vello)
 ### [linebender vello](https://github.com/linebender/vello)
 
 **项目核心内容总结：**  

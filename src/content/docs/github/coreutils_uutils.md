@@ -3,6 +3,7 @@
 title: coreutils
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/uutils/coreutils?style=social) ](https://github.com/uutils/coreutils)
 ### [uutils coreutils](https://github.com/uutils/coreutils)
 
 **项目功能**  

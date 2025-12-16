@@ -3,6 +3,7 @@
 title: fidget.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/j-hui/fidget.nvim?style=social) ](https://github.com/j-hui/fidget.nvim)
 ### [j-hui fidget.nvim](https://github.com/j-hui/fidget.nvim)
 
 **项目核心内容总结：**

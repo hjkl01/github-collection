@@ -3,6 +3,7 @@
 title: cookiecutter-django
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cookiecutter/cookiecutter-django?style=social) ](https://github.com/cookiecutter/cookiecutter-django)
 ### [cookiecutter cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django)
 
 **核心内容总结：**  

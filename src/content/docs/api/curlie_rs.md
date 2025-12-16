@@ -3,6 +3,7 @@
 title: curlie
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rs/curlie?style=social) ](https://github.com/rs/curlie)
 ### [rs curlie](https://github.com/rs/curlie)
 
 **项目功能**  

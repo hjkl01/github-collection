@@ -3,6 +3,7 @@
 title: strix
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/usestrix/strix?style=social) ](https://github.com/usestrix/strix)
 ### [usestrix strix](https://github.com/usestrix/strix)
 
 **项目核心内容总结：**

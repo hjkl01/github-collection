@@ -3,6 +3,7 @@
 title: embassy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/embassy-rs/embassy?style=social) ](https://github.com/embassy-rs/embassy)
 ### [embassy-rs embassy](https://github.com/embassy-rs/embassy)
 
 Embassy 是一个基于 Rust 的嵌入式应用开发框架，通过异步编程特性实现安全、高效、低功耗的嵌入式开发。其核心功能包括：  

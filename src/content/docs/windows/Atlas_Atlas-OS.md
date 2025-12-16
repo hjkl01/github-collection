@@ -3,6 +3,7 @@
 title: Atlas
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Atlas-OS/Atlas?style=social) ](https://github.com/Atlas-OS/Atlas)
 ### [Atlas-OS Atlas](https://github.com/Atlas-OS/Atlas)
 
 **项目核心内容总结：**

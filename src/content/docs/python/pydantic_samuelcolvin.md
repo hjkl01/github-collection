@@ -3,6 +3,7 @@
 title: pydantic
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/samuelcolvin/pydantic?style=social) ](https://github.com/samuelcolvin/pydantic)
 ### [samuelcolvin pydantic](https://github.com/samuelcolvin/pydantic)
 
 **核心内容总结：**  

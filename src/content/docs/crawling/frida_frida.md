@@ -3,6 +3,7 @@
 title: frida
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/frida/frida?style=social) ](https://github.com/frida/frida)
 ### [frida frida](https://github.com/frida/frida)
 
 **项目功能**  

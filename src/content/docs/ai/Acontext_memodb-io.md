@@ -3,6 +3,7 @@
 title: Acontext
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/Acontext?style=social) ](https://github.com/memodb-io/Acontext)
 ### [memodb-io Acontext](https://github.com/memodb-io/Acontext)
 
 **项目核心内容总结：**

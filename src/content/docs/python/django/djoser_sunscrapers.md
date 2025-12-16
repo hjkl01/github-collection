@@ -3,6 +3,7 @@
 title: djoser
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sunscrapers/djoser?style=social) ](https://github.com/sunscrapers/djoser)
 ### [sunscrapers djoser](https://github.com/sunscrapers/djoser)
 
 **djoser** 是一个基于 Django 和 Django REST Framework 的认证系统实现，提供用户注册、登录、注销、密码重置、账户激活等基础功能。其核心特性包括：支持令牌（Token）和 JWT 认证、社交认证、WebAuthn 技术，并兼容 Django 自定义用户模型。  

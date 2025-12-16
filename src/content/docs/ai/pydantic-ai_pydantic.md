@@ -3,6 +3,7 @@
 title: pydantic-ai
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=social) ](https://github.com/pydantic/pydantic-ai)
 ### [pydantic pydantic-ai](https://github.com/pydantic/pydantic-ai)
 
 **项目核心内容总结：**  

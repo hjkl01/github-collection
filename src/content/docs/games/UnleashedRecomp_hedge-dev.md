@@ -3,6 +3,7 @@
 title: UnleashedRecomp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hedge-dev/UnleashedRecomp?style=social) ](https://github.com/hedge-dev/UnleashedRecomp)
 ### [hedge-dev UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp)
 
 **项目核心内容总结：**

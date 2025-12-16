@@ -3,6 +3,7 @@
 title: docling
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/DS4SD/docling?style=social) ](https://github.com/DS4SD/docling)
 ### [DS4SD docling](https://github.com/DS4SD/docling)
 
 **项目核心内容总结：**  

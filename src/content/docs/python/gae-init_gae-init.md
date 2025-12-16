@@ -3,6 +3,7 @@
 title: gae-init
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gae-init/gae-init?style=social) ](https://github.com/gae-init/gae-init)
 ### [gae-init gae-init](https://github.com/gae-init/gae-init)
 
 **项目核心内容总结：**

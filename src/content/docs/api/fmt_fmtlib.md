@@ -3,6 +3,7 @@
 title: fmt
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fmtlib/fmt?style=social) ](https://github.com/fmtlib/fmt)
 ### [fmtlib fmt](https://github.com/fmtlib/fmt)
 
 {fmt} 是一个高性能、安全的 C++ 格式化库，支持类似 `printf` 的格式字符串和用户自定义类型。其核心功能包括：

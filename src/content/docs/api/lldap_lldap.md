@@ -3,6 +3,7 @@
 title: lldap
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lldap/lldap?style=social) ](https://github.com/lldap/lldap)
 ### [lldap lldap](https://github.com/lldap/lldap)
 
 **项目核心内容总结：**

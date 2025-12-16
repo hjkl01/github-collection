@@ -3,6 +3,7 @@
 title: opentelemetry-go
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-go?style=social) ](https://github.com/open-telemetry/opentelemetry-go)
 ### [open-telemetry opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go)
 
 **核心内容总结：**  

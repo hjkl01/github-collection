@@ -3,6 +3,7 @@
 title: loki
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/grafana/loki?style=social) ](https://github.com/grafana/loki)
 ### [grafana loki](https://github.com/grafana/loki)
 
 **项目核心内容总结：**  

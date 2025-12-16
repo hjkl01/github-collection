@@ -3,6 +3,7 @@
 title: cockroach
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social) ](https://github.com/cockroachdb/cockroach)
 ### [cockroachdb cockroach](https://github.com/cockroachdb/cockroach)
 
 **CockroachDB核心内容总结**  

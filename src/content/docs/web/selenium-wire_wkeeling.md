@@ -3,6 +3,7 @@
 title: selenium-wire
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wkeeling/selenium-wire?style=social) ](https://github.com/wkeeling/selenium-wire)
 ### [wkeeling selenium-wire](https://github.com/wkeeling/selenium-wire)
 
 **项目核心内容总结：**  

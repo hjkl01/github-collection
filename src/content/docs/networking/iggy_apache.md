@@ -3,6 +3,7 @@
 title: iggy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/iggy?style=social) ](https://github.com/apache/iggy)
 ### [apache iggy](https://github.com/apache/iggy)
 
 **Apache Iggy 核心内容总结：**  

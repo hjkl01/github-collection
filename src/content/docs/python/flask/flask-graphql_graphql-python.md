@@ -3,6 +3,7 @@
 title: flask-graphql
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/graphql-python/flask-graphql?style=social) ](https://github.com/graphql-python/flask-graphql)
 ### [graphql-python flask-graphql](https://github.com/graphql-python/flask-graphql)
 
 **Flask-GraphQL 核心内容总结：**

@@ -3,6 +3,7 @@
 title: podman
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/containers/podman?style=social) ](https://github.com/containers/podman)
 ### [containers podman](https://github.com/containers/podman)
 
 **Podman 核心内容总结：**

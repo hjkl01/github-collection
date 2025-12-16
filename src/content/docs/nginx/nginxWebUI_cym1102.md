@@ -3,6 +3,7 @@
 title: nginxWebUI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cym1102/nginxWebUI?style=social) ](https://github.com/cym1102/nginxWebUI)
 ### [cym1102 nginxWebUI](https://github.com/cym1102/nginxWebUI)
 
 nginxWebUI是一款图形化管理工具，用于简化Nginx配置管理。主要功能包括：HTTP/TCP转发、反向代理、负载均衡、SSL证书自动申请与续签、静态网页上传、多服务器集群管理、配置同步等。支持通过网页界面一键生成Nginx配置文件并控制服务启停，覆盖日常90%的Nginx使用场景。

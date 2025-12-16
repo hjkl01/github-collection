@@ -3,6 +3,7 @@
 title: smithay
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Smithay/smithay?style=social) ](https://github.com/Smithay/smithay)
 ### [Smithay smithay](https://github.com/Smithay/smithay)
 
 Smithay 是一个用于构建 Wayland 合成器的 Rust 库，提供通用功能模块（如核心协议支持、输入处理、窗口管理等），但不强制要求使用所有功能。其核心特性包括：  

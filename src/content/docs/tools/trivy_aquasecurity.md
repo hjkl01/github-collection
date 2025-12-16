@@ -3,6 +3,7 @@
 title: trivy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social) ](https://github.com/aquasecurity/trivy)
 ### [aquasecurity trivy](https://github.com/aquasecurity/trivy)
 
 **Trivy核心内容总结：**

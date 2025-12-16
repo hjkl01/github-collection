@@ -3,6 +3,7 @@
 title: awesome-stacks
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ethibox/awesome-stacks?style=social) ](https://github.com/ethibox/awesome-stacks)
 ### [ethibox awesome-stacks](https://github.com/ethibox/awesome-stacks)
 
 **核心内容总结：**

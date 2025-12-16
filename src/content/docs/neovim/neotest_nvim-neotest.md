@@ -3,6 +3,7 @@
 title: neotest
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-neotest/neotest?style=social) ](https://github.com/nvim-neotest/neotest)
 ### [nvim-neotest neotest](https://github.com/nvim-neotest/neotest)
 
 **项目功能**  

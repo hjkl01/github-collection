@@ -3,6 +3,7 @@
 title: agno
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/agno-agi/agno?style=social) ](https://github.com/agno-agi/agno)
 ### [agno-agi agno](https://github.com/agno-agi/agno)
 
 **项目核心内容总结：**

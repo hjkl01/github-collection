@@ -3,6 +3,7 @@
 title: Resume-Matcher
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/srbhr/Resume-Matcher?style=social) ](https://github.com/srbhr/Resume-Matcher)
 ### [srbhr Resume-Matcher](https://github.com/srbhr/Resume-Matcher)
 
 **项目核心内容总结：**

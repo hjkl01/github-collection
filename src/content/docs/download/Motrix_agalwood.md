@@ -3,6 +3,7 @@
 title: Motrix
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/agalwood/Motrix?style=social) ](https://github.com/agalwood/Motrix)
 ### [agalwood Motrix](https://github.com/agalwood/Motrix)
 
 **项目核心内容总结：**  

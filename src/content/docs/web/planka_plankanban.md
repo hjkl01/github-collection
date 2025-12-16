@@ -3,6 +3,7 @@
 title: planka
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/plankanban/planka?style=social) ](https://github.com/plankanban/planka)
 ### [plankanban planka](https://github.com/plankanban/planka)
 
 **PLANKA核心内容总结：**

@@ -3,6 +3,7 @@
 title: jira
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/teamatldocker/jira?style=social) ](https://github.com/teamatldocker/jira)
 ### [teamatldocker jira](https://github.com/teamatldocker/jira)
 
 **项目核心内容总结：**

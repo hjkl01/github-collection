@@ -3,6 +3,7 @@
 title: hooker
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/CreditTone/hooker?style=social) ](https://github.com/CreditTone/hooker)
 ### [CreditTone hooker](https://github.com/CreditTone/hooker)
 
 ### 项目核心内容总结

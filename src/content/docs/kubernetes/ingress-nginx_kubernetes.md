@@ -3,6 +3,7 @@
 title: ingress-nginx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social) ](https://github.com/kubernetes/ingress-nginx)
 ### [kubernetes ingress-nginx](https://github.com/kubernetes/ingress-nginx)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: anchor
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/solana-foundation/anchor?style=social) ](https://github.com/solana-foundation/anchor)
 ### [solana-foundation anchor](https://github.com/solana-foundation/anchor)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: glow
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/charmbracelet/glow?style=social) ](https://github.com/charmbracelet/glow)
 ### [charmbracelet glow](https://github.com/charmbracelet/glow)
 
 **核心内容总结：**

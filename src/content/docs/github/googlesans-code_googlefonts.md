@@ -3,6 +3,7 @@
 title: googlesans-code
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/googlefonts/googlesans-code?style=social) ](https://github.com/googlefonts/googlesans-code)
 ### [googlefonts googlesans-code](https://github.com/googlefonts/googlesans-code)
 
 **核心内容总结：**  

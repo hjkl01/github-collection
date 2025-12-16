@@ -3,6 +3,7 @@
 title: serverless-dns
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/serverless-dns/serverless-dns?style=social) ](https://github.com/serverless-dns/serverless-dns)
 ### [serverless-dns serverless-dns](https://github.com/serverless-dns/serverless-dns)
 
 **项目核心内容总结：**

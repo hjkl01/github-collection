@@ -3,6 +3,7 @@
 title: SoulX-Podcast
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Soul-AILab/SoulX-Podcast?style=social) ](https://github.com/Soul-AILab/SoulX-Podcast)
 ### [Soul-AILab SoulX-Podcast](https://github.com/Soul-AILab/SoulX-Podcast)
 
 **项目核心内容总结：**

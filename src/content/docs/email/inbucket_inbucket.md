@@ -3,6 +3,7 @@
 title: inbucket
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/inbucket/inbucket?style=social) ](https://github.com/inbucket/inbucket)
 ### [inbucket inbucket](https://github.com/inbucket/inbucket)
 
 **项目核心内容总结：**  

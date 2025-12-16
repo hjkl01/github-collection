@@ -3,6 +3,7 @@
 title: portainer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/portainer/portainer?style=social) ](https://github.com/portainer/portainer)
 ### [portainer portainer](https://github.com/portainer/portainer)
 
 **核心内容总结：**

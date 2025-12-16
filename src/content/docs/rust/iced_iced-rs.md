@@ -3,6 +3,7 @@
 title: iced
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/iced-rs/iced?style=social) ](https://github.com/iced-rs/iced)
 ### [iced-rs iced](https://github.com/iced-rs/iced)
 
 **项目核心内容总结：**  

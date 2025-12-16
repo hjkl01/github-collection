@@ -3,6 +3,7 @@
 title: external-secrets
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/external-secrets/external-secrets?style=social) ](https://github.com/external-secrets/external-secrets)
 ### [external-secrets external-secrets](https://github.com/external-secrets/external-secrets)
 
 **核心内容总结：**  

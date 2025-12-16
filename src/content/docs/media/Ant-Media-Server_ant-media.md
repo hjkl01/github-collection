@@ -3,6 +3,7 @@
 title: Ant-Media-Server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social) ](https://github.com/ant-media/Ant-Media-Server)
 ### [ant-media Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)
 
 **Ant Media Server 核心内容总结：**

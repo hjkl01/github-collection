@@ -3,6 +3,7 @@
 title: deepagents
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/deepagents?style=social) ](https://github.com/langchain-ai/deepagents)
 ### [langchain-ai deepagents](https://github.com/langchain-ai/deepagents)
 
 **项目核心内容总结：**

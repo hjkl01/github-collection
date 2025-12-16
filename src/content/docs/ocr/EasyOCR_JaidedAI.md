@@ -3,6 +3,7 @@
 title: EasyOCR
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/JaidedAI/EasyOCR?style=social) ](https://github.com/JaidedAI/EasyOCR)
 ### [JaidedAI EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 **项目功能**  

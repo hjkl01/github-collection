@@ -3,6 +3,7 @@
 title: dim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Dusk-Labs/dim?style=social) ](https://github.com/Dusk-Labs/dim)
 ### [Dusk-Labs dim](https://github.com/Dusk-Labs/dim)
 
 Dim 是一款自托管媒体管理工具，可自动整理和美化本地媒体库，支持通过浏览器跨设备访问和播放媒体文件。核心功能包括：

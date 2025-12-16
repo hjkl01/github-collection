@@ -3,6 +3,7 @@
 title: crocodile
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/labulakalia/crocodile?style=social) ](https://github.com/labulakalia/crocodile)
 ### [labulakalia crocodile](https://github.com/labulakalia/crocodile)
 
 **项目核心内容总结：**  

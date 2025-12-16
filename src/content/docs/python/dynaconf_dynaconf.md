@@ -3,6 +3,7 @@
 title: dynaconf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dynaconf/dynaconf?style=social) ](https://github.com/dynaconf/dynaconf)
 ### [dynaconf dynaconf](https://github.com/dynaconf/dynaconf)
 
 **Dynaconf** 是一个 Python 配置管理工具，支持多环境、多格式配置文件（TOML/YAML/JSON/INI/PY），并提供以下核心功能：  

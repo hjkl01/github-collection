@@ -3,6 +3,7 @@
 title: pixeltable
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pixeltable/pixeltable?style=social) ](https://github.com/pixeltable/pixeltable)
 ### [pixeltable pixeltable](https://github.com/pixeltable/pixeltable)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: lerobot
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/lerobot?style=social) ](https://github.com/huggingface/lerobot)
 ### [huggingface lerobot](https://github.com/huggingface/lerobot)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: open-notebook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lfnovo/open-notebook?style=social) ](https://github.com/lfnovo/open-notebook)
 ### [lfnovo open-notebook](https://github.com/lfnovo/open-notebook)
 
 **项目核心内容总结：**

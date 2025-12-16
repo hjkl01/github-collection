@@ -3,6 +3,7 @@
 title: nvim-surround
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kylechui/nvim-surround?style=social) ](https://github.com/kylechui/nvim-surround)
 ### [kylechui nvim-surround](https://github.com/kylechui/nvim-surround)
 
 **项目功能**  

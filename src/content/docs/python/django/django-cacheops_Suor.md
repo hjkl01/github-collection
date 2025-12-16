@@ -3,6 +3,7 @@
 title: django-cacheops
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Suor/django-cacheops?style=social) ](https://github.com/Suor/django-cacheops)
 ### [Suor django-cacheops](https://github.com/Suor/django-cacheops)
 
 **核心内容总结：**  

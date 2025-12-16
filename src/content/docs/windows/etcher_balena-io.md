@@ -3,6 +3,7 @@
 title: etcher
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/balena-io/etcher?style=social) ](https://github.com/balena-io/etcher)
 ### [balena-io etcher](https://github.com/balena-io/etcher)
 
 **项目核心内容总结：**  

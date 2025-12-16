@@ -3,6 +3,7 @@
 title: pytesseract
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/madmaze/pytesseract?style=social) ](https://github.com/madmaze/pytesseract)
 ### [madmaze pytesseract](https://github.com/madmaze/pytesseract)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: pdf2htmlEX
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pdf2htmlEX/pdf2htmlEX?style=social) ](https://github.com/pdf2htmlEX/pdf2htmlEX)
 ### [pdf2htmlEX pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX)
 
 **项目核心内容总结：**  

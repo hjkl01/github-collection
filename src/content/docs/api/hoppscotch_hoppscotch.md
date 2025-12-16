@@ -3,6 +3,7 @@
 title: hoppscotch
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social) ](https://github.com/hoppscotch/hoppscotch)
 ### [hoppscotch hoppscotch](https://github.com/hoppscotch/hoppscotch)
 
 **核心内容总结：**  

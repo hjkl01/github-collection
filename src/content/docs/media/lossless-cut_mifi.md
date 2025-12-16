@@ -3,6 +3,7 @@
 title: lossless-cut
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mifi/lossless-cut?style=social) ](https://github.com/mifi/lossless-cut)
 ### [mifi lossless-cut](https://github.com/mifi/lossless-cut)
 
 **项目核心内容总结：**  

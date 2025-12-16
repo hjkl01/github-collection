@@ -3,6 +3,7 @@
 title: proxypool
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/henson/proxypool?style=social) ](https://github.com/henson/proxypool)
 ### [henson proxypool](https://github.com/henson/proxypool)
 
 该项目是一个用Go语言实现的IP代理池，用于采集免费代理资源并验证其有效性，为爬虫提供可用的代理IP。  

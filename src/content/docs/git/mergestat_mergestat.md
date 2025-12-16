@@ -3,6 +3,7 @@
 title: mergestat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mergestat/mergestat?style=social) ](https://github.com/mergestat/mergestat)
 ### [mergestat mergestat](https://github.com/mergestat/mergestat)
 
 **项目核心内容总结：**

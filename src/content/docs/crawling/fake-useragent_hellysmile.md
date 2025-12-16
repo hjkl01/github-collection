@@ -3,6 +3,7 @@
 title: fake-useragent
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hellysmile/fake-useragent?style=social) ](https://github.com/hellysmile/fake-useragent)
 ### [hellysmile fake-useragent](https://github.com/hellysmile/fake-useragent)
 
 **项目核心内容总结：**

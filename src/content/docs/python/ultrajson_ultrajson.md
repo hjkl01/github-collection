@@ -3,6 +3,7 @@
 title: ultrajson
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ultrajson/ultrajson?style=social) ](https://github.com/ultrajson/ultrajson)
 ### [ultrajson ultrajson](https://github.com/ultrajson/ultrajson)
 
 **UltraJSON 核心内容总结：**

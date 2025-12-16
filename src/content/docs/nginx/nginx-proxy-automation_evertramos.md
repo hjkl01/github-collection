@@ -3,6 +3,7 @@
 title: nginx-proxy-automation
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/evertramos/nginx-proxy-automation?style=social) ](https://github.com/evertramos/nginx-proxy-automation)
 ### [evertramos nginx-proxy-automation](https://github.com/evertramos/nginx-proxy-automation)
 
 **项目核心内容总结：**  

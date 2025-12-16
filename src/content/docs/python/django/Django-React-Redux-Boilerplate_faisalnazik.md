@@ -3,6 +3,7 @@
 title: Django-React-Redux-Boilerplate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/faisalnazik/Django-React-Redux-Boilerplate?style=social) ](https://github.com/faisalnazik/Django-React-Redux-Boilerplate)
 ### [faisalnazik Django-React-Redux-Boilerplate](https://github.com/faisalnazik/Django-React-Redux-Boilerplate)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: ntsc-rs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/valadaptive/ntsc-rs?style=social) ](https://github.com/valadaptive/ntsc-rs)
 ### [valadaptive ntsc-rs](https://github.com/valadaptive/ntsc-rs)
 
 **核心内容总结：**  

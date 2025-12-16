@@ -3,6 +3,7 @@
 title: matrix-docker-ansible-deploy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/spantaleev/matrix-docker-ansible-deploy?style=social) ](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 ### [spantaleev matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 **项目核心内容总结：**

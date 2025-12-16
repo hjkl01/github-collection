@@ -3,6 +3,7 @@
 title: Duix.Heygem
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/duixcom/Duix.Heygem?style=social) ](https://github.com/duixcom/Duix.Heygem)
 ### [duixcom Duix.Heygem](https://github.com/duixcom/Duix.Heygem)
 
 **项目核心内容总结：**  

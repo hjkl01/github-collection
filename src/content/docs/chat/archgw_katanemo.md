@@ -3,6 +3,7 @@
 title: archgw
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/katanemo/archgw?style=social) ](https://github.com/katanemo/archgw)
 ### [katanemo archgw](https://github.com/katanemo/archgw)
 
 **核心内容总结：**  

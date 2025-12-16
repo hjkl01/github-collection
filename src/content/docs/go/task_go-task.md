@@ -3,6 +3,7 @@
 title: task
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/go-task/task?style=social) ](https://github.com/go-task/task)
 ### [go-task task](https://github.com/go-task/task)
 
 **项目核心内容总结：**  

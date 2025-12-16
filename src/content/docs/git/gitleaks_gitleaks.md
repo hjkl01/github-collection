@@ -3,6 +3,7 @@
 title: gitleaks
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social) ](https://github.com/gitleaks/gitleaks)
 ### [gitleaks gitleaks](https://github.com/gitleaks/gitleaks)
 
 **项目核心内容总结：**

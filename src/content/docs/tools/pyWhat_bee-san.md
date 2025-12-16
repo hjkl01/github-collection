@@ -3,6 +3,7 @@
 title: pyWhat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bee-san/pyWhat?style=social) ](https://github.com/bee-san/pyWhat)
 ### [bee-san pyWhat](https://github.com/bee-san/pyWhat)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: simpleui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/newpanjing/simpleui?style=social) ](https://github.com/newpanjing/simpleui)
 ### [newpanjing simpleui](https://github.com/newpanjing/simpleui)
 
 **项目功能**  

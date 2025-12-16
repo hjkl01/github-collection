@@ -3,6 +3,7 @@
 title: wgpu
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gfx-rs/wgpu?style=social) ](https://github.com/gfx-rs/wgpu)
 ### [gfx-rs wgpu](https://github.com/gfx-rs/wgpu)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: Cemu
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cemu-project/Cemu?style=social) ](https://github.com/cemu-project/Cemu)
 ### [cemu-project Cemu](https://github.com/cemu-project/Cemu)
 
 **核心内容总结：**  

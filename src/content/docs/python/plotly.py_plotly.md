@@ -3,6 +3,7 @@
 title: plotly.py
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/plotly/plotly.py?style=social) ](https://github.com/plotly/plotly.py)
 ### [plotly plotly.py](https://github.com/plotly/plotly.py)
 
 **核心内容总结：**  

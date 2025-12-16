@@ -3,6 +3,7 @@
 title: whatsmeow
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tulir/whatsmeow?style=social) ](https://github.com/tulir/whatsmeow)
 ### [tulir whatsmeow](https://github.com/tulir/whatsmeow)
 
 **项目简介**  

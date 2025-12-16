@@ -3,6 +3,7 @@
 title: res-downloader
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/putyy/res-downloader?style=social) ](https://github.com/putyy/res-downloader)
 ### [putyy res-downloader](https://github.com/putyy/res-downloader)
 
 **项目核心内容总结：**

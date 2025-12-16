@@ -3,6 +3,7 @@
 title: humanlayer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/humanlayer/humanlayer?style=social) ](https://github.com/humanlayer/humanlayer)
 ### [humanlayer humanlayer](https://github.com/humanlayer/humanlayer)
 
 **核心内容总结：**  

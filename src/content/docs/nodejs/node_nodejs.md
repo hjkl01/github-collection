@@ -3,6 +3,7 @@
 title: node
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nodejs/node?style=social) ](https://github.com/nodejs/node)
 ### [nodejs node](https://github.com/nodejs/node)
 
 **核心内容总结：**  

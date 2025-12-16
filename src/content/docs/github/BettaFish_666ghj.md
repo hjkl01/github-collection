@@ -3,6 +3,7 @@
 title: BettaFish
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/666ghj/BettaFish?style=social) ](https://github.com/666ghj/BettaFish)
 ### [666ghj BettaFish](https://github.com/666ghj/BettaFish)
 
 **项目核心内容总结**：

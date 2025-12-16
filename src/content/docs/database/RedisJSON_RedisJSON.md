@@ -3,6 +3,7 @@
 title: RedisJSON
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RedisJSON/RedisJSON?style=social) ](https://github.com/RedisJSON/RedisJSON)
 ### [RedisJSON RedisJSON](https://github.com/RedisJSON/RedisJSON)
 
 **核心内容总结：**  

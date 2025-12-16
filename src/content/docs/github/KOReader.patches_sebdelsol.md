@@ -3,6 +3,7 @@
 title: KOReader.patches
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sebdelsol/KOReader.patches?style=social) ](https://github.com/sebdelsol/KOReader.patches)
 ### [sebdelsol KOReader.patches](https://github.com/sebdelsol/KOReader.patches)
 
 **核心内容总结：**  

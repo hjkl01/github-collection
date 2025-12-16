@@ -3,6 +3,7 @@
 title: Rocket.Chat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social) ](https://github.com/RocketChat/Rocket.Chat)
 ### [RocketChat Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 
 **核心内容总结：**

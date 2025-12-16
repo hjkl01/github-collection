@@ -3,6 +3,7 @@
 title: ubuntu-in-termux
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MFDGaming/ubuntu-in-termux?style=social) ](https://github.com/MFDGaming/ubuntu-in-termux)
 ### [MFDGaming ubuntu-in-termux](https://github.com/MFDGaming/ubuntu-in-termux)
 
 **项目功能**：该脚本允许在Termux应用中无需root设备安装Ubuntu系统，当前支持Ubuntu 22.04版本，提供x86架构及Ubuntu 19.10分支选项。  

@@ -3,6 +3,7 @@
 title: waifu2x
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nagadomi/waifu2x?style=social) ](https://github.com/nagadomi/waifu2x)
 ### [nagadomi waifu2x](https://github.com/nagadomi/waifu2x)
 
 **项目核心内容总结：**

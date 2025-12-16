@@ -3,6 +3,7 @@
 title: TRELLIS
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/TRELLIS?style=social) ](https://github.com/microsoft/TRELLIS)
 ### [microsoft TRELLIS](https://github.com/microsoft/TRELLIS)
 
 **项目核心内容总结**  

@@ -3,6 +3,7 @@
 title: flask-wtf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lepture/flask-wtf?style=social) ](https://github.com/lepture/flask-wtf)
 ### [lepture flask-wtf](https://github.com/lepture/flask-wtf)
 
 **Flask-WTF 核心内容总结**  

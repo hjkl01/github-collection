@@ -3,6 +3,7 @@
 title: pgmodeler
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pgmodeler/pgmodeler?style=social) ](https://github.com/pgmodeler/pgmodeler)
 ### [pgmodeler pgmodeler](https://github.com/pgmodeler/pgmodeler)
 
 **核心内容总结：**  

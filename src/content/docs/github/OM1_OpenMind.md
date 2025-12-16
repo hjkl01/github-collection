@@ -3,6 +3,7 @@
 title: OM1
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenMind/OM1?style=social) ](https://github.com/OpenMind/OM1)
 ### [OpenMind OM1](https://github.com/OpenMind/OM1)
 
 **核心内容总结：**  

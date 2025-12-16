@@ -3,6 +3,7 @@
 title: Telegram-iOS
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TelegramMessenger/Telegram-iOS?style=social) ](https://github.com/TelegramMessenger/Telegram-iOS)
 ### [TelegramMessenger Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS)
 
 **Telegram iOS源码编译指南核心内容总结**  

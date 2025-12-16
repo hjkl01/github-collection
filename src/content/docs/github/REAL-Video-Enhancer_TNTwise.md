@@ -3,6 +3,7 @@
 title: REAL-Video-Enhancer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TNTwise/REAL-Video-Enhancer?style=social) ](https://github.com/TNTwise/REAL-Video-Enhancer)
 ### [TNTwise REAL-Video-Enhancer](https://github.com/TNTwise/REAL-Video-Enhancer)
 
 **项目功能**  

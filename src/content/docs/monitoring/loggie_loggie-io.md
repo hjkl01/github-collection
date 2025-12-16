@@ -3,6 +3,7 @@
 title: loggie
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/loggie-io/loggie?style=social) ](https://github.com/loggie-io/loggie)
 ### [loggie-io loggie](https://github.com/loggie-io/loggie)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: nvim-autopairs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/windwp/nvim-autopairs?style=social) ](https://github.com/windwp/nvim-autopairs)
 ### [windwp nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 
 **项目核心内容总结：**

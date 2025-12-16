@@ -3,6 +3,7 @@
 title: winit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-windowing/winit?style=social) ](https://github.com/rust-windowing/winit)
 ### [rust-windowing winit](https://github.com/rust-windowing/winit)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: reading-code-of-nginx-1.9.2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/y123456yz/reading-code-of-nginx-1.9.2?style=social) ](https://github.com/y123456yz/reading-code-of-nginx-1.9.2)
 ### [y123456yz reading-code-of-nginx-1.9.2](https://github.com/y123456yz/reading-code-of-nginx-1.9.2)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: ContextMenuManager
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/BluePointLilac/ContextMenuManager?style=social) ](https://github.com/BluePointLilac/ContextMenuManager)
 ### [BluePointLilac ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
 
 **ContextMenuManager** 是一款用于管理 Windows 右键菜单的工具，支持启用/禁用文件、文件夹、新建、发送到等右键菜单项，可修改名称、图标、导航路径，或自定义添加新菜单项。  

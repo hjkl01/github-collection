@@ -3,6 +3,7 @@
 title: ntfy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/binwiederhier/ntfy?style=social) ](https://github.com/binwiederhier/ntfy)
 ### [binwiederhier ntfy](https://github.com/binwiederhier/ntfy)
 
 **项目核心内容总结：**

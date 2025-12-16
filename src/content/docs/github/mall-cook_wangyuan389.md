@@ -3,6 +3,7 @@
 title: mall-cook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wangyuan389/mall-cook?style=social) ](https://github.com/wangyuan389/mall-cook)
 ### [wangyuan389 mall-cook](https://github.com/wangyuan389/mall-cook)
 
 该README文档介绍了两个开源项目：**云搭**和**Mall-Cook**。  

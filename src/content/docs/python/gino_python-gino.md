@@ -3,6 +3,7 @@
 title: gino
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/python-gino/gino?style=social) ](https://github.com/python-gino/gino)
 ### [python-gino gino](https://github.com/python-gino/gino)
 
 GINO 是一个基于 SQLAlchemy 核心的轻量级异步 ORM，专为 Python 的 asyncio 设计。它支持 PostgreSQL（通过 asyncpg）和 MySQL（通过 aiomysql），提供异步数据库操作能力。  

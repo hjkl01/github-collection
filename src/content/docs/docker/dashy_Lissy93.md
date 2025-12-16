@@ -3,6 +3,7 @@
 title: dashy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Lissy93/dashy?style=social) ](https://github.com/Lissy93/dashy)
 ### [Lissy93 dashy](https://github.com/Lissy93/dashy)
 
 **项目功能**：Dashy 是一个开源的自托管仪表盘工具，用于管理和监控各类应用、服务及设备，支持自定义配置、多语言切换、主题定制、状态监控等功能。  

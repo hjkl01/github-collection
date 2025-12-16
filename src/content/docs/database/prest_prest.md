@@ -3,6 +3,7 @@
 title: prest
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/prest/prest?style=social) ](https://github.com/prest/prest)
 ### [prest prest](https://github.com/prest/prest)
 
 **项目核心内容总结**  

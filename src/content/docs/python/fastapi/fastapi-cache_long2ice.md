@@ -3,6 +3,7 @@
 title: fastapi-cache
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/long2ice/fastapi-cache?style=social) ](https://github.com/long2ice/fastapi-cache)
 ### [long2ice fastapi-cache](https://github.com/long2ice/fastapi-cache)
 
 **项目功能**  

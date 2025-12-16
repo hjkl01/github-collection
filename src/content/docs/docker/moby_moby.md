@@ -3,6 +3,7 @@
 title: moby
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/moby/moby?style=social) ](https://github.com/moby/moby)
 ### [moby moby](https://github.com/moby/moby)
 
 **Moby 项目核心内容总结：**  

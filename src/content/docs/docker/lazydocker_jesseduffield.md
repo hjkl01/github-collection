@@ -3,6 +3,7 @@
 title: lazydocker
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jesseduffield/lazydocker?style=social) ](https://github.com/jesseduffield/lazydocker)
 ### [jesseduffield lazydocker](https://github.com/jesseduffield/lazydocker)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: lima
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lima-vm/lima?style=social) ](https://github.com/lima-vm/lima)
 ### [lima-vm lima](https://github.com/lima-vm/lima)
 
 **项目核心内容总结：**

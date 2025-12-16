@@ -3,6 +3,7 @@
 title: kokoro
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hexgrad/kokoro?style=social) ](https://github.com/hexgrad/kokoro)
 ### [hexgrad kokoro](https://github.com/hexgrad/kokoro)
 
 **项目功能**  

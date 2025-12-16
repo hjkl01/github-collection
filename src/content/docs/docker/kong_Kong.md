@@ -3,6 +3,7 @@
 title: kong
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Kong/kong?style=social) ](https://github.com/Kong/kong)
 ### [Kong kong](https://github.com/Kong/kong)
 
 **Kong Gateway** 是一个云原生、平台无关的高性能 API 网关，支持 API、大型语言模型（LLM）和机器编排平台（MCP）流量管理，具备高可扩展性和插件生态。其核心功能包括：  

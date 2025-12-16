@@ -3,6 +3,7 @@
 title: ykdl
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/SeaHOH/ykdl?style=social) ](https://github.com/SeaHOH/ykdl)
 ### [SeaHOH ykdl](https://github.com/SeaHOH/ykdl)
 
 **YouKuDownLoader** 是一个专注于中国大陆视频网站的视频下载工具，基于 [you-get](https://github.com/soimort/you-get) 分叉开发，主要特性包括：

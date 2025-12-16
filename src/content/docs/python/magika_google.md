@@ -3,6 +3,7 @@
 title: magika
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google/magika?style=social) ](https://github.com/google/magika)
 ### [google magika](https://github.com/google/magika)
 
 **核心内容总结：**  

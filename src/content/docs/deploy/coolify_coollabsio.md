@@ -3,6 +3,7 @@
 title: coolify
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coollabsio/coolify?style=social) ](https://github.com/coollabsio/coolify)
 ### [coollabsio coolify](https://github.com/coollabsio/coolify)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: terragrunt
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gruntwork-io/terragrunt?style=social) ](https://github.com/gruntwork-io/terragrunt)
 ### [gruntwork-io terragrunt](https://github.com/gruntwork-io/terragrunt)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: colima
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/abiosoft/colima?style=social) ](https://github.com/abiosoft/colima)
 ### [abiosoft colima](https://github.com/abiosoft/colima)
 
 **项目核心内容总结：**  

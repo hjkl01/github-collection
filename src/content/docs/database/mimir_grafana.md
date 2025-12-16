@@ -3,6 +3,7 @@
 title: mimir
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/grafana/mimir?style=social) ](https://github.com/grafana/mimir)
 ### [grafana mimir](https://github.com/grafana/mimir)
 
 ### 核心内容总结：

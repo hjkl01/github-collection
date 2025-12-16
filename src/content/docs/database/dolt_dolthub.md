@@ -3,6 +3,7 @@
 title: dolt
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dolthub/dolt?style=social) ](https://github.com/dolthub/dolt)
 ### [dolthub dolt](https://github.com/dolthub/dolt)
 
 Dolt是一个结合Git版本控制功能的数据库系统，支持数据版本管理、分支合并和细粒度数据审计。其核心功能包括：  

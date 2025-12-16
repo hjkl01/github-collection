@@ -3,6 +3,7 @@
 title: ingestr
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bruin-data/ingestr?style=social) ](https://github.com/bruin-data/ingestr)
 ### [bruin-data ingestr](https://github.com/bruin-data/ingestr)
 
 **项目核心内容总结：**  

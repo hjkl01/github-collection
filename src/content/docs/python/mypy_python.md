@@ -3,6 +3,7 @@
 title: mypy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/python/mypy?style=social) ](https://github.com/python/mypy)
 ### [python mypy](https://github.com/python/mypy)
 
 **核心内容总结：**  

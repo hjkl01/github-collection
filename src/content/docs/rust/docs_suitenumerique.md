@@ -3,6 +3,7 @@
 title: docs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/suitenumerique/docs?style=social) ](https://github.com/suitenumerique/docs)
 ### [suitenumerique docs](https://github.com/suitenumerique/docs)
 
 ### 核心内容总结  

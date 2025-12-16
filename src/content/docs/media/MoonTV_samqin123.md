@@ -3,6 +3,7 @@
 title: MoonTV
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/samqin123/MoonTV?style=social) ](https://github.com/samqin123/MoonTV)
 ### [samqin123 MoonTV](https://github.com/samqin123/MoonTV)
 
 **MoonTV核心内容总结：**  

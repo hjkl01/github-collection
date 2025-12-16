@@ -3,6 +3,7 @@
 title: azahar
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/azahar-emu/azahar?style=social) ](https://github.com/azahar-emu/azahar)
 ### [azahar-emu azahar](https://github.com/azahar-emu/azahar)
 
 **项目核心内容总结：**

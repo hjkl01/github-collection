@@ -3,6 +3,7 @@
 title: LMCache
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LMCache/LMCache?style=social) ](https://github.com/LMCache/LMCache)
 ### [LMCache LMCache](https://github.com/LMCache/LMCache)
 
 LMCache 是一个用于优化大语言模型（LLM）推理性能的缓存系统，主要功能是通过存储和复用键值（KV）缓存，减少首次生成令牌时间（TTFT）并提高吞吐量，尤其适用于长上下文场景。其核心特性包括：  

@@ -3,6 +3,7 @@
 title: pyjwt
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jpadilla/pyjwt?style=social) ](https://github.com/jpadilla/pyjwt)
 ### [jpadilla pyjwt](https://github.com/jpadilla/pyjwt)
 
 PyJWT 是一个 Python 库，用于实现 JSON Web Token (JWT) 标准（RFC 7519），支持生成和验证 JWT 令牌。  

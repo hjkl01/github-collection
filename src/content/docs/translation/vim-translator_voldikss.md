@@ -3,6 +3,7 @@
 title: vim-translator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/voldikss/vim-translator?style=social) ](https://github.com/voldikss/vim-translator)
 ### [voldikss vim-translator](https://github.com/voldikss/vim-translator)
 
 **项目核心内容总结：**

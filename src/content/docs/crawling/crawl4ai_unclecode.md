@@ -3,6 +3,7 @@
 title: crawl4ai
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social) ](https://github.com/unclecode/crawl4ai)
 ### [unclecode crawl4ai](https://github.com/unclecode/crawl4ai)
 
 **项目核心内容总结：**

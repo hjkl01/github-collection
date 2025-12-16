@@ -3,6 +3,7 @@
 title: DirectoryLister
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/DirectoryLister/DirectoryLister?style=social) ](https://github.com/DirectoryLister/DirectoryLister)
 ### [DirectoryLister DirectoryLister](https://github.com/DirectoryLister/DirectoryLister)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: nexus-cli
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nexus-xyz/nexus-cli?style=social) ](https://github.com/nexus-xyz/nexus-cli)
 ### [nexus-xyz nexus-cli](https://github.com/nexus-xyz/nexus-cli)
 
 **项目核心内容总结：**

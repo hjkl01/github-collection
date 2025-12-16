@@ -3,6 +3,7 @@
 title: crawlee-python
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apify/crawlee-python?style=social) ](https://github.com/apify/crawlee-python)
 ### [apify crawlee-python](https://github.com/apify/crawlee-python)
 
 Crawlee 是一个用于网络爬取和浏览器自动化的 Python 库，提供高效、可靠的爬虫构建方案。其核心功能包括：  

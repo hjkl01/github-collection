@@ -3,6 +3,7 @@
 title: helm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/helm/helm?style=social) ](https://github.com/helm/helm)
 ### [helm helm](https://github.com/helm/helm)
 
 **核心内容总结：**  

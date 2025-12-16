@@ -3,6 +3,7 @@
 title: dev-environment-files
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/josean-dev/dev-environment-files?style=social) ](https://github.com/josean-dev/dev-environment-files)
 ### [josean-dev dev-environment-files](https://github.com/josean-dev/dev-environment-files)
 
 **项目核心内容总结：**

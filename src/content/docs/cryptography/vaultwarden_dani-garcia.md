@@ -3,6 +3,7 @@
 title: vaultwarden
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dani-garcia/vaultwarden?style=social) ](https://github.com/dani-garcia/vaultwarden)
 ### [dani-garcia vaultwarden](https://github.com/dani-garcia/vaultwarden)
 
 **项目核心内容总结：**  

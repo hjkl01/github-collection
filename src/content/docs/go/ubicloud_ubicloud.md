@@ -3,6 +3,7 @@
 title: ubicloud
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ubicloud/ubicloud?style=social) ](https://github.com/ubicloud/ubicloud)
 ### [ubicloud ubicloud](https://github.com/ubicloud/ubicloud)
 
 Ubicloud 是一个开源的 IaaS 云平台，可运行于 Hetzner、AWS 等裸机服务商，提供类似 AWS 的云服务但完全开源。用户可通过托管服务直接使用，或自行部署：  

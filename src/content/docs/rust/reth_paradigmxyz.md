@@ -3,6 +3,7 @@
 title: reth
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/paradigmxyz/reth?style=social) ](https://github.com/paradigmxyz/reth)
 ### [paradigmxyz reth](https://github.com/paradigmxyz/reth)
 
 **项目核心内容总结：**  

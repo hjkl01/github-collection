@@ -3,6 +3,7 @@
 title: n8n
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social) ](https://github.com/n8n-io/n8n)
 ### [n8n-io n8n](https://github.com/n8n-io/n8n)
 
 **核心内容总结：**

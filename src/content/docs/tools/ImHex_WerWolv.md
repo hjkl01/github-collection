@@ -3,6 +3,7 @@
 title: ImHex
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WerWolv/ImHex?style=social) ](https://github.com/WerWolv/ImHex)
 ### [WerWolv ImHex](https://github.com/WerWolv/ImHex)
 
 ImHex 是一款用于分析和编辑二进制文件的工具，支持通过自定义的模式语言（类似 C 语法）定义数据结构，实现对文件内容的解析、高亮和交互式操作。其核心功能包括：  

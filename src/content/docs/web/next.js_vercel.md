@@ -3,6 +3,7 @@
 title: next.js
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vercel/next.js?style=social) ](https://github.com/vercel/next.js)
 ### [vercel next.js](https://github.com/vercel/next.js)
 
 **核心内容总结：**  

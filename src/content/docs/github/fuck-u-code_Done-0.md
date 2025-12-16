@@ -3,6 +3,7 @@
 title: fuck-u-code
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Done-0/fuck-u-code?style=social) ](https://github.com/Done-0/fuck-u-code)
 ### [Done-0 fuck-u-code](https://github.com/Done-0/fuck-u-code)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: k6
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/grafana/k6?style=social) ](https://github.com/grafana/k6)
 ### [grafana k6](https://github.com/grafana/k6)
 
 **项目核心内容总结：**  

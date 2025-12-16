@@ -3,6 +3,7 @@
 title: known
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/idno/known?style=social) ](https://github.com/idno/known)
 ### [idno known](https://github.com/idno/known)
 
 **项目功能**  

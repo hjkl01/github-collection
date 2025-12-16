@@ -3,6 +3,7 @@
 title: indent-blankline.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lukas-reineke/indent-blankline.nvim?style=social) ](https://github.com/lukas-reineke/indent-blankline.nvim)
 ### [lukas-reineke indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 
 **项目功能**  

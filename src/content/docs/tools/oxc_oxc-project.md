@@ -3,6 +3,7 @@
 title: oxc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/oxc-project/oxc?style=social) ](https://github.com/oxc-project/oxc)
 ### [oxc-project oxc](https://github.com/oxc-project/oxc)
 
 **项目核心内容总结：**  

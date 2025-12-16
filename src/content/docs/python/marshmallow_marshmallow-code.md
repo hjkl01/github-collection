@@ -3,6 +3,7 @@
 title: marshmallow
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/marshmallow-code/marshmallow?style=social) ](https://github.com/marshmallow-code/marshmallow)
 ### [marshmallow-code marshmallow](https://github.com/marshmallow-code/marshmallow)
 
 **项目核心内容总结：**  

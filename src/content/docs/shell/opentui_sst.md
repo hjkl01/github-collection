@@ -3,6 +3,7 @@
 title: opentui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sst/opentui?style=social) ](https://github.com/sst/opentui)
 ### [sst opentui](https://github.com/sst/opentui)
 
 **项目功能**  

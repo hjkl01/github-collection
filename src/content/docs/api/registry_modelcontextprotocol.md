@@ -3,6 +3,7 @@
 title: registry
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/registry?style=social) ](https://github.com/modelcontextprotocol/registry)
 ### [modelcontextprotocol registry](https://github.com/modelcontextprotocol/registry)
 
 **MCP Registry 核心内容总结：**

@@ -3,6 +3,7 @@
 title: KubeOperator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/KubeOperator/KubeOperator?style=social) ](https://github.com/KubeOperator/KubeOperator)
 ### [KubeOperator KubeOperator](https://github.com/KubeOperator/KubeOperator)
 
 KubeOperator 是一个开源的轻量级 Kubernetes 发行版，旨在帮助企业高效规划、部署和运营生产级 Kubernetes 集群。其核心功能包括：  

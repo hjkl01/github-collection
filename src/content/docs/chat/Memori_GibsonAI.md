@@ -3,6 +3,7 @@
 title: Memori
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/GibsonAI/Memori?style=social) ](https://github.com/GibsonAI/Memori)
 ### [GibsonAI Memori](https://github.com/GibsonAI/Memori)
 
 **项目核心内容总结**  

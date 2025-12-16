@@ -3,6 +3,7 @@
 title: kite
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zxh326/kite?style=social) ](https://github.com/zxh326/kite)
 ### [zxh326 kite](https://github.com/zxh326/kite)
 
 **项目核心内容总结：**

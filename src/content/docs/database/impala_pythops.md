@@ -3,6 +3,7 @@
 title: impala
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pythops/impala?style=social) ](https://github.com/pythops/impala)
 ### [pythops impala](https://github.com/pythops/impala)
 
 **项目核心内容总结：**  

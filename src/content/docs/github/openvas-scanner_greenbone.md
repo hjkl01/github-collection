@@ -3,6 +3,7 @@
 title: openvas-scanner
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/greenbone/openvas-scanner?style=social) ](https://github.com/greenbone/openvas-scanner)
 ### [greenbone openvas-scanner](https://github.com/greenbone/openvas-scanner)
 
 **核心内容总结：**  

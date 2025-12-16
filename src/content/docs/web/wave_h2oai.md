@@ -3,6 +3,7 @@
 title: wave
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/h2oai/wave?style=social) ](https://github.com/h2oai/wave)
 ### [h2oai wave](https://github.com/h2oai/wave)
 
 H2O Wave 是一个用于构建实时网页应用和数据仪表板的软件框架，支持 Python 和 R 语言开发，无需使用 HTML、JavaScript 或 CSS。其核心功能包括：

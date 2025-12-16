@@ -3,6 +3,7 @@
 title: tauri
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tauri-apps/tauri?style=social) ](https://github.com/tauri-apps/tauri)
 ### [tauri-apps tauri](https://github.com/tauri-apps/tauri)
 
 **Tauri 核心内容总结：**

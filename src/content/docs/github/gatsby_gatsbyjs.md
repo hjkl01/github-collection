@@ -3,6 +3,7 @@
 title: gatsby
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gatsbyjs/gatsby?style=social) ](https://github.com/gatsbyjs/gatsby)
 ### [gatsbyjs gatsby](https://github.com/gatsbyjs/gatsby)
 
 **核心内容总结：**  

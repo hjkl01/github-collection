@@ -3,6 +3,7 @@
 title: douyinLive
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jwwsjlm/douyinLive?style=social) ](https://github.com/jwwsjlm/douyinLive)
 ### [jwwsjlm douyinLive](https://github.com/jwwsjlm/douyinLive)
 
 ### 项目核心内容总结

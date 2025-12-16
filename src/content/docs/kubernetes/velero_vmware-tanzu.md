@@ -3,6 +3,7 @@
 title: velero
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social) ](https://github.com/vmware-tanzu/velero)
 ### [vmware-tanzu velero](https://github.com/vmware-tanzu/velero)
 
 **项目核心内容总结：**  

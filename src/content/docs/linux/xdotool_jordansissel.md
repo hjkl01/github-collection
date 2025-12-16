@@ -3,6 +3,7 @@
 title: xdotool
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jordansissel/xdotool?style=social) ](https://github.com/jordansissel/xdotool)
 ### [jordansissel xdotool](https://github.com/jordansissel/xdotool)
 
 **项目核心内容总结：**

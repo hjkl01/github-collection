@@ -3,6 +3,7 @@
 title: goploy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zhenorzz/goploy?style=social) ](https://github.com/zhenorzz/goploy)
 ### [zhenorzz goploy](https://github.com/zhenorzz/goploy)
 
 **核心内容总结：**  

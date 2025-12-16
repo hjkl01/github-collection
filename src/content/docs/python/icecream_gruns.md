@@ -3,6 +3,7 @@
 title: icecream
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gruns/icecream?style=social) ](https://github.com/gruns/icecream)
 ### [gruns icecream](https://github.com/gruns/icecream)
 
 **IceCream 核心内容总结：**

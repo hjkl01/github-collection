@@ -3,6 +3,7 @@
 title: redash
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/getredash/redash?style=social) ](https://github.com/getredash/redash)
 ### [getredash redash](https://github.com/getredash/redash)
 
 **核心内容总结：**  

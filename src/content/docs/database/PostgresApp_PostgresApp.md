@@ -3,6 +3,7 @@
 title: PostgresApp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PostgresApp/PostgresApp?style=social) ](https://github.com/PostgresApp/PostgresApp)
 ### [PostgresApp PostgresApp](https://github.com/PostgresApp/PostgresApp)
 
 **核心内容总结：**

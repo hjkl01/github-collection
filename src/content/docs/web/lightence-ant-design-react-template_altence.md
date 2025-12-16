@@ -3,6 +3,7 @@
 title: lightence-ant-design-react-template
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/altence/lightence-ant-design-react-template?style=social) ](https://github.com/altence/lightence-ant-design-react-template)
 ### [altence lightence-ant-design-react-template](https://github.com/altence/lightence-ant-design-react-template)
 
 **核心内容总结：**  

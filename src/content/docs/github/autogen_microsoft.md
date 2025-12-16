@@ -3,6 +3,7 @@
 title: autogen
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/autogen?style=social) ](https://github.com/microsoft/autogen)
 ### [microsoft autogen](https://github.com/microsoft/autogen)
 
 **AutoGen 核心内容总结**  

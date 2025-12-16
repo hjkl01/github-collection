@@ -3,6 +3,7 @@
 title: Baileys
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WhiskeySockets/Baileys?style=social) ](https://github.com/WhiskeySockets/Baileys)
 ### [WhiskeySockets Baileys](https://github.com/WhiskeySockets/Baileys)
 
 Baileys 是一个基于 WebSocket 的 TypeScript 库，用于与 WhatsApp Web API 进行交互。主要功能包括通过 WebSocket 实现 WhatsApp 消息收发、会话管理等操作。  

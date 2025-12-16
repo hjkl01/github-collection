@@ -3,6 +3,7 @@
 title: LTX-Video
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social) ](https://github.com/Lightricks/LTX-Video)
 ### [Lightricks LTX-Video](https://github.com/Lightricks/LTX-Video)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: dive
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wagoodman/dive?style=social) ](https://github.com/wagoodman/dive)
 ### [wagoodman dive](https://github.com/wagoodman/dive)
 
 **项目核心内容总结：**

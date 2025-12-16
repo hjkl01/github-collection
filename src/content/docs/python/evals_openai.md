@@ -3,6 +3,7 @@
 title: evals
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/openai/evals?style=social) ](https://github.com/openai/evals)
 ### [openai evals](https://github.com/openai/evals)
 
 ### 核心内容总结  

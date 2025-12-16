@@ -3,6 +3,7 @@
 title: copier
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/copier-org/copier?style=social) ](https://github.com/copier-org/copier)
 ### [copier-org copier](https://github.com/copier-org/copier)
 
 **项目核心内容总结：**  

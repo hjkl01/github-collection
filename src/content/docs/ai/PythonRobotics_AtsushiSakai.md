@@ -3,6 +3,7 @@
 title: PythonRobotics
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AtsushiSakai/PythonRobotics?style=social) ](https://github.com/AtsushiSakai/PythonRobotics)
 ### [AtsushiSakai PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics)
 
 **项目核心内容总结：**  

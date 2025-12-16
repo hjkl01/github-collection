@@ -3,6 +3,7 @@
 title: PlantsVsZombies
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ErLinErYi/PlantsVsZombies?style=social) ](https://github.com/ErLinErYi/PlantsVsZombies)
 ### [ErLinErYi PlantsVsZombies](https://github.com/ErLinErYi/PlantsVsZombies)
 
 **核心内容总结：**  

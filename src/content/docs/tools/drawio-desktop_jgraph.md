@@ -3,6 +3,7 @@
 title: drawio-desktop
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jgraph/drawio-desktop?style=social) ](https://github.com/jgraph/drawio-desktop)
 ### [jgraph drawio-desktop](https://github.com/jgraph/drawio-desktop)
 
 **核心内容总结：**  

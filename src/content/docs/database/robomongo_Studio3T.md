@@ -3,6 +3,7 @@
 title: robomongo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Studio3T/robomongo?style=social) ](https://github.com/Studio3T/robomongo)
 ### [Studio3T robomongo](https://github.com/Studio3T/robomongo)
 
 **核心内容总结：**  

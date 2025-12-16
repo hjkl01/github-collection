@@ -3,6 +3,7 @@
 title: graphql-engine
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hasura/graphql-engine?style=social) ](https://github.com/hasura/graphql-engine)
 ### [hasura graphql-engine](https://github.com/hasura/graphql-engine)
 
 **核心内容总结：**  

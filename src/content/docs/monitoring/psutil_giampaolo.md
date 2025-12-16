@@ -3,6 +3,7 @@
 title: psutil
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/giampaolo/psutil?style=social) ](https://github.com/giampaolo/psutil)
 ### [giampaolo psutil](https://github.com/giampaolo/psutil)
 
 **核心内容总结：**  

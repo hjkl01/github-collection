@@ -3,6 +3,7 @@
 title: fizzy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/basecamp/fizzy?style=social) ](https://github.com/basecamp/fizzy)
 ### [basecamp fizzy](https://github.com/basecamp/fizzy)
 
 **项目核心内容总结：**

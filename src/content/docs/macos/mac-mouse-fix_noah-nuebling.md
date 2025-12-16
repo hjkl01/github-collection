@@ -3,6 +3,7 @@
 title: mac-mouse-fix
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/noah-nuebling/mac-mouse-fix?style=social) ](https://github.com/noah-nuebling/mac-mouse-fix)
 ### [noah-nuebling mac-mouse-fix](https://github.com/noah-nuebling/mac-mouse-fix)
 
 **项目核心内容总结：**

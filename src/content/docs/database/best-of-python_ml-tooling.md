@@ -3,6 +3,7 @@
 title: best-of-python
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ml-tooling/best-of-python?style=social) ](https://github.com/ml-tooling/best-of-python)
 ### [ml-tooling best-of-python](https://github.com/ml-tooling/best-of-python)
 
 **核心内容总结：**  

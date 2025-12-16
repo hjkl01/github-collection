@@ -3,6 +3,7 @@
 title: arxiv-paper-curator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jamwithai/arxiv-paper-curator?style=social) ](https://github.com/jamwithai/arxiv-paper-curator)
 ### [jamwithai arxiv-paper-curator](https://github.com/jamwithai/arxiv-paper-curator)
 
 **项目核心内容总结：**

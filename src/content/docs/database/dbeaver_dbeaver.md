@@ -3,6 +3,7 @@
 title: dbeaver
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dbeaver/dbeaver?style=social) ](https://github.com/dbeaver/dbeaver)
 ### [dbeaver dbeaver](https://github.com/dbeaver/dbeaver)
 
 ### 核心内容总结

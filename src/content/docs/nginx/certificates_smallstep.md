@@ -3,6 +3,7 @@
 title: certificates
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/smallstep/certificates?style=social) ](https://github.com/smallstep/certificates)
 ### [smallstep certificates](https://github.com/smallstep/certificates)
 
 ### 项目核心内容总结

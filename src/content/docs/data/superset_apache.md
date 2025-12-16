@@ -3,6 +3,7 @@
 title: superset
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/superset?style=social) ](https://github.com/apache/superset)
 ### [apache superset](https://github.com/apache/superset)
 
 **Apache Superset 核心内容总结**  

@@ -3,6 +3,7 @@
 title: hammerspoon
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Hammerspoon/hammerspoon?style=social) ](https://github.com/Hammerspoon/hammerspoon)
 ### [Hammerspoon hammerspoon](https://github.com/Hammerspoon/hammerspoon)
 
 **项目核心内容总结：**  

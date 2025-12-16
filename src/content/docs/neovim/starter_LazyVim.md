@@ -3,6 +3,7 @@
 title: starter
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LazyVim/starter?style=social) ](https://github.com/LazyVim/starter)
 ### [LazyVim starter](https://github.com/LazyVim/starter)
 
 **项目功能**：LazyVim 是一个基于 Neovim 的配置模板，提供模块化插件管理和预设的快捷键/主题配置。  

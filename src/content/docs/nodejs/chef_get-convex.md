@@ -3,6 +3,7 @@
 title: chef
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/get-convex/chef?style=social) ](https://github.com/get-convex/chef)
 ### [get-convex chef](https://github.com/get-convex/chef)
 
 **项目核心内容总结：**  

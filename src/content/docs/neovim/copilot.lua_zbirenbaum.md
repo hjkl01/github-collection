@@ -3,6 +3,7 @@
 title: copilot.lua
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zbirenbaum/copilot.lua?style=social) ](https://github.com/zbirenbaum/copilot.lua)
 ### [zbirenbaum copilot.lua](https://github.com/zbirenbaum/copilot.lua)
 
 **项目核心内容总结：**  

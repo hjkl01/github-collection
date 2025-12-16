@@ -3,6 +3,7 @@
 title: nebula
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/slackhq/nebula?style=social) ](https://github.com/slackhq/nebula)
 ### [slackhq nebula](https://github.com/slackhq/nebula)
 
 ### Nebula 核心内容总结

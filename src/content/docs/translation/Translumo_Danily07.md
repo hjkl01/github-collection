@@ -3,6 +3,7 @@
 title: Translumo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Danily07/Translumo?style=social) ](https://github.com/Danily07/Translumo)
 ### [Danily07 Translumo](https://github.com/Danily07/Translumo)
 
 

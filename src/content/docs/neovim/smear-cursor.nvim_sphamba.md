@@ -3,6 +3,7 @@
 title: smear-cursor.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sphamba/smear-cursor.nvim?style=social) ](https://github.com/sphamba/smear-cursor.nvim)
 ### [sphamba smear-cursor.nvim](https://github.com/sphamba/smear-cursor.nvim)
 
 **项目功能**  

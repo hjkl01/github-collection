@@ -3,6 +3,7 @@
 title: moviepy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Zulko/moviepy?style=social) ](https://github.com/Zulko/moviepy)
 ### [Zulko moviepy](https://github.com/Zulko/moviepy)
 
 MoviePy 是一个用于视频编辑的 Python 库，支持常见音视频格式（包括 GIF），可在 Windows/Mac/Linux 平台上运行（需 Python 3.9+）。其核心功能包括：剪辑、拼接、添加文字标题、视频合成（非线性编辑）、音视频处理及自定义效果。  

@@ -3,6 +3,7 @@
 title: logto
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/logto-io/logto?style=social) ](https://github.com/logto-io/logto)
 ### [logto-io logto](https://github.com/logto-io/logto)
 
 **核心内容总结：**  

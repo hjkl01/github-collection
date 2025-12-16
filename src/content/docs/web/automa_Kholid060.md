@@ -3,6 +3,7 @@
 title: automa
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Kholid060/automa?style=social) ](https://github.com/Kholid060/automa)
 ### [Kholid060 automa](https://github.com/Kholid060/automa)
 
 **核心内容总结**  

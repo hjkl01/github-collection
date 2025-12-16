@@ -3,6 +3,7 @@
 title: server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/screego/server?style=social) ](https://github.com/screego/server)
 ### [screego server](https://github.com/screego/server)
 
 **项目核心内容总结：**  

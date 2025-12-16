@@ -3,6 +3,7 @@
 title: GPT-SoVITS
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RVC-Boss/GPT-SoVITS?style=social) ](https://github.com/RVC-Boss/GPT-SoVITS)
 ### [RVC-Boss GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
 
 **项目核心内容总结：**

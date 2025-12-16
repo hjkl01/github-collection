@@ -3,6 +3,7 @@
 title: ic
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dfinity/ic?style=social) ](https://github.com/dfinity/ic)
 ### [dfinity ic](https://github.com/dfinity/ic)
 
 **核心内容总结：**

@@ -3,6 +3,7 @@
 title: nvim-treesitter
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-treesitter/nvim-treesitter?style=social) ](https://github.com/nvim-treesitter/nvim-treesitter)
 ### [nvim-treesitter nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 **项目核心内容总结：**

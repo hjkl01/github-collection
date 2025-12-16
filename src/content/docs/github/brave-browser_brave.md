@@ -3,6 +3,7 @@
 title: brave-browser
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/brave/brave-browser?style=social) ](https://github.com/brave/brave-browser)
 ### [brave brave-browser](https://github.com/brave/brave-browser)
 
 **项目核心内容总结：**  

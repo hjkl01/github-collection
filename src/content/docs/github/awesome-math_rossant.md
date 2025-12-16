@@ -3,6 +3,7 @@
 title: awesome-math
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rossant/awesome-math?style=social) ](https://github.com/rossant/awesome-math)
 ### [rossant awesome-math](https://github.com/rossant/awesome-math)
 
 该文档是一个涵盖数学、计算机科学、工程等领域的教育资源聚合列表，包含全球多所高校的课程讲义和书籍资源。核心内容包括：

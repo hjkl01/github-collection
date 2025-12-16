@@ -3,6 +3,7 @@
 title: HuYaTv
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jayjd/HuYaTv?style=social) ](https://github.com/jayjd/HuYaTv)
 ### [jayjd HuYaTv](https://github.com/jayjd/HuYaTv)
 
 **核心内容总结：**  

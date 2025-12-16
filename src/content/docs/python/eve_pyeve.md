@@ -3,6 +3,7 @@
 title: eve
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pyeve/eve?style=social) ](https://github.com/pyeve/eve)
 ### [pyeve eve](https://github.com/pyeve/eve)
 
 **项目核心内容总结：**

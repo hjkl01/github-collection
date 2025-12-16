@@ -3,6 +3,7 @@
 title: Kotatsu
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/KotatsuApp/Kotatsu?style=social) ](https://github.com/KotatsuApp/Kotatsu)
 ### [KotatsuApp Kotatsu](https://github.com/KotatsuApp/Kotatsu)
 
 **项目核心内容总结**  

@@ -3,6 +3,7 @@
 title: crossplane
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social) ](https://github.com/crossplane/crossplane)
 ### [crossplane crossplane](https://github.com/crossplane/crossplane)
 
 **核心内容总结：**  

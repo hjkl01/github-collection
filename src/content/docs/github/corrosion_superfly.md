@@ -3,6 +3,7 @@
 title: corrosion
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/superfly/corrosion?style=social) ](https://github.com/superfly/corrosion)
 ### [superfly corrosion](https://github.com/superfly/corrosion)
 
 **项目核心内容总结：**

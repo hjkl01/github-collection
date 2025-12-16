@@ -3,6 +3,7 @@
 title: arangodb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/arangodb/arangodb?style=social) ](https://github.com/arangodb/arangodb)
 ### [arangodb arangodb](https://github.com/arangodb/arangodb)
 
 ArangoDB 是一个支持图数据库、文档存储和全文搜索的多模型数据库系统，提供统一的查询语言（AQL）。其核心功能包括：  

@@ -3,6 +3,7 @@
 title: fastapi-starter
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gaganpreet/fastapi-starter?style=social) ](https://github.com/gaganpreet/fastapi-starter)
 ### [gaganpreet fastapi-starter](https://github.com/gaganpreet/fastapi-starter)
 
 **项目核心内容总结：**

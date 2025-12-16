@@ -3,6 +3,7 @@
 title: awesome
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/awesomeWM/awesome?style=social) ](https://github.com/awesomeWM/awesome)
 ### [awesomeWM awesome](https://github.com/awesomeWM/awesome)
 
 Awesome 是一个高度可配置的下一代 X 窗口框架管理器，用于管理 Linux 桌面环境。核心内容如下：  

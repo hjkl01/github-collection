@@ -3,6 +3,7 @@
 title: annie
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/iawia002/annie?style=social) ](https://github.com/iawia002/annie)
 ### [iawia002 annie](https://github.com/iawia002/annie)
 
 Lux 是一个支持多平台视频下载的命令行工具，可从包括 YouTube、优酷、TikTok、Reddit、AcFun 等 100+ 网站下载视频。主要特性包括：  

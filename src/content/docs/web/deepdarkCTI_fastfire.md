@@ -3,6 +3,7 @@
 title: deepdarkCTI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fastfire/deepdarkCTI?style=social) ](https://github.com/fastfire/deepdarkCTI)
 ### [fastfire deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
 
 **项目核心内容总结：**  

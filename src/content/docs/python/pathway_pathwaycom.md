@@ -3,6 +3,7 @@
 title: pathway
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pathwaycom/pathway?style=social) ](https://github.com/pathwaycom/pathway)
 ### [pathwaycom pathway](https://github.com/pathwaycom/pathway)
 
 **项目功能**：Pathway 是一个基于 Python 的 ETL 框架，支持流数据处理、实时分析、机器学习管道（LLM）和检索增强生成（RAG），底层采用高性能 Rust 引擎，可处理批处理与流式数据。  

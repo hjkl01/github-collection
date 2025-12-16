@@ -3,6 +3,7 @@
 title: aliyunpan
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/liupan1890/aliyunpan?style=social) ](https://github.com/liupan1890/aliyunpan)
 ### [liupan1890 aliyunpan](https://github.com/liupan1890/aliyunpan)
 
 **项目核心内容总结：**  

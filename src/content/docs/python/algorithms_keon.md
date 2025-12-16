@@ -3,6 +3,7 @@
 title: algorithms
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/keon/algorithms?style=social) ](https://github.com/keon/algorithms)
 ### [keon algorithms](https://github.com/keon/algorithms)
 
 该项目是一个涵盖多种数据结构与算法实现的开源算法库，主要用于学习和实践编程算法。核心内容包括：  

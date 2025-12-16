@@ -3,6 +3,7 @@
 title: roslyn.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/seblyng/roslyn.nvim?style=social) ](https://github.com/seblyng/roslyn.nvim)
 ### [seblyng roslyn.nvim](https://github.com/seblyng/roslyn.nvim)
 
 **项目核心内容总结：**

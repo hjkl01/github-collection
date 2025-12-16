@@ -3,6 +3,7 @@
 title: mason-lspconfig.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mason-org/mason-lspconfig.nvim?style=social) ](https://github.com/mason-org/mason-lspconfig.nvim)
 ### [mason-org mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim)
 
 ### 核心内容总结

@@ -3,6 +3,7 @@
 title: postal
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/postalserver/postal?style=social) ](https://github.com/postalserver/postal)
 ### [postalserver postal](https://github.com/postalserver/postal)
 
 **核心内容总结**  

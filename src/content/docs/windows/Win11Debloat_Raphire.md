@@ -3,6 +3,7 @@
 title: Win11Debloat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Raphire/Win11Debloat?style=social) ](https://github.com/Raphire/Win11Debloat)
 ### [Raphire Win11Debloat](https://github.com/Raphire/Win11Debloat)
 
 **项目核心内容总结：**  

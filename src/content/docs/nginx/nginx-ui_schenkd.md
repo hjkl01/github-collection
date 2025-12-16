@@ -3,6 +3,7 @@
 title: nginx-ui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/schenkd/nginx-ui?style=social) ](https://github.com/schenkd/nginx-ui)
 ### [schenkd nginx-ui](https://github.com/schenkd/nginx-ui)
 
 **核心内容总结：**  

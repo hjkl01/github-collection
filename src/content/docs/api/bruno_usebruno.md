@@ -3,6 +3,7 @@
 title: bruno
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/usebruno/bruno?style=social) ](https://github.com/usebruno/bruno)
 ### [usebruno bruno](https://github.com/usebruno/bruno)
 
 **项目核心内容总结：**

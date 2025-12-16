@@ -3,6 +3,7 @@
 title: index-tts
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/index-tts/index-tts?style=social) ](https://github.com/index-tts/index-tts)
 ### [index-tts index-tts](https://github.com/index-tts/index-tts)
 
 **项目核心内容总结：**  

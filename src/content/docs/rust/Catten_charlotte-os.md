@@ -3,6 +3,7 @@
 title: Catten
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/charlotte-os/Catten?style=social) ](https://github.com/charlotte-os/Catten)
 ### [charlotte-os Catten](https://github.com/charlotte-os/Catten)
 
 **项目核心内容总结：**

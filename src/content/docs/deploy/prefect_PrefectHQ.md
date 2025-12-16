@@ -3,6 +3,7 @@
 title: prefect
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social) ](https://github.com/PrefectHQ/prefect)
 ### [PrefectHQ prefect](https://github.com/PrefectHQ/prefect)
 
 **核心内容总结：**  

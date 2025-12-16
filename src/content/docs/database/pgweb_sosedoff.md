@@ -3,6 +3,7 @@
 title: pgweb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sosedoff/pgweb?style=social) ](https://github.com/sosedoff/pgweb)
 ### [sosedoff pgweb](https://github.com/sosedoff/pgweb)
 
 **项目核心内容总结：**

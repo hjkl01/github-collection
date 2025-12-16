@@ -3,6 +3,7 @@
 title: segment-geospatial
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/opengeos/segment-geospatial?style=social) ](https://github.com/opengeos/segment-geospatial)
 ### [opengeos segment-geospatial](https://github.com/opengeos/segment-geospatial)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: StreamCap
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ihmily/StreamCap?style=social) ](https://github.com/ihmily/StreamCap)
 ### [ihmily StreamCap](https://github.com/ihmily/StreamCap)
 
 **StreamCap 核心内容总结**：

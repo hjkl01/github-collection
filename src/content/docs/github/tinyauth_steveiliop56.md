@@ -3,6 +3,7 @@
 title: tinyauth
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/steveiliop56/tinyauth?style=social) ](https://github.com/steveiliop56/tinyauth)
 ### [steveiliop56 tinyauth](https://github.com/steveiliop56/tinyauth)
 
 **核心内容总结：**  

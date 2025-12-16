@@ -3,6 +3,7 @@
 title: nvm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvm-sh/nvm?style=social) ](https://github.com/nvm-sh/nvm)
 ### [nvm-sh nvm](https://github.com/nvm-sh/nvm)
 
 **项目核心内容总结：**

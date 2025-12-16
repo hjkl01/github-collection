@@ -3,6 +3,7 @@
 title: LSPosed
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LSPosed/LSPosed?style=social) ](https://github.com/LSPosed/LSPosed)
 ### [LSPosed LSPosed](https://github.com/LSPosed/LSPosed)
 
 **LSPosed Framework 核心内容总结：**  

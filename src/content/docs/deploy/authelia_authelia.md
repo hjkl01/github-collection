@@ -3,6 +3,7 @@
 title: authelia
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/authelia/authelia?style=social) ](https://github.com/authelia/authelia)
 ### [authelia authelia](https://github.com/authelia/authelia)
 
 **核心内容总结：**  

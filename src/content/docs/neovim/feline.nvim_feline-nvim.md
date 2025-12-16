@@ -3,6 +3,7 @@
 title: feline.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/feline-nvim/feline.nvim?style=social) ](https://github.com/feline-nvim/feline.nvim)
 ### [feline-nvim feline.nvim](https://github.com/feline-nvim/feline.nvim)
 
 **项目核心内容总结：**

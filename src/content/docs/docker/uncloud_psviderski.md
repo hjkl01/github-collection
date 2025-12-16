@@ -3,6 +3,7 @@
 title: uncloud
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/psviderski/uncloud?style=social) ](https://github.com/psviderski/uncloud)
 ### [psviderski uncloud](https://github.com/psviderski/uncloud)
 
 **核心内容总结：**  

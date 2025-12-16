@@ -3,6 +3,7 @@
 title: create-react-app
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/facebook/create-react-app?style=social) ](https://github.com/facebook/create-react-app)
 ### [facebook create-react-app](https://github.com/facebook/create-react-app)
 
 ### 核心内容总结

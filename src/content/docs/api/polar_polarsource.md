@@ -3,6 +3,7 @@
 title: polar
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/polarsource/polar?style=social) ](https://github.com/polarsource/polar)
 ### [polarsource polar](https://github.com/polarsource/polar)
 
 **项目核心内容总结：**

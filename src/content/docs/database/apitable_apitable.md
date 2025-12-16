@@ -3,6 +3,7 @@
 title: apitable
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apitable/apitable?style=social) ](https://github.com/apitable/apitable)
 ### [apitable apitable](https://github.com/apitable/apitable)
 
 APITable 是一个开源的可视化数据库工具，支持实时协作、自动化流程和多语言界面。其核心功能包括：  

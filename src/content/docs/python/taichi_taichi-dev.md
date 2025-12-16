@@ -3,6 +3,7 @@
 title: taichi
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/taichi-dev/taichi?style=social) ](https://github.com/taichi-dev/taichi)
 ### [taichi-dev taichi](https://github.com/taichi-dev/taichi)
 
 Taichi Lang 是一个嵌入 Python 的高性能数值计算语言，通过 JIT 编译技术将 Python 代码转换为 GPU/CPU 指令，适用于物理模拟、AI、图形渲染等场景。核心功能包括：  

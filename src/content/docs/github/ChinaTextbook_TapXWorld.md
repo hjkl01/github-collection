@@ -3,6 +3,7 @@
 title: ChinaTextbook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TapXWorld/ChinaTextbook?style=social) ](https://github.com/TapXWorld/ChinaTextbook)
 ### [TapXWorld ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)
 
 **项目核心内容总结：**  

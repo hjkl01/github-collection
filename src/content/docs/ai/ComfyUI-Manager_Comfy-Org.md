@@ -3,6 +3,7 @@
 title: ComfyUI-Manager
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Comfy-Org/ComfyUI-Manager?style=social) ](https://github.com/Comfy-Org/ComfyUI-Manager)
 ### [Comfy-Org ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager)
 
 **核心内容总结：**

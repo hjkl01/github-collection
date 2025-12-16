@@ -3,6 +3,7 @@
 title: mineflayer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PrismarineJS/mineflayer?style=social) ](https://github.com/PrismarineJS/mineflayer)
 ### [PrismarineJS mineflayer](https://github.com/PrismarineJS/mineflayer)
 
 **核心内容总结：**  

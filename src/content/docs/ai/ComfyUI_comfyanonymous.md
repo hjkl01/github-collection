@@ -3,6 +3,7 @@
 title: ComfyUI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/comfyanonymous/ComfyUI?style=social) ](https://github.com/comfyanonymous/ComfyUI)
 ### [comfyanonymous ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
 **核心内容总结：**

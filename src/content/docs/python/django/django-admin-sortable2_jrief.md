@@ -3,6 +3,7 @@
 title: django-admin-sortable2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jrief/django-admin-sortable2?style=social) ](https://github.com/jrief/django-admin-sortable2)
 ### [jrief django-admin-sortable2](https://github.com/jrief/django-admin-sortable2)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: dyad
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dyad-sh/dyad?style=social) ](https://github.com/dyad-sh/dyad)
 ### [dyad-sh dyad](https://github.com/dyad-sh/dyad)
 
 **Dyad 核心内容总结：**  

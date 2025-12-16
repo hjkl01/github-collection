@@ -3,6 +3,7 @@
 title: awesome-GameEmulator
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/liminbai/awesome-GameEmulator?style=social) ](https://github.com/liminbai/awesome-GameEmulator)
 ### [liminbai awesome-GameEmulator](https://github.com/liminbai/awesome-GameEmulator)
 
 该文档介绍了多个与游戏模拟器、ROM管理及社区工具相关的项目，涵盖以下核心内容：

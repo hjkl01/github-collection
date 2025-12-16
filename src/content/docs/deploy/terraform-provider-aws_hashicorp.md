@@ -3,6 +3,7 @@
 title: terraform-provider-aws
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hashicorp/terraform-provider-aws?style=social) ](https://github.com/hashicorp/terraform-provider-aws)
 ### [hashicorp terraform-provider-aws](https://github.com/hashicorp/terraform-provider-aws)
 
 **核心内容总结：**  

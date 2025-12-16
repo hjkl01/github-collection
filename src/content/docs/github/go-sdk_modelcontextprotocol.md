@@ -3,6 +3,7 @@
 title: go-sdk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/go-sdk?style=social) ](https://github.com/modelcontextprotocol/go-sdk)
 ### [modelcontextprotocol go-sdk](https://github.com/modelcontextprotocol/go-sdk)
 
 **核心内容总结：**  

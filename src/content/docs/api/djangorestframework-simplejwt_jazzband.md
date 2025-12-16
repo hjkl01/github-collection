@@ -3,6 +3,7 @@
 title: djangorestframework-simplejwt
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jazzband/djangorestframework-simplejwt?style=social) ](https://github.com/jazzband/djangorestframework-simplejwt)
 ### [jazzband djangorestframework-simplejwt](https://github.com/jazzband/djangorestframework-simplejwt)
 
 **核心内容总结：**  

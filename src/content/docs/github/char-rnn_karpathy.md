@@ -3,6 +3,7 @@
 title: char-rnn
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/karpathy/char-rnn?style=social) ](https://github.com/karpathy/char-rnn)
 ### [karpathy char-rnn](https://github.com/karpathy/char-rnn)
 
 **项目核心内容总结：**

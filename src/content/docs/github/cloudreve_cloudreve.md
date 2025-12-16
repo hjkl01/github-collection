@@ -3,6 +3,7 @@
 title: cloudreve
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cloudreve/cloudreve?style=social) ](https://github.com/cloudreve/cloudreve)
 ### [cloudreve cloudreve](https://github.com/cloudreve/cloudreve)
 
 Cloudreve 是一款自托管的多云文件管理系统，支持将文件存储到本地、远程节点、OneDrive、S3 兼容 API、七牛云、阿里云 OSS 等多种存储服务。核心功能包括：  

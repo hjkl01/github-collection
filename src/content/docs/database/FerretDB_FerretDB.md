@@ -3,6 +3,7 @@
 title: FerretDB
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FerretDB/FerretDB?style=social) ](https://github.com/FerretDB/FerretDB)
 ### [FerretDB FerretDB](https://github.com/FerretDB/FerretDB)
 
 **FerretDB 核心内容总结：**

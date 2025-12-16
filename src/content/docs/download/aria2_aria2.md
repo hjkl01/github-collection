@@ -3,6 +3,7 @@
 title: aria2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aria2/aria2?style=social) ](https://github.com/aria2/aria2)
 ### [aria2 aria2](https://github.com/aria2/aria2)
 
 **项目核心内容总结：**  

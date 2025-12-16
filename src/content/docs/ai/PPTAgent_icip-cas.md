@@ -3,6 +3,7 @@
 title: PPTAgent
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=social) ](https://github.com/icip-cas/PPTAgent)
 ### [icip-cas PPTAgent](https://github.com/icip-cas/PPTAgent)
 
 **项目核心内容总结**  

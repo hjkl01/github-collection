@@ -3,6 +3,7 @@
 title: etl
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/supabase/etl?style=social) ](https://github.com/supabase/etl)
 ### [supabase etl](https://github.com/supabase/etl)
 
 **项目核心内容总结：**

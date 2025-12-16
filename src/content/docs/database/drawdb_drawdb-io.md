@@ -3,6 +3,7 @@
 title: drawdb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/drawdb-io/drawdb?style=social) ](https://github.com/drawdb-io/drawdb)
 ### [drawdb-io drawdb](https://github.com/drawdb-io/drawdb)
 
 **核心内容总结：**  

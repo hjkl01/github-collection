@@ -3,6 +3,7 @@
 title: dash
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/plotly/dash?style=social) ](https://github.com/plotly/dash)
 ### [plotly dash](https://github.com/plotly/dash)
 
 **核心内容总结：**  

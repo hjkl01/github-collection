@@ -3,6 +3,7 @@
 title: flash.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/flash.nvim?style=social) ](https://github.com/folke/flash.nvim)
 ### [folke flash.nvim](https://github.com/folke/flash.nvim)
 
 **flash.nvim** 是一个用于 Neovim 的快速跳转插件，支持基于字符、单词、行等的精准定位，功能类似 Leap 或 Hop。核心特性包括：  

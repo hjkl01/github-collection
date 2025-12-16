@@ -3,6 +3,7 @@
 title: umi
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/umijs/umi?style=social) ](https://github.com/umijs/umi)
 ### [umijs umi](https://github.com/umijs/umi)
 
 **项目简介**  

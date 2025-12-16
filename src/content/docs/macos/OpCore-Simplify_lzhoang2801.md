@@ -3,6 +3,7 @@
 title: OpCore-Simplify
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lzhoang2801/OpCore-Simplify?style=social) ](https://github.com/lzhoang2801/OpCore-Simplify)
 ### [lzhoang2801 OpCore-Simplify](https://github.com/lzhoang2801/OpCore-Simplify)
 
 **项目核心内容总结**  

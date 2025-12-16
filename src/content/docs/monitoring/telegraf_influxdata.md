@@ -3,6 +3,7 @@
 title: telegraf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/influxdata/telegraf?style=social) ](https://github.com/influxdata/telegraf)
 ### [influxdata telegraf](https://github.com/influxdata/telegraf)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: pal-mcp-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/BeehiveInnovations/pal-mcp-server?style=social) ](https://github.com/BeehiveInnovations/pal-mcp-server)
 ### [BeehiveInnovations pal-mcp-server](https://github.com/BeehiveInnovations/pal-mcp-server)
 
 **项目核心内容总结：**

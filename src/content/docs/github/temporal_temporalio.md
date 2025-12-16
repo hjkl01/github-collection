@@ -3,6 +3,7 @@
 title: temporal
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/temporalio/temporal?style=social) ](https://github.com/temporalio/temporal)
 ### [temporalio temporal](https://github.com/temporalio/temporal)
 
 **核心内容总结**  

@@ -3,6 +3,7 @@
 title: Ventoy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ventoy/Ventoy?style=social) ](https://github.com/ventoy/Ventoy)
 ### [ventoy Ventoy](https://github.com/ventoy/Ventoy)
 
 **Ventoy核心内容总结：**

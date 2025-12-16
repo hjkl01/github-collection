@@ -3,6 +3,7 @@
 title: pr-agent
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qodo-ai/pr-agent?style=social) ](https://github.com/qodo-ai/pr-agent)
 ### [qodo-ai pr-agent](https://github.com/qodo-ai/pr-agent)
 
 **项目核心内容总结：**  

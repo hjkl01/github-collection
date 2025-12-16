@@ -3,6 +3,7 @@
 title: label-studio
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social) ](https://github.com/HumanSignal/label-studio)
 ### [HumanSignal label-studio](https://github.com/HumanSignal/label-studio)
 
 **核心内容总结：**  

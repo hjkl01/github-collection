@@ -3,6 +3,7 @@
 title: weaviate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social) ](https://github.com/weaviate/weaviate)
 ### [weaviate weaviate](https://github.com/weaviate/weaviate)
 
 **项目核心内容总结：**

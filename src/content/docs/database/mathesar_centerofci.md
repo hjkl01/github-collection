@@ -3,6 +3,7 @@
 title: mathesar
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/centerofci/mathesar?style=social) ](https://github.com/centerofci/mathesar)
 ### [centerofci mathesar](https://github.com/centerofci/mathesar)
 
 **核心内容总结：**  

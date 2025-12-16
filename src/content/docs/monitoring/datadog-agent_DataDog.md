@@ -3,6 +3,7 @@
 title: datadog-agent
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/DataDog/datadog-agent?style=social) ](https://github.com/DataDog/datadog-agent)
 ### [DataDog datadog-agent](https://github.com/DataDog/datadog-agent)
 
 **核心内容总结：**  

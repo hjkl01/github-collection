@@ -3,6 +3,7 @@
 title: docker-wechat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huan/docker-wechat?style=social) ](https://github.com/huan/docker-wechat)
 ### [huan docker-wechat](https://github.com/huan/docker-wechat)
 
 **项目核心内容总结：**  

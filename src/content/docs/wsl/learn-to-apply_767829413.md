@@ -3,6 +3,7 @@
 title: learn-to-apply
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/767829413/learn-to-apply?style=social) ](https://github.com/767829413/learn-to-apply)
 ### [767829413 learn-to-apply](https://github.com/767829413/learn-to-apply)
 
 该README文档是一个技术资源合集，涵盖开发工具、AI实践、系统知识等多个领域，主要功能与内容如下：

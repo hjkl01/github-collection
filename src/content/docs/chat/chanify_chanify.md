@@ -3,6 +3,7 @@
 title: chanify
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chanify/chanify?style=social) ](https://github.com/chanify/chanify)
 ### [chanify chanify](https://github.com/chanify/chanify)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: cloudreve-docker
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/justxuewei/cloudreve-docker?style=social) ](https://github.com/justxuewei/cloudreve-docker)
 ### [justxuewei cloudreve-docker](https://github.com/justxuewei/cloudreve-docker)
 
 **项目核心内容总结：**

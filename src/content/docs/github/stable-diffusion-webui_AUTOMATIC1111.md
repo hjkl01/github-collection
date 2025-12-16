@@ -3,6 +3,7 @@
 title: stable-diffusion-webui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=social) ](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 ### [AUTOMATIC1111 stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 **项目核心内容总结：**

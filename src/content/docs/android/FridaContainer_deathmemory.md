@@ -3,6 +3,7 @@
 title: FridaContainer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/deathmemory/FridaContainer?style=social) ](https://github.com/deathmemory/FridaContainer)
 ### [deathmemory FridaContainer](https://github.com/deathmemory/FridaContainer)
 
 **FridaContainer 核心内容总结：**

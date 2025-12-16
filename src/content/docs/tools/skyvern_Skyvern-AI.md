@@ -3,6 +3,7 @@
 title: skyvern
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social) ](https://github.com/Skyvern-AI/skyvern)
 ### [Skyvern-AI skyvern](https://github.com/Skyvern-AI/skyvern)
 
 Skyvern 是一个开源的网页任务自动化工具，支持通过自然语言指令完成网页交互操作（如表单填写、数据提取等）。其核心功能包括：  

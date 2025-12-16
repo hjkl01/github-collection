@@ -3,6 +3,7 @@
 title: neko
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/m1k1o/neko?style=social) ](https://github.com/m1k1o/neko)
 ### [m1k1o neko](https://github.com/m1k1o/neko)
 
 **项目核心内容总结：**

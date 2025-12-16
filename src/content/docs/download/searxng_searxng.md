@@ -3,6 +3,7 @@
 title: searxng
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/searxng/searxng?style=social) ](https://github.com/searxng/searxng)
 ### [searxng searxng](https://github.com/searxng/searxng)
 
 **项目核心内容总结：**

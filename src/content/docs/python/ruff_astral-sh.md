@@ -3,6 +3,7 @@
 title: ruff
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/astral-sh/ruff?style=social) ](https://github.com/astral-sh/ruff)
 ### [astral-sh ruff](https://github.com/astral-sh/ruff)
 
 **项目核心内容总结：**  

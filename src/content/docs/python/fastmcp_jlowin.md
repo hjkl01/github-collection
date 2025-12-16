@@ -3,6 +3,7 @@
 title: fastmcp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jlowin/fastmcp?style=social) ](https://github.com/jlowin/fastmcp)
 ### [jlowin fastmcp](https://github.com/jlowin/fastmcp)
 
 **项目核心内容总结：**  

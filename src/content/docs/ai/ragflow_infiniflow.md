@@ -3,6 +3,7 @@
 title: ragflow
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social) ](https://github.com/infiniflow/ragflow)
 ### [infiniflow ragflow](https://github.com/infiniflow/ragflow)
 
 **项目核心内容总结：**

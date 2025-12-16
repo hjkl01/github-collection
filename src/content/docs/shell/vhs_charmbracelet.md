@@ -3,6 +3,7 @@
 title: vhs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/charmbracelet/vhs?style=social) ](https://github.com/charmbracelet/vhs)
 ### [charmbracelet vhs](https://github.com/charmbracelet/vhs)
 
 **项目功能**  

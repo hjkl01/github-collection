@@ -3,6 +3,7 @@
 title: cookiecutter-flask-skeleton
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/testdrivenio/cookiecutter-flask-skeleton?style=social) ](https://github.com/testdrivenio/cookiecutter-flask-skeleton)
 ### [testdrivenio cookiecutter-flask-skeleton](https://github.com/testdrivenio/cookiecutter-flask-skeleton)
 
 **项目功能**：基于Cookiecutter生成的Flask项目模板，提供包含服务器端Jinja模板渲染的基础Web应用框架。  

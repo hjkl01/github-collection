@@ -3,6 +3,7 @@
 title: sqlitedict
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RaRe-Technologies/sqlitedict?style=social) ](https://github.com/RaRe-Technologies/sqlitedict)
 ### [RaRe-Technologies sqlitedict](https://github.com/RaRe-Technologies/sqlitedict)
 
 **项目核心内容总结：**

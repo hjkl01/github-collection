@@ -3,6 +3,7 @@
 title: FinanceDatabase
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/JerBouma/FinanceDatabase?style=social) ](https://github.com/JerBouma/FinanceDatabase)
 ### [JerBouma FinanceDatabase](https://github.com/JerBouma/FinanceDatabase)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: pydoll
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/autoscrape-labs/pydoll?style=social) ](https://github.com/autoscrape-labs/pydoll)
 ### [autoscrape-labs pydoll](https://github.com/autoscrape-labs/pydoll)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: flower
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mher/flower?style=social) ](https://github.com/mher/flower)
 ### [mher flower](https://github.com/mher/flower)
 
 **核心内容总结：**

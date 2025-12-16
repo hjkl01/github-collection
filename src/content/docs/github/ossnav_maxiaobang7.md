@@ -3,6 +3,7 @@
 title: ossnav
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/maxiaobang7/ossnav?style=social) ](https://github.com/maxiaobang7/ossnav)
 ### [maxiaobang7 ossnav](https://github.com/maxiaobang7/ossnav)
 
 该README文档是一个开源软件工具集合的分类目录，按功能领域划分了多个类别，每个类别下列举了具体工具及其简介。核心内容包括：

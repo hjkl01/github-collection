@@ -3,6 +3,7 @@
 title: duplicati
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social) ](https://github.com/duplicati/duplicati)
 ### [duplicati duplicati](https://github.com/duplicati/duplicati)
 
 **Duplicati 简介与核心功能总结**

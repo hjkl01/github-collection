@@ -3,6 +3,7 @@
 title: rust-sdk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/rust-sdk?style=social) ](https://github.com/modelcontextprotocol/rust-sdk)
 ### [modelcontextprotocol rust-sdk](https://github.com/modelcontextprotocol/rust-sdk)
 
 **项目核心内容总结：**

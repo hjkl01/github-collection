@@ -3,6 +3,7 @@
 title: webdis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nicolasff/webdis?style=social) ](https://github.com/nicolasff/webdis)
 ### [nicolasff webdis](https://github.com/nicolasff/webdis)
 
 **项目核心内容总结**：  

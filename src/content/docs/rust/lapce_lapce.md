@@ -3,6 +3,7 @@
 title: lapce
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lapce/lapce?style=social) ](https://github.com/lapce/lapce)
 ### [lapce lapce](https://github.com/lapce/lapce)
 
 **项目核心内容总结：**

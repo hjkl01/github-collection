@@ -3,6 +3,7 @@
 title: opentofu
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social) ](https://github.com/opentofu/opentofu)
 ### [opentofu opentofu](https://github.com/opentofu/opentofu)
 
 OpenTofu 是一个开源工具，用于安全高效地构建、管理和版本化基础设施，支持多种云服务提供商和自定义解决方案。  

@@ -3,6 +3,7 @@
 title: KAI-Scheduler
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/KAI-Scheduler?style=social) ](https://github.com/NVIDIA/KAI-Scheduler)
 ### [NVIDIA KAI-Scheduler](https://github.com/NVIDIA/KAI-Scheduler)
 
 **项目核心内容总结：**

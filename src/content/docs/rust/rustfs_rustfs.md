@@ -3,6 +3,7 @@
 title: rustfs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rustfs/rustfs?style=social) ](https://github.com/rustfs/rustfs)
 ### [rustfs rustfs](https://github.com/rustfs/rustfs)
 
 **项目核心内容总结：**

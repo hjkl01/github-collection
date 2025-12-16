@@ -3,6 +3,7 @@
 title: dots-hyprland
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/end-4/dots-hyprland?style=social) ](https://github.com/end-4/dots-hyprland)
 ### [end-4 dots-hyprland](https://github.com/end-4/dots-hyprland)
 
 该项目是 **end_4 的 Hyprland 窗口管理器配置文件**，提供以下核心功能与特性：

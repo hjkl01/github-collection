@@ -3,6 +3,7 @@
 title: swagger-ui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social) ](https://github.com/swagger-api/swagger-ui)
 ### [swagger-api swagger-ui](https://github.com/swagger-api/swagger-ui)
 
 **核心内容总结：**  

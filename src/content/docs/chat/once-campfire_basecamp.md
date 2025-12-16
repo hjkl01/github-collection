@@ -3,6 +3,7 @@
 title: once-campfire
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/basecamp/once-campfire?style=social) ](https://github.com/basecamp/once-campfire)
 ### [basecamp once-campfire](https://github.com/basecamp/once-campfire)
 
 **项目核心内容总结：**

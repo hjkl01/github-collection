@@ -3,6 +3,7 @@
 title: asm-lessons
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FFmpeg/asm-lessons?style=social) ](https://github.com/FFmpeg/asm-lessons)
 ### [FFmpeg asm-lessons](https://github.com/FFmpeg/asm-lessons)
 
 **项目核心内容总结：**  

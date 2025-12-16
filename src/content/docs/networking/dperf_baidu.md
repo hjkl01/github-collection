@@ -3,6 +3,7 @@
 title: dperf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/baidu/dperf?style=social) ](https://github.com/baidu/dperf)
 ### [baidu dperf](https://github.com/baidu/dperf)
 
 **dperf** 是一个基于 DPDK 的高性能网络流量生成和负载测试工具，主要用于模拟大规模网络流量以测试系统性能。其核心功能包括：  

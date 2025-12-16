@@ -3,6 +3,7 @@
 title: syncthing
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social) ](https://github.com/syncthing/syncthing)
 ### [syncthing syncthing](https://github.com/syncthing/syncthing)
 
 **项目功能**  

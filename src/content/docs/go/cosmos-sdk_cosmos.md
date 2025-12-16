@@ -3,6 +3,7 @@
 title: cosmos-sdk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cosmos/cosmos-sdk?style=social) ](https://github.com/cosmos/cosmos-sdk)
 ### [cosmos cosmos-sdk](https://github.com/cosmos/cosmos-sdk)
 
 **Cosmos SDK 核心内容总结**  

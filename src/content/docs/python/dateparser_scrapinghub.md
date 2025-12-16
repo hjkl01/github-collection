@@ -3,6 +3,7 @@
 title: dateparser
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/scrapinghub/dateparser?style=social) ](https://github.com/scrapinghub/dateparser)
 ### [scrapinghub dateparser](https://github.com/scrapinghub/dateparser)
 
 **核心内容总结：**  

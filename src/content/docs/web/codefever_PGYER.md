@@ -3,6 +3,7 @@
 title: codefever
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PGYER/codefever?style=social) ](https://github.com/PGYER/codefever)
 ### [PGYER codefever](https://github.com/PGYER/codefever)
 
 **项目核心内容总结：**

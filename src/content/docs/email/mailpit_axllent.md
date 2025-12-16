@@ -3,6 +3,7 @@
 title: mailpit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/axllent/mailpit?style=social) ](https://github.com/axllent/mailpit)
 ### [axllent mailpit](https://github.com/axllent/mailpit)
 
 **项目核心内容总结：**  

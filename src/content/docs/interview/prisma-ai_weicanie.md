@@ -3,6 +3,7 @@
 title: prisma-ai
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/weicanie/prisma-ai?style=social) ](https://github.com/weicanie/prisma-ai)
 ### [weicanie prisma-ai](https://github.com/weicanie/prisma-ai)
 
 **项目核心内容总结：**

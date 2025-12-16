@@ -3,6 +3,7 @@
 title: TradingSystem
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/oybab/TradingSystem?style=social) ](https://github.com/oybab/TradingSystem)
 ### [oybab TradingSystem](https://github.com/oybab/TradingSystem)
 
 **核心内容总结：**  

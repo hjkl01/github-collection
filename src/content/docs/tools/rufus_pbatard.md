@@ -3,6 +3,7 @@
 title: rufus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pbatard/rufus?style=social) ](https://github.com/pbatard/rufus)
 ### [pbatard rufus](https://github.com/pbatard/rufus)
 
 Rufus 是一个用于格式化和创建可启动 USB 设备的工具，支持以下功能：  

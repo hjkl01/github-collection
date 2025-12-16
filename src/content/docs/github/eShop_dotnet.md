@@ -3,6 +3,7 @@
 title: eShop
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/eShop?style=social) ](https://github.com/dotnet/eShop)
 ### [dotnet eShop](https://github.com/dotnet/eShop)
 
 **核心内容总结：**

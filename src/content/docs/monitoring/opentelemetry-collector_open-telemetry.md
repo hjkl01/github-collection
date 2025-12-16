@@ -3,6 +3,7 @@
 title: opentelemetry-collector
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social) ](https://github.com/open-telemetry/opentelemetry-collector)
 ### [open-telemetry opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)
 
 **项目核心内容总结：**  

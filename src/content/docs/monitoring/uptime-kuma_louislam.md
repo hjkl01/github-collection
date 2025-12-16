@@ -3,6 +3,7 @@
 title: uptime-kuma
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social) ](https://github.com/louislam/uptime-kuma)
 ### [louislam uptime-kuma](https://github.com/louislam/uptime-kuma)
 
 **项目核心内容总结：**

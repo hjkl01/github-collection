@@ -3,6 +3,7 @@
 title: schedule
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dbader/schedule?style=social) ](https://github.com/dbader/schedule)
 ### [dbader schedule](https://github.com/dbader/schedule)
 
 **项目核心内容总结：**  

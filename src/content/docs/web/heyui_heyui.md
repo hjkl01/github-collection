@@ -3,6 +3,7 @@
 title: heyui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/heyui/heyui?style=social) ](https://github.com/heyui/heyui)
 ### [heyui heyui](https://github.com/heyui/heyui)
 
 **项目功能**：HeyUI 是一个基于 Vue 的 UI 组件库，提供丰富的组件支持，适用于前端开发。  

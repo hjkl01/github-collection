@@ -3,6 +3,7 @@
 title: cutile-python
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/cutile-python?style=social) ](https://github.com/NVIDIA/cutile-python)
 ### [NVIDIA cutile-python](https://github.com/NVIDIA/cutile-python)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: AutoHotkey
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AutoHotkey/AutoHotkey?style=social) ](https://github.com/AutoHotkey/AutoHotkey)
 ### [AutoHotkey AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)
 
 **项目功能**  

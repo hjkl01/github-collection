@@ -3,6 +3,7 @@
 title: webssh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huashengdun/webssh?style=social) ](https://github.com/huashengdun/webssh)
 ### [huashengdun webssh](https://github.com/huashengdun/webssh)
 
 ### 核心内容总结

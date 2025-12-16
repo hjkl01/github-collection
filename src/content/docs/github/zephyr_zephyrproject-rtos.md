@@ -3,6 +3,7 @@
 title: zephyr
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zephyrproject-rtos/zephyr?style=social) ](https://github.com/zephyrproject-rtos/zephyr)
 ### [zephyrproject-rtos zephyr](https://github.com/zephyrproject-rtos/zephyr)
 
 **核心内容总结：**  

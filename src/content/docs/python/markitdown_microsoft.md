@@ -3,6 +3,7 @@
 title: markitdown
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/markitdown?style=social) ](https://github.com/microsoft/markitdown)
 ### [microsoft markitdown](https://github.com/microsoft/markitdown)
 
 **项目核心内容总结：**  

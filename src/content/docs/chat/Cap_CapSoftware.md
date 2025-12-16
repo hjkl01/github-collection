@@ -3,6 +3,7 @@
 title: Cap
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/CapSoftware/Cap?style=social) ](https://github.com/CapSoftware/Cap)
 ### [CapSoftware Cap](https://github.com/CapSoftware/Cap)
 
 **核心内容总结：**  

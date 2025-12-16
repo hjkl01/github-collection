@@ -3,6 +3,7 @@
 title: codecompanion.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/olimorris/codecompanion.nvim?style=social) ](https://github.com/olimorris/codecompanion.nvim)
 ### [olimorris codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim)
 
 **项目简介**  

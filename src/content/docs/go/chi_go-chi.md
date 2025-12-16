@@ -3,6 +3,7 @@
 title: chi
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/go-chi/chi?style=social) ](https://github.com/go-chi/chi)
 ### [go-chi chi](https://github.com/go-chi/chi)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: WingetUI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/marticliment/WingetUI?style=social) ](https://github.com/marticliment/WingetUI)
 ### [marticliment WingetUI](https://github.com/marticliment/WingetUI)
 
 **项目核心内容总结：**  

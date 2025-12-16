@@ -3,6 +3,7 @@
 title: flasgger
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/flasgger/flasgger?style=social) ](https://github.com/flasgger/flasgger)
 ### [flasgger flasgger](https://github.com/flasgger/flasgger)
 
 **Flasgger项目核心内容总结：**  

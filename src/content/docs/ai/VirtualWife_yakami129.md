@@ -3,6 +3,7 @@
 title: VirtualWife
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yakami129/VirtualWife?style=social) ](https://github.com/yakami129/VirtualWife)
 ### [yakami129 VirtualWife](https://github.com/yakami129/VirtualWife)
 
 **项目核心内容总结：**  

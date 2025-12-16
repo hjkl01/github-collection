@@ -3,6 +3,7 @@
 title: pingvin-share
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stonith404/pingvin-share?style=social) ](https://github.com/stonith404/pingvin-share)
 ### [stonith404 pingvin-share](https://github.com/stonith404/pingvin-share)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: docker-libreoffice
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/linuxserver/docker-libreoffice?style=social) ](https://github.com/linuxserver/docker-libreoffice)
 ### [linuxserver docker-libreoffice](https://github.com/linuxserver/docker-libreoffice)
 
 **项目核心内容总结：**

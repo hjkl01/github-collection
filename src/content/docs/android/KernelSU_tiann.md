@@ -3,6 +3,7 @@
 title: KernelSU
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tiann/KernelSU?style=social) ](https://github.com/tiann/KernelSU)
 ### [tiann KernelSU](https://github.com/tiann/KernelSU)
 
 **KernelSU核心内容总结：**

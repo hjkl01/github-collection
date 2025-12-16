@@ -3,6 +3,7 @@
 title: polkadot-sdk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/paritytech/polkadot-sdk?style=social) ](https://github.com/paritytech/polkadot-sdk)
 ### [paritytech polkadot-sdk](https://github.com/paritytech/polkadot-sdk)
 
 **项目核心内容总结**  

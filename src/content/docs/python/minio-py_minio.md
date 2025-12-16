@@ -3,6 +3,7 @@
 title: minio-py
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/minio/minio-py?style=social) ](https://github.com/minio/minio-py)
 ### [minio minio-py](https://github.com/minio/minio-py)
 
 **核心内容总结：**  

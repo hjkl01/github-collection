@@ -3,6 +3,7 @@
 title: rclone
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rclone/rclone?style=social) ](https://github.com/rclone/rclone)
 ### [rclone rclone](https://github.com/rclone/rclone)
 
 **Rclone 核心内容总结：**

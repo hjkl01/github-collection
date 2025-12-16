@@ -3,6 +3,7 @@
 title: AFFiNE
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social) ](https://github.com/toeverything/AFFiNE)
 ### [toeverything AFFiNE](https://github.com/toeverything/AFFiNE)
 
 **项目核心内容总结：**  

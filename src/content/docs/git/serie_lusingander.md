@@ -3,6 +3,7 @@
 title: serie
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lusingander/serie?style=social) ](https://github.com/lusingander/serie)
 ### [lusingander serie](https://github.com/lusingander/serie)
 
 **项目核心内容总结：**  

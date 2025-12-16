@@ -3,6 +3,7 @@
 title: django-sql-explorer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/groveco/django-sql-explorer?style=social) ](https://github.com/groveco/django-sql-explorer)
 ### [groveco django-sql-explorer](https://github.com/groveco/django-sql-explorer)
 
 **核心内容总结：**

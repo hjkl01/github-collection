@@ -3,6 +3,7 @@
 title: adk-python
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google/adk-python?style=social) ](https://github.com/google/adk-python)
 ### [google adk-python](https://github.com/google/adk-python)
 
 **Agent Development Kit (ADK) 核心内容总结：**

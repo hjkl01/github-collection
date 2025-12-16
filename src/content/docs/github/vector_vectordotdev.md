@@ -3,6 +3,7 @@
 title: vector
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social) ](https://github.com/vectordotdev/vector)
 ### [vectordotdev vector](https://github.com/vectordotdev/vector)
 
 **项目核心内容总结：**  

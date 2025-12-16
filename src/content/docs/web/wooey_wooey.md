@@ -3,6 +3,7 @@
 title: wooey
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wooey/wooey?style=social) ](https://github.com/wooey/wooey)
 ### [wooey wooey](https://github.com/wooey/wooey)
 
 Wooey 是一个通过网页界面运行命令行 Python 脚本的工具，主要用于数据分析、文件处理等场景。其核心功能包括：  

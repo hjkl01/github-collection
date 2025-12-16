@@ -3,6 +3,7 @@
 title: ezbookkeeping
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mayswind/ezbookkeeping?style=social) ](https://github.com/mayswind/ezbookkeeping)
 ### [mayswind ezbookkeeping](https://github.com/mayswind/ezbookkeeping)
 
 **项目核心内容总结：**

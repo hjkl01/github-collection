@@ -3,6 +3,7 @@
 title: MouseClick
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/SeaEpoch/MouseClick?style=social) ](https://github.com/SeaEpoch/MouseClick)
 ### [SeaEpoch MouseClick](https://github.com/SeaEpoch/MouseClick)
 
 **项目核心内容总结：**  

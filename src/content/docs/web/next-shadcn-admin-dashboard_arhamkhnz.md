@@ -3,6 +3,7 @@
 title: next-shadcn-admin-dashboard
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/arhamkhnz/next-shadcn-admin-dashboard?style=social) ](https://github.com/arhamkhnz/next-shadcn-admin-dashboard)
 ### [arhamkhnz next-shadcn-admin-dashboard](https://github.com/arhamkhnz/next-shadcn-admin-dashboard)
 
 **项目核心内容总结：**

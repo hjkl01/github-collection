@@ -3,6 +3,7 @@
 title: supermaven-nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/supermaven-inc/supermaven-nvim?style=social) ](https://github.com/supermaven-inc/supermaven-nvim)
 ### [supermaven-inc supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim)
 
 **项目功能**  

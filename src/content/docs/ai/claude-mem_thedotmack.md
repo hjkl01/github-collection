@@ -3,6 +3,7 @@
 title: claude-mem
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=social) ](https://github.com/thedotmack/claude-mem)
 ### [thedotmack claude-mem](https://github.com/thedotmack/claude-mem)
 
 **项目核心内容总结：**

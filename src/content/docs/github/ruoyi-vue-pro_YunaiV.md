@@ -3,6 +3,7 @@
 title: ruoyi-vue-pro
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/YunaiV/ruoyi-vue-pro?style=social) ](https://github.com/YunaiV/ruoyi-vue-pro)
 ### [YunaiV ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)
 
 **项目核心内容总结**  

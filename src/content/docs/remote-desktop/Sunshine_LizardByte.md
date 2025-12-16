@@ -3,6 +3,7 @@
 title: Sunshine
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LizardByte/Sunshine?style=social) ](https://github.com/LizardByte/Sunshine)
 ### [LizardByte Sunshine](https://github.com/LizardByte/Sunshine)
 
 **项目核心内容总结：**

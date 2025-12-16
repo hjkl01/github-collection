@@ -3,6 +3,7 @@
 title: glance
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/glanceapp/glance?style=social) ](https://github.com/glanceapp/glance)
 ### [glanceapp glance](https://github.com/glanceapp/glance)
 
 **项目核心内容总结：**

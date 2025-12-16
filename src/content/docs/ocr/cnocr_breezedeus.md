@@ -3,6 +3,7 @@
 title: cnocr
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/breezedeus/cnocr?style=social) ](https://github.com/breezedeus/cnocr)
 ### [breezedeus cnocr](https://github.com/breezedeus/cnocr)
 
 **项目核心内容总结：**

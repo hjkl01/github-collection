@@ -3,6 +3,7 @@
 title: highlight
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/highlight/highlight?style=social) ](https://github.com/highlight/highlight)
 ### [highlight highlight](https://github.com/highlight/highlight)
 
 **项目核心内容总结：**  

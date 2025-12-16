@@ -3,6 +3,7 @@
 title: Seelen-UI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/eythaann/Seelen-UI?style=social) ](https://github.com/eythaann/Seelen-UI)
 ### [eythaann Seelen-UI](https://github.com/eythaann/Seelen-UI)
 
 **项目核心内容总结：**

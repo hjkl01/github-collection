@@ -3,6 +3,7 @@
 title: devzat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/quackduck/devzat?style=social) ](https://github.com/quackduck/devzat)
 ### [quackduck devzat](https://github.com/quackduck/devzat)
 
 **项目核心内容总结：**  

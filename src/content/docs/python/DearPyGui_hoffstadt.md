@@ -3,6 +3,7 @@
 title: DearPyGui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hoffstadt/DearPyGui?style=social) ](https://github.com/hoffstadt/DearPyGui)
 ### [hoffstadt DearPyGui](https://github.com/hoffstadt/DearPyGui)
 
 **核心内容总结：**  

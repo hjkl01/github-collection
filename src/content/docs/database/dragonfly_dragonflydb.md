@@ -3,6 +3,7 @@
 title: dragonfly
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dragonflydb/dragonfly?style=social) ](https://github.com/dragonflydb/dragonfly)
 ### [dragonflydb dragonfly](https://github.com/dragonflydb/dragonfly)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: paru
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Morganamilo/paru?style=social) ](https://github.com/Morganamilo/paru)
 ### [Morganamilo paru](https://github.com/Morganamilo/paru)
 
 **项目功能**  

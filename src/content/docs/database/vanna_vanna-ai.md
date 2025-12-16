@@ -3,6 +3,7 @@
 title: vanna
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vanna-ai/vanna?style=social) ](https://github.com/vanna-ai/vanna)
 ### [vanna-ai vanna](https://github.com/vanna-ai/vanna)
 
 **项目核心内容总结：**

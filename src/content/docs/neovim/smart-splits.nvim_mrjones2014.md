@@ -3,6 +3,7 @@
 title: smart-splits.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mrjones2014/smart-splits.nvim?style=social) ](https://github.com/mrjones2014/smart-splits.nvim)
 ### [mrjones2014 smart-splits.nvim](https://github.com/mrjones2014/smart-splits.nvim)
 
 **核心内容总结：**  

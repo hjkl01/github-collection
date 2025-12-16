@@ -3,6 +3,7 @@
 title: poseidon
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Qihoo360/poseidon?style=social) ](https://github.com/Qihoo360/poseidon)
 ### [Qihoo360 poseidon](https://github.com/Qihoo360/poseidon)
 
 **核心内容总结：**  

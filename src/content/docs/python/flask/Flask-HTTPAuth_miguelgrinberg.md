@@ -3,6 +3,7 @@
 title: Flask-HTTPAuth
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/miguelgrinberg/Flask-HTTPAuth?style=social) ](https://github.com/miguelgrinberg/Flask-HTTPAuth)
 ### [miguelgrinberg Flask-HTTPAuth](https://github.com/miguelgrinberg/Flask-HTTPAuth)
 
 **Flask-HTTPAuth 核心内容总结：**

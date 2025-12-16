@@ -3,6 +3,7 @@
 title: kubevirt
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubevirt/kubevirt?style=social) ](https://github.com/kubevirt/kubevirt)
 ### [kubevirt kubevirt](https://github.com/kubevirt/kubevirt)
 
 **KubeVirt 核心内容总结：**

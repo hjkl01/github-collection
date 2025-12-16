@@ -3,6 +3,7 @@
 title: wstunnel
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/erebe/wstunnel?style=social) ](https://github.com/erebe/wstunnel)
 ### [erebe wstunnel](https://github.com/erebe/wstunnel)
 
 **项目核心内容总结：**  

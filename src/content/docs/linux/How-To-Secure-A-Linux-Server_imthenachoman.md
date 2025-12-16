@@ -3,6 +3,7 @@
 title: How-To-Secure-A-Linux-Server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/imthenachoman/How-To-Secure-A-Linux-Server?style=social) ](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
 ### [imthenachoman How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
 
 **项目功能**  

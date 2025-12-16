@@ -3,6 +3,7 @@
 title: awesome-llm-apps
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Shubhamsaboo/awesome-llm-apps?style=social) ](https://github.com/Shubhamsaboo/awesome-llm-apps)
 ### [Shubhamsaboo awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 **项目核心内容总结：**

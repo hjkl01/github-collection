@@ -3,6 +3,7 @@
 title: git-bug
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MichaelMure/git-bug?style=social) ](https://github.com/MichaelMure/git-bug)
 ### [MichaelMure git-bug](https://github.com/MichaelMure/git-bug)
 
 git-bug 是一个基于 Git 的分布式、离线优先的问题跟踪工具，将问题、评论等作为 Git 对象嵌入仓库，支持推拉同步到多个远程仓库。  

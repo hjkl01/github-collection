@@ -3,6 +3,7 @@
 title: mkcert
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FiloSottile/mkcert?style=social) ](https://github.com/FiloSottile/mkcert)
 ### [FiloSottile mkcert](https://github.com/FiloSottile/mkcert)
 
 mkcert 是一个用于生成本地受信任的开发证书的工具，可自动创建并安装本地证书颁发机构（CA），解决自签名证书的信任问题，适用于开发环境。  

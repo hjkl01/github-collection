@@ -3,6 +3,7 @@
 title: solidus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/solidusio/solidus?style=social) ](https://github.com/solidusio/solidus)
 ### [solidusio solidus](https://github.com/solidusio/solidus)
 
 **核心内容总结：**  

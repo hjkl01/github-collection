@@ -3,6 +3,7 @@
 title: LEANN
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yichuan-w/LEANN?style=social) ](https://github.com/yichuan-w/LEANN)
 ### [yichuan-w LEANN](https://github.com/yichuan-w/LEANN)
 
 **项目核心内容总结：**  

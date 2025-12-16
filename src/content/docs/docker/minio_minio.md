@@ -3,6 +3,7 @@
 title: minio
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/minio/minio?style=social) ](https://github.com/minio/minio)
 ### [minio minio](https://github.com/minio/minio)
 
 **核心内容总结：**  

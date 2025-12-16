@@ -3,6 +3,7 @@
 title: xmake
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xmake-io/xmake?style=social) ](https://github.com/xmake-io/xmake)
 ### [xmake-io xmake](https://github.com/xmake-io/xmake)
 
 **xmake** 是一个跨平台的构建工具，支持多种编程语言（如 C/C++、Zig、Rust 等）和项目类型（库、可执行文件、框架等），提供以下核心功能与特性：  

@@ -3,6 +3,7 @@
 title: tailscale
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tailscale/tailscale?style=social) ](https://github.com/tailscale/tailscale)
 ### [tailscale tailscale](https://github.com/tailscale/tailscale)
 
 **Tailscale 核心内容总结**  

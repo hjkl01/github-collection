@@ -3,6 +3,7 @@
 title: TrendRadar
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sansan0/TrendRadar?style=social) ](https://github.com/sansan0/TrendRadar)
 ### [sansan0 TrendRadar](https://github.com/sansan0/TrendRadar)
 
 **TrendRadar核心内容总结：**

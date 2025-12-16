@@ -3,6 +3,7 @@
 title: traefik
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/traefik/traefik?style=social) ](https://github.com/traefik/traefik)
 ### [traefik traefik](https://github.com/traefik/traefik)
 
 **核心内容总结：**

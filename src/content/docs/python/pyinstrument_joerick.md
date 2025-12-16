@@ -3,6 +3,7 @@
 title: pyinstrument
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/joerick/pyinstrument?style=social) ](https://github.com/joerick/pyinstrument)
 ### [joerick pyinstrument](https://github.com/joerick/pyinstrument)
 
 **项目核心内容总结：**  

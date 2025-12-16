@@ -3,6 +3,7 @@
 title: bore
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ekzhang/bore?style=social) ](https://github.com/ekzhang/bore)
 ### [ekzhang bore](https://github.com/ekzhang/bore)
 
 ### **bore：高效、简洁的TCP隧道工具**

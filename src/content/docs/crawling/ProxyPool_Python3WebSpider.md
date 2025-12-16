@@ -3,6 +3,7 @@
 title: ProxyPool
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Python3WebSpider/ProxyPool?style=social) ](https://github.com/Python3WebSpider/ProxyPool)
 ### [Python3WebSpider ProxyPool](https://github.com/Python3WebSpider/ProxyPool)
 
 **项目核心内容总结：**

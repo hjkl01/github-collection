@@ -3,6 +3,7 @@
 title: nano-vllm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/GeeeekExplorer/nano-vllm?style=social) ](https://github.com/GeeeekExplorer/nano-vllm)
 ### [GeeeekExplorer nano-vllm](https://github.com/GeeeekExplorer/nano-vllm)
 
 **项目核心内容总结：**  

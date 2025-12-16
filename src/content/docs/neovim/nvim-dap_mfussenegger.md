@@ -3,6 +3,7 @@
 title: nvim-dap
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mfussenegger/nvim-dap?style=social) ](https://github.com/mfussenegger/nvim-dap)
 ### [mfussenegger nvim-dap](https://github.com/mfussenegger/nvim-dap)
 
 ### 核心内容总结

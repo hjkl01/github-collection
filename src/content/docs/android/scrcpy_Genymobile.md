@@ -3,6 +3,7 @@
 title: scrcpy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Genymobile/scrcpy?style=social) ](https://github.com/Genymobile/scrcpy)
 ### [Genymobile scrcpy](https://github.com/Genymobile/scrcpy)
 
 **项目核心内容总结：**  

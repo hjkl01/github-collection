@@ -3,6 +3,7 @@
 title: wesnoth
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wesnoth/wesnoth?style=social) ](https://github.com/wesnoth/wesnoth)
 ### [wesnoth wesnoth](https://github.com/wesnoth/wesnoth)
 
 **核心内容总结：**  

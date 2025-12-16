@@ -3,6 +3,7 @@
 title: egui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/emilk/egui?style=social) ](https://github.com/emilk/egui)
 ### [emilk egui](https://github.com/emilk/egui)
 
 **项目核心内容总结：**

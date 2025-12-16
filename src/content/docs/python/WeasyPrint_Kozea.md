@@ -3,6 +3,7 @@
 title: WeasyPrint
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social) ](https://github.com/Kozea/WeasyPrint)
 ### [Kozea WeasyPrint](https://github.com/Kozea/WeasyPrint)
 
 **核心内容总结：**  

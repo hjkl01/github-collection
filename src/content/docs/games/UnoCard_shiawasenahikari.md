@@ -3,6 +3,7 @@
 title: UnoCard
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/shiawasenahikari/UnoCard?style=social) ](https://github.com/shiawasenahikari/UnoCard)
 ### [shiawasenahikari UnoCard](https://github.com/shiawasenahikari/UnoCard)
 
 **项目核心内容总结：**

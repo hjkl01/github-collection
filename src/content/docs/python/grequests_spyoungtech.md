@@ -3,6 +3,7 @@
 title: grequests
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/spyoungtech/grequests?style=social) ](https://github.com/spyoungtech/grequests)
 ### [spyoungtech grequests](https://github.com/spyoungtech/grequests)
 
 **核心内容总结：**  

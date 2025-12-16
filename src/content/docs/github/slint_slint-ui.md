@@ -3,6 +3,7 @@
 title: slint
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/slint-ui/slint?style=social) ](https://github.com/slint-ui/slint)
 ### [slint-ui slint](https://github.com/slint-ui/slint)
 
 Slint 是一个开源的声明式 GUI 工具包，支持跨平台开发（嵌入式系统、桌面、移动设备和 Web），用户可通过 `.slint` 文件用类似 XML 的标记语言定义 UI，再通过 Rust、C++、JavaScript 或 Python 实现业务逻辑。  

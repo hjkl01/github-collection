@@ -3,6 +3,7 @@
 title: zensical
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zensical/zensical?style=social) ](https://github.com/zensical/zensical)
 ### [zensical zensical](https://github.com/zensical/zensical)
 
 Zensical 是一个现代静态站点生成器，由 Material for MkDocs 的开发者团队打造。用户可通过 Markdown 编写文档，快速生成专业级静态网站，支持多语言（60+种）、响应式设计及高度定制化，适用于开源或商业项目。主要特性包括：  

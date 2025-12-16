@@ -3,6 +3,7 @@
 title: FreeTube
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FreeTubeApp/FreeTube?style=social) ](https://github.com/FreeTubeApp/FreeTube)
 ### [FreeTubeApp FreeTube](https://github.com/FreeTubeApp/FreeTube)
 
 **核心内容总结：**  

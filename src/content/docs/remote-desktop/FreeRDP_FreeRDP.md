@@ -3,6 +3,7 @@
 title: FreeRDP
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FreeRDP/FreeRDP?style=social) ](https://github.com/FreeRDP/FreeRDP)
 ### [FreeRDP FreeRDP](https://github.com/FreeRDP/FreeRDP)
 
 **FreeRDP 核心内容总结：**  

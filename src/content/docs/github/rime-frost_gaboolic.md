@@ -3,6 +3,7 @@
 title: rime-frost
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gaboolic/rime-frost?style=social) ](https://github.com/gaboolic/rime-frost)
 ### [gaboolic rime-frost](https://github.com/gaboolic/rime-frost)
 
 白霜拼音是一款基于雾凇拼音优化的输入法方案，通过改进词库和词频统计（删除低频词、不健康词汇，使用高质量语料重新归一化），提升输入准确率，支持全拼和双拼输入。主要特性包括：  

@@ -3,6 +3,7 @@
 title: dootask
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kuaifan/dootask?style=social) ](https://github.com/kuaifan/dootask)
 ### [kuaifan dootask](https://github.com/kuaifan/dootask)
 
 **DooTask** 是一款开源的任务管理系统，支持多平台部署（CentOS/Debian/Ubuntu/macOS 等），提供任务管理、应用商店、SSL 配置等功能。  

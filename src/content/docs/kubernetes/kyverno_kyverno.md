@@ -3,6 +3,7 @@
 title: kyverno
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social) ](https://github.com/kyverno/kyverno)
 ### [kyverno kyverno](https://github.com/kyverno/kyverno)
 
 **Kyverno 核心内容总结：**

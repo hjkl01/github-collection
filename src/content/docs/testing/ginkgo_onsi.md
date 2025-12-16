@@ -3,6 +3,7 @@
 title: ginkgo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/onsi/ginkgo?style=social) ](https://github.com/onsi/ginkgo)
 ### [onsi ginkgo](https://github.com/onsi/ginkgo)
 
 **核心内容总结：**  

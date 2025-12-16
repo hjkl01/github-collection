@@ -3,6 +3,7 @@
 title: mihomo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MetaCubeX/mihomo?style=social) ](https://github.com/MetaCubeX/mihomo)
 ### [MetaCubeX mihomo](https://github.com/MetaCubeX/mihomo)
 
 **核心内容总结：**  

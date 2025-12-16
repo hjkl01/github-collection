@@ -3,6 +3,7 @@
 title: nav3-recipes
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/android/nav3-recipes?style=social) ](https://github.com/android/nav3-recipes)
 ### [android nav3-recipes](https://github.com/android/nav3-recipes)
 
 该项目是Jetpack Navigation 3库的代码示例集合，用于演示如何通过其API实现常见的导航功能。核心内容包括：  

@@ -3,6 +3,7 @@
 title: rustaceanvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mrcjkb/rustaceanvim?style=social) ](https://github.com/mrcjkb/rustaceanvim)
 ### [mrcjkb rustaceanvim](https://github.com/mrcjkb/rustaceanvim)
 
 **项目核心内容总结：**

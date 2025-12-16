@@ -3,6 +3,7 @@
 title: restful-api-design-references
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aisuhua/restful-api-design-references?style=social) ](https://github.com/aisuhua/restful-api-design-references)
 ### [aisuhua restful-api-design-references](https://github.com/aisuhua/restful-api-design-references)
 
 **项目核心内容总结：**  

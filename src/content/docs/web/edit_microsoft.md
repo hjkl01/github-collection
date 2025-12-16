@@ -3,6 +3,7 @@
 title: edit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/edit?style=social) ](https://github.com/microsoft/edit)
 ### [microsoft edit](https://github.com/microsoft/edit)
 
 **项目核心内容总结：**

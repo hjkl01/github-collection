@@ -3,6 +3,7 @@
 title: calico
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/projectcalico/calico?style=social) ](https://github.com/projectcalico/calico)
 ### [projectcalico calico](https://github.com/projectcalico/calico)
 
 **项目核心内容总结：**

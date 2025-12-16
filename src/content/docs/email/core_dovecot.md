@@ -3,6 +3,7 @@
 title: core
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dovecot/core?style=social) ](https://github.com/dovecot/core)
 ### [dovecot core](https://github.com/dovecot/core)
 
 **核心内容总结：**  

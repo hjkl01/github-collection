@@ -3,6 +3,7 @@
 title: mStream
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/IrosTheBeggar/mStream?style=social) ](https://github.com/IrosTheBeggar/mStream)
 ### [IrosTheBeggar mStream](https://github.com/IrosTheBeggar/mStream)
 
 **mStream Music 核心内容总结：**

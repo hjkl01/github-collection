@@ -3,6 +3,7 @@
 title: postgrest
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/postgrest/postgrest?style=social) ](https://github.com/postgrest/postgrest)
 ### [postgrest postgrest](https://github.com/postgrest/postgrest)
 
 PostgREST 是一个基于现有 PostgreSQL 数据库自动生成 RESTful API 的工具，可提供符合标准、高性能的接口。其核心功能包括：  

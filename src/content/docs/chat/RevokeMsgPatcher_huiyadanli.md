@@ -3,6 +3,7 @@
 title: RevokeMsgPatcher
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huiyadanli/RevokeMsgPatcher?style=social) ](https://github.com/huiyadanli/RevokeMsgPatcher)
 ### [huiyadanli RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
 
 **项目功能**  

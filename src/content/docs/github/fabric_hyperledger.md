@@ -3,6 +3,7 @@
 title: fabric
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hyperledger/fabric?style=social) ](https://github.com/hyperledger/fabric)
 ### [hyperledger fabric](https://github.com/hyperledger/fabric)
 
 **核心内容总结：**  

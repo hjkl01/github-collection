@@ -3,6 +3,7 @@
 title: docker-android
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/budtmo/docker-android?style=social) ](https://github.com/budtmo/docker-android)
 ### [budtmo docker-android](https://github.com/budtmo/docker-android)
 
 **项目核心内容总结：**  

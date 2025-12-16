@@ -3,6 +3,7 @@
 title: sftpgo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/drakkan/sftpgo?style=social) ](https://github.com/drakkan/sftpgo)
 ### [drakkan sftpgo](https://github.com/drakkan/sftpgo)
 
 **项目核心内容总结：**

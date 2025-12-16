@@ -3,6 +3,7 @@
 title: atuin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/atuinsh/atuin?style=social) ](https://github.com/atuinsh/atuin)
 ### [atuinsh atuin](https://github.com/atuinsh/atuin)
 
 **项目功能**  

@@ -3,6 +3,7 @@
 title: flask-react-spa
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/briancappello/flask-react-spa?style=social) ](https://github.com/briancappello/flask-react-spa)
 ### [briancappello flask-react-spa](https://github.com/briancappello/flask-react-spa)
 
 **项目核心内容总结：**  

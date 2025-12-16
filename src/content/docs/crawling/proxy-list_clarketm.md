@@ -3,6 +3,7 @@
 title: proxy-list
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/clarketm/proxy-list?style=social) ](https://github.com/clarketm/proxy-list)
 ### [clarketm proxy-list](https://github.com/clarketm/proxy-list)
 
 **项目核心内容总结：**  

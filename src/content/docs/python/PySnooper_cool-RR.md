@@ -3,6 +3,7 @@
 title: PySnooper
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cool-RR/PySnooper?style=social) ](https://github.com/cool-RR/PySnooper)
 ### [cool-RR PySnooper](https://github.com/cool-RR/PySnooper)
 
 **PySnooper核心内容总结：**  

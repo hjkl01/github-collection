@@ -3,6 +3,7 @@
 title: VibeVoice
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/VibeVoice?style=social) ](https://github.com/microsoft/VibeVoice)
 ### [microsoft VibeVoice](https://github.com/microsoft/VibeVoice)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: squirrel
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Masterminds/squirrel?style=social) ](https://github.com/Masterminds/squirrel)
 ### [Masterminds squirrel](https://github.com/Masterminds/squirrel)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: opencode
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sst/opencode?style=social) ](https://github.com/sst/opencode)
 ### [sst opencode](https://github.com/sst/opencode)
 
 **核心内容总结：**

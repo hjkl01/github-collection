@@ -3,6 +3,7 @@
 title: leetcode.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kawre/leetcode.nvim?style=social) ](https://github.com/kawre/leetcode.nvim)
 ### [kawre leetcode.nvim](https://github.com/kawre/leetcode.nvim)
 
 ### 项目核心内容总结

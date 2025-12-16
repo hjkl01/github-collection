@@ -3,6 +3,7 @@
 title: external-dns
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes-sigs/external-dns?style=social) ](https://github.com/kubernetes-sigs/external-dns)
 ### [kubernetes-sigs external-dns](https://github.com/kubernetes-sigs/external-dns)
 
 **项目核心内容总结：**  

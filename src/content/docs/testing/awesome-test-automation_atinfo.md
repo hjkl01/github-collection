@@ -3,6 +3,7 @@
 title: awesome-test-automation
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/atinfo/awesome-test-automation?style=social) ](https://github.com/atinfo/awesome-test-automation)
 ### [atinfo awesome-test-automation](https://github.com/atinfo/awesome-test-automation)
 
 **核心内容总结：**  

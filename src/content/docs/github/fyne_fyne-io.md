@@ -3,6 +3,7 @@
 title: fyne
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fyne-io/fyne?style=social) ](https://github.com/fyne-io/fyne)
 ### [fyne-io fyne](https://github.com/fyne-io/fyne)
 
 **核心内容总结：**  

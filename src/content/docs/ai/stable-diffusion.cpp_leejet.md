@@ -3,6 +3,7 @@
 title: stable-diffusion.cpp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/leejet/stable-diffusion.cpp?style=social) ](https://github.com/leejet/stable-diffusion.cpp)
 ### [leejet stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)
 
 **项目核心内容总结：**

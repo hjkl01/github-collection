@@ -3,6 +3,7 @@
 title: teslamate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/adriankumpf/teslamate?style=social) ](https://github.com/adriankumpf/teslamate)
 ### [adriankumpf teslamate](https://github.com/adriankumpf/teslamate)
 
 **核心内容总结：**  

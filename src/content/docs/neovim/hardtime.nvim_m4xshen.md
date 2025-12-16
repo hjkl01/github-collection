@@ -3,6 +3,7 @@
 title: hardtime.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/m4xshen/hardtime.nvim?style=social) ](https://github.com/m4xshen/hardtime.nvim)
 ### [m4xshen hardtime.nvim](https://github.com/m4xshen/hardtime.nvim)
 
 **hardtime.nvim** 是一个 Neovim 插件，旨在帮助用户纠正不良键盘习惯，提升 Vim 操作效率。其核心功能包括：

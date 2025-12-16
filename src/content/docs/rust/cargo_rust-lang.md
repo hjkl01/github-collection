@@ -3,6 +3,7 @@
 title: cargo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/cargo?style=social) ](https://github.com/rust-lang/cargo)
 ### [rust-lang cargo](https://github.com/rust-lang/cargo)
 
 **Cargo 项目核心内容总结：**

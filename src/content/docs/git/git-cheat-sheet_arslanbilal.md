@@ -3,6 +3,7 @@
 title: git-cheat-sheet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/arslanbilal/git-cheat-sheet?style=social) ](https://github.com/arslanbilal/git-cheat-sheet)
 ### [arslanbilal git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
 
 该项目是一个全面的Git操作指南，提供Git命令参考、分支管理策略及Git Flow工作流教程。核心功能包括：  

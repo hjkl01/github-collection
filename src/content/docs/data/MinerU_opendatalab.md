@@ -3,6 +3,7 @@
 title: MinerU
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/opendatalab/MinerU?style=social) ](https://github.com/opendatalab/MinerU)
 ### [opendatalab MinerU](https://github.com/opendatalab/MinerU)
 
 **项目核心内容总结：**  

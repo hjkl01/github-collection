@@ -3,6 +3,7 @@
 title: coding-interview-university
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jwasham/coding-interview-university?style=social) ](https://github.com/jwasham/coding-interview-university)
 ### [jwasham coding-interview-university](https://github.com/jwasham/coding-interview-university)
 
 该README是一个计算机科学学习资源目录，核心功能是提供系统化的学习资料索引。主要包含以下内容：

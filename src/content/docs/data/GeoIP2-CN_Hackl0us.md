@@ -3,6 +3,7 @@
 title: GeoIP2-CN
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Hackl0us/GeoIP2-CN?style=social) ](https://github.com/Hackl0us/GeoIP2-CN)
 ### [Hackl0us GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)
 
 **项目核心内容总结：**  

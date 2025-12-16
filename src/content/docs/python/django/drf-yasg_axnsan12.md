@@ -3,6 +3,7 @@
 title: drf-yasg
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/axnsan12/drf-yasg?style=social) ](https://github.com/axnsan12/drf-yasg)
 ### [axnsan12 drf-yasg](https://github.com/axnsan12/drf-yasg)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: slowapi
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/laurentS/slowapi?style=social) ](https://github.com/laurentS/slowapi)
 ### [laurentS slowapi](https://github.com/laurentS/slowapi)
 
 **核心内容总结：**  

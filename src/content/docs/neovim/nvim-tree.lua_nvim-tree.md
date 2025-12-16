@@ -3,6 +3,7 @@
 title: nvim-tree.lua
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-tree/nvim-tree.lua?style=social) ](https://github.com/nvim-tree/nvim-tree.lua)
 ### [nvim-tree nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 
 ### 项目概述

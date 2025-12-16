@@ -3,6 +3,7 @@
 title: git-quick-stats
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/arzzen/git-quick-stats?style=social) ](https://github.com/arzzen/git-quick-stats)
 ### [arzzen git-quick-stats](https://github.com/arzzen/git-quick-stats)
 
 **核心内容总结：**  

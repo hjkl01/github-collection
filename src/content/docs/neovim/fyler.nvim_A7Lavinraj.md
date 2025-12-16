@@ -3,6 +3,7 @@
 title: fyler.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/A7Lavinraj/fyler.nvim?style=social) ](https://github.com/A7Lavinraj/fyler.nvim)
 ### [A7Lavinraj fyler.nvim](https://github.com/A7Lavinraj/fyler.nvim)
 
 **Fyler.nvim 核心内容总结**  

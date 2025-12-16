@@ -3,6 +3,7 @@
 title: foundry
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RosettaCommons/foundry?style=social) ](https://github.com/RosettaCommons/foundry)
 ### [RosettaCommons foundry](https://github.com/RosettaCommons/foundry)
 
 **核心内容总结：**  

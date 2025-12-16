@@ -3,6 +3,7 @@
 title: neo-tree.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-neo-tree/neo-tree.nvim?style=social) ](https://github.com/nvim-neo-tree/neo-tree.nvim)
 ### [nvim-neo-tree neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 
 ### 核心内容总结

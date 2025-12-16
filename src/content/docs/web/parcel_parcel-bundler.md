@@ -3,6 +3,7 @@
 title: parcel
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/parcel-bundler/parcel?style=social) ](https://github.com/parcel-bundler/parcel)
 ### [parcel-bundler parcel](https://github.com/parcel-bundler/parcel)
 
 **核心内容总结：**  

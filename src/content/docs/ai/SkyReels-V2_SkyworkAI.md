@@ -3,6 +3,7 @@
 title: SkyReels-V2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/SkyworkAI/SkyReels-V2?style=social) ](https://github.com/SkyworkAI/SkyReels-V2)
 ### [SkyworkAI SkyReels-V2](https://github.com/SkyworkAI/SkyReels-V2)
 
 **项目核心内容总结：**

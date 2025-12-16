@@ -3,6 +3,7 @@
 title: vibe-kanban
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/BloopAI/vibe-kanban?style=social) ](https://github.com/BloopAI/vibe-kanban)
 ### [BloopAI vibe-kanban](https://github.com/BloopAI/vibe-kanban)
 
 **项目核心内容总结：**  

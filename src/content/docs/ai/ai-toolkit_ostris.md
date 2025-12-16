@@ -3,6 +3,7 @@
 title: ai-toolkit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ostris/ai-toolkit?style=social) ](https://github.com/ostris/ai-toolkit)
 ### [ostris ai-toolkit](https://github.com/ostris/ai-toolkit)
 
 **项目核心内容总结：**  

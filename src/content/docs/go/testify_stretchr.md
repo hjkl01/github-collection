@@ -3,6 +3,7 @@
 title: testify
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stretchr/testify?style=social) ](https://github.com/stretchr/testify)
 ### [stretchr testify](https://github.com/stretchr/testify)
 
 Testify 是一个 Go 语言测试工具包，提供断言、模拟对象和测试套件等功能，帮助开发者更高效地编写测试代码。  

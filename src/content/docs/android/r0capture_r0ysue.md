@@ -3,6 +3,7 @@
 title: r0capture
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/r0ysue/r0capture?style=social) ](https://github.com/r0ysue/r0capture)
 ### [r0ysue r0capture](https://github.com/r0ysue/r0capture)
 
 ### 项目核心内容总结

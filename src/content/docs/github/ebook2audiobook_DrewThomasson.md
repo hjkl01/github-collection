@@ -3,6 +3,7 @@
 title: ebook2audiobook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/DrewThomasson/ebook2audiobook?style=social) ](https://github.com/DrewThomasson/ebook2audiobook)
 ### [DrewThomasson ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook)
 
 **项目核心内容总结：**  

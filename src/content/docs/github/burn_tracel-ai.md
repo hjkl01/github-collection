@@ -3,6 +3,7 @@
 title: burn
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tracel-ai/burn?style=social) ](https://github.com/tracel-ai/burn)
 ### [tracel-ai burn](https://github.com/tracel-ai/burn)
 
 **Burn项目核心内容总结：**

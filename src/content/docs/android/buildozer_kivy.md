@@ -3,6 +3,7 @@
 title: buildozer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kivy/buildozer?style=social) ](https://github.com/kivy/buildozer)
 ### [kivy buildozer](https://github.com/kivy/buildozer)
 
 **核心内容总结：**  

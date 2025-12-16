@@ -3,6 +3,7 @@
 title: openevolve
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/codelion/openevolve?style=social) ](https://github.com/codelion/openevolve)
 ### [codelion openevolve](https://github.com/codelion/openevolve)
 
 **核心内容总结：**

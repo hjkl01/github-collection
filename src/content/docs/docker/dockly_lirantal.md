@@ -3,6 +3,7 @@
 title: dockly
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lirantal/dockly?style=social) ](https://github.com/lirantal/dockly)
 ### [lirantal dockly](https://github.com/lirantal/dockly)
 
 **核心内容总结：**  

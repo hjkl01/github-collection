@@ -3,6 +3,7 @@
 title: delta
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dandavison/delta?style=social) ](https://github.com/dandavison/delta)
 ### [dandavison delta](https://github.com/dandavison/delta)
 
 **核心内容总结：**

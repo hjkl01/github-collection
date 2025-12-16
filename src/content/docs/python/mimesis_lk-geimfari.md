@@ -3,6 +3,7 @@
 title: mimesis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lk-geimfari/mimesis?style=social) ](https://github.com/lk-geimfari/mimesis)
 ### [lk-geimfari mimesis](https://github.com/lk-geimfari/mimesis)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: Magisk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/topjohnwu/Magisk?style=social) ](https://github.com/topjohnwu/Magisk)
 ### [topjohnwu Magisk](https://github.com/topjohnwu/Magisk)
 
 **项目核心内容总结：**  

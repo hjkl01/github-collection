@@ -3,6 +3,7 @@
 title: open-source-games
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bobeff/open-source-games?style=social) ](https://github.com/bobeff/open-source-games)
 ### [bobeff open-source-games](https://github.com/bobeff/open-source-games)
 
 **核心内容总结：**  

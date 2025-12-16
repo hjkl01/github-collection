@@ -3,6 +3,7 @@
 title: paradedb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/paradedb/paradedb?style=social) ](https://github.com/paradedb/paradedb)
 ### [paradedb paradedb](https://github.com/paradedb/paradedb)
 
 **核心内容总结：**  

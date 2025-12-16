@@ -3,6 +3,7 @@
 title: you-get
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/soimort/you-get?style=social) ](https://github.com/soimort/you-get)
 ### [soimort you-get](https://github.com/soimort/you-get)
 
 **核心内容总结：**  

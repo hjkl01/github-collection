@@ -3,6 +3,7 @@
 title: TVBoxOSC
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/o0HalfLife0o/TVBoxOSC?style=social) ](https://github.com/o0HalfLife0o/TVBoxOSC)
 ### [o0HalfLife0o TVBoxOSC](https://github.com/o0HalfLife0o/TVBoxOSC)
 
 **项目核心内容总结：**  

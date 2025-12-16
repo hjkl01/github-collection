@@ -3,6 +3,7 @@
 title: coredns
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coredns/coredns?style=social) ](https://github.com/coredns/coredns)
 ### [coredns coredns](https://github.com/coredns/coredns)
 
 **CoreDNS 核心内容总结：**

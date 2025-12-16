@@ -3,6 +3,7 @@
 title: django-react-boilerplate
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vintasoftware/django-react-boilerplate?style=social) ](https://github.com/vintasoftware/django-react-boilerplate)
 ### [vintasoftware django-react-boilerplate](https://github.com/vintasoftware/django-react-boilerplate)
 
 **项目核心内容总结：**

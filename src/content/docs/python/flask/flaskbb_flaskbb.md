@@ -3,6 +3,7 @@
 title: flaskbb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/flaskbb/flaskbb?style=social) ](https://github.com/flaskbb/flaskbb)
 ### [flaskbb flaskbb](https://github.com/flaskbb/flaskbb)
 
 FlaskBB 是一个基于 Python 的 Flask 框架开发的论坛软件，主要功能包括私信、管理员界面、基于用户组的权限管理、Markdown 格式支持、主题追踪、未读内容标记、多语言支持、主题可自定义、插件系统及命令行工具。其官方论坛为 [forums.flaskbb.org](https://forums.flaskbb.org)。

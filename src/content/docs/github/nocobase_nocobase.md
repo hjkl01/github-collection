@@ -3,6 +3,7 @@
 title: nocobase
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nocobase/nocobase?style=social) ](https://github.com/nocobase/nocobase)
 ### [nocobase nocobase](https://github.com/nocobase/nocobase)
 
 NocoBase 是一个 AI 驱动的无代码开发平台，支持通过数据模型而非表单/表格构建应用，提供高度可扩展性和 AI 协作能力。核心功能包括：

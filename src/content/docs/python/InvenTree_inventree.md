@@ -3,6 +3,7 @@
 title: InvenTree
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/inventree/InvenTree?style=social) ](https://github.com/inventree/InvenTree)
 ### [inventree InvenTree](https://github.com/inventree/InvenTree)
 
 **项目核心内容总结：**

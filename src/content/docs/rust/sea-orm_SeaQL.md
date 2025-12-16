@@ -3,6 +3,7 @@
 title: sea-orm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/SeaQL/sea-orm?style=social) ](https://github.com/SeaQL/sea-orm)
 ### [SeaQL sea-orm](https://github.com/SeaQL/sea-orm)
 
 **SeaORM 核心内容总结：**

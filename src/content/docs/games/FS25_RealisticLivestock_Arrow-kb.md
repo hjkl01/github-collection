@@ -3,6 +3,7 @@
 title: FS25_RealisticLivestock
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Arrow-kb/FS25_RealisticLivestock?style=social) ](https://github.com/Arrow-kb/FS25_RealisticLivestock)
 ### [Arrow-kb FS25_RealisticLivestock](https://github.com/Arrow-kb/FS25_RealisticLivestock)
 
 **核心内容总结：**  

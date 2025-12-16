@@ -3,6 +3,7 @@
 title: ebiten
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hajimehoshi/ebiten?style=social) ](https://github.com/hajimehoshi/ebiten)
 ### [hajimehoshi ebiten](https://github.com/hajimehoshi/ebiten)
 
 **项目核心内容总结：**

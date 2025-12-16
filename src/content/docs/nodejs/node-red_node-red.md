@@ -3,6 +3,7 @@
 title: node-red
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/node-red/node-red?style=social) ](https://github.com/node-red/node-red)
 ### [node-red node-red](https://github.com/node-red/node-red)
 
 Node-RED 是一个用于构建事件驱动应用的低代码编程工具，通过可视化界面实现流程开发。其核心功能包括：  

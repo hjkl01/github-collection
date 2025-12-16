@@ -3,6 +3,7 @@
 title: ast-grep
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ast-grep/ast-grep?style=social) ](https://github.com/ast-grep/ast-grep)
 ### [ast-grep ast-grep](https://github.com/ast-grep/ast-grep)
 
 **项目核心内容总结：**  

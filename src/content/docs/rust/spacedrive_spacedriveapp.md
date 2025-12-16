@@ -3,6 +3,7 @@
 title: spacedrive
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/spacedriveapp/spacedrive?style=social) ](https://github.com/spacedriveapp/spacedrive)
 ### [spacedriveapp spacedrive](https://github.com/spacedriveapp/spacedrive)
 
 **项目核心内容总结：**  

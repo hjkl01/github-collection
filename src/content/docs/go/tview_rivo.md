@@ -3,6 +3,7 @@
 title: tview
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rivo/tview?style=social) ](https://github.com/rivo/tview)
 ### [rivo tview](https://github.com/rivo/tview)
 
 

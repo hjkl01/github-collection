@@ -3,6 +3,7 @@
 title: my-bookmark
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/luchenqun/my-bookmark?style=social) ](https://github.com/luchenqun/my-bookmark)
 ### [luchenqun my-bookmark](https://github.com/luchenqun/my-bookmark)
 
 **项目核心内容总结：**  

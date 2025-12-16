@@ -3,6 +3,7 @@
 title: arrow
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/arrow-py/arrow?style=social) ](https://github.com/arrow-py/arrow)
 ### [arrow-py arrow](https://github.com/arrow-py/arrow)
 
 **项目核心内容总结：**

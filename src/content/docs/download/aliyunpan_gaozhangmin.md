@@ -3,6 +3,7 @@
 title: aliyunpan
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gaozhangmin/aliyunpan?style=social) ](https://github.com/gaozhangmin/aliyunpan)
 ### [gaozhangmin aliyunpan](https://github.com/gaozhangmin/aliyunpan)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: kit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sveltejs/kit?style=social) ](https://github.com/sveltejs/kit)
 ### [sveltejs kit](https://github.com/sveltejs/kit)
 
 ### 核心内容总结  

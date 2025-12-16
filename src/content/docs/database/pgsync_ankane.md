@@ -3,6 +3,7 @@
 title: pgsync
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ankane/pgsync?style=social) ](https://github.com/ankane/pgsync)
 ### [ankane pgsync](https://github.com/ankane/pgsync)
 
 **核心内容总结：**  

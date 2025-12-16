@@ -3,6 +3,7 @@
 title: doco-cd
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kimdre/doco-cd?style=social) ](https://github.com/kimdre/doco-cd)
 ### [kimdre doco-cd](https://github.com/kimdre/doco-cd)
 
 **doco-cd** 是一个轻量级 GitOps 工具，用于自动部署和更新 Docker Compose 项目及 Swarm 堆栈，支持通过轮询和 Webhook 触发部署。其核心功能包括：

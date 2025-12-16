@@ -3,6 +3,7 @@
 title: Macast
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xfangfang/Macast?style=social) ](https://github.com/xfangfang/Macast)
 ### [xfangfang Macast](https://github.com/xfangfang/Macast)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: Zappa
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zappa/Zappa?style=social) ](https://github.com/zappa/Zappa)
 ### [zappa Zappa](https://github.com/zappa/Zappa)
 
 **项目核心内容总结：**  

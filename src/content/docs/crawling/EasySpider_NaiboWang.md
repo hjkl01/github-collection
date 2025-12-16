@@ -3,6 +3,7 @@
 title: EasySpider
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NaiboWang/EasySpider?style=social) ](https://github.com/NaiboWang/EasySpider)
 ### [NaiboWang EasySpider](https://github.com/NaiboWang/EasySpider)
 
 **核心内容总结：**  

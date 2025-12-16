@@ -3,6 +3,7 @@
 title: django-grappelli
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sehmaschine/django-grappelli?style=social) ](https://github.com/sehmaschine/django-grappelli)
 ### [sehmaschine django-grappelli](https://github.com/sehmaschine/django-grappelli)
 
 **核心内容总结：**

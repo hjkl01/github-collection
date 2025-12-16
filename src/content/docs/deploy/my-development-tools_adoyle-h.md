@@ -3,6 +3,7 @@
 title: my-development-tools
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/adoyle-h/my-development-tools?style=social) ](https://github.com/adoyle-h/my-development-tools)
 ### [adoyle-h my-development-tools](https://github.com/adoyle-h/my-development-tools)
 
 ### 核心内容总结

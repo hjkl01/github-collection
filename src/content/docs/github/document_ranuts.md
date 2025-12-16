@@ -3,6 +3,7 @@
 title: document
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ranuts/document?style=social) ](https://github.com/ranuts/document)
 ### [ranuts document](https://github.com/ranuts/document)
 
 **项目核心内容总结：**  

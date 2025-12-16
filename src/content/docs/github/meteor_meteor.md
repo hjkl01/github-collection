@@ -3,6 +3,7 @@
 title: meteor
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/meteor/meteor?style=social) ](https://github.com/meteor/meteor)
 ### [meteor meteor](https://github.com/meteor/meteor)
 
 **核心内容总结：**  

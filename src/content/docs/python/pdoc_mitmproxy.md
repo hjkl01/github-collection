@@ -3,6 +3,7 @@
 title: pdoc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mitmproxy/pdoc?style=social) ](https://github.com/mitmproxy/pdoc)
 ### [mitmproxy pdoc](https://github.com/mitmproxy/pdoc)
 
 **项目核心内容总结：**  

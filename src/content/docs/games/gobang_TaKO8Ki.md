@@ -3,6 +3,7 @@
 title: gobang
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TaKO8Ki/gobang?style=social) ](https://github.com/TaKO8Ki/gobang)
 ### [TaKO8Ki gobang](https://github.com/TaKO8Ki/gobang)
 
 **项目核心内容总结：**

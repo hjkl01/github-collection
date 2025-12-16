@@ -3,6 +3,7 @@
 title: Claudable
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/opactorai/Claudable?style=social) ](https://github.com/opactorai/Claudable)
 ### [opactorai Claudable](https://github.com/opactorai/Claudable)
 
 **核心内容总结：**  

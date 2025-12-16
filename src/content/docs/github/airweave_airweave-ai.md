@@ -3,6 +3,7 @@
 title: airweave
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/airweave-ai/airweave?style=social) ](https://github.com/airweave-ai/airweave)
 ### [airweave-ai airweave](https://github.com/airweave-ai/airweave)
 
 Airweave 是一个开源项目，提供 AI 代理的上下文检索功能，可连接 30 多种应用和数据库（如 Stripe、Slack、PostgreSQL 等），将数据转化为可搜索的知识库。用户可通过 REST API 或 MCP 接口进行语义搜索、混合搜索（语义+关键词）及 AI 生成答案。  

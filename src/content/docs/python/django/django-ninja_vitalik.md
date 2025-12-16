@@ -3,6 +3,7 @@
 title: django-ninja
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vitalik/django-ninja?style=social) ](https://github.com/vitalik/django-ninja)
 ### [vitalik django-ninja](https://github.com/vitalik/django-ninja)
 
 **Django Ninja 核心内容总结：**

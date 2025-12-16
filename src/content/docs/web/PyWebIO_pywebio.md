@@ -3,6 +3,7 @@
 title: PyWebIO
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pywebio/PyWebIO?style=social) ](https://github.com/pywebio/PyWebIO)
 ### [pywebio PyWebIO](https://github.com/pywebio/PyWebIO)
 
 PyWebIO 是一个 Python 库，允许用户通过脚本方式快速构建交互式 Web 应用或浏览器 GUI 应用，无需掌握 HTML 和 JavaScript。其核心功能包括：  

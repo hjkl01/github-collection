@@ -3,6 +3,7 @@
 title: mdBook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/mdBook?style=social) ](https://github.com/rust-lang/mdBook)
 ### [rust-lang mdBook](https://github.com/rust-lang/mdBook)
 
 **项目功能**：mdBook 是一个从 Markdown 文件生成现代在线书籍的工具。  

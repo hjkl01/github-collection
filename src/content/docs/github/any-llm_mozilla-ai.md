@@ -3,6 +3,7 @@
 title: any-llm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mozilla-ai/any-llm?style=social) ](https://github.com/mozilla-ai/any-llm)
 ### [mozilla-ai any-llm](https://github.com/mozilla-ai/any-llm)
 
 **项目核心内容总结：**

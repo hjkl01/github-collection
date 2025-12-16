@@ -3,6 +3,7 @@
 title: python-patterns
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/faif/python-patterns?style=social) ](https://github.com/faif/python-patterns)
 ### [faif python-patterns](https://github.com/faif/python-patterns)
 
 **核心内容总结：**  

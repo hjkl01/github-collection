@@ -3,6 +3,7 @@
 title: server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LandSandBoat/server?style=social) ](https://github.com/LandSandBoat/server)
 ### [LandSandBoat server](https://github.com/LandSandBoat/server)
 
 **核心内容总结：**  

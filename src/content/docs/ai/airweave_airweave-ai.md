@@ -3,6 +3,7 @@
 title: airweave
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/airweave-ai/airweave?style=social) ](https://github.com/airweave-ai/airweave)
 ### [airweave-ai airweave](https://github.com/airweave-ai/airweave)
 
 Airweave 是一个开源的 AI 代理用语义搜索平台，支持从 30+ 应用（如 Stripe、Slack、PostgreSQL 等）同步数据并建立知识库。其核心功能包括：  

@@ -3,6 +3,7 @@
 title: docker-mstream
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/linuxserver/docker-mstream?style=social) ](https://github.com/linuxserver/docker-mstream)
 ### [linuxserver docker-mstream](https://github.com/linuxserver/docker-mstream)
 
 **项目功能**：  

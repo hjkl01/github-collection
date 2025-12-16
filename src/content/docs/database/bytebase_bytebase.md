@@ -3,6 +3,7 @@
 title: bytebase
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bytebase/bytebase?style=social) ](https://github.com/bytebase/bytebase)
 ### [bytebase bytebase](https://github.com/bytebase/bytebase)
 
 **核心内容总结：**  

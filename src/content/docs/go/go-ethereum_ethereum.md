@@ -3,6 +3,7 @@
 title: go-ethereum
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ethereum/go-ethereum?style=social) ](https://github.com/ethereum/go-ethereum)
 ### [ethereum go-ethereum](https://github.com/ethereum/go-ethereum)
 
 **项目核心内容总结：**  

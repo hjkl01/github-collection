@@ -3,6 +3,7 @@
 title: BaiduPCS-Go
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qjfoidnh/BaiduPCS-Go?style=social) ](https://github.com/qjfoidnh/BaiduPCS-Go)
 ### [qjfoidnh BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go)
 
 **项目功能**：  

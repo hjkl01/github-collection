@@ -3,6 +3,7 @@
 title: facebook-scraper
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kevinzg/facebook-scraper?style=social) ](https://github.com/kevinzg/facebook-scraper)
 ### [kevinzg facebook-scraper](https://github.com/kevinzg/facebook-scraper)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: fnm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Schniz/fnm?style=social) ](https://github.com/Schniz/fnm)
 ### [Schniz fnm](https://github.com/Schniz/fnm)
 
 **核心内容总结：**

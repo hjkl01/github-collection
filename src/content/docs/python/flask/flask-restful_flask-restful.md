@@ -3,6 +3,7 @@
 title: flask-restful
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/flask-restful/flask-restful?style=social) ](https://github.com/flask-restful/flask-restful)
 ### [flask-restful flask-restful](https://github.com/flask-restful/flask-restful)
 
 **核心内容总结：**  

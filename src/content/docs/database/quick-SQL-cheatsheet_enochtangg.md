@@ -3,6 +3,7 @@
 title: quick-SQL-cheatsheet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/enochtangg/quick-SQL-cheatsheet?style=social) ](https://github.com/enochtangg/quick-SQL-cheatsheet)
 ### [enochtangg quick-SQL-cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet)
 
 **核心内容总结：**  

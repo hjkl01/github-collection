@@ -3,6 +3,7 @@
 title: Hacx-GPT
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/BlackTechX011/Hacx-GPT?style=social) ](https://github.com/BlackTechX011/Hacx-GPT)
 ### [BlackTechX011 Hacx-GPT](https://github.com/BlackTechX011/Hacx-GPT)
 
 **项目核心内容总结：**  

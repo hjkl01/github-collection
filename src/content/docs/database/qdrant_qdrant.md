@@ -3,6 +3,7 @@
 title: qdrant
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social) ](https://github.com/qdrant/qdrant)
 ### [qdrant qdrant](https://github.com/qdrant/qdrant)
 
 **Qdrant 核心内容总结：**

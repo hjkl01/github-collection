@@ -3,6 +3,7 @@
 title: dashy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lissy93/dashy?style=social) ](https://github.com/lissy93/dashy)
 ### [lissy93 dashy](https://github.com/lissy93/dashy)
 
 **项目核心内容总结：**  

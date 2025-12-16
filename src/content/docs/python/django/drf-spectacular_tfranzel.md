@@ -3,6 +3,7 @@
 title: drf-spectacular
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular?style=social) ](https://github.com/tfranzel/drf-spectacular)
 ### [tfranzel drf-spectacular](https://github.com/tfranzel/drf-spectacular)
 
 **drf-spectacular** 是一个为 Django REST framework（DRF）生成 OpenAPI 3.0.3/3.1 规范文档的工具，具有以下核心功能和特性：

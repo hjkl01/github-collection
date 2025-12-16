@@ -3,6 +3,7 @@
 title: ESP32-Cheap-Yellow-Display
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/witnessmenow/ESP32-Cheap-Yellow-Display?style=social) ](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display)
 ### [witnessmenow ESP32-Cheap-Yellow-Display](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display)
 
 **项目核心内容总结：**

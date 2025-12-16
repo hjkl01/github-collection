@@ -3,6 +3,7 @@
 title: cilium
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cilium/cilium?style=social) ](https://github.com/cilium/cilium)
 ### [cilium cilium](https://github.com/cilium/cilium)
 
 **Cilium 项目核心内容总结：**

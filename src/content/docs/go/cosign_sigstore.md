@@ -3,6 +3,7 @@
 title: cosign
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sigstore/cosign?style=social) ](https://github.com/sigstore/cosign)
 ### [sigstore cosign](https://github.com/sigstore/cosign)
 
 **项目核心内容总结：**

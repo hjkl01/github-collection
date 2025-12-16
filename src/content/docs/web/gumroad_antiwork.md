@@ -3,6 +3,7 @@
 title: gumroad
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/antiwork/gumroad?style=social) ](https://github.com/antiwork/gumroad)
 ### [antiwork gumroad](https://github.com/antiwork/gumroad)
 
 **核心内容总结：**  

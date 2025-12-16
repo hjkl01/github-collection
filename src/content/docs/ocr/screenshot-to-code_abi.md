@@ -3,6 +3,7 @@
 title: screenshot-to-code
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/abi/screenshot-to-code?style=social) ](https://github.com/abi/screenshot-to-code)
 ### [abi screenshot-to-code](https://github.com/abi/screenshot-to-code)
 
 **核心内容总结：**  

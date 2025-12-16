@@ -3,6 +3,7 @@
 title: nats-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social) ](https://github.com/nats-io/nats-server)
 ### [nats-io nats-server](https://github.com/nats-io/nats-server)
 
 NATS 是一个简单、安全且高性能的通信系统，用于构建数字系统、服务和设备间的通信。其核心功能包括支持跨平台运行（本地、云端、边缘设备等），提供超过40种编程语言的客户端实现，简化分布式系统的开发与运维。主要特性包括：  

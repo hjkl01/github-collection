@@ -3,6 +3,7 @@
 title: lively
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rocksdanister/lively?style=social) ](https://github.com/rocksdanister/lively)
 ### [rocksdanister lively](https://github.com/rocksdanister/lively)
 
 **项目核心内容总结：**

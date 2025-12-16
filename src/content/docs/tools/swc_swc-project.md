@@ -3,6 +3,7 @@
 title: swc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/swc-project/swc?style=social) ](https://github.com/swc-project/swc)
 ### [swc-project swc](https://github.com/swc-project/swc)
 
 **核心内容总结：**  

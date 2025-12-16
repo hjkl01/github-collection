@@ -3,6 +3,7 @@
 title: asterinas
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/asterinas/asterinas?style=social) ](https://github.com/asterinas/asterinas)
 ### [asterinas asterinas](https://github.com/asterinas/asterinas)
 
 **项目核心内容总结**  

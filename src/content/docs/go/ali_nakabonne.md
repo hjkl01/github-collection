@@ -3,6 +3,7 @@
 title: ali
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nakabonne/ali?style=social) ](https://github.com/nakabonne/ali)
 ### [nakabonne ali](https://github.com/nakabonne/ali)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: citus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/citusdata/citus?style=social) ](https://github.com/citusdata/citus)
 ### [citusdata citus](https://github.com/citusdata/citus)
 
 **Citus 核心内容总结：**  

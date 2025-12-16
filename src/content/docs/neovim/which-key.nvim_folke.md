@@ -3,6 +3,7 @@
 title: which-key.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/which-key.nvim?style=social) ](https://github.com/folke/which-key.nvim)
 ### [folke which-key.nvim](https://github.com/folke/which-key.nvim)
 
 **项目核心内容总结：**  

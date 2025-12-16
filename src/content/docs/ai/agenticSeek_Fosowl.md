@@ -3,6 +3,7 @@
 title: agenticSeek
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Fosowl/agenticSeek?style=social) ](https://github.com/Fosowl/agenticSeek)
 ### [Fosowl agenticSeek](https://github.com/Fosowl/agenticSeek)
 
 **项目核心内容总结：**  

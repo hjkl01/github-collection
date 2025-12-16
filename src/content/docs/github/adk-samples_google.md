@@ -3,6 +3,7 @@
 title: adk-samples
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google/adk-samples?style=social) ](https://github.com/google/adk-samples)
 ### [google adk-samples](https://github.com/google/adk-samples)
 
 **核心内容总结：**  

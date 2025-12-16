@@ -3,6 +3,7 @@
 title: gin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gin-gonic/gin?style=social) ](https://github.com/gin-gonic/gin)
 ### [gin-gonic gin](https://github.com/gin-gonic/gin)
 
 Gin是一个用Go语言编写的高性能Web框架，用于构建Web应用和API。其核心特性包括：  

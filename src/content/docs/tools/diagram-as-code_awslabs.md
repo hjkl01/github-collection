@@ -3,6 +3,7 @@
 title: diagram-as-code
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/awslabs/diagram-as-code?style=social) ](https://github.com/awslabs/diagram-as-code)
 ### [awslabs diagram-as-code](https://github.com/awslabs/diagram-as-code)
 
 ### 核心内容总结

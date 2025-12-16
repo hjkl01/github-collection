@@ -3,6 +3,7 @@
 title: PasteMD
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RICHQAQ/PasteMD?style=social) ](https://github.com/RICHQAQ/PasteMD)
 ### [RICHQAQ PasteMD](https://github.com/RICHQAQ/PasteMD)
 
 ### 项目核心内容总结

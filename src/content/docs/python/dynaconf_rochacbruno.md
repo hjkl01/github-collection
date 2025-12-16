@@ -3,6 +3,7 @@
 title: dynaconf
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rochacbruno/dynaconf?style=social) ](https://github.com/rochacbruno/dynaconf)
 ### [rochacbruno dynaconf](https://github.com/rochacbruno/dynaconf)
 
 **核心内容总结：**  

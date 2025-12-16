@@ -3,6 +3,7 @@
 title: qui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/autobrr/qui?style=social) ](https://github.com/autobrr/qui)
 ### [autobrr qui](https://github.com/autobrr/qui)
 
 **核心内容总结：**

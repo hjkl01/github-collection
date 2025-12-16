@@ -3,6 +3,7 @@
 title: BlackDex
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/CodingGay/BlackDex?style=social) ](https://github.com/CodingGay/BlackDex)
 ### [CodingGay BlackDex](https://github.com/CodingGay/BlackDex)
 
 **BlackDex核心内容总结：**  

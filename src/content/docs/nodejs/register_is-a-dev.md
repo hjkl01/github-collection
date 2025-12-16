@@ -3,6 +3,7 @@
 title: register
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/is-a-dev/register?style=social) ](https://github.com/is-a-dev/register)
 ### [is-a-dev register](https://github.com/is-a-dev/register)
 
 **项目核心内容总结：**

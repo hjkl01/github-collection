@@ -3,6 +3,7 @@
 title: flyctl
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/superfly/flyctl?style=social) ](https://github.com/superfly/flyctl)
 ### [superfly flyctl](https://github.com/superfly/flyctl)
 
 **flyctl 核心内容总结**  

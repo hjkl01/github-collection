@@ -3,6 +3,7 @@
 title: see
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/myide/see?style=social) ](https://github.com/myide/see)
 ### [myide see](https://github.com/myide/see)
 
 **核心内容总结：**  

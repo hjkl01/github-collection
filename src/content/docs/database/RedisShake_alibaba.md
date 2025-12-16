@@ -3,6 +3,7 @@
 title: RedisShake
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/RedisShake?style=social) ](https://github.com/alibaba/RedisShake)
 ### [alibaba RedisShake](https://github.com/alibaba/RedisShake)
 
 **RedisShake 核心内容总结：**

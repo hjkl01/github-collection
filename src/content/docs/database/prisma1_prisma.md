@@ -3,6 +3,7 @@
 title: prisma1
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/prisma/prisma1?style=social) ](https://github.com/prisma/prisma1)
 ### [prisma prisma1](https://github.com/prisma/prisma1)
 
 **核心内容总结：**  

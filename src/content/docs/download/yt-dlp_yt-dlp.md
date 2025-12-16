@@ -3,6 +3,7 @@
 title: yt-dlp
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yt-dlp/yt-dlp?style=social) ](https://github.com/yt-dlp/yt-dlp)
 ### [yt-dlp yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 **项目核心内容总结：**

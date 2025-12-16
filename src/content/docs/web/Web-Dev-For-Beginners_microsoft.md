@@ -3,6 +3,7 @@
 title: Web-Dev-For-Beginners
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/Web-Dev-For-Beginners?style=social) ](https://github.com/microsoft/Web-Dev-For-Beginners)
 ### [microsoft Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 
 ### 核心内容总结

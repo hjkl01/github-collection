@@ -3,6 +3,7 @@
 title: Shell
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/moudey/Shell?style=social) ](https://github.com/moudey/Shell)
 ### [moudey Shell](https://github.com/moudey/Shell)
 
 **项目核心内容总结：**  

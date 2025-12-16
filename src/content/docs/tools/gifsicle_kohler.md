@@ -3,6 +3,7 @@
 title: gifsicle
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kohler/gifsicle?style=social) ](https://github.com/kohler/gifsicle)
 ### [kohler gifsicle](https://github.com/kohler/gifsicle)
 
 **项目核心内容总结：**  

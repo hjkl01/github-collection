@@ -3,6 +3,7 @@
 title: jj
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jj-vcs/jj?style=social) ](https://github.com/jj-vcs/jj)
 ### [jj-vcs jj](https://github.com/jj-vcs/jj)
 
 **项目核心内容总结：**

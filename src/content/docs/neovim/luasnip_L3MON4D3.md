@@ -3,6 +3,7 @@
 title: luasnip
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/L3MON4D3/luasnip?style=social) ](https://github.com/L3MON4D3/luasnip)
 ### [L3MON4D3 luasnip](https://github.com/L3MON4D3/luasnip)
 
 **项目功能**  

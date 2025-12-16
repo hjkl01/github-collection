@@ -3,6 +3,7 @@
 title: awesome-cheatsheets
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LeCoupa/awesome-cheatsheets?style=social) ](https://github.com/LeCoupa/awesome-cheatsheets)
 ### [LeCoupa awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
 
 **项目核心内容总结：**

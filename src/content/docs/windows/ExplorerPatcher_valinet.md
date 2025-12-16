@@ -3,6 +3,7 @@
 title: ExplorerPatcher
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/valinet/ExplorerPatcher?style=social) ](https://github.com/valinet/ExplorerPatcher)
 ### [valinet ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)
 
 **核心内容总结：**

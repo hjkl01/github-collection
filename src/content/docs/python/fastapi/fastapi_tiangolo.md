@@ -3,6 +3,7 @@
 title: fastapi
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tiangolo/fastapi?style=social) ](https://github.com/tiangolo/fastapi)
 ### [tiangolo fastapi](https://github.com/tiangolo/fastapi)
 
 **FastAPI核心内容总结：**  

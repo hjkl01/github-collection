@@ -3,6 +3,7 @@
 title: django-cms
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/django-cms/django-cms?style=social) ](https://github.com/django-cms/django-cms)
 ### [django-cms django-cms](https://github.com/django-cms/django-cms)
 
 **核心内容总结：**  

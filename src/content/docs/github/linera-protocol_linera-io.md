@@ -3,6 +3,7 @@
 title: linera-protocol
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/linera-io/linera-protocol?style=social) ](https://github.com/linera-io/linera-protocol)
 ### [linera-io linera-protocol](https://github.com/linera-io/linera-protocol)
 
 Linera 是一个去中心化的区块链基础设施，旨在为 Web3 应用提供高可扩展性、安全性和低延迟支持。  

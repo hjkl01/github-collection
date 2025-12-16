@@ -3,6 +3,7 @@
 title: azure-sdk-for-python
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Azure/azure-sdk-for-python?style=social) ](https://github.com/Azure/azure-sdk-for-python)
 ### [Azure azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python)
 
 **核心内容总结：**  

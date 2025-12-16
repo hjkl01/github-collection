@@ -3,6 +3,7 @@
 title: ngxtop
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lebinh/ngxtop?style=social) ](https://github.com/lebinh/ngxtop)
 ### [lebinh ngxtop](https://github.com/lebinh/ngxtop)
 
 **项目功能**  

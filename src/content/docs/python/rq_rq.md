@@ -3,6 +3,7 @@
 title: rq
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rq/rq?style=social) ](https://github.com/rq/rq)
 ### [rq rq](https://github.com/rq/rq)
 
 **核心内容总结：**  

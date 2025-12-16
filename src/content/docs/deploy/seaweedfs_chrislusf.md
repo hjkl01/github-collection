@@ -3,6 +3,7 @@
 title: seaweedfs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chrislusf/seaweedfs?style=social) ](https://github.com/chrislusf/seaweedfs)
 ### [chrislusf seaweedfs](https://github.com/chrislusf/seaweedfs)
 
 **核心内容总结：**  

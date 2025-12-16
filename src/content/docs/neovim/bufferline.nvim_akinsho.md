@@ -3,6 +3,7 @@
 title: bufferline.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/akinsho/bufferline.nvim?style=social) ](https://github.com/akinsho/bufferline.nvim)
 ### [akinsho bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 
 **核心内容总结：**  

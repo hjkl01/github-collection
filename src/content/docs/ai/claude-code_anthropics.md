@@ -3,6 +3,7 @@
 title: claude-code
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code?style=social) ](https://github.com/anthropics/claude-code)
 ### [anthropics claude-code](https://github.com/anthropics/claude-code)
 
 **项目核心内容总结：**

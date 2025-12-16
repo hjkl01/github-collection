@@ -3,6 +3,7 @@
 title: python-small-examples
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jackzhenguo/python-small-examples?style=social) ](https://github.com/jackzhenguo/python-small-examples)
 ### [jackzhenguo python-small-examples](https://github.com/jackzhenguo/python-small-examples)
 
 核心内容：  

@@ -3,6 +3,7 @@
 title: Release
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FongMi/Release?style=social) ](https://github.com/FongMi/Release)
 ### [FongMi Release](https://github.com/FongMi/Release)
 
 **核心内容总结：**  

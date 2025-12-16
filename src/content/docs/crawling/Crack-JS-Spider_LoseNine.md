@@ -3,6 +3,7 @@
 title: Crack-JS-Spider
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LoseNine/Crack-JS-Spider?style=social) ](https://github.com/LoseNine/Crack-JS-Spider)
 ### [LoseNine Crack-JS-Spider](https://github.com/LoseNine/Crack-JS-Spider)
 
 **核心内容总结：**  

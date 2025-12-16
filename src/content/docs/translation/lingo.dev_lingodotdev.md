@@ -3,6 +3,7 @@
 title: lingo.dev
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lingodotdev/lingo.dev?style=social) ](https://github.com/lingodotdev/lingo.dev)
 ### [lingodotdev lingo.dev](https://github.com/lingodotdev/lingo.dev)
 
 Lingo.dev 是一个开源的 AI 驱动国际化工具包，通过大型语言模型实现即时本地化。项目包含多个工具：

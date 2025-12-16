@@ -3,6 +3,7 @@
 title: DrissionPage
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/g1879/DrissionPage?style=social) ](https://github.com/g1879/DrissionPage)
 ### [g1879 DrissionPage](https://github.com/g1879/DrissionPage)
 
 **DrissionPage 项目核心内容总结：**

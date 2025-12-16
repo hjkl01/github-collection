@@ -3,6 +3,7 @@
 title: call-center-ai
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/call-center-ai?style=social) ](https://github.com/microsoft/call-center-ai)
 ### [microsoft call-center-ai](https://github.com/microsoft/call-center-ai)
 
 **项目核心内容总结：**  

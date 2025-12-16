@@ -3,6 +3,7 @@
 title: cloudnative-pg
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cloudnative-pg/cloudnative-pg?style=social) ](https://github.com/cloudnative-pg/cloudnative-pg)
 ### [cloudnative-pg cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: book
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/book?style=social) ](https://github.com/rust-lang/book)
 ### [rust-lang book](https://github.com/rust-lang/book)
 
 **核心内容总结：**  

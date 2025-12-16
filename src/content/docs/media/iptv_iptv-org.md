@@ -3,6 +3,7 @@
 title: iptv
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/iptv-org/iptv?style=social) ](https://github.com/iptv-org/iptv)
 ### [iptv-org iptv](https://github.com/iptv-org/iptv)
 
 **项目核心内容总结：**

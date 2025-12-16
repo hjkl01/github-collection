@@ -3,6 +3,7 @@
 title: maddy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/foxcpp/maddy?style=social) ](https://github.com/foxcpp/maddy)
 ### [foxcpp maddy](https://github.com/foxcpp/maddy)
 
 **核心内容总结：**  

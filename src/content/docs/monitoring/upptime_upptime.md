@@ -3,6 +3,7 @@
 title: upptime
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/upptime/upptime?style=social) ](https://github.com/upptime/upptime)
 ### [upptime upptime](https://github.com/upptime/upptime)
 
 **项目核心内容总结：**  

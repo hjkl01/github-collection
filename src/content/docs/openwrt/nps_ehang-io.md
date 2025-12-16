@@ -3,6 +3,7 @@ title: nps
 ---
 
 ### [ehang-io nps](https://github.com/ehang-io/nps)
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ehang-io/nps?style=social) ](https://github.com/ehang-io/nps)
 
 **项目核心内容总结：**
 

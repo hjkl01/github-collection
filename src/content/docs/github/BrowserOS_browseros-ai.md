@@ -3,6 +3,7 @@
 title: BrowserOS
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/browseros-ai/BrowserOS?style=social) ](https://github.com/browseros-ai/BrowserOS)
 ### [browseros-ai BrowserOS](https://github.com/browseros-ai/BrowserOS)
 
 **项目核心内容总结：**  

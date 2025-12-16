@@ -3,6 +3,7 @@
 title: gofound
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sea-team/gofound?style=social) ](https://github.com/sea-team/gofound)
 ### [sea-team gofound](https://github.com/sea-team/gofound)
 
 **GoFound** 是一个用 Golang 实现的全文检索引擎，支持持久化存储和单机亿级数据毫秒级检索。通过 HTTP 接口调用，提供倒排索引、正排索引、文件分片、中文分词（基于 golang-jieba）等技术，内存占用低，无需依赖外部组件。  

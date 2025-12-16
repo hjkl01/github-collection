@@ -3,6 +3,7 @@
 title: gopeed
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/GopeedLab/gopeed?style=social) ](https://github.com/GopeedLab/gopeed)
 ### [GopeedLab gopeed](https://github.com/GopeedLab/gopeed)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: winget-cli
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/winget-cli?style=social) ](https://github.com/microsoft/winget-cli)
 ### [microsoft winget-cli](https://github.com/microsoft/winget-cli)
 
 **核心内容总结：**  

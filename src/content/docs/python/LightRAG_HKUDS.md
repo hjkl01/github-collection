@@ -3,6 +3,7 @@
 title: LightRAG
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=social) ](https://github.com/HKUDS/LightRAG)
 ### [HKUDS LightRAG](https://github.com/HKUDS/LightRAG)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: redroid-doc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/remote-android/redroid-doc?style=social) ](https://github.com/remote-android/redroid-doc)
 ### [remote-android redroid-doc](https://github.com/remote-android/redroid-doc)
 
 

@@ -3,6 +3,7 @@
 title: lazygit
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jesseduffield/lazygit?style=social) ](https://github.com/jesseduffield/lazygit)
 ### [jesseduffield lazygit](https://github.com/jesseduffield/lazygit)
 
 **核心内容总结：**

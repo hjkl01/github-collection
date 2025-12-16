@@ -3,6 +3,7 @@
 title: nopCommerce
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nopSolutions/nopCommerce?style=social) ](https://github.com/nopSolutions/nopCommerce)
 ### [nopSolutions nopCommerce](https://github.com/nopSolutions/nopCommerce)
 
 **核心内容总结：**  

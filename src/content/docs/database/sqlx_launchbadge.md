@@ -3,6 +3,7 @@
 title: sqlx
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/launchbadge/sqlx?style=social) ](https://github.com/launchbadge/sqlx)
 ### [launchbadge sqlx](https://github.com/launchbadge/sqlx)
 
 **项目核心内容总结：**  

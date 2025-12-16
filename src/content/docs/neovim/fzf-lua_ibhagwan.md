@@ -3,6 +3,7 @@
 title: fzf-lua
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ibhagwan/fzf-lua?style=social) ](https://github.com/ibhagwan/fzf-lua)
 ### [ibhagwan fzf-lua](https://github.com/ibhagwan/fzf-lua)
 
 **项目核心内容总结：**

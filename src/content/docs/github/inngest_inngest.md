@@ -3,6 +3,7 @@
 title: inngest
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/inngest/inngest?style=social) ](https://github.com/inngest/inngest)
 ### [inngest inngest](https://github.com/inngest/inngest)
 
 **项目核心内容总结：**  

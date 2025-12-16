@@ -3,6 +3,7 @@
 title: docker-slim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/docker-slim/docker-slim?style=social) ](https://github.com/docker-slim/docker-slim)
 ### [docker-slim docker-slim](https://github.com/docker-slim/docker-slim)
 
 **项目核心内容总结：**

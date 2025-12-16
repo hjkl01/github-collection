@@ -3,6 +3,7 @@
 title: spree
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/spree/spree?style=social) ](https://github.com/spree/spree)
 ### [spree spree](https://github.com/spree/spree)
 
 **核心内容总结：**  

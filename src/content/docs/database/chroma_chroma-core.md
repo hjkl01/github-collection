@@ -3,6 +3,7 @@
 title: chroma
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social) ](https://github.com/chroma-core/chroma)
 ### [chroma-core chroma](https://github.com/chroma-core/chroma)
 
 **核心内容总结：**

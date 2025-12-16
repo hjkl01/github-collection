@@ -3,6 +3,7 @@
 title: jellyfin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jellyfin/jellyfin?style=social) ](https://github.com/jellyfin/jellyfin)
 ### [jellyfin jellyfin](https://github.com/jellyfin/jellyfin)
 
 **Jellyfin 核心内容总结：**  

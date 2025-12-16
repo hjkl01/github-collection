@@ -3,6 +3,7 @@
 title: terraform
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social) ](https://github.com/hashicorp/terraform)
 ### [hashicorp terraform](https://github.com/hashicorp/terraform)
 
 **Terraform 核心内容总结：**

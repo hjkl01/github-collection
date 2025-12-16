@@ -3,6 +3,7 @@
 title: lancedb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lancedb/lancedb?style=social) ](https://github.com/lancedb/lancedb)
 ### [lancedb lancedb](https://github.com/lancedb/lancedb)
 
 **项目核心内容总结：**  

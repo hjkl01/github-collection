@@ -3,6 +3,7 @@
 title: leptos
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/leptos-rs/leptos?style=social) ](https://github.com/leptos-rs/leptos)
 ### [leptos-rs leptos](https://github.com/leptos-rs/leptos)
 
 **项目功能**  

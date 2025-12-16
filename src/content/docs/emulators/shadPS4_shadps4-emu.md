@@ -3,6 +3,7 @@
 title: shadPS4
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/shadps4-emu/shadPS4?style=social) ](https://github.com/shadps4-emu/shadPS4)
 ### [shadps4-emu shadPS4](https://github.com/shadps4-emu/shadPS4)
 
 **shadPS4** 是一个早期的 PlayStation 4 模拟器，支持 Windows、Linux 和 macOS，使用 C++ 编写。其核心功能为模拟 PS4 硬件和系统，但本身不含图形界面，用户需通过 [QtLauncher](https://github.com/shadps4-emu/shadps4-qtlauncher/releases) 启动游戏。

@@ -3,6 +3,7 @@
 title: brush
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ArthurBrussee/brush?style=social) ](https://github.com/ArthurBrussee/brush)
 ### [ArthurBrussee brush](https://github.com/ArthurBrussee/brush)
 
 **核心内容总结：**

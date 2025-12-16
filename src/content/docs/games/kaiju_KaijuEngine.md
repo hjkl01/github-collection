@@ -3,6 +3,7 @@
 title: kaiju
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/KaijuEngine/kaiju?style=social) ](https://github.com/KaijuEngine/kaiju)
 ### [KaijuEngine kaiju](https://github.com/KaijuEngine/kaiju)
 
 **Kaiju Engine 核心内容总结：**  

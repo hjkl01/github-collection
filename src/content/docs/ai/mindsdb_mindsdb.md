@@ -3,6 +3,7 @@
 title: mindsdb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mindsdb/mindsdb?style=social) ](https://github.com/mindsdb/mindsdb)
 ### [mindsdb mindsdb](https://github.com/mindsdb/mindsdb)
 
 **项目核心内容总结：**

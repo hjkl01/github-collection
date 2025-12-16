@@ -3,6 +3,7 @@
 title: tikv
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tikv/tikv?style=social) ](https://github.com/tikv/tikv)
 ### [tikv tikv](https://github.com/tikv/tikv)
 
 **项目简介**  

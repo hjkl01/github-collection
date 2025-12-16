@@ -3,6 +3,7 @@
 title: nushell
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nushell/nushell?style=social) ](https://github.com/nushell/nushell)
 ### [nushell nushell](https://github.com/nushell/nushell)
 
 **Nushell 核心内容总结**  

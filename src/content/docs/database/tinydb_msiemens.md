@@ -3,6 +3,7 @@
 title: tinydb
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/msiemens/tinydb?style=social) ](https://github.com/msiemens/tinydb)
 ### [msiemens tinydb](https://github.com/msiemens/tinydb)
 
 **核心内容总结：**  

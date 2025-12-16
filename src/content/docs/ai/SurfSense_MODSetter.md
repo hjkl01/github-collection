@@ -3,6 +3,7 @@
 title: SurfSense
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MODSetter/SurfSense?style=social) ](https://github.com/MODSetter/SurfSense)
 ### [MODSetter SurfSense](https://github.com/MODSetter/SurfSense)
 
 **项目核心内容总结：**  

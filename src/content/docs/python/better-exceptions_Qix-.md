@@ -3,6 +3,7 @@
 title: better-exceptions
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Qix-/better-exceptions?style=social) ](https://github.com/Qix-/better-exceptions)
 ### [Qix- better-exceptions](https://github.com/Qix-/better-exceptions)
 
 **项目功能**  

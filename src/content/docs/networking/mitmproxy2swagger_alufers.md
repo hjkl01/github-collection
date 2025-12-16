@@ -3,6 +3,7 @@
 title: mitmproxy2swagger
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alufers/mitmproxy2swagger?style=social) ](https://github.com/alufers/mitmproxy2swagger)
 ### [alufers mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger)
 
 **mitmproxy2swagger** 是一个将 mitmproxy 捕获的 HTTP 流量自动转换为 OpenAPI 3.0 规范的工具，可用于逆向工程 REST API。  

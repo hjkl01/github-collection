@@ -3,6 +3,7 @@
 title: lualine.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-lualine/lualine.nvim?style=social) ](https://github.com/nvim-lualine/lualine.nvim)
 ### [nvim-lualine lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 **项目核心内容总结：**

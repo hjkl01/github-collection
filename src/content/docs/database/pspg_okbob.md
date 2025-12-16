@@ -3,6 +3,7 @@
 title: pspg
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/okbob/pspg?style=social) ](https://github.com/okbob/pspg)
 ### [okbob pspg](https://github.com/okbob/pspg)
 
 **项目核心内容总结：**  

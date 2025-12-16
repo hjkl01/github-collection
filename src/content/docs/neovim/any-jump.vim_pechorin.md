@@ -3,6 +3,7 @@
 title: any-jump.vim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pechorin/any-jump.vim?style=social) ](https://github.com/pechorin/any-jump.vim)
 ### [pechorin any-jump.vim](https://github.com/pechorin/any-jump.vim)
 
 any-jump.vim 是一款 Vim 插件，用于在 40 多种编程语言中快速查找代码定义和引用位置。它基于 ripgrep 或 ag 等快速正则引擎，支持通过光标位置或手动输入关键字跳转到定义或引用文件。主要功能包括：  

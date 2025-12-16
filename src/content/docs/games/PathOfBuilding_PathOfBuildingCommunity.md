@@ -3,6 +3,7 @@
 title: PathOfBuilding
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PathOfBuildingCommunity/PathOfBuilding?style=social) ](https://github.com/PathOfBuildingCommunity/PathOfBuilding)
 ### [PathOfBuildingCommunity PathOfBuilding](https://github.com/PathOfBuildingCommunity/PathOfBuilding)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: pandas-profiling
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pandas-profiling/pandas-profiling?style=social) ](https://github.com/pandas-profiling/pandas-profiling)
 ### [pandas-profiling pandas-profiling](https://github.com/pandas-profiling/pandas-profiling)
 
 **项目核心内容总结：**

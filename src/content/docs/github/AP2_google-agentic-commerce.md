@@ -3,6 +3,7 @@
 title: AP2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google-agentic-commerce/AP2?style=social) ](https://github.com/google-agentic-commerce/AP2)
 ### [google-agentic-commerce AP2](https://github.com/google-agentic-commerce/AP2)
 
 **项目核心内容总结：**

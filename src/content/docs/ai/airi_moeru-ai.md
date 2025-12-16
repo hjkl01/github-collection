@@ -3,6 +3,7 @@
 title: airi
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/moeru-ai/airi?style=social) ](https://github.com/moeru-ai/airi)
 ### [moeru-ai airi](https://github.com/moeru-ai/airi)
 
 **项目核心内容总结：**  

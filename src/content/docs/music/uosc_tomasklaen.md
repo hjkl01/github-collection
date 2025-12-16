@@ -3,6 +3,7 @@
 title: uosc
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tomasklaen/uosc?style=social) ](https://github.com/tomasklaen/uosc)
 ### [tomasklaen uosc](https://github.com/tomasklaen/uosc)
 
 **uosc项目核心内容总结：**

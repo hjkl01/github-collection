@@ -3,6 +3,7 @@
 title: flame
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pawelmalak/flame?style=social) ](https://github.com/pawelmalak/flame)
 ### [pawelmalak flame](https://github.com/pawelmalak/flame)
 
 **Flame** 是一款自托管的服务器启动页应用，灵感源自 SUI，提供图形化界面管理应用和书签，无需手动编辑文件即可快速搭建个人应用中心。  

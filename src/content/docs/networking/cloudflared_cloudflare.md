@@ -3,6 +3,7 @@
 title: cloudflared
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cloudflare/cloudflared?style=social) ](https://github.com/cloudflare/cloudflared)
 ### [cloudflare cloudflared](https://github.com/cloudflare/cloudflared)
 
 **核心内容总结：**  

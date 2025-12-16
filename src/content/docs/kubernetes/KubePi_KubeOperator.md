@@ -3,6 +3,7 @@
 title: KubePi
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/KubeOperator/KubePi?style=social) ](https://github.com/KubeOperator/KubePi)
 ### [KubeOperator KubePi](https://github.com/KubeOperator/KubePi)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: erpnext
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/frappe/erpnext?style=social) ](https://github.com/frappe/erpnext)
 ### [frappe erpnext](https://github.com/frappe/erpnext)
 
 **ERPNext核心内容总结**  

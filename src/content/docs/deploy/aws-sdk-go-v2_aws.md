@@ -3,6 +3,7 @@
 title: aws-sdk-go-v2
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aws/aws-sdk-go-v2?style=social) ](https://github.com/aws/aws-sdk-go-v2)
 ### [aws aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)
 
 **核心内容总结：**  

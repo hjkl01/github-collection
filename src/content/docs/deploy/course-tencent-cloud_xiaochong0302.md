@@ -3,6 +3,7 @@
 title: course-tencent-cloud
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xiaochong0302/course-tencent-cloud?style=social) ](https://github.com/xiaochong0302/course-tencent-cloud)
 ### [xiaochong0302 course-tencent-cloud](https://github.com/xiaochong0302/course-tencent-cloud)
 
 酷瓜云课堂是一个基于腾讯云架构、采用Phalcon框架开发的开源知识付费系统，遵循GPL-2.0协议。系统功能包含点播、直播、专栏、问答、会员管理、积分体系等，支持多终端访问。  

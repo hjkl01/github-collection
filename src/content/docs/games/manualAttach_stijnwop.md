@@ -3,6 +3,7 @@
 title: manualAttach
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stijnwop/manualAttach?style=social) ](https://github.com/stijnwop/manualAttach)
 ### [stijnwop manualAttach](https://github.com/stijnwop/manualAttach)
 
 **核心内容总结：**  

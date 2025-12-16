@@ -3,6 +3,7 @@
 title: signoz
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social) ](https://github.com/SigNoz/signoz)
 ### [SigNoz signoz](https://github.com/SigNoz/signoz)
 
 ### 核心内容总结

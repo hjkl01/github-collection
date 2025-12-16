@@ -3,6 +3,7 @@
 title: BillionMail
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aaPanel/BillionMail?style=social) ](https://github.com/aaPanel/BillionMail)
 ### [aaPanel BillionMail](https://github.com/aaPanel/BillionMail)
 
 **核心内容总结：**  

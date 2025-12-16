@@ -3,6 +3,7 @@
 title: trufflehog
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social) ](https://github.com/trufflesecurity/trufflehog)
 ### [trufflesecurity trufflehog](https://github.com/trufflesecurity/trufflehog)
 
 TruffleHog 是一款用于检测代码库中敏感信息（如 API 密钥、密码等）的工具，支持多种使用场景。  

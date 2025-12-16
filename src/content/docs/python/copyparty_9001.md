@@ -3,6 +3,7 @@
 title: copyparty
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/9001/copyparty?style=social) ](https://github.com/9001/copyparty)
 ### [9001 copyparty](https://github.com/9001/copyparty)
 
 **项目核心内容总结**  

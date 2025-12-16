@@ -3,6 +3,7 @@
 title: sealos
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/labring/sealos?style=social) ](https://github.com/labring/sealos)
 ### [labring sealos](https://github.com/labring/sealos)
 
 Sealos 是基于 Kubernetes 的云操作系统发行版，提供开发、部署和扩展的一体化云平台。主要功能包括：  

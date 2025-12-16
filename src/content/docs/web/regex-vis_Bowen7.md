@@ -3,6 +3,7 @@
 title: regex-vis
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Bowen7/regex-vis?style=social) ](https://github.com/Bowen7/regex-vis)
 ### [Bowen7 regex-vis](https://github.com/Bowen7/regex-vis)
 
 **Regex-Vis 核心内容总结**  

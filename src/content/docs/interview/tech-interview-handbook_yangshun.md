@@ -3,6 +3,7 @@
 title: tech-interview-handbook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yangshun/tech-interview-handbook?style=social) ](https://github.com/yangshun/tech-interview-handbook)
 ### [yangshun tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
 
 **项目功能**：提供涵盖算法题、编码面试指南、简历优化、行为面试问题等全方位技术面试准备资源，整合了Grind 75（Blind 75升级版）等精选内容。  

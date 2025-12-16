@@ -3,6 +3,7 @@
 title: openpilot
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/commaai/openpilot?style=social) ](https://github.com/commaai/openpilot)
 ### [commaai openpilot](https://github.com/commaai/openpilot)
 
 **核心内容总结：**

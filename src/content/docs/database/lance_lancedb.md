@@ -3,6 +3,7 @@
 title: lance
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lancedb/lance?style=social) ](https://github.com/lancedb/lance)
 ### [lancedb lance](https://github.com/lancedb/lance)
 
 **Lance核心内容总结：**

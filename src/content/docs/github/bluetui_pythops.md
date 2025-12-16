@@ -3,6 +3,7 @@
 title: bluetui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pythops/bluetui?style=social) ](https://github.com/pythops/bluetui)
 ### [pythops bluetui](https://github.com/pythops/bluetui)
 
 **项目功能**  

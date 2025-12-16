@@ -3,6 +3,7 @@
 title: yaak
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social) ](https://github.com/mountain-loop/yaak)
 ### [mountain-loop yaak](https://github.com/mountain-loop/yaak)
 
 **项目核心内容总结：**  

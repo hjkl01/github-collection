@@ -3,6 +3,7 @@
 title: Microsoft-Activation-Scripts
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/massgravel/Microsoft-Activation-Scripts?style=social) ](https://github.com/massgravel/Microsoft-Activation-Scripts)
 ### [massgravel Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 **项目功能**：  

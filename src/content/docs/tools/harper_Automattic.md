@@ -3,6 +3,7 @@
 title: harper
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Automattic/harper?style=social) ](https://github.com/Automattic/harper)
 ### [Automattic harper](https://github.com/Automattic/harper)
 
 Harper 是一款专注于英语语法检查的工具，旨在提供高效、私密且轻量级的体验。其核心特性包括：  

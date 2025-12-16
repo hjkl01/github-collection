@@ -3,6 +3,7 @@
 title: talk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vasanthv/talk?style=social) ](https://github.com/vasanthv/talk)
 ### [vasanthv talk](https://github.com/vasanthv/talk)
 
 **项目核心内容总结：**

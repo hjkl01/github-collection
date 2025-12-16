@@ -3,6 +3,7 @@
 title: gochat
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LockGit/gochat?style=social) ](https://github.com/LockGit/gochat)
 ### [LockGit gochat](https://github.com/LockGit/gochat)
 
 **gochat核心内容总结**  

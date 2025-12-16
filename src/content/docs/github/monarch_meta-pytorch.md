@@ -3,6 +3,7 @@
 title: monarch
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/meta-pytorch/monarch?style=social) ](https://github.com/meta-pytorch/monarch)
 ### [meta-pytorch monarch](https://github.com/meta-pytorch/monarch)
 
 **Monarch** 是一个基于 PyTorch 的分布式编程框架，通过可扩展的 actor 消息传递机制实现分布式计算。其核心功能包括：

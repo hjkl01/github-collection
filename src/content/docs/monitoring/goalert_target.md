@@ -3,6 +3,7 @@
 title: goalert
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/target/goalert?style=social) ](https://github.com/target/goalert)
 ### [target goalert](https://github.com/target/goalert)
 
 GoAlert 是一个提供值班调度、自动升级和多渠道通知（如短信、语音）的系统，用于在合适的时间通过正确方式联系相关人员。  

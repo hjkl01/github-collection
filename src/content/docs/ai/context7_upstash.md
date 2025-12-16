@@ -3,6 +3,7 @@
 title: context7
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/upstash/context7?style=social) ](https://github.com/upstash/context7)
 ### [upstash context7](https://github.com/upstash/context7)
 
 **项目核心内容总结：**

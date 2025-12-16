@@ -3,6 +3,7 @@
 title: VictoriaLogs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaLogs?style=social) ](https://github.com/VictoriaMetrics/VictoriaLogs)
 ### [VictoriaMetrics VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs)
 
 VictoriaLogs 是一个高性能、易用的日志数据库，支持快速存储和查询日志数据。其核心功能包括：

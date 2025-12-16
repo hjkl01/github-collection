@@ -3,6 +3,7 @@
 title: mux
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gorilla/mux?style=social) ](https://github.com/gorilla/mux)
 ### [gorilla mux](https://github.com/gorilla/mux)
 
 **项目功能**：Gorilla Mux 是一个用于 Go 语言的高性能 URL 路由器，支持路径变量、中间件、CORS 请求处理及单元测试。  

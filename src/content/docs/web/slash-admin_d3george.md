@@ -3,6 +3,7 @@
 title: slash-admin
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/d3george/slash-admin?style=social) ](https://github.com/d3george/slash-admin)
 ### [d3george slash-admin](https://github.com/d3george/slash-admin)
 
 **项目核心内容总结：**

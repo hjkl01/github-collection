@@ -3,6 +3,7 @@
 title: moonlight-qt
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/moonlight-stream/moonlight-qt?style=social) ](https://github.com/moonlight-stream/moonlight-qt)
 ### [moonlight-stream moonlight-qt](https://github.com/moonlight-stream/moonlight-qt)
 
 **Moonlight PC 项目核心内容总结**  

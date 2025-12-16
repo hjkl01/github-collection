@@ -3,6 +3,7 @@
 title: colly
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gocolly/colly?style=social) ](https://github.com/gocolly/colly)
 ### [gocolly colly](https://github.com/gocolly/colly)
 
 **项目核心内容总结：**  

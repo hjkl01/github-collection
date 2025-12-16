@@ -3,6 +3,7 @@
 title: rust-clippy
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/rust-clippy?style=social) ](https://github.com/rust-lang/rust-clippy)
 ### [rust-lang rust-clippy](https://github.com/rust-lang/rust-clippy)
 
 Clippy 是一个用于 Rust 代码的静态分析工具，包含 750 多个 lint（代码检查规则），用于发现常见错误并优化代码风格。其核心功能包括：  

@@ -3,6 +3,7 @@
 title: rustlings
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/rustlings?style=social) ](https://github.com/rust-lang/rustlings)
 ### [rust-lang rustlings](https://github.com/rust-lang/rustlings)
 
 **项目核心内容总结：**  

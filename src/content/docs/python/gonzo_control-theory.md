@@ -3,6 +3,7 @@
 title: gonzo
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/control-theory/gonzo?style=social) ](https://github.com/control-theory/gonzo)
 ### [control-theory gonzo](https://github.com/control-theory/gonzo)
 
 **项目功能：**  

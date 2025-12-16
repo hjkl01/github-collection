@@ -3,6 +3,7 @@
 title: PostGUI
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/priyank-purohit/PostGUI?style=social) ](https://github.com/priyank-purohit/PostGUI)
 ### [priyank-purohit PostGUI](https://github.com/priyank-purohit/PostGUI)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: rime_wanxiang
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/amzxyz/rime_wanxiang?style=social) ](https://github.com/amzxyz/rime_wanxiang)
 ### [amzxyz rime_wanxiang](https://github.com/amzxyz/rime_wanxiang)
 
 **核心内容总结：**  

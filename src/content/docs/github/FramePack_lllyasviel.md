@@ -3,6 +3,7 @@
 title: FramePack
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lllyasviel/FramePack?style=social) ](https://github.com/lllyasviel/FramePack)
 ### [lllyasviel FramePack](https://github.com/lllyasviel/FramePack)
 
 **核心内容总结：**  

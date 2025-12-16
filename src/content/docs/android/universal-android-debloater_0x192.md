@@ -3,6 +3,7 @@
 title: universal-android-debloater
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/0x192/universal-android-debloater?style=social) ](https://github.com/0x192/universal-android-debloater)
 ### [0x192 universal-android-debloater](https://github.com/0x192/universal-android-debloater)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: gitui
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/extrawurst/gitui?style=social) ](https://github.com/extrawurst/gitui)
 ### [extrawurst gitui](https://github.com/extrawurst/gitui)
 
 **GitUI核心内容总结：**

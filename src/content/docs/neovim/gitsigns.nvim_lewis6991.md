@@ -3,6 +3,7 @@
 title: gitsigns.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lewis6991/gitsigns.nvim?style=social) ](https://github.com/lewis6991/gitsigns.nvim)
 ### [lewis6991 gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 
 **项目核心内容总结：**

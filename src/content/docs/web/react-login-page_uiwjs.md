@@ -3,6 +3,7 @@
 title: react-login-page
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/uiwjs/react-login-page?style=social) ](https://github.com/uiwjs/react-login-page)
 ### [uiwjs react-login-page](https://github.com/uiwjs/react-login-page)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: rustdesk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=social) ](https://github.com/rustdesk/rustdesk)
 ### [rustdesk rustdesk](https://github.com/rustdesk/rustdesk)
 
 **项目核心内容总结：**  

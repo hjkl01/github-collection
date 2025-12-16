@@ -3,6 +3,7 @@
 title: claude-code-templates
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=social) ](https://github.com/davila7/claude-code-templates)
 ### [davila7 claude-code-templates](https://github.com/davila7/claude-code-templates)
 
 **项目核心内容总结：**  

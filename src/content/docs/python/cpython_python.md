@@ -3,6 +3,7 @@
 title: cpython
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/python/cpython?style=social) ](https://github.com/python/cpython)
 ### [python cpython](https://github.com/python/cpython)
 
 **项目核心内容总结**  

@@ -3,6 +3,7 @@
 title: xonsh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xonsh/xonsh?style=social) ](https://github.com/xonsh/xonsh)
 ### [xonsh xonsh](https://github.com/xonsh/xonsh)
 
 **Xonsh 核心内容总结**  

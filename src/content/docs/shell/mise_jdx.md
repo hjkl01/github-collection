@@ -3,6 +3,7 @@
 title: mise
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jdx/mise?style=social) ](https://github.com/jdx/mise)
 ### [jdx mise](https://github.com/jdx/mise)
 
 **核心内容总结：**  

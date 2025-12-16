@@ -3,6 +3,7 @@
 title: zoom-clone
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/adrianhajdin/zoom-clone?style=social) ](https://github.com/adrianhajdin/zoom-clone)
 ### [adrianhajdin zoom-clone](https://github.com/adrianhajdin/zoom-clone)
 
 **项目核心内容总结：**

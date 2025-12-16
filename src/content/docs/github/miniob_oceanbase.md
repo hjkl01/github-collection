@@ -3,6 +3,7 @@
 title: miniob
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/oceanbase/miniob?style=social) ](https://github.com/oceanbase/miniob)
 ### [oceanbase miniob](https://github.com/oceanbase/miniob)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: TrafficMonitor
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zhongyang219/TrafficMonitor?style=social) ](https://github.com/zhongyang219/TrafficMonitor)
 ### [zhongyang219 TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 
 TrafficMonitor 是一款 Windows 平台的网速监控工具，可实时显示网络传输速率、CPU 和内存占用率，支持任务栏嵌入、皮肤更换、历史流量统计及硬件监控（温度、显卡/硬盘利用率等）。提供标准版（含全部功能，需管理员权限）和 Lite 版（无硬件监控功能，无需管理员权限）两种版本。  

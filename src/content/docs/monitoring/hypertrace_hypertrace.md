@@ -3,6 +3,7 @@
 title: hypertrace
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hypertrace/hypertrace?style=social) ](https://github.com/hypertrace/hypertrace)
 ### [hypertrace hypertrace](https://github.com/hypertrace/hypertrace)
 
 **项目核心内容总结：**  

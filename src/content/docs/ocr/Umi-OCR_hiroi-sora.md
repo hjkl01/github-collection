@@ -3,6 +3,7 @@
 title: Umi-OCR
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hiroi-sora/Umi-OCR?style=social) ](https://github.com/hiroi-sora/Umi-OCR)
 ### [hiroi-sora Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)
 
 **项目核心内容总结：**

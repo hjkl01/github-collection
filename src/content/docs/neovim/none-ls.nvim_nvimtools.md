@@ -3,6 +3,7 @@
 title: none-ls.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nvimtools/none-ls.nvim?style=social) ](https://github.com/nvimtools/none-ls.nvim)
 ### [nvimtools none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
 
 **项目核心内容总结：**

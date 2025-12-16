@@ -3,6 +3,7 @@
 title: uniffi-rs
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mozilla/uniffi-rs?style=social) ](https://github.com/mozilla/uniffi-rs)
 ### [mozilla uniffi-rs](https://github.com/mozilla/uniffi-rs)
 
 **核心内容总结：**  

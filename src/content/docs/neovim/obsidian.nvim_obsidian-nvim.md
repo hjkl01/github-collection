@@ -3,6 +3,7 @@
 title: obsidian.nvim
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/obsidian-nvim/obsidian.nvim?style=social) ](https://github.com/obsidian-nvim/obsidian.nvim)
 ### [obsidian-nvim obsidian.nvim](https://github.com/obsidian-nvim/obsidian.nvim)
 
 **项目核心内容总结：**

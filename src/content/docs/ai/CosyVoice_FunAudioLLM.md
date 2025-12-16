@@ -3,6 +3,7 @@
 title: CosyVoice
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FunAudioLLM/CosyVoice?style=social) ](https://github.com/FunAudioLLM/CosyVoice)
 ### [FunAudioLLM CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
 
 **项目核心内容总结：**  

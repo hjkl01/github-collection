@@ -3,6 +3,7 @@
 title: moffee
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wbopan/moffee?style=social) ](https://github.com/wbopan/moffee)
 ### [wbopan moffee](https://github.com/wbopan/moffee)
 
 **项目功能**  

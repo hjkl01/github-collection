@@ -3,6 +3,7 @@
 title: django-slick-reporting
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RamezIssac/django-slick-reporting?style=social) ](https://github.com/RamezIssac/django-slick-reporting)
 ### [RamezIssac django-slick-reporting](https://github.com/RamezIssac/django-slick-reporting)
 
 **项目核心内容总结：**  

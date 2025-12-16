@@ -3,6 +3,7 @@
 title: video.js
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/videojs/video.js?style=social) ](https://github.com/videojs/video.js)
 ### [videojs video.js](https://github.com/videojs/video.js)
 
 **Video.js 核心内容总结：**

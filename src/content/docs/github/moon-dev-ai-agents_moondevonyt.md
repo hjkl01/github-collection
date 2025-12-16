@@ -3,6 +3,7 @@
 title: moon-dev-ai-agents
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/moondevonyt/moon-dev-ai-agents?style=social) ](https://github.com/moondevonyt/moon-dev-ai-agents)
 ### [moondevonyt moon-dev-ai-agents](https://github.com/moondevonyt/moon-dev-ai-agents)
 
 ### 项目核心内容总结

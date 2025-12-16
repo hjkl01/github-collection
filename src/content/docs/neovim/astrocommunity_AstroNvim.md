@@ -3,6 +3,7 @@
 title: astrocommunity
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AstroNvim/astrocommunity?style=social) ](https://github.com/AstroNvim/astrocommunity)
 ### [AstroNvim astrocommunity](https://github.com/AstroNvim/astrocommunity)
 
 **项目功能**：AstroNvim社区仓库为AstroNvim（NeoVim配置）提供插件配置规范，整合社区贡献的插件，帮助管理插件的使用和设置。

@@ -3,6 +3,7 @@
 title: incus
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lxc/incus?style=social) ](https://github.com/lxc/incus)
 ### [lxc incus](https://github.com/lxc/incus)
 
 **Incus 核心内容总结：**

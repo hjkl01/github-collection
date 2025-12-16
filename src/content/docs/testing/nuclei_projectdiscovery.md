@@ -3,6 +3,7 @@
 title: nuclei
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=social) ](https://github.com/projectdiscovery/nuclei)
 ### [projectdiscovery nuclei](https://github.com/projectdiscovery/nuclei)
 
 **项目核心内容总结：**  

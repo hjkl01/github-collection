@@ -3,6 +3,7 @@
 title: airflow
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social) ](https://github.com/apache/airflow)
 ### [apache airflow](https://github.com/apache/airflow)
 
 ### 核心内容总结

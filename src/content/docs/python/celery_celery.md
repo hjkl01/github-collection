@@ -3,6 +3,7 @@
 title: celery
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/celery/celery?style=social) ](https://github.com/celery/celery)
 ### [celery celery](https://github.com/celery/celery)
 
 **Celery核心内容总结：**

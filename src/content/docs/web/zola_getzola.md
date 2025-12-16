@@ -3,6 +3,7 @@
 title: zola
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/getzola/zola?style=social) ](https://github.com/getzola/zola)
 ### [getzola zola](https://github.com/getzola/zola)
 
 **项目核心内容总结：**

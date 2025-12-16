@@ -3,6 +3,7 @@
 title: AgentOCR
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/AgentMaker/AgentOCR?style=social) ](https://github.com/AgentMaker/AgentOCR)
 ### [AgentMaker AgentOCR](https://github.com/AgentMaker/AgentOCR)
 
 AgentMaker是一个基于PaddleOCR的多功能OCR工具，支持多语言文字识别（中、英、法、德、韩、日等）及中国车牌识别。核心功能包括：  

@@ -3,6 +3,7 @@
 title: dozzle
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/amir20/dozzle?style=social) ](https://github.com/amir20/dozzle)
 ### [amir20 dozzle](https://github.com/amir20/dozzle)
 
 **项目核心内容总结：**  

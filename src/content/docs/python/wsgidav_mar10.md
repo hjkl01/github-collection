@@ -3,6 +3,7 @@
 title: wsgidav
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mar10/wsgidav?style=social) ](https://github.com/mar10/wsgidav)
 ### [mar10 wsgidav](https://github.com/mar10/wsgidav)
 
 WsgiDAV 是一个基于 Python 和 WSGI 的通用 WebDAV 服务器，支持 SSL 和多线程，可作为独立脚本运行或集成到其他 WSGI 服务器中。主要功能包括：  

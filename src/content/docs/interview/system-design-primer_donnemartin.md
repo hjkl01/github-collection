@@ -3,6 +3,7 @@
 title: system-design-primer
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/donnemartin/system-design-primer?style=social) ](https://github.com/donnemartin/system-design-primer)
 ### [donnemartin system-design-primer](https://github.com/donnemartin/system-design-primer)
 
 该项目是一个系统设计面试资源指南，旨在帮助技术人员准备系统设计相关面试。其核心内容包括：  

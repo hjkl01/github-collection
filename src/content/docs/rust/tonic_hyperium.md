@@ -3,6 +3,7 @@
 title: tonic
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hyperium/tonic?style=social) ](https://github.com/hyperium/tonic)
 ### [hyperium tonic](https://github.com/hyperium/tonic)
 
 **项目核心内容总结：**  

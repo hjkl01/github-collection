@@ -3,6 +3,7 @@
 title: lxBook
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lixi5338619/lxBook?style=social) ](https://github.com/lixi5338619/lxBook)
 ### [lixi5338619 lxBook](https://github.com/lixi5338619/lxBook)
 
 **核心内容总结：**  

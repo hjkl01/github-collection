@@ -3,6 +3,7 @@
 title: freqtrade
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/freqtrade/freqtrade?style=social) ](https://github.com/freqtrade/freqtrade)
 ### [freqtrade freqtrade](https://github.com/freqtrade/freqtrade)
 
 **Freqtrade 是一个基于 Python 的开源加密货币交易机器人，支持主流交易所（如 Binance、Bitget 等）并通过 Telegram 或 WebUI 控制。核心功能包括回测、策略优化（支持机器学习）、模拟交易、资金管理及动态币种筛选。**

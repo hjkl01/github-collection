@@ -3,6 +3,7 @@
 title: talos
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/siderolabs/talos?style=social) ](https://github.com/siderolabs/talos)
 ### [siderolabs talos](https://github.com/siderolabs/talos)
 
 **Talos Linux 核心内容总结**  

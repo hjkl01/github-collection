@@ -3,6 +3,7 @@
 title: full-stack-fastapi-postgresql
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tiangolo/full-stack-fastapi-postgresql?style=social) ](https://github.com/tiangolo/full-stack-fastapi-postgresql)
 ### [tiangolo full-stack-fastapi-postgresql](https://github.com/tiangolo/full-stack-fastapi-postgresql)
 
 **核心内容总结：**  

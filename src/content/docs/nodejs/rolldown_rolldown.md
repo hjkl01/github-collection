@@ -3,6 +3,7 @@
 title: rolldown
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rolldown/rolldown?style=social) ](https://github.com/rolldown/rolldown)
 ### [rolldown rolldown](https://github.com/rolldown/rolldown)
 
 **核心内容总结：**  

@@ -3,6 +3,7 @@
 title: autoscaler
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes/autoscaler?style=social) ](https://github.com/kubernetes/autoscaler)
 ### [kubernetes autoscaler](https://github.com/kubernetes/autoscaler)
 
 **项目核心内容总结：**  

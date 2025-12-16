@@ -3,6 +3,7 @@
 title: ETHOS-Feedback-Community
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FrSkyRC/ETHOS-Feedback-Community?style=social) ](https://github.com/FrSkyRC/ETHOS-Feedback-Community)
 ### [FrSkyRC ETHOS-Feedback-Community](https://github.com/FrSkyRC/ETHOS-Feedback-Community)
 
 **项目核心内容总结：**  

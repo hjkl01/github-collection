@@ -3,6 +3,7 @@
 title: PyG2Plot
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hustcc/PyG2Plot?style=social) ](https://github.com/hustcc/PyG2Plot)
 ### [hustcc PyG2Plot](https://github.com/hustcc/PyG2Plot)
 
 **核心内容总结：**  

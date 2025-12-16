@@ -3,6 +3,7 @@
 title: WeKnora
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/WeKnora?style=social) ](https://github.com/Tencent/WeKnora)
 ### [Tencent WeKnora](https://github.com/Tencent/WeKnora)
 
 **项目核心内容总结：**

@@ -3,6 +3,7 @@
 title: weiboSpider
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dataabc/weiboSpider?style=social) ](https://github.com/dataabc/weiboSpider)
 ### [dataabc weiboSpider](https://github.com/dataabc/weiboSpider)
 
 **项目核心内容总结：**  

@@ -3,6 +3,7 @@
 title: freenom
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/luolongfei/freenom?style=social) ](https://github.com/luolongfei/freenom)
 ### [luolongfei freenom](https://github.com/luolongfei/freenom)
 
 **项目核心内容总结：**  

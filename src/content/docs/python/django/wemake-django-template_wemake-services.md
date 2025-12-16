@@ -3,6 +3,7 @@
 title: wemake-django-template
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wemake-services/wemake-django-template?style=social) ](https://github.com/wemake-services/wemake-django-template)
 ### [wemake-services wemake-django-template](https://github.com/wemake-services/wemake-django-template)
 
 **核心内容总结：**  

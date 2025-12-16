@@ -3,6 +3,7 @@
 title: free-font
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/free-font?style=social) ](https://github.com/jaywcjlove/free-font)
 ### [jaywcjlove free-font](https://github.com/jaywcjlove/free-font)
 
 ### 项目核心内容总结

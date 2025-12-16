@@ -3,6 +3,7 @@
 title: HyDE
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/HyDE-Project/HyDE?style=social) ](https://github.com/HyDE-Project/HyDE)
 ### [HyDE-Project HyDE](https://github.com/HyDE-Project/HyDE)
 
 **项目核心内容总结：**

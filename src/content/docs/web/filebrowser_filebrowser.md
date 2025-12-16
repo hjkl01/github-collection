@@ -3,6 +3,7 @@
 title: filebrowser
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/filebrowser/filebrowser?style=social) ](https://github.com/filebrowser/filebrowser)
 ### [filebrowser filebrowser](https://github.com/filebrowser/filebrowser)
 
 **核心内容总结：**  

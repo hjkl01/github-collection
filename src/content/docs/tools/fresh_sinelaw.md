@@ -3,6 +3,7 @@
 title: fresh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sinelaw/fresh?style=social) ](https://github.com/sinelaw/fresh)
 ### [sinelaw fresh](https://github.com/sinelaw/fresh)
 
 **核心内容总结：**

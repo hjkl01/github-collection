@@ -3,6 +3,7 @@
 title: nexa-sdk
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NexaAI/nexa-sdk?style=social) ](https://github.com/NexaAI/nexa-sdk)
 ### [NexaAI nexa-sdk](https://github.com/NexaAI/nexa-sdk)
 
 **项目核心内容总结：**  

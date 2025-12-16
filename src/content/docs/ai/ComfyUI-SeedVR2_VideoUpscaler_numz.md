@@ -3,6 +3,7 @@
 title: ComfyUI-SeedVR2_VideoUpscaler
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/numz/ComfyUI-SeedVR2_VideoUpscaler?style=social) ](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler)
 ### [numz ComfyUI-SeedVR2_VideoUpscaler](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler)
 
 **项目核心内容总结：**

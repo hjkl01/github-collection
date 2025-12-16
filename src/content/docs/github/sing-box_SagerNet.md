@@ -3,6 +3,7 @@
 title: sing-box
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/SagerNet/sing-box?style=social) ](https://github.com/SagerNet/sing-box)
 ### [SagerNet sing-box](https://github.com/SagerNet/sing-box)
 
 **sing-box** 是一个通用代理平台，由 [Warp](https://go.warp.dev/sing-box) 赞助开发，支持通过多协议代理实现网络流量的灵活路由和管理。  

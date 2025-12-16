@@ -3,6 +3,7 @@
 title: iroh
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/n0-computer/iroh?style=social) ](https://github.com/n0-computer/iroh)
 ### [n0-computer iroh](https://github.com/n0-computer/iroh)
 
 **核心内容总结：**  

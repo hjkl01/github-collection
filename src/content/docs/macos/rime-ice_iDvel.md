@@ -3,6 +3,7 @@
 title: rime-ice
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/iDvel/rime-ice?style=social) ](https://github.com/iDvel/rime-ice)
 ### [iDvel rime-ice](https://github.com/iDvel/rime-ice)
 
 **项目核心内容总结：**  

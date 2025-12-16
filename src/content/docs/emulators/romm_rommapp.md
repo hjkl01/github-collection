@@ -3,6 +3,7 @@
 title: romm
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rommapp/romm?style=social) ](https://github.com/rommapp/romm)
 ### [rommapp romm](https://github.com/rommapp/romm)
 
 RomM 是一款自托管的 ROM 管理器和播放器，支持扫描、增强、浏览和播放游戏收藏。其核心功能包括：  

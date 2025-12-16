@@ -3,6 +3,7 @@
 title: typesense
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/typesense/typesense?style=social) ](https://github.com/typesense/typesense)
 ### [typesense typesense](https://github.com/typesense/typesense)
 
 **任务一：总结核心内容**

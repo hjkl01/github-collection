@@ -3,6 +3,7 @@
 title: mail-server
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stalwartlabs/mail-server?style=social) ](https://github.com/stalwartlabs/mail-server)
 ### [stalwartlabs mail-server](https://github.com/stalwartlabs/mail-server)
 
 **核心内容总结：**  

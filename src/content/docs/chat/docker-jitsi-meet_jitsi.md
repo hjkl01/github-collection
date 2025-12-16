@@ -3,6 +3,7 @@
 title: docker-jitsi-meet
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jitsi/docker-jitsi-meet?style=social) ](https://github.com/jitsi/docker-jitsi-meet)
 ### [jitsi docker-jitsi-meet](https://github.com/jitsi/docker-jitsi-meet)
 
 **核心内容总结：**  

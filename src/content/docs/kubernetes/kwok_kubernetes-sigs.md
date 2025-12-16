@@ -3,6 +3,7 @@
 title: kwok
 ---
 
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes-sigs/kwok?style=social) ](https://github.com/kubernetes-sigs/kwok)
 ### [kubernetes-sigs kwok](https://github.com/kubernetes-sigs/kwok)
 
 **项目核心内容总结：**  
