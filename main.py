@@ -6,7 +6,7 @@ from pathlib import Path
 
 from api.config import logger
 from api.prompt import markdown_prompt
-from api.api_ai import auto_category, api_ollama_generate, api_github_readme
+from api.api_ai import auto_category, api_openai_generate, api_github_readme
 from api.github_trending_scraper import main as github_trending_scraper
 
 
@@ -79,7 +79,8 @@ async def category_md_files(dirname="src/content/docs/00"):
                         os.path.join(dirname, md_file),
                         "src/content/docs/" + category + "/" + md_file,
                     )
-    os.removedirs(dirname)
+    if os.path.exists(dirname):
+        os.removedirs(dirname)
 
 
 async def main(args=None):
@@ -118,7 +119,7 @@ async def main(args=None):
             if readme_content is None:
                 continue
             prompt = markdown_prompt.replace("readme_content", readme_content)
-            ai_resp = api_ollama_generate(prompt)
+            ai_resp = api_openai_generate(prompt)
             if len(temp) == 1:
                 category_dir = "00"
             elif len(temp) == 2:

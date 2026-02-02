@@ -9,6 +9,7 @@ dependencies = [
     "dashscope",
     "python-dotenv",
     "loguru",
+    "tenacity>=9.1.2",
 ]
 
 # [build-system]
