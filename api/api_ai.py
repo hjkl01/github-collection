@@ -85,7 +85,7 @@ def api_openai_generate(
         **extra_options,
     }
     logger.debug(url)
-    logger.debug(payload)
+    logger.debug(payload[:200])
 
     resp = requests.post(
         url,
