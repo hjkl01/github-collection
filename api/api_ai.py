@@ -7,7 +7,7 @@ import base64
 import requests
 from tenacity import retry, stop_after_attempt, wait_fixed
 
-from .config import logger, GITHUB_TOKEN, OPENAI_API_KEY, OPENAI_MODEL
+from .config import logger, GITHUB_TOKEN, OPENAI_API, OPENAI_API_KEY, OPENAI_MODEL
 from .prompt import category_prompt
 
 
@@ -38,7 +38,7 @@ def api_github_readme(owner, repo):
 def api_openai_generate(
     prompt: str,
     model: str = OPENAI_MODEL,
-    host: str = OPENAI_API_KEY,
+    host: str = OPENAI_API,
     stream: bool = False,
     timeout: float = 300.0,
     **extra_options,
@@ -62,8 +62,8 @@ def api_openai_generate(
       非流式: {"text": 模型输出文本, "raw": 完整 JSON 对象}
       流式: {"text": 累积的输出文本, "raw": 最后一条 JSON 对象}
     """
-    if not OPENAI_API_KEY:
-        raise RuntimeError("请配置 OPENAI_API_KEY 环境变量")
+    if not OPENAI_API:
+        raise RuntimeError("请配置 OPENAI_API 环境变量")
 
     url = f"{host.rstrip('/')}/v1/chat/completions"
     headers = {
@@ -85,7 +85,7 @@ def api_openai_generate(
         **extra_options,
     }
     logger.debug(url)
-    logger.debug(payload[:200])
+    logger.debug(str(payload)[:200])
 
     resp = requests.post(
         url,

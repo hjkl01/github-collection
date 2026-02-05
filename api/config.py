@@ -33,5 +33,6 @@ load_dotenv()
 
 QWEN_KEY = os.getenv("QWEN_KEY")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
+OPENAI_API = os.getenv("OPENAI_API", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "")
