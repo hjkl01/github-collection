@@ -80,7 +80,7 @@ async def category_md_files(dirname="src/content/docs/00"):
                         "src/content/docs/" + category + "/" + md_file,
                     )
     if os.path.exists(dirname):
-        os.removedirs(dirname)
+        os.system(f'rm -rf {dirname}')
 
 
 async def main(args=None):
