@@ -1,5 +1,6 @@
 import asyncio
 import re
+import os
 from crawlee.crawlers._beautifulsoup import BeautifulSoupCrawler
 # from crawlee.proxy_configuration import ProxyConfiguration
 
@@ -112,6 +113,8 @@ def extract_github_info(github_url):
 
 def main():
     trending_repos = asyncio.run(scrape_github_trending())
+    if not os.path.exists("urls.txt"):
+        os.system("touch urls.txt")
     with open("./urls.txt", "r") as f:
         old_urls = [u.strip() for u in f.readlines()]
     urls = list(set([trending_repo["url"] for trending_repo in trending_repos]))

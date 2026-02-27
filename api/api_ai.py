@@ -3,35 +3,53 @@ import json
 import re
 import time
 import base64
+import asyncio
+from functools import lru_cache
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_fixed
 
 from .config import logger, GITHUB_TOKEN, OPENAI_API, OPENAI_API_KEY, OPENAI_MODEL
-from .prompt import category_prompt
+from .prompts import CATEGORY_PROMPT
+
+
+# 复用 session 提高性能
+@lru_cache(maxsize=1)
+def get_github_session():
+    """创建 GitHub API session"""
+    session = requests.Session()
+    session.headers.update({
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json",
+    })
+    return session
+
+
+@lru_cache(maxsize=1)
+def get_openai_session():
+    """创建 OpenAI API session"""
+    session = requests.Session()
+    session.headers.update({
+        "Authorization": f"Bearer {OPENAI_API_KEY}",
+        "Content-Type": "application/json",
+    })
+    return session
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
 def api_github_readme(owner, repo):
+    """获取 GitHub 仓库的 README"""
     url = f"https://api.github.com/repos/{owner}/{repo}/readme"
-    # headers = {"Accept": "application/vnd.github.v3+json"}
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github.v3+json",
-    }
+    session = get_github_session()
 
-    resp = requests.get(url, headers=headers)
+    resp = session.get(url)
     if resp.status_code != 200:
         print("❌ 无法获取 README:", resp.text)
         return None
 
     data = resp.json()
-
-    # content 是 base64 编码
     content = base64.b64decode(data["content"]).decode("utf-8")
-
     return content
-    # return {"name": data["name"], "path": data["path"], "download_url": data["download_url"], "content": content}
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
@@ -66,10 +84,7 @@ def api_openai_generate(
         raise RuntimeError("请配置 OPENAI_API 环境变量")
 
     url = f"{host.rstrip('/')}/v1/chat/completions"
-    headers = {
-        "Authorization": f"Bearer {OPENAI_API_KEY}",
-        "Content-Type": "application/json",
-    }
+    session = get_openai_session()
 
     if "messages" not in extra_options:
         messages = [{"role": "user", "content": prompt}]
@@ -87,12 +102,7 @@ def api_openai_generate(
     logger.debug(url)
     logger.debug(str(payload)[:200])
 
-    resp = requests.post(
-        url,
-        headers=headers,
-        json=payload,
-        timeout=timeout,
-    )
+    resp = session.post(url, json=payload, timeout=timeout)
     if resp.status_code != 200:
         raise RuntimeError(f"OpenAI generate 请求失败: HTTP {resp.status_code} - {resp.text}")
 
@@ -128,10 +138,14 @@ def api_openai_generate(
 
 
 async def auto_category(content, category_dirs):
+    """异步分类 - 在线程池中运行同步的 API 调用"""
     content = f"""我收集了GitHub上的项目,以下是对项目的描述: {content}.
     现在我想对其进行分类，已有的分类有 {category_dirs} ，分析该项目应在哪个分类下，如不存在已有的分类，返回 github。 直接返回分类名称， 不需要其他的废话."""
-    prompt = category_prompt.replace("content", content).replace("category_dirs", ",".join(category_dirs))
-    response = api_openai_generate(prompt)
+    prompt = CATEGORY_PROMPT.replace("content", content).replace("category_dirs", ",".join(category_dirs))
+
+    # 在线程池中运行同步的 API 调用
+    loop = asyncio.get_event_loop()
+    response = await loop.run_in_executor(None, api_openai_generate, prompt)
     logger.info(response)
     return response
 

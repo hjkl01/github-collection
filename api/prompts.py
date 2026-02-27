@@ -1,9 +1,6 @@
-markdown_prompt = """
-以下是 README 内容：
-```
-readme_content
-```
+# Prompt 模板
 
+MARKDOWN_PROMPT = """
 请阅读 README 内容，完成以下两个任务：
 
 用简明中文总结其核心内容（包括项目功能、使用方法、主要特性等）；
@@ -12,9 +9,14 @@ readme_content
     1. 不需要图片；
     2. 如果原文不是中文，请先将其准确翻译为中文，再进行总结，不需要原来的英文版本。
     3. 除了项目的核心内容，不需要其他额外的废话。
+
+以下是 README 内容：
+```
+readme_content
+```
 """
 
-category_prompt = """我收集了GitHub上的项目,以下是对项目的描述:
+CATEGORY_PROMPT = """我收集了GitHub上的项目,以下是对项目的描述:
 ```
 content
 ```

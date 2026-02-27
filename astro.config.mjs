@@ -2,18 +2,26 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import fs from 'fs';
+import json5 from 'vite-plugin-json5';
 
 // https://astro.build/config
 export default defineConfig({
   vite: {
+    plugins: [json5()],
     server: {
-      allowedHosts: ['.hjkl01.cn'],
+      allowedHosts: ['hjkl01.cn'],
+      hmr: {
+        clientPort: 443,
+      },
     },
+    cacheDir: './node_modules/.vite',
     build: {
+      target: 'esnext',
+      minify: 'terser',
       rollupOptions: {
         output: {
           manualChunks: {
-            vendor: ['astro'],
+            vendor: ['@astrojs/starlight'],
           },
         },
       },
