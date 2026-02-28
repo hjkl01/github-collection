@@ -84,6 +84,13 @@ def process_single_url(project_line, md_files):
             return None
         prompt = MARKDOWN_PROMPT.replace("readme_content", readme_content)
         ai_resp = api_openai_generate(prompt)
+        if isinstance(ai_resp, dict):
+            ai_resp = ai_resp.get("text", "")
+
+        # 去除 OpenAI o1 系列模型返回的 think 标签内容
+        if "<think>" in ai_resp or "</think>" in ai_resp:
+            ai_resp = re.sub(r".*</think>", "", ai_resp, flags=re.DOTALL).strip()
+
         if len(temp) == 1:
             category_dir = "00"
         elif len(temp) == 2:
@@ -101,10 +108,7 @@ title: repository
 
 """
 
-        text = (
-            title.replace("username", username).replace("repository", repository)
-            + ai_resp
-        )
+        text = title.replace("username", username).replace("repository", repository) + ai_resp
 
         category_path = Path(f"src/content/docs/{category_dir}")
         category_path.mkdir(parents=True, exist_ok=True)
@@ -125,11 +129,7 @@ async def category_md_files(dirname="src/content/docs/00"):
         logger.warning(f"dirname not exists {dirname}")
         return
 
-    category_dirs = [
-        str(child.relative_to(Path("src/content/docs")))
-        for child in Path("src/content/docs").iterdir()
-        if child.is_dir()
-    ]
+    category_dirs = [str(child.relative_to(Path("src/content/docs"))) for child in Path("src/content/docs").iterdir() if child.is_dir()]
 
     md_files = list(Path(dirname).glob("*.md"))
 
@@ -165,10 +165,7 @@ async def main(args=None):
     # 使用线程池并行处理 URL（API 调用是 IO 密集型）
     loop = asyncio.get_event_loop()
     with ThreadPoolExecutor(max_workers=5) as executor:
-        tasks = [
-            loop.run_in_executor(executor, process_single_url, line, md_files)
-            for line in urls
-        ]
+        tasks = [loop.run_in_executor(executor, process_single_url, line, md_files) for line in urls]
         results = await asyncio.gather(*tasks)
 
     success = [r for r in results if r]
