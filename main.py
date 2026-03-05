@@ -1,10 +1,9 @@
-import os
-import sys
-import re
 import asyncio
-from pathlib import Path
+import os
+import re
+import sys
 from concurrent.futures import ThreadPoolExecutor
-from functools import partial
+from pathlib import Path
 
 from api.config import logger
 from api.prompts import MARKDOWN_PROMPT
@@ -174,11 +173,55 @@ async def main(args=None):
     await category_md_files()
 
 
+def export_urls():
+    """从 md 文件中导出 GitHub 仓库链接（包含文件夹信息）"""
+    # 扫描所有 md 文件
+    md_files = list(Path("src/content/docs").rglob("*.md"))
+    md_files.extend(list(Path("src/content/docs").rglob("*.mdx")))
+
+    # 使用字典按 URL 分组，记录每个 URL 对应的文件夹
+    url_folders: dict[str, set] = {}
+    github_pattern = re.compile(r"https://github\.com/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)")
+
+    for md_file in md_files:
+        try:
+            content = md_file.read_text(encoding="utf-8")
+            matches = github_pattern.findall(content)
+            # 获取 md 文件相对于 src/content/docs 的路径
+            rel_path = md_file.relative_to(Path("src/content/docs"))
+            # 获取文件夹名称（如果是嵌套文件夹，只取第一级）
+            folder = rel_path.parts[0] if len(rel_path.parts) > 1 else ""
+            for username, repo in matches:
+                url = f"https://github.com/{username}/{repo}"
+                if url not in url_folders:
+                    url_folders[url] = set()
+                if folder:
+                    url_folders[url].add(folder)
+        except Exception as e:
+            logger.warning(f"读取文件失败 {md_file}: {e}")
+
+    # 备份现有 urls.txt
+    # if Path("urls.txt").exists():
+    #     shutil.copy("urls.txt", "bak.txt")
+    #     logger.info("已备份 urls.txt -> bak.txt")
+
+    # 写入新 URLs（URL 后加上文件夹）
+    with open("bak.txt", "a", encoding="utf-8") as f:
+        for url, folders in sorted(url_folders.items()):
+            folder_str = " ".join(sorted(folders)) if folders else ""
+            line = f"{url} {folder_str}".strip()
+            f.write(line + "\n")
+
+    logger.info(f"导出完成: 共 {len(url_folders)} 个 URL")
+
+
 if __name__ == "__main__":
     argv = sys.argv
     if len(argv) > 1 and argv[1] == "cate":
         asyncio.run(main("cate"))
     elif len(argv) > 1 and argv[1] == "crawl":
         github_trending_scraper()
+    elif len(argv) > 1 and argv[1] == "export":
+        export_urls()
     else:
         asyncio.run(main())

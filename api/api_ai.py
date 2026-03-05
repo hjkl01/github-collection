@@ -1,6 +1,5 @@
 from typing import Union
 import json
-import re
 import time
 import base64
 import asyncio
@@ -18,10 +17,12 @@ from .prompts import CATEGORY_PROMPT
 def get_github_session():
     """创建 GitHub API session"""
     session = requests.Session()
-    session.headers.update({
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github.v3+json",
-    })
+    session.headers.update(
+        {
+            "Authorization": f"Bearer {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json",
+        }
+    )
     return session
 
 
@@ -29,10 +30,12 @@ def get_github_session():
 def get_openai_session():
     """创建 OpenAI API session"""
     session = requests.Session()
-    session.headers.update({
-        "Authorization": f"Bearer {OPENAI_API_KEY}",
-        "Content-Type": "application/json",
-    })
+    session.headers.update(
+        {
+            "Authorization": f"Bearer {OPENAI_API_KEY}",
+            "Content-Type": "application/json",
+        }
+    )
     return session
 
 

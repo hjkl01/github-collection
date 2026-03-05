@@ -59,21 +59,18 @@ def extract_github_bookmarks(bookmarks_file, output_file):
         output_data = {
             "total_count": len(github_bookmarks),
             "bookmarks": github_bookmarks,
-            "extracted_at": {
-                "timestamp": datetime.now().isoformat(),
-                "source": bookmarks_file
-            },
+            "extracted_at": {"timestamp": datetime.now().isoformat(), "source": bookmarks_file},
         }
 
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-        print(f"\n提取完成！")
+        print("\n提取完成！")
         print(f"找到 {len(github_bookmarks)} 个包含github.com的书签")
         print(f"结果已保存到: {output_file}")
 
         if github_bookmarks:
-            print(f"\n前5个书签预览:")
+            print("\n前5个书签预览:")
             for i, bookmark in enumerate(github_bookmarks[:5]):
                 print(f"  {i + 1}. {bookmark['name']}")
                 print(f"     {bookmark['url']}\n")
