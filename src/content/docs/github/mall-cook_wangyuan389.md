@@ -3,12 +3,6 @@
 title: mall-cook
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wangyuan389/mall-cook?style=social) ](https://github.com/wangyuan389/mall-cook)
-### [wangyuan389 mall-cook](https://github.com/wangyuan389/mall-cook)
+### [wangyuan389 mall-cook](https://github.com/wangyuan389/mall-cook)  ![GitHub Repo stars](https://img.shields.io/github/stars/wangyuan389/mall-cook?style=social)
 
-该README文档介绍了两个开源项目：**云搭**和**Mall-Cook**。  
-**云搭**是一个开源的零代码可视化搭建平台，支持快速生成小程序、H5、问卷、图文等应用，提供简单、专业的多场景开发方案。**Mall-Cook**是基于Vue和uni-app开发的可视化商城搭建工具，支持通过Json Schema生成器配置组件，可生成H5和小程序多端商城项目，采用Monorepo架构管理多个子项目。  
-
-**使用方法**：通过`yarn bootstrap`安装依赖，`yarn dev`启动项目，服务端启动方案详见子项目文档。  
-**核心特性**：支持多端生成（H5/小程序）、自定义页面与Tab跳转、Monorepo项目结构、可视化构建与属性配置面板。  
-项目提供线上平台、文档链接及开源地址，用户可访问指定链接体验平台或查阅开发教程。
+该项目是一款开源免费、功能强大的可视化低代码搭建解决方案，包含云搭与 Mall-Cook 商城平台。支持零代码可视化搭建小程序、H5、问卷、图文及商城应用，基于 Vue 和 uni-app 技术栈生成多端项目。提供 JSON Schema 生成器实现组件流水线式标准接入，后端服务基于 Node.js 开发，采用 Monorepo 架构。支持自定义页面 Tab 设置、模板商城使用及多页面跳转，致力于提供简单、便捷、专业的多场景零代码服务。

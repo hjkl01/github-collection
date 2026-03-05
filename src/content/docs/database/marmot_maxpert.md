@@ -5,23 +5,15 @@ title: marmot
 
 ### [maxpert marmot](https://github.com/maxpert/marmot)  ![GitHub Repo stars](https://img.shields.io/github/stars/maxpert/marmot?style=social)
 
-**项目核心内容总结：**  
-Marmot 是一个基于 SQLite 的分布式数据库系统，兼容 MySQL 协议，支持高可用、强一致性、自动复制和跨节点数据同步。主要功能包括：  
-1. **核心特性**：  
-   - 自动 ID 生成（支持 53 位或 64 位模式）；  
-   - 实时变更数据捕获（CDC），可将数据变更同步到 Kafka/NATS；  
-   - 支持 SQLite 扩展（如向量计算）；  
-   - 内置 Prometheus 监控指标，支持日志管理与文件轮转；  
-   - 通过 MySQL 协议提供服务，支持 Unix 套接字连接。  
+Marmot v2 是一款基于 Gossip 协议的无主分布式 SQLite 复制系统，支持分布式事务与最终一致性。
 
-2. **使用方法**：  
-   - 通过 `config.toml` 配置数据库参数（如监听地址、线程数、备份策略）；  
-   - 启用 CDC 功能需配置 Kafka/NATS 的连接信息与数据过滤规则；  
-   - 备份方案推荐 Litestream（兼容 SQLite WAL 模式），或通过 CDC 流入外部存储。  
+**核心功能：**
+*   **无主架构**：无单点故障，任意节点均可接受写入，无需主节点选举，自动处理网络分区与故障恢复。
+*   **MySQL 协议兼容**：支持标准 MySQL 客户端连接（如 DBeaver、CLI），兼容现有 ORM 与工具，支持运行分布式 WordPress。
+*   **高级复制机制**：支持多数据库管理、DDL 语句自动幂等复制（带集群锁）、批量数据加载（`LOAD DATA`）及行级 CDC 变更捕获（兼容 Debezium 格式）。
+*   **边缘优化**：客户端可直接读取本地 SQLite 文件以获得低延迟读取，支持读写分离与边缘侧车部署。
+*   **一致性调优**：支持可调的一致性级别（ONE/QUORUM/ALL），冲突采用最后写入胜利（LWW）机制解决。
+*   **扩展与集成**：支持加载 SQLite 扩展（如向量搜索），可发布 CDC 事件至 Kafka 或 NATS 等外部系统。
 
-3. **性能表现**：  
-   - 本地 3 节点测试中，单节点写入吞吐量达 4,175 ops/sec，混合负载下 P99 延迟约 85ms；  
-   - 支持跨区域部署，但需根据网络延迟调整预期性能（如 QUORUM 写入 P99 延迟可能达 50-200ms）。  
-
-4. **适用场景**：  
-   - 适合需要 MySQL 兼容性、分布式高可用及轻量级数据库的场景，如微服务数据同步、实时分析等。
+**适用场景：**
+分布式 WordPress 部署、Lambda/边缘侧车场景、区域配置服务器、Geo 分布式目录数据等读密集型边缘计算场景。

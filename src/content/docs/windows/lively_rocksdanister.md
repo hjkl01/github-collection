@@ -3,29 +3,6 @@
 title: lively
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rocksdanister/lively?style=social) ](https://github.com/rocksdanister/lively)
-### [rocksdanister lively](https://github.com/rocksdanister/lively)
+### [rocksdanister lively](https://github.com/rocksdanister/lively)  ![GitHub Repo stars](https://img.shields.io/github/stars/rocksdanister/lively?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-Lively 是一款支持动态桌面壁纸的 Windows 软件，可将视频、网页、游戏等设为交互式桌面背景，提供屏幕保护、自动化控制、API 开发等扩展功能。
-
-**使用方法**  
-- 通过拖放视频、网页或应用程序到软件界面即可设置壁纸。  
-- 支持命令行控制、脚本集成（如 AutoHotKey、Python）。  
-- 可在 Microsoft Store 或 GitHub 下载安装包（需 Windows 10 1903 及以上版本）。
-
-**主要特性**  
-1. **多类型壁纸**：支持视频/GIF、网页（如 HTML5 页面）、本地应用/游戏（如 Unity、Godot 项目）。  
-2. **交互与性能**：网页和应用壁纸可交互，支持多显示器；全屏应用时自动暂停播放以节省资源。  
-3. **高级功能**：  
-   - 屏幕保护模式（支持任意壁纸作为屏保）。  
-   - API 接口（可获取硬件数据、音频信息等，开发动态壁纸）。  
-   - 机器学习支持（如深度学习模型生成动态效果）。  
-4. **优化设计**：基于 WinUI 3 和 WindowsAppSDK，适配 Windows 11 界面；硬件加速视频播放（通过 VLC/MPV）。  
-5. **开源免费**：采用 GPL-v3 许可，无付费功能限制。
-
-**其他**  
-- 支持 Shadertoy 网站链接直接作为壁纸。  
-- 提供中文等多语言支持（可通过 Crowdin 参与翻译）。
+Lively Wallpaper 是一款开源免费的 Windows 动态桌面壁纸软件。它支持将视频、GIF、网页、应用程序/游戏（如 Unity/Godot）及 Shadertoy 链接设为动态壁纸，并具备屏幕保护程序功能。软件提供 API 接口支持开发者创建交互式壁纸，支持命令行自动化控制、机器学习动态效果及多显示器支持。性能优化方面，支持全屏应用时暂停播放、电池模式优化及远程桌面自动暂停。采用 WinUI 3 原生开发，完全免费无内购。

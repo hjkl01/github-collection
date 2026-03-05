@@ -3,14 +3,11 @@
 title: screenshot-to-code
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/abi/screenshot-to-code?style=social) ](https://github.com/abi/screenshot-to-code)
-### [abi screenshot-to-code](https://github.com/abi/screenshot-to-code)
+### [abi screenshot-to-code](https://github.com/abi/screenshot-to-code)  ![GitHub Repo stars](https://img.shields.io/github/stars/abi/screenshot-to-code?style=social)
 
-**核心内容总结：**  
-该项目是一个基于AI的工具，可将截图、线框图或Figma设计转换为多种技术栈的代码（如HTML+Tailwind、React+Tailwind、Bootstrap等），并支持Claude Sonnet 3.7、GPT-4o等模型。其主要特性包括：  
-1. **功能**：支持截图转代码、视频录制转原型（实验性功能），并提供多种AI模型结果对比。  
-2. **使用方法**：需配置OpenAI或Anthropic API密钥，通过FastAPI后端和React/Vite前端运行，支持Docker部署。  
-3. **技术栈**：兼容主流前端框架（React/Vue/Bootstrap等）及Tailwind，支持DALL-E 3等图像生成模型。  
-4. **扩展性**：提供本地开发模式（需手动安装依赖）和模拟模式（节省API调用）。  
-
-**注意事项**：需注意API密钥配置、UTF-8编码问题及后端与前端的连接设置。
+本项目是一个基于 AI 的图像转代码工具，主要功能与特点如下：
+- **核心功能**：将截图、设计稿和 Figma 转化为清洁可用的代码，支持将网站视频录屏转换为功能原型。
+- **支持技术栈**：涵盖 HTML+Tailwind/CSS、React/Vue+Tailwind、Bootstrap、Ionic 及 SVG 等。
+- **AI 模型**：兼容 Gemini、Claude、GPT 系列等主流模型及图像生成模型。
+- **部署方式**：提供付费托管版本，支持本地自行部署（React/Vite 前端 + FastAPI 后端）或 Docker 容器化部署。
+- **配置要求**：使用需配置 OpenAI、Anthropic 或 Google 等 API 密钥。

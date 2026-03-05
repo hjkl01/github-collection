@@ -3,22 +3,14 @@
 title: xbmc
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/xbmc/xbmc?style=social) ](https://github.com/xbmc/xbmc)
-### [xbmc xbmc](https://github.com/xbmc/xbmc)
+### [xbmc xbmc](https://github.com/xbmc/xbmc)  ![GitHub Repo stars](https://img.shields.io/github/stars/xbmc/xbmc?style=social)
 
-**项目核心内容总结：**  
-Kodi 是一款开源的媒体播放器和家庭影院娱乐中心，支持 **Windows、Linux、macOS、Android、iOS 等主流平台**，可播放几乎所有音视频格式及网络流媒体。其主要特性包括：  
-- **自动媒体库管理**：扫描并整理本地或网络媒体，自动生成封面、简介及分类；  
-- **跨平台与扩展性**：支持多种设备及架构，通过插件（Add-ons）可扩展功能（如播放源、皮肤等）；  
-- **用户友好界面**：专为家庭影院设计，支持遥控器操作，提供天气、可视化效果等附加功能；  
-- **多语言支持**：已翻译为 70+ 种语言，社区贡献者可参与本地化。  
+Kodi 是一款获奖的免费开源媒体播放器和数字媒体娱乐中心，支持 Android、Linux、BSD、macOS、iOS、tvOS 及 Windows 平台。
 
-**使用方法**：  
-1. 从官网（[kodi.tv/download](https://kodi.tv/download)）下载对应平台的安装包；  
-2. 参考 [快速入门指南](https://kodi.wiki/view/quick_start_guide) 配置媒体库与基本功能。  
+主要功能包括：
+1. **媒体播放**：支持几乎所有流行的音频和视频格式，支持网络流媒体传输。
+2. **媒体库管理**：自动扫描媒体资源，创建包含封面、简介和背景图的个性化媒体库。
+3. **界面与交互**：提供美观的界面和强大的换肤引擎，专为遥控器操作和家庭影院（HTPC）设计。
+4. **扩展功能**：支持通过加件（Add-ons）高度扩展，包含播放列表、幻灯片、天气预报及音频可视化等功能。
 
-**贡献方式**：  
-- **开发**：修复 Bug、优化代码（主要使用 C++，插件使用 Python/XML）；  
-- **文档/翻译**：完善 Wiki 内容或参与 [Kodi 本地化](https://kodi.weblate.cloud/)；  
-- **社区支持**：在论坛（[forum.kodi.tv](https://forum.kodi.tv/)）解答用户问题；  
-- **其他**：通过宣传、捐赠或购买周边支持项目。
+项目采用 GPLv2 开源协议，由志愿者社区维护。

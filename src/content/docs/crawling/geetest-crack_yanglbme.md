@@ -3,26 +3,14 @@
 title: geetest-crack
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yanglbme/geetest-crack?style=social) ](https://github.com/yanglbme/geetest-crack)
-### [yanglbme geetest-crack](https://github.com/yanglbme/geetest-crack)
+### [yanglbme geetest-crack](https://github.com/yanglbme/geetest-crack)  ![GitHub Repo stars](https://img.shields.io/github/stars/yanglbme/geetest-crack?style=social)
 
-**核心内容总结：**  
-该项目是一个用于破解极验滑块验证码的自动化工具，通过图像识别和浏览器操作模拟人工滑动验证过程。  
+本项目是一款极验（Geetest）滑动验证码破解工具，无需使用 Selenium 或 WebDriver，而是通过直接解密 JavaScript 请求参数来绕过验证。
 
-**功能：**  
-1. 自动识别滑块缺口位置并计算偏移量；  
-2. 模拟鼠标拖动操作完成验证；  
-3. 集成Selenium实现浏览器自动化，兼容Chrome/Firefox等主流浏览器。  
+主要功能如下：
 
-**使用方法：**  
-1. 安装Python环境及依赖库（如Selenium、OpenCV、PIL）；  
-2. 配置浏览器驱动（如ChromeDriver）；  
-3. 运行脚本并输入目标网页URL，自动完成验证流程。  
+1.  **JS 参数解密**：分析网络请求，对极验混淆的 JavaScript 代码进行反混淆、还原及关键逻辑剥离，使用 PyExecJS 在 Python 中生成合法的加密参数（如 challenge、validate 等）。
+2.  **滑块轨迹模拟**：还原验证码图片计算缺口偏移量，结合采集的人类滑动轨迹库模拟拖动过程。
+3.  **Session 池优化**：利用 Redis 构建验证码 Session 池，预先滑动获取有效会话并实现自动过期管理，大幅提升登录效率与成功率。
 
-**主要特性：**  
-- 基于OpenCV和PIL实现高精度缺口识别；  
-- 模拟真实鼠标拖动轨迹，降低被检测风险；  
-- 支持自定义参数调整（如滑动速度、识别阈值）。  
-
-**声明：**  
-仅供学习交流，禁止用于非法用途（如绕过网站安全验证）。
+需配置 Python 依赖、Node.js 及 Redis 环境。项目仅供学习交流使用。

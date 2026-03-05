@@ -5,23 +5,10 @@ title: dotfiles-public
 
 ### [craftzdog dotfiles-public](https://github.com/craftzdog/dotfiles-public)  ![GitHub Repo stars](https://img.shields.io/github/stars/craftzdog/dotfiles-public?style=social)
 
-**项目简介：Takuya 的 dotfiles 配置**
+本项目名为 "Takuya's dotfiles"，是一套跨平台开发环境配置集合，旨在提供高效的工作流。主要功能涵盖：
 
-该项目是 Takuya 的个性化开发环境配置集合，主要包括：
+1.  **Neovim 配置**：基于 LazyVim 框架，集成树状语法高亮、代码搜索等插件，需特定版本及支持真彩色的终端。
+2.  **Shell 配置**：macOS/Linux 使用 Fish shell（含 Tide 主题、fzf 等工具），Windows 使用 PowerShell（含 Oh My Posh 及终端图标）。
+3.  **其他工具**：包含 tmux 终端复用器及 Git 的全局配置。
 
-- **功能模块**：
-  - **Neovim 配置**：基于 LazyVim，支持 Markdown 编辑、文件搜索、代码解析（Treesitter）等。
-  - **终端配置**：包括 Fish shell（macOS/Linux）和 PowerShell（Windows）配置。
-  - **工具链**：集成 tmux、git、lazygit、fd、ripgrep 等工具。
-  - **主题与字体**：使用 Solarized Osaka 配色主题、Nerd Font 字体，以及 Oh My Posh（PowerShell）主题。
-
-- **使用方法**：
-  - 需要安装 Neovim 0.9+、Git 2.19+、LazyVim、Nerd Font（可选）等依赖。
-  - 提供视频教程和文章详细讲解配置过程和使用技巧。
-
-- **主要特性**：
-  - 支持多平台（Linux、macOS、Windows）。
-  - 高度可定制的编辑器与终端体验。
-  - 提供 Markdown 笔记应用 Inkdrop 的推广链接。
-
-**注意事项**：配置内容较为复杂，需有一定开发环境搭建经验，建议根据自身需求调整使用。
+项目此外提供了关于编辑器设置、终端工作流及命令行 Git 使用的相关视频教程与文章指南。

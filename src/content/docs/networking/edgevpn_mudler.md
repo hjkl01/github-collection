@@ -3,23 +3,11 @@
 title: edgevpn
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mudler/edgevpn?style=social) ](https://github.com/mudler/edgevpn)
-### [mudler edgevpn](https://github.com/mudler/edgevpn)
+### [mudler edgevpn](https://github.com/mudler/edgevpn)  ![GitHub Repo stars](https://img.shields.io/github/stars/mudler/edgevpn?style=social)
 
-**核心内容总结：**  
-EdgeVPN 是一个基于 libp2p 的去中心化网络工具，支持创建虚拟私有网络（VPN）、通过 P2P 协议传输文件、暴露本地/远程服务及在区块链存储数据。用户通过生成配置文件或 token 启动网络，适用于开发和测试环境。其主要特性包括去中心化架构、跨平台兼容性及易集成，但存在网络延迟较高、不适合生产环境等限制。项目被用于 Kubernetes 测试集群等场景，并提供库形式供其他项目集成使用。需注意未经安全审计，不建议用于敏感数据传输。  
-
-**使用方法：**  
-1. 生成配置文件或 token（如 `edgevpn -g > vpn.yaml`）。  
-2. 在节点上启动 VPN，指定配置文件、IP 地址及网络接口（如 `sudo EDGEVPNCONFIG=vpn.yml ADDRESS=10.1.0.3/24 edgevpn`）。  
-3. 结合 Kubernetes 等工具实现多节点测试集群。  
-
-**主要特性：**  
-- 去中心化网络，无需中心服务器。  
-- 支持文件传输、服务暴露及区块链数据存储。  
-- 提供库形式供其他项目集成。  
-- 适用于边缘设备及开发测试场景。  
-
-**注意事项：**  
-- 网络性能较低，不适合生产环境。  
-- 未经安全审计，不推荐用于敏感数据。
+EdgeVPN 是一个基于 libp2p 的完全去中心化私有网络工具，无需中央服务器，通过共享密钥连接节点。核心功能包括：
+1. **VPN**：在 P2P 节点间建立安全网络，支持自动分配 IP 和内置 DNS。
+2. **反向代理**：无需建立 VPN 即可将 TCP 服务暴露到 P2P 网络。
+3. **文件传输**：支持节点间 P2P 安全传输文件。
+4. **库支持**：可作为 Go 库集成，提供分布式账本功能。
+适用于边缘设备和开发环境（如 Kubernetes 集群），不适用于生产环境或低延迟场景，且尚未经过完整安全审计。

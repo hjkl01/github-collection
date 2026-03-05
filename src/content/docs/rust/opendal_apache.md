@@ -3,8 +3,13 @@
 title: opendal
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/opendal?style=social) ](https://github.com/apache/opendal)
-### [apache opendal](https://github.com/apache/opendal)
+### [apache opendal](https://github.com/apache/opendal)  ![GitHub Repo stars](https://img.shields.io/github/stars/apache/opendal?style=social)
 
-**核心内容总结：**  
-Apache OpenDAL 是一个开源的数据访问库，提供统一接口支持多种存储协议（如 HTTP、SFTP、WebDAV）和云服务（如 AWS S3、阿里云 OSS、Google Drive 等）。用户可通过 Rust、Python、Go 等语言调用其 API，或使用命令行工具进行数据操作。项目特性包括高性能、可扩展性强、支持缓存与加密功能，并提供与 Docker/Kubernetes 的集成方案。文档详细，社区活跃，支持多种文件系统和数据库存储服务。
+Apache OpenDAL 是一个开放数据访问层，核心愿景是“一层，所有存储”，旨在通过统一接口实现与多样化存储服务的无缝交互。主要功能包括：
+
+- **多语言支持**：提供 Rust 核心及 C、C++、Java、Python、Go、Node.js 等多种语言绑定。
+- **多种访问方式**：提供命令行工具 (oli) 和 POSIX 文件系统 API (ofs)。
+- **广泛集成**：支持 dav-server、object_store、parquet 等生态组件。
+- **全面服务支持**：覆盖对象存储、文件存储、键值存储、数据库、缓存及云存储等数十种服务（如 S3、HDFS、Redis）。
+
+项目遵循 Apache License 2.0 开源协议。

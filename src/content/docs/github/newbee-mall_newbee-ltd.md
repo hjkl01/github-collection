@@ -3,22 +3,6 @@
 title: newbee-mall
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/newbee-ltd/newbee-mall?style=social) ](https://github.com/newbee-ltd/newbee-mall)
-### [newbee-ltd newbee-mall](https://github.com/newbee-ltd/newbee-mall)
+### [newbee-ltd newbee-mall](https://github.com/newbee-ltd/newbee-mall)  ![GitHub Repo stars](https://img.shields.io/github/stars/newbee-ltd/newbee-mall?style=social)
 
-**项目核心内容总结：**
-
-1. **项目功能**  
-   - 前端商城：包含首页、商品搜索、购物车、订单结算、订单列表、支付页面等完整电商流程；  
-   - 后台管理：支持轮播图管理、分类配置、商品管理（含编辑）、订单管理、会员管理等功能；  
-   - 用户功能：会员注册/登录、商品搜索、购物车操作、订单流程（含支付）等。
-
-2. **使用方法**  
-   - 代码托管于GitHub（https://github.com/newbee-ltd/newbee-mall）和Gitee（https://gitee.com/newbee-ltd/newbee-mall），可克隆仓库获取源码；  
-   - 需自行配置数据库及依赖环境，项目基于Spring Boot框架，支持快速部署。
-
-3. **主要特性**  
-   - 技术栈：采用Spring Boot、MyBatis、Thymeleaf等主流Java技术，后端分离设计；  
-   - 模块化：前后端功能解耦，支持独立开发与维护；  
-   - 扩展性：提供基础框架，便于二次开发及功能扩展；  
-   - 完整性：涵盖电商核心功能，包含用户、商品、订单全流程管理。
+newbee-mall 是一套基于 Spring Boot 的电商系统，包含商城前台与后台管理系统。前台功能涵盖首页门户、商品分类、新品上线、搜索推荐、购物车、订单结算、订单流程、会员管理及帮助中心等模块；后台功能涵盖数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理及系统设置等模块。项目提供基础版、增强版（含秒杀/支付）、微服务版及前后端分离版等多种分支，代码开源且流程完整，适用于 Spring Boot 技术栈综合实践、学习及求职简历项目。

@@ -3,20 +3,13 @@
 title: wails
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wailsapp/wails?style=social) ](https://github.com/wailsapp/wails)
-### [wailsapp wails](https://github.com/wailsapp/wails)
+### [wailsapp wails](https://github.com/wailsapp/wails)  ![GitHub Repo stars](https://img.shields.io/github/stars/wailsapp/wails?style=social)
 
-**项目核心内容总结：**  
-Wails 是一个用于构建桌面应用程序的工具，支持使用 Go 语言作为后端，结合任意前端技术（如 HTML/JS/CSS）开发用户界面。其核心功能是将 Go 代码与 Web 前端打包成单一的可执行文件，无需依赖嵌入式浏览器，支持跨平台运行。  
+Wails 是一个使用 Go 和 Web 技术构建跨平台桌面应用程序的开发框架。它将 Go 后端代码与 Web 前端封装为单一二进制文件，无需依赖内置 Web 服务器。
 
-**主要特性：**  
-- 使用标准 Go 语言开发后端逻辑  
-- 支持任意前端技术构建 UI（如 React、Vue 等）  
-- 自动生 TypeScript 类型定义，便于前后端交互  
-- 提供原生菜单、对话框及暗黑/浅色模式支持  
-- 支持现代透明效果（如“毛玻璃”窗口）  
-- 前后端通过统一事件系统通信  
-- 内置 CLI 工具简化项目生成与构建流程  
-
-**使用方法：**  
-通过官方文档提供的安装指南进行安装，使用 CLI 工具创建项目并编译生成可执行文件。
+主要功能：
+1. **后端与前端**：后端使用标准 Go 语言，前端支持任意熟悉的 Web 技术。
+2. **通信与类型**：支持 JavaScript 直接调用 Go 方法，提供统一事件系统，自动生成 TypeScript 定义。
+3. **原生 UI**：支持原生对话框、菜单、暗黑/亮色模式及毛玻璃效果，采用操作系统原生渲染引擎（无嵌入式浏览器）。
+4. **开发工具**：提供强大的 CLI 工具，用于快速生成、编译和打包项目。
+5. **跨平台**：支持多平台运行，适合 Go 程序员快速构建轻量级桌面应用。

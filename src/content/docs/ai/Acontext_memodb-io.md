@@ -3,33 +3,14 @@
 title: Acontext
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/Acontext?style=social) ](https://github.com/memodb-io/Acontext)
-### [memodb-io Acontext](https://github.com/memodb-io/Acontext)
+### [memodb-io Acontext](https://github.com/memodb-io/Acontext)  ![GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/Acontext?style=social)
 
-**项目核心内容总结：**
+Acontext 是一个开源的代理技能记忆层，自动将代理运行中的经验（任务执行与结果）存储为可编辑的 Markdown 文件。与传统记忆方案不同，它记录“代理做了什么及结果”，而非仅存储对话或静态文档，旨在生成可复用的 SOP 和偏好设置。
 
-Acontext 是一个用于管理 AI 代理（Agent）任务和技能学习的工具，主要功能包括：
+核心功能：
+1. **技能即文件**：知识以 Markdown 存储，支持 Git 管理，无 API 锁定，兼容多框架。
+2. **自动化提炼**：从会话和工具调用中自动蒸馏有效操作和失败教训。
+3. **工具化检索**：代理通过工具调用获取完整技能单元，依赖推理而非向量搜索。
+4. **多端支持**：提供 Python 和 TypeScript SDK，支持云端及本地 Docker 部署。
 
-1. **会话与任务管理**  
-   - 创建会话，自动提取任务进度和用户反馈（如任务描述、进展、偏好）。  
-   - 支持通过 SDK 初始化客户端、发送消息、获取任务状态（如“成功”“待处理”）。  
-
-2. **技能学习与存储**  
-   - 通过连接“Space”（类似 Notion 的知识库），自动从完成的会话中提取标准化操作流程（SOP），存储为可复用的技能块。  
-   - 背景学习过程延迟约 10-30 秒，复杂任务会生成技能块供未来会话使用。  
-
-3. **技能搜索与应用**  
-   - 支持两种搜索模式：  
-     - **快速模式**：通过嵌入向量匹配技能。  
-     - **代理模式**：由“Experience Agent”遍历 Space，全面覆盖相关技能。  
-   - 返回的技能块包含工具调用规则（如“点击登录按钮”“初始化 Next.js 项目”）。  
-
-4. **使用方法**  
-   - 初始化客户端，创建会话和 Space。  
-   - 发送消息并调用 `flush()` 提取任务。  
-   - 通过 `experience_search()` 搜索并应用技能。  
-
-**主要特性**  
-- 自动化的任务追踪与背景代理（类似 TODO 列表）。  
-- Notion 风格的 Space 知识库，支持技能存储与检索。  
-- 支持中文与英文文档，提供开源许可证（Apache 2.0）。
+适用于希望避免代理重复错误并自动化沉淀最佳实践的开发者。

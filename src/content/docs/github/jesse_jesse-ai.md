@@ -3,23 +3,11 @@
 title: jesse
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jesse-ai/jesse?style=social) ](https://github.com/jesse-ai/jesse)
-### [jesse-ai jesse](https://github.com/jesse-ai/jesse)
+### [jesse-ai jesse](https://github.com/jesse-ai/jesse)  ![GitHub Repo stars](https://img.shields.io/github/stars/jesse-ai/jesse?style=social)
 
-**Jesse** 是一个用于加密货币交易的高级框架，旨在简化交易策略的研究、定义及实盘交易。其核心功能包括：  
-- **策略开发**：通过简单 Python 语法定义交易逻辑，支持多时间框架、多币种同时回测，内置 300+ 技术指标库。  
-- **交易功能**：支持市价、限价、止损单等智能下单；提供杠杆交易、做空、部分成交等高级功能。  
-- **风险管理**：内置风险控制工具，支持止损止盈设置及实时监控。  
-- **回测与优化**：支持高精度回测、性能指标分析，并可通过 AI 助手（JesseGPT）进行策略优化。  
-- **实盘与模拟**：支持纸币交易、多账户管理及实时通知（Telegram/Slack/Discord）。  
+Jesse 是一个先进的加密货币量化交易框架，旨在简化交易策略的研究、回测、优化及实盘交易流程。核心功能包括：
 
-**使用方法**：通过 [文档](https://docs.jesse.trade) 的“Getting Started”快速入门，提供代码编辑器、视频教程及社区支持。  
-
-**主要特性**：  
-- 简单语法定义复杂策略；  
-- 多时间框架/币种支持；  
-- 自托管隐私保护；  
-- AI 辅助策略编写与优化；  
-- 实时警报与可视化分析。  
-
-**注意事项**：软件仅用于教育，实盘交易需自行承担风险。
+1. **策略开发**：提供简洁的 Python 语法，内置 300+ 技术指标库、风险管理和调试工具。
+2. **交易执行**：支持现货与合约（含杠杆/做空），兼容市场/限价/止损单，支持多时间周期和币种。
+3. **回测与优化**：提供无未来函数的高精度回测、策略基准对比、性能评估指标、AI 辅助（JesseGPT）及超参数自动优化。
+4. **监控与部署**：支持本地私有部署，提供模拟/实盘交易、多平台通知（Telegram/Slack/Discord）及内置代码编辑器。

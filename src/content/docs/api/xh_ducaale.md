@@ -3,26 +3,6 @@
 title: xh
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ducaale/xh?style=social) ](https://github.com/ducaale/xh)
-### [ducaale xh](https://github.com/ducaale/xh)
+### [ducaale xh](https://github.com/ducaale/xh)  ![GitHub Repo stars](https://img.shields.io/github/stars/ducaale/xh?style=social)
 
-**项目核心内容总结：**  
-`xh` 是一个快速、友好的 HTTP 请求工具，借鉴了 HTTPie 的设计，但注重性能优化。支持发送 GET、POST 等请求，设置请求头、查询参数、请求体等，可读取文件或标准输入作为请求数据。  
-
-**功能与使用方法：**  
-- **安装方式**：支持通过脚本安装、包管理器（如 Cargo、Homebrew、Nix 等）或直接下载预编译二进制文件。  
-- **命令语法**：使用 `xh [方法] URL [请求项]` 格式，支持 `=`（JSON/表单字段）、`==`（查询参数）、`@`（文件上传）等语法。  
-- **URL 简写**：`localhost` 可简写为 `:` 或 `://`，如 `:3000` 等价于 `http://localhost:3000`。  
-- **HTTPS 默认**：若二进制文件名为 `xhs` 或 `https`，默认使用 HTTPS。  
-
-**主要特性：**  
-- 启动速度快，支持 HTTP/2。  
-- 内置 `--curl` 选项生成等效 curl 命令。  
-- 单个静态链接二进制文件，便于携带和安装。  
-- 支持会话管理、代理、SSL 验证、下载续传等功能。  
-
-**与 HTTPie 的差异：**  
-- 未完全实现 HTTPie 所有功能，文档和插件系统较弱。  
-- 默认启用 `--check-status`（失败时返回错误状态码），兼容模式下可关闭。  
-
-**适用场景**：快速调试 API、命令行下发送 HTTP 请求、替代 HTTPie 或 curl 的轻量级工具。
+xh 是一个基于 Rust 开发的友好且快速的 HTTP 请求命令行工具，复刻了 HTTPie 的设计与语法，强调性能提升与静态单二进制分发。它支持多种 HTTP 方法、数据格式（JSON/表单/多部分）、认证机制（Basic/Bearer/Digest）及 HTTP/2 协议。具备文件下载、代理、SSL/TLS 验证、重定向、自定义输出格式、curl 命令翻译及 HTTPie 兼容模式等功能。

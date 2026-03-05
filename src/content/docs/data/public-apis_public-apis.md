@@ -3,17 +3,6 @@
 title: public-apis
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social) ](https://github.com/public-apis/public-apis)
-### [public-apis public-apis](https://github.com/public-apis/public-apis)
+### [public-apis public-apis](https://github.com/public-apis/public-apis)  ![GitHub Repo stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social)
 
-**项目功能**  
-这是一个公开的API资源列表，按类别（如天气、视频、音乐、地图等）分类，包含数百个免费API接口，每个接口提供名称、描述、认证方式（如是否需要API密钥）、是否支持HTTPS和CORS信息，帮助开发者快速查找和使用所需服务。
-
-**使用方法**  
-访问项目页面，根据分类浏览API列表，选择目标API后，按文档说明获取认证信息（如注册API密钥），通过HTTP请求调用对应接口。
-
-**主要特性**  
-1. **分类清晰**：按功能领域划分，便于定位需求。  
-2. **信息全面**：每个API包含认证要求、协议支持等关键信息。  
-3. **开源免费**：项目本身使用MIT协议开源，所有API均提供免费服务。  
-4. **实时更新**：持续维护和新增API，覆盖主流开发需求。
+该项目是一个由社区与 APILayer 合作手动维护的公共 API 集合库，收录了大量覆盖多领域的免费公共 API。内容涵盖动物、动漫、金融、区块链、天气、地理、社交媒体及工具等广泛分类。每个 API 条目均提供功能描述、认证方式、HTTPS 及 CORS 支持状态，旨在帮助开发者快速查找并集成适合其产品的 API 服务，遵循 MIT 开源协议。

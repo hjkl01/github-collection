@@ -3,22 +3,6 @@
 title: pansou
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fish2018/pansou?style=social) ](https://github.com/fish2018/pansou)
-### [fish2018 pansou](https://github.com/fish2018/pansou)
+### [fish2018 pansou](https://github.com/fish2018/pansou)  ![GitHub Repo stars](https://img.shields.io/github/stars/fish2018/pansou?style=social)
 
-**项目核心内容总结：**
-
-1. **项目功能**  
-   - 一个基于Telegram频道和插件的资源搜索工具，支持从百度网盘、夸克网盘、阿里云盘等多平台抓取资源链接。  
-   - 提供搜索、健康检查、认证管理等接口，可按关键词、网盘类型、过滤条件（如包含/排除特定标签）筛选结果。  
-
-2. **使用方法**  
-   - **搜索接口**：通过POST/GET请求调用`/api/search`，传入关键词、频道、插件、网盘类型等参数，支持JSON格式过滤器（如筛选含“合集”且不含“预告”的结果）。  
-   - **认证**：启用后需在请求头添加`Authorization`令牌（Bearer格式）。  
-   - **健康检查**：通过`/api/health`接口查看服务状态、插件和频道配置信息。  
-
-3. **主要特性**  
-   - **多源支持**：集成Telegram频道（如`tgsearchers3`）和16个插件（如`jikepan`、`labi`）。  
-   - **结果聚合**：返回原始消息数据及按网盘类型分类的聚合链接（如`merged_by_type`）。  
-   - **限流与安全**：支持认证鉴权，防止滥用；提供详细的错误码（如参数错误、Token失效）。  
-   - **灵活过滤**：支持通过`filter.include`/`filter.exclude`自定义关键词筛选规则。
+PanSou 是一个高性能网盘资源搜索 API 服务，支持 Telegram 频道及自定义插件搜索。系统采用并发执行、异步插件机制及分片内存与磁盘二级缓存提升性能，支持基于多维度算法的智能排序与网盘类型自动分类。涵盖百度网盘、阿里云盘、夸克网盘等多种资源类型及磁力链接。支持 MCP 协议集成，提供 JWT 认证与灵活配置，支持 Docker 及源码部署。

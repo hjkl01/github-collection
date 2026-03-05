@@ -3,23 +3,6 @@
 title: GeoIP2-CN
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Hackl0us/GeoIP2-CN?style=social) ](https://github.com/Hackl0us/GeoIP2-CN)
-### [Hackl0us GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)
+### [Hackl0us GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)  ![GitHub Repo stars](https://img.shields.io/github/stars/Hackl0us/GeoIP2-CN?style=social)
 
-**项目核心内容总结：**  
-GeoIP2-CN 是一个专为中国大陆优化的 GeoIP2 数据库，解决传统 MaxMind 数据库存在的下载不便、体积庞大和准确度低等问题。项目通过整合 ipip.net 和纯真数据库的 IP 地址段，生成仅包含中国大陆 IP 的轻量级数据库（约 100KB），查询效率高且准确度优于原版。  
-
-**使用方法：**  
-- 下载 CN-ip-cidr.txt（适用于防火墙等工具）或 Country.mmdb（适用于 Surge、Shadowrocket、Clash 等代理工具），支持 GitHub RAW 和 CDN 加速两种方式。  
-- 根据项目 Wiki 提供的教程，在对应工具中配置数据库路径及规则。  
-
-**主要特性：**  
-1. **高精度**：基于 ipip.net 和纯真数据库，精准覆盖中国大陆 IP 地址段。  
-2. **轻量化**：体积仅为 100KB，加载速度快，减少冗余数据。  
-3. **自动化更新**：每 3 天自动更新，无需人工干预。  
-4. **CDN 加速**：全球分发，提升下载速度。  
-
-**注意事项：**  
-- 配置时需禁用原有中国大陆 IP 规则，避免冲突。  
-- GEOIP-CN 规则应置于最终规则前，确保优先级。  
-- 数据库不支持查询非中国大陆地区 IP，相关规则需删除。
+GeoIP2-CN 是一个专为代理工具优化的小型 GeoIP2 数据库项目。它整合了 ipip.net 和纯真 IP 数据中的中国大陆地址段，仅保留国内 IP 信息，具有体积小（约 100KB）、查询效率高、判定准确的特点。项目支持全球 CDN 分发和每 3 天自动化更新，适用于 Surge、Shadowrocket、Clash 等工具，用于识别 IP 归属地以实现直连分流。

@@ -3,24 +3,14 @@
 title: vibe-kanban
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/BloopAI/vibe-kanban?style=social) ](https://github.com/BloopAI/vibe-kanban)
-### [BloopAI vibe-kanban](https://github.com/BloopAI/vibe-kanban)
+### [BloopAI vibe-kanban](https://github.com/BloopAI/vibe-kanban)  ![GitHub Repo stars](https://img.shields.io/github/stars/BloopAI/vibe-kanban?style=social)
 
-**项目核心内容总结：**  
-Vibe Kanban 是一个用于管理 AI 编码代理（如 Claude Code、Gemini CLI 等）的工具，帮助用户更高效地规划、执行和追踪编码任务。  
+Vibe Kanban 是一款旨在提升编码代理工作效率的协作工具，核心功能如下：
 
-**主要功能：**  
-- 支持切换不同编码代理，并行或顺序执行任务；  
-- 快速审查代理生成的代码，启动开发服务器；  
-- 实时跟踪任务状态，集中管理代理配置；  
-- 支持通过 SSH 远程访问和操作项目。  
-
-**使用方法：**  
-1. 安装：在终端运行 `npx vibe-kanban`；  
-2. 配置：通过网页界面设置代理、远程 SSH 等参数；  
-3. 运行：启动后可通过界面管理任务，支持远程开发。  
-
-**主要特性：**  
-- 集成主流 AI 编码代理，简化多代理协作流程；  
-- 提供可视化任务管理界面，支持实时状态追踪；  
-- 支持远程开发，通过 SSH 连接服务器进行项目操作。
+1. **任务规划**：通过 Kanban 看板创建、优先级排序和分配工作任务。
+2. **代理工作空间**：为编码代理提供独立的代码分支、终端和开发服务器环境。
+3. **代码审查与反馈**：审查代码差异，直接在界面留下行内评论并发送反馈给代理。
+4. **应用预览**：内置浏览器支持调试、检查模式及多设备模拟。
+5. **多代理支持**：兼容 Claude Code、Gemini CLI、Copilot 等 10 多种编程助手。
+6. **PR 管理**：生成包含 AI 描述的拉取请求并处理合并。
+7. **部署灵活**：支持一键运行、本地自托管及远程 SSH 访问。

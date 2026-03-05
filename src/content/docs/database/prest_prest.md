@@ -3,26 +3,6 @@
 title: prest
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/prest/prest?style=social) ](https://github.com/prest/prest)
-### [prest prest](https://github.com/prest/prest)
+### [prest prest](https://github.com/prest/prest)  ![GitHub Repo stars](https://img.shields.io/github/stars/prest/prest?style=social)
 
-**项目核心内容总结**  
-pRESTd 是一个基于 PostgreSQL 的轻量级 RESTful API 工具，可快速构建高性能、实时的数据库接口。  
-
-**功能**  
-- 直接通过 SQL 查询和 URL 模板操作数据库；  
-- 支持认证授权、自定义路由和中间件；  
-- 提供高性能优化及实时数据交互。  
-
-**使用方法**  
-- 通过 Heroku 一键部署（集成 Heroku Postgres）；  
-- 使用 Docker 运行测试（无需本地 PostgreSQL）：`make test` 或 `docker compose` 命令。  
-
-**主要特性**  
-- 轻量级服务器，配置简单；  
-- 支持 PostgreSQL 9.5 及以上版本；  
-- 可插拔架构，支持扩展自定义功能；  
-- 提升开发效率，减少重复代码。  
-
-**文档**  
-详见 [https://docs.prestd.com/](https://docs.prestd.com/)。
+pRESTd 是一款基于 Go 语言开发的生产级 RESTful API 服务器。它可直接连接 PostgreSQL 数据库（9.5 及以上版本），提供即时、实时且高性能的 API 服务。主要功能包括支持通过自定义 URL 执行带模板的 SQL 查询、高性能优化、身份验证与授权机制，以及支持可插拔的自定义路由和中间件。该工具旨在简化基于 PostgreSQL 的 API 开发流程，提升开发者生产力。

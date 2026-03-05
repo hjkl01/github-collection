@@ -3,13 +3,6 @@
 title: computer-science
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ossu/computer-science?style=social) ](https://github.com/ossu/computer-science)
-### [ossu computer-science](https://github.com/ossu/computer-science)
+### [ossu computer-science](https://github.com/ossu/computer-science)  ![GitHub Repo stars](https://img.shields.io/github/stars/ossu/computer-science?style=social)
 
-**项目核心内容总结：**  
-OSSU（开源大学）提供了一套完整的计算机科学自学课程体系，涵盖编程基础、算法、数据结构、计算机组成、操作系统、网络、数据库、信息安全等核心领域，以及数学、项目实践等进阶内容。课程按阶段划分，包括基础课程（如Python、Java）、核心计算机科学课程（如算法、操作系统）、高级专题（如机器学习、区块链）和最终项目。用户可通过GitHub仓库标记学习进度，使用Kanban板管理学习任务。项目特点包括：课程资源免费开放、分层次学习路径、强调实践（含多个项目开发课程）、社区支持（提供代码规范与团队协作）。  
-
-**使用方法：**  
-1. 在GitHub上Fork该项目仓库；  
-2. 在对应课程条目旁用✅标记已完成内容；  
-3. 根据课程列表自主学习，完成最终项目以巩固知识。
+本项目提供一条完整的免费在线计算机科学自学教育路径，旨在替代本科计算机学位。课程体系基于 CS 2013 标准，分为入门、核心（必修）、进阶（选修）及最终项目四个阶段，涵盖编程、数学、系统、理论、安全等核心领域。课程资源精选自哈佛、MIT 等世界顶尖大学，学习者需结合社区支持进行自律学习，预计耗时约两年，完成后具备相当于学士学位的专业水平。

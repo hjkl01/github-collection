@@ -3,22 +3,13 @@
 title: VibeVoice
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/VibeVoice?style=social) ](https://github.com/microsoft/VibeVoice)
-### [microsoft VibeVoice](https://github.com/microsoft/VibeVoice)
+### [microsoft VibeVoice](https://github.com/microsoft/VibeVoice)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/VibeVoice?style=social)
 
-**项目核心内容总结：**
+VibeVoice 是微软开源的语音 AI 模型系列，涵盖文本转语音（TTS）和自动语音识别（ASR），核心采用 7.5 Hz 超低帧率连续语音词元器及 LLM 扩散生成框架。
 
-VibeVoice 是微软开源的语音生成框架，支持从文本生成**多说话人、长篇幅**（最长90分钟）的自然对话音频（如播客），并提供**实时流式TTS**模型（首句延迟约300ms）。其核心创新包括：  
-- 使用7.5Hz超低帧率的**连续语音分词器**（语义与声学），兼顾音质与计算效率；  
-- 基于**LLM+扩散框架**，理解上下文并生成高保真语音。  
+主要功能包括：
+1. **长时语音识别 (ASR)**：支持 60 分钟音频单遍处理，输出结构化转录（说话人、时间、内容），支持 50+ 语言及自定义热词。
+2. **长时多角色合成 (TTS)**：支持 90 分钟语音生成，单会话兼容 4 种不同音色，支持多语言及高表现力。
+3. **实时流式合成 (Streaming TTS)**：轻量化（0.5B）模型，支持文本流输入，首音延迟约 300 毫秒，适用于长语音实时生成。
 
-**使用方法**：  
-- 通过 Colab 示例（[链接](https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/vibevoice_realtime_colab.ipynb)）体验实时TTS；  
-- 通过 WebSocket 示例启动本地演示（见文档 [Usage](docs/vibevoice-realtime-0.5b.md)）；  
-- 从 Hugging Face 获取模型集合（[链接](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)）。  
-
-**主要限制与风险**：  
-- 仅支持**中英文**，其他语言可能生成异常音频；  
-- **不处理背景音、音乐或重叠语音**；  
-- 高质量合成语音可能被用于**深度伪造或虚假信息**，需确保文本可靠性并合法使用；  
-- 项目曾因滥用风险暂停，当前仅限**研究用途**，不推荐直接用于商业场景。
+项目面向研发目的，要求用户负责任使用并确保合规。

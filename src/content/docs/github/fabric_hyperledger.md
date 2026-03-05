@@ -3,19 +3,6 @@
 title: fabric
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hyperledger/fabric?style=social) ](https://github.com/hyperledger/fabric)
-### [hyperledger fabric](https://github.com/hyperledger/fabric)
+### [hyperledger fabric](https://github.com/hyperledger/fabric)  ![GitHub Repo stars](https://img.shields.io/github/stars/hyperledger/fabric?style=social)
 
-**核心内容总结：**  
-Hyperledger Fabric 是一个模块化架构的分布式账本平台，支持高保密性、弹性、灵活性和可扩展性，适用于企业级区块链解决方案。其特点包括：  
-1. **可插拔组件**：允许根据需求替换不同模块，适应复杂经济生态。  
-2. **弹性架构**：区别于其他区块链方案，提供高度可扩展性。  
-3. **企业适用性**：基于开源框架，适合企业区块链项目启动。  
-
-**使用方法**：  
-通过官方文档（如 [v2.5 入门指南](http://hyperledger-fabric.readthedocs.io/en/release-2.5/)）了解组件和交易流程。当前推荐使用 **LTS 版本 v2.5.x**，历史 LTS 版本包括 v2.2.x（已停维）和 v1.4.x（已停维）。  
-
-**主要特性**：  
-- 支持长期维护的版本（LTS）。  
-- 提供全面的社区支持（邮件列表、Discord、GitHub 问题跟踪）。  
-- 代码遵循 Apache 2.0 许可证，文档采用 CC-BY-4.0 许可证。
+Hyperledger Fabric 是 Hyperledger 旗下专为企业级分布式账本解决方案设计的成熟开源项目。它采用弹性且可扩展的模块化架构，提供高机密性、韧性、灵活性和可扩展性，支持组件的可插拔实现以适应复杂经济生态。项目提供周期性版本更新及长期支持（LTS），基于 Apache-2.0 协议，是构建企业区块链应用的理想基础框架。

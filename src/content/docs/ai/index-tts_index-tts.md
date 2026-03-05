@@ -3,25 +3,12 @@
 title: index-tts
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/index-tts/index-tts?style=social) ](https://github.com/index-tts/index-tts)
-### [index-tts index-tts](https://github.com/index-tts/index-tts)
+### [index-tts index-tts](https://github.com/index-tts/index-tts)  ![GitHub Repo stars](https://img.shields.io/github/stars/index-tts/index-tts?style=social)
 
-**项目核心内容总结：**  
+IndexTTS2 是一款自回归零样本文本转语音（TTS）模型，核心功能总结如下：
 
-1. **项目功能**  
-   IndexTTS2 是一个支持情感表达和时长控制的文本到语音合成系统，可生成多语言语音，支持中文拼音控制，提供高质量、可控的语音合成能力。  
-
-2. **使用方法**  
-   - 安装依赖后，使用 uvp、vits 或 gsvits 模型进行推理。  
-   - 通过参考语音、文本情感描述（如“害怕”“兴奋”）或拼音标注控制语音情感与发音。  
-   - 支持调整情感强度（`emo_alpha`）、随机性（`use_random`）等参数。  
-
-3. **主要特性**  
-   - **情感与时长控制**：支持基于参考语音、文本描述或拼音的多维度情感调控。  
-   - **多语言支持**：覆盖中文、英文等多种语言，兼容混合中文字符与拼音的输入。  
-   - **高效推理框架**：提供快速部署与系统集成能力，适配工业级应用场景。  
-   - **模型兼容性**：兼容 IndexTTS1 旧版本，支持不同模型架构（uvp、vits、gsvits）。  
-
-4. **其他信息**  
-   - 提供 HuggingFace、ModelScope 等平台的在线演示与模型下载。  
-   - 依赖 NVIDIA 的 BigVGAN 等开源技术，支持社区贡献与扩展。
+1.  **时长可控**：首创支持精确指定生成时长（显式 Token 数）与自然自由生成模式相结合的时长适应方案，适用于视频配音等强同步场景。
+2.  **情感解耦**：实现情感表达与说话人身份分离，支持通过音频提示、文本描述（基于微调 Qwen3）及向量灵活控制情感，且不影响音色还原。
+3.  **语音克隆**：支持零样本音色重构，仅需少量参考音频即可准确复刻目标声纹。
+4.  **高性能**：在字错率、说话人相似度和情感保真度上优于当前最先进的零样本 TTS 模型。
+5.  **多语言与易用性**：支持中英文等多语言合成，提供 WebUI 及 Python API 接口，兼容 FP16、DeepSpeed 等推理加速选项。

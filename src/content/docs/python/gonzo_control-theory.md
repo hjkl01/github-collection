@@ -3,34 +3,6 @@
 title: gonzo
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/control-theory/gonzo?style=social) ](https://github.com/control-theory/gonzo)
-### [control-theory gonzo](https://github.com/control-theory/gonzo)
+### [control-theory gonzo](https://github.com/control-theory/gonzo)  ![GitHub Repo stars](https://img.shields.io/github/stars/control-theory/gonzo?style=social)
 
-**项目功能：**  
-Gonzo 是一个基于终端的实时日志分析工具，支持多种日志格式（包括 OTLP），并提供丰富的分析功能，如频率统计、AI 集成等。它还支持 Kubernetes 集成，允许用户通过 K9s 进行实时日志分析。
-
-**使用方法：**  
-- 使用命令行参数指定日志文件或通过环境变量设置；
-- 支持通过 `kubectl logs` 与 K9s 集成；
-- 提供 Shell 补全功能，便于命令行操作；
-- 可通过 `--skin` 参数选择不同主题。
-
-**主要特性：**  
-- 支持 OTLP、JSON、CSV 等日志格式；
-- 实时频率统计和分析；
-- AI 集成，支持日志内容分析；
-- 多种主题支持，界面美观；
-- 支持 Kubernetes 集群日志分析；
-- 提供丰富的文档和社区支持；
-- 开源，基于 MIT 协议。
-
-**开发信息：**  
-- 使用 Go 语言编写；
-- 使用 Bubble Tea、Lipgloss 等库构建终端 UI；
-- 支持跨平台编译；
-- 提供详细的开发文档和测试用例。
-
-**扩展性：**  
-- 用户可自定义主题；
-- 社区提供扩展主题和插件；
-- 支持插件系统，便于集成到其他工具（如 K9s）。
+Gonzo 是一款基于 Go 语言开发的终端用户界面 (TUI) 日志分析工具。它支持实时接收并处理来自文件、标准输入、Kubernetes 集群及 OpenTelemetry (OTLP) 协议的日志流。主要功能包括：交互式仪表盘，提供词频、严重程度分布和时间序列等实时图表；AI 智能分析，支持多种模型进行模式识别、异常检测及根因建议；高级过滤，支持正则表达式、属性值搜索及 Kubernetes 过滤；以及高度可定制性，包含多种内置主题、自定义日志格式配置和 OTLP 接收器。该工具旨在通过终端环境提供高效、可视化的日志监控与故障排查体验。

@@ -3,23 +3,6 @@
 title: crocodile
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/labulakalia/crocodile?style=social) ](https://github.com/labulakalia/crocodile)
-### [labulakalia crocodile](https://github.com/labulakalia/crocodile)
+### [labulakalia crocodile](https://github.com/labulakalia/crocodile)  ![GitHub Repo stars](https://img.shields.io/github/stars/labulakalia/crocodile?style=social)
 
-**项目核心内容总结：**  
-
-**功能**  
-Crocodile 是一个基于 Golang 的分布式任务调度系统，支持通过 Web 界面管理任务，支持 HTTP 请求、Shell、Python、Go 等多种脚本语言任务。提供父子任务依赖关系、实时日志查看与终止、多调度算法（随机、轮询、权重、最小负载）、自定义报警策略（邮件、微信、钉钉等）、主机组管理、安全认证（证书加密、Token）等功能。  
-
-**使用方法**  
-1. **快速启动**：通过 `docker-compose up -d` 部署，访问 `http://yourip:8080` 初始化系统。  
-2. **手动安装**：下载并解压，安装 Redis 和 MySQL，配置 `core.toml` 文件，生成证书（如需），运行调度中心（`./crocodile server -c core.toml`）和 Worker 节点（`./crocodile client -c core.toml`）。  
-
-**主要特性**  
-- 支持多种任务类型（HTTP、Shell、Python、Go 等）。  
-- 父子任务依赖与串并行控制。  
-- 四种调度算法（随机、轮询、权重、最小负载）。  
-- 自定义报警策略，支持多平台通知（邮件、微信、钉钉、Slack、Telegram 等）。  
-- 权限分级控制（管理员、普通用户、访客）。  
-- 支持多平台（Linux、Mac、Windows）。  
-- 任务日志管理、审计记录与清理。
+Crocodile 是一款基于 Golang 的分布式任务调度系统，支持 Web 界面进行任务管理（增删改查克隆），提供实时日志监控与任务终止功能。系统支持 HTTP 请求及 Golang、Python、Shell、Nodejs、Bat 等多种脚本执行，提供随机、轮询、权重等调度算法，支持父子任务关联与串行/并行执行策略。具备完善的告警通知功能，支持邮件、微信、钉钉等多种渠道，并可自定义任务成功判定标准。系统采用调度中心与 Worker 节点架构，支持宿主机分组与动态发现，利用 Redis 和 MySQL 存储，提供证书加密通信、访问令牌、多角色权限控制及操作审计等安全机制，兼容 Linux、Mac、Windows 平台。

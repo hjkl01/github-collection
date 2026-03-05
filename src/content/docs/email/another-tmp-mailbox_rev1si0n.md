@@ -3,26 +3,6 @@
 title: another-tmp-mailbox
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rev1si0n/another-tmp-mailbox?style=social) ](https://github.com/rev1si0n/another-tmp-mailbox)
-### [rev1si0n another-tmp-mailbox](https://github.com/rev1si0n/another-tmp-mailbox)
+### [rev1si0n another-tmp-mailbox](https://github.com/rev1si0n/another-tmp-mailbox)  ![GitHub Repo stars](https://img.shields.io/github/stars/rev1si0n/another-tmp-mailbox?style=social)
 
-**项目核心内容总结：**
-
-1. **功能**  
-   提供无需注册的临时邮箱服务，支持接收富文本格式邮件（HTML）、RSS订阅自动刷新、手动删除账号，邮箱地址独立且无需绑定手机号。
-
-2. **使用场景**  
-   适用于临时注册网站（如需邮箱验证）、避免信息泄露等场景，替代传统需手机号注册的邮箱服务。
-
-3. **部署方法**  
-   - 配置云服务器安全组开放25端口入站。  
-   - 设置域名DNS解析：A记录指向服务器IP，MX记录指向自身域名。  
-   - 使用Docker构建镜像，修改`docker-compose.yaml`中的域名及访问端口后启动服务。
-
-4. **主要特性**  
-   - 仅支持接收邮件，无法发送邮件（因服务器限制25端口出站）。  
-   - 部署简单，后端代码量少（约200行）。  
-   - 前端基于开源项目修改，非原创开发。  
-
-5. **限制**  
-   邮箱功能受限于服务器配置，需自行维护域名与网络权限。
+这是一个支持自行部署的临时邮箱服务。无需注册即可使用独立邮箱地址，支持接收富文本邮件、RSS 订阅、自动刷新及手动删除账号。服务仅能接收邮件，无法发送，适用于临时注册网站账号以保护隐私。

@@ -3,22 +3,12 @@
 title: pydictor
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LandGrey/pydictor?style=social) ](https://github.com/LandGrey/pydictor)
-### [LandGrey pydictor](https://github.com/LandGrey/pydictor)
+### [LandGrey pydictor](https://github.com/LandGrey/pydictor)  ![GitHub Repo stars](https://img.shields.io/github/stars/LandGrey/pydictor?style=social)
 
-**pydictor 核心内容总结：**
+pydictor 是一款用于暴力破解的字典生成与管理工具，核心功能如下：
 
-**项目功能：**  
-pydictor 是一款用于生成暴力破解字典的工具，支持多种字典类型（如基础字典、字符组合、扩展规则、社会工程等），提供内置工具处理字典（合并、去重、频率统计等），并支持自定义编码脚本、插件和配置文件，实现高度定制化生成。
-
-**使用方法：**  
-1. 克隆仓库：`git clone --depth=1 --branch=master https://www.github.com/landgrey/pydictor.git`  
-2. 进入目录并赋予权限：`cd pydictor/ && chmod +x pydictor.py`  
-3. 运行脚本：`python pydictor.py`  
-
-**主要特性：**  
-- **高度定制化**：通过修改配置文件、添加自定义编码脚本（如 `/lib/encode/`）、插件（`/plugins/`）及工具（`/tools/`）实现复杂字典生成。  
-- **多样化生成规则**：支持长度范围、前后缀、正则过滤、leet模式（替代字符）、字符频率/类型/重复次数控制等。  
-- **兼容性强**：支持 Python 2.7 及 3.x 版本，跨平台运行（Windows/Linux/Mac）。  
-- **内置工具链**：提供合并、对比、去重、编码、混合生成等工具，满足字典预处理需求。  
-- **扩展性**：支持插件生成（如生日、身份证尾号、网页关键词等）及多级规则配置（如 `/funcfg/` 中的扩展规则）。
+1.  **多类型字典生成**：支持生成通用爆破字典、基于 Web 内容定制字典、社会工程学字典，以及生日、身份证、FTP 密码等特定规则字典。
+2.  **字典处理工具**：内置合并、去重、频率统计、文件比较、前后缀添加、安全删除及自定义脚本过滤等功能。
+3.  **高度定制能力**：支持修改配置文件、添加自定义字典与插件脚本、启用 Leet 模式，支持按长度、字符类型、出现次数、正则表达式进行过滤。
+4.  **丰富编码支持**：支持 Base16/32/64、MD5/SHA 系列、URL 编码及自定义加密脚本（如 RSA、HMAC 等）。
+5.  **跨平台兼容**：兼容 Python 2.7 和 3.x 版本，支持 Windows、Linux 和 Mac 操作系统。

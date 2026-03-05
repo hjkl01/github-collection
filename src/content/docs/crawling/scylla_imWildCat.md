@@ -3,19 +3,13 @@
 title: scylla
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/imWildCat/scylla?style=social) ](https://github.com/imWildCat/scylla)
-### [imWildCat scylla](https://github.com/imWildCat/scylla)
+### [imWildCat scylla](https://github.com/imWildCat/scylla)  ![GitHub Repo stars](https://img.shields.io/github/stars/imWildCat/scylla?style=social)
 
-Scylla 是一个智能代理池工具，用于从互联网抓取内容并构建大型语言模型。其核心功能包括：自动爬取和验证代理IP、提供JSON API接口、支持网页界面（可查看代理IP地理分布等信息）、集成Scrapy和requests库（仅需一行代码）、内置HTTP转发代理服务器。  
+Scylla 是一个智能代理池项目，旨在帮助用户从互联网提取内容以构建大型语言模型。其核心功能如下：
 
-**使用方法**：  
-1. **安装**：推荐使用Docker（`docker run`命令），或通过pip安装（`pip install scylla`），也可从源码安装。  
-2. **访问API**：通过`http://localhost:8899/api/v1/proxies`获取代理IP列表，支持分页、匿名性、HTTPS协议、国家筛选等参数。  
-3. **使用代理服务器**：默认在8081端口启动HTTP转发代理，可用`curl -x http://127.0.0.1:8081`或`requests`库调用。  
-4. **网页界面**：访问`http://localhost:8899`查看代理列表及全球地理分布地图。  
-
-**主要特性**：  
-- 一键启动，无需复杂配置；  
-- 支持多种爬虫框架集成；  
-- 提供系统统计信息（如代理延迟、有效性等）；  
-- 开源协议为Apache 2.0。
+1. 自动代理 IP 爬取与验证。
+2. 提供 HTTP 转发代理服务。
+3. 提供易用的 JSON API 和 Web 用户界面（含代理列表及地理位置分布）。
+4. 支持 Scrapy 和 requests 库的便捷集成。
+5. 支持无头浏览器爬取。
+6. 支持 Docker、pip 或源码安装，可实现极简启动（仅需 1 条命令）。

@@ -3,13 +3,6 @@
 title: harper
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Automattic/harper?style=social) ](https://github.com/Automattic/harper)
-### [Automattic harper](https://github.com/Automattic/harper)
+### [Automattic harper](https://github.com/Automattic/harper)  ![GitHub Repo stars](https://img.shields.io/github/stars/Automattic/harper?style=social)
 
-Harper 是一款专注于英语语法检查的工具，旨在提供高效、私密且轻量级的体验。其核心特性包括：  
-- **功能**：快速检查语法错误（毫秒级响应），支持 WebAssembly 加载，确保隐私（不传输用户数据）。  
-- **使用方法**：可通过支持的编辑器插件（如 VS Code、Neovim、Obsidian 等）集成使用，或通过 `harper-ls` 语言服务器进行开发环境集成。  
-- **主要优势**：内存占用极低（不足 LanguageTool 的 1/50），无需依赖大型语言模型或额外资源，且完全本地处理数据。  
-- **扩展性**：当前仅支持英语，但核心架构支持未来扩展其他语言。  
-
-项目鼓励用户反馈性能问题，并接受社区贡献以优化工具。
+Harper 是一款高性能、注重隐私的英文语法检查工具。它采用本地处理机制确保数据隐私，具备毫秒级响应速度和极低的内存占用，支持 WebAssembly 加载。目前仅支持英语，但核心架构可扩展，并集成了 VS Code、Neovim、Obsidian 等多种编辑器环境。

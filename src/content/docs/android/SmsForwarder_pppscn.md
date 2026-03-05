@@ -3,28 +3,6 @@
 title: SmsForwarder
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pppscn/SmsForwarder?style=social) ](https://github.com/pppscn/SmsForwarder)
-### [pppscn SmsForwarder](https://github.com/pppscn/SmsForwarder)
+### [pppscn SmsForwarder](https://github.com/pppscn/SmsForwarder)  ![GitHub Repo stars](https://img.shields.io/github/stars/pppscn/SmsForwarder?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-SmsForwarder 是一款 Android 短信转发工具，可监控短信、来电、APP 通知，并根据规则转发至钉钉、企业微信、飞书、邮箱、Webhook 等平台。支持远程控制（发短信、查信息、查电量等），并新增自动任务与快捷指令功能，实现自动化操作。
-
-**使用方法**  
-1. 从 GitHub/Gitee 下载安装 APK 或通过在线更新获取最新版本。  
-2. 配置转发规则（如目标平台、触发条件）。  
-3. 启用监控功能，系统自动转发符合条件的信息。  
-4. 通过客户端远程控制手机（需服务端支持）。
-
-**主要特性**  
-- 支持多平台消息转发（钉钉、企业微信、飞书、邮箱等）。  
-- 远程控制功能（发短信、查通话记录、电量等）。  
-- 自动任务与快捷指令，提升操作效率。  
-- 适配 Android 4.4 至 13.0 系统。  
-- 提供预览体验计划，可在线更新测试版。  
-
-**注意事项**  
-- 仅限学习测试，禁止商业用途。  
-- 不收集用户隐私数据，但会发送版本信息用于统计。  
-- 提醒用户警惕网络诈骗，项目不参与刷单返利活动。
+SmsForwarder（短信转发器）是一款 Android 应用程序，核心功能为监控手机短信、来电及 APP 通知，并根据规则转发至钉钉、企业微信、飞书、邮箱、Webhook、Telegram 等多种第三方平台。支持远程主动控制服务端与客户端（如远程发短信、查通话、查电量等），并提供自动任务与快捷指令功能。项目适配 Android 4.4 至 13.0 版本，开源免费且承诺不收集用户隐私数据。

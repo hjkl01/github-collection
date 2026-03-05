@@ -3,20 +3,6 @@
 title: lake
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/merico-dev/lake?style=social) ](https://github.com/merico-dev/lake)
-### [merico-dev lake](https://github.com/merico-dev/lake)
+### [merico-dev lake](https://github.com/merico-dev/lake)  ![GitHub Repo stars](https://img.shields.io/github/stars/merico-dev/lake?style=social)
 
-Apache DevLake 是一个开源的开发数据平台，用于整合 DevOps 工具中的碎片化数据，通过分析和可视化帮助团队提升工程效率、优化开发者体验并推动社区发展。其核心功能包括：  
-1. **数据整合**：支持 GitHub、GitLab、Jira、Sonarqube 等主流工具的数据接入，统一管理软件开发生命周期（SDLC）数据。  
-2. **预置分析**：提供基于 DORA 指标和敏捷回顾的仪表盘，支持常见框架和目标的度量。  
-3. **灵活扩展**：可通过插件扩展数据源、指标和看板，适配不同团队需求。  
-
-**使用方法**：  
-- 安装方式支持 Docker Compose 或 Helm。  
-- 通过“蓝图配置”定义数据连接、采集范围及同步频率。  
-- 完成数据采集后，可查看预置仪表盘，并通过 SQL 自定义分析。  
-
-**主要特性**：  
-- 提供实时演示环境和多种数据源支持。  
-- 社区驱动开发，支持插件贡献和文档协作。  
-- 开源协议为 Apache 2.0，提供中文文档和活跃的 Slack 社区支持。
+Apache DevLake 是一个开源开发数据平台，可从 GitHub、GitLab、Jira 等 DevOps 工具中采集、分析和可视化碎片化数据。它帮助团队整合数据孤岛，提供软件开发生命周期（SDLC）的完整视图，支持工程卓越性和开发者体验分析。平台通过 Grafana 仪表盘实现 DORA 等指标度量，采用灵活框架支持扩展新数据源。用户可通过配置蓝图（Blueprint）定义数据收集策略，查看预构建仪表盘或自定义 SQL 进行深度分析。

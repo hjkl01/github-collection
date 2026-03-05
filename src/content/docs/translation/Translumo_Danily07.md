@@ -3,34 +3,15 @@
 title: Translumo
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Danily07/Translumo?style=social) ](https://github.com/Danily07/Translumo)
-### [Danily07 Translumo](https://github.com/Danily07/Translumo)
+### [Danily07 Translumo](https://github.com/Danily07/Translumo)  ![GitHub Repo stars](https://img.shields.io/github/stars/Danily07/Translumo?style=social)
 
+Translumo 是一款高级实时屏幕翻译工具，专为 PC 游戏设计，适用于屏幕任何区域。
 
-**项目核心内容总结：**
+核心功能：
+1. **高精度识别**：整合 Windows OCR、Tesseract 等多种引擎，通过机器学习筛选最佳结果。
+2. **低延迟优化**：减少系统占用，最小化文本识别至翻译显示的延迟。
+3. **多翻译服务**：支持 DeepL、Google、Yandex、Papago 等主流翻译 API。
+4. **多语言支持**：识别与翻译涵盖英语、俄语、日语、中文、韩语等数十种语言。
+5. **便捷操作**：支持自定义捕捉区域、快捷键控制及代理设置以防封锁。
 
-Translumo 是一个先进的实时屏幕翻译工具，支持在 PC 游戏或其他应用程序中进行实时翻译。它通过结合多种 OCR 引擎（如 Windows OCR、Tesseract 和 EasyOCR）并使用机器学习模型选择最佳识别结果，实现高精度的文字识别。支持的翻译语言包括英语、俄语、日语、中文（简体）、韩语等，并可使用 DeepL、Google Translate 等多个翻译服务。
-
-**使用方法：**
-
-1. 打开设置（快捷键 Alt+G），选择 OCR 源语言和翻译目标语言。
-2. 选择文本识别引擎（推荐使用 WindowsOCR）。
-3. 定义捕获区域（快捷键 Alt+Q）。
-4. 按下 ~ 键启动翻译。
-
-**主要特性：**
-
-- 高精度文本识别，支持多 OCR 引擎联合使用。
-- 低延迟，优化系统资源使用。
-- 支持多种翻译服务和多种语言。
-- 可设置代理列表避免被翻译服务封禁。
-- 适用于游戏窗口的无边框或窗口模式。
-
-**系统要求：**
-
-- 使用 Windows OCR 或 Tesseract 至少需要 Windows 10 2004 或 Windows 11，2GB RAM。
-- 使用 EasyOCR 需要支持 CUDA 11.8 的 NVIDIA 显卡，8GB RAM 和 5GB 硬盘空间。
-
-**构建要求：**
-
-- 需要 Visual Studio 2022 和 .NET 8 SDK。
+系统要求：Windows 10/11，DirectX 11 兼容 GPU，2GB 内存。

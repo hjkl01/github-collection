@@ -3,27 +3,6 @@
 title: dota2bot-OpenHyperAI
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/forest0xia/dota2bot-OpenHyperAI?style=social) ](https://github.com/forest0xia/dota2bot-OpenHyperAI)
-### [forest0xia dota2bot-OpenHyperAI](https://github.com/forest0xia/dota2bot-OpenHyperAI)
+### [forest0xia dota2bot-OpenHyperAI](https://github.com/forest0xia/dota2bot-OpenHyperAI)  ![GitHub Repo stars](https://img.shields.io/github/stars/forest0xia/dota2bot-OpenHyperAI?style=social)
 
-**项目核心内容总结：**
-
-**功能**：  
-该项目为《Dota 2》提供增强型Bot脚本，支持所有126个英雄（含Kez、Invoker等），可自定义Bot名称、技能、装备、难度等，提供动态难度（Fretbots模式）和AI聊天功能，适用于多种游戏模式。
-
-**使用方法**：  
-1. 创建自定义房间并选择“本地主机”作为服务器。  
-2. 通过Steam Workshop安装脚本（链接提供）。  
-3. 启用Fretbots模式需手动安装脚本（提供详细指引）。  
-4. 使用游戏内命令（如`!pos X`调整位置、`!pick HERO_NAME`选择英雄）。
-
-**主要特性**：  
-- 支持Dota 2 7.39补丁及所有英雄（部分新英雄需调试）。  
-- 自定义选项：通过`Customize/general.lua`及英雄专属配置文件调整Bot行为。  
-- Fretbots模式：提升Bot强度，支持中立物品、AI聊天及动态难度。  
-- 兼容多数游戏模式，优化Bot决策（ farming、战斗、防御等）。  
-- 永久自定义：将`Customize`文件夹移至Steam安装目录避免更新覆盖。  
-
-**注意事项**：  
-- 安装需创建自定义房间并选择本地主机。  
-- Bot名称需以“.OHA”结尾以确认安装成功。
+本项目是一款用于 Dota 2 的高级自定义机器人脚本，旨在提升 Bot 游戏的挑战性与趣味性。核心功能包括：支持 Dota 2 补丁 7.40 及全部 127 名英雄；提供高度可自定义的设置（英雄禁用/选择、物品、技能、难度等）；包含动态高难度模式（Fretbots）及 AI 聊天互动；优化了 AI 决策逻辑（技能释放、游走、防守、补刀）；支持大多数游戏模式并提供丰富的游戏内指令（如换位置、选人）。项目基于 GitHub 开源，支持本地永久自定义配置及社区开发贡献。

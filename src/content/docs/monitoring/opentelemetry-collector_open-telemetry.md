@@ -3,20 +3,12 @@
 title: opentelemetry-collector
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social) ](https://github.com/open-telemetry/opentelemetry-collector)
-### [open-telemetry opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)
+### [open-telemetry opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)  ![GitHub Repo stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social)
 
-**项目核心内容总结：**  
-OpenTelemetry Collector 是一个用于收集、处理和导出遥测数据（如追踪、指标和日志）的工具，支持多种数据格式和后端系统。其主要功能包括：  
-1. **模块化架构**：通过配置文件定义数据接收器（如 gRPC、HTTP）、处理管道（如过滤、转换）和导出器（如 Prometheus、OTLP）。  
-2. **多语言支持**：提供 Go 语言实现，兼容多种编程语言的客户端库。  
-3. **性能优化**：支持高吞吐量处理，适用于大规模分布式系统。  
-4. **安全性**：提供 TLS 加密、身份验证等安全特性。  
+OpenTelemetry Collector 是一个供应商中立的工具，用于接收、处理和导出追踪、指标和日志等遥测数据。它消除了运行多个代理以支持多种遥测格式到不同后端的需求，实现单一代码库的统一部署（作为代理或收集器）。
 
-**使用方法**：  
-通过 YAML 配置文件定义数据流路径，使用命令行参数调整配置，支持动态重新加载配置文件以实时生效变更。  
-
-**主要特性**：  
-- 支持多种数据源和导出目标（如 Jaeger、Zipkin、AWS X-Ray）。  
-- 内置数据处理功能（如采样、重命名字段）。  
-- 轻量级设计，适用于云原生和边缘计算场景。
+核心特性包括：
+1. **统一性**：同时支持追踪、指标和日志，可部署为代理或收集器。
+2. **可扩展性**：支持自定义组件，无需修改核心代码即可定制。
+3. **易用与性能**：提供合理默认配置，支持流行协议，在各种负载下稳定高效。
+4. **安全与兼容**：基于 OTLP v1.5.0 协议（稳定版），支持容器镜像签名验证及 Go 版本兼容性管理。

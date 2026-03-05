@@ -5,16 +5,11 @@ title: chatterbox
 
 ### [resemble-ai chatterbox](https://github.com/resemble-ai/chatterbox)  ![GitHub Repo stars](https://img.shields.io/github/stars/resemble-ai/chatterbox?style=social)
 
-**项目核心内容总结：**  
-Chatterbox TTS 是 Resemble AI 开发的开源文本转语音（TTS）模型家族，包含三个版本，其中 **Chatterbox-Turbo** 是最高效的模型，参数量为 350M，支持英文及多种语言（23+种），具备以下特性：  
-1. **高效性**：计算资源和显存需求低于以往模型，生成速度更快（解码步骤从 10 步减少至 1 步）。  
-2. **拟声功能**：支持通过 `[cough]`、`[laugh]` 等标签添加拟声效果，提升语音真实感。  
-3. **多语言支持**：覆盖英语、中文、法语、西班牙语等 23 种语言。  
-4. **内置水印**：生成的音频包含不可感知的神经水印，可抵御压缩和编辑。  
+Chatterbox TTS 是由 Resemble AI 开发的开源文本转语音（TTS）项目，主要功能如下：
 
-**使用方法**：  
-- 安装：`pip install chatterbox-tts` 或从源码安装。  
-- 生成语音：通过 Python 调用模型（如 `ChatterboxTurboTTS.generate()`），需提供文本和参考音频（用于语音克隆）。  
-
-**适用场景**：  
-- 低延迟语音助手、叙事创作、多语言应用等。
+1.  **多模型体系**：提供 Chatterbox-Turbo（350M 参数，低延迟，仅英语）、Chatterbox-Multilingual（500M 参数，支持 23+ 语言）和标准版 Chatterbox。
+2.  **零样本语音克隆**：仅需 10 秒参考音频即可克隆目标音色，支持通过参考文件定制说话人声音。
+3.  **高效推理**：Turbo 模型将解码步骤从 10 步优化至 1 步，大幅降低计算资源和显存占用，适合实时应用。
+4.  **丰富表现力控制**：原生支持副语言标签（如 `[laugh]`、`[cough]`），并可调节 CFG 权重和夸张程度以控制语速和语气。
+5.  **负责任 AI 保障**：内置 Perth 感知阈值水印，所有生成的音频均带有不可见的版权或来源标识。
+6.  **易集成使用**：支持 Python 库直接安装和调用，提供示例代码，适用于语音助手、播客制作及交互媒体等场景。

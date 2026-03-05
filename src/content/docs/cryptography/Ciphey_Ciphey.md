@@ -3,7 +3,6 @@
 title: Ciphey
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Ciphey/Ciphey?style=social) ](https://github.com/Ciphey/Ciphey)
-### [Ciphey Ciphey](https://github.com/Ciphey/Ciphey)
+### [Ciphey Ciphey](https://github.com/Ciphey/Ciphey)  ![GitHub Repo stars](https://img.shields.io/github/stars/Ciphey/Ciphey?style=social)
 
-该项目是一个开源工具，用于自动生成贡献者名单，遵循 [all-contributors](https://github.com/all-contributors/all-contributors) 规范。其核心功能是根据项目中的贡献记录（如代码提交、文档编写、翻译等），自动整理并展示所有贡献者的姓名、头像及贡献类型。使用方法包括：在项目中安装工具、配置贡献类型规则、运行生成脚本。主要特性包括支持多种贡献类型、自动生成 Markdown 格式名单、与 GitHub 集成。
+Ciphey 是一款利用人工智能和自然语言处理技术实现的完全自动化解密、解码和密码破解工具。它支持 50 多种编码格式、加密算法及哈希，无需用户预设加密类型即可自动识别密文并解密。工具核心基于 C++ 构建，运行速度快（通常 3 秒内完成），并能准确检测生成的明文内容（如 JSON、CTF 标志或英语）。该软件适用于不熟悉密码学的用户快速处理未知密文。

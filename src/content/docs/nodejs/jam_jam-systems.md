@@ -3,30 +3,13 @@
 title: jam
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jam-systems/jam?style=social) ](https://github.com/jam-systems/jam)
-### [jam-systems jam](https://github.com/jam-systems/jam)
+### [jam-systems jam](https://github.com/jam-systems/jam)  ![GitHub Repo stars](https://img.shields.io/github/stars/jam-systems/jam?style=social)
 
-**Jam 项目核心内容总结：**
+Jam 是一款开源的音频空间平台，作为 Clubhouse 和 Twitter Spaces 的替代方案。它允许用户创建用于讨论、辩论、音乐表演等的音频房间。核心功能与特性如下：
 
-**项目功能**  
-Jam 是一个开源的音频聊天平台，提供类似 Clubhouse 和 Twitter Spaces 的功能，支持创建音频房间用于讨论、音乐演出、戏剧等场景。用户可通过网页、iOS、Android 等多平台使用。
-
-**主要特性**  
-- **品牌自定义**：支持设置房间 Logo、颜色等品牌信息。  
-- **嵌入能力**：可通过 iframe、WebView 或 JS SDK 集成到第三方应用或网站。  
-- **互动功能**：支持动画反应（如 ❤️、😂）、描述与链接（支持 Markdown）、用户通过房间赚取收入（支持 PayPal、比特币等）。  
-- **数据主权**：服务器部署于欧盟（德国），支持开源自托管。  
-- **扩展性**：单房间最多支持数百人，无平台限制（取决于服务器性能）。  
-
-**使用方法**  
-1. **房间配置**：通过 URL 参数（如 `room.name`、`room.color`）或 Base64 编码的哈希值配置房间属性。  
-2. **自建服务器**：需 Docker 和 docker-compose，最低配置为 1GB RAM 和 1GHz CPU，支持 Raspberry Pi、Digital Ocean 等平台部署。  
-3. **开发集成**：提供 `jam-core`（JavaScript 库）和 `jam-core-react`（React 组件库）供开发者构建自定义 UI 或机器人。  
-
-**已知问题与解决方案**  
-- **音频输出问题**：iPhone 用户建议使用蓝牙耳机避免扬声器切换问题。  
-- **后台静音问题**：Android/iOS 用户需在独立浏览器中使用 Jam，而非 WebView。  
-- **听音权限**：主持人需手动将参与者从观众区移至舞台区以实现双向语音。  
-
-**其他**  
-支持通过 Slack、Wordpress、Webflow、Shopify 等平台集成 Jam，提供早期访问计划（Jam Shelf）用于自建服务器。
+1. **品牌定制与嵌入**：支持自定义房间 Logo 和配色，提供 iFrame、WebView 及 JS SDK，可嵌入第三方网站或应用。
+2. **跨平台与自托管**：支持 Web、iOS、Android、macOS、Windows、Linux；基于 Docker 部署，支持私有化搭建，确保数据主权可控。
+3. **互动体验**：支持多人语音（约 15+ 人），听众人数不限，提供动画表情反应及支持 Markdown 描述的评论区。
+4. **商业化支持**：内置对 PayPal、比特币、Gumroad 等支付和售卖链接的支持。
+5. **开发者工具**：提供 `jam-core` 及 React 套件，允许构建自定义 UI 或机器人。
+6. **配置管理**：支持通过 URL 参数自定义房间名称、自动加入、身份识别等设置。

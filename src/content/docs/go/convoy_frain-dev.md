@@ -3,24 +3,17 @@
 title: convoy
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/frain-dev/convoy?style=social) ](https://github.com/frain-dev/convoy)
-### [frain-dev convoy](https://github.com/frain-dev/convoy)
+### [frain-dev convoy](https://github.com/frain-dev/convoy)  ![GitHub Repo stars](https://img.shields.io/github/stars/frain-dev/convoy?style=social)
 
-**项目核心内容总结：**  
-Convoy 是一个开源的高性能 Webhook 网关，用于安全地接收、存储、调试、传递和管理数百万事件，支持重试、限速、静态 IP、熔断等特性。  
+Convoy 是一个开源的高性能 Webhooks 网关，用于安全地摄取、持久化、调试、投递和管理海量事件。
 
-**主要功能：**  
-- 作为 Webhook 网关，隔离内部系统与公网，实现事件的内外传输；  
-- 水平扩展架构，包含 API 服务器、工作节点、调度器等独立组件；  
-- 安全特性：负载签名、Bearer Token 认证、静态 IP 限制；  
-- 支持事件多端点路由（扇出）、自定义速率限制规则；  
-- 提供重试机制（固定时间/指数退避）及批量重试功能；  
-- 客户端仪表盘（支持 iframe 嵌入），可调试事件、配置端点；  
-- 端点故障时自动禁用并触发邮件/Slack 通知。  
+核心功能：
+- **Webhooks 网关**：位于网络边缘，流式传输及路由 Webhooks，保护内部系统不暴露于公网。
+- **可扩展性**：支持水平扩展，API 服务器、工作器等组件可独立伸缩。
+- **安全性**：支持载荷签名、Bearer 令牌认证及静态 IP 设置。
+- **投递控制**：支持基于事件类型的扇出、端点级速率限制。
+- **重试机制**：支持恒定时长与指数退避重试算法，以及批量重试。
+- **客户仪表板**：提供可嵌入的客户侧仪表板，支持调试、重试及端点配置。
+- **失败通知**：端点连续失败时自动禁用并发送 Email 或 Slack 通知。
 
-**使用方法：**  
-- 安装方式支持 Docker 或 Kubernetes（Helm 模板）；  
-- 参考文档链接：[https://docs.getconvoy.io](https://docs.getconvoy.io)。  
-
-**许可证：**  
-遵循 [Elastic License v2.0](https://github.com/frain-dev/convoy/blob/main/LICENSE)。
+支持通过 Docker 和 Kubernetes (Helm) 进行部署。

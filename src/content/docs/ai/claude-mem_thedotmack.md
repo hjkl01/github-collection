@@ -3,33 +3,6 @@
 title: claude-mem
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=social) ](https://github.com/thedotmack/claude-mem)
-### [thedotmack claude-mem](https://github.com/thedotmack/claude-mem)
+### [thedotmack claude-mem](https://github.com/thedotmack/claude-mem)  ![GitHub Repo stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=social)
 
-**项目核心内容总结：**
-
-Claude-Mem 是一个基于 Claude Code 的插件，用于自动记录和管理 Claude 会话中的关键信息（称为“观察”），并提供强大的搜索与检索功能。它支持多会话管理、隐私控制、自动上下文注入、历史记录搜索等功能。
-
-**主要功能包括：**
-- 自动记录会话中的关键信息，并分类为决策、修复、功能等类型。
-- 提供多层级的上下文检索机制，包括索引层、详情层和完整记录层。
-- 支持隐私保护，用户可使用 `<private>` 标签避免敏感信息被存储。
-- 提供基于 Chroma 向量数据库的混合搜索功能，支持全文搜索。
-- 支持通过 Web 界面查看实时更新的日志与记录。
-
-**使用方法：**
-- 安装并启用插件后，Claude 会自动记录会话中的关键信息。
-- 用户可通过 CLI 或 Web 界面查看、配置插件设置。
-- 支持通过命令行工具生成 bug 报告或进行测试。
-
-**主要特性：**
-- 自动上下文注入，无需手动操作。
-- 多层级检索机制，提高信息查找效率。
-- 支持隐私控制，确保敏感信息不被存储。
-- 可扩展性高，支持自定义配置和开发。
-- 提供详细的日志和诊断功能，便于问题排查。
-
-**系统要求：**
-- Node.js 18.0.0 或更高。
-- 最新版支持插件的 Claude Code。
-- 自动安装 Bun、uv 和 SQLite 3。
+Claude-Mem 是为 Claude Code 打造的持久化记忆压缩系统。它自动捕获工具使用观察并生成语义摘要，实现跨会话上下文保留，确保项目知识连续性。系统基于生命周期钩子、Bun Worker 服务、SQLite 及 Chroma 向量数据库构建。支持通过 MCP 工具进行分层智能搜索，具备隐私控制、Web 查看器及自动运行能力。可通过插件命令或 OpenClaw Gateway 部署。

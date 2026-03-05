@@ -3,19 +3,13 @@
 title: uosc
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tomasklaen/uosc?style=social) ](https://github.com/tomasklaen/uosc)
-### [tomasklaen uosc](https://github.com/tomasklaen/uosc)
+### [tomasklaen uosc](https://github.com/tomasklaen/uosc)  ![GitHub Repo stars](https://img.shields.io/github/stars/tomasklaen/uosc?style=social)
 
-**uosc项目核心内容总结：**
+uosc 是为 MPV 播放器设计的极简主义鼠标靠近式 UI 脚本。核心功能包括：
 
-uosc是为mpv媒体播放器设计的简约用户界面工具，提供以下核心功能：
-1. **快捷键与菜单管理**：通过`input.conf`文件配置快捷键，支持注释语法定义菜单项（如`#! 菜单项标题`），可嵌套多级子菜单。
-2. **功能扩展**：支持控制音量、播放列表、字幕加载、音轨切换、截图、修改画幅比例等操作，部分功能依赖跨平台二进制工具ziggy（需Go环境构建）。
-3. **脚本交互**：通过`script-message-to uosc`命令实现子菜单调用，支持模糊显示（不预选第一项）。
-4. **本地化与多平台**：支持多语言本地化，发布包包含Windows/macOS/Linux的二进制文件，可跨平台使用。
-5. **安全提示**：部分杀毒软件可能误报二进制文件，用户可通过源码自行构建确认安全性。
-
-**使用方法**：
-- 在`input.conf`中配置快捷键并添加`#!`注释定义菜单项。
-- 使用`script-message-to`命令调用uosc功能。
-- 安装跨平台二进制文件或自行构建ziggy工具处理字幕等高级功能。
+1. **智能 UI 显示**：界面元素根据鼠标靠近程度自动显示或隐藏，提供完全控制；时间线闲置时可自动最小化为进度条。
+2. **交互优化**：支持鼠标滚轮调节播放、音量及速度，右键点击可重置音量或速度；所有菜单支持即时搜索。
+3. **菜单功能**：支持构建自定义嵌套上下文菜单；涵盖字幕（含 Open Subtitles 下载）、音轨、视频轨道选择、流媒体质量切换及播放列表导航。
+4. **媒体增强**：集成 thumbfast 实现快速视频缩略图；支持章节在时间线上可视化。
+5. **扩展性**：提供大量可绑定命令和 API，允许用户自定义功能或供第三方脚本调用。
+6. **兼容性**：支持 Windows、Linux、macOS 平台，具备多语言本地化功能。

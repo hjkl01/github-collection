@@ -3,7 +3,6 @@
 title: awesome-sqlalchemy
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dahlia/awesome-sqlalchemy?style=social) ](https://github.com/dahlia/awesome-sqlalchemy)
-### [dahlia awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy)
+### [dahlia awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy)  ![GitHub Repo stars](https://img.shields.io/github/stars/dahlia/awesome-sqlalchemy?style=social)
 
-该文档汇总了多个与SQLAlchemy相关的工具和库，涵盖数据操作、测试、框架集成、可视化等功能。主要项目包括：**数据处理**（如生成测试数据的charlatan、factory_boy）；**框架集成**（如Flask-SQLAlchemy、Flask-Admin，支持与Flask、Pyramid等框架的深度整合）；**查询优化**（如sqlakeyset实现分页）；**测试辅助**（如mixer生成随机数据）；**可视化工具**（如eralchemy生成ER图）；**数据库特定功能**（如PostgreSQL的crosstab支持）。核心特性包括支持多种数据库、提供便捷API、简化开发流程，并与主流Web框架兼容。使用时需根据需求安装对应库，并按照文档配置SQLAlchemy及相关依赖。
+本项目是一个为 SQLAlchemy 收集整理的精选资源列表，汇总了扩展 SQLAlchemy 功能的各类第三方库与工具。涵盖数据结构（版本控制、树形结构）、数据类型、数据库迁移、方言支持、文件附件、表单验证、全文搜索、GIS 空间数据、国际化、性能分析、查询辅助、测试、序列化、Web 框架集成（如 Flask、Pyramid）及数据库可视化等核心领域，旨在帮助开发者快速查找和使用与 SQLAlchemy 配套的相关解决方案。

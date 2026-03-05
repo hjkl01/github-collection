@@ -5,20 +5,11 @@ title: CopilotKit
 
 ### [CopilotKit CopilotKit](https://github.com/CopilotKit/CopilotKit)  ![GitHub Repo stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social)
 
-**核心内容总结**  
-CopilotKit 是一个用于集成 AI 助手和代理的工具包，支持 React、Next.js 等框架，提供预构建组件和自定义 UI 选项。  
+CopilotKit 是构建全栈代理应用、生成式 UI 及聊天应用的 SDK。核心功能包括：
+1. **Chat UI**：基于 React 的聊天界面，支持消息流式传输、工具调用和代理响应。
+2. **生成式 UI**：代理可根据用户意图动态生成及更新运行时 UI 组件。
+3. **后端工具渲染**：支持代理调用后端工具返回的 UI 组件直接渲染。
+4. **共享状态**：代理与 UI 组件间提供实时同步读写状态的分层机制。
+5. **人在回路**：支持代理在执行流程中暂停，以请求用户输入、确认或编辑。
 
-**功能与使用方法**  
-- **快速集成**：通过 CLI 命令一键安装（`npx copilotkit@latest create`），配置后可直接使用。  
-- **灵活定制**：支持使用 Headless API 或预构建组件，提供高度可定制的 UI 和交互逻辑。  
-- **深度集成**：允许在应用中直接控制代理状态，支持流式生成、工具调用、用户审批等复杂场景。  
-
-**主要特性**  
-- **框架无关**：兼容 React、Next.js、AGUI 等主流技术栈。  
-- **生产级 UI**：提供开箱即用的组件，同时支持完全自定义设计。  
-- **安全性**：内置防止提示注入攻击的机制。  
-- **开源**：MIT 许可证，社区驱动开发。  
-- **生态支持**：与 LangGraph、CrewAI 等工具深度集成，支持 AG-UI 协议。  
-
-**适用场景**  
-适用于需要在应用中嵌入 AI 助手、构建代理工作流、实现动态生成内容或用户交互审批的场景。
+项目采用 AG-UI 协议连接代理工作流与用户端应用，提供 `useAgent` 钩子控制代理连接，支持 LangGraph、CrewAI 等集成。

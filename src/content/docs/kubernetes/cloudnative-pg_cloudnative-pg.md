@@ -3,24 +3,6 @@
 title: cloudnative-pg
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cloudnative-pg/cloudnative-pg?style=social) ](https://github.com/cloudnative-pg/cloudnative-pg)
-### [cloudnative-pg cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg)
+### [cloudnative-pg cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg)  ![GitHub Repo stars](https://img.shields.io/github/stars/cloudnative-pg/cloudnative-pg?style=social)
 
-**项目核心内容总结：**  
-该开源项目是一个云原生应用平台，提供容器编排、服务自动部署与管理、弹性扩展及监控功能。  
-
-**主要功能：**  
-1. **容器化支持**：通过Docker容器化应用，实现快速部署与环境隔离。  
-2. **自动化运维**：支持一键部署、服务发现、负载均衡及故障自愈。  
-3. **弹性扩展**：根据流量自动扩缩容，适配云环境资源动态分配需求。  
-4. **监控与日志**：集成实时监控、性能分析及日志收集，便于问题追踪。  
-
-**使用方法：**  
-- 通过命令行工具或配置文件定义应用架构与资源需求。  
-- 部署至Kubernetes或同类集群，依赖内置的编排引擎自动完成服务启动与管理。  
-
-**主要特性：**  
-- 无侵入式设计，兼容主流云服务商（如AWS、Azure）。  
-- 支持声明式配置，通过YAML文件定义应用状态。  
-- 提供多租户隔离，保障企业级安全与资源管控。  
-- 开源社区活跃，文档完善，提供中文与英文双语支持。
+CloudNativePG 是一个开源平台，用于在 Kubernetes 环境中管理 PostgreSQL 数据库。其核心操作符通过直接集成 Kubernetes API，自动化实现数据库集群的故障切换、副本扩缩容、滚动更新及备份管理等全生命周期运维。该平台采用 Kubernetes 原生范式，无需外部高可用工具，仅支持原生 Kubernetes 和原生 PostgreSQL 环境。

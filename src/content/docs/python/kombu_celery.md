@@ -3,23 +3,6 @@
 title: kombu
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/celery/kombu?style=social) ](https://github.com/celery/kombu)
-### [celery kombu](https://github.com/celery/kombu)
+### [celery kombu](https://github.com/celery/kombu)  ![GitHub Repo stars](https://img.shields.io/github/stars/celery/kombu?style=social)
 
-**项目核心内容总结：**  
-Kombu 是一个用于 Python 的消息传递库，旨在通过提供 AMQP 协议的高级接口，简化 Python 中的消息处理。其核心功能包括支持多种消息中间件（如 RabbitMQ、Redis、MongoDB 等），自动处理消息的序列化、压缩及编码，统一的异常处理机制，以及连接和通道错误的优雅处理。  
-
-**主要特性：**  
-1. **多传输支持**：通过可插拔的架构，支持 AMQP（RabbitMQ）、Redis、MongoDB、Amazon SQS 等多种消息队列，且提供内存传输用于测试。  
-2. **自动处理**：支持消息自动编码、序列化、压缩，确保跨平台兼容性。  
-3. **一致性**：统一的异常处理机制，确保不同传输方式下的操作一致性。  
-4. **兼容性**：兼容旧版 Carrot 库，便于迁移。  
-
-**使用方法：**  
-通过声明交换机（Exchange）和队列（Queue），结合连接（Connection）和生产者（Producer）/消费者（Consumer）实现消息的发送与接收。示例代码包括：  
-- 声明交换机和队列；  
-- 使用 `Producer.publish()` 发送消息；  
-- 使用 `Consumer` 注册回调函数消费消息；  
-- 支持通过上下文管理器（`with`）自动管理连接和通道。  
-
-**适用场景**：适用于需要跨多种消息中间件的分布式系统开发，尤其适合需要灵活路由、可靠传输和高可用性的场景。
+Kombu 是 Python 消息库，通过提供 AMQP 协议的高层接口简化消息传递。它支持可插拔的传输方式，兼容多种消息服务器（如 RabbitMQ、Redis、Amazon SQS、MongoDB 等）。核心功能包括消息负载的自动编码、序列化与压缩，跨传输的一致性异常处理，以及优雅的连接错误恢复。项目提供生产者、交换器、队列和消费者等标准消息组件，支持直接、主题和广播等多种路由模式，并内置内存传输以方便单元测试。

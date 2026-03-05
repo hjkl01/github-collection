@@ -3,19 +3,6 @@
 title: solidus
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/solidusio/solidus?style=social) ](https://github.com/solidusio/solidus)
-### [solidusio solidus](https://github.com/solidusio/solidus)
+### [solidusio solidus](https://github.com/solidusio/solidus)  ![GitHub Repo stars](https://img.shields.io/github/stars/solidusio/solidus?style=social)
 
-**核心内容总结：**  
-Solidus 是一个基于 Ruby on Rails 的开源电商平台，提供 RESTful API、管理后台、核心模型及示例数据，功能完整且模块化。  
-
-**使用方法：**  
-1. 创建 Rails 应用，添加 `solidus` gem，运行安装生成器。  
-2. 配置数据库（支持 PostgreSQL、MySQL、SQLite），启动服务器后访问商店和管理后台。  
-3. 安装选项支持使用 GitHub 版本，或禁用迁移/种子数据等。  
-
-**主要特性：**  
-- 模块化设计，支持灵活扩展。  
-- 性能优化：关闭 assets 调试模式、启用 Turbolinks（需注意兼容性）。  
-- 开发环境支持 Docker，提供沙盒应用和测试套件（RSpec、SimpleCov）。  
-- 提供扩展库（extensions.solidus.io）及贡献指南，社区活跃。
+Solidus 是一个基于 Ruby on Rails 的免费开源电子商务平台，作为 Spree 的分支，旨在为用户提供对商店的完全控制权。该平台由多个核心 gem 组成，包括 RESTful API、管理后台、核心模型类及示例数据。Solidus 支持高度定制，允许开发者仅使用核心 gem 结合自定义前端、后台和 API。项目提供完善的文档、社区支持及扩展生态，支持 Docker 部署及多种数据库环境，可快速集成到 Rails 应用中构建电商系统。

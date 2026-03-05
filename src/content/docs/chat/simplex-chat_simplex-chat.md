@@ -3,15 +3,6 @@
 title: simplex-chat
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/simplex-chat/simplex-chat?style=social) ](https://github.com/simplex-chat/simplex-chat)
-### [simplex-chat simplex-chat](https://github.com/simplex-chat/simplex-chat)
+### [simplex-chat simplex-chat](https://github.com/simplex-chat/simplex-chat)  ![GitHub Repo stars](https://img.shields.io/github/stars/simplex-chat/simplex-chat?style=social)
 
-SimpleX Chat 是一款注重隐私的加密通信应用，支持端到端加密、群组聊天、文件传输及跨平台使用（iOS/Android/桌面）。核心功能包括：  
-1. **安全通信**：采用双加密协议（Double Ratchet）保障消息安全，支持隐藏聊天、消息自毁、隐私保护通知等。  
-2. **多平台支持**：提供终端客户端、移动应用（含Tor连接）及桌面版本，支持多用户配置和跨设备同步。  
-3. **文件传输**：通过XFTP协议高效传输大文件，支持加密存储和隐私分享。  
-4. **隐私特性**：匿名连接、隐藏聊天资料、防止截图及后台查看、可选无痕模式等。  
-5. **扩展功能**：支持群组管理、消息反应、语音/视频通话（加密）、自动化规则及自定义通知。  
-
-**使用方法**：可通过终端命令一键部署服务器，移动应用支持应用商店下载或F-Droid安装，需配合Tor网络实现更高隐私保护。  
-**技术保障**：通过Trail of Bits安全审计，采用AGPLv3开源协议，但服务器不保存用户数据或进行流量关联分析。
+SimpleX Chat 是首个无任何用户标识的即时通讯平台，旨在提供 100% 隐私保护。它采用客户端 - 服务器架构，服务器不存储用户数据或消息元数据。核心功能包括端到端加密、群组聊天、音视频通话、文件传输及阅后即焚。平台支持 Android、iOS 移动端及 Linux、MacOS、Windows 终端/桌面客户端。核心协议开源，支持用户自建服务器及第三方客户端/机器人开发，具备 Tor 支持、量子抵抗密钥交换及本地数据加密等高级隐私特性。

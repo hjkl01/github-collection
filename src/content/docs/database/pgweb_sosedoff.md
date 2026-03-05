@@ -3,31 +3,6 @@
 title: pgweb
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sosedoff/pgweb?style=social) ](https://github.com/sosedoff/pgweb)
-### [sosedoff pgweb](https://github.com/sosedoff/pgweb)
+### [sosedoff pgweb](https://github.com/sosedoff/pgweb)  ![GitHub Repo stars](https://img.shields.io/github/stars/sosedoff/pgweb?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-pgweb 是一个基于 Web 的 PostgreSQL 数据库管理工具，支持跨平台（Mac/Linux/Windows），提供数据库连接、SQL 查询执行、数据导出（CSV/JSON/XML）、查询历史记录、服务器书签等功能，无需安装额外依赖。
-
-**主要特性**  
-- 跨平台支持（64位系统）  
-- 单文件安装，无依赖  
-- 支持 PostgreSQL 9.1 及以上版本  
-- 支持 SSH 隧道连接  
-- 多数据库会话管理  
-- 数据导出与查询分析  
-- 提供在线演示（[https://pgweb-demo.fly.dev](https://pgweb-demo.fly.dev)）  
-
-**使用方法**  
-1. **启动服务**：直接运行 `pgweb`  
-2. **连接参数**：通过命令行指定 `--host`、`--user`、`--db` 等参数，或使用 URL 格式：  
-   ```bash  
-   pgweb --url "postgres://user:password@host:port/database?sslmode=mode"  
-   ```  
-3. **多会话模式**：启动时添加 `--sessions` 参数或设置环境变量 `PGWEB_SESSIONS=1`  
-
-**安装方式**  
-- 下载预编译的二进制文件（支持多平台）  
-- 参考 Wiki 获取更多安装选项（如 Docker 部署）
+pgweb 是一个基于 Web 的跨平台 PostgreSQL 数据库浏览器，使用 Go 语言编写，以零依赖的单一二进制文件分发，支持 Mac、Linux 和 Windows 系统。主要功能包括：兼容 PostgreSQL 9.1+，支持原生 SSH 隧道和多数据库会话，可执行和分析自定义 SQL 查询，支持将表格及查询数据导出为 CSV、JSON 或 XML 格式，并提供查询历史保存与服务器书签管理。

@@ -3,7 +3,10 @@
 title: postgraphile
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/graphile/postgraphile?style=social) ](https://github.com/graphile/postgraphile)
-### [graphile postgraphile](https://github.com/graphile/postgraphile)
+### [graphile postgraphile](https://github.com/graphile/postgraphile)  ![GitHub Repo stars](https://img.shields.io/github/stars/graphile/postgraphile?style=social)
 
-Graphile的Crystal多仓库项目包含多个与GraphQL相关的工具包，核心项目为Grafast和PostGraphile。Grafast是GraphQL.js的高性能执行引擎，通过声明式计划解析器优化查询效率，适用于自定义GraphQL Schema开发；PostGraphile则基于PostgreSQL数据库自动生成高性能GraphQL API，支持自动最佳实践和高度定制化。其他工具包括：graphile-export（导出内存Schema为代码）、graphile-build（模块化Schema构建系统）、pg-sql2（安全SQL构建库）等。项目特性包括性能优化、自动化的数据库集成、可扩展架构，适合需要高效GraphQL服务或PostgreSQL API开发的场景。
+该项目是 Graphile 官方维护的 Monorepo，集成了多个与 GraphQL 及 PostgreSQL 相关的核心工具包，主要功能总结如下：
+
+- **Grafast**：GraphQL.js 的高性能计划与执行引擎，可替代原生 execute 方法，利用声明式计划解析器优化业务逻辑执行，显著降低服务器负载。
+- **PostGraphile**：基于 PostgreSQL 数据库快速构建高性能、结构化的 GraphQL API，支持自动生成类型与操作，并允许将 Schema 导出为独立管理的 JavaScript 源码。
+- **核心辅助库**：提供 Schema 构建系统（graphile-build）、PostgreSQL 安全查询构建（pg-sql2）、类型化元数据检查（pg-introspection）、高性能 LRU 缓存（@graphile/lru）及统一配置管理（graphile-config）等工具。

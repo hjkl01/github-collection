@@ -3,14 +3,13 @@
 title: highlight
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/highlight/highlight?style=social) ](https://github.com/highlight/highlight)
-### [highlight highlight](https://github.com/highlight/highlight)
+### [highlight highlight](https://github.com/highlight/highlight)  ![GitHub Repo stars](https://img.shields.io/github/stars/highlight/highlight?style=social)
 
-**项目核心内容总结：**  
-Highlight.io 是一款面向开发者的工具，旨在通过会话回放、错误监控和性能分析等功能，帮助开发者高效发现、解决和预防 Web 应用中的问题。其主要特性包括：  
-- **实时会话回放**：无需配置即可自动记录用户操作，提供完整上下文（如页面状态、用户行为）。  
-- **错误监控**：自动捕获并分类错误，结合用户行为数据辅助定位问题根源。  
-- **无缝集成**：与现有工具（如 Sentry、LogRocket）兼容，支持团队协作与统一管理。  
-- **开发者友好**：强调“构建在公共”，所有开发进展透明；产品设计为统一平台，确保各功能模块无缝协作。  
+Highlight.io 是一款开源的全栈监控平台，旨在帮助开发者自信地开发软件，发现、解决和预防 Web 应用问题。其核心功能包括：
 
-**使用方法**：通过集成 SDK 到 Web 应用中，即可在 Highlight.io 平台上实时监控、分析和调试问题。
+1. **会话回放**：高保真重现浏览器会话中的用户交互、DOM 变化、网络请求及控制台日志。
+2. **错误监控**：支持自定义错误分组与告警，可嵌入关联会话回放以复现错误上下文。
+3. **日志管理**：提供强大的日志搜索与告警功能，关联会话和错误信息。
+4. **链路追踪**：追踪服务器端操作性能，统一关联会话、错误和日志数据。
+
+项目支持在线托管、Hobby 版及企业版自托管等多种部署方式，提供丰富的多语言 SDK 及第三方工具集成，致力于构建现代化、一体化的监控体验。

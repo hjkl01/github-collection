@@ -3,8 +3,6 @@
 title: book
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/book?style=social) ](https://github.com/rust-lang/book)
-### [rust-lang book](https://github.com/rust-lang/book)
+### [rust-lang book](https://github.com/rust-lang/book)  ![GitHub Repo stars](https://img.shields.io/github/stars/rust-lang/book?style=social)
 
-**核心内容总结：**  
-该项目是《Rust编程语言》书籍的源代码仓库，提供纸质版和在线版。用户可通过安装`mdbook`工具和相关插件，使用`mdbook build`命令构建书籍，生成的文件位于`book`目录中，并支持多种浏览器查看。项目支持贡献和翻译，但印刷版优先级较高，非错误类修改可能需等待大版本更新。此外，包含拼写检查脚本，用于校对源文件中的拼写错误。
+本仓库是《Rust 编程语言》官方书籍的源代码。支持使用 mdBook 构建本地书籍文档及运行代码测试，提供在线阅读及实体书购买信息。项目接受错误修正和多语言翻译贡献，重大修订与 Rust 版本迭代同步。

@@ -3,22 +3,6 @@
 title: ingress-nginx
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social) ](https://github.com/kubernetes/ingress-nginx)
-### [kubernetes ingress-nginx](https://github.com/kubernetes/ingress-nginx)
+### [kubernetes ingress-nginx](https://github.com/kubernetes/ingress-nginx)  ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social)
 
-**项目核心内容总结：**
-
-**功能**：ingress-nginx 是 Kubernetes 的 Ingress 控制器，基于 NGINX 实现，用于管理 Kubernetes 集群中 HTTP/HTTPS 请求的路由，将外部流量转发至集群内服务。
-
-**使用方法**：  
-- 通过 Helm Chart 或 Kubernetes YAML 文件部署。  
-- 配置 Ingress 资源定义路由规则，支持注解自定义配置（如 SSL、负载均衡等）。  
-
-**主要特性**：  
-1. 支持 Kubernetes Ingress API，兼容多种注解配置。  
-2. 自动 SSL 证书管理（如 Let's Encrypt）。  
-3. 负载均衡、访问控制、路径重写等高级功能。  
-4. 日志记录与监控集成。  
-5. 支持多版本 Kubernetes（如 v1.20 至最新版本）。  
-
-**其他**：提供社区支持、贡献指南及中文文档（需自行翻译），遵循 Apache 2.0 协议。
+该项目是 Kubernetes 的 Ingress 控制器，使用 NGINX 作为反向代理和负载均衡器。目前项目已宣布退役，最佳努力维护将持续至 2026 年 3 月，此后将不再发布新版本、修复 Bug 或处理安全漏洞，但现有部署不会中断且制品保留。建议非当前用户迁移至 Gateway API，且不建议在多租户生产环境中使用。项目文档列出了支持的 Kubernetes、NGINX 及 Helm Chart 版本对应关系。

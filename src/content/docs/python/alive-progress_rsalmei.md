@@ -3,22 +3,15 @@
 title: alive-progress
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rsalmei/alive-progress?style=social) ](https://github.com/rsalmei/alive-progress)
-### [rsalmei alive-progress](https://github.com/rsalmei/alive-progress)
+### [rsalmei alive-progress](https://github.com/rsalmei/alive-progress)  ![GitHub Repo stars](https://img.shields.io/github/stars/rsalmei/alive-progress?style=social)
 
-**项目功能**  
-`alive-progress` 是一个 Python 库，用于在终端和 Jupyter Notebook 中显示动态进度条和动画，支持实时更新任务进度、预估剩余时间（ETA）、自定义样式（如主题、颜色、动画模式）以及多线程日志集成。
+alive-progress 是一个功能强大的 Python 进度条库，主要特性如下：
 
-**使用方法**  
-通过 `pip` 安装后，可直接导入库创建进度条对象。支持通过参数调整刷新率、动画风格（如滚动、弹跳）、主题颜色，并可通过配置选项控制是否显示百分比、文本标题或隐藏光标。在 Jupyter 中可自动适配动画显示。
-
-**主要特性**  
-1. **动态计算**：自动计算任务进度、速率及 ETA，支持大任务的平滑估算。  
-2. **高度自定义**：提供多种动画模式（如并行、序列）、主题样式、文本格式及刷新频率调整。  
-3. **兼容性**：支持 Python 3.6+，适配终端、Jupyter Notebook 和多线程日志系统。  
-4. **异常处理**：可捕获中断信号（如 Ctrl+C），并保留最终进度状态。  
-5. **扩展功能**：集成图形集群支持（处理宽字符），允许自定义背景样式和文本内容。  
-6. **版本管理**：明确标注 Python 版本支持范围，提供历史版本兼容性指令（如 `pip install "alive_progress<3.2"` 适配 Python 3.7）。  
-
-**许可证**  
-采用 MIT 协议，开源免费使用。
+- **动态响应**：加载动画随实际处理速度实时调整快慢，直观反映任务状态，防止误判卡死。
+- **高效低耗**：多线程智能刷新机制，低 CPU 占用，避免高频更新导致终端刷屏。
+- **精准 ETA**：采用指数平滑算法计算预计完成时间，帮助用户有效规划工作。
+- **智能挂钩**：自动增强 Python 的 print 和 logging 功能，输出中集成当前进度信息。
+- **暂停恢复**：独特的暂停功能，支持中断处理流程返回解释器手动干预后无缝恢复进度。
+- **最终收据**：任务结束时自动生成包含总项数、耗时及吞吐量的统计收据。
+- **高度定制**：提供丰富预置样式，支持自定义动画、单位及自动缩放，兼容 Jupyter Notebook 等环境。
+- **异常处理**：自动检测溢出或缺陷，支持标记跳过项以辅助断点续传和准确统计。

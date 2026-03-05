@@ -3,24 +3,6 @@
 title: parse-server
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/parse-community/parse-server?style=social) ](https://github.com/parse-community/parse-server)
-### [parse-community parse-server](https://github.com/parse-community/parse-server)
+### [parse-community parse-server](https://github.com/parse-community/parse-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/parse-community/parse-server?style=social)
 
-**项目核心内容总结：**
-
-1. **项目功能**  
-   提供基于GraphQL的API，支持数据查询、操作及与Parse Server集成，可自动生成文档和模式，适用于构建后端服务。
-
-2. **使用方法**  
-   - **CLI工具**：通过命令行快速启动GraphQL服务。  
-   - **Express中间件**：集成到Express应用中，使用中间件处理GraphQL请求。  
-   - **自定义集成**：通过代码手动配置GraphQL服务器，灵活适配项目需求。
-
-3. **主要特性**  
-   - 自动文档生成与模式验证，提升开发效率。  
-   - 支持复杂查询与突变操作，兼容Parse Server数据模型。  
-   - 性能优化（如缓存、分页）与安全性（身份验证、权限控制）功能。  
-   - 可通过云代码（Cloud Code）扩展自定义逻辑。
-
-4. **适用场景**  
-   适用于需要灵活数据操作、实时更新及高安全性的Web应用后端开发，尤其适合与Parse平台生态结合使用。
+Parse Server 是一个基于 Node.js 和 Express 框架的开源后端服务，可部署于任何支持 Node.js 的基础设施，原生支持 MongoDB 和 PostgreSQL 数据库。它能根据应用架构自动生成 REST 和 GraphQL API，提供云代码（Cloud Code）执行、实时数据更新（Live Query）、多种文件存储适配（如 GridFS、S3、GCS）、用户认证、访问控制（ACL）及邮箱验证等核心功能。此外，项目支持自定义路由、页面本地化、日志配置及安全策略（如密码策略、幂等性强制执行），可独立运行或集成至现有的 Express Web 应用中。

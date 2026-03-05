@@ -3,23 +3,11 @@
 title: typesense
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/typesense/typesense?style=social) ](https://github.com/typesense/typesense)
-### [typesense typesense](https://github.com/typesense/typesense)
+### [typesense typesense](https://github.com/typesense/typesense)  ![GitHub Repo stars](https://img.shields.io/github/stars/typesense/typesense?style=social)
 
-**任务一：总结核心内容**
+Typesense 是一款开源、高速且支持容错的搜索引擎，旨在作为 Algolia 和 ElasticSearch 的轻量级替代方案。其主要功能包括：
 
-Typesense 是一个轻量级、高性能的开源搜索引擎，专注于提供快速、易用的搜索体验，适用于需要快速搭建搜索功能的应用场景。其主要功能包括全文搜索、过滤、排序、分页等，支持通过 API 进行灵活的查询配置，无需预先定义复杂的索引结构。它与 Elasticsearch 和 Algolia 相比，更注重开发者的使用体验，提供清晰的 API 和默认配置，使得部署和使用更加简单。
-
-**使用方法**：用户可以通过安装 Typesense 服务并使用其提供的 REST API 进行数据的索引和搜索操作。此外，Typesense 还提供了与 InstantSearch.js 的集成，方便快速构建前端搜索界面。
-
-**主要特性**：
-- 高性能：搜索速度极快，支持大规模数据的实时查询。
-- 简单易用：API 清晰，配置灵活，开箱即用。
-- 轻量级：内存占用低，资源消耗少。
-- 开源免费：采用 GPL 许可协议，允许用户自由使用和修改（服务器端），客户端库使用 Apache 协议。
-- 支持多种查询方式：如排序、过滤、分组等，可通过查询参数动态设置。
-- 提供云服务选项：Typesense Cloud，用户可使用托管服务而无需自行部署。
-
----
-
-**任务二：完成**（无额外任务）
+1.  **核心搜索能力**：支持拼写纠错、关键词、向量、语义及混合搜索，具备自然语言理解和基于已索引数据的对话式搜索（RAG）能力。
+2.  **高级搜索特性**：支持地理位置搜索、图片及语音搜索、跨集合联邦搜索、类 SQL JOIN 操作，以及动态排序、过滤、分面和结果分组。
+3.  **性能与部署**：基于 C++ 构建，追求低延迟（<50ms），为单二进制文件，无运行时依赖，支持 Docker 快速部署及 Raft 集群高可用配置。
+4.  **开发集成**：提供多种官方及社区语言客户端、主流框架集成（如 Laravel、WordPress 等）及搜索 UI 组件（InstantSearch 适配器）。

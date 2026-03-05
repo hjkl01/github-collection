@@ -3,15 +3,6 @@
 title: Crack-JS-Spider
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LoseNine/Crack-JS-Spider?style=social) ](https://github.com/LoseNine/Crack-JS-Spider)
-### [LoseNine Crack-JS-Spider](https://github.com/LoseNine/Crack-JS-Spider)
+### [LoseNine Crack-JS-Spider](https://github.com/LoseNine/Crack-JS-Spider)  ![GitHub Repo stars](https://img.shields.io/github/stars/LoseNine/Crack-JS-Spider?style=social)
 
-**核心内容总结：**  
-该项目旨在解决Python爬虫中遇到的JavaScript加密问题，提供JS逆向分析与解密方案。主要功能包括：  
-- 破解主流网站（如拼多多、Boss直聘、知乎、QQ音乐等）的加密参数（如token、sign、加密密码等）；  
-- 提供Chrome调试技巧、JS解密方法及AST混淆代码还原教程；  
-- 包含补环境代码示例（已注释），便于学习和实践；  
-- 覆盖2019-2022年多个典型加密案例，适配不同场景的反爬虫防护机制。  
-
-**使用方法：**  
-参考项目教程学习Chrome调试与JS逆向分析，结合提供的补环境代码示例，针对目标网站的加密逻辑进行参数提取与解密。
+该项目主要用于解决 Python 爬虫中遇到的 JS 加密问题。功能包括获取各大主流网站关键参数的 JS 代码，提供 JS 解密、代码 AST 混淆还原及逆向分析方案，涵盖登录验证、签名生成、滑块验证等多种场景。

@@ -3,22 +3,6 @@
 title: ossnav
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/maxiaobang7/ossnav?style=social) ](https://github.com/maxiaobang7/ossnav)
-### [maxiaobang7 ossnav](https://github.com/maxiaobang7/ossnav)
+### [maxiaobang7 ossnav](https://github.com/maxiaobang7/ossnav)  ![GitHub Repo stars](https://img.shields.io/github/stars/maxiaobang7/ossnav?style=social)
 
-该README文档是一个开源软件工具集合的分类目录，按功能领域划分了多个类别，每个类别下列举了具体工具及其简介。核心内容包括：
-
-1. **项目功能**  
-涵盖AI工具、开发工具、系统优化、教育学习、网络安全、影视娱乐等多个领域，提供超过100个开源软件，例如：  
-- 网络安全类：Clash Nyanpasu（代理工具）、Wireshark（网络分析）、KeePass（密码管理）  
-- 系统工具类：TranslucentTB（任务栏透明化）、CrystalDiskMark（硬盘测试）  
-- 教育学习类：开源阅读（电子书）、Qwerty Learner（打字练习）  
-- 影视娱乐类：TVBox（电视盒子）、洛雪音乐助手（音乐播放器）  
-
-2. **使用方法**  
-每个工具均提供GitHub等开源链接，用户可根据简介选择对应工具并访问源码仓库进行下载或使用。
-
-3. **主要特性**  
-- 全部为开源免费工具  
-- 按功能分类清晰，便于检索  
-- 覆盖操作系统、网络、安全、娱乐等多场景需求
+ossnav 是一个专注于收录优质免费开源工具的导航网站。它收集各领域中完全免费且简单易用的开源软件，服务于一般网络用户。每个软件条目均包含产品介绍、主要功能教程及资源链接，涵盖便捷工具、办公、人工智能、文件管理、图形设计、媒体处理、开发编程、系统工具、教育学习、网络安全、游戏娱乐及数据存储等多个分类。

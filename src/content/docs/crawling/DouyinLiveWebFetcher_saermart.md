@@ -3,20 +3,6 @@
 title: DouyinLiveWebFetcher
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/saermart/DouyinLiveWebFetcher?style=social) ](https://github.com/saermart/DouyinLiveWebFetcher)
-### [saermart DouyinLiveWebFetcher](https://github.com/saermart/DouyinLiveWebFetcher)
+### [saermart DouyinLiveWebFetcher](https://github.com/saermart/DouyinLiveWebFetcher)  ![GitHub Repo stars](https://img.shields.io/github/stars/saermart/DouyinLiveWebFetcher?style=social)
 
-**项目核心内容总结：**  
-该项目用于抓取抖音网页版直播间的弹幕数据，包括用户进场、送礼、点赞、聊天等行为信息。  
-
-**功能特性：**  
-- 支持实时抓取弹幕消息（如用户进入直播间、礼物赠送、点赞统计等）；  
-- 持续更新维护，适配最新接口（如2025年更新WebSocket协议、新增`a_bogus`参数等）；  
-- 提供测试记录，验证代码在多时间点的稳定性。  
-
-**使用方法：**  
-- 环境要求：Python 3.7+、Node.js v18.2.0、`protoc`版本`libprotoc 25.1`；  
-- 通过代码实现数据抓取，需自行处理反爬机制（如签名生成）。  
-
-**注意事项：**  
-项目仅用于学习交流，禁止用于商业或非法用途，涉及侵权可联系作者删除代码。
+本项目是一个抖音网页版直播弹幕数据抓取工具。主要功能包括实时获取用户进场消息、聊天内容、礼物赠送、点赞信息及直播间观众统计。项目基于 Python 和 NodeJs 环境，支持动态更新签名参数与 WebSocket 连接以适配抖音接口变化。代码声明仅用于学习研究，严禁用于商业谋利或非法用途。

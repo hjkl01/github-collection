@@ -3,24 +3,13 @@
 title: coze-loop
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coze-dev/coze-loop?style=social) ](https://github.com/coze-dev/coze-loop)
-### [coze-dev coze-loop](https://github.com/coze-dev/coze-loop)
+### [coze-dev coze-loop](https://github.com/coze-dev/coze-loop)  ![GitHub Repo stars](https://img.shields.io/github/stars/coze-dev/coze-loop?style=social)
 
-**核心内容总结：**
+Coze Loop 是一个面向开发者、专注于 AI Agent 开发与运营的平台级解决方案，提供从开发、调试、评估到监控的全生命周期管理能力。其开源版免费开放核心功能，主要包含：
 
-1. **项目功能**  
-Coze Loop 是一个面向开发者的平台级 AI 代理开发与运营解决方案，提供全生命周期管理能力，涵盖提示工程、评估、监控优化等环节，支持从开发、调试到部署的全流程。
+1. **提示词开发**：支持编写、调试、优化及版本管理，提供可视化 Playground 进行实时测试和模型输出对比。
+2. **自动化评估**：支持对提示词和 Agent 输出进行多维度自动化测试，管理评估集、评估器和实验。
+3. **可观测性**：记录执行全过程（从用户输入到 AI 输出），自动捕获中间结果和异常。
+4. **模型集成**：支持接入 OpenAI、火山引擎 Ark 等多种大语言模型。
 
-2. **主要特性**  
-- **提示开发**：提供端到端的提示编写、调试、优化及版本管理工具，支持可视化 Playground 实时测试不同大模型输出。  
-- **评估**：支持自动化多维度测试（如准确性、简洁性、合规性），管理评估集与实验。  
-- **可观测性**：记录 AI 代理执行全过程（用户输入至输出），包括提示解析、模型调用、工具执行等关键阶段，并自动捕获异常。  
-- **模型兼容**：支持集成 OpenAI、火山引擎 Ark 等主流模型。
-
-3. **使用方法**  
-- **部署方式**：提供 Docker Compose（本地快速部署）与 Kubernetes Helm Chart（集群部署）两种方案，需配置模型密钥及端点 ID。  
-- **开源版功能**：通过浏览器访问 `http://localhost:8082`，支持提示开发、评估、追踪查询及 SDK 集成（需修改配置参数）。  
-- **开发扩展**：提供代码二次开发、模型配置、系统架构等文档，支持自定义业务需求。
-
-4. **开源许可**  
-采用 Apache 2.0 协议，支持社区贡献与协作，提供 GitHub Issues、Pull Requests 等参与渠道。
+此外，项目支持 Docker 和 Kubernetes 部署，并提供 SDK 供开发者集成使用。

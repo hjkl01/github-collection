@@ -3,19 +3,6 @@
 title: monorepo
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/commonwarexyz/monorepo?style=social) ](https://github.com/commonwarexyz/monorepo)
-### [commonwarexyz monorepo](https://github.com/commonwarexyz/monorepo)
+### [commonwarexyz monorepo](https://github.com/commonwarexyz/monorepo)  ![GitHub Repo stars](https://img.shields.io/github/stars/commonwarexyz/monorepo?style=social)
 
-**项目核心内容总结：**  
-Commonware 是一个包含多种基础模块的库，旨在构建安全、高效的分布式系统。其核心功能模块包括：  
-- **原语（Primitives）**：提供广播、共识、加密通信、数据存储等基础能力，适用于对抗性环境（如拜占庭场景）。  
-- **示例（Examples）**：包含区块链、加密聊天、随机数生成等应用场景，用于演示如何结合原语实现具体功能。  
-- **辅助工具**：提供文档、Docker 镜像、宏工具等，便于开发和部署。  
-
-**主要特性**：  
-- 双许可（Apache 2.0/MIT），可自由选择使用协议。  
-- 模块化设计，支持跨云部署、异步任务调度、数据恢复等复杂场景。  
-- 提供安全机制（如阈值签名、时间锁加密），适用于高安全需求的系统。  
-
-**使用方法**：  
-通过引入具体模块（如 `consensus`、`p2p`）实现分布式功能，或参考示例项目（如 `alto` 区块链）学习集成方式。
+commonware 是一个用于在对抗性环境中构建分布式系统的库。主要功能包括：提供广播、共识、密码学、P2P、存储等核心原语；包含区块链等示例代码；设有五级稳定性机制（Alpha 至 Epsilon）保障依赖安全；支持 MCP 协议与大模型交互；采用 Apache 2.0 和 MIT 双重许可。

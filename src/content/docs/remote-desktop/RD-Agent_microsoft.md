@@ -3,26 +3,12 @@
 title: RD-Agent
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/RD-Agent?style=social) ](https://github.com/microsoft/RD-Agent)
-### [microsoft RD-Agent](https://github.com/microsoft/RD-Agent)
+### [microsoft RD-Agent](https://github.com/microsoft/RD-Agent)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/RD-Agent?style=social)
 
-**项目核心内容总结：**  
+RD-Agent 是一个面向数据驱动研发流程的自动化多智能体框架，旨在通过“研究”与“开发”双智能体协作实现工业级 R&D 自动化。
 
-**项目功能**：  
-R&D-Agent 是一个基于大语言模型（LLM）的自主数据科学框架，旨在实现研发流程的自动化。其核心功能包括：  
-1. **自动提出假设**（如模型结构设计）、**设计实验**（如金融时间序列验证）、**代码实现**（如PyTorch模型）及**执行反馈**（如指标分析）。  
-2. **多场景应用**：支持金融量化（如因子与模型联合优化）、数据挖掘研究、自动开发等。  
-3. **持续学习**：通过真实反馈迭代优化，提升研发能力。  
-
-**使用方法**：  
-- **金融量化**：运行 `rdagent-quant` 脚本，结合QFin数据进行因子与模型联合优化。  
-- **数据挖掘研究**：通过 `rdagent-research` 工具提出假设并验证。  
-- **自动开发**：使用 `rdagent-development` 实现代码生成与演化策略。  
-- **依赖安装**：需安装Python环境及指定库（如PyTorch、QFin）。  
-
-**主要特性**：  
-1. **多代理协作**：支持多Agent联合优化（如Quant模块）。  
-2. **自动演化策略**：通过协作式演化策略实现数据驱动的开发。  
-3. **真实验证集成**：可链接真实数据验证，确保方案可行性。  
-4. **跨领域适用**：覆盖金融、数据挖掘、自动开发等场景。  
-5. **开源与论文支持**：提供技术报告、基准测试及多篇arXiv论文（如《R&D-Agent: An LLM-Agent Framework Towards Autonomous Data Science》）。
+核心功能：
+1. **自主进化研发**：智能体自主提出新想法（如模型、因子），实现代码并执行，通过反馈迭代持续优化性能。
+2. **多领域应用**：覆盖量化金融（因子 - 模型联合优化）、机器学习工程（MLE-bench 表现领先）、Kaggle 竞赛自动化（调参与特征工程）、医疗预测及科研论文复现。
+3. **灵活集成**：基于 LiteLLM 支持多种大模型后端，提供 Docker 部署、UI 监控及健康检查工具。
+4. **目标**：自动化模型与数据构建，减少重复性工作，提升研发效率与产出质量。

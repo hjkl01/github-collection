@@ -5,20 +5,4 @@ title: mackup
 
 ### [lra mackup](https://github.com/lra/mackup)  ![GitHub Repo stars](https://img.shields.io/github/stars/lra/mackup?style=social)
 
-**项目核心内容总结**  
-Mackup 是一款用于同步应用程序配置文件的工具，支持 macOS 和 GNU/Linux 平台。其核心功能是将用户的应用配置（如 `~/.config/` 目录下的文件）备份到 Dropbox、Google Drive 等云存储服务，便于在新设备或重装系统后快速恢复配置。  
-
-**使用方法**  
-1. 创建 `~/.mackup` 目录，用于指定需同步的应用或文件。  
-2. 通过配置文件定义需备份的目录或应用（如 `~/.gitignore`）。  
-3. 工具会自动将配置文件同步到指定的云存储服务。  
-
-**主要特性**  
-- 支持跨平台（macOS/Linux）  
-- 兼容多种云存储（Dropbox、Google Drive 等）  
-- 开源（遵循 GPL 许可证）  
-- 可自定义同步规则，支持添加任意文件或目录  
-- 简化重复配置流程，节省时间  
-
-**注意事项**  
-- 仅需关注项目功能、使用方法及特性，不涉及其他额外信息。
+Mackup 是一款适用于 macOS 和 GNU/Linux 的工具，用于备份和同步应用程序的配置文件。它仅同步纯配置数据，自动排除缓存和临时文件，支持将文件备份至 Dropbox、Google Drive、iCloud 及 Git 等存储。提供“备份/恢复”（复制模式）和“链接/同步”（链接模式）两种操作方式，其中新版 macOS（如 Sonoma 以后）建议优先使用复制模式以避免偏好设置损坏。项目支持众多应用程序及自定义文件目录，旨在简化新工作站的配置恢复及多设备间的配置同步。

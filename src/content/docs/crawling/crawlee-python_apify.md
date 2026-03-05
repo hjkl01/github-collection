@@ -3,22 +3,13 @@
 title: crawlee-python
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apify/crawlee-python?style=social) ](https://github.com/apify/crawlee-python)
-### [apify crawlee-python](https://github.com/apify/crawlee-python)
+### [apify crawlee-python](https://github.com/apify/crawlee-python)  ![GitHub Repo stars](https://img.shields.io/github/stars/apify/crawlee-python?style=social)
 
-Crawlee 是一个用于网络爬取和浏览器自动化的 Python 库，提供高效、可靠的爬虫构建方案。其核心功能包括：  
-1. **两种爬虫模式**：  
-   - `BeautifulSoupCrawler`：基于 HTTP 请求和 HTML 解析（使用 BeautifulSoup），适合静态页面，性能高效。  
-   - `PlaywrightCrawler`：基于 Playwright 控制无头浏览器，支持 JavaScript 渲染和动态内容交互。  
+Crawlee 是一个 Python 网页爬取和浏览器自动化库，旨在帮助用户快速构建可靠的爬虫应用。
 
-2. **安装方法**：  
-   - 通过 PyPI 安装：`pip install 'crawlee[all]'` 并执行 `playwright install`。  
-   - 使用 Crawlee CLI 创建模板项目：`uvx 'crawlee[cli]' create my-crawler`。  
-
-3. **主要特性**：  
-   - 统一接口管理 HTTP 请求和浏览器操作。  
-   - 自动重试、代理轮换、请求队列持久化。  
-   - 异步处理（基于 Asyncio），支持类型提示提升开发体验。  
-   - 数据存储灵活（支持表格数据和文件存储）。  
-
-适用于需要处理静态或动态网页数据提取的场景，文档和示例可参考 [Crawlee 官网](https://crawlee.dev/python/)。
+核心功能：
+1. **爬虫类型**：提供 `BeautifulSoupCrawler`（基于 HTTP，适合静态 HTML 高效提取）和 `PlaywrightCrawler`（基于无头浏览器，适合动态 JavaScript 页面）两种模式。
+2. **抗反爬能力**：默认配置下可模拟人类行为，绕过现代反机器人保护，支持自动重试、代理轮换和会话管理。
+3. **资源管理**：基于 Asyncio 实现自动并行爬取，支持持久化的 URL 队列和请求路由配置。
+4. **数据存储**：集成可扩展的存储功能，支持将爬取数据持久化保存为数据集或键值存储。
+5. **开发体验**：提供完整的类型提示，支持任务中断后的状态持久化，提供 CLI 工具快速初始化项目，并支持部署至 Apify 平台。

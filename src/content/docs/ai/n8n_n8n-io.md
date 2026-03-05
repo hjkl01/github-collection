@@ -3,15 +3,6 @@
 title: n8n
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social) ](https://github.com/n8n-io/n8n)
-### [n8n-io n8n](https://github.com/n8n-io/n8n)
+### [n8n-io n8n](https://github.com/n8n-io/n8n)  ![GitHub Repo stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social)
 
-**核心内容总结：**
-
-n8n 是一个面向技术团队的自动化工作流平台，结合代码灵活性与无代码效率，支持 400+ 集成、原生 AI 能力（基于 LangChain）、自托管部署及企业级功能（如 SSO、权限管理）。用户可通过 **npx** 或 **Docker** 快速启动，访问本地地址 http://localhost:5678 使用。主要特性包括：  
-- 支持 JavaScript/Python 编码及可视化界面  
-- 提供 900+ 可复用模板与社区驱动的扩展  
-- 采用公平代码许可证，源码开放且可自由部署  
-- 企业版支持高级权限与隔离部署  
-
-**资源** 包括文档、AI 指南、社区论坛及教程，支持通过社区反馈或企业邮件（license@n8n.io）获取帮助或商业授权。
+n8n 是一款面向技术团队的工作流自动化平台，兼具代码灵活性与无代码速度。它支持 400 多种集成与原生 AI 能力，允许使用 JavaScript/Python 及 npm 包进行自定义扩展。平台支持自托管或云端部署，采用公平代码许可以确保数据控制权，并提供企业级权限、SSO 及安全管理特性。

@@ -3,14 +3,6 @@
 title: ntfy
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/binwiederhier/ntfy?style=social) ](https://github.com/binwiederhier/ntfy)
-### [binwiederhier ntfy](https://github.com/binwiederhier/ntfy)
+### [binwiederhier ntfy](https://github.com/binwiederhier/ntfy)  ![GitHub Repo stars](https://img.shields.io/github/stars/binwiederhier/ntfy?style=social)
 
-**项目核心内容总结：**
-
-ntfy.sh 是一个轻量级的通知服务工具，支持通过 HTTP API 发送通知，并提供 Android 应用接收通知。项目包含服务器端和客户端代码，用户可通过构建说明开发服务器和 Android 应用。主要特性包括：
-
-- **双许可**：采用 Apache 2.0 和 GPLv2 双许可协议。
-- **多语言支持**：提供德语、英语、保加利亚语等翻译，支持社区参与翻译。
-- **技术栈**：基于 Go 语言开发，使用 React、Material UI 等前端框架，集成 SQLite、Firebase 等第三方库实现功能。
-- **贡献方式**：可通过提交 PR 或 Issue 参与开发，大型功能需先通过 Discord/Matrix 沟通确认。
+ntfy 是一个开源的 HTTP 发布 - 订阅通知服务，允许用户通过脚本使用 PUT/POST 方法向手机或桌面发送推送通知。该服务无需注册或付费，支持自托管，提供官方 Android 和 iOS 客户端，并设有免费公共实例（ntfy.sh）和付费专业版计划。

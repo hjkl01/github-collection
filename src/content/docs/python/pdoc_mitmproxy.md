@@ -3,21 +3,6 @@
 title: pdoc
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mitmproxy/pdoc?style=social) ](https://github.com/mitmproxy/pdoc)
-### [mitmproxy pdoc](https://github.com/mitmproxy/pdoc)
+### [mitmproxy pdoc](https://github.com/mitmproxy/pdoc)  ![GitHub Repo stars](https://img.shields.io/github/stars/mitmproxy/pdoc?style=social)
 
-**项目核心内容总结：**  
-pdoc 是一个用于生成 Python 项目 API 文档的工具，支持 Markdown 格式，兼容 Python 3.10 及以上版本。  
-
-**使用方法：**  
-通过 `pip install pdoc` 安装后，运行 `pdoc your_python_module` 或 `pdoc ./my_project.py` 生成文档。支持内置 Web 服务器实时预览，也可导出为独立 HTML 文件。  
-
-**主要特性：**  
-1. 支持类型注解、现代 Python 特性及 numpydoc/Google 风格注释；  
-2. 自动链接文档中的标识符，尊重 `__all__` 变量；  
-3. 提取构造函数的类型注解和 docstring，解析前向引用；  
-4. 自定义 HTML 模板，无需依赖其他工具；  
-5. 提供命令行参数查看帮助信息或生成文档。  
-
-**注意事项：**  
-pdoc 与同名项目 pdoc3 无关联，强调社区友好和避免使用纳粹符号。
+pdoc 是一个专注于简洁性的 Python API 文档生成工具。它通过命令行将 Python 模块或文件转换为独立的 HTML 文档，无需额外依赖即可查看。支持 Markdown、现代 Python 类型注解以及 numpydoc 和 Google 风格的 docstrings。内置带实时重载的 Web 服务器，支持自定义 HTML 模板。能够自动解析抽象语法树（AST），处理标识符链接、继承关系、`__all__` 变量及类型注解的前向引用。相比 Sphinx，pdoc 更适合追求简单文档生成流程的用户。

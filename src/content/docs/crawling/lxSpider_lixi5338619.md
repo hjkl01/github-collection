@@ -3,8 +3,6 @@
 title: lxSpider
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lixi5338619/lxSpider?style=social) ](https://github.com/lixi5338619/lxSpider)
-### [lixi5338619 lxSpider](https://github.com/lixi5338619/lxSpider)
+### [lixi5338619 lxSpider](https://github.com/lixi5338619/lxSpider)  ![GitHub Repo stars](https://img.shields.io/github/stars/lixi5338619/lxSpider?style=social)
 
-**核心内容总结**：  
-lxSpider 是一个包含多个网站爬虫案例的合集，涵盖电商（淘宝、京东）、社交（微博、微信）、视频（抖音、快手）、论文（维普、万方）、招标等平台，提供逆向分析（如签名生成、协议解析）和数据采集的实现代码。项目附带教学资源，包括书籍《爬虫逆向进阶实战》、B站视频教程及个人博客（www.lxspider.com）的专栏文章，支持通过 GitHub 获取案例代码（如抖音、微博、京东等目录）。声明中强调代码仅用于学习，禁止商业或非法用途，作者不承担任何责任。
+lxSpider 是一个网络爬虫与逆向技术案例合集，收录了淘宝、京东、抖音、微博等主流平台及论文、招标等领域的爬虫源码。内容涵盖爬虫基础、Web 与安卓逆向分析（如签名生成、协议破解、验证码处理），配套教程视频、技术书籍及辅助工具，主要用于爬虫实战教学。

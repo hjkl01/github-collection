@@ -3,22 +3,16 @@
 title: apitable
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apitable/apitable?style=social) ](https://github.com/apitable/apitable)
-### [apitable apitable](https://github.com/apitable/apitable)
+### [apitable apitable](https://github.com/apitable/apitable)  ![GitHub Repo stars](https://img.shields.io/github/stars/apitable/apitable?style=social)
 
-APITable 是一个开源的可视化数据库工具，支持实时协作、自动化流程和多语言界面。其核心功能包括：  
-1. **实时协作**：多人同时编辑数据，自动同步更新；  
-2. **自动生成表单**：根据数据结构智能创建表单界面；  
-3. **API 集成**：提供 REST API 接口和可扩展的插件系统；  
-4. **权限管理**：支持细粒度的用户权限和数据访问控制；  
-5. **跨平台兼容**：支持 Docker 安装，适配多种操作系统。  
+APITable 是一款开源的可视化数据库与电子表格集成平台，基于 TypeScript 和 Java 全栈构建，支持 Docker 私有化部署。
 
-**使用方法**：  
-- 通过 Docker 安装，执行 `curl https://apitable.github.io/install.sh | bash` 一键部署；  
-- 企业用户可选择托管版（AITable.ai）或自建私有部署。  
+主要特性包括：
+- **实时协作**：支持多人在线编辑，采用 OT 算法保证数据一致性。
+- **API 优先**：提供全栈 API 访问及类 SQL 查询语言（DQL）。
+- **丰富视图**：支持网格、画廊、看板、甘特图等 7 种视图，内置自动表单与 BI 仪表板。
+- **权限管理**：提供行/列级权限、文件夹权限、SSO、审计及数据备份。
+- **高度扩展**：支持自定义 Widget、公式、自动化机器人及第三方集成，易于嵌入其他应用。
+- **跨表链接**：支持无限数量的跨表关联。
 
-**主要特性**：  
-- 基于 AGPL-3.0 开源协议；  
-- 支持 TypeScript/Java 双语言开发；  
-- 提供自动化机器人、Web3 功能等未来扩展计划；  
-- 企业版包含 SAML、审计日志、数据库备份等高级功能。
+适用于项目管理、CRM、ERP、低代码开发及作为可视化数据库基础设施。

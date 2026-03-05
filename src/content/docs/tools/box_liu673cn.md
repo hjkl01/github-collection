@@ -3,13 +3,6 @@
 title: box
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/liu673cn/box?style=social) ](https://github.com/liu673cn/box)
-### [liu673cn box](https://github.com/liu673cn/box)
+### [liu673cn box](https://github.com/liu673cn/box)  ![GitHub Repo stars](https://img.shields.io/github/stars/liu673cn/box?style=social)
 
-**核心内容总结：**  
-该项目是一个全面的Emoji、符号及国旗分类库，旨在为开发者和用户提供便捷的符号资源索引。功能包括：  
-1. **分类整理**：按类别（如动物、自然、交通、情感等）和用途（如警告、箭头、宗教符号等）系统化整理超过10万条Emoji和符号，支持快速查找。  
-2. **多语言覆盖**：包含国家旗帜、性别符号、星座符号等国际化元素，适配多语言场景。  
-3. **扩展性**：支持自定义分类和符号添加，适用于应用开发、UI设计、数据标注等场景。  
-**使用方法**：直接复制所需符号或通过API调用，适用于网页、App、文档等场景。  
-**主要特性**：分类清晰、覆盖全面、兼容性强，可提升开发效率和设计灵活性。
+本项目提供互联网资源代理地址以解决内容加载问题，附带详细的 DNS 配置与网络故障排查教程，并收录了涵盖人物、动物、食物、旗帜等全类别的 Emoji 表情符号集合。

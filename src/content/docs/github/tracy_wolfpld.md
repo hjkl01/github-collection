@@ -3,8 +3,6 @@
 title: tracy
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wolfpld/tracy?style=social) ](https://github.com/wolfpld/tracy)
-### [wolfpld tracy](https://github.com/wolfpld/tracy)
+### [wolfpld tracy](https://github.com/wolfpld/tracy)  ![GitHub Repo stars](https://img.shields.io/github/stars/wolfpld/tracy?style=social)
 
-**核心内容总结：**  
-Tracy Profiler 是一个支持实时、纳秒级精度的性能分析工具，适用于游戏和应用程序，具备远程遥测、混合帧采样分析功能。支持 CPU（集成 C/C++/Lua/Python/Fortran 等语言）和 GPU（OpenGL/Vulkan/Direct3D/Metal 等主流图形 API）性能分析，可追踪内存分配、锁竞争、上下文切换，并自动关联截图与帧数据。提供文档、Windows x64 编译包及交互式演示，支持多语言第三方绑定（如 Rust、Zig、C# 等）。
+Tracy Profiler 是一款面向游戏及其他应用的实时纳秒级远程遥测分析工具。支持混合帧与采样模式，覆盖 CPU（原生支持 C/C++/Lua/Python/Fortran 及多语言绑定）、GPU（OpenGL/Vulkan/Direct3D/Metal/OpenCL/CUDA）、内存分配、锁和上下文切换的性能分析，并具备截图自动关联至捕获帧的功能。

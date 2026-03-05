@@ -3,7 +3,6 @@
 title: garage
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/deuxfleurs-org/garage?style=social) ](https://github.com/deuxfleurs-org/garage)
-### [deuxfleurs-org garage](https://github.com/deuxfleurs-org/garage)
+### [deuxfleurs-org garage](https://github.com/deuxfleurs-org/garage)  ![GitHub Repo stars](https://img.shields.io/github/stars/deuxfleurs-org/garage?style=social)
 
-Garage 是一个 S3 兼容的分布式对象存储服务，支持自托管部署，适用于中小型规模。其核心功能包括跨物理位置的数据复制、高可用性（部分节点故障时仍可访问）及对机器故障的高弹性。主要特性为轻量级设计、易操作性及开源（AGPLv3 协议）。用户可通过文档中的快速入门指南部署，或从 Git 仓库获取源码。
+Garage 是一款专为中小型自托管场景设计的 S3 兼容分布式对象存储服务。它支持跨不同物理位置部署节点以实现数据复制，确保部分服务器不可用时仍保持高可用性，同时具备轻量、易操作及对机器故障的高韧性。

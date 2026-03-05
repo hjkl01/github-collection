@@ -3,17 +3,6 @@
 title: PythonDataScienceHandbook
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jakevdp/PythonDataScienceHandbook?style=social) ](https://github.com/jakevdp/PythonDataScienceHandbook)
-### [jakevdp PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+### [jakevdp PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)  ![GitHub Repo stars](https://img.shields.io/github/stars/jakevdp/PythonDataScienceHandbook?style=social)
 
-**项目功能**：提供《Python数据科学手册》的完整Jupyter笔记本版本，涵盖IPython、NumPy、Pandas、Matplotlib、Scikit-Learn等核心数据科学库的使用，支持在线阅读和代码运行。  
-
-**使用方法**：  
-1. 在线阅读书籍内容（[链接](https://jakevdp.github.io/PythonDataScienceHandbook/)）；  
-2. 下载并运行本地Jupyter笔记本；  
-3. 通过Google Colab或Binder直接在线执行代码。  
-
-**主要特性**：  
-- 支持Python 3.5及兼容版本，提供`requirements.txt`管理依赖；  
-- 可通过Conda创建独立环境安装所需库；  
-- 代码采用MIT许可证，文本内容采用CC-BY-NC-ND许可证。
+本项目包含《Python 数据科学手册》的完整 Jupyter 笔记本。主要介绍 Python 数据科学核心库（IPython、NumPy、Pandas、Matplotlib、Scikit-Learn）的使用。支持在线阅读、本地运行代码，以及通过 Google Colab 和 Binder 在线启动环境。代码基于 Python 3.5 测试，需具备 Python 语言基础。代码采用 MIT 协议，文本内容采用 CC-BY-NC-ND 协议。

@@ -3,25 +3,6 @@
 title: zitadel
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social) ](https://github.com/zitadel/zitadel)
-### [zitadel zitadel](https://github.com/zitadel/zitadel)
+### [zitadel zitadel](https://github.com/zitadel/zitadel)  ![GitHub Repo stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social)
 
-**核心内容总结：**  
-ZITADEL 是一个开源的身份管理平台，提供多租户用户管理、自服务功能及多种认证协议支持（如 OpenID Connect、OAuth2、SAML、LDAP 等），适用于企业级应用。  
-
-**主要功能：**  
-- **身份验证**：支持密码、Passkeys（FIDO 2/WebAuthN）、第三方登录及令牌交换。  
-- **多租户管理**：支持身份代理、自定义企业入驻流程、角色权限委托及域名自动发现。  
-- **集成能力**：提供 GRPC/REST API、SCIM 2.0 服务器、RBAC 权限控制及与外部审计系统对接。  
-- **自助服务**：用户可自行注册、管理账户，管理员可通过控制台（Console）管理组织、项目和应用。  
-- **部署方式**：支持自托管（PostgreSQL 数据库、零停机更新、高可用架构）及云服务（ZITADEL Cloud，含免费层级和按需付费）。  
-
-**使用方法：**  
-1. **自托管**：通过 Docker、Kubernetes 或直接部署在 Linux/MacOS 系统，配置 PostgreSQL 数据库。  
-2. **云服务**：注册 ZITADEL Cloud，使用 SaaS 模式快速部署，按需扩展功能。  
-
-**核心特性：**  
-- API 优先设计，支持全功能接口调用。  
-- 事件溯源（Event Sourcing）存储架构，保障数据可靠性。  
-- 提供 SDK 示例和开发者文档，便于集成。  
-- 支持高安全性设计（如零停机更新、审计日志）。
+ZITADEL 是一款开源的身份与访问管理（IAM）平台，专为 SaaS、B2B 平台及自托管场景设计。它提供 SSO、MFA、Passkeys、OIDC、SAML、SCIM 等功能，内置强大的多租户模型（含基础设施级租户和 B2B 组织管理）。平台采用 API 优先设计（支持 gRPC、connectRPC 和 REST），具备完整的事件驱动审计跟踪。支持 Docker 和 Kubernetes 自托管或云服务部署（代码库一致），实现零停机更新与水平扩展。此外，它包含 RBAC、自定义品牌、Actions 集成及完善的 SDK 生态，提供无厂商锁定的可控身份基础设施。

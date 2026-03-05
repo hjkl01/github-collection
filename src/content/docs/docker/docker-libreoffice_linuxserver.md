@@ -3,27 +3,6 @@
 title: docker-libreoffice
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/linuxserver/docker-libreoffice?style=social) ](https://github.com/linuxserver/docker-libreoffice)
-### [linuxserver docker-libreoffice](https://github.com/linuxserver/docker-libreoffice)
+### [linuxserver docker-libreoffice](https://github.com/linuxserver/docker-libreoffice)  ![GitHub Repo stars](https://img.shields.io/github/stars/linuxserver/docker-libreoffice?style=social)
 
-**项目核心内容总结：**
-
-该项目是一个基于Selkies和Alpine Linux的Docker容器镜像，提供远程桌面服务，需通过HTTPS访问。主要功能包括：
-
-1. **功能**  
-   - 支持通过Docker部署远程桌面应用，提供图形界面访问。  
-   - 集成Selkies（可能为VNC或类似远程控制方案），基于Alpine Linux精简系统。  
-   - 强制要求HTTPS连接（自12.07.25版本起）。  
-
-2. **使用方法**  
-   - **部署方式**：通过Docker Compose或CLI命令运行容器，需映射端口（如3000:3000 HTTP、3001:3001 HTTPS）、设置环境变量（如PUID、PGID、TZ）、挂载配置目录（`/config`）。  
-   - **参数配置**：支持通过环境变量调整用户权限、时区、HTTPS等，支持Docker Secrets从文件加载变量。  
-   - **更新维护**：提供Docker Compose或CLI的更新流程，包括拉取镜像、重启容器及清理旧镜像。  
-
-3. **主要特性**  
-   - **轻量高效**：基于Alpine Linux，资源占用低。  
-   - **灵活配置**：支持环境变量自定义用户权限、时区、HTTPS等，兼容Docker Mods扩展功能。  
-   - **权限管理**：通过PUID/PGID避免挂载目录权限冲突，支持UMask设置。  
-   - **日志与监控**：提供容器日志实时查看及版本查询方法。  
-
-**版本更新**：持续优化基础镜像（如Alpine 3.22）、强制HTTPS、集成PWA图标等。
+这是一个基于 LinuxServer.io 的 LibreOffice Docker 容器镜像，允许用户通过 Web 浏览器远程使用 LibreOffice 办公套件。项目支持 x86-64 和 arm64 架构，基于 Selkies 框架构建桌面流媒体功能，并支持 Wayland 模式以实现 GPU 硬件加速（零拷贝编码）及降低延迟。核心特性包括强制 HTTPS 传输、用户权限映射（PUID/PGID）、支持 PRoot 方式实现应用持久化、以及通过环境变量灵活配置语言、端口和硬件加速参数。项目提供安全加固选项（如禁用终端和 sudo），并兼容 SealSkin 平台，默认通过 HTTPS 3001 端口访问，建议置于可信网络或反向代理后端以保障安全。

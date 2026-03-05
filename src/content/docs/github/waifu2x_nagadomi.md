@@ -3,23 +3,13 @@
 title: waifu2x
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nagadomi/waifu2x?style=social) ](https://github.com/nagadomi/waifu2x)
-### [nagadomi waifu2x](https://github.com/nagadomi/waifu2x)
+### [nagadomi waifu2x](https://github.com/nagadomi/waifu2x)  ![GitHub Repo stars](https://img.shields.io/github/stars/nagadomi/waifu2x?style=social)
 
-**项目核心内容总结：**
-
-waifu2x 是一个基于深度卷积神经网络的图像超分辨率工具，支持动漫风格艺术和照片的高清修复与放大。主要功能包括：  
-- **图像处理**：提供降噪（支持4个噪声等级）、2x放大、降噪+放大融合模式，支持PNG/JPG格式。  
-- **批量处理**：通过文件列表实现多图批量处理，支持自定义输出命名规则。  
-- **视频处理**：支持从视频中提取帧、处理后重新生成视频。  
-- **自定义训练**：可使用用户自定义数据集训练降噪、放大或融合模型，提供训练脚本和示例。  
-
-**使用方式**：  
-- **命令行工具**：通过Lua脚本调用（如 `th waifu2x.lua`），支持GPU加速（需CUDA/cuDNN）。  
-- **Web应用**：运行 `th web.lua` 启动本地服务（端口8812）。  
-- **Docker部署**：提供镜像，支持GPU加速和挂载目录处理文件。  
-
-**主要特性**：  
-- 支持多种模型模式（降噪、放大、融合），可切换照片/动漫模型。  
-- 优化性能（cuDNN加速、内存管理参数）。  
-- 跨平台兼容（Linux + Docker），提供第三方工具替代方案（如waifu2x-ncnn-vulkan）。
+waifu2x 是一个基于深度卷积神经网络的图像超分辨率工具，支持动漫及照片图片。
+主要功能：
+1. 图像增强：支持 2x/3x 放大及多级降噪，可单独或组合使用。
+2. 批量处理：支持批量图像转换及视频分帧处理与合成。
+3. 模型训练：支持用户基于自有数据训练自定义模型。
+4. 运行方式：提供命令行、Web 应用、Docker 及第三方移植版本。
+5. 硬件要求：依赖 NVIDIA GPU 和 CUDA 环境。
+注：后续开发已迁移至 PyTorch 的 nunif 项目。

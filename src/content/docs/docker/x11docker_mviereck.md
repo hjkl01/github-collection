@@ -3,23 +3,13 @@
 title: x11docker
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mviereck/x11docker?style=social) ](https://github.com/mviereck/x11docker)
-### [mviereck x11docker](https://github.com/mviereck/x11docker)
+### [mviereck x11docker](https://github.com/mviereck/x11docker)  ![GitHub Repo stars](https://img.shields.io/github/stars/mviereck/x11docker?style=social)
 
-**项目功能：**  
-x11docker 是一个基于 Docker 的工具，用于在容器中运行图形界面应用程序和桌面环境。它支持多种桌面环境（如 KDE、GNOME、XFCE 等），并可以与硬件加速、声音共享、文件共享等功能结合使用。
+x11docker 是一个命令行工具，用于在 Docker 或 Podman 容器中运行图形界面（GUI）应用程序及桌面环境。
 
-**使用方法：**  
-通过命令行使用 `x11docker` 命令运行容器，可指定桌面环境、共享文件夹、启用 GPU 加速、设置 PulseAudio 声音等。用户还可以通过自定义 Dockerfile 添加应用，构建专属镜像。
-
-**主要特性：**  
-- 支持多种桌面环境和图形应用；
-- 提供 GPU 加速、声音共享、文件共享等功能；
-- 可自定义镜像，支持持久化配置；
-- 项目提供了一系列示例镜像，方便用户快速使用；
-- 支持多种 Linux 发行版和轻量级系统（如 Alpine、Void Linux）。
-
----
-
-**核心内容总结：**  
-x11docker 是一个用于在 Docker 容器中运行图形界面应用程序和桌面环境的工具，支持多种桌面环境和图形应用，提供 GPU 加速、声音共享、文件共享等功能。用户可通过命令行快速启动容器，并通过自定义 Dockerfile 扩展功能。项目提供多个示例镜像，适用于开发、测试和演示等多种场景。
+主要功能包括：
+1. **运行容器 GUI**：通过运行独立的 X 服务器或 Wayland 合成器，解决容器缺乏显示服务器的问题，支持单应用无缝模式或完整桌面环境。
+2. **安全隔离**：避免 X 安全泄露（不共享宿主 X socket），限制容器权限，默认以非 Root 用户运行，增强沙箱隔离以保护宿主机。
+3. **硬件与资源共享**：支持 GPU 硬件加速、音频（PipeWire/PulseAudio）、摄像头、打印机共享及剪贴板互通。
+4. **灵活配置**：支持 Linux 及 Windows 环境，可配置网络、文件共享、语言及资源限制，兼容多种后端与初始化系统。
+5. **轻量易用**：基于 Bash 脚本，无额外库依赖，安装简便，支持预设配置。

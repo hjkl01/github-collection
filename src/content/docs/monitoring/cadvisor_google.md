@@ -3,22 +3,8 @@
 title: cadvisor
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google/cadvisor?style=social) ](https://github.com/google/cadvisor)
-### [google cadvisor](https://github.com/google/cadvisor)
+### [google cadvisor](https://github.com/google/cadvisor)  ![GitHub Repo stars](https://img.shields.io/github/stars/google/cadvisor?style=social)
 
-**核心内容总结：**  
-cAdvisor 是一个容器监控工具，用于实时收集、聚合和导出容器的资源使用情况（如CPU、内存、网络等）及性能数据。其核心功能包括：  
-1. **支持容器类型**：原生支持Docker容器，兼容其他容器类型。  
-2. **数据导出**：通过存储插件（如Prometheus）导出数据，支持自定义配置。  
-3. **可视化与接口**：提供Web UI查看数据，并通过REST API供外部调用。  
-4. **部署方式**：  
-   - 通过Docker命令快速部署（需挂载宿主机目录）。  
-   - 在Kubernetes中以DaemonSet形式运行。  
-5. **特性**：支持容器分层结构、历史数据统计、资源隔离参数分析。  
+cAdvisor (Container Advisor) 是一个运行时守护进程，旨在帮助用户理解运行中容器的资源使用和性能特征。它负责收集、聚合、处理并导出容器的资源隔离参数、历史资源使用量、直方图及网络统计信息，支持容器级别和机器级别的数据。
 
-**使用方法**：  
-- 使用Docker命令一键部署（需指定版本和挂载目录）。  
-- 参考文档进行独立运行、构建镜像或配置存储插件。  
-- Kubernetes用户可通过提供的部署文件集成到集群。  
-
-**其他**：项目提供详细文档、社区支持及贡献者信息，目标是通过资源使用分析优化容器性能。
+cAdvisor 原生支持 Docker 容器，并基于 lmctfy 容器抽象支持其他容器类型。支持多种部署方式，包括 Docker 容器、独立运行及 Kubernetes DaemonSet。项目提供 Web UI、版本化远程 REST API、存储插件导出支持以及官方 Go 客户端。其未来规划包括提供容器性能建议、基于建议的自动调优以及向调度层提供使用量预测。

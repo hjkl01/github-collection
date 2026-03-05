@@ -3,25 +3,13 @@
 title: eve-swagger
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pyeve/eve-swagger?style=social) ](https://github.com/pyeve/eve-swagger)
-### [pyeve eve-swagger](https://github.com/pyeve/eve-swagger)
+### [pyeve eve-swagger](https://github.com/pyeve/eve-swagger)  ![GitHub Repo stars](https://img.shields.io/github/stars/pyeve/eve-swagger?style=social)
 
-**项目核心内容总结：**  
-Eve-Swagger 是一个为 Eve 框架的 RESTful API 自动生成 Swagger 文档的扩展工具，帮助开发者快速构建 API 接口说明文档。  
+Eve-Swagger 是为基于 Eve 框架构建的 RESTful API 生成 Swagger 文档的 Python 扩展库。主要功能包括：
 
-**主要功能：**  
-1. **Swagger 文档生成**：通过配置 `SWAGGER_INFO` 自动生成符合 Swagger 2.0 规范的 JSON 文档，支持自定义标题、版本、描述、协议等信息。  
-2. **动态扩展文档**：运行时可通过 `add_documentation` 方法动态添加或修改接口参数说明。  
-3. **资源级禁用文档**：在 `settings.py` 中设置 `disable_documentation: True` 可隐藏特定资源的接口说明。  
-4. **事件钩子描述**：启用 `ENABLE_HOOK_DESCRIPTION` 后，可将 Eve 事件钩子（如 `on_pre_GET`）的注释显示在 Swagger 文档中。  
-5. **字段与资源示例**：支持为字段或资源添加 `description` 和 `example` 字段，用于 Swagger UI 展示，需自定义 Cerberus 验证器以避免报错。  
-
-**使用方法：**  
-- 安装：`pip install eve-swagger`  
-- 配置：在 Eve 应用中注册 Swagger 蓝图，设置 `SWAGGER_INFO` 和 `SWAGGER_HOST`，并根据需要添加自定义验证器或文档内容。  
-- 访问 `/api-docs` 端点获取生成的 JSON 文档，配合 Swagger UI 或 Editor 使用。  
-
-**注意事项：**  
-- 若 Swagger UI 报跨域错误，需在 Eve 的 `settings.py` 中配置 `X_DOMAINS` 和 `X_HEADERS`。  
-- 使用 `description` 或 `example` 字段时，需继承 `Validator` 类并重写验证方法，否则会触发 Cerberus 错误。  
-- 可通过 `SWAGGER_EXAMPLE_FIELD_REMOVE` 配置项禁用 `example` 属性的生成。
+1.  **自动生成文档**：扫描 API 配置生成 Swagger JSON，提供 `/api-docs` 端点，兼容 Swagger UI 及编辑器。
+2.  **自定义信息**：支持通过配置设置文档标题、版本、描述、联系信息及授权信息。
+3.  **字段说明与示例**：支持在 Schema 验证中通过 `description` 和 `example` 属性为字段及资源添加详细说明和示例数据。
+4.  **资源控制**：支持禁用特定资源的文档生成，使其不出现在路径或定义中。
+5.  **钩子描述**：支持显示 Eve 事件钩子（hooks）的 Docstrings 描述。
+6.  **跨域支持**：需配置 CORS 设置以支持 Swagger UI 的跨域请求。

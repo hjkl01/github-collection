@@ -3,15 +3,11 @@
 title: node
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nodejs/node?style=social) ](https://github.com/nodejs/node)
-### [nodejs node](https://github.com/nodejs/node)
+### [nodejs node](https://github.com/nodejs/node)  ![GitHub Repo stars](https://img.shields.io/github/stars/nodejs/node?style=social)
 
-**核心内容总结：**  
-Node.js 是一个基于 JavaScript 的开源运行时环境，用于构建服务器端和跨平台应用。其核心功能包括异步 I/O 操作、事件驱动架构及跨平台支持。项目采用 MIT 许可证，依赖的外部库可能使用其他开源许可证。  
-
-**主要信息：**  
-1. **贡献者**：包含开发者、安全发布管理人及企业支持（如 Datadog、NodeSource 等）。  
-2. **安全发布管理**：由企业轮值管理，确保安全更新的及时性。  
-3. **许可证**：项目遵循 MIT 许可证，完整依赖库许可证见官方 LICENSE 文件。  
-
-**使用方法**：需从官方渠道下载并安装 Node.js，支持命令行工具及模块化开发。
+Node.js 是一个开源、跨平台的 JavaScript 运行时环境。
+项目由 OpenJS Foundation 支持，遵循开放治理模式和行为准则。
+发布版本包含 Current（活跃开发）、LTS（长期支持）和 Nightly（每日构建）三种类型。
+提供二进制、安装程序及源码下载，支持源码构建及文件验证。
+包含安全漏洞报告、贡献指南及 TSC、Collaborators 等团队信息。
+项目基于 MIT 许可证开源。

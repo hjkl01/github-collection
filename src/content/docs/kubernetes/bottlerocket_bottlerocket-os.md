@@ -3,29 +3,15 @@
 title: bottlerocket
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bottlerocket-os/bottlerocket?style=social) ](https://github.com/bottlerocket-os/bottlerocket)
-### [bottlerocket-os bottlerocket](https://github.com/bottlerocket-os/bottlerocket)
+### [bottlerocket-os bottlerocket](https://github.com/bottlerocket-os/bottlerocket)  ![GitHub Repo stars](https://img.shields.io/github/stars/bottlerocket-os/bottlerocket?style=social)
 
-**Bottlerocket 项目核心内容总结**  
+Bottlerocket OS 是一款专为托管容器设计的自由开源 Linux 操作系统，聚焦于安全性和可维护性，为容器工作负载提供可靠、一致且安全的平台。
 
-**项目功能**  
-Bottlerocket 是一个轻量级、安全的操作系统，专为容器化应用和云环境优化，支持 Kubernetes 和 Amazon ECS。提供自动更新、安全启动、容器运行时（如 containerd）及与云服务（如 AWS）的深度集成。  
+主要功能特性包括：
+1. **API 驱动配置**：通过 API 管理系统设置，支持配置在更新时自动迁移，避免手动维护。
+2. **安全更新机制**：采用分区翻转和 TUF 技术进行系统更新，支持快速更新及失败自动回滚。
+3. **高安全性设计**：默认禁用 SSH 和 Shell，集成 dm-verity、SELinux，核心组件多用 Rust 编写。
+4. **多环境支持**：提供 AWS EKS、ECS、VMware Kubernetes 及裸金属等多种变体，支持 x86_64 和 aarch64 架构。
+5. **灵活访问方式**：默认通过 Control 容器（基于 AWS SSM）访问，可启用 Admin 容器以获取 SSH 访问权限。
 
-**使用方法**  
-1. **配置方式**：通过 API 或容器编排工具（如 `kubectl`）管理；启动时可通过用户数据（TOML 格式）自动初始化配置。  
-2. **部署支持**：兼容 AWS EC2、Kubernetes 和 ECS，支持 NVIDIA GPU 及 AWS Neuron 加速实例。  
-3. **更新机制**：采用双分区（A/B）更新，失败时自动回滚；依赖 TUF 安全协议保障镜像完整性。  
-
-**主要特性**  
-- **安全防护**：  
-  - 使用 dm-verity 验证不可变根文件系统，结合 SELinux 防止未授权访问。  
-  - 多数组件用 Rust 编写，减少内存安全漏洞。  
-- **高效更新**：分区切换实现无缝升级，记录成功启动记录以保障可靠性。  
-- **包管理**：基于 RPM 定义构建，集成 Linux 内核、systemd、containerd 等核心组件。  
-- **存储结构**：  
-  - 根设备：存放系统分区、启动加载器及 API 数据存储。  
-  - 数据设备（`/local`）：用于持久化容器镜像、主机容器及启动容器数据。  
-- **硬件兼容性**：支持 NVIDIA GPU（驱动版本需匹配实例类型）及 AWS Neuron 加速实例（如 inf1、trn1）。  
-
-**适用场景**  
-适用于需要高安全性和自动化的云原生应用部署，尤其适合 AWS 生态中的容器化工作负载。
+该系统适用于运行在 Amazon EKS、ECS、VMware 或裸金属服务器上的容器化工作负载。

@@ -3,23 +3,6 @@
 title: talk
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vasanthv/talk?style=social) ](https://github.com/vasanthv/talk)
-### [vasanthv talk](https://github.com/vasanthv/talk)
+### [vasanthv talk](https://github.com/vasanthv/talk)  ![GitHub Repo stars](https://img.shields.io/github/stars/vasanthv/talk?style=social)
 
-**项目核心内容总结：**
-
-Hello 是一款基于 WebRTC 的网页端点对点视频通话工具，无需注册、下载或登录，支持主流浏览器直接使用。  
-
-**主要功能与特性：**  
-1. **即开即用**：无需账号密码，可即时创建或加入视频通话。  
-2. **点对点传输**：通过 WebRTC 实现低延迟的音视频直连，多人通话采用“网状拓扑”（每人间直接连接）。  
-3. **共享链接**：通过 `domain/channel-id` 格式链接快速分享通话。  
-4. **嵌入支持**：可通过 `<iframe>` 将通话嵌入任意网页或应用。  
-5. **无服务器中转**：媒体流不经过中央服务器，保障隐私且降低延迟。  
-
-**使用限制**：  
-- 通话质量受参与人数和网络速度影响，推荐 6-8 人以内使用（高速网络下效果更佳）。  
-- 无服务器架构导致大规模群呼时可能性能下降。  
-
-**其他信息**：  
-- 开源项目，提供贡献指南和 MIT 许可证。
+Hello 是一款基于 WebRTC 的免费 Web 端点对点群组视频会议应用。该应用无需注册或下载，可直接在主流浏览器中运行，支持视频、音频及文本通信。它采用点对点网状拓扑结构，媒体流不经过中心服务器，从而实现低延迟和隐私保护。用户可通过共享链接加入会议，也支持将通话嵌入其他网站。在 6 至 8 人的高网速环境下效果最佳。

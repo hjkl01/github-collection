@@ -3,28 +3,15 @@
 title: Zelda64Recomp
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Zelda64Recomp/Zelda64Recomp?style=social) ](https://github.com/Zelda64Recomp/Zelda64Recomp)
-### [Zelda64Recomp Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)
+### [Zelda64Recomp Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)  ![GitHub Repo stars](https://img.shields.io/github/stars/Zelda64Recomp/Zelda64Recomp?style=social)
 
-**项目核心内容总结：**  
-Zelda 64: Recompiled 是一个基于 N64: Recompiled 静态重新编译的《塞尔达传说：时之笛》（Majora's Mask）原生移植项目，使用 RT64 渲染引擎实现图形增强和多种新特性。  
+本项目利用静态重编译技术，将 N64 游戏《姆吉拉的面具》移植为现代平台的原生端口（计划后续支持《时之笛》），并非模拟器。
 
-**主要功能：**  
-- **静态重新编译**：无需源代码，直接将 N64 游戏转译为现代平台可运行的版本。  
-- **图形增强**：保留原版 N64 效果（如光影、贴图），支持宽屏/超宽屏、高帧率、即时加载等。  
-- **模组支持**：通过拖拽文件或菜单安装社区模组，支持自定义内容（如新剧情、纹理包）。  
-- **操作优化**：支持双类比摇杆控制、陀螺仪瞄准（需兼容控制器）、自定义按键映射。  
-- **自动保存**：防止断电丢失进度，可切换原版存档机制。  
-- **跨平台支持**：兼容 Windows、Linux（含 Steam Deck）、macOS。  
+核心功能：
+1. 即插即用：仅需原版美版 ROM，无需提取资源或编译。
+2. 图形增强：基于 RT64 引擎，支持高帧率、宽屏/超宽屏，完美还原原版 N64 特效。
+3. 操作优化：支持双摇杆相机、陀螺仪瞄准、低输入延迟及自定义键位映射。
+4. 系统增强：提供模组支持、自动存档、瞬时加载及内置配置菜单。
+5. 跨平台兼容：支持 Windows、macOS（含 Apple Silicon）、Linux 及 Steam Deck。
 
-**使用方法：**  
-1. 下载预编译版本（无需构建），运行后加载 US 版《Majora's Mask》.z64 ROM（自动转换其他格式）。  
-2. 通过主菜单选择游戏，无需额外提取步骤。  
-3. 安装模组：将模组文件放入项目目录或通过菜单安装。  
-4. Steam Deck 用户需设置陀螺仪为“鼠标模式”以启用瞄准。  
-
-**注意事项：**  
-- 项目仅支持 US 版《Majora's Mask》.z64 ROM，不兼容其他 ROM。  
-- 需原始游戏 ROM 运行，不包含游戏资源。  
-- 第三方软件（如 MSI Afterburner）可能影响性能，建议关闭。  
-- 通过 `portable.txt` 文件可启用便携模式，存档和配置存储于执行文件同目录。
+注意：项目不包含游戏资源，需用户自备 ROM 并满足特定 GPU 和 CPU 指令集要求。

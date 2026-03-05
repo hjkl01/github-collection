@@ -3,15 +3,6 @@
 title: talos
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/siderolabs/talos?style=social) ](https://github.com/siderolabs/talos)
-### [siderolabs talos](https://github.com/siderolabs/talos)
+### [siderolabs talos](https://github.com/siderolabs/talos)  ![GitHub Repo stars](https://img.shields.io/github/stars/siderolabs/talos?style=social)
 
-**Talos Linux 核心内容总结**  
-Talos Linux 是专为 Kubernetes 设计的现代操作系统，具有安全、不可变和最小化的特点。其核心功能包括：  
-- **安全性**：通过最小化系统设计、强制 mTLS 认证和不可变基础设施，减少攻击面。  
-- **可预测性**：采用原子更新机制，消除配置漂移，确保系统一致性。  
-- **可扩展性**：提供最新稳定的 Kubernetes 和 Linux 版本，简化架构并提升敏捷性。  
-
-**使用方法**：通过 API 管理系统（无 shell 或交互式控制台），部署和管理参考官方文档。  
-
-**主要特性**：开源、生产就绪、全 API 化操作，支持社区支持和贡献。
+Talos Linux 是一个专为 Kubernetes 设计的现代操作系统，具有安全、不可变和极简的特点，完全开源且适用于生产环境。所有系统管理均通过 API 完成，无 Shell 或交互式控制台。主要优势包括：安全性（最小化攻击面，mTLS 认证，加固不可变）、可预测性（消除配置漂移，支持原子更新）以及可演进性（简化架构，确保使用最新的稳定版 Kubernetes 和 Linux）。

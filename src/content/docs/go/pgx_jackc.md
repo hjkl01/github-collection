@@ -3,24 +3,11 @@
 title: pgx
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jackc/pgx?style=social) ](https://github.com/jackc/pgx)
-### [jackc pgx](https://github.com/jackc/pgx)
+### [jackc pgx](https://github.com/jackc/pgx)  ![GitHub Repo stars](https://img.shields.io/github/stars/jackc/pgx?style=social)
 
-**项目核心内容总结：**
+pgx 是一个用于 PostgreSQL 的纯 Go 驱动和工具包，主要功能总结如下：
 
-pgx 是一个用于 PostgreSQL 的高性能 Go 语言驱动和工具包，提供直接访问 PostgreSQL 特有功能（如 `LISTEN`/`NOTIFY`、`COPY` 协议）的低级别接口，同时兼容标准 `database/sql` 接口。
-
-**使用方法**：通过 `Connect` 建立数据库连接，使用 `QueryRow` 执行 SQL 查询并用 `Scan` 获取结果，支持通过环境变量配置连接参数。
-
-**主要特性**：
-- 支持 70+ PostgreSQL 数据类型，包括 `json`、`hstore`、`inet` 等；
-- 提供自动语句缓存、批量查询、单次往返模式等性能优化；
-- 支持 TLS、二进制格式传输、`COPY` 协议实现高速数据导入；
-- 包含连接池、通知响应处理、模拟嵌套事务等高级功能；
-- 支持自定义类型与 `database/sql` 接口适配。
-
-**适用场景**：推荐在仅使用 PostgreSQL 的场景下优先使用 pgx 接口，以获得更优性能和功能；若需兼容其他数据库，可通过 `database/sql` 接口实现。
-
-**支持版本**：Go 1.24+、PostgreSQL 13+，并兼容 CockroachDB。
-
-**相关库**：包含逻辑复制、模拟服务器、SQL 迁移等工具，以及第三方适配器（如 UUID、PostGIS）和第三方库（如 mock 框架、ORM 工具）。
+1. **核心驱动**：提供高性能低层接口，暴露 PostgreSQL 特有功能（如 LISTEN/NOTIFY、COPY），并包含标准 `database/sql` 接口适配器。
+2. **工具组件**：提供 Wire 协议解析和类型映射等底层包，可用于实现替代驱动、代理、负载均衡器或逻辑复制客户端。
+3. **主要特性**：支持约 70 种 PostgreSQL 类型，具备自动语句准备与缓存、批处理查询、单轮次传输、二进制格式支持、COPY 批量加载、连接池管理及 TLS 控制等功能。
+4. **生态扩展**：提供逻辑复制（pglogrepl）、协议模拟（pgmock）、SQL 迁移（tern）等配套库，并支持广泛的第三方 UUID、Decimal、日志追踪及数据扫描库适配器。

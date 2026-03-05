@@ -3,23 +3,12 @@
 title: filegator
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/filegator/filegator?style=social) ](https://github.com/filegator/filegator)
-### [filegator filegator](https://github.com/filegator/filegator)
+### [filegator filegator](https://github.com/filegator/filegator)  ![GitHub Repo stars](https://img.shields.io/github/stars/filegator/filegator?style=social)
 
-**核心内容总结：**  
-FileGator 是一款免费、开源、自托管的多用户文件管理工具，支持本地及多种云存储（如 FTP、S3、Dropbox 等），提供文件上传、下载、编辑、压缩、权限管理等功能。用户可通过拖拽上传、分块传输、多文件操作等提升效率。  
+FileGator 是一款免费、开源、自托管的 Web 文件管理应用，核心功能包括：
 
-**使用方法：**  
-- **Docker 快速部署**：运行 `docker run` 命令启动容器，访问默认地址登录（admin/admin123）。  
-- **本地安装**：需 PHP、Node.js 等环境，执行 `composer install` 和 `npm install` 等步骤。  
-- **演示环境**：提供在线演示（[demo.filegator.io](https://demo.filegator.io)），支持 guest 账户及权限测试。  
-
-**主要特性：**  
-- 支持多种存储适配器（本地、FTP、S3 等）和认证方式（JSON、数据库、WordPress）。  
-- 前端基于 Vue.js 和 Bulma 框架，界面友好。  
-- 分块上传、暂停/恢复、多文件下载。  
-- 无需数据库，代码可扩展性强。  
-
-**部署注意事项：**  
-- 部署时需将 `dist` 目录设为网站根目录，避免暴露其他敏感文件。  
-- 安全问题需通过邮件联系开发者，而非公开讨论。
+*   **多用户管理**：支持管理员及多用户，可配置不同权限、角色和独立主目录。
+*   **文件操作**：支持复制、移动、重命名、编辑、创建、删除、预览、压缩、解压、下载和上传。
+*   **上传增强**：支持拖拽上传、进度显示、暂停与恢复，采用分块上传技术以支持大文件。
+*   **存储适配**：支持本地存储及多种云存储适配器（如 FTP、Amazon S3、Dropbox、Azure Blob 等）。
+*   **部署灵活**：支持 JSON、数据库或 WordPress 认证，无需数据库即可运行，并提供 Docker 镜像支持。

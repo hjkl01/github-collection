@@ -3,25 +3,6 @@
 title: tokio
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tokio-rs/tokio?style=social) ](https://github.com/tokio-rs/tokio)
-### [tokio-rs tokio](https://github.com/tokio-rs/tokio)
+### [tokio-rs tokio](https://github.com/tokio-rs/tokio)  ![GitHub Repo stars](https://img.shields.io/github/stars/tokio-rs/tokio?style=social)
 
-**Tokio 是一个基于 Rust 的异步运行时框架，用于构建高性能、可靠且可扩展的应用程序。**  
-
-### **核心功能**  
-- 提供事件驱动、非阻塞 I/O 支持，包含多线程任务调度器、操作系统级反应堆（如 epoll/kqueue）和异步 TCP/UDP 套接字。  
-- 通过 Rust 的内存安全机制确保线程安全，减少并发错误。  
-
-### **主要特性**  
-- **高性能**：零成本抽象，接近底层性能。  
-- **可靠性**：利用 Rust 所有权模型和类型系统保障安全。  
-- **可扩展性**：支持背压控制、任务取消等特性，适合高并发场景。  
-
-### **使用方法**  
-在 `Cargo.toml` 中启用 `tokio` 的 `full` 功能，示例代码展示了一个基于异步 TCP 的回声服务器，通过 `tokio::spawn` 并发处理连接。  
-
-### **相关项目**  
-维护多个生态库，如 `axum`（Web 框架）、`hyper`（HTTP 实现）、`tonic`（gRPC）、`tracing`（追踪框架）等。  
-
-### **支持版本**  
-当前最低支持 Rust 1.71，提供长期支持（LTS）版本（如 1.43.x、1.47.x），适用于需要稳定版本的项目。
+Tokio 是用 Rust 编写的异步运行时，用于构建可靠、高效且轻量的异步应用程序。它提供事件驱动的非阻塞 I/O 平台，核心组件包括基于工作窃取的多线程任务调度器、由操作系统事件队列驱动的反应器，以及异步 TCP 和 UDP 套接字。其特点包括零成本抽象的高性能、Rust 所有权模型保证的线程安全性，以及处理背压和取消的自然扩展性。

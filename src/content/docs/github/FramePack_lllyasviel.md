@@ -3,20 +3,6 @@
 title: FramePack
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lllyasviel/FramePack?style=social) ](https://github.com/lllyasviel/FramePack)
-### [lllyasviel FramePack](https://github.com/lllyasviel/FramePack)
+### [lllyasviel FramePack](https://github.com/lllyasviel/FramePack)  ![GitHub Repo stars](https://img.shields.io/github/stars/lllyasviel/FramePack?style=social)
 
-**核心内容总结：**  
-该项目是一个基于视频扩散模型的动画生成工具，可将静态图片转化为动态视频。核心功能包括：  
-1. **视频生成**：通过输入静态图片和描述性提示词（如“女孩优雅地跳舞”），生成具有连续动作的视频。  
-2. **技术特性**：采用“下一帧预测”模型，通过帧上下文压缩和漂移预防技术提升视频连贯性与稳定性。  
-3. **使用方法**：  
-   - 安装依赖后运行代码，通过命令行参数指定输入图片、提示词及输出路径。  
-   - 提示词需简洁描述动作主体、动作类型及细节（如“男子有力地舞动，动作清晰且充满能量”）。  
-4. **优化建议**：  
-   - 使用明确、动态的提示词（优先描述舞蹈、奔跑等大范围动作）。  
-   - 避免使用复杂或模糊描述，以提高生成效果。  
-
-**注意事项**：  
-- 生成视频的稳定性可能受硬件性能影响，建议使用高性能显卡。  
-- 某些提示词可能导致生成结果偏离预期，需多次尝试调整。
+FramePack 是一个基于“下一帧预测”架构的视频扩散模型官方实现及桌面软件。它通过将输入上下文压缩至恒定长度，使生成负载与视频长度无关，仅需 6GB 显存即可在笔记本 GPU 上运行 13B 模型生成长视频。软件支持逐帧或逐段渐进式生成，内置防漂移设计，提供图形界面，兼容 Windows 和 Linux 系统下的主流 NVIDIA 显卡。

@@ -3,21 +3,6 @@
 title: patina
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenDevicePartnership/patina?style=social) ](https://github.com/OpenDevicePartnership/patina)
-### [OpenDevicePartnership patina](https://github.com/OpenDevicePartnership/patina)
+### [OpenDevicePartnership patina](https://github.com/OpenDevicePartnership/patina)  ![GitHub Repo stars](https://img.shields.io/github/stars/OpenDevicePartnership/patina?style=social)
 
-**核心内容总结：**  
-Patina 是一个用 Rust 实现的 UEFI 固件项目，旨在通过纯 Rust 替代传统 C 语言编写的 UEFI 组件，提升固件安全性与稳定性。  
-
-**主要功能与特性：**  
-- 支持 aarch64 和 x64 平台编译，提供 DXE 核心及部分 UEFI 驱动组件。  
-- 提供详细文档（包括 API 参考和开发指南）及测试框架，支持单元测试、覆盖率分析和基准测试。  
-- 通过 GitHub Actions 实现持续集成，支持版本发布流程（如 PR 更新版本号后自动发布至 crates.io）。  
-
-**使用方法：**  
-1. 安装 Rust 工具链，配置 `x86_64-unknown-uefi` 目标。  
-2. 使用 `cargo make` 命令进行构建（如 `cargo make build`）、测试（`cargo make test`）和覆盖率分析（`cargo make coverage`）。  
-3. 参考文档中的 API 说明进行固件开发与集成。  
-
-**项目目标：**  
-逐步将 UEFI 组件从 C 迁移到 Rust，扩展 MM 核心支持，推动与 Rust 社区及固件生态的协作。
+Patina 是一个使用 Rust 语言实现的 UEFI 固件项目，旨在用纯 Rust 代码替换传统 C 语言编写的核心固件组件。其核心目标是通过利用 Rust 的内存安全特性来提升系统固件的安全性和稳定性，同时保持相似的启动性能。项目提供 Patina DXE Core 和 SDK 供平台集成与组件开发，支持 aarch64、x64 等目标平台，并致力于逐步将现有的 C 语言固件组件迁移至 Rust 实现。

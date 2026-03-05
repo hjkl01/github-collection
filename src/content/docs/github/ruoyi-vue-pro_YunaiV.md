@@ -3,25 +3,13 @@
 title: ruoyi-vue-pro
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/YunaiV/ruoyi-vue-pro?style=social) ](https://github.com/YunaiV/ruoyi-vue-pro)
-### [YunaiV ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)
+### [YunaiV ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)  ![GitHub Repo stars](https://img.shields.io/github/stars/YunaiV/ruoyi-vue-pro?style=social)
 
-**项目核心内容总结**  
+芋道（ruoyi-vue-pro）是基于 Spring Boot 与 Vue 的开源快速开发平台，采用 MIT 协议，个人与企业可免费 100% 商用。
 
-**项目功能**  
-1. **系统管理**：包含用户、角色、菜单、部门、租户、审计日志、短信、字典、敏感词、错误码等模块，支持多租户架构。  
-2. **工作流程**：集成流程模型设计、表单配置、任务审批（如OA请假）、待办/已办事项管理。  
-3. **基础设施**：提供代码生成器、文件管理、定时任务、API日志、MySQL/Redis监控、Java应用监控（Spring Boot Admin）、链路追踪（SkyWalking）等功能。  
-4. **支付系统**：支持商户管理、支付/退款订单处理。  
-5. **数据报表**：包含数据报表设计、图形报表生成、大屏可视化配置。  
-6. **移动端**：支持管理后台基础功能（登录、资料编辑、密码修改等）。  
-
-**使用方法**  
-- 基于Spring Boot框架，依赖Maven/Gradle构建。  
-- 配置数据库、短信渠道、支付参数等。  
-- 启动应用后通过浏览器访问管理后台，使用代码生成器快速开发模块。  
-
-**主要特性**  
-- 技术栈：Spring Boot、Flowable（流程引擎）、Quartz（定时任务）、SkyWalking（APM）、MapStruct、Lombok等。  
-- 支持多租户、代码生成、流程设计、数据可视化、支付集成。  
-- 提供完善的监控（Java应用、数据库、Redis）、日志追踪及性能分析能力。
+**核心功能：**
+1. **多端架构**：后端 Spring Boot 多模块架构，前端提供 Vue3/2 管理后台及 Uni-app 移动端（适配 APP、小程序、H5）。
+2. **系统能力**：包含用户权限、角色菜单、部门岗位、SaaS 多租户管理及动态权限控制。
+3. **基础设施**：集成代码生成、文件存储、定时任务、消息队列、支付对接（微信/支付宝）、API 日志、链路追踪与监控告警。
+4. **业务组件**：内置 Flowable 工作流引擎（支持 BPMN/钉钉双设计器）、数据报表与大屏设计器、微信公众号/小程序、会员中心、商城、ERP、CRM 及 AI 大模型模块。
+5. **技术栈**：支持 JDK 8/17/21，兼容 MySQL、Oracle、达梦等多种数据库及 Redis、RabbitMQ 等消息中间件。

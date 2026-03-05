@@ -3,23 +3,12 @@
 title: appium
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/appium/appium?style=social) ](https://github.com/appium/appium)
-### [appium appium](https://github.com/appium/appium)
+### [appium appium](https://github.com/appium/appium)  ![GitHub Repo stars](https://img.shields.io/github/stars/appium/appium?style=social)
 
-Appium 是一个开源的跨平台自动化测试框架，支持原生、混合、移动网页和桌面应用的自动化测试。其核心功能包括：  
-- **无需修改被测应用**，通过标准自动化 API 实现跨平台兼容；  
-- **支持多种编程语言**（如 Java、Python、Ruby、C# 等）编写测试脚本；  
-- **模块化设计**，通过驱动（Drivers）扩展平台支持，通过插件（Plugins）增强功能；  
-- **支持并行测试**，可在单个服务器或多个进程中运行；  
-- **兼容云测试平台**，如 BrowserStack、LambdaTest 等。  
+Appium 是一款基于 WebDriver 协议的开源跨平台自动化测试框架，支持原生、混合、移动 Web 及桌面应用（如 iOS、Android、macOS、Windows）的自动化测试。项目采用模块化架构，核心特性包括：
 
-**使用方法**：  
-1. 通过 `npm i -g appium` 安装核心服务器；  
-2. 安装对应平台的驱动（如 `appium driver install xcuitest`）；  
-3. 使用 `appium server` 启动服务，通过客户端库发送 WebDriver 命令；  
-4. 管理插件、驱动的安装、更新和卸载（如 `appium plugin install <name>`）。  
-
-**主要特性**：  
-- 支持 iOS、Android、macOS、Windows 等多平台；  
-- 提供日志记录、赞助支持计划；  
-- 采用 Apache-2.0 许可证，部分组件使用 ISC 许可证。
+1. **多平台驱动**：通过 Drivers 支持不同平台的自动化操作，覆盖移动、桌面及 IoT 平台。
+2. **多语言客户端**：提供 Java、Python、Ruby、C# 等主流语言的客户端库，便于编写测试脚本。
+3. **插件扩展**：允许通过 Plugins 扩展服务器功能，无需修改服务器代码。
+4. **测试便捷性**：无需修改或重新编译被测应用，支持本地及云端并行执行，并提供 Appium Inspector 进行可视化元素检测。
+5. **安装部署**：通过 npm 安装核心服务器，需额外安装对应平台的驱动。

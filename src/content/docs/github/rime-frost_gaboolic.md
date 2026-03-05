@@ -3,12 +3,6 @@
 title: rime-frost
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gaboolic/rime-frost?style=social) ](https://github.com/gaboolic/rime-frost)
-### [gaboolic rime-frost](https://github.com/gaboolic/rime-frost)
+### [gaboolic rime-frost](https://github.com/gaboolic/rime-frost)  ![GitHub Repo stars](https://img.shields.io/github/stars/gaboolic/rime-frost?style=social)
 
-白霜拼音是一款基于雾凇拼音优化的输入法方案，通过改进词库和词频统计（删除低频词、不健康词汇，使用高质量语料重新归一化），提升输入准确率，支持全拼和双拼输入。主要特性包括：  
-- **辅助码功能**：支持符号、日期时间（如`rq`）、带调韵母、部件拆字反查（`uU`）、Unicode字符（`U`）、数字金额大写（`R`）等快捷输入。  
-- **多平台适配**：提供Windows、Mac、Linux、Android、iOS等系统的配置路径说明，支持手动下载、Git克隆或通过“东风破”工具安装。  
-- **扩展性**：通过Lua脚本支持辅助码拆分，未来计划增加错字提醒、自动化训练、词汇派生规则（如“拔牙→拔了牙”）等功能。  
-
-使用时需将配置文件解压至对应系统路径，通过输入法设置选择“白霜拼音”并重新部署即可。
+白霜拼音是一款基于 Rime 引擎的中文输入法方案，基于雾凇拼音修改优化。项目核心在于重新统计和优化词库，使用 7.45 亿字语料进行分词，调整字频与词频，剔除不健康及低频无效词汇。支持全拼与双拼输入，内置符号、日期时间、辅助码、计算器等快捷功能，兼容 Lua 辅助码。支持 Windows、Mac、Linux、Android、iOS 多平台，可通过手动、Git 或东风破安装。

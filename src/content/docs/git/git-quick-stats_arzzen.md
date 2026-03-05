@@ -3,13 +3,6 @@
 title: git-quick-stats
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/arzzen/git-quick-stats?style=social) ](https://github.com/arzzen/git-quick-stats)
-### [arzzen git-quick-stats](https://github.com/arzzen/git-quick-stats)
+### [arzzen git-quick-stats](https://github.com/arzzen/git-quick-stats)  ![GitHub Repo stars](https://img.shields.io/github/stars/arzzen/git-quick-stats?style=social)
 
-**核心内容总结：**  
-git-quick-stats 是一个用于快速分析 Git 仓库统计信息的工具，支持交互式菜单和非交互式命令行模式。主要功能包括：  
-- **统计维度**：按分支、作者、时间（如每日/每月）、提交类型等查看提交次数、代码变更量（插入/删除行数）等数据。  
-- **使用方式**：通过命令行参数自定义统计范围，或使用交互式菜单选择分析选项。  
-- **安装支持**：兼容 UNIX/Linux、macOS（Homebrew）、Windows（Cygwin/WSL）及 Docker 环境。  
-- **特性**：支持自定义颜色主题、排序方式（如按提交数降序），依赖基础工具（如 git、awk、grep），提供 FAQ 和贡献指南。  
-适用于需快速掌握项目 Git 历史、团队贡献分析的场景。
+`git-quick-stats` 是一款用于快速获取 Git 仓库各类统计数据的简单高效工具。它支持交互式菜单和命令行参数两种模式，主要功能包括统计提交记录（按作者、日期、月份、小时、时区等）、展示贡献者列表、生成分支树结构、创建日历热力图以及推荐代码审查人。工具支持通过环境变量自定义时间范围、过滤条件、输出格式（CSV/JSON）、排序方式及颜色主题。该工具兼容 Linux、macOS、Windows 及 Docker 环境。

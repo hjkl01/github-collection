@@ -3,31 +3,14 @@
 title: seaweedfs
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chrislusf/seaweedfs?style=social) ](https://github.com/chrislusf/seaweedfs)
-### [chrislusf seaweedfs](https://github.com/chrislusf/seaweedfs)
+### [chrislusf seaweedfs](https://github.com/chrislusf/seaweedfs)  ![GitHub Repo stars](https://img.shields.io/github/stars/chrislusf/seaweedfs?style=social)
 
-**核心内容总结：**  
-SeaweedFS 是一个高性能、分布式、可扩展的文件系统，支持对象存储和文件存储，适用于大规模数据存储场景。其主要功能包括：  
-1. **项目功能**：  
-   - 提供对象存储（类似 MinIO）和文件存储（类似 GlusterFS、Ceph）能力；  
-   - 支持高吞吐、低延迟的读写操作；  
-   - 企业版提供自愈存储格式和增强的数据保护。  
+SeaweedFS 是一个开源的轻量级、高度可扩展的分布式文件系统和对象存储，旨在存储数十亿文件并提供高速服务。
 
-2. **使用方法**：  
-   - 通过命令行工具（如 `warp`）进行基准测试和混合操作；  
-   - 支持多种存储后端（如本地磁盘、云存储）；  
-   - 可通过 `make benchmark` 启动性能测试。  
-
-3. **主要特性**：  
-   - **高性能**：支持高并发、高吞吐量（如混合操作吞吐量达 369.64 MiB/s）；  
-   - **可扩展性**：分布式架构，支持横向扩展；  
-   - **兼容性**：支持多种协议（如 S3、FTP）；  
-   - **数据保护**：企业版提供自愈机制和冗余存储。  
-
-4. **对比优势**：  
-   - 相比 GlusterFS、Ceph 等，SeaweedFS 在性能和易用性上更优；  
-   - 提供更简单的部署和管理方式。  
-
-**使用方法示例**：  
-- 安装后通过 `make benchmark` 进行压力测试；  
-- 企业用户可访问 [seaweedfs.com](https://seaweedfs.com) 获取企业版。
+主要功能：
+1. **高效对象存储**：Master 管理卷元数据，Volume Server 管理文件内容，实现 O(1) 磁盘读取，特别优化海量小文件存储。
+2. **高可用架构**：支持机架和数据中心感知的自动复制，主节点故障自动转移，无单点故障。
+3. **混合存储**：支持本地热数据与云端冷数据（如 S3、GCS）透明集成，结合纠删码降低存储成本。
+4. **文件系统支持**：可选 Filer 组件提供目录、POSIX 属性，支持 S3 兼容 API、WebDAV、Hadoop 兼容及 FUSE 挂载。
+5. **弹性扩展**：无需数据重平衡即可动态扩容，支持 Kubernetes CSI 驱动。
+6. **丰富特性**：支持自动压缩、TTL 过期、图片缩放、数据加密及超大文件分块处理。

@@ -3,24 +3,13 @@
 title: hacker-scripts
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NARKOZ/hacker-scripts?style=social) ](https://github.com/NARKOZ/hacker-scripts)
-### [NARKOZ hacker-scripts](https://github.com/NARKOZ/hacker-scripts)
+### [NARKOZ hacker-scripts](https://github.com/NARKOZ/hacker-scripts)  ![GitHub Repo stars](https://img.shields.io/github/stars/NARKOZ/hacker-scripts?style=social)
 
-### 项目核心内容总结
+该项目提供了一系列基于真实故事的命令行脚本，用于实现自动化操作及恶作剧功能：
 
-**项目功能**  
-该项目包含多个自动化脚本，用于实现幽默或讽刺的自动化操作，例如：  
-- `smack-my-bitch-up.sh`：在特定时间通过短信向妻子发送“加班”通知，理由随机生成。  
-- `kumar-asshole.sh`：监控邮件，若检测到特定关键词，自动远程回滚数据库并回复邮件。  
-- `hangover.sh`：在早晨无交互会话时，发送“生病”等假理由的邮件。  
-- `fucking-coffee.sh`：定时通过网络控制咖啡机自动制作咖啡。  
+1. `smack-my-bitch-up.sh`：晚 9 点后检测 SSH 活跃会话，自动向配偶发送加班短信。
+2. `kumar-asshole.sh`：扫描邮件关键词，触发后远程回滚客户数据库并回复安抚邮件。
+3. `hangover.sh`：早 8:45 无交互式会话时，自动发送请假或居家办公邮件。
+4. `fucking-coffee.sh`：定时通过 Telnet 向联网咖啡机发送指令以模拟冲煮流程。
 
-**使用方法**  
-1. **环境变量配置**：需设置Twilio短信账户、Gmail邮箱等信息。  
-2. **依赖安装**：Ruby脚本需安装`dotenv`、`twilio-ruby`、`gmail`等Gem。  
-3. **定时任务**：通过Cron配置脚本执行时间（如每天特定时段运行）。  
-
-**主要特性**  
-- 通过脚本实现日常操作自动化，结合幽默场景。  
-- 支持定时任务、邮件监控、网络设备控制等功能。  
-- 代码开源，采用WTFPL许可证（无限制开源协议）。
+项目需配置 Twilio 和 Gmail 环境变量，支持通过 Cron 进行定时任务调度，采用 WTFPL 协议发布。

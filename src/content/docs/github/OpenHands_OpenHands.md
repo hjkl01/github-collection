@@ -3,21 +3,14 @@
 title: OpenHands
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenHands/OpenHands?style=social) ](https://github.com/OpenHands/OpenHands)
-### [OpenHands OpenHands](https://github.com/OpenHands/OpenHands)
+### [OpenHands OpenHands](https://github.com/OpenHands/OpenHands)  ![GitHub Repo stars](https://img.shields.io/github/stars/OpenHands/OpenHands?style=social)
 
-**项目核心内容总结：**  
-OpenHands 是一个基于 AI 的开发工具，提供多种使用方式：  
-1. **SDK**：提供 Python 库，支持本地运行或云端扩展，用于构建和管理软件代理。  
-2. **CLI**：通过命令行界面快速启动，支持 Claude、GPT 等大模型。  
-3. **本地 GUI**：提供带 REST API 的图形化界面，适合多用户协作。  
-4. **云服务**：提供托管版本，支持 Slack、Jira 等集成，可免费试用。  
-5. **企业版**：支持私有化部署（Kubernetes），提供高级权限管理和长期支持。  
+OpenHands 是一个专注于 AI 驱动开发的开源项目，提供多种使用形态和功能模块：
 
-**主要特性**：  
-- 开源 MIT 许可证（企业版除外）；  
-- 支持多语言协作与代码生成；  
-- 提供基准测试（SWEBench 72.8 分）；  
-- 包含理论思维模块（ToM-SWE）等研究组件。  
+1. **SDK**：核心 Python 库，支持定义智能体并在本地或云端扩展运行。
+2. **CLI**：命令行工具，支持接入各类大模型，便于快速启动使用。
+3. **Local GUI**：本地图形界面应用，包含 REST API，用于在个人设备上运行智能体。
+4. **Cloud**：托管服务，提供多用户、权限管理、协作功能及第三方工具集成（如 Slack、Jira）。
+5. **Enterprise**：支持企业级私有化部署（Kubernetes），提供扩展支持及研究团队访问权限。
 
-**使用方式**：通过文档（[链接](https://docs.openhands.dev)）或 GitHub 仓库获取代码，社区提供 Slack 支持。
+项目核心代码采用 MIT 协议开源。

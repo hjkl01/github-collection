@@ -5,22 +5,15 @@ title: ralph-claude-code
 
 ### [frankbria ralph-claude-code](https://github.com/frankbria/ralph-claude-code)  ![GitHub Repo stars](https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=social)
 
-**项目核心内容总结：**
+Ralph for Claude Code 是一个基于 Claude Code 的自主 AI 开发循环工具，实现了 Geoffrey Huntley 的 Ralph 技术。它使 AI 能在项目中持续迭代改进直至完成，同时具备防止无限循环和 API 滥用的安全机制。
 
-Ralph 是一个基于 Claude Code 的 AI 编码助手自动化工具，用于自动执行代码生成、项目构建等任务。其核心功能包括：  
-1. **自动化任务执行**：通过循环调用 Claude Code 生成代码，结合智能退出机制（根据任务完成度和 Claude 返回的 `EXIT_SIGNAL` 判断是否终止）。  
-2. **监控与调试**：集成 tmux 实时监控面板，显示 API 调用次数、日志、循环状态等；支持查看日志、调整超时时间、重置会话等操作。  
-3. **资源管理**：内置速率限制（默认每小时 100 次调用）、5 小时 API 使用限制检测、会话生命周期管理（自动重置过期会话）。  
-4. **项目初始化与导入**：提供 `ralph-setup` 创建新项目，`ralph-import` 导入 PRD/需求文档生成 Ralph 项目结构。  
-5. **测试与稳定性**：通过 308 个单元和集成测试（100% 通过率），覆盖 CLI 命令、JSON 解析、退出逻辑、安装流程等场景。  
+核心功能：
+1. **自主开发循环**：自动执行开发任务，持续优化项目。
+2. **智能退出检测**：双重条件检查（完成指标 + 显式信号）防止过早退出。
+3. **安全限流**：内置 API 速率限制、5 小时限额处理及电路断路器。
+4. **会话管理**：支持上下文保持、超时重置及手动刷新。
+5. **任务配置**：支持 PRD 导入、交互式启用向导及 `.ralphrc` 配置。
+6. **监控可视化**：集成 tmux 实时监控、实时流输出及日志追踪。
+7. **全局可用**：安装一次后提供全局命令，支持任意目录使用。
 
-**使用方法**：  
-- 安装：运行 `./install.sh`。  
-- 启动：使用 `ralph` 命令，支持 `--monitor`（开启 tmux 监控）、`--timeout`（设置超时时间）、`--calls`（限制调用次数）等参数。  
-- 项目操作：通过 `ralph-setup` 创建项目，`ralph-import` 导入需求文档。  
-
-**主要特性**：  
-- **双条件退出机制**：结合任务完成度指标和 Claude 返回的 `EXIT_SIGNAL` 判断是否终止循环。  
-- **全面测试覆盖**：包含 164 个单元测试和 144 个集成测试，确保功能稳定性。  
-- **依赖管理**：自动检测并提示缺失的依赖（如 Claude Code CLI、tmux）。  
-- **日志与会话管理**：支持日志查看、会话分离/重新连接（tmux 控制）。
+当前版本 v0.11.5，测试通过率 100%，处于活跃开发中。

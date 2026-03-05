@@ -3,11 +3,16 @@
 title: nav3-recipes
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/android/nav3-recipes?style=social) ](https://github.com/android/nav3-recipes)
-### [android nav3-recipes](https://github.com/android/nav3-recipes)
+### [android nav3-recipes](https://github.com/android/nav3-recipes)  ![GitHub Repo stars](https://img.shields.io/github/stars/android/nav3-recipes?style=social)
 
-该项目是Jetpack Navigation 3库的代码示例集合，用于演示如何通过其API实现常见的导航功能。核心内容包括：  
-1. **功能覆盖**：提供多种导航场景的实现示例，如基础API使用、深层链接处理、自定义布局（如列表-详情页、双窗格、BottomSheet）、动画配置、多BackStack管理、条件导航、ViewModel参数传递、结果返回机制等。  
-2. **使用方法**：用户需克隆仓库并在Android Studio中打开，每个示例对应独立包和Activity，可直接运行测试。  
-3. **主要特性**：支持Material3自适应布局、模块化导航代码（Hilt/Koin依赖注入示例）、稳定版与最新版（可能为alpha）分支分离（main分支为最新版，稳定版在Releases页面）。  
-4. **扩展性**：未来可能将常见模式升级为库内辅助工具，示例会同步更新以保持最佳实践。
+本项目是 Jetpack Navigation 3 的代码示例仓库，旨在提供如何使用其 API 实现常见导航用例的演示，每个示例专注于单一概念。
+
+主要功能包括：
+1. **基础 API**：展示基本用法、可保存回退栈及入口提供者 DSL。
+2. **深链接**：演示深链接 URL 解析及带合成回退栈的高级处理。
+3. **场景定制**：支持内置 Dialog、自定义 BottomSheet、列表 - 详情、双窗格布局及 Material3 自适应布局。
+4. **导航行为**：涵盖动画定制、常用导航栏、多回退栈管理及条件导航（如认证流）。
+5. **架构与数据**：演示模块化导航代码（Hilt/Koin）、ViewModel 参数传递与跨屏共享、结果返回事件与状态处理。
+6. **互操作性**：支持与 Fragment 和 View 的兼容。
+
+主分支包含最新预览版示例，稳定版示例发布在 Release 页面。

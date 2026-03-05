@@ -3,9 +3,6 @@
 title: portmaster
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/safing/portmaster?style=social) ](https://github.com/safing/portmaster)
-### [safing portmaster](https://github.com/safing/portmaster)
+### [safing portmaster](https://github.com/safing/portmaster)  ![GitHub Repo stars](https://img.shields.io/github/stars/safing/portmaster?style=social)
 
-**项目核心内容总结：**
-
-Portmaster 是一款免费开源的应用防火墙，旨在保护用户隐私并控制电脑网络活动。其主要功能包括：监控所有网络流量、自动拦截恶意软件和广告跟踪、设置全局及应用级网络规则、支持安全DNS（DoH/DoT）、记录网络历史（付费）、统计应用带宽使用（付费），以及提供SPN隐私网络（付费）服务。该工具适用于Windows和Linux系统，通过内核级技术（如Linux的nfqueue/eBPF、Windows的WFP驱动）实现深度网络控制，支持特殊应用类型（如AppImage、Windows Store应用）。所有处理本地完成（SPN除外），数据自动更新且支持自定义规则。用户可通过图形界面或浏览器访问UI，安装后可参考官方文档进行配置。付费功能需订阅Safing的高级服务。
+Portmaster 是一款面向 Windows 和 Linux 桌面的免费开源应用防火墙及隐私保护套件。它通过底层网络拦截技术监控并控制所有网络活动，自动屏蔽跟踪器和恶意软件。核心功能包括支持安全 DNS（DoH/DoT）、提供全局或每应用级别的网络规则设置、以及本地隐私过滤。高级功能如网络历史记录查询、应用带宽监控及 SPN 隐私网络服务需付费使用。所有数据处理默认在本地完成。

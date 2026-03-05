@@ -3,23 +3,10 @@
 title: mactype
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/snowie2000/mactype?style=social) ](https://github.com/snowie2000/mactype)
-### [snowie2000 mactype](https://github.com/snowie2000/mactype)
+### [snowie2000 mactype](https://github.com/snowie2000/mactype)  ![GitHub Repo stars](https://img.shields.io/github/stars/snowie2000/mactype?style=social)
 
-**核心内容总结：**  
-MacType 是一款为 Windows 提供更优字体渲染的工具，支持 Win11 和 CET（中文语言包）。主要特性包括：  
-- 支持彩色字体、改进 DirectWrite 渲染、多显示器适配；  
-- 新安装程序、降低托盘模式 CPU 占用、优化多语言（含简体中文、繁体中文、韩语等）；  
-- 支持通过服务模式避免杀毒软件冲突，修复 Office 2013 兼容性问题；  
-- 提供官方网站下载（http://www.mactype.net）和捐赠渠道。  
+MacType 是 Windows 字体渲染优化工具，旨在提升系统字体显示质量。
 
-**使用方法：**  
-1. 从 GitHub 发布页面下载最新版本；  
-2. 安装后通过配置文件调整参数（如 DirectWrite=0、HookChildProcesses=0）；  
-3. 需注意升级前备份配置文件，避免语言选项缺失或与第三方软件（如 WPS）冲突。  
+核心功能：支持 Windows 11、DirectWrite 渲染、彩色字体及多语言本地化（含简繁体中文、英文、韩语）。提供服务模式、多显示器支持及系统托盘优化。
 
-**注意事项：**  
-- 部分语言选项可能因翻译文件缺失不完整；  
-- 64 位系统需启用服务模式或关闭 HookChildProcesses 以避免杀毒软件拦截；  
-- Office 2013 不兼容，建议使用 Office 2010 或 2016+；  
-- WPS 会自动卸载 MacType，需通过 Wiki 提供的解决方案修复。
+注意事项：Office 2013 不兼容，WPS 需特定规避方案，64 位系统可能与杀毒软件冲突。Windows 10/11 需手动配置注册表模式，建议升级前备份配置文件。项目接受捐赠以维持运营。

@@ -3,24 +3,6 @@
 title: lf
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gokcehan/lf?style=social) ](https://github.com/gokcehan/lf)
-### [gokcehan lf](https://github.com/gokcehan/lf)
+### [gokcehan lf](https://github.com/gokcehan/lf)  ![GitHub Repo stars](https://img.shields.io/github/stars/gokcehan/lf?style=social)
 
-**项目核心内容总结：**  
-LF 是一个用 Go 编写的终端文件管理器，灵感来自 ranger。其核心功能包括：  
-- **跨平台支持**（Linux、macOS、BSD、Windows）；  
-- **单个二进制文件**，无运行时依赖，启动快且内存占用低；  
-- 支持**异步 IO 操作**、**服务器/客户端架构**、**自定义按键绑定**（默认支持 vi 和 readline）；  
-- **可扩展性**，可通过 shell 命令实现功能扩展；  
-- **不内置标签页、编辑器或文件操作命令**，依赖系统工具（如 mkdir、chmod 等）。  
-
-**使用方法：**  
-- 安装后直接运行 `lf` 命令启动；  
-- 使用 `lf -help` 查看命令行选项，`lf -doc` 查看文档；  
-- 安装方式包括社区维护的包、预编译二进制文件或从源码构建（需 Go 环境）。  
-
-**主要特性：**  
-- 无依赖的静态二进制；  
-- 异步操作避免界面卡顿；  
-- 支持远程命令和多实例管理；  
-- 提供配置示例及与编辑器/Shell 的集成方案。
+`lf` 是一款基于 Go 编写的跨平台终端文件管理器，灵感源自 `ranger`。其特点包括单二进制文件、无运行时依赖、启动快速且内存占用低，支持异步 IO 操作及服务器/客户端架构以管理多实例。项目支持通过 Shell 命令扩展配置及自定义按键绑定，设计上不内置标签页、分页器或文件操作命令，依赖外部终端工具及系统命令完成操作。

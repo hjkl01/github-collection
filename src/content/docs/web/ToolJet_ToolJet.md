@@ -3,21 +3,24 @@
 title: ToolJet
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social) ](https://github.com/ToolJet/ToolJet)
-### [ToolJet ToolJet](https://github.com/ToolJet/ToolJet)
+### [ToolJet ToolJet](https://github.com/ToolJet/ToolJet)  ![GitHub Repo stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social)
 
-**核心内容总结：**
+ToolJet 是一款开源低代码平台，用于构建和部署内部工具、工作流及 AI 代理。
 
-**项目功能**  
-ToolJet 是一个开源平台，用于构建和部署内部工具、工作流程及 AI 代理。社区版提供可视化拖拽式应用构建器、60+ 响应式组件、75+ 数据源连接能力（数据库、API、云存储等）及多环境部署支持。企业版（ToolJet AI）增加 AI 生成应用、智能查询构建、自动化工作流代理等能力，并支持企业级安全合规、多角色权限管理及 CI/CD 集成。
+**社区版核心功能：**
+- 可视化应用构建器（60+ 组件）
+- 内置无代码数据库
+- 集成 80+ 数据源（数据库、API、SaaS 等）
+- 支持多页应用、多人协作及插件扩展
+- 支持 JavaScript/Python 代码执行
+- 灵活部署（Docker、Kubernetes 及主流云平台）
+- 基础安全与访问控制
 
-**使用方法**  
-1. **快速启动**：通过 Docker 命令一键部署本地测试环境。  
-2. **部署方式**：支持 Docker、Kubernetes、AWS/GCP/Azure 等多平台自托管，或使用 ToolJet Cloud 官方托管服务。  
-3. **开发资源**：提供教程（如时间跟踪应用、CMS 构建）、组件/数据源文档及插件扩展工具（ToolJet CLI）。
+**企业版（ToolJet AI）额外提供：**
+- AI 驱动的应用与查询生成
+- 智能 Agent 构建与工作流自动化
+- AI 调试与错误修复
+- 企业级合规（SOC 2, GDPR）、审计日志与细粒度权限
+- 多环境管理、CI/CD 集成及品牌定制
 
-**主要特性**  
-- **可视化开发**：无需代码即可构建多页面应用，支持多人协作编辑。  
-- **安全设计**：端到端加密、代理数据流、SSO 认证。  
-- **灵活扩展**：支持 JavaScript/Python 代码嵌入、自定义插件开发。  
-- **企业增强**：AI 自动化生成应用、细粒度权限控制、多环境管理及 GitSync 部署。
+项目采用 AGPL v3.0 许可证，支持云托管或自建部署。

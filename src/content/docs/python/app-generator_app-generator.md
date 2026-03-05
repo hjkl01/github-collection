@@ -3,23 +3,14 @@
 title: app-generator
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/app-generator/app-generator?style=social) ](https://github.com/app-generator/app-generator)
-### [app-generator app-generator](https://github.com/app-generator/app-generator)
+### [app-generator app-generator](https://github.com/app-generator/app-generator)  ![GitHub Repo stars](https://img.shields.io/github/stars/app-generator/app-generator?style=social)
 
-**核心内容总结：**  
-该项目是一个开源应用生成器，提供Django和Flask项目的自动化生成工具，包含市场分析、用户画像、功能设计、技术选型等模板内容。主要功能包括：  
-1. **项目生成**：通过命令行工具快速创建项目结构，支持Django/Flask框架及多种模板库。  
-2. **工具集成**：内置CSV处理器、数据库迁移工具（如Celery异步任务）、日志管理等开发辅助功能。  
-3. **团队协作**：支持多角色分工（如前端、后端、测试），并提供代码规范与自动化部署方案。  
-4. **扩展性**：允许自定义任务脚本（如定时任务），支持Redis等外部服务集成。  
+本项目是一个面向开发者、学生及企业的开源应用生成器，旨在快速生成全栈数字产品。
 
-**使用方法**：  
-- 安装依赖后，通过命令行生成项目结构；  
-- 配置数据库、Redis等服务；  
-- 运行开发服务器或异步任务处理（如`celery worker`）。  
+**核心功能：**
+1.  **项目生成**：支持基于 Flask 和 Django 的全栈项目启动器生成，集成多种 UI 组件库。
+2.  **资源市场**：提供免费的及商业化的全栈启动器下载服务。
+3.  **数据处理**：内置 CSV 处理器（支持转换为数据库表、API 或数据表格）、数据库可视化迁移工具及数据更新工具。
+4.  **运维工具**：提供 CLI 命令行接口，支持代码生成、模板定制、项目上传至 GitHub 及 Celery 异步任务管理。
 
-**主要特性**：  
-- 自动化生成标准化项目模板；  
-- 集成开发工具链（如Celery、Docker）；  
-- 支持异步任务与定时任务管理；  
-- 提供团队协作模板与代码规范。
+**技术栈：** 涵盖 Python/Django、React、Docker 及 CI/CD 自动化部署支持。

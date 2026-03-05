@@ -3,28 +3,12 @@
 title: k3sup
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alexellis/k3sup?style=social) ](https://github.com/alexellis/k3sup)
-### [alexellis k3sup](https://github.com/alexellis/k3sup)
+### [alexellis k3sup](https://github.com/alexellis/k3sup)  ![GitHub Repo stars](https://img.shields.io/github/stars/alexellis/k3sup?style=social)
 
-**项目核心内容总结：**
+k3sup 是一款轻量级命令行工具，通过 SSH 在远程或本地 VM 上快速安装 k3s 并自动获取 KUBECONFIG，实现本地即刻使用 kubectl 管理集群。支持 Linux、Windows、macOS 及树莓派等平台。
 
-`k3sup` 是一个用于快速部署和管理轻量级 Kubernetes（k3s）集群的工具。它的主要功能包括安装 k3s 服务器、加入节点到集群、获取 kubeconfig 文件等。使用方法简单，用户只需通过命令行指定目标主机和相关参数即可完成集群部署。`k3sup` 支持多种场景，如本地开发、远程部署或边缘计算环境。它与 `k3s` 配合使用，能够显著简化 Kubernetes 的部署流程，尤其适合资源受限的设备，如 Raspberry Pi 或 ARM 架构的设备。
+核心功能：
+*   **社区版 (CE)**：一键安装 k3s 服务器、加入代理节点、合并配置，支持多主高可用（HA）部署。
+*   **专业版 (Pro)**：提供 IaC/GitOps 体验，支持通过计划文件自动化并行大规模部署、批量执行命令、获取现有集群配置及快速卸载。
 
-**主要特性：**
-
-- 支持一键安装 k3s 集群；
-- 可通过 SSH 或本地直接部署；
-- 支持多节点集群的扩展；
-- 提供 kubeconfig 文件的自动配置；
-- 与 k3s 高度集成，适用于开发、测试和边缘计算场景；
-- 支持多种操作系统，如 Ubuntu、Raspberry Pi OS 等；
-- 提供调试和日志查看功能，便于排查部署问题；
-- 支持使用 SSH 密钥和智能卡（如 Yubikey）进行安全登录。
-
-**注意事项：**
-
-- 安装前需确保系统满足 k3s 的依赖条件；
-- 使用 `k3sup` 时应避免在集群节点上直接使用 `kubectl`；
-- 若遇到连接问题，需检查 SSH 配置、密钥权限及用户名；
-- 若使用 `iptables >= 1.8`，需注意网络通信相关问题；
-- 若需安装特定版本的 k3s，可通过 `--k3s-version` 或 `--k3s-channel` 参数指定。
+该工具旨在简化 Kubernetes 初始化流程，仅需 SSH 访问和工具二进制文件即可完成集群搭建。

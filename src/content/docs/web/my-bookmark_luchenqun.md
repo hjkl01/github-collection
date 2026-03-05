@@ -3,17 +3,10 @@
 title: my-bookmark
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/luchenqun/my-bookmark?style=social) ](https://github.com/luchenqun/my-bookmark)
-### [luchenqun my-bookmark](https://github.com/luchenqun/my-bookmark)
+### [luchenqun my-bookmark](https://github.com/luchenqun/my-bookmark)  ![GitHub Repo stars](https://img.shields.io/github/stars/luchenqun/my-bookmark?style=social)
 
-**项目核心内容总结：**  
-1. **功能**：提供在线书签管理，支持跨设备/浏览器同步、分类管理、关键词搜索、时间段筛选、公有/私有书签设置、导入导出Chrome书签、备忘录记录、快捷键操作、Chrome插件添加、移动端适配（手机端地址：mb.lucq.fun）。  
-2. **使用方法**：  
-   - 在线体验：访问 [http://b.lucq.fun/](http://b.lucq.fun/)（账号：test，密码：123456）。  
-   - 部署方式：  
-     - **Docker**：执行 `docker run -d -p 2000:2000 -p 3306:3306 luchenqun/mybookmark`。  
-     - **手动部署**：安装MySQL（UTF-8编码）、Node.js（v12+），执行SQL脚本，配置pm2及数据库连接。  
-3. **特性**：  
-   - 支持分类排序、书签自动获取标题、快捷键操作（如Insert添加书签、A新增备忘录）。  
-   - 技术栈：Node.js（v12.13.0）、MySQL（v5.7.23）、AngularJS（v1.5.8）、Semantic UI（v2.4.0）。  
-4. **其他**：开源MIT许可证（手机版未开源），兼容Chrome浏览器，提供Chrome插件（需手动安装）。
+在线书签管理工具，解决本地书签无法同步、整合及搜索困难问题。
+1. 用户与分类：支持注册登录，书签分类增删改排序。
+2. 搜索与添加：支持时间、分类、关键字搜索；快捷键及 Chrome 插件快速添加。
+3. 数据交互：支持 Chrome 书签导入导出；书签公有/私有，可搜索转存他人收藏。
+4. 扩展功能：备忘录记录分享、热门标签，适配手机平板访问。

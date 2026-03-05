@@ -3,23 +3,14 @@
 title: mox
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mjl-/mox?style=social) ](https://github.com/mjl-/mox)
-### [mjl- mox](https://github.com/mjl-/mox)
+### [mjl- mox](https://github.com/mjl-/mox)  ![GitHub Repo stars](https://img.shields.io/github/stars/mjl-/mox?style=social)
 
-**项目核心内容总结：**
+Mox 是一款现代、全功能的开源安全邮件服务器，旨在提供低维护成本的自托管电子邮件服务。
 
-**功能**  
-mox 是一个轻量级邮件服务器，支持 SMTP（邮件发送/接收）、IMAP（邮件访问）、Web API（邮件管理）及 Webhook（事件通知），具备反垃圾邮件、DKIM/SPF/DMARC 验证、邮件加密等核心功能。
-
-**使用方法**  
-1. **配置文件**：通过 `mox.conf` 和 `domains.conf` 设置 TLS 证书、传输路由（如 SMTP 中继）、域名解析规则等。  
-2. **Web API**：通过 HTTP/JSON 接口发送邮件、管理账户邮件（如标记、删除、移动邮件箱）。  
-3. **现有证书支持**：可替换默认的 Let's Encrypt 证书，配置多证书以支持不同域名服务（如 `mail.example.com`）。  
-4. **反垃圾措施**：自动拦截异常 IP（如认证失败）、配置 SPF/DKIM/DMARC 防止邮件被拒收。
-
-**主要特性**  
-- **轻量高效**：最小内存需求 512MB，适用于小型服务器。  
-- **灵活传输**：支持 SMTP 中继、SOCKS 代理等多传输方式。  
-- **安全机制**：内置垃圾邮件过滤、IP 黑名单检测、邮件加密（支持现有证书）。  
-- **数据管理**：邮件以 IMF 格式存储，通过数据库管理元数据（如 SPF/DKIM 验证结果），避免文件系统直接访问。  
-- **扩展性**：支持 Webhook 自动管理用户黑名单、实时通知邮件状态。
+核心功能包括：
+- 邮件协议：支持 SMTP（接收、提交、投递）、IMAP4 及 Webmail。
+- 安全验证：支持自动 TLS（ACME/Let's Encrypt）、SPF/DKIM/DMARC、DANE 及 MTA-STS。
+- 反垃圾机制：用户级贝叶斯过滤、信誉追踪、可疑发件人限速及拒绝邮件暂存。
+- 管理集成：Web 管理后台、账号自动发现、内置 Web 服务器、HTTP/JSON API 及 Webhooks。
+- 运维监控：Prometheus 指标、结构化日志、配置生成与验证工具。
+- 基础架构：Go 语言编写，支持 Unix 系统与 Docker，严格遵循 RFC 标准，MIT 开源协议。

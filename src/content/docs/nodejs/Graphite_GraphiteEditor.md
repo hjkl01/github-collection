@@ -3,14 +3,6 @@
 title: Graphite
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=social) ](https://github.com/GraphiteEditor/Graphite)
-### [GraphiteEditor Graphite](https://github.com/GraphiteEditor/Graphite)
+### [GraphiteEditor Graphite](https://github.com/GraphiteEditor/Graphite)  ![GitHub Repo stars](https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=social)
 
-**项目核心内容总结：**  
-Graphite 是一个开源的 2D 图形引擎，提供非破坏性编辑工作流，结合图层合成与节点生成设计，支持矢量、光栅及更多内容创作功能。其核心特性包括：  
-1. **多功能工具**：涵盖矢量编辑、照片处理、动态图形、数字绘画、桌面排版及视觉特效合成等。  
-2. **节点图驱动**：以节点图为核心，支持程序化生成设计，实现无限可扩展的图形创作。  
-3. **开放协作**：提供 alpha 版编辑器（[链接](https://editor.graphite.rs)），社区可通过 Discord、Reddit 等渠道参与，并接受代码贡献（需遵守 Apache 2.0 许可证）。  
-4. **愿景**：致力于成为行业标准的创意工具，强调创新而非模仿，目标是为所有艺术家提供无障碍的综合设计解决方案。  
-
-**使用方法**：访问官网获取编辑器，通过社区平台交流，开发者可参考指南参与代码贡献。
+Graphite 是一款免费开源的 2D 内容创作工具箱，核心为矢量与光栅图形引擎。它采用类似游戏引擎的架构，结合基于层的合成与基于节点的生成设计，提供完全非破坏性的程序化编辑工作流。当前支持矢量与光栅处理，未来计划扩展至照片编辑、动态图形、数字绘画、桌面出版及视觉特效合成，旨在打造普及且综合的艺术与行业级设计标准工具。

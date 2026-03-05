@@ -3,20 +3,6 @@
 title: rod
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/go-rod/rod?style=social) ](https://github.com/go-rod/rod)
-### [go-rod rod](https://github.com/go-rod/rod)
+### [go-rod rod](https://github.com/go-rod/rod)  ![GitHub Repo stars](https://img.shields.io/github/stars/go-rod/rod?style=social)
 
-**项目核心内容总结：**  
-Rod 是一个基于 DevTools 协议的高级浏览器自动化工具，支持网页爬虫和自动化操作。其核心功能包括：  
-- **链式上下文设计**：支持超时或取消长时间任务，操作直观；  
-- **自动等待元素**：无需手动处理加载延迟；  
-- **调试友好**：支持远程监控无头浏览器、输入追踪；  
-- **线程安全**：所有操作均线程安全；  
-- **浏览器管理**：自动下载或定位浏览器；  
-- **高级功能**：提供 `WaitStable`、`WaitRequestIdle` 等实用方法，支持拦截请求、等待下载等；  
-- **兼容复杂结构**：正确处理 iframe 和 shadow DOM；  
-- **稳定性**：崩溃后无残留进程；  
-- **测试保障**：100% 测试覆盖率。  
-
-**使用方法**：  
-提供示例代码（如 `examples_test.go` 和 `lib/examples` 文件夹），用户可通过搜索测试文件或 GitHub 讨论获取更多用法。
+Rod 是一个基于 DevTools Protocol 的网页自动化与爬虫库，支持高级和低级开发需求。其功能包括：链式上下文管理（支持超时或取消）、自动等待元素就绪、线程安全操作、自动浏览器查找与下载、丰富的辅助工具（如稳定等待、请求拦截等）以及友好的调试体验。此外，它正确处理嵌套框架和 Shadow DOM，确保进程崩溃后无僵尸残留，并强制 100% 测试覆盖。

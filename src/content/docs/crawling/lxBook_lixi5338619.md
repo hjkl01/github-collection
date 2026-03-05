@@ -3,25 +3,6 @@
 title: lxBook
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lixi5338619/lxBook?style=social) ](https://github.com/lixi5338619/lxBook)
-### [lixi5338619 lxBook](https://github.com/lixi5338619/lxBook)
+### [lixi5338619 lxBook](https://github.com/lixi5338619/lxBook)  ![GitHub Repo stars](https://img.shields.io/github/stars/lixi5338619/lxBook?style=social)
 
-**核心内容总结：**  
-该项目是《爬虫逆向进阶实战》书籍的配套代码库，提供书中案例的代码、更新说明及视频教程资源。主要功能包括：  
-
-1. **逆向学习资源**  
-   - 包含爬虫逆向案例代码及配套视频教程（B站链接），持续更新案例（如滑块验证、Webpack逆向等）。  
-   - 提供书籍购买链接及读者群二维码，用于交流和技术支持。  
-
-2. **工具资源库**  
-   - 整理大量逆向工具，涵盖Android查壳反编译、脱壳、抓包、HOOK调试等场景，提供百度网盘下载链接。  
-   - 包括Chrome插件、微信小程序逆向工具及其他辅助工具（如字体编辑器、AutoJS等）。  
-
-3. **使用方法**  
-   - 通过代码库获取案例代码，结合视频教程学习逆向技术。  
-   - 下载相关工具进行实战操作，关注公众号加入读者群获取更新和帮助。  
-
-**主要特性：**  
-- 持续更新案例和教程，覆盖滑块验证、Webpack逆向等复杂场景。  
-- 提供完整的逆向工具链，满足Android、抓包、调试等多场景需求。  
-- 社区支持，购书用户可加入读者群获取资源和技术交流。
+本项目是《爬虫逆向进阶实战》书籍及配套视频的代码库，提供案例源码、视频教程更新及进阶逆向实战内容（包含 Webpack 逆向、滑块验证、加解密等）。项目收录了大量逆向分析工具，涵盖 Android 查壳反编译、脱壳、HOOK、抓包、Chrome 插件、小程序逆向及通用辅助工具，支持 Python、Java、Nodejs 环境，主要用于辅助爬虫逆向分析与 APP 安全研究学习。

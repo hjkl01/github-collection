@@ -3,15 +3,11 @@
 title: weiboSpider
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dataabc/weiboSpider?style=social) ](https://github.com/dataabc/weiboSpider)
-### [dataabc weiboSpider](https://github.com/dataabc/weiboSpider)
+### [dataabc weiboSpider](https://github.com/dataabc/weiboSpider)  ![GitHub Repo stars](https://img.shields.io/github/stars/dataabc/weiboSpider?style=social)
 
-**项目核心内容总结：**  
-Weibo Spider 是一个用于爬取微博用户信息及微博内容的工具，支持通过 Cookie 或 User ID 登录验证。主要功能包括：  
-1. **数据爬取**：获取用户昵称、性别、所在地、微博内容（含原创与转发）、图片链接、点赞/转发/评论数、发布位置及工具等详细信息；  
-2. **自动化更新**：支持定期爬取新增微博内容，避免重复抓取已获取数据；  
-3. **使用方法**：需先获取 Cookie 和 User ID（提供文档指导），通过配置文件设置参数后运行；  
-4. **特性**：支持过滤原创微博、多线程爬取、数据导出为列表结构，且提供丰富文档（含常见问题、学术研究案例等）；  
-5. **注意事项**：不可用自身微博账号爬取数据，Cookie 有效期约3个月，需定期更新。  
-
-项目适用于非商业研究场景，提供开源贡献渠道，并与同类工具（如 weibo-crawler、weibo-search）形成互补。
+本项目是一个 Python 编写的微博爬虫工具，核心功能包括：
+1. **数据爬取**：支持批量爬取指定用户（一个或多个）的用户信息（如昵称、性别、所在地等）及微博动态数据（如内容、互动数、发布时间等）。
+2. **数据存储**：支持将结果保存为 txt、csv、json 文件，或存入 MySQL、MongoDB、SQLite 数据库。
+3. **媒体下载**：支持下载微博中的原创及转发图片、视频和 Live Photo 等媒体资源。
+4. **环境配置**：需配置 Cookie 获取访问权限（另有免 Cookie 版本），兼容 Python 2 和 Python 3 环境。
+5. **扩展功能**：支持代码个性化定制及配置定期自动爬取。

@@ -3,25 +3,6 @@
 title: python-cheatsheet
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gto76/python-cheatsheet?style=social) ](https://github.com/gto76/python-cheatsheet)
-### [gto76 python-cheatsheet](https://github.com/gto76/python-cheatsheet)
+### [gto76 python-cheatsheet](https://github.com/gto76/python-cheatsheet)  ![GitHub Repo stars](https://img.shields.io/github/stars/gto76/python-cheatsheet?style=social)
 
-**核心内容总结：**
-
-该项目是一个Python学习速查表，涵盖数据处理（Pandas）、可视化（Plotly）、性能优化（Cython）、虚拟环境配置等核心内容。主要功能包括：  
-1. **Pandas操作**：数据读写、清洗、分析（如分组统计、合并数据）；  
-2. **数据可视化**：使用Plotly生成多轴图表、动态图，支持疫情数据与金融数据的可视化示例；  
-3. **代码优化**：通过Cython加速Python代码，提供类型定义与编译方法；  
-4. **虚拟环境管理**：指导创建和使用虚拟环境，隔离项目依赖；  
-5. **脚本模板**：提供基础Python脚本结构，包含文件读取、异常处理等实用函数。  
-
-**使用方法**：  
-- 直接复制代码片段到Python脚本中，结合示例运行；  
-- 使用`pip3`安装依赖库（如Plotly、Selenium）；  
-- 通过虚拟环境管理依赖，确保项目独立性；  
-- 利用Cython编译关键代码模块，提升性能。  
-
-**主要特性**：  
-- 涵盖数据分析全流程，从数据处理到可视化；  
-- 提供实际案例（如疫情数据、金融图表）；  
-- 支持代码加速与环境配置，提升开发效率。
+本项目是一个综合性的 Python 速查表，旨在为开发者提供全面实用的语言参考。内容涵盖核心语法、数据结构、类型操作、函数与类定义、系统交互及文件处理。此外，还包括高级特性（多线程、异步编程）及常用第三方库的使用指南（如 NumPy、Pandas、Flask、Pygame 等）。通过简洁的代码示例和说明，帮助用户快速查阅语法细节和 API 用法，提升开发效率。

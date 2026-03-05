@@ -3,24 +3,6 @@
 title: pixeltable
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pixeltable/pixeltable?style=social) ](https://github.com/pixeltable/pixeltable)
-### [pixeltable pixeltable](https://github.com/pixeltable/pixeltable)
+### [pixeltable pixeltable](https://github.com/pixeltable/pixeltable)  ![GitHub Repo stars](https://img.shields.io/github/stars/pixeltable/pixeltable?style=social)
 
-**项目核心内容总结：**  
-Pixeltable 是一个用于构建和管理多模态 AI 应用的工具，提供数据管理、模型集成和自动化工作流等功能。  
-
-**主要功能：**  
-1. **多模态数据管理**：支持文本、图像、音频等多种数据类型，提供数据版本控制、ETL（数据提取、转换、加载）流程自动化及外部文件处理。  
-2. **AI 模型集成**：兼容 OpenAI、Anthropic、Mistral 等主流模型，支持自定义 UDF（用户定义函数）进行数据转换和计算。  
-3. **向量数据库与搜索**：通过嵌入索引实现文本和图像的语义相似性搜索。  
-4. **云服务与部署**：提供云托管服务，支持将工作流（如查询、UDF）转化为 API 端点，便于生产环境部署。  
-
-**使用方法：**  
-- 通过 Python 库操作数据表、视图及查询，支持自定义函数扩展功能。  
-- 利用预置的 Notebook 示例（如 Colab）快速上手，涵盖数据处理、模型集成、RAG（检索增强生成）等场景。  
-- 通过云服务部署，实现多模态数据共享与 API 接口开发。  
-
-**主要特性：**  
-- 自动化数据处理与版本控制，简化复杂 AI 应用的开发流程。  
-- 支持多模型协作与端到端工作流管理，减少“数据 plumbing”复杂度。  
-- 提供示例应用（如多模态代理、图像/文本搜索系统），降低开发门槛。
+Pixeltable 是一个开源 Python 库，为构建多模态 AI 应用提供声明式数据基础设施。它支持对图像、视频、音频、文档等多模态数据进行统一的增量存储、转换、索引、检索和编排。核心功能包括：通过声明式计算列自动化运行 AI 工作流（集成 OpenAI、HuggingFace 等模型及 API）；内置向量搜索和索引管理；自动处理数据版本控制（时间旅行）、缓存、重试及依赖追踪；兼容本地及多种云存储服务（S3、GCS 等）；提供从原型到生产的统一工作流，替代传统 AI 栈中分散的数据库、向量库、编排引擎及 ETL 工具。

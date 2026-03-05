@@ -3,25 +3,6 @@
 title: nakama
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/heroiclabs/nakama?style=social) ](https://github.com/heroiclabs/nakama)
-### [heroiclabs nakama](https://github.com/heroiclabs/nakama)
+### [heroiclabs nakama](https://github.com/heroiclabs/nakama)  ![GitHub Repo stars](https://img.shields.io/github/stars/heroiclabs/nakama?style=social)
 
-**项目核心内容总结：**
-
-Nakama 是一个用于开发多人在线游戏和应用的后端服务器，具备用户认证、实时通信、存储管理、多人匹配、模块化扩展等功能。其主要特性包括支持多种协议（如 REST、gRPC、WebSocket、rUDP），提供 Web 控制台用于管理玩家数据、查看服务指标、调试 API 等，还支持通过 Docker 快速部署，或使用预编译的二进制文件进行安装。Nakama 可以与 CockroachDB 数据库配合使用，以实现高可用性和分布式存储。
-
-**使用方法：**
-
-- **Docker 部署：** 通过 docker-compose 文件启动 Nakama 和数据库容器。
-- **二进制文件部署：** 下载 Nakama 服务器和 CockroachDB 数据库，运行数据库并执行迁移脚本，最后启动 Nakama 服务。
-- **客户端使用：** 支持多种语言的官方客户端库，如 C#、JavaScript、Java、Unreal、Godot 等，可通过 REST API 或 WebSocket 进行用户认证、数据交互等操作。
-
-**主要特性：**
-
-- 多协议支持（REST、gRPC、WebSocket、rUDP）；
-- 实时通信与多人匹配；
-- 数据存储与管理；
-- Web 控制台用于监控和管理；
-- 支持 Docker 和二进制部署；
-- 提供模块化扩展能力；
-- 与 CockroachDB 集成，支持高可用性与分布式架构。
+Nakama 是一款面向社交和实时游戏及应用的分布式后端服务器。其主要功能包括：用户管理（支持社交、邮箱及设备 ID 登录注册）；数据存储（管理用户记录与设置）；社交系统（好友、群组及社交图谱）；聊天功能（支持单聊、群聊、全局聊天及消息历史）；多人游戏（实时或回合制）；排行榜与锦标赛；队伍系统；应用内购买验证及推送通知。服务器支持 Lua、TypeScript/JavaScript 和 Go 自定义代码扩展，内置 Web 管理控制台。支持 Docker 及二进制部署，需配合 CockroachDB 或 Postgres 兼容数据库，提供 gRPC、HTTP 及 WebSocket 等通信协议，并拥有多语言官方客户端库。

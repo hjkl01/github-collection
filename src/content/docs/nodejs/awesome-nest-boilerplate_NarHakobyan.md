@@ -3,24 +3,6 @@
 title: awesome-nest-boilerplate
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NarHakobyan/awesome-nest-boilerplate?style=social) ](https://github.com/NarHakobyan/awesome-nest-boilerplate)
-### [NarHakobyan awesome-nest-boilerplate](https://github.com/NarHakobyan/awesome-nest-boilerplate)
+### [NarHakobyan awesome-nest-boilerplate](https://github.com/NarHakobyan/awesome-nest-boilerplate)  ![GitHub Repo stars](https://img.shields.io/github/stars/NarHakobyan/awesome-nest-boilerplate?style=social)
 
-**核心内容总结：**
-
-**项目功能**  
-这是一个基于NestJS的Node.js项目模板（支持Node、Bun、Deno运行时），提供JWT认证、Swagger API文档、环境配置、TypeScript支持、代码生成工具等功能，适用于快速搭建NestJS应用。
-
-**使用方法**  
-1. 通过`npx degit`克隆模板到本地；  
-2. 安装依赖（需提前安装Yarn）；  
-3. 配置`.env`文件；  
-4. 使用`yarn start:dev`启动开发服务器，访问`http://localhost:3000`；  
-5. 支持通过`yarn build:prod`构建生产环境代码。
-
-**主要特性**  
-- 多运行时支持：兼容Node、Bun、Deno；  
-- 开发体验优化：即时反馈、文件监视、代码生成；  
-- 安全与文档：内置JWT认证、Swagger API文档；  
-- 工程化工具：ESLint + Prettier代码规范、环境配置管理；  
-- 架构规范：提供命名规范、目录结构建议及技术文档。
+这是一个基于 NestJS 的项目启动模板，提供标准化的架构和开发环境。支持 Node、Bun 和 Deno 多种运行时。核心功能包括：集成 JWT 认证与 Swagger API 文档；配置 ESLint 和 Prettier 代码规范；支持开发、测试、生产环境配置；采用最新 TypeScript 版本；提供即时反馈的开发体验。

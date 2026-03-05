@@ -3,15 +3,6 @@
 title: quick-SQL-cheatsheet
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/enochtangg/quick-SQL-cheatsheet?style=social) ](https://github.com/enochtangg/quick-SQL-cheatsheet)
-### [enochtangg quick-SQL-cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet)
+### [enochtangg quick-SQL-cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet)  ![GitHub Repo stars](https://img.shields.io/github/stars/enochtangg/quick-SQL-cheatsheet?style=social)
 
-**核心内容总结：**  
-该项目是一个SQL速查表，提供常见SQL查询语句的语法示例和使用方法，涵盖数据查询、修改、报表生成、表连接、视图操作、表结构修改及创建表等功能。用户可通过分类查阅不同操作的SQL语句（如SELECT、INSERT、JOIN等），并支持社区协作更新。主要特性包括：  
-1. **功能全面**：覆盖SQL核心操作（查询、更新、聚合、连接等）；  
-2. **结构清晰**：按功能分类（如“查找数据”“修改数据”等），便于快速定位；  
-3. **语法示例**：每类操作均附带具体语句格式及使用场景说明；  
-4. **兼容性提示**：标注不同数据库系统的差异（如MySQL的LIMIT替代SELECT TOP）；  
-5. **社区维护**：支持用户提交修改建议，持续扩展内容。  
-
-**使用方法**：直接查阅对应章节的SQL语句示例，根据需求选择适用语法，参考注意事项（如通配符、连接类型等）进行实践。
+该项目是一个快速 SQL 查询备忘单，汇总了常用 SQL 语法规则与使用示例。内容涵盖数据检索、修改、统计、表连接、视图管理、表结构变更及创建表等核心功能，供开发者快速查阅。

@@ -3,27 +3,15 @@
 title: node-starter-kit
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kriasoft/node-starter-kit?style=social) ](https://github.com/kriasoft/node-starter-kit)
-### [kriasoft node-starter-kit](https://github.com/kriasoft/node-starter-kit)
+### [kriasoft node-starter-kit](https://github.com/kriasoft/node-starter-kit)  ![GitHub Repo stars](https://img.shields.io/github/stars/kriasoft/node-starter-kit?style=social)
 
-**Node.js API Starter Kit 核心内容总结**
+这是一个专为服务器端架构（如 Google Cloud Functions、AWS Lambda）优化的 Node.js API 项目模板，可用于构建后端应用。
 
-**项目功能**  
-提供一个基于 Node.js 的 API 开发模板，适配 Google Cloud Functions、AWS Lambda 等无服务器架构，支持构建后端服务及前端应用接口。包含数据库模型生成、OAuth 2.0 认证、JWT 无状态会话、GraphQL API、数据库迁移、测试框架、云部署等功能。
+主要功能包括：
+- **数据库管理**：支持数据库优先设计，自动生成强类型 TypeScript 数据模型，包含迁移、种子数据和 REPL 工具。
+- **认证授权**：集成 OAuth 2.0 提供商（Google、Facebook 等），使用 JWT 和会话 Cookie 实现无状态会话。
+- **API 开发**：提供基于代码优先方法的 GraphQL API 示例。
+- **工程化支持**：预配置 Jest 单元测试、Rollup 应用捆绑、结构化日志及错误报告。
+- **环境与部署**：支持本地热重载，配置多环境（本地、开发、测试、生产），并提供云端部署脚本。
 
-**主要特性**  
-- 数据库优先设计，自动生成 TypeScript 类型安全模型  
-- 支持 Google/Facebook/GitHub 等 OAuth 2.0 登录  
-- 基于 JWT 的无状态会话（兼容 SSR）  
-- GraphQL API 示例（代码优先开发方式）  
-- 数据库迁移、种子数据及 REPL 工具  
-- 使用 Handlebars 的邮件模板及预览功能  
-- 集成 Jest/Supertest 等测试框架  
-- 支持 Docker 和 Google Cloud 部署  
-
-**使用方法**  
-1. 克隆项目，安装依赖（`yarn install`）  
-2. 配置环境变量（`./env/.env.*` 文件）  
-3. 启动本地服务（`yarn start`）  
-4. 通过 `yarn deploy` 部署到 Google Cloud Functions  
-5. 部署前需配置 Google Cloud CLI、创建 GCP 项目及 Cloud SQL 数据库
+核心依赖技术包括 Node.js、TypeScript、PostgreSQL、GraphQL 和 Knex。

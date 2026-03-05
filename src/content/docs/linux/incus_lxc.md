@@ -3,25 +3,6 @@
 title: incus
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lxc/incus?style=social) ](https://github.com/lxc/incus)
-### [lxc incus](https://github.com/lxc/incus)
+### [lxc incus](https://github.com/lxc/incus)  ![GitHub Repo stars](https://img.shields.io/github/stars/lxc/incus?style=social)
 
-**Incus 核心内容总结：**
-
-**功能**  
-Incus 是一个现代、安全、高效的系统容器和虚拟机管理工具，支持运行和管理多种 Linux 发行版（如 Ubuntu 及社区镜像），提供统一的容器与虚拟机管理体验。基于 REST API 设计，适用于从单机到数据中心集群的多场景，兼顾开发与生产环境需求。
-
-**使用方法**  
-- 通过官方文档（[链接](https://linuxcontainers.org/incus/docs/main/)）获取安装指南和入门教程。  
-- 可在线试用（[试用链接](https://linuxcontainers.org/incus/try-it/)）。  
-- 提供迁移工具 `lxd-to-incus` 支持从 LXD 迁移。  
-
-**主要特性**  
-1. **统一管理**：容器与虚拟机统一管理，简化资源调度。  
-2. **扩展性强**：支持从单实例到数据中心集群的规模化部署。  
-3. **安全机制**：强调系统更新、访问控制、非特权容器使用及本地 Unix socket 权限管理。  
-4. **开源社区驱动**：采用 Apache 2.0 许可证，无 CLA 限制，由原 LXD 团队维护。  
-5. **工具链完善**：提供文档、测试状态追踪、静态分析及多语言支持。  
-
-**注意事项**  
-本地 Unix socket 访问权限需严格限制，仅允许可信任用户操作，避免安全风险。
+Incus 是一款现代、安全且强大的系统容器和虚拟机管理器。它提供统一的体验，用于运行和管理容器或虚拟机中的完整 Linux 系统。项目支持多种 Linux 发行版镜像，内置强大的 REST API，可支持从单机实例到数据中心集群的扩展，适用于开发和生产环境。Incus 是 LXD 的社区分支，遵循 Apache 2.0 协议，由 Linux 容器社区维护。

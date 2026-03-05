@@ -3,13 +3,6 @@
 title: ROLL
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/ROLL?style=social) ](https://github.com/alibaba/ROLL)
-### [alibaba ROLL](https://github.com/alibaba/ROLL)
+### [alibaba ROLL](https://github.com/alibaba/ROLL)  ![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/ROLL?style=social)
 
-ROLL是一个由阿里巴巴开发的强化学习优化库，专注于大规模机器学习任务。其核心功能包括：  
-1. **多任务训练（RLVR）**：支持数学、编程、开放问答等场景，提供异步并行执行、动态采样和灵活的任务分布控制。  
-2. **多轮交互训练（Agentic RL）**：适用于游戏、对话等场景，支持环境级异步并行、多轮交互调试及两种训练范式（TrajectoryWise和StepWise）。  
-3. **算法与引擎支持**：内置20+强化学习策略（如PPO、GRPO），兼容多种训练框架（DeepSpeed、Megatron-LM）和推理引擎（vLLM、SGLang），支持LoRA、FP8等技术。  
-4. **自动化与可观测性**：自动设备映射管理、集成SwanLab/WandB/TensorBoard性能追踪，支持大规模分布式训练（单机至千GPU集群）。  
-
-**使用方法**：通过配置策略和后端引擎，可灵活部署训练或推理任务，适用于LLM/VLM的预训练、微调及蒸馏等场景。
+ROLL 是一款面向大语言模型（LLM）的高效强化学习优化库，旨在利用大规模 GPU 资源提升模型在人类偏好对齐、复杂推理及多轮智能体交互中的性能。该项目基于 Ray 构建多角色分布式架构，集成 Megatron-Core、SGLang 和 vLLM 以加速模型训练与推理。核心功能涵盖 RLVR、智能体强化学习、蒸馏、DPO 及 SFT 等多种训练管道，内置 PPO、GRPO 等二十余种强化学习算法。项目兼容 NVIDIA、AMD 及 Ascend 硬件，支持 Qwen 系列及视觉语言模型（VLM），并提供异步并行 rollout、LoRA 微调、FP8 推理及多平台观测追踪等高级特性。

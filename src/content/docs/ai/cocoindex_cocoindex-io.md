@@ -3,8 +3,6 @@
 title: cocoindex
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cocoindex-io/cocoindex?style=social) ](https://github.com/cocoindex-io/cocoindex)
-### [cocoindex-io cocoindex](https://github.com/cocoindex-io/cocoindex)
+### [cocoindex-io cocoindex](https://github.com/cocoindex-io/cocoindex)  ![GitHub Repo stars](https://img.shields.io/github/stars/cocoindex-io/cocoindex?style=social)
 
-**核心内容总结：**  
-CocoIndex 是一个基于 Rust 的 AI 数据转换框架，支持增量处理和数据血缘追踪，适用于生产环境。其核心功能包括通过 Python 定义数据流（如文本/代码嵌入、PDF 解析、知识图谱构建等），并支持将结果导出至 Qdrant、LanceDB 等数据库。主要特性包括：数据流编程模型、即插即用的模块化组件、实时数据更新能力，以及丰富的示例（如医疗表单提取、产品推荐、多模态搜索等）。用户需安装 PostgreSQL 并参考文档快速入门，社区提供 Discord 和 GitHub 支持，遵循 Apache 2.0 许可证。
+CocoIndex 是专为 AI 设计的高性能数据转换框架，核心引擎由 Rust 编写。它支持通过 Python 声明式数据流进行高效数据转换，具备开箱即用的增量处理和数据血缘追踪能力。框架提供即插即用的组件（数据源、转换、目标），能保持源数据与目标同步。适用于构建向量索引、知识图谱及多种自定义 AI 数据处理场景（如文本、代码、图像嵌入）。采用 Apache 2.0 开源协议。

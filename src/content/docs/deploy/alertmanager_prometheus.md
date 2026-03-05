@@ -3,26 +3,6 @@
 title: alertmanager
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social) ](https://github.com/prometheus/alertmanager)
-### [prometheus alertmanager](https://github.com/prometheus/alertmanager)
+### [prometheus alertmanager](https://github.com/prometheus/alertmanager)  ![GitHub Repo stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social)
 
-**项目核心内容总结：**
-
-Alertmanager 是 Prometheus 监控系统的一部分，主要用于处理 Prometheus 发送的告警信息。它的主要功能包括：对告警进行去重、分组、路由到指定的接收者（如邮件、Slack、PagerDuty 等），并支持静默（silence）告警、模板渲染、高可用集群等特性。
-
-**主要功能与使用方法：**
-
-1. **告警处理**：接收 Prometheus 的告警，支持对告警进行分组、去重、路由，根据配置的规则将告警发送给指定的接收者。
-2. **静默管理**：可以通过 `amtool` 命令添加、查询、过期静默规则，防止特定告警被发送。
-3. **模板支持**：支持使用模板渲染告警消息，灵活控制发送内容。
-4. **高可用性**：Alertmanager 支持集群部署，通过配置多个实例实现高可用，确保告警处理的可靠性。
-5. **路由配置**：通过配置文件定义路由规则，支持复杂的路由逻辑，如按标签、实例等条件分配接收者。
-6. **命令行工具 `amtool`**：提供了一系列命令行工具，用于查看配置、测试路由、管理静默规则等。
-
-**主要特性：**
-
-- 支持多种告警接收方式（如邮件、Slack、Webhook 等）。
-- 提供丰富的配置选项，支持高可用性部署。
-- 支持告警分组、去重、静默、模板渲染。
-- 提供命令行工具 `amtool`，便于管理和测试配置。
-- 支持集群通信，确保高可用性。
+Alertmanager 是 Prometheus 生态系统中的警报处理组件，负责接收、去重、分组和路由客户端发送的警报至邮件、PagerDuty、OpsGenie 等接收器。它支持警报的静默与抑制功能，提供 API 接口及 amtool 命令行工具用于管理，并支持高可用集群部署以保障可靠性。

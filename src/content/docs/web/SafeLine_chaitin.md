@@ -3,26 +3,13 @@
 title: SafeLine
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chaitin/SafeLine?style=social) ](https://github.com/chaitin/SafeLine)
-### [chaitin SafeLine](https://github.com/chaitin/SafeLine)
+### [chaitin SafeLine](https://github.com/chaitin/SafeLine)  ![GitHub Repo stars](https://img.shields.io/github/stars/chaitin/SafeLine?style=social)
 
-SafeLine 是一款自托管的 Web 应用防火墙（WAF），用于防御 SQL 注入、XSS、代码注入、路径遍历、暴力破解等常见攻击，支持动态加密 HTML/JS 代码、IP 限流、反爬虫挑战、访问控制等功能。  
+SafeLine 是一款自托管的 Web 应用防火墙（WAF），通过反向代理模式部署在 Web 应用前端，用于过滤、监控和阻断恶意 HTTP/S 流量以保护应用安全。其核心功能包括：
 
-**核心功能**：  
-- 防御多种 Web 攻击（如 SQL 注入、XXE、SSRF 等）  
-- 通过速率限制抵御 DoS 攻击和流量激增  
-- 反爬虫验证（区分人类用户与机器人）  
-- 访问认证挑战（强制输入密码访问）  
-- 动态加密 HTML/JS 代码  
-
-**使用方法**：  
-- 安装：参考 [安装指南](https://docs.waf.chaitin.com/en/GetStarted/Deploy)  
-- 配置：通过 [配置文档](https://docs.waf.chaitin.com/en/GetStarted/AddApplication) 添加保护的 Web 应用  
-
-**特性亮点**：  
-- 检测准确率高达 99.45%（优于 ModSecurity 和 CloudFlare）  
-- 全球超 18 万次安装，保护超 100 万网站  
-- 支持中文版文档及 Discord 社区支持  
-
-**注意事项**：  
-中国大陆用户安装国际版可能因云服务连接问题需参考中文文档。
+- **防御 Web 攻击**：拦截 SQL 注入、XSS、代码注入、命令注入、RCE、XXE、SSRF、路径遍历、后门等多种威胁。
+- **速率限制**：基于 IP 进行流量节流，防御 DoS 攻击、暴力破解及流量滥用。
+- **反机器人挑战**：通过人机验证机制区分人类用户与恶意爬虫。
+- **身份验证挑战**：启用后可强制访客输入密码，否则拦截访问。
+- **动态保护**：动态加密 Web 服务器中的 HTML 和 JS 代码。
+- **访问控制列表**：支持基于 IP 的 Web 访问控制管理。

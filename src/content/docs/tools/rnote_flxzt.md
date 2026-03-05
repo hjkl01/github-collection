@@ -3,32 +3,6 @@
 title: rnote
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/flxzt/rnote?style=social) ](https://github.com/flxzt/rnote)
-### [flxzt rnote](https://github.com/flxzt/rnote)
+### [flxzt rnote](https://github.com/flxzt/rnote)  ![GitHub Repo stars](https://img.shields.io/github/stars/flxzt/rnote?style=social)
 
-**Rnote 核心内容总结：**  
-
-**项目功能**  
-Rnote 是一款基于 Rust 和 GTK4 开发的开源矢量绘图应用，支持手写笔记、草图绘制、文档注释及图片标注，适用于学生、教师及数位板用户。  
-
-**主要特性**  
-- 支持压力敏感的触控笔输入及可配置笔触样式  
-- 提供多种形状工具、内容选择与编辑功能（移动、旋转、缩放等）  
-- 支持固定页面、连续垂直、无限方向等多种文档布局  
-- 可自定义背景颜色、图案及页面格式  
-- 支持 PDF、图片、SVG 导入，导出为 SVG、PDF、Xopp 等格式  
-- 提供标签页多文档操作、自动保存、打印功能  
-
-**使用方法**  
-- **Linux**：通过 Flathub 安装 Flatpak 版本  
-- **MacOS**：从 GitLab 下载应用包  
-- **Windows**：通过 GitHub 发布版本或 Winget 安装  
-- 如需降级版本（因文件格式不稳定），可通过 Flatpak 命令指定历史版本  
-
-**注意事项**  
-- `.rnote` 文件格式为压缩 JSON，不同版本可能存在兼容性问题  
-- 部分功能需安装驱动（如 `xf86-input-wacom`）或调整系统设置（如触控笔按钮映射）  
-- 拖放功能需授予 Flatpak 权限  
-
-**许可证**  
-采用 GPL-3.0 或更高版本开源协议。
+Rnote 是一款基于 Rust 和 GTK4 开发的开源矢量绘图应用，用于草绘、手写笔记及文档与图片标注。主要面向学生、教师及绘图平板用户。核心功能包括：针对触控笔输入的自适应界面，支持压力感应与可配置笔触样式；提供形状工具与选择工具，支持内容的移动、旋转、缩放与修改；支持固定页面、连续垂直及无限方向等多种文档布局；具备自定义背景、页面格式及笔触音效等功能。支持 PDF、位图、SVG 等多种格式导入，可导出为 SVG、PDF、Xopp 等格式，并支持多标签文档管理、自动保存与打印。

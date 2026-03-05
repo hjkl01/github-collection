@@ -3,8 +3,6 @@
 title: FreeRDP
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FreeRDP/FreeRDP?style=social) ](https://github.com/FreeRDP/FreeRDP)
-### [FreeRDP FreeRDP](https://github.com/FreeRDP/FreeRDP)
+### [FreeRDP FreeRDP](https://github.com/FreeRDP/FreeRDP)  ![GitHub Repo stars](https://img.shields.io/github/stars/FreeRDP/FreeRDP?style=social)
 
-**FreeRDP 核心内容总结：**  
-FreeRDP 是一个开源的远程桌面协议（RDP）实现，采用 Apache 许可证，支持跨平台使用（Windows、macOS、Linux、FreeBSD 等），兼容多种 CPU 架构（如 ARM、PPC）。项目提供高质量代码保障，集成 clang-tidy、CodeQL、Coverity 等工具进行静态分析，并支持多平台构建（包括 MinGW、FreeBSD、macOS）。用户可通过 GitHub 获取源码，参考维基文档进行编译，或从官方下载页面获取预编译版本。项目提供完整的 API 文档、安全策略说明及常见问题解答，支持通过命令行工具连接远程桌面。
+FreeRDP 是一个基于 Apache 许可证的开源远程桌面协议（RDP）实现。它支持跨平台和多架构构建，允许用户自由地在不同操作系统上使用 RDP 进行远程连接。项目提供编译指南、API 文档、资源下载及持续集成支持，致力于通过互操作性提升计算体验。

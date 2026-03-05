@@ -3,22 +3,6 @@
 title: evals
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/openai/evals?style=social) ](https://github.com/openai/evals)
-### [openai evals](https://github.com/openai/evals)
+### [openai evals](https://github.com/openai/evals)  ![GitHub Repo stars](https://img.shields.io/github/stars/openai/evals?style=social)
 
-### 核心内容总结  
-**项目功能**：  
-OpenAI Evals 是一个用于评估大型语言模型（LLM）或基于 LLM 的系统的框架，提供现有评估模板和自定义评估功能，支持使用私有数据构建评估，无需公开数据。  
-
-**使用方法**：  
-1. 设置 OpenAI API 密钥并安装 Python 3.9 及以上版本。  
-2. 通过 Git-LFS 下载评估数据，或仅获取特定评估数据。  
-3. 安装依赖项（`pip install -e .`），并使用 `pre-commit` 工具进行代码格式化。  
-4. 运行评估（`pip install evals`），可选地将结果记录到 Snowflake 数据库。  
-
-**主要特性**：  
-- 提供多种评估模板（如提示链、工具代理等）。  
-- 支持自定义评估逻辑和模型评分（YAML 文件）。  
-- 可集成 Weights & Biases 进行可视化分析。  
-- 强调数据隐私，允许使用私有数据构建评估。  
-- 提供代码质量工具（如 `pre-commit`）。
+OpenAI Evals 是一个用于评估大语言模型（LLMs）及基于 LLM 系统的框架。它提供现成的评估注册表以测试 OpenAI 模型的不同维度，支持编写自定义评估以满足特定用例，并允许使用私有数据构建不对外公开的私人评估。用户可通过 OpenAI Dashboard 直接配置运行，或在本地通过 Python 包运行，支持将结果记录至 Snowflake 或 Weights & Biases。项目提供丰富的文档、示例及模板（支持 YAML/JSON 无代码配置），帮助开发者构建从基础到高级的评估流程。

@@ -3,12 +3,6 @@
 title: git-cheat-sheet
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/arslanbilal/git-cheat-sheet?style=social) ](https://github.com/arslanbilal/git-cheat-sheet)
-### [arslanbilal git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
+### [arslanbilal git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)  ![GitHub Repo stars](https://img.shields.io/github/stars/arslanbilal/git-cheat-sheet?style=social)
 
-该项目是一个全面的Git操作指南，提供Git命令参考、分支管理策略及Git Flow工作流教程。核心功能包括：  
-1. **Git基础操作**：涵盖提交、回滚、分支创建与合并、冲突解决等核心命令。  
-2. **版本管理**：支持功能开发（feature）、版本发布（release）和紧急修复（hotfix）的完整流程。  
-3. **Git Flow工作流**：提供标准化分支管理方案，包括初始化配置、功能开发、版本发布、热修复等操作步骤。  
-4. **多语言支持**：包含中文、英文、德语等12种语言版本，适应不同用户需求。  
-使用方法：通过命令行执行初始化、分支操作、合并变基等指令，支持交互式操作（如合并提交压缩）。主要特性包括详细的命令说明、团队协作流程规范及多语言文档支持。
+本项目是一个全面的 Git 及 Git Flow 命令备忘单。它提供了 Git 核心操作的完整命令参考，涵盖配置管理、仓库创建、本地变更管理（提交、暂存、还原）、分支标签操作、远程同步发布、合并与变基以及撤销操作等功能。此外，项目还包含详细的 Git Flow 工作流指南，涵盖特性开发、版本发布及热修复流程。旨在帮助开发者无需死记硬背即可快速查阅并掌握 Git 工具的使用，同时支持多语言版本。

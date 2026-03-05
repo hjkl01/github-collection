@@ -3,26 +3,6 @@
 title: rerun
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rerun-io/rerun?style=social) ](https://github.com/rerun-io/rerun)
-### [rerun-io rerun](https://github.com/rerun-io/rerun)
+### [rerun-io rerun](https://github.com/rerun-io/rerun)  ![GitHub Repo stars](https://img.shields.io/github/stars/rerun-io/rerun?style=social)
 
-**项目核心内容总结：**  
-
-Rerun 是一个用于处理多模态数据（如图像、点云、文本、时间序列等）的开源工具，支持数据建模、存储、查询和实时可视化，适用于机器人、AI、工业、仿真等领域。  
-
-**主要功能与特性：**  
-- **多模态数据支持**：可记录和可视化图像、点云、3D模型、文本、张量等数据。  
-- **时间感知**：支持按时间线关联数据，便于分析动态过程。  
-- **跨平台SDK**：提供 Python、C++、Rust 语言的 SDK，可将数据流式传输至 Rerun Viewer 或保存为 `.rrd` 文件。  
-- **实时可视化**：通过 Rerun Viewer 实时查看数据，支持复杂场景的交互式调试。  
-- **数据查询**：提供 API 提取记录数据，用于训练模型或分析。  
-
-**使用方法：**  
-1. 安装 SDK（如 Python：`pip install rerun-sdk`）。  
-2. 使用 SDK 记录数据（如 `rr.log("path", rr.Points3D(...))`）。  
-3. 启动 Viewer（通过 `rr.spawn()` 或独立安装的 `rerun` 命令行工具）。  
-
-**注意事项：**  
-- 当前版本存在性能限制（如实体过多时渲染变慢、不支持透明度）。  
-- 数据需完全加载到内存，未来计划支持磁盘存储。  
-- 开源版本免费，商业版提供高级功能（需联系官网）。
+Rerun 是一个时间感知的多模态数据堆栈和可视化工具，支持 C++、Python 和 Rust SDK。它用于记录图像、点云、张量、文本等多种数据，数据可实时流式传输至查看器或保存为文件，并支持通过数据框 API 查询。其核心在于时间回溯功能，适用于机器人、仿真及 AI 等领域的数据调试，帮助理解复杂多模态数据随时间的演变。项目采用开源核心模式，当前处于活跃开发中。

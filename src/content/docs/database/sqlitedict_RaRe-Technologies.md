@@ -3,28 +3,16 @@
 title: sqlitedict
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/RaRe-Technologies/sqlitedict?style=social) ](https://github.com/RaRe-Technologies/sqlitedict)
-### [RaRe-Technologies sqlitedict](https://github.com/RaRe-Technologies/sqlitedict)
+### [RaRe-Technologies sqlitedict](https://github.com/RaRe-Technologies/sqlitedict)  ![GitHub Repo stars](https://img.shields.io/github/stars/RaRe-Technologies/sqlitedict?style=social)
 
-**项目核心内容总结：**
+sqlitedict 是一个基于 SQLite 的轻量级 Python 库，用于实现持久化的字典（dict）对象。
+核心功能如下：
 
-**功能**  
-`sqlitedict` 是一个基于 SQLite 的持久化字典工具，提供类似 Python 字典的接口，支持多线程访问、自定义序列化及多表存储。数据以 SQLite 数据库文件形式保存，适用于需要持久化存储复杂对象的场景。
-
-**使用方法**  
-1. **安装**：通过 `pip install -U sqlitedict` 安装。  
-2. **基本操作**：  
-   - 写入：创建 `SqliteDict` 实例，通过 `db[key] = value` 存储数据，需手动调用 `commit()` 提交（或启用 `autocommit=True`）。  
-   - 读取：通过 `db[key]` 或 `items()/keys()/values()` 遍历数据。  
-   - 关闭：使用 `db.close()` 或上下文管理器 `with SqliteDict(...) as db:` 自动关闭。  
-3. **多表存储**：通过 `tablename` 参数指定表名，同一数据库文件可存储多个表。  
-4. **自定义序列化**：通过 `encode`/`decode` 参数替换默认的 `pickle`（如使用 `json` 或压缩）。  
-5. **键编码**：支持非字符串键，需传入自定义 `encode_key`/`decode_key` 函数。
-
-**主要特性**  
-- 支持任意可序列化对象（默认使用 `pickle` 最高协议）。  
-- 多线程安全（解决 SQLite 在 Python 中的线程限制）。  
-- 自定义编解码器，支持 JSON、压缩等扩展。  
-- 高效处理大数据库（SQLite 本身内存优化）。  
-- 提供 `len()`、`items()` 等字典接口，但注意 `len()` 需扫描全表。  
-- **注意事项**：修改字典值需重新赋值（如 `db[key] = new_value`）才能持久化；未提交数据会丢失。
+1.  **字典接口**：提供标准的 Python 字典操作（读写、遍历、计数等）。
+2.  **持久化存储**：数据存储在 SQLite 中，支持 GB 级大数据库，不受内存限制。
+3.  **多线程支持**：允许同一数据库连接在多线程中使用（请求内部序列化），解决 Python SQLite 的线程限制。
+4.  **多表管理**：支持在同一数据库文件中创建和管理多个独立的表（字典）。
+5.  **序列化定制**：默认使用 Pickle 序列化值，支持自定义编码器/解码器（如 JSON）及压缩（如 Zlib）。
+6.  **易用性**：支持上下文管理器；写入默认需手动 `commit` 或开启 `autocommit` 模式。
+7.  **无依赖**：无需额外库，仅依赖 Python 3.7+。
+8.  **注意事项**：修改可变对象后需重新赋值回字典并 `commit` 才能生效。

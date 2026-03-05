@@ -3,27 +3,16 @@
 title: VCPToolBox
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/lioensky/VCPToolBox?style=social) ](https://github.com/lioensky/VCPToolBox)
-### [lioensky VCPToolBox](https://github.com/lioensky/VCPToolBox)
+### [lioensky VCPToolBox](https://github.com/lioensky/VCPToolBox)  ![GitHub Repo stars](https://img.shields.io/github/stars/lioensky/VCPToolBox?style=social)
 
-**VCP项目核心内容总结：**
+VCP (Variable & Command Protocol) 是一个旨在超越传统 AI 交互的新一代中间层系统，致力于赋能 AI 模型实现能力跃迁、记忆进化与群体智能。
 
-VCP是一个用于构建和管理AI代理（Agent）的框架，核心功能包括：  
-1. **模块化系统提示词工程**：通过`Tar*`变量实现动态提示词组合，支持时间、天气、工具列表等实时信息注入，提升AI对环境和任务的适应性。  
-2. **插件集成与工具调用**：内置文生图、计算器、联网搜索、B站视频获取等工具，通过占位符（如`{{VCPFluxGen}}`）实现AI对工具的自动调用。  
-3. **Agent协作机制**：支持Agent间自主通信、任务分配与协同，通过标准化通信总线（ACB）实现团队式智能协作。  
-4. **动态变量系统**：包含`Tar*`（高优先级模板）、`Var*`（通用变量）、`Sar*`（模型适配变量），支持复杂场景下的灵活配置。  
-5. **主动交互能力**：集成`AgentMessage`和WebSocket，允许AI根据条件主动通知用户或执行动作。  
+**核心功能：**
 
-**使用方法**：  
-- 在`config.env`中定义`Tar*`模块和变量；  
-- 通过组合`Tar*`模块生成系统提示词（如`{{Nova}}{{VCPTavern::dailychat}}`）；  
-- 调用插件工具时，使用预定义占位符注入功能。  
+1.  **记忆与认知系统**：采用 TagMemo“浪潮”算法（V5）、元思考系统及 AgentDream 梦系统，实现语义引力检索、辩证思维与自主内省记忆重构，底层基于 Rust + SQLite + USearch 实现高性能统一管理。
+2.  **插件生态**：提供 300+ 官方插件，涵盖多媒体生成（图文视频）、信息检索、文件操作、网络控制等，支持 MCP 协议兼容（MCPO）及无状态动态工具注入。
+3.  **分布式架构**：采用星型网络拓扑，支持主服务器与分布式节点协同，实现算力扩展、跨服务器文件解析及智能路由。
+4.  **Agent 主观能动性**：赋予 AI 自主规划时间线、跨 Agent 通信、参与社区讨论及任务执行的能力，具备全局统一时间感知与流式输出编辑功能。
+5.  **管理与交互**：内置 Web 管理面板，支持系统监控、知识库管理、提示词工程及可视化调试，兼容多种前端与后端 AI 模型 API。
 
-**主要特性**：  
-- 高度可定制的提示词工程；  
-- 实时环境感知与工具调用；  
-- 支持Agent自主协作与主动交互；  
-- 开放的插件生态与未来扩展方向（如深度记忆回溯、事件总线等）。  
-
-项目采用CC BY-NC-SA 4.0许可证，适用于非商业场景，需注意API成本及安全责任。
+系统基于 Node.js、Python 和 Rust 构建，强调安全性与高并发性能，旨在构建人机共生对等的 AI 生态系统。

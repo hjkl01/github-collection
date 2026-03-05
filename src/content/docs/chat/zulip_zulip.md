@@ -3,20 +3,6 @@
 title: zulip
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zulip/zulip?style=social) ](https://github.com/zulip/zulip)
-### [zulip zulip](https://github.com/zulip/zulip)
+### [zulip zulip](https://github.com/zulip/zulip)  ![GitHub Repo stars](https://img.shields.io/github/stars/zulip/zulip?style=social)
 
-**核心内容总结：**  
-Zulip 是一款开源团队协作工具，采用基于主题的线程模式，结合邮件与聊天的优点，支持实时与异步对话，适用于远程协作。项目由全球开发者社区维护，拥有活跃的贡献者和完善的文档（185K字）。  
-
-**使用方法：**  
-- **代码贡献**：通过官方文档参与开发，可访问社区服务器体验。  
-- **非代码贡献**：报告问题、翻译或提供反馈。  
-- **部署方式**：可通过 Ubuntu/Debian、Docker 或云平台（如 Digital Ocean、Render）自托管，或使用 Zulip Cloud 服务。  
-- **试用**：加入 Zulip 社区服务器直接体验。  
-
-**主要特性：**  
-- 高度可读的代码与全面的测试覆盖。  
-- 支持多语言（如中文）及第三方集成。  
-- 提供免费云服务计划，适合开源项目及中小企业。  
-- 采用 Apache 2.0 开源协议，可自由使用与分发。
+Zulip 是一款开源的组织化团队聊天应用，采用基于主题的线程设计，融合电子邮件与聊天的优势，专为实时及异步对话打造，旨在提升远程工作效率。该项目由全球社区维护，支持 Linux/Docker 自托管及云服务，遵循 Apache 2.0 开源协议。

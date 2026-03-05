@@ -3,21 +3,9 @@
 title: aliyundrive-fuse
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/messense/aliyundrive-fuse?style=social) ](https://github.com/messense/aliyundrive-fuse)
-### [messense aliyundrive-fuse](https://github.com/messense/aliyundrive-fuse)
+### [messense aliyundrive-fuse](https://github.com/messense/aliyundrive-fuse)  ![GitHub Repo stars](https://img.shields.io/github/stars/messense/aliyundrive-fuse?style=social)
 
-aliyundrive-fuse 是一个将阿里云盘挂载为本地磁盘的 FUSE 工具，主要用于配合 Emby 或 Jellyfin 播放云盘视频内容。核心特性包括：  
-1. **仅支持读取**，不支持写入操作；  
-2. 支持 **Linux 和 macOS**，不支持 Windows；  
-3. 直接通过 FUSE 挂载，无需依赖 WebDAV 或 rclone 中转。  
-
-**安装方式**：  
-- Linux 需安装 fuse3，macOS 需安装 macfuse；  
-- 可通过 pip、Snapcraft 或 OpenWrt 的 ipk 文件安装。  
-
-**使用方法**：  
-1. 创建挂载目录，执行命令挂载，需指定刷新令牌（`--refresh-token`）和挂载路径；  
-2. Docker 环境下需将挂载路径映射到容器内（如 Jellyfin 的 `/media` 路径）。  
-
-**适用场景**：  
-直接作为 Emby/Jellyfin 的媒体库路径，或通过 Docker 容器访问云盘文件。
+aliyundrive-fuse 是一个基于 FUSE 的阿里云盘挂载工具，可将阿里云盘直接挂载为本地磁盘，主要用于配合 Emby 或 Jellyfin 媒体服务器观看云盘内容，无需通过 WebDAV 或 rclone 进行中转。项目功能特性包括：
+1. 仅支持只读模式，不支持写入；
+2. 支持 Linux 和 macOS 系统（暂不支持 Windows）；
+3. 支持通过命令行配置刷新令牌和挂载点，并支持多种部署方式（pip、snap、预编译包、OpenWrt 等）。

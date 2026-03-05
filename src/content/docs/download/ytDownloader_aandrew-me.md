@@ -3,25 +3,6 @@
 title: ytDownloader
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aandrew-me/ytDownloader?style=social) ](https://github.com/aandrew-me/ytDownloader)
-### [aandrew-me ytDownloader](https://github.com/aandrew-me/ytDownloader)
+### [aandrew-me ytDownloader](https://github.com/aandrew-me/ytDownloader)  ![GitHub Repo stars](https://img.shields.io/github/stars/aandrew-me/ytDownloader?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-ytDownloader 是一款支持数百个网站（如 YouTube、Facebook、TikTok 等）的现代 GUI 视频/音频下载工具，支持下载播放列表、多主题、视频压缩（硬件加速）、字幕选择、范围下载等功能，且无广告和跟踪器。
-
-**使用方法**  
-- **Windows**：支持传统安装、Chocolatey、Scoop、Winget 安装；需处理 Windows Defender 防病毒提示。  
-- **Linux**：推荐 Flatpak，支持 AppImage 和 Snap 安装。  
-- **macOS**：需通过终端移除隔离属性并安装 `yt-dlp`（依赖 Homebrew）。  
-
-**主要特性**  
-- 跨平台支持（Linux、Windows、macOS）  
-- 视频压缩与硬件加速  
-- 多语言支持（含中文、英文、俄语等 20+ 语言）  
-- 快速下载与无广告体验  
-- 支持字幕、范围下载、播放列表下载  
-
-**技术栈**  
-基于 Electron、yt-dlp、ffmpeg 和 Node.js 开发。
+ytDownloader 是一款现代化的跨平台图形界面视频与音频下载工具。它支持包括 YouTube、Facebook、Instagram、TikTok 和 Twitter 在内的数百个网站。核心功能涵盖多主题切换、硬件加速视频压缩、播放列表下载、字幕提取及高级范围选择。软件无追踪器或广告，下载速度快，兼容 Linux、Windows 和 macOS 系统。

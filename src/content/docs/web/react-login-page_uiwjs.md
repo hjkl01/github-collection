@@ -3,26 +3,6 @@
 title: react-login-page
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/uiwjs/react-login-page?style=social) ](https://github.com/uiwjs/react-login-page)
-### [uiwjs react-login-page](https://github.com/uiwjs/react-login-page)
+### [uiwjs react-login-page](https://github.com/uiwjs/react-login-page)  ![GitHub Repo stars](https://img.shields.io/github/stars/uiwjs/react-login-page?style=social)
 
-**项目核心内容总结：**
-
-该项目是一个基于React的登录页面组件库，提供可高度定制的登录界面构建方案。主要功能包括：
-
-1. **功能组件**  
-   提供`Block`（布局块）、`Input`（输入框）、`Select`（下拉选择）、`Button`（按钮）等基础组件，支持自定义表单元素和页面结构。
-
-2. **灵活布局**  
-   通过`Render`组件实现页面结构自定义，开发者可直接使用`fields`（表单字段）、`buttons`（按钮）、`blocks`（布局块）等数据进行渲染，支持按`index`属性排序控制元素顺序。
-
-3. **状态管理**  
-   内置`Provider`和`Container`组件实现状态上下文管理，结合`useStore`钩子可访问表单数据、额外信息及组件状态，便于实现复杂交互逻辑。
-
-4. **使用方法**  
-   安装后通过导入组件并组合使用，示例代码包含基础表单搭建、自定义渲染逻辑及状态管理的完整流程。
-
-**主要特性**  
-- 组件可复用，支持通过属性（如`keyname`、`index`）灵活控制渲染顺序和标识。  
-- 提供默认登录页面结构，同时允许深度自定义布局和样式。  
-- 通过`extra`属性支持扩展数据存储，满足复杂业务场景需求。
+react-login-page 是一个 React 组件库，用于快速构建和定制登录页面。它封装了 Logo、输入框、按钮、文本域、下拉框等基础组件，支持通过灵活 API 进行组合与修改。项目允许使用 index 属性控制控件顺序，提供 Render 组件和 useStore 状态管理工具以实现动态渲染，并支持在表单控件中嵌入额外内容，帮助开发者高效创建高度自定义的登录界面。

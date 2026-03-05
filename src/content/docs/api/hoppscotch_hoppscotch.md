@@ -3,18 +3,6 @@
 title: hoppscotch
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social) ](https://github.com/hoppscotch/hoppscotch)
-### [hoppscotch hoppscotch](https://github.com/hoppscotch/hoppscotch)
+### [hoppscotch hoppscotch](https://github.com/hoppscotch/hoppscotch)  ![GitHub Repo stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social)
 
-**核心内容总结：**  
-Hoppscotch 是一款开源的 API 开发工具，支持快速构建和测试 API 请求，主要功能包括：  
-- **核心功能**：支持 HTTP/HTTPS 协议、WebSocket、GraphQL、MQTT、Socket.IO 等通信方式；提供请求方法（GET/POST/PUT 等）、参数设置、请求体编辑、响应查看、历史记录、集合管理等功能。  
-- **使用方法**：输入目标 URL 和请求方法，点击“发送”即可获取响应结果，支持复制请求代码片段、导入 cURL、生成分享链接等操作。  
-- **主要特性**：  
-  1. **轻量高效**：极简 UI 设计，实时响应，低资源占用。  
-  2. **高度可定制**：支持主题（浅色/深色/黑底）、自定义颜色、Zen 模式。  
-  3. **跨平台支持**：作为 PWA 安装到设备，支持桌面和移动端。  
-  4. **协作功能**：支持团队协作、权限管理、多设备数据同步（需登录）。  
-  5. **开发辅助**：预请求脚本、后请求测试、环境变量管理、批量编辑参数。  
-  6. **扩展生态**：提供 CLI 工具、代理服务、浏览器扩展（修复 CORS 问题）。  
-- **适用场景**：API 开发者、测试人员、前后端协作团队，适用于快速调试接口、管理请求集合、跨设备同步数据等。
+Hoppscotch 是一个开源的轻量级 API 开发生态系统，旨在提供快速的 API 测试与开发体验。它支持 HTTP 标准及自定义方法，并涵盖 GraphQL、WebSocket、Socket.IO、MQTT 等多种协议测试。功能包括请求参数、头部及 Body 管理，响应内容预览与格式转换，以及多语言代码片段生成和 cURL 导入。支持通过 JavaScript 编写预请求和后请求脚本进行自动化测试，提供团队工作区、集合管理及数据云同步功能。内置代理模式可解决 CORS 和非 HTTPS 访问限制，支持 PWA 安装、浏览器插件、CLI 工具及跨平台桌面应用。界面支持多主题、快捷键优化及多语言国际化。

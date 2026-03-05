@@ -3,11 +3,12 @@
 title: cookiecutter-pypackage
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/audreyr/cookiecutter-pypackage?style=social) ](https://github.com/audreyr/cookiecutter-pypackage)
-### [audreyr cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
+### [audreyr cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)  ![GitHub Repo stars](https://img.shields.io/github/stars/audreyr/cookiecutter-pypackage?style=social)
 
-**核心内容总结：**  
-这是一个用于生成Python包的Cookiecutter模板，提供以下功能：  
-- **项目结构**：包含测试框架（pytest）、GitHub Actions自动化测试（支持Python 3.10-3.13）、PyPI自动发布（通过Git标签触发）、基于Typer的命令行接口。  
-- **使用方法**：需先安装Cookiecutter，通过命令 `cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git` 生成项目。  
-- **特性**：支持MIT开源协议，提供GitHub仓库、PyPI发布、Read the Docs集成等完整开发流程。
+Cookiecutter PyPackage 是一个生产就绪的 Python 包 Cookiecutter 模板，旨在简化 Python 包的开发、测试与发布流程。
+
+核心功能：
+1. **自动化发布**：推送标签后自动构建并发布至 PyPI，基于 Trusted Publishers 机制无需配置 API 令牌。
+2. **现代化工具链**：集成 uv 包管理、just 任务运行、ruff 代码检查、ty 类型检查、pytest 测试、Typer CLI 框架及自动文档生成。
+3. **安全 CI/CD**：基于 GitHub Actions，支持多 Python 版本测试与代码审查，采用 SHA 固定操作与最小权限配置。
+4. **快速启动**：支持通过 uvx 一键生成标准项目结构，包含完整的环境配置与工作流程。

@@ -3,23 +3,14 @@
 title: bytebase
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bytebase/bytebase?style=social) ](https://github.com/bytebase/bytebase)
-### [bytebase bytebase](https://github.com/bytebase/bytebase)
+### [bytebase bytebase](https://github.com/bytebase/bytebase)  ![GitHub Repo stars](https://img.shields.io/github/stars/bytebase/bytebase?style=social)
 
-**核心内容总结：**  
-Bytebase 是一个开源的数据库 DevOps 工具，专注于数据库 CI/CD 流程管理，被 CNCF 和 Platform Engineering 选为推荐项目。其核心功能包括：  
-- **数据库 CI/CD**：支持 GitOps 集成（GitHub/GitLab）、自动化迁移与回滚、SQL 语法审查（200+ 规则）。  
-- **安全合规**：数据列级脱敏、细粒度访问控制、全量审计日志。  
-- **开发体验**：Web SQL 编辑器、多数据库批量变更、API 和 Terraform 自动化。  
-- **运营管理**：支持 PostgreSQL、MySQL、MongoDB 等 10+ 数据库，自动检测环境间模式漂移，提供 CLI 式管理界面。  
+Bytebase 是一款开源数据库 DevOps 工具，也是 CNCF Landscape 中唯一的数据库 CI/CD 项目。它提供基于 Web 的协作平台，帮助开发团队和 DBA 管理数据库模式生命周期。
 
-**使用方法**：  
-- 通过 Docker 命令快速部署：`docker run ...`  
-- 使用 Kubernetes Helm 安装：`helm install bytebase ...`  
-- 访问 http://localhost:8080 启动配置。  
+主要功能包括：
+1. **数据库 CI/CD**：支持 GitOps 集成、自动化迁移回滚、SQL 审查。
+2. **安全合规**：支持数据脱敏、细粒度权限控制及审计日志。
+3. **开发运维**：内置 Web SQL 编辑器，支持批量操作、API 及 Terraform 自动化。
+4. **多数据库支持**：兼容 PostgreSQL、MySQL、MongoDB 等，具备配置漂移检测。
 
-**主要特性**：  
-- 唯一被 CNCF 收录的数据库 CI/CD 工具。  
-- 支持多数据库类型（含 Oracle、Snowflake 等）。  
-- 提供 GitHub Action（SQL 审查）、Terraform 插件等生态工具。  
-- 面向开发团队、DBA、安全团队的协作与合规需求。
+适用于数据库版本控制、自动化部署、集中化管理及合规审计。

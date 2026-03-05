@@ -3,20 +3,14 @@
 title: nginxWebUI
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/cym1102/nginxWebUI?style=social) ](https://github.com/cym1102/nginxWebUI)
-### [cym1102 nginxWebUI](https://github.com/cym1102/nginxWebUI)
+### [cym1102 nginxWebUI](https://github.com/cym1102/nginxWebUI)  ![GitHub Repo stars](https://img.shields.io/github/stars/cym1102/nginxWebUI?style=social)
 
-nginxWebUI是一款图形化管理工具，用于简化Nginx配置管理。主要功能包括：HTTP/TCP转发、反向代理、负载均衡、SSL证书自动申请与续签、静态网页上传、多服务器集群管理、配置同步等。支持通过网页界面一键生成Nginx配置文件并控制服务启停，覆盖日常90%的Nginx使用场景。
+nginxWebUI 是一款基于 Web 的 Nginx 图形化管理工具，旨在简化 Nginx 配置流程。
 
-**使用方法**  
-1. **安装方式**：支持Jar包部署（需Java 11+和Nginx）或Docker镜像（含Nginx和WebUI一体化）。  
-2. **配置流程**：通过Web界面配置HTTP参数、反向代理、负载均衡等，支持证书申请、日志管理、配置备份与回滚。  
-3. **开机启动**：通过systemd配置服务文件实现后台运行。  
+1. **基础配置**：支持 HTTP/HTTPS 转发、TCP 转发、反向代理、负载均衡、静态文件服务及自定义参数配置。
+2. **证书管理**：集成 Let's Encrypt，支持 SSL 证书自动化申请、续签与配置。
+3. **服务控制**：一键生成 nginx.conf 文件，支持配置备份、回滚及 Nginx 启动与重载。
+4. **集群管理**：支持多服务器管理、配置同步及远程管控（专业版含节点数据采集与日志流量统计）。
+5. **部署扩展**：支持 JAR 包与 Docker 部署，默认使用 SQLite 数据库，并提供 HTTP API 接口。
 
-**主要特性**  
-- 基于Solon框架，使用SQLite数据库，无需额外安装依赖。  
-- 支持多服务器远程管理与配置同步，适用于多节点部署场景。  
-- 自动续签SSL证书（需配合阿里云DNS验证），提供智能文档接口（需Token鉴权）。  
-- 专业版增加高级功能（如更精细的权限控制），开源版免费使用基础功能。  
-
-**注意事项**：安装需root权限，Docker部署需使用host网络模式；证书续签依赖阿里云API密钥。
+系统覆盖 Nginx 日常 90% 的功能使用，无需手动编写配置文件或搜索配置代码。

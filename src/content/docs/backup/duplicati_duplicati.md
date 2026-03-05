@@ -3,42 +3,6 @@
 title: duplicati
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social) ](https://github.com/duplicati/duplicati)
-### [duplicati duplicati](https://github.com/duplicati/duplicati)
+### [duplicati duplicati](https://github.com/duplicati/duplicati)  ![GitHub Repo stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social)
 
-**Duplicati 简介与核心功能总结**
-
-**概述**  
-Duplicati 是一款免费、开源的备份工具，支持在多种云存储服务和远程服务器上安全存储加密、增量及压缩备份。适用于 **Windows、macOS 和 Linux** 系统。
-
-**核心功能**  
-1. **数据安全**  
-   - 使用 **AES-256 加密**（或 GNU Privacy Guard）保护数据，确保备份内容私密性。  
-   - 所有版本均通过 **GPG 签名** 验证，保障下载安全性。  
-
-2. **高效备份策略**  
-   - **增量备份**：仅备份自上次备份以来的更改数据，节省存储空间与带宽。  
-   - **自动调度**：内置任务调度器，确保备份任务自动执行并保持最新。  
-
-3. **多平台传输支持**  
-   - 支持 **FTP、SFTP、WebDAV、Amazon S3、Google Drive、MEGA、OneDrive 等** 多种云存储和远程服务器协议。  
-
-4. **灵活的备份选项**  
-   - 可备份文件夹、特定文件类型（如文档、图像）或自定义过滤规则。  
-   - **高级功能**：支持通过 **Windows 的 VSS（卷影复制服务）** 或 **Linux 的 LVM（逻辑卷管理）** 备份打开或锁定的文件。  
-
-5. **用户友好性**  
-   - 提供图形界面工具和命令行接口，适应不同用户需求。  
-   - **自动更新**：Beta 版本支持自动更新通知，确保及时获取新功能与安全补丁。  
-
-**为何选择 Duplicati？**  
-- **数据保护**：加密备份与远程存储相结合，有效防范本地灾害（如火灾）和数据泄露。  
-- **节省资源**：增量备份与压缩技术显著减少存储成本与传输时间。  
-- **社区支持**：活跃的开发者社区和详尽的官方文档，用户可参与代码贡献或翻译项目。  
-
-**获取方式**  
-- 官网提供 **最新稳定版** 和 **Beta 版本** 下载。  
-- 通过 GitHub 可获取源码并参与开发。  
-
-**总结**  
-Duplicati 凭借其安全性、高效性及跨平台兼容性，成为企业及个人用户备份数据的理想选择。
+Duplicati 是一款免费开源的备份客户端，支持 Windows、macOS 和 Linux 系统。它可将数据加密（AES-256 或 GPG）、压缩后进行增量备份，并安全存储于各类云存储服务（如 Amazon S3、Google Drive、OneDrive 等）及远程文件服务器（FTP、SSH/SFTP、WebDAV 等）。项目内置调度器确保备份自动更新，支持图形界面和命令行工具，允许用户灵活配置备份路径、文件类型及传输设置，并支持备份打开或锁定的文件。

@@ -3,23 +3,6 @@
 title: nuclei
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=social) ](https://github.com/projectdiscovery/nuclei)
-### [projectdiscovery nuclei](https://github.com/projectdiscovery/nuclei)
+### [projectdiscovery nuclei](https://github.com/projectdiscovery/nuclei)  ![GitHub Repo stars](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=social)
 
-**项目核心内容总结：**  
-`nuclei` 是一款用于漏洞扫描和安全测试的工具，支持通过模板驱动的方式检测 Web 应用、API、云服务等目标中的安全问题（如路径泄露、敏感信息暴露、漏洞利用等）。  
-
-**功能与使用方法：**  
-- 提供预定义的模板库，用户可自定义模板以匹配特定目标或漏洞类型；  
-- 支持多种协议（HTTP、HTTPS、FTP 等）和扫描模式（如快速扫描、深度扫描）；  
-- 可通过命令行参数指定目标、模板路径、扫描深度等；  
-- 支持将结果输出为 JSON、XML、CSV 等格式。  
-
-**主要特性：**  
-- 模板驱动，灵活扩展；  
-- 高性能，支持并发扫描；  
-- 开源且社区维护，模板库持续更新；  
-- 跨平台兼容（Windows、Linux、macOS）。  
-
-**许可证：**  
-遵循 MIT 协议，允许自由使用和修改。
+Nuclei 是一款基于 YAML 模板的现代高性能漏洞扫描器。它支持 HTTP、DNS、TCP、SSL、WHOIS 等多种协议，通过模拟真实场景验证漏洞以减少误报。具备超快并行扫描处理和请求聚类功能，支持自定义及社区贡献的模板库，可集成至 CI/CD 流程。提供 CLI 工具、云服务及企业版，支持 DAST 模糊测试、无响应扫描（OOB），并支持与 Jira、Splunk 等外部系统集成。

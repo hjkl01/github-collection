@@ -3,24 +3,6 @@
 title: glazewm
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/glzr-io/glazewm?style=social) ](https://github.com/glzr-io/glazewm)
-### [glzr-io glazewm](https://github.com/glzr-io/glazewm)
+### [glzr-io glazewm](https://github.com/glzr-io/glazewm)  ![GitHub Repo stars](https://img.shields.io/github/stars/glzr-io/glazewm?style=social)
 
-**项目核心内容总结：**  
-GlazeWM 是一款面向 Windows 的平铺窗口管理器，灵感源自 i3wm，支持自定义布局、多显示器管理及窗口规则设置。  
-
-**功能与特性：**  
-1. **窗口管理**：支持平铺、浮动、全屏等窗口状态，可通过快捷键调整布局（如 `Alt+V` 切换方向）。  
-2. **工作区配置**：可预设多个工作区，支持绑定到特定显示器，空工作区可设置为常驻。  
-3. **规则与自动化**：通过 `window_rules` 定义窗口行为（如指定窗口自动跳转到某工作区、设置为浮动模式）。  
-4. **视觉效果**：支持为聚焦窗口添加彩色边框（仅限 Windows 11）。  
-5. **绑定模式**：可临时启用自定义快捷键模式（如调整窗口大小）。  
-
-**使用方法：**  
-- **安装**：通过 GitHub 下载发布包，创建桌面快捷方式并添加到启动文件夹以实现开机自启。  
-- **配置**：修改 YAML 格式的配置文件，调整工作区、窗口规则、边距等参数。  
-- **快捷键**：默认使用 `Alt` 键组合操作（如 `Alt+Shift+P` 临时禁用其他快捷键）。  
-
-**注意事项：**  
-- 自动布局需依赖社区脚本（如 GAT-GWM），当前无原生支持。  
-- 窗口规则匹配支持进程名、标题、类名等多条件组合。
+GlazeWM 是一款为 Windows 设计的平铺窗口管理器，灵感源自 i3wm。它允许用户通过键盘命令动态组织窗口和调整布局。主要功能包括：YAML 格式配置、多显示器支持、特定窗口自定义规则、工作区管理、窗口间距调整、窗口视觉效果（如边框）以及绑定模式。支持 Zebar 状态栏集成，并提供一键安装及多种包管理器支持。

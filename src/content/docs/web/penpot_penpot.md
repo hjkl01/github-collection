@@ -3,16 +3,6 @@
 title: penpot
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/penpot/penpot?style=social) ](https://github.com/penpot/penpot)
-### [penpot penpot](https://github.com/penpot/penpot)
+### [penpot penpot](https://github.com/penpot/penpot)  ![GitHub Repo stars](https://img.shields.io/github/stars/penpot/penpot?style=social)
 
-**核心内容总结：**  
-Penpot 是一款开源设计协作工具，支持设计师与开发者实时协作，提供设计、原型、代码生成及设计系统管理功能。其核心特性包括：  
-- **设计与代码一体化**：设计师创建设计后，开发者可直接获取 SVG、CSS、HTML 等代码，减少交接成本。  
-- **自托管与云服务**：支持通过 Docker、Kubernetes 等部署，或使用 SAAS 服务。  
-- **高级功能**：集成 CSS Grid 布局、设计令牌（Design Tokens）、组件系统，提升协作效率。  
-- **开放生态**：提供插件系统、API 接口及 Webhook 集成，支持扩展与第三方工具联动。  
-- **社区与资源**：拥有活跃社区，提供文档、教程、翻译支持及多语言资源，鼓励用户参与贡献。  
-
-**使用方法**：  
-可通过 Penpot 的 SAAS 平台直接使用，或按需部署到自建服务器，安装指南涵盖 Docker、Kubernetes 等多种方案。
+Penpot 是一款免费的开源设计与代码协作工具，面向设计师和开发者。它基于开放标准（SVG、CSS、HTML、JSON），支持创建设计、交互原型及设计系统，并提供可直接使用的代码。核心功能包括原生设计令牌、插件系统、代码检查模式及 API 与 Webhook 集成。支持浏览器访问或自托管部署（Docker/Kubernetes 等），采用 MPL-2.0 协议。

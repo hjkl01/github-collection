@@ -3,27 +3,12 @@
 title: cosign
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sigstore/cosign?style=social) ](https://github.com/sigstore/cosign)
-### [sigstore cosign](https://github.com/sigstore/cosign)
+### [sigstore cosign](https://github.com/sigstore/cosign)  ![GitHub Repo stars](https://img.shields.io/github/stars/sigstore/cosign?style=social)
 
-**项目核心内容总结：**
+Cosign 是 Sigstore 项目下的工具，用于对 OCI 容器及其他工件进行签名、验证和存储。
 
-cosign 是一个用于容器镜像签名与验证的工具，支持使用 ECDSA 或 Ed25519 密钥对镜像进行签名，确保镜像来源可信及内容完整。主要功能包括：
-
-1. **镜像签名与验证**  
-   - 使用 `cosign sign` 对镜像签名，`cosign verify` 验证签名有效性，支持多级签名（如反向签名）。
-   - 签名信息以注解形式嵌入镜像层，可通过 `crane manifest` 查看。
-
-2. **高级特性**  
-   - **基础镜像签名**：通过注解记录镜像构建所依赖的基础层签名，支持多级递归验证。  
-   - **标签管理**：支持为签名镜像重命名标签（如 `crane tag`），便于管理。  
-   - **与 Notary 集成**：兼容 Notary 签名格式，支持通过 `cosign triangulate` 获取签名镜像地址。
-
-3. **使用场景**  
-   - 确保镜像在推送至仓库前已签名，防止篡改。  
-   - 验证镜像签名以确认其来源（如官方仓库或可信开发者）。  
-   - 通过反向签名（counter-signing）对签名本身进行二次验证，增强安全性。
-
-4. **发布与安全**  
-   - GitHub 发布包包含用于验证二进制文件完整性的 Sigstore 签名文件。  
-   - 安全问题可通过 Sigstore 安全流程提交。
+核心功能：
+1. **签名方式灵活**：默认支持基于 Fulcio 和 Rekor 的“无密钥签名”，也支持硬件/KMS 及自定义密钥对签名。
+2. **支持多种工件**：涵盖容器镜像、Blob、WASM、eBPF、Tekton Bundles 及 in-toto 证明等。
+3. **存储与验证**：签名存储于 OCI 注册表，支持在线及离线环境下的验证。
+4. **广泛兼容**：支持主流容器注册表。

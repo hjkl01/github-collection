@@ -3,14 +3,13 @@
 title: pydoll
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/autoscrape-labs/pydoll?style=social) ](https://github.com/autoscrape-labs/pydoll)
-### [autoscrape-labs pydoll](https://github.com/autoscrape-labs/pydoll)
+### [autoscrape-labs pydoll](https://github.com/autoscrape-labs/pydoll)  ![GitHub Repo stars](https://img.shields.io/github/stars/autoscrape-labs/pydoll?style=social)
 
-**核心内容总结：**  
-Pydoll 是一个专注于规避反爬虫检测的网页自动化框架，采用异步架构和类型化设计，支持高性能数据抓取与多任务并发。其核心功能包括：  
-1. **混合自动化**：结合浏览器操作与 API 调用，支持多标签页、浏览器上下文隔离及远程连接，提升并发效率。  
-2. **网络控制**：提供代理设置、SOCKS5 协议支持及 DNS 泄漏规避，强化网络层匿名性。  
-3. **浏览器指纹规避**：通过精细调整 Chrome 内部设置（如通知权限、语言、字体等），降低被识别风险。  
-4. **可靠性增强**：内置 `@retry` 装饰器支持自定义重试逻辑，配合类型检查确保代码稳定性。  
-5. **使用方法**：通过 `pip` 安装后，使用异步代码启动浏览器，执行页面导航、元素定位及交互操作，支持多任务并行处理。  
-6. **知识体系**：文档详细解析反爬技术原理（如网络指纹、行为分析）及规避策略，帮助用户深入理解自动化与反爬对抗逻辑。
+Pydoll 是一个基于 Python 的异步原生浏览器自动化工具，专为 Chromium 内核浏览器（如 Chrome、Edge）设计。它通过 WebSocket 直接连接 Chrome DevTools Protocol (CDP)，无需 WebDriver 或外部依赖。
+
+主要功能包括：
+1. **高隐蔽性**：模拟人类鼠标操作，精细控制浏览器指纹，规避反爬虫检测。
+2. **混合自动化**：结合 UI 操作与 API 请求，可复用浏览器会话（Cookie、Header）进行网络调用。
+3. **网络控制**：支持请求拦截、流量监控、广告屏蔽、HAR 录制与重放。
+4. **DOM 交互**：全面支持 Shadow DOM（包括封闭模式）和跨域 iframe 的元素查询与交互。
+5. **技术特性**：基于 asyncio 构建，全代码库类型检查，支持并发、多标签页/上下文管理及远程浏览器连接。

@@ -3,22 +3,6 @@
 title: ast-grep
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ast-grep/ast-grep?style=social) ](https://github.com/ast-grep/ast-grep)
-### [ast-grep ast-grep](https://github.com/ast-grep/ast-grep)
+### [ast-grep ast-grep](https://github.com/ast-grep/ast-grep)  ![GitHub Repo stars](https://img.shields.io/github/stars/ast-grep/ast-grep?style=social)
 
-**项目核心内容总结：**  
-ast-grep 是一个基于抽象语法树（AST）的代码结构搜索、检查和重写工具，功能类似 grep，但匹配的是代码语法结构而非文本。用户可通过类似代码的模式语法（如 `$MATCH` 通配符）定义匹配规则，支持大规模代码重构、静态分析和规则配置。  
-
-**使用方法：**  
-通过命令行指定模式、重写规则和语言，例如：  
-`ast-grep --pattern 'var code = $PATTERN' --rewrite 'let code = new $PATTERN' --lang ts`  
-支持多种安装方式，包括 npm、pip、brew、cargo 等，也可通过源码构建。  
-
-**主要特性：**  
-1. **语法结构匹配**：模式语法与代码结构一致，直观易用；  
-2. **多语言支持**：基于 tree-sitter 解析，兼容多种编程语言；  
-3. **高效处理**：利用多核并行，支持大规模代码操作；  
-4. **灵活配置**：通过 YAML 定义 lint 规则或重写策略；  
-5. **跨平台**：提供多种安装方式，覆盖主流操作系统和包管理器。  
-
-项目目标是降低 AST 操作门槛，帮助开发者快速完成代码重构、安全检查和规范强制等任务。
+ast-grep (sg) 是一款基于抽象语法树（AST）的命令行工具，主要用于代码结构搜索、代码检查和重写。通过匹配 AST 节点而非文本进行模式匹配，支持类似普通代码的语法规则及通配符。基于 tree-sitter 解析器，支持多核处理，适用于轻量级静态分析、大规模代码重构及自定义 Lint 规则编写，支持多种编程语言。

@@ -5,25 +5,9 @@ title: slack-mcp-server
 
 ### [korotovsky slack-mcp-server](https://github.com/korotovsky/slack-mcp-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/korotovsky/slack-mcp-server?style=social)
 
-**项目核心内容总结：**  
-Slack MCP Server 是一个用于与 Slack 平台交互的工具，支持通过多种身份验证方式（如 `xoxc`、`xoxd`、`xoxp`、`xoxb` 令牌）连接，并提供多种传输协议（如 stdio、SSE、HTTP）。主要功能包括：  
-1. **频道与用户管理**：获取频道列表（支持公共、私有、DM 等类型）、用户目录（含用户 ID、姓名等信息）。  
-2. **消息操作**：支持发送消息、搜索消息（按用户、频道、关键词等）、标记消息为已读等。  
-3. **缓存机制**：通过用户和频道缓存减少重复 API 请求，提升性能。  
-4. **灵活配置**：支持代理设置、自定义 User-Agent、TLS 握手、日志级别（info/debug 等）等。  
+本项目是一个 Slack 工作区的 Model Context Protocol (MCP) 服务器，支持 Stdio、SSE 和 HTTP 传输。核心功能包括：
 
-**使用方法**：  
-- 安装并配置环境变量（如 `SLACK_MCP_XOXC_TOKEN`、`SLACK_MCP_PORT` 等）。  
-- 运行服务器，通过指定传输方式（如 `stdio`）启动。  
-- 使用工具（如 `inspector`）调试或查看日志。  
-
-**主要特性**：  
-- 支持多种 Slack 令牌认证方式。  
-- 提供频道和用户信息的 CSV 格式导出。  
-- 可自定义代理、缓存路径、日志输出等。  
-- 安全措施：强调保护 API 令牌和配置文件。  
-
-**注意事项**：  
-- 不得共享 API 令牌，确保 `.env` 文件安全。  
-- 默认禁用消息发送功能，需通过 `SLACK_MCP_ADD_MESSAGE_TOOL` 开启。  
-- 许可证为 MIT，非官方 Slack 产品。
+1. **认证与模式**：支持 OAuth 或静默模式（浏览器 Token），无需额外权限即可使用，兼容企业级设置。
+2. **消息操作**：获取频道及私聊的历史消息与线程回复（支持分页）；搜索消息（支持多条件过滤）；支持安全配置下的消息发送、表情反应增删及标记已读。
+3. **信息与管理**：获取未读消息（支持优先级排序）；列出频道、用户；管理用户组（增删改查成员及成员组）。
+4. **优化与安全**：支持用户和频道缓存；敏感操作默认禁用，需环境变量启用；支持代理及 GovSlack 模式。

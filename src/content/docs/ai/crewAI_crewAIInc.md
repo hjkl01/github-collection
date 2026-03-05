@@ -5,16 +5,13 @@ title: crewAI
 
 ### [crewAIInc crewAI](https://github.com/crewAIInc/crewAI)  ![GitHub Repo stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social)
 
-CrewAI是一个用于协调自主AI代理的轻量级Python框架，无需依赖LangChain，支持本地模型（如Ollama）和复杂工作流。其核心功能包括：  
-1. **Crews**：自主代理协作，适用于需要动态交互的场景；  
-2. **Flows**：精确的事件驱动控制，用于管理执行路径和状态；  
-3. **企业版AMP**：提供统一控制平面、实时监控、安全集成等高级功能。  
+CrewAI 是一个轻量级、高性能的 Python 框架，专为编排自主 AI 智能体系统而设计。它完全独立于 LangChain 等外部依赖，强调速度、灵活性和控制力。
 
-**使用方法**：通过`uv pip install crewai`安装，可选装工具包（`'crewai[tools]'`）。  
+核心功能包括：
 
-**特性**：  
-- 开源，社区活跃，文档完善；  
-- 支持本地和云端模型，兼容多种编程语言接口；  
-- 提供匿名 telemetry 数据收集（可关闭），不涉及敏感信息；  
-- 适用于生产环境，支持大规模并发和复杂任务；  
-- 企业版支持云和本地部署，提供24/7技术支持。
+1. **智能体协作 (Crews)**：基于角色的团队实现自主任务协作，支持动态任务委托与内部决策。
+2. **生产级工作流 (Flows)**：提供事件驱动的精确控制、状态管理及复杂业务逻辑编排，支持构建企业级应用。
+3. **多模型集成**：支持连接 OpenAI、Ollama 等多种大语言模型及外部工具。
+4. **企业级支持**：通过 CrewAI AMP 套件提供可观测性、安全性、监控及混合云部署选项。
+
+该框架适用于从简单自动化到复杂企业级 AI 工作流的各类场景，采用 MIT 开源协议。

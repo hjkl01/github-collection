@@ -5,22 +5,4 @@ title: meshery
 
 ### [meshery meshery](https://github.com/meshery/meshery)  ![GitHub Repo stars](https://img.shields.io/github/stars/meshery/meshery?style=social)
 
-**项目核心内容总结：**
-
-**1. 项目功能**  
-Meshery 是一个用于部署、管理和监控服务网格（如 Istio、Linkerd、Consul 等）的开源工具，支持通过可视化界面和命令行工具（CLI）进行操作，提供故障排查、性能监控等功能，并与 Kubernetes 深度集成。
-
-**2. 使用方法**  
-- 通过安装命令（如 Linux、Mac、Windows 等平台）快速部署。  
-- 支持多种服务网格的集成与配置。  
-- 提供 Web 界面和 CLI 工具进行管理。
-
-**3. 主要特性**  
-- **多平台兼容**：支持 Linux、Mac、Windows、Raspberry Pi 等。  
-- **可视化管理**：提供直观的 UI 界面和 CLI 工具。  
-- **社区支持**：活跃的社区资源（Slack、论坛、贡献指南）、MeshMate 计划帮助新用户。  
-- **开源协议**：采用 Apache 2.0 许可证，提供软件物料清单（SBOM）。  
-
-**4. 其他信息**  
-- 提供详细的安装文档和贡献者指南。  
-- 支持通过 GitHub 参与开发（如“help-wanted”标签的开源问题）。
+Meshery 是由云原生计算基金会（CNCF）支持的开源云原生管理器及自服务工程平台，旨在设计和管理所有基于 Kubernetes 的跨云基础设施与应用。其核心功能包括：支持 300 多种集成的基础设施生命周期管理（配置、部署、运维）；提供可视化协作的 GitOps 设计，支持部署干跑验证，摆脱 YAML 束缚；实现单一界面管理多云 Kubernetes 集群及多租户环境，确保配置一致性；提供负载生成与性能表征工具，集成 Prometheus 和 Grafana 进行性能跟踪与优化；提供丰富的 API、插件等扩展点，支持构建内部开发者平台；支持通过 Docker、Kubernetes、Helm 等多种方式部署。

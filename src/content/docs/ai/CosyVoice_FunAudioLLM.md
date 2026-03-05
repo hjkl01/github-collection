@@ -3,20 +3,12 @@
 title: CosyVoice
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/FunAudioLLM/CosyVoice?style=social) ](https://github.com/FunAudioLLM/CosyVoice)
-### [FunAudioLLM CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
+### [FunAudioLLM CosyVoice](https://github.com/FunAudioLLM/CosyVoice)  ![GitHub Repo stars](https://img.shields.io/github/stars/FunAudioLLM/CosyVoice?style=social)
 
-**项目核心内容总结：**  
-CosyVoice 是一个支持多语言（中、英、日、粤语、韩语）的零样本文本到语音合成系统，具备跨语言合成、语音转换、流式语音生成等功能。CosyVoice 2 引入大语言模型实现流式合成，CosyVoice 3 通过扩展训练和后训练优化语音自然度。  
+CosyVoice 是一款基于大语言模型（LLM）的文本转语音（TTS）系统，核心功能包括：
 
-**使用方法：**  
-1. **快速体验**：通过 Web 演示界面（`webui.py`）直接测试语音合成。  
-2. **部署服务**：支持 Docker 部署，提供 gRPC 和 FastAPI 接口，适配不同推理模式（零样本、跨语言、指令控制等）。  
-3. **加速部署**：使用 Nvidia TensorRT-LLM 加速推理，相比传统方案提升 4 倍效率。  
-
-**主要特性：**  
-- 支持零样本合成（无需预训练语音数据）；  
-- 跨语言合成（支持中、英、日等语言切换）；  
-- 语音转换（通过参考语音调整目标语音风格）；  
-- 流式处理（实时生成语音）；  
-- 可扩展部署（兼容 Docker、TensorRT-LLM）。
+1. **多语言合成**：支持 9 种常见语言及 18 种以上中文方言/口音，具备跨语言零样本语音克隆能力。
+2. **高质量语音**：在内容一致性、说话人相似度和韵律自然度方面达到业界领先水平。
+3. **精细控制**：支持发音填补和文本标准化（无需传统前端），可通过指令调节语种、情感、语速和音量。
+4. **流式与部署**：支持双向流式推理（延迟低至 150ms），兼容 vLLM、TensorRT-LLM 加速及 Docker 部署。
+5. **多版本模型**：提供 Fun-CosyVoice 3.0、2.0 及 1.0 等多个开源版本，配套训练与推理脚本。

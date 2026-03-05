@@ -3,20 +3,12 @@
 title: litmus
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/litmuschaos/litmus?style=social) ](https://github.com/litmuschaos/litmus)
-### [litmuschaos litmus](https://github.com/litmuschaos/litmus)
+### [litmuschaos litmus](https://github.com/litmuschaos/litmus)  ![GitHub Repo stars](https://img.shields.io/github/stars/litmuschaos/litmus?style=social)
 
-**LitmusChaos 核心内容总结：**
+LitmusChaos 是一款基于 Kubernetes 的开源混沌工程平台（CNCF 项目），旨在通过受控方式注入故障测试，帮助团队识别基础设施中的弱点及潜在故障，从而提升系统韧性。
 
-**项目功能**  
-LitmusChaos 是一款面向 Kubernetes 的混沌工程工具，用于模拟故障（如网络延迟、节点宕机、磁盘故障等），以验证系统弹性和生产就绪性。支持通过自定义资源定义（CRD）管理混沌实验，提供控制平面、指标收集与可视化功能，可集成 Argo Workflows 实现复杂工作流编排。
-
-**使用方法**  
-用户通过 YAML 文件定义混沌实验场景，使用 `kubectl` 命令行工具进行实验创建、监控与终止。官方文档（[Litmus Docs](https://docs.litmuschaos.io)）提供详细操作指南。
-
-**主要特性**  
-1. **基于 Kubernetes CRD**：所有实验配置通过 Kubernetes 原生资源管理，无需额外依赖。  
-2. **多故障类型支持**：涵盖网络、存储、计算等常见故障注入，支持自定义插件扩展。  
-3. **可视化与监控**：集成 Prometheus 等工具，提供实验状态追踪与指标分析。  
-4. **安全与可控**：通过命名空间隔离、实验范围限制等机制保障测试安全。  
-5. **CNCF 生态兼容**：作为 CNCF 孵化项目，与 Kubernetes、Argo 等工具深度集成。
+核心功能包括：
+1. **云原生架构**：由混沌控制平面（集中管理、调度、可视化）和混沌执行平面（代理及算子负责实验执行与监控）组成。
+2. **Kubernetes 集成**：利用自定义资源（CRs）定义混沌流程，包括 ChaosExperiment（故障配置模板）、ChaosEngine（关联工作负载与稳态验证）、ChaosResult（实验结果与 Prometheus 指标）。
+3. **多场景支持**：适用于开发人员集成测试、CI/CD 管道阶段验证以及 SRE 故障演练规划。
+4. **扩展性**：提供中央实验枢纽共享资源，支持 BYOC（Bring Your Own Chaos）以集成第三方工具。

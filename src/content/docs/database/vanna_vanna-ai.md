@@ -3,25 +3,17 @@
 title: vanna
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vanna-ai/vanna?style=social) ](https://github.com/vanna-ai/vanna)
-### [vanna-ai vanna](https://github.com/vanna-ai/vanna)
+### [vanna-ai vanna](https://github.com/vanna-ai/vanna)  ![GitHub Repo stars](https://img.shields.io/github/stars/vanna-ai/vanna?style=social)
 
-**项目核心内容总结：**
+Vanna 2.0 是一款将自然语言转换为 SQL 并生成数据洞察的企业级工具。
 
-**功能**  
-Vanna 2.0 是一个将自然语言转换为 SQL 查询并生成数据洞察的工具，支持实时流式返回表格、图表、SQL 代码和自然语言总结，具备企业级安全功能（如行级权限控制、审计日志）。
+**核心功能：**
 
-**使用方法**  
-1. **快速入门**：通过预置的 `<vanna-chat>` 网页组件嵌入现有页面，无需开发聊天界面。  
-2. **配置**：集成自定义数据库（如 PostgreSQL、MySQL 等）和认证系统（如 JWT、OAuth）。  
-3. **部署**：支持 FastAPI/Flask 框架，提供生产级接口（如 `/api/vanna/v2/chat_sse`）。
+1.  **自然语言转数据**：支持通过自然语言提问自动生成 SQL 并获取数据答案。
+2.  **企业级安全**：全层级用户身份感知，支持行级权限控制、审计日志、限流及现有认证系统（JWT/Cookies）集成。
+3.  **流式交互界面**：内置 `<vanna-chat>` 组件，支持实时流式展示进度、表格、图表及自然语言总结。
+4.  **广泛兼容性**：适配多种大模型（OpenAI, Anthropic 等）、数据库（PostgreSQL, Snowflake 等）及 FastAPI 等框架。
+5.  **高度可扩展**：支持自定义工具、生命周期钩子、LLM 中间件及可观测性（追踪/指标）集成。
 
-**主要特性**  
-- **用户感知**：所有操作（SQL 过滤、权限控制）基于用户身份自动执行。  
-- **流式响应**：实时返回表格、图表和进度更新。  
-- **企业安全**：行级权限、审计日志、速率限制。  
-- **灵活兼容**：支持主流 LLM（如 Anthropic、Google Gemini）、数据库和前端框架（React/Vue）。  
-- **可扩展**：自定义工具（如发送邮件）、生命周期钩子、LLM 插件（如缓存）。  
-
-**适用场景**  
-多租户 SaaS、企业数据分析、需权限控制的 BI 应用、需嵌入网页的实时数据交互场景。
+**适用场景：**
+适用于需要自然语言数据分析、多租户权限管理及生产级安全部署的应用（如 SaaS、企业数据平台）。

@@ -3,20 +3,13 @@
 title: typescript-go
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/typescript-go?style=social) ](https://github.com/microsoft/typescript-go)
-### [microsoft typescript-go](https://github.com/microsoft/typescript-go)
+### [microsoft typescript-go](https://github.com/microsoft/typescript-go)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/typescript-go?style=social)
 
-**核心内容总结：**
+该项目是 TypeScript 的 Go 语言原生移植版本（显示为 TypeScript 7），目前处于预览阶段，支持通过 npm 安装、命令行工具 `tsgo` 以及 VS Code 扩展使用。
 
-**项目功能**  
-该项目是TypeScript的本地端口预览版（TypeScript 7），旨在提供与TypeScript 5.9相近的功能，但部分特性仍在开发中。支持程序创建、解析、类型检查、JSX、构建模式等，但JavaScript推断、声明输出等部分功能尚未完善。
+主要功能状态如下：
+1. **已完成**：程序创建、语法解析、配置解析、类型解析与检查、JSX 支持、构建模式及增量构建。
+2. **开发中**：JavaScript 推断与 JSDoc、声明文件生成、JavaScript 代码输出、语言服务（LSP）。
+3. **原型/未就绪**：监视模式（原型）、API。
 
-**使用方法**  
-- 通过npm安装预览包：`npm install @typescript/native-preview`，使用命令 `npx tsgo` 替代 `tsc`。  
-- VS Code用户需安装扩展并设置 `"typescript.experimental.useTsgo": true`。
-
-**主要特性**  
-- **已完成**：程序创建、语法解析、类型检查、构建模式、增量构建等。  
-- **开发中**：JavaScript推断、JSDoc支持、声明输出、部分目标版本的JS输出。  
-- **未就绪**：语言服务（LSP）部分功能、API接口。  
-- 长期计划：项目将合并至微软官方TypeScript仓库，当前仓库和问题跟踪器最终会被关闭。
+项目长期计划将此仓库合并至官方 TypeScript 仓库。

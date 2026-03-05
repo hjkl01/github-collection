@@ -3,14 +3,6 @@
 title: dolt
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dolthub/dolt?style=social) ](https://github.com/dolthub/dolt)
-### [dolthub dolt](https://github.com/dolthub/dolt)
+### [dolthub dolt](https://github.com/dolthub/dolt)  ![GitHub Repo stars](https://img.shields.io/github/stars/dolthub/dolt?style=social)
 
-Dolt是一个结合Git版本控制功能的数据库系统，支持数据版本管理、分支合并和细粒度数据审计。其核心功能包括：  
-1. **版本控制**：通过分支、提交、合并等操作管理数据变更，支持类似Git的工作流程。  
-2. **数据审计**：提供`dolt_history_<表名>`和`dolt_diff_<表名>`系统表，可追踪每个单元格的变更记录（如字段修改时间、提交者、变更前后值等）。  
-3. **SQL支持**：允许通过标准SQL进行数据查询和操作，同时兼容Git命令（如`dolt commit`、`dolt merge`）。  
-4. **多分支协作**：支持并行开发、分支合并及冲突解决，合并后可生成新的提交记录。  
-5. **开源与许可**：采用Apache 2.0许可证，代码基于Noms项目开源开发。  
-
-使用方法包括初始化仓库、创建分支、提交数据变更、合并分支及通过SQL查询历史数据。主要特性为数据与版本控制的深度集成，实现从数据库结构到数据内容的全链路可追溯性。
+Dolt 是一款支持版本控制的 SQL 数据库，被称为“数据的 Git"。它兼容 MySQL 协议，用户既可通过标准 MySQL 客户端连接，也可使用类 Git 的命令行工具或 SQL 语句进行版本管理。Dolt 支持像 Git 一样对数据库进行分支、合并、推送、拉取、克隆和回滚操作。它通过系统表和存储过程暴露版本控制功能，提供表结构和数据的变更追踪、差异对比、历史回溯及单元格级审计能力。此外，Dolt 支持将现有 MySQL 数据库进行版本化复制，并提供云端托管服务 DoltHub 及 PostgreSQL 兼容版本 Doltgres。

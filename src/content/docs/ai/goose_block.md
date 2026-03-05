@@ -3,17 +3,6 @@
 title: goose
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/block/goose?style=social) ](https://github.com/block/goose)
-### [block goose](https://github.com/block/goose)
+### [block goose](https://github.com/block/goose)  ![GitHub Repo stars](https://img.shields.io/github/stars/block/goose?style=social)
 
-**项目核心内容总结**  
-goose 是一个本地化、可扩展、开源的 AI 代理，用于自动化工程任务。其功能包括：从零构建项目、编写并执行代码、调试错误、编排工作流程、与外部 API 交互等，可自主完成复杂开发任务。  
-
-**主要特性**  
-- 支持任意 LLM，提供多模型配置以优化性能和成本；  
-- 无缝集成 MCP 服务器；  
-- 提供桌面应用和 CLI 两种使用方式；  
-- 灵活适配开发者工作流，提升工程效率。  
-
-**使用方法**  
-通过官方文档获取快速入门、安装指南、教程及详细文档（含 API 调用规范等）。支持社区支持渠道（如 Discord、YouTube 等）及问题诊断工具。
+goose 是一款本地、可扩展的开源 AI 代理，用于自动化工程任务。它能自主完成项目构建、代码编写与执行、故障调试、工作流编排及外部 API 交互。项目支持任意大语言模型与多模型配置，集成 MCP 服务器，并提供桌面应用和命令行（CLI）两种形式。

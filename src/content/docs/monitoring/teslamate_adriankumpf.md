@@ -3,18 +3,12 @@
 title: teslamate
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/adriankumpf/teslamate?style=social) ](https://github.com/adriankumpf/teslamate)
-### [adriankumpf teslamate](https://github.com/adriankumpf/teslamate)
+### [adriankumpf teslamate](https://github.com/adriankumpf/teslamate)  ![GitHub Repo stars](https://img.shields.io/github/stars/adriankumpf/teslamate?style=social)
 
-**核心内容总结：**  
-TeslaMate 是一个用于特斯拉车辆的自托管数据记录工具，采用 Elixir 编写，使用 PostgreSQL 存储数据，并通过 Grafana 实现可视化与分析，同时支持通过 MQTT Broker 发布车辆数据。  
+TeslaMate 是一款专为特斯拉设计的自托管数据记录仪，核心功能包括：
 
-**主要功能与特性：**  
-- **数据记录**：高精度记录驾驶数据，车辆在非使用时自动进入休眠状态，避免额外耗电。  
-- **集成支持**：兼容 Home Assistant、Node-Red 和 Telegram（通过 MQTT），支持多车辆管理。  
-- **地理围栏**：可自定义位置区域，跟踪车辆位置及行驶地图。  
-- **充电管理**：记录充电成本，支持从 TeslaFi 和 tesla-apiscraper 导入数据。  
-- **可视化**：提供丰富的 Grafana 仪表盘，涵盖电池健康、充电统计、驾驶效率、里程分析等。  
-
-**使用方法：**  
-通过 Docker 镜像部署，配置 PostgreSQL 数据库及 MQTT 服务，按文档指引完成安装与集成。
+- **数据存储与分析**：基于 PostgreSQL 存储数据，通过 Grafana 进行可视化与分析，并将车辆数据发布至本地 MQTT Broker。
+- **驾驶与能耗记录**：实现高精度驾驶数据记录，优化车辆休眠机制以减少静态功耗，支持充电成本追踪。
+- **位置与管理**：具备自动地址定位、地理围栏功能，支持单账户下多车辆管理。
+- **系统集成**：易于与 Home Assistant、Node-Red 及 Telegram 等第三方平台集成。
+- **数据可视化**：内置电池健康、充电状态、行程详情、能耗效率、里程统计及地理位置等丰富仪表盘。

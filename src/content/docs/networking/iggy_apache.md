@@ -3,23 +3,13 @@
 title: iggy
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/iggy?style=social) ](https://github.com/apache/iggy)
-### [apache iggy](https://github.com/apache/iggy)
+### [apache iggy](https://github.com/apache/iggy)  ![GitHub Repo stars](https://img.shields.io/github/stars/apache/iggy?style=social)
 
-**Apache Iggy 核心内容总结：**  
-Apache Iggy 是一个高性能的分布式消息传递系统，支持多种传输协议（TCP、QUIC、WebSocket、HTTP），具备高吞吐量和低延迟特性，适用于大规模消息处理场景。  
+Apache Iggy 是一款基于 Rust 开发的高性能持久化消息流平台，采用线程对核心无共享架构与 io_uring 技术，原生支持 QUIC、WebSocket、TCP 和 HTTP 协议，具备每秒百万级消息的超低延迟吞吐能力。
 
-**主要功能与特性：**  
-1. **高性能**：支持每秒处理数百万条消息，写入/读取吞吐量可达 5000MB/s（如 5M 条 1KB 消息/秒），p99+ 延迟在微秒级。  
-2. **多协议支持**：兼容 TCP、QUIC、WebSocket 和 HTTP 等传输协议。  
-3. **多租户与集群**：支持多租户管理、集群部署及扩展性。  
-4. **开发工具**：提供 Rust SDK（含低级/高级客户端）、命令行工具（如 `iggy` 管理流/主题/消息，`iggy-bench` 基准测试）。  
-5. **监控与日志**：集成 OpenTelemetry，支持监控、日志记录及透明基准测试。  
-6. **基准测试平台**：提供在线平台（benchmarks.iggy.apache.org）用于上传和对比性能数据。  
-
-**使用方法：**  
-- **构建与运行**：通过 Cargo 编译，使用 `iggy` 命令行管理消息队列，`iggy-bench` 运行基准测试。  
-- **SDK 示例**：Rust SDK 支持生产者/消费者操作，提供多租户场景示例。  
-- **配置优化**：默认配置优化性能，可自定义调整。  
-
-**适用场景**：需要高吞吐、低延迟的消息处理，如实时数据流、分布式系统通信等。
+核心功能包括：
+1. **存储与流处理**：支持流、主题、分区及消费者组，提供消息过期、自动偏移量提交、去重及多种拉取策略。
+2. **安全性**：支持 TLS 传输加密、AES-256-GCM 数据加密、用户认证授权及细粒度权限控制。
+3. **开发运维**：提供多语言 SDK（Rust/Java/Python 等）、CLI、Web UI 及 RESTful API，支持单二进制部署。
+4. **扩展性**：支持自定义 Rust 连接器插件、MCP 协议对接 LLM、OpenTelemetry 监控及 S3 数据备份。
+5. **架构**：当前为单节点部署，未来计划支持基于 VSR 的集群复制。

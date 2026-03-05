@@ -3,22 +3,12 @@
 title: pyinstrument
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/joerick/pyinstrument?style=social) ](https://github.com/joerick/pyinstrument)
-### [joerick pyinstrument](https://github.com/joerick/pyinstrument)
+### [joerick pyinstrument](https://github.com/joerick/pyinstrument)  ![GitHub Repo stars](https://img.shields.io/github/stars/joerick/pyinstrument?style=social)
 
-**项目核心内容总结：**  
-pyinstrument 是一个用于分析 Python 程序性能的工具，可生成火焰图等可视化结果，帮助定位性能瓶颈。  
+pyinstrument 是一款 Python 性能分析工具（Profiler），旨在帮助开发者定位程序中的性能瓶颈，从而优化代码速度。
 
-**功能与使用方法：**  
-1. **性能分析**：通过命令行（如 `pyinstrument script.py`）或代码集成（使用 `Profiler` 类）分析程序执行过程。  
-2. **输出格式**：支持文本、HTML、JSON 等多种输出格式，HTML 结果可交互查看，JSON 支持第三方工具（如火焰图查看器）。  
-3. **隐藏库代码**：默认过滤第三方库代码，聚焦用户代码，通过 `--hide`/`--hide-regex` 自定义过滤规则。  
-4. **时间线模式**：使用 `--timeline` 参数保留调用顺序，支持更精确的性能分析。  
-5. **多线程支持**：基于统计分析（非信号机制），兼容多线程环境，无主线程限制。  
-
-**主要特性：**  
-- 支持自定义渲染器（如文本、HTML、JSON），通过参数或代码设置。  
-- 提供时间线记录模式，适用于生成火焰图等复杂分析。  
-- 高亮显示用户代码，优化问题定位效率。  
-- 支持加载历史会话（`--load-prev`）和多线程环境下的稳定运行。  
-- 开源且可扩展，包含单元测试和代码规范检查工具。
+主要功能包括：
+1. **多方式调用**：支持命令行执行、Python 上下文管理器、装饰器及 Jupyter/IPython 集成。
+2. **多样化报告**：提供终端文本、交互式 HTML（含时间线视图）、JSON、pstats 及 Speedscope 格式输出。
+3. **框架与异步支持**：内置 Django、FastAPI 等框架中间件，原生支持 async/await 异步代码分析。
+4. **高级分析**：自动识别并隐藏第三方库代码，支持性能分析会话的保存与加载，兼容 Python 3.8+。

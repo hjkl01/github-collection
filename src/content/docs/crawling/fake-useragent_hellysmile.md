@@ -3,23 +3,13 @@
 title: fake-useragent
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hellysmile/fake-useragent?style=social) ](https://github.com/hellysmile/fake-useragent)
-### [hellysmile fake-useragent](https://github.com/hellysmile/fake-useragent)
+### [hellysmile fake-useragent](https://github.com/hellysmile/fake-useragent)  ![GitHub Repo stars](https://img.shields.io/github/stars/hellysmile/fake-useragent?style=social)
 
-**项目核心内容总结：**
+fake-useragent 是一个内置真实数据库的 Python User-Agent 伪造库。
 
-**功能**  
-生成随机User-Agent字符串，支持多种浏览器（如Chrome、Firefox、Edge等）和操作系统（Windows、Linux、Mac等），适用于爬虫或模拟不同设备访问。
-
-**使用方法**  
-1. 导入库并创建`UserAgent`实例。  
-2. 调用方法生成User-Agent，如`ua.random`（随机生成）或指定浏览器/操作系统（如`ua.chrome`）。  
-3. 可通过参数过滤（如`browsers=["Chrome"]`、`os=["Windows"]`、`platforms=["desktop"]`）。  
-4. 支持获取完整数据字典（如`ua.getRandom()`返回包含详细信息的Python字典）。
-
-**主要特性**  
-- **多平台支持**：覆盖主流浏览器、操作系统及设备类型（桌面、移动、平板）。  
-- **灵活过滤**：可自定义浏览器、操作系统、使用率等条件。  
-- **数据管理**：支持本地缓存、自定义数据源路径及异常处理（如`fallback`备用浏览器）。  
-- **扩展性**：提供`getBrowser()`方法获取特定浏览器数据，支持未来功能扩展。  
-- **兼容性**：适配Python 3.7+，支持多种依赖库（如`importlib-resources`）。
+- 数据本地化：用户代理数据预下载并打包在包内，无需联网即可生成。
+- 多端支持：涵盖桌面、平板和移动设备的用户代理字符串。
+- 广泛覆盖：支持多种主流浏览器（如 Chrome、Firefox、Edge、Safari）及操作系统。
+- 灵活返回：可获取随机或指定的 User-Agent 字符串，或包含详细信息的 Python 字典对象。
+- 定制筛选：支持按浏览器、操作系统、设备类型及最低版本进行过滤。
+- 版本要求：Python 3.9 及以上。

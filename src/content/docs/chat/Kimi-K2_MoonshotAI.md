@@ -3,17 +3,6 @@
 title: Kimi-K2
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MoonshotAI/Kimi-K2?style=social) ](https://github.com/MoonshotAI/Kimi-K2)
-### [MoonshotAI Kimi-K2](https://github.com/MoonshotAI/Kimi-K2)
+### [MoonshotAI Kimi-K2](https://github.com/MoonshotAI/Kimi-K2)  ![GitHub Repo stars](https://img.shields.io/github/stars/MoonshotAI/Kimi-K2?style=social)
 
-**项目核心内容总结：**  
-Kimi K2 是一个开源大语言模型，支持多任务处理和工具调用，提供高性能推理能力。主要功能包括：  
-1. **模型特性**：支持工具调用、多轮对话、代码生成，适配多种推理引擎（如 vLLM、SGLang）。  
-2. **部署方式**：提供 HuggingFace 模型权重，支持本地部署及 API 调用（兼容 OpenAI/Anthropic 接口）。  
-3. **使用方法**：  
-   - 通过 API 进行聊天交互，需设置系统提示词及温度参数（推荐 0.6）。  
-   - 支持工具调用流程，用户提问时模型可自动触发预定义工具（如查询天气）。  
-4. **技术细节**：模型采用 block-fp8 格式存储，推荐使用指定推理引擎优化性能。  
-5. **授权与引用**：代码及模型权重遵循 Modified MIT License，提供 arXiv 论文引用信息。  
-
-**注意事项**：需通过指定平台（如 Moonshot AI）获取 API 服务，工具调用需配合自定义函数实现。
+Kimi K2 是月之暗面（Moonshot AI）推出的一款先进混合专家（MoE）大语言模型。该模型总参数达 1 万亿，激活参数 320 亿，支持 128K 上下文长度。项目提供 Kimi-K2-Base（基础模型，适合微调与定制）和 Kimi-K2-Instruct（指令模型，适合通用聊天与智能体任务）两种变体。Kimi K2 专为智能体能力优化，具备强大的工具使用、推理及自主解决问题能力，在代码、数学、STEM 及通用任务评估中达到 SOTA 水平。模型权重已开源至 Hugging Face，支持 vLLM、SGLang 等主流推理引擎部署，并提供兼容 OpenAI/Anthropic 格式的 API 接口。代码与模型权重采用 Modified MIT 许可证。

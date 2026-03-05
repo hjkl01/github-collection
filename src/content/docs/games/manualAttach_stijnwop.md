@@ -3,27 +3,12 @@
 title: manualAttach
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stijnwop/manualAttach?style=social) ](https://github.com/stijnwop/manualAttach)
-### [stijnwop manualAttach](https://github.com/stijnwop/manualAttach)
+### [stijnwop manualAttach](https://github.com/stijnwop/manualAttach)  ![GitHub Repo stars](https://img.shields.io/github/stars/stijnwop/manualAttach?style=social)
 
-**核心内容总结：**  
-ManualAttach 是《Farming Simulator 25》的模组，用于手动控制工具、动力输出（PTO）和连接软管的连接与分离。  
+本项目是《模拟农场 25》的模组，旨在通过强制手动操作提升农具连接的真实性。核心功能包括：
 
-**功能与使用方法：**  
-1. **工具连接/分离**：  
-   - 附加工具时，工具会强制保持在降下状态（部分工具如铲车、联合收割机等可直接操作）。  
-   - 分离工具前需先降下工具，并手动断开PTO和连接软管。  
-   - 禁用车内快速切换工具功能，需下车操作。  
+1.  **农具连接与分离**：除特定设备（如前端装载机）外，强制玩家下车手动连接或分离农具，操作前需确保农具降下且 PTO 及软管已断开。
+2.  **部件连接**：按 `Z` 键连接/断开动力输出轴（PTO），长按 `Z` 键连接/断开液压软管；未连接软管会导致液压控制、灯光及刹车失效。
+3.  **开发支持**：提供 XML 配置接口，允许开发者自定义农具的连接模式（如手动、标准、自动）。
 
-2. **PTO 控制**：按 `Z` 键切换 PTO 连接状态。  
-
-3. **连接软管控制**：长按 `Z` 键切换连接软管状态。  
-
-**主要特性：**  
-- 通过 XML 配置（`isManual`/`isAuto` 属性）自定义工具连接行为（手动/自动）。  
-- 禁用自动连接功能，需玩家手动操作。  
-- 未连接软管时，液压系统、灯光等功能受限。  
-
-**注意事项：**  
-- 开发版本可能存在兼容性问题，可能损坏游戏或存档。  
-- 部分功能（如完整工具支持）尚未完善。
+注意：当前为开发版本，存在破坏游戏或存档的风险。

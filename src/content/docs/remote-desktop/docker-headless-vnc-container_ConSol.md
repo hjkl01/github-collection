@@ -3,28 +3,6 @@
 title: docker-headless-vnc-container
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ConSol/docker-headless-vnc-container?style=social) ](https://github.com/ConSol/docker-headless-vnc-container)
-### [ConSol docker-headless-vnc-container](https://github.com/ConSol/docker-headless-vnc-container)
+### [ConSol docker-headless-vnc-container](https://github.com/ConSol/docker-headless-vnc-container)  ![GitHub Repo stars](https://img.shields.io/github/stars/ConSol/docker-headless-vnc-container?style=social)
 
-**项目核心内容总结：**
-
-该项目提供基于Docker的无头VNC容器镜像，包含Xfce4或IceWM桌面环境、VNC服务器（默认端口5901）、noVNC HTML5客户端（默认端口6901）及Firefox/Chromium浏览器，支持Rocky 9和Debian 11系统。  
-
-**主要功能与特性：**  
-1. **使用方法**  
-   - 通过`docker run`命令启动容器，映射端口后可通过VNC客户端（如`localhost:5901`）或noVNC网页（`http://localhost:6901`）访问桌面环境。  
-   - 支持自定义用户权限（如`--user $(id -u):$(id -g)`）、调整VNC分辨率（`VNC_RESOLUTION`）、修改密码（`VNC_PW`）或启用只读模式（`VNC_VIEW_ONLY=true`）。  
-
-2. **扩展性**  
-   - 可通过自定义Dockerfile安装额外软件（需切换至root用户）。  
-
-3. **已知问题**  
-   - 高分辨率下Chromium可能崩溃，需通过`--shm-size=256m`参数扩展共享内存。  
-
-4. **部署支持**  
-   - 提供Kubernetes和OpenShift部署文档。  
-
-**默认配置：**  
-- VNC密码：`vncpassword`  
-- 默认用户ID：1000（可修改）  
-- 环境变量可自定义分辨率、密码等。
+该项目提供一组包含无头 VNC 会话的 Docker 镜像。镜像预装了 Xfce4 或 IceWM 桌面环境、VNC 服务器、noVNC HTML5 网页客户端以及 Firefox 和 Chromium 浏览器。支持 Rocky 9 和 Debian 11 操作系统，兼容 Docker 本地部署及 Kubernetes/OpenShift 容器编排。用户可自定义系统用户权限、VNC 连接密码、屏幕分辨率，支持镜像扩展自定义软件，提供无密码连接、仅查看模式，并包含解决 Chromium 崩溃等已知问题的优化方案。

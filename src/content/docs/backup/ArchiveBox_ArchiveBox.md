@@ -3,19 +3,6 @@
 title: ArchiveBox
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ArchiveBox/ArchiveBox?style=social) ](https://github.com/ArchiveBox/ArchiveBox)
-### [ArchiveBox ArchiveBox](https://github.com/ArchiveBox/ArchiveBox)
+### [ArchiveBox ArchiveBox](https://github.com/ArchiveBox/ArchiveBox)  ![GitHub Repo stars](https://img.shields.io/github/stars/ArchiveBox/ArchiveBox?style=social)
 
-**项目核心内容总结：**  
-ArchiveBox 是一个用于存档网页内容的工具，支持通过多种提取器（如 SingleFile、截图等）捕获网页数据，并保存为结构化文件。用户可通过配置选项自定义存档方式，依赖项管理支持通过 pip、npm 等安装。主要特性包括：  
-1. **多功能提取器**：支持网页内容、截图、元数据等多格式存档，可扩展插件系统；  
-2. **灵活配置**：通过配置文件控制提取器开关及参数；  
-3. **集成测试**：提供测试脚本验证提取器功能；  
-4. **文档与社区**：包含详细文档、GitHub 讨论区及 Zulip 社群支持；  
-5. **发布流程**：支持手动构建文档、Python 包及 Docker 镜像，自动化 CI/CD 流程。  
-
-**使用方法**：  
-- 安装依赖（如 pip、npm）；  
-- 配置提取器参数及存档选项；  
-- 运行工具捕获目标网页，输出结果保存至本地目录；  
-- 通过 Web 界面查看存档日志及内容。
+ArchiveBox 是一款开源的自托管网页归档工具，用于将网络内容以多种标准格式（如 HTML、PDF、PNG、JSON、WARC 等）永久保存。它支持从 URL、浏览器书签、历史记录、RSS 及社交媒体等多种来源导入链接，并能自动提取网页全文、音视频、代码仓库等具体内容。项目提供命令行、Web 界面、API 及浏览器扩展等多种交互方式，数据以普通文件形式本地存储，确保格式长期可读且用户完全掌控数据。支持 Docker、pip 等多种安装部署方式，适用于个人收藏、法律取证及研究存档等场景。

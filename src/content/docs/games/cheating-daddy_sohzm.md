@@ -3,27 +3,6 @@
 title: cheating-daddy
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sohzm/cheating-daddy?style=social) ](https://github.com/sohzm/cheating-daddy)
-### [sohzm cheating-daddy](https://github.com/sohzm/cheating-daddy)
+### [sohzm cheating-daddy](https://github.com/sohzm/cheating-daddy)  ![GitHub Repo stars](https://img.shields.io/github/stars/sohzm/cheating-daddy?style=social)
 
-**项目核心内容总结：**  
-
-**功能**：  
-实时AI助手，通过屏幕和音频捕捉提供视频会议、面试、演示等场景的上下文帮助，支持多模式（面试、销售、会议等），具备透明覆盖窗口、点击穿透模式等功能。  
-
-**主要特性**：  
-- 基于Google Gemini 2.0 Flash Live实现实时AI响应  
-- 支持MacOS、Windows（部分Linux）跨平台使用  
-- 多配置文件适配不同场景（面试、销售等）  
-- 可移动窗口、点击穿透、快捷键操作  
-- 需通过系统音频/麦克风采集声音  
-
-**使用方法**：  
-1. 获取Google Gemini API密钥  
-2. 安装依赖并运行项目  
-3. 输入API密钥、选择配置文件和语言  
-4. 开始会话后，通过快捷键调整窗口位置，AI根据屏幕内容及“模拟面试官提问”提供实时帮助  
-
-**注意事项**：  
-- 仅支持最新版MacOS和Windows，旧版本功能受限  
-- 测试时需手动模拟面试官提问，应用不会主动回答问题
+这是一个跨平台的实时 AI 助手工具，支持 macOS、Windows 和 Linux 系统。它基于 Google Gemini 2.0 Flash Live 模型，通过屏幕捕获和音频分析，为视频会议、面试及演示提供实时上下文辅助。核心功能包括多种场景模式预设、透明悬浮窗口、点击穿透模式及系统音频处理。使用前需配置 Gemini API 密钥并开启屏幕与麦克风权限。

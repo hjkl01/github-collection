@@ -3,24 +3,16 @@
 title: spree
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/spree/spree?style=social) ](https://github.com/spree/spree)
-### [spree spree](https://github.com/spree/spree)
+### [spree spree](https://github.com/spree/spree)  ![GitHub Repo stars](https://img.shields.io/github/stars/spree/spree?style=social)
 
-**核心内容总结：**  
-1. **项目功能**  
-   - Spree 是一个开源电商框架，支持多供应商市场、B2B、批发、多租户平台、无头电商等复杂场景。  
-   - 提供响应式管理面板、订单与售后管理、多语言及多货币支持、库存管理等功能。  
-   - 可部署于云、VPS、Docker、Kubernetes 等环境，兼容性强。  
+Spree Commerce 是一个面向快速增长企业的开源、API 优先电子商务平台。其主要功能总结如下：
 
-2. **使用方法**  
-   - 通过官方文档（含开发指南、贡献指南）获取部署和扩展支持。  
-   - 支持社区贡献（提交代码、提出问题或功能建议），并可通过 Slack 社区交流。  
+*   **API 优先架构**：提供快速、安全且易于集成的类 Stripe 风格 API 与 SDK。
+*   **后台管理**：基于 Tailwind CSS 构建的全新管理仪表板，支持角色权限管理与自定义样式。
+*   **商品与定价**：内置灵活定价引擎（支持区域/B2B/批发）、促销管理、数字产品及批量操作。
+*   **支付与结账**：集成 Stripe、Adyen 等主流支付网关，支持钱包支付及多种结账方式。
+*   **扩展与集成**：支持 Webhooks 2.0、事件总线及 Google Analytics 等第三方工具集成。
+*   **多场景支持**：原生支持 B2B、多门店、多区域、多供应商市场及多租户电商业务。
+*   **企业级特性**：提供企业版增强安全（SSO、审计日志）、专用业务模块（市场/B2B/多租户）及 SLA 技术支持服务。
 
-3. **主要特性**  
-   - **灵活性**：支持多品牌多店铺、多租户、多语言、多货币等复杂业务需求。  
-   - **扩展性**：提供丰富的插件和扩展接口，可定制化开发。  
-   - **开源协议**：4.10 及以上版本采用 AGPL-3.0 协议（可私有使用），4.9 及以下版本采用 BSD-3-Clause 协议；如需去除 AGPL 限制（如 SaaS 场景），可申请商业许可。  
-   - **成熟性**：自 2007 年起被全球数千商户使用，经过大规模业务验证。  
-
-4. **适用场景**  
-   - 企业级电商（如批发、B2B）、多供应商平台、多租户 SaaS 平台、定制化电商解决方案等。
+项目核心代码基于 BSD-3-Clause 开源协议。

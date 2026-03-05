@@ -3,28 +3,12 @@
 title: Open-IM-Server
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenIMSDK/Open-IM-Server?style=social) ](https://github.com/OpenIMSDK/Open-IM-Server)
-### [OpenIMSDK Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)
+### [OpenIMSDK Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  ![GitHub Repo stars](https://img.shields.io/github/stars/OpenIMSDK/Open-IM-Server?style=social)
 
-**项目核心内容总结：**
+OpenIM 是一个面向开发者的开源即时通讯解决方案，由 OpenIM Server 和 OpenIM SDK 组成，旨在帮助开发者将即时通讯功能集成到应用中。
 
-**项目功能**  
-OpenIM 是开源即时通讯解决方案，包含 OpenIM SDK 和 OpenIM Server 两部分，为开发者提供消息收发、用户管理、群组管理等功能，支持将即时通讯功能集成到各类应用中。
+OpenIM Server 采用微服务架构，支持集群模式（含网关和 RPC 服务），提供 REST API 和 Webhooks，可支持海量用户及消息处理，兼容源码、Docker 及 Kubernetes 部署。
 
-**主要特性**  
-1. **OpenIM SDK**  
-   - 支持本地存储、连接管理、API 封装、回调监听等功能；  
-   - 跨平台部署（iOS/Android/H5/PC/Web）。  
+OpenIM SDK 支持跨平台集成，核心功能涵盖用户、好友、群组管理，会话处理，消息收发，本地存储及连接管理。
 
-2. **OpenIM Server**  
-   - 微服务架构，支持集群模式（网关+多 RPC 服务）；  
-   - 支持源码、Kubernetes 或 Docker 部署；  
-   - 支持百万级用户、群组及海量消息；  
-   - 提供 REST API 和 Webhooks 扩展业务功能（如群创建、消息推送）。  
-
-**使用方法**  
-- 在线体验：通过 [OpenIM 在线演示](https://www.openim.io/en/commercial) 快速体验；  
-- 部署方式：选择 [源码部署](https://docs.openim.io/guides/gettingStarted/imSourceCodeDeployment) 或 [Docker 部署](https://docs.openim.io/guides/gettingStarted/dockerCompose)。  
-
-**系统支持**  
-兼容 Linux、Windows、Mac 系统，支持 ARM 和 AMD 架构。
+项目支持 Linux、Windows、Mac 系统及 ARM 和 AMD 架构，采用 Apache License 2.0 协议。

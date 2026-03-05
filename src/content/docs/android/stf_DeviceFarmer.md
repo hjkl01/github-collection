@@ -3,26 +3,14 @@
 title: stf
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social) ](https://github.com/DeviceFarmer/stf)
-### [DeviceFarmer stf](https://github.com/DeviceFarmer/stf)
+### [DeviceFarmer stf](https://github.com/DeviceFarmer/stf)  ![GitHub Repo stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social)
 
-**项目核心内容总结：**
+STF (Smartphone Test Farm) 是一款基于 Web 的远程 Android 设备调试与管理平台。
 
-**功能**  
-STF（Smartphone Test Farm）是一个用于连接和管理移动设备的平台，支持通过USB将设备接入测试环境，提供Web界面进行设备控制、监控和测试。  
+主要功能：
+1. **远程控制**：支持通过浏览器实时查看屏幕（最高 30-40 FPS）、触控操作、键盘输入、APK 安装与启动、端口转发、Shell 命令执行、日志查看及文件管理。
+2. **兼容性与连接**：支持 Android 2.3.3 至 15 及 Wear OS 等系统，无需 Root 权限；支持通过 `adb connect` 远程调试，兼容 Android Studio 等 IDE。
+3. **资源管理**：提供设备库存监控（状态、电量、硬件信息）、预订与分区系统（按项目/时间分配设备）、用户及设备管理功能。
+4. **扩展性**：支持简单的 REST API。
 
-**使用方法**  
-1. 通过Docker部署STF服务（提供Docker镜像）。  
-2. 使用兼容的USB Hub和控制器（如Plugable或System TALKS）连接设备。  
-3. 通过Web界面管理设备，支持多语言（中、日等）。  
-
-**主要特性**  
-- 支持多种设备连接（兼容不同USB Hub和控制器）。  
-- 提供高功率输出的USB Hub推荐（如Plugable 7口Hub）。  
-- 多语言支持（可通过Transifex翻译扩展）。  
-- 社区驱动，支持开源贡献和测试。  
-- 部署灵活，依赖Docker容器化技术。  
-
-**注意事项**  
-- 部分硬件（如玄人志向USB3.0卡）存在兼容性问题。  
-- 需注意Hub的供电设计（部分Hub仅部分端口供电）。
+注：系统目前安全性较低，主要面向内部可信环境使用。

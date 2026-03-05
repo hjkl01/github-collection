@@ -3,26 +3,18 @@
 title: sharpkeys
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/randyrants/sharpkeys?style=social) ](https://github.com/randyrants/sharpkeys)
-### [randyrants sharpkeys](https://github.com/randyrants/sharpkeys)
+### [randyrants sharpkeys](https://github.com/randyrants/sharpkeys)  ![GitHub Repo stars](https://img.shields.io/github/stars/randyrants/sharpkeys?style=social)
 
-**项目核心内容总结：**  
+SharpKeys 是一款 Windows 键盘重映射工具，通过修改系统注册表将键盘上的任意按键映射为其他按键。
 
-**功能**  
-SharpKeys 是一个用于 Windows 键盘按键映射的工具，通过修改注册表实现按键重映射（如将 Caps Lock 映射为 Shift 键）。支持单键映射、多键互换（如交换 Win 键与 Ctrl 键），但不支持组合键（如 Ctrl+C 映射为其他键）或鼠标操作。  
+主要功能：
+1. 支持任意单键重映射（如将 Caps Lock 映射为 Shift）。
+2. 支持多键映射至单键及键位互换。
+3. 内置常用键列表及“键输入”功能，可自动识别物理按键。
+4. 兼容 Windows 2000 至 Windows 11。
 
-**使用方法**  
-1. 安装：通过 GitHub 发布页、Microsoft Store、winget 或 scoop 安装。  
-2. 启动程序，添加或编辑按键映射。  
-3. 点击“写入注册表”，重启系统使设置生效。  
-
-**主要特性**  
-- 支持 Windows 2000 至 Windows 11。  
-- 提供“Type Key”功能自动识别大部分按键，但 Alt 键需手动选择。  
-- 不支持 Fn 键、鼠标按键、三字节扫描码（如部分硬件专用键）。  
-- 提供常见键盘布局的预设配置（如 Colemak、Surface 键盘）。  
-
-**注意事项**  
-- 误操作可能导致无法登录（如禁用 Delete 键），需通过安全模式或命令行删除注册表项 `Scancode Map` 恢复。  
-- 部分硬件键（如 Logitech 音量键、Office 键）无法映射，需使用其他工具（如 PowerToys）。  
-- 不支持跨用户映射，修改影响全机。
+功能限制：
+1. 不支持组合键（如 Ctrl+C）或鼠标按键映射。
+2. 不支持硬件级按键（如 Fn 键）及三重字节扫描码的特殊功能键。
+3. 映射为系统全局生效，修改后需重启或注销生效。
+4. 无防错保护机制，误操作可能导致无法登录系统，需自行承担风险。

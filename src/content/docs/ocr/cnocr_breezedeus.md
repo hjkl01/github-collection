@@ -3,20 +3,6 @@
 title: cnocr
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/breezedeus/cnocr?style=social) ](https://github.com/breezedeus/cnocr)
-### [breezedeus cnocr](https://github.com/breezedeus/cnocr)
+### [breezedeus cnocr](https://github.com/breezedeus/cnocr)  ![GitHub Repo stars](https://img.shields.io/github/stars/breezedeus/cnocr?style=social)
 
-**项目核心内容总结：**
-
-**功能**：cnocr 是一个支持多语言（中、英、日、韩、拉丁文、阿拉伯文等）的光学字符识别（OCR）工具，可识别图片中的文字、数字及列格式内容，支持多行文字识别。提供多种预训练模型（如 DenseNet、CRNN、PP-OCR 系列），涵盖免费版与付费专业版（如高精度模型）。  
-
-**使用方法**：  
-1. 安装：通过 pip 安装 cnocr 库。  
-2. 调用：加载预训练模型（如 `ch_PP-OCRv5`），输入图片进行文字识别。  
-3. 集成：支持与 [CnSTD](https://github.com/breezedeus/cnstd) 工具无缝衔接，实现检测与识别流程自动化。  
-
-**主要特性**：  
-- 支持多种语言及特殊场景（如纯数字、列排文字）。  
-- 提供多精度模型选择（免费模型与需购买的高精度模型）。  
-- 基于 PyTorch 架构，支持灵活扩展与自定义训练。  
-- 优化识别准确率，支持空格识别及复杂排版处理。
+CnOCR 是基于 Python 3 的 OCR 文字识别工具包，支持简体中文、繁体中文、英文、数字及竖排文字识别。内置 20 多个预训练模型（含 CnOCR 自研及 PaddleOCR 集成模型），覆盖场景图片、文档截图、纯数字等不同应用场景。内部集成 CnSTD 进行文字检测定位，支持 PyTorch 和 ONNX 模型，提供模型训练命令及 FastAPI HTTP 服务，安装后即可直接使用。

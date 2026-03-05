@@ -3,8 +3,6 @@
 title: cutile-python
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/cutile-python?style=social) ](https://github.com/NVIDIA/cutile-python)
-### [NVIDIA cutile-python](https://github.com/NVIDIA/cutile-python)
+### [NVIDIA cutile-python](https://github.com/NVIDIA/cutile-python)  ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/cutile-python?style=social)
 
-**核心内容总结：**  
-cuTile Python 是一种用于 NVIDIA GPU 的编程语言，支持编写并行执行的 GPU 内核（如向量加法）。用户可通过 PyPI 安装（`pip install cuda-tile`）或从源码构建（需 CUDA Toolkit 13.1+、CMake 3.18+ 等依赖）。其核心特性包括基于 Tile IR 的编译器，要求 NVIDIA 驱动版本 r580 或更高，当前仅支持 Blackwell GPU（后续版本将扩展）。测试依赖 PyTest 及额外库（如 PyTorch），代码通过 `pytest` 运行。项目遵循 Apache 2.0 许可证，由 NVIDIA 2025 年版权所有。
+cuTile Python 是 NVIDIA 推出的一款 GPU 编程语言，基于 Tile IR 生成 GPU 内核以实现并行计算。它通过 Python 接口（`cuda.tile`）提供内核定义、数据分块加载与存储等功能，支持在 GPU 上高效执行计算任务。运行环境要求 NVIDIA Driver r580 及以上版本及 CUDA Toolkit 13.1+。项目支持 PyPI 安装或源码构建，包含实验性自动调优功能，遵循 Apache 2.0 协议。

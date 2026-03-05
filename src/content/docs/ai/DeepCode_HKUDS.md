@@ -3,25 +3,11 @@
 title: DeepCode
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/DeepCode?style=social) ](https://github.com/HKUDS/DeepCode)
-### [HKUDS DeepCode](https://github.com/HKUDS/DeepCode)
+### [HKUDS DeepCode](https://github.com/HKUDS/DeepCode)  ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/DeepCode?style=social)
 
-**项目核心内容总结：**
+DeepCode 是一个基于多智能体系统的开源智能编码平台，能够将研究论文、复杂算法及自然语言描述自动转化为生产级代码。其核心功能总结如下：
 
-DeepCode 是一个基于多智能体系统的代码生成工具，支持将研究论文、需求描述或网页链接自动转换为生产就绪的代码，并附带测试和文档。其主要功能包括：
-- **论文转代码**：自动解析学术论文并生成可执行代码
-- **图像处理**：提供背景移除、图像增强等功能
-- **前端开发**：支持完整Web应用开发与部署
-
-**使用方法：**
-1. 安装后通过命令行启动（`deepcode`），默认访问地址为 http://localhost:8501
-2. 上传研究论文、输入需求描述或粘贴URL作为输入
-3. 系统自动分析并生成代码，输出包含完整实现、单元测试和开发文档
-
-**主要特性：**
-- 多智能体协同处理复杂任务
-- 支持大文档智能分段处理（自动识别技术文档、论文等长文本）
-- 自动化测试与代码质量验证
-- 可扩展支持多种编程语言和框架
-- 提供Web界面和CLI双模式操作
-- 集成Brave/Bocha-MCP两种搜索引擎（需API密钥）
+1. **多场景代码生成**：支持从学术论文生成代码（Paper2Code）、文本生成前端（Text2Web）及文本生成后端（Text2Backend），实现从需求到可运行代码的自动化。
+2. **多模态交互界面**：提供命令行（CLI）、现代化 Web 界面（支持实时用户交互与协作）及飞书机器人（nanobot 集成）多种接入方式。
+3. **智能工作流架构**：采用多智能体协同、CodeRAG 检索增强、MCP 工具协议及自动化测试，涵盖从意图理解、文档分析、规划到代码生成与验证的全流程。
+4. **卓越基准性能**：在 PaperBench 代码生成基准测试中，综合代码复现能力超越人类专家及主流商业代码智能体。

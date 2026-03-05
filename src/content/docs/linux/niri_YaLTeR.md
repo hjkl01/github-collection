@@ -3,18 +3,6 @@
 title: niri
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/YaLTeR/niri?style=social) ](https://github.com/YaLTeR/niri)
-### [YaLTeR niri](https://github.com/YaLTeR/niri)
+### [YaLTeR niri](https://github.com/YaLTeR/niri)  ![GitHub Repo stars](https://img.shields.io/github/stars/YaLTeR/niri?style=social)
 
-**项目核心内容总结：**  
-Niri 是一个基于 Wayland 的可滚动平铺合成器，支持多显示器、动态工作区和窗口管理。其核心功能包括：  
-- **窗口布局**：窗口以无限延伸的列排列，新增窗口不影响现有窗口大小；每屏独立管理窗口条，避免跨屏溢出。  
-- **动态工作区**：垂直排列，支持断连/重连显示器时自动调整工作区布局。  
-- **特色功能**：概览模式（缩放工作区/窗口）、内置截图工具、屏幕录制（支持敏感窗口遮挡）、触控板/鼠标手势、窗口标签分组、可配置布局（边距、边框、渐变色）、实时配置热加载、兼容屏幕阅读器。  
-- **兼容性**：支持分数缩放、NVIDIA 显卡、浮动窗口（25.01 版本后）、多种输入设备（触控板、平板）及主流 Wayland 协议。  
-
-**使用方法**：  
-参考官方 [Getting Started](https://yalter.github.io/niri/Getting-Started.html) 指南安装，需配合 `waybar` 和 `fuzzel` 等工具（非完整桌面环境）。支持通过 `xdg-desktop-portal-gnome` 实现屏幕录制，可通过配置文件自定义布局和行为。  
-
-**适用场景**：  
-适合追求高效窗口管理、多屏协作及高度自定义的 Wayland 用户，尤其适合开发者和高级用户。
+niri 是一个基于 Wayland 的合成器，主打可滚动平铺窗口管理。窗口在水平无限延伸的条带中按列排列，开启新窗口不会导致现有窗口调整大小。每个显示器拥有独立的窗口带和垂直动态工作区，支持多显示器混合 DPI 及分数缩放。主要功能包括概览视图、内置截图、屏幕录制（可屏蔽敏感窗口）、手势操作、窗口标签分组、自定义布局（间隙、边框等）、渐变边框、动画及自定义着色器。支持配置文件热重载、屏幕阅读器、平板等输入设备，集成 X11 支持，目前状态稳定适合日常使用。

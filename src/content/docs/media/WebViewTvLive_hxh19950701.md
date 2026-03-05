@@ -3,27 +3,6 @@
 title: WebViewTvLive
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hxh19950701/WebViewTvLive?style=social) ](https://github.com/hxh19950701/WebViewTvLive)
-### [hxh19950701 WebViewTvLive](https://github.com/hxh19950701/WebViewTvLive)
+### [hxh19950701 WebViewTvLive](https://github.com/hxh19950701/WebViewTvLive)  ![GitHub Repo stars](https://img.shields.io/github/stars/hxh19950701/WebViewTvLive?style=social)
 
-**项目核心内容总结：**  
-该项目是一款基于腾讯X5 WebView开发的电视直播App，支持一键打开官方网页观看直播。主要功能包括自动更新频道列表、多直播源支持、自定义设置、适配手机/平板/电视/车机、数字键换台、上下键换台反转、自主选择TBS内核。  
-
-**使用方法：**  
-通过GitHub发布页面下载应用（https://github.com/hxh19950701/WebViewTvLive/releases）。  
-
-**主要特性：**  
-- 直接调用官网直播链接，稳定性高，兼容m3u8格式；  
-- 支持多设备适配，操作便捷（如数字键换台）；  
-- 提供自定义设置选项，可选择是否启用TBS内核。  
-
-**设备要求：**  
-最低需Android 5.0系统、2GB内存、四核ARM Cortex-A53 CPU；推荐Android 11及以上、4GB内存、ARM Cortex-A55/A76架构处理器及WebView 120版本。  
-
-**注意事项：**  
-- 项目已暂停开源，仅提供1.6版本源码供学习交流；  
-- 二次打包需注明原应用名称，不可用于商业牟利；  
-- 应用仅展示电视台公开页面，不提供视频资源，不破解版权限制。  
-
-**缺点：**  
-对设备性能要求较高，载入频道耗时，无法调节视频清晰度，部分节目可能因版权受限。
+基于腾讯 X5 WebView 开发的电视直播应用，适配手机、平板、电视及车机。支持一键打开官方网页观看直播，具备自动更新频道列表、多直播源切换、自定义设置、数字键换台、上下键换台反转及 TBS 内核选择，兼容 m3u8 链接。

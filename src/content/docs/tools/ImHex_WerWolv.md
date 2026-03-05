@@ -3,22 +3,16 @@
 title: ImHex
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/WerWolv/ImHex?style=social) ](https://github.com/WerWolv/ImHex)
-### [WerWolv ImHex](https://github.com/WerWolv/ImHex)
+### [WerWolv ImHex](https://github.com/WerWolv/ImHex)  ![GitHub Repo stars](https://img.shields.io/github/stars/WerWolv/ImHex?style=social)
 
-ImHex 是一款用于分析和编辑二进制文件的工具，支持通过自定义的模式语言（类似 C 语法）定义数据结构，实现对文件内容的解析、高亮和交互式操作。其核心功能包括：  
-1. **多格式支持**：通过内置数据库（如格式模式、魔法文件、Yara 规则等）解析多种文件类型，支持扩展自定义规则。  
-2. **高级分析工具**：集成反汇编（基于 Capstone）、音频播放、差异比对、哈希计算等功能。  
-3. **灵活界面**：支持多工作区、自定义布局、可拆分窗口，提供插件开发接口。  
-4. **跨平台兼容**：支持 Windows 7+/macOS 15+/Linux 等系统，需 OpenGL 3.0 显卡（或软件渲染版本）。  
+ImHex 是一款专为逆向工程、编程及数据分析设计的高级开源十六进制编辑器。
 
-**使用方法**：  
-- 安装预编译版本或通过源码编译（需 C++23 支持）。  
-- 通过模式语言定义结构，利用数据库资源解析文件。  
-- 支持插件开发，扩展功能（如自定义处理器节点、主题等）。  
+**核心功能：**
+*   **编辑与查看**：支持字节修补、搜索、多种数据类型显示及编码解码，提供高亮规则配置与无限撤销重做。
+*   **模式语言**：内置类 C 自定义编程语言，用于解析文件结构及可视化图像、音频、3D 模型等数据。
+*   **多源数据访问**：支持本地文件、磁盘、GDB 服务器、进程内存及远程文件读取。
+*   **分析工具**：集成反汇编器（支持多架构）、YARA 规则扫描、哈希计算、数据差异比较及节点式数据预处理器。
+*   **搜索与定位**：提供字符串、正则、二进制模式、数值范围搜索及书签管理。
+*   **扩展与工具**：支持插件开发、自定义主题、多工作区布局，内置计算器、颜色拾取器等实用工具。
 
-**系统要求**：  
-- 操作系统：Windows 10/11、macOS 15+、主流 Linux 发行版。  
-- 硬件：OpenGL 3.0 显卡（集成显卡可能需注意驱动兼容性），内存约 50MB，存储约 100MB。  
-
-**依赖库**：基于 Dear ImGui 构建界面，集成 json、Capstone、Yara 等库，部分模块采用 LGPL 许可证以便插件开发。
+支持 Windows、macOS、Linux 及 FreeBSD 等跨平台运行。

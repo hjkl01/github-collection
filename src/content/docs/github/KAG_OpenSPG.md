@@ -3,20 +3,6 @@
 title: KAG
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/OpenSPG/KAG?style=social) ](https://github.com/OpenSPG/KAG)
-### [OpenSPG KAG](https://github.com/OpenSPG/KAG)
+### [OpenSPG KAG](https://github.com/OpenSPG/KAG)  ![GitHub Repo stars](https://img.shields.io/github/stars/OpenSPG/KAG?style=social)
 
-**核心内容总结：**  
-KAG 是一个通过知识增强生成提升大语言模型在专业领域表现的框架，包含知识构建（kg-builder）和知识求解（kg-solver）两大模块。  
-
-**主要特性：**  
-1. **知识构建**：基于 DIKW 分层结构，兼容无约束的信息抽取与有约束的专业知识构建，支持图结构与原始文本的互指索引，提升推理效率。  
-2. **知识求解**：采用逻辑符号引导的混合引擎，整合规划、推理、检索三种操作符，支持检索、知识图谱推理、语言推理及数值计算的多步骤混合推理。  
-
-**使用方法：**  
-- **开发者**：通过 Conda 或 Python 虚拟环境安装依赖，克隆代码并安装 KAG，使用内置组件复现性能或应用于新场景。  
-- **用户**：通过 Docker 镜像部署，使用 Web 界面交互。  
-
-**适用场景**：企业级数据互联、专业领域知识增强生成。  
-
-**支持**：提供 GitHub、Discord 和微信公众号社区支持，采用 Apache 2.0 许可证。
+KAG 是一个基于 OpenSPG 引擎和大语言模型的逻辑推理与问答框架，旨在构建垂直领域的知识增强服务。它有效克服了传统 RAG 的向量模糊性和 GraphRAG 的噪声问题，支持逻辑推理和多跳事实问答。核心功能包括：LLM 友好型知识表示、知识与块互索引、概念语义推理知识对齐、模式约束知识构建，以及逻辑形式引导的混合检索推理引擎。KAG 能够整合非结构化、结构化数据及专家经验，支持私人及公共知识库模式（集成 LBS、Web 搜索等），并通过 MCP 协议支持 Agent 工作流。项目提供产品端与开发者工具包两种使用方式。

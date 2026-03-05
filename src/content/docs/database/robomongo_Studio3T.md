@@ -3,18 +3,6 @@
 title: robomongo
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Studio3T/robomongo?style=social) ](https://github.com/Studio3T/robomongo)
-### [Studio3T robomongo](https://github.com/Studio3T/robomongo)
+### [Studio3T robomongo](https://github.com/Studio3T/robomongo)  ![GitHub Repo stars](https://img.shields.io/github/stars/Studio3T/robomongo?style=social)
 
-**核心内容总结：**  
-Robo 3T 是一个基于 MongoDB shell 的跨平台 MongoDB 管理工具，提供图形界面与命令行交互功能。其主要特性包括：  
-- 嵌入 MongoDB shell（最新版本支持 MongoDB 4.2）；  
-- 支持 Windows 10/8.1/7、macOS Big Sur/Catalina/Mojave 及 Linux Ubuntu 20.04/18.04；  
-- 新增功能：SSH 密钥支持、数据库可视化解析、网页预览（仅限 Windows/macOS）；  
-- 修复了 IPv6、分页显示、索引操作等多处问题。  
-
-**使用方法：**  
-通过官网或提供的下载链接获取安装包（Windows .zip/.exe、Mac .dmg、Linux .tar.gz），安装后可直接使用。  
-
-**项目状态：**  
-Robo 3T 已停止开发，推荐使用 Studio 3T Free（免费版）替代。最后版本为 1.4.4，源码可从 GitHub 获取。
+Robo 3T（原 Robomongo）是一款已停止开发的跨平台 MongoDB 管理工具。核心基于 Shell 设计，嵌入真实 `mongo` shell，提供标签页界面支持命令行与图形交互。最新版 1.4.4 内置 MongoDB 4.2 shell，支持 Windows、macOS 和 Linux。项目遵循 GPL v3 开源协议。

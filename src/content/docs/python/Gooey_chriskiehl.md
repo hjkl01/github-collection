@@ -3,31 +3,6 @@
 title: Gooey
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/chriskiehl/Gooey?style=social) ](https://github.com/chriskiehl/Gooey)
-### [chriskiehl Gooey](https://github.com/chriskiehl/Gooey)
+### [chriskiehl Gooey](https://github.com/chriskiehl/Gooey)  ![GitHub Repo stars](https://img.shields.io/github/stars/chriskiehl/Gooey?style=social)
 
-**项目核心内容总结：**
-
-Gooey 是一个用于将 Python 命令行程序转换为图形用户界面（GUI）的工具，支持多种布局和交互方式。其主要功能包括：
-
-- **图形界面生成**：基于命令行参数自动创建 GUI 界面，支持多种布局（如 Flat、Column、Tabbed 等）。
-- **交互组件**：提供丰富的 GUI 控件，如输入框、下拉菜单、进度条、图标等，支持自定义图标。
-- **高级功能**：
-  - **进度条**：支持通过正则表达式匹配程序输出，自动更新进度条，并可显示剩余时间。
-  - **动态验证**：支持输入验证和错误提示，提升用户体验。
-  - **生命周期事件**：支持在程序成功或失败时触发自定义处理函数。
-  - **自定义图标**：允许用户替换默认图标，提升界面个性化。
-- **打包支持**：通过 PyInstaller 等工具轻松将程序打包为可执行文件，便于分发。
-
-**使用方法**：
-- 使用 `@Gooey` 装饰器将命令行函数转换为 GUI 程序。
-- 通过 `GooeyParser` 定义参数和界面布局。
-- 支持通过正则表达式和自定义表达式控制进度条和时间显示。
-- 可通过 `image_dir` 参数自定义图标。
-
-**主要特性**：
-- 简单易用，支持自动生成 GUI。
-- 界面布局灵活，支持多种交互方式。
-- 支持丰富的 GUI 控件和高级功能（如进度条、自定义图标、输入验证等）。
-- 可扩展性强，支持自定义处理函数和图标。
-- 提供打包工具支持，便于发布程序。
+Gooey 是一个 Python 3 库，通过简单的装饰器将控制台程序转换为图形界面（GUI）应用。它基于 argparse 自动映射 GUI 组件（如文本框、文件选择器、日期选择器等），支持使用 GooeyParser 自定义控件类型。核心功能包括：多语言国际化、多种布局模式（高级/基本/无配置）、自定义菜单栏、动态表单验证、生命周期事件处理、运行时进度显示、图标自定义及支持打包为可执行文件。该工具旨在降低命令行工具的交互门槛，使其易于非程序员使用。

@@ -3,20 +3,14 @@
 title: archgw
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/katanemo/archgw?style=social) ](https://github.com/katanemo/archgw)
-### [katanemo archgw](https://github.com/katanemo/archgw)
+### [katanemo archgw](https://github.com/katanemo/archgw)  ![GitHub Repo stars](https://img.shields.io/github/stars/katanemo/archgw?style=social)
 
-**核心内容总结：**  
-Arch 是一个结合大语言模型（LLM）与 API 调用的网关系统，用于处理用户请求并路由到后端服务。用户可通过配置文件定义 LLM 提供者（如 OpenAI）、系统提示词、提示词目标（对应不同 API 端点）及后端服务的接口信息。启动后，用户可通过 HTTP 接口（如 curl）与网关交互，实现自动化任务处理（如货币汇率查询、天气信息获取等）。  
+Plano 是一个面向智能体应用的 AI 原生代理服务器和数据平面。它通过将路由编排、模型管理、安全护栏及可观测性等核心交付工作解耦至统一的进程外数据平面，解决智能体应用生产部署难的问题。
 
-**主要特性：**  
-- 支持多种 LLM 提供者（如 OpenAI）及可配置的提示词模板，包含输入保护机制（如防止越狱）。  
-- 支持将用户请求路由到多个后端服务，每个目标可定义独立的 API 路径和参数。  
-- 集成可观测性功能，支持追踪、指标、日志（符合开放标准）。  
-- 提供调试日志功能，可通过调整日志级别（如 debug）获取详细运行信息。  
-- 支持 Docker 容器部署，使用 Supervisord 管理进程。  
+核心功能包括：
+- **智能编排**：实现智能体间低延迟路由，通过 YAML 配置即可新增智能体，无需修改应用代码。
+- **模型敏捷性**：支持按名称、别名或偏好自动路由不同大语言模型（LLM）。
+- **零代码可观测**：自动捕获智能体信号及 OpenTelemetry 追踪指标，无需手动插桩。
+- **安全护栏**：提供防越狱、内容审核及记忆钩子的过滤链机制。
 
-**使用方法：**  
-1. 创建配置文件（arch_config.yaml），配置监听端口、LLM 提供者、系统提示词、API 路由规则及后端服务地址。  
-2. 通过命令行启动 Arch 网关。  
-3. 使用 curl 等工具向网关发送 HTTP 请求，触发 LLM 处理或 API 调用。
+基于 Envoy 构建，兼容任意编程语言和 AI 框架，降低开发复杂度，提升应用的安全性、可维护性与交付速度。

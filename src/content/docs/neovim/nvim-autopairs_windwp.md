@@ -3,22 +3,13 @@
 title: nvim-autopairs
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/windwp/nvim-autopairs?style=social) ](https://github.com/windwp/nvim-autopairs)
-### [windwp nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+### [windwp nvim-autopairs](https://github.com/windwp/nvim-autopairs)  ![GitHub Repo stars](https://img.shields.io/github/stars/windwp/nvim-autopairs?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-nvim-autopairs 是一个 Neovim 自动配对插件，支持多种字符（如括号、引号等）的自动闭合，适用于代码编辑场景，需 Neovim 0.7 及以上版本。
-
-**使用方法**  
-- **安装**：通过 lazy.nvim、vim-plug、packer 等插件管理器安装，提供 Lua 配置示例。  
-- **配置**：通过 `setup` 函数设置选项，如禁用文件类型、自定义配对规则、映射键位（如 `<CR>`、`<M-e>`）等。  
-
-**主要特性**  
-1. **智能配对**：自动闭合括号、引号等，支持自定义规则（如忽略特定字符、排除文件类型）。  
-2. **Treesitter 集成**：结合语法解析，精准判断是否添加配对符号（如在注释或字符串内不配对）。  
-3. **FastWrap 功能**：通过快捷键（如 `<M-e>`）快速包裹文本，支持自定义快捷键和包裹范围。  
-4. **插件兼容**：与 nvim-cmp（补全插件）、coq_nvim（代码补全框架）等集成，处理补全后的配对逻辑。  
-5. **规则自定义**：支持正则表达式、TS 节点条件等高级规则，可动态修改或删除规则。  
-6. **灵活控制**：提供启用/禁用、清除规则、获取规则等 API，支持按文件类型或上下文条件控制配对行为。
+nvim-autopairs 是一款需 Neovim 0.7+ 支持的多字符自动配对插件。
+主要功能：
+1. 自动配对：自动插入成对字符（括号、引号等），支持自定义行为。
+2. 配置灵活：支持控制文件类型、宏录制、按键映射及忽略字符。
+3. 插件兼容：兼容 nvim-cmp 和 coq_nvim 等补全插件，优化输入确认行为。
+4. 规则定制：支持通过正则、TreeSitter 节点及文件类型过滤自定义规则。
+5. 辅助功能：提供 FastWrap 快速移动、HTML/TSX 自动标签及 endwise 支持。
+6. 接口管理：提供 API 动态控制启用、禁用、切换及规则管理。

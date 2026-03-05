@@ -3,24 +3,12 @@
 title: ProxyPool
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Python3WebSpider/ProxyPool?style=social) ](https://github.com/Python3WebSpider/ProxyPool)
-### [Python3WebSpider ProxyPool](https://github.com/Python3WebSpider/ProxyPool)
+### [Python3WebSpider ProxyPool](https://github.com/Python3WebSpider/ProxyPool)  ![GitHub Repo stars](https://img.shields.io/github/stars/Python3WebSpider/ProxyPool?style=social)
 
-**项目核心内容总结：**
+ProxyPool 是一个简易高效的代理池项目，核心功能如下：
+1. **代理获取**：定时抓取免费代理网站，支持通过扩展爬虫简单添加新源。
+2. **代理存储**：使用 Redis 存储代理池，并对代理可用性进行排序。
+3. **代理筛选**：定时测试和筛选，自动剔除不可用代理，保留可用代理。
+4. **服务提供**：提供 HTTP API 接口，支持随机获取测试通过的可用代理。
 
-**功能：**  
-ProxyPool 是一个代理池工具，支持定时抓取免费代理网站、通过 Redis 存储和管理代理、定时测试代理可用性，并提供 API 接口获取有效代理。支持自定义爬虫扩展，可适配不同代理源。
-
-**使用方法：**  
-1. **Docker 方式**：通过 `docker-compose up` 启动 Redis 和 ProxyPool 容器，配置环境变量（如 Redis 地址、测试 URL 等）。  
-2. **常规方式**：安装 Python 和 Redis，设置环境变量，运行 `pip install` 安装依赖，执行脚本启动服务。  
-
-**主要特性：**  
-- 通过 Redis 存储代理，支持多数据库和自定义键名；  
-- 支持定时抓取（默认 100 秒）、测试（默认 20 秒）和 API 接口（默认端口 5555）；  
-- 提供日志管理（支持文件记录、轮转、保留周期等）；  
-- 可扩展爬虫：继承 `BaseCrawler` 类，定义 `urls` 和 `parse` 方法即可添加新代理源；  
-- 支持 Kubernetes 部署。  
-
-**注意事项：**  
-免费代理可用性较低，不适合直接用于高要求场景，建议结合付费代理使用。
+项目支持 Docker 及 Python 环境运行，架构包含 Getter（抓取）、Tester（测试）、Server（服务）三个模块。可通过环境变量灵活配置 Redis 连接、运行周期、测试 URL 等参数，并允许在 crawlers 目录下扩展自定义爬虫源。

@@ -3,21 +3,16 @@
 title: rq
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rq/rq?style=social) ](https://github.com/rq/rq)
-### [rq rq](https://github.com/rq/rq)
+### [rq rq](https://github.com/rq/rq)  ![GitHub Repo stars](https://img.shields.io/github/stars/rq/rq?style=social)
 
-**核心内容总结：**  
-RQ（Redis Queue）是一个基于Redis或Valkey的Python任务队列库，用于将耗时任务放入后台异步处理，适用于各类规模的应用。主要功能包括：  
-- **任务管理**：通过定义函数并加入队列实现异步执行，支持优先级设置（如队列头部插入或多队列分层）。  
-- **调度与重复任务**：可定时执行任务（如`enqueue_at`、`enqueue_in`），或通过`Repeat`类重复执行任务。  
-- **失败重试**：支持配置重试次数及间隔时间，提升任务可靠性。  
-- **周期性任务**：支持间隔时间或Cron表达式定义的定时任务，通过配置文件和`rq cron`命令运行。  
-- **工人管理**：使用`rq worker`启动后台处理进程，生产环境可通过`worker-pool`管理多进程。  
-- **性能优化**：提供`SimpleWorker`（更快但无隔离）和`Worker`（更安全但稍慢）两种模式，根据场景选择。  
+RQ（Redis Queue）是一个基于 Redis 或 Valkey 的轻量级 Python 后台任务队列库。它设计简洁，易于集成到 Web 栈中，适用于从简单应用到企业级系统的各种规模项目。
 
-**使用方法**：  
-1. 安装依赖：`pip install rq`。  
-2. 启动Redis服务器。  
-3. 定义任务函数，创建队列并加入任务。  
-4. 通过命令行启动工人（如`rq worker default`）处理任务。  
-5. 高级功能需配置队列优先级、调度参数或Cron规则。
+核心功能包括：
+1. **异步任务处理**：将耗时函数入队，由 Worker 在后台执行。
+2. **任务优先级**：支持将任务插入队列前端，或使用多队列机制区分优先级。
+3. **任务调度**：支持指定绝对时间执行、相对时间延迟执行，以及基于 Cron 语法和固定间隔的周期性任务调度。
+4. **失败重试**：支持配置失败任务的重试次数及间隔。
+5. **重复任务**：支持任务按指定次数和间隔重复执行。
+6. **多种 Worker 模式**：提供 SimpleWorker、Worker、SpawnWorker 及多进程池，平衡性能与隔离性。
+
+项目依赖 Redis >= 5 或 Valkey >= 7.2，安装方式为 `pip install rq`。

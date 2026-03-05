@@ -3,23 +3,6 @@
 title: Umi-OCR
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hiroi-sora/Umi-OCR?style=social) ](https://github.com/hiroi-sora/Umi-OCR)
-### [hiroi-sora Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)
+### [hiroi-sora Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)  ![GitHub Repo stars](https://img.shields.io/github/stars/hiroi-sora/Umi-OCR?style=social)
 
-**项目核心内容总结：**
-
-**功能：**  
-- 支持截图OCR、批量图片OCR、PDF文档识别、二维码识别与生成。  
-- 提供多语言界面（中/英/日等）及主题切换（亮/暗色）。  
-- 支持文本排版优化、忽略区域设置、命令行及HTTP接口调用。  
-
-**使用方法：**  
-- 下载安装包或通过Scoop安装，支持Windows/Linux平台。  
-- 使用快捷键启动，或通过命令行/HTTP API调用接口。  
-- 插件系统支持扩展（如PaddleOCR、RapidOCR等离线引擎）。  
-
-**主要特性：**  
-- 标签页式界面，支持多任务并行处理。  
-- 硬件加速渲染，兼容Win7及Linux系统。  
-- 社区驱动的多语言翻译，支持用户自定义主题和字体。  
-- 提供API接口文档，支持开发集成。
+Umi-OCR 是一款免费、开源且完全离线的文字识别工具，适用于 Windows 7+ 及 Linux 系统。软件无需安装，解压即用，内置 PaddleOCR 和 RapidOCR 引擎。核心功能包括截图识别（支持排版解析与公式识别）、批量图片识别（支持忽略区域）、文档（如 PDF）识别（可生成双层可搜索 PDF）以及二维码扫描与生成。此外，支持命令行和 HTTP 接口调用，提供多语言界面支持。

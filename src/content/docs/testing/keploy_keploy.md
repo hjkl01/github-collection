@@ -3,17 +3,6 @@
 title: keploy
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/keploy/keploy?style=social) ](https://github.com/keploy/keploy)
-### [keploy keploy](https://github.com/keploy/keploy)
+### [keploy keploy](https://github.com/keploy/keploy)  ![GitHub Repo stars](https://img.shields.io/github/stars/keploy/keploy?style=social)
 
-**核心内容总结：**
-
-Keploy 是一款无需 SDK 的自动化测试工具，支持多种编程语言（如 Go、Java、Python、Node.js 等）和协议（如 HTTP/REST、gRPC、GraphQL、Kafka、RabbitMQ 等），以及数据库（如 PostgreSQL、MySQL、MongoDB 等）。其主要功能是通过捕获应用程序流量自动生成测试用例，简化测试流程。  
-
-**使用方法**：用户可通过安装命令行工具，执行 `keploy init` 初始化项目，再运行 `keploy test` 启动测试。  
-
-**主要特性**：  
-1. 支持广泛的语言、框架和协议，无需 SDK；  
-2. 自动生成测试用例，提升测试效率；  
-3. 提供企业支持、文档和社区资源；  
-4. 适用于多种数据库和中间件的虚拟化测试。
+Keploy 是一款无需修改代码的 API 和集成测试工具，利用 eBPF 技术自动捕获网络层流量生成测试用例和数据 Mock。它支持录制并重放复杂的 API 流程及数据库、消息队列等基础设施交互，实现环境虚拟化。工具具备 AI 辅助扩展测试覆盖、统一覆盖率报告、CI/CD 集成及控制台管理功能，兼容所有主流编程语言和框架，可快速实现高覆盖率测试。

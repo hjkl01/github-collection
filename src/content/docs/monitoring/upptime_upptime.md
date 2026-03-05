@@ -3,8 +3,6 @@
 title: upptime
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/upptime/upptime?style=social) ](https://github.com/upptime/upptime)
-### [upptime upptime](https://github.com/upptime/upptime)
+### [upptime upptime](https://github.com/upptime/upptime)  ![GitHub Repo stars](https://img.shields.io/github/stars/upptime/upptime?style=social)
 
-**项目核心内容总结：**  
-Upptime 是一个基于 GitHub 的开源网站监控工具，通过 GitHub Actions 每 5 分钟检查网站可用性，每 6 小时记录响应时间并提交至 GitHub，每日生成响应时间图表。当监控目标宕机时，自动在 GitHub Issues 创建故障报告并分配处理人，恢复后自动关闭问题，支持 Slack 通知。状态页面通过 GitHub Pages 生成，使用 Svelte 和 Sapper 构建，数据通过 GitHub API 实时获取。用户需配置监控目标、通知方式及权限，代码遵循 MIT 许可，历史数据采用开放数据库许可。
+Upptime 是一个完全基于 GitHub Actions、Issues 和 Pages 构建的开源网站监控与状态页工具。它通过 GitHub Actions 定时检测端点状态，将响应时间数据提交至 Git 仓库以生成历史图表；检测到服务宕机时自动创建 GitHub Issue 报告并在恢复后自动关闭。项目通过 GitHub Pages 托管状态页面，展示在线率、响应时间及事故历史。该工具无需外部服务器或订阅，对 GitHub 用户免费，且具备 Git 原生审计追踪能力。

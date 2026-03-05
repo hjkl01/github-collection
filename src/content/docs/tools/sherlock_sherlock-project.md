@@ -5,14 +5,4 @@ title: sherlock
 
 ### [sherlock-project sherlock](https://github.com/sherlock-project/sherlock)  ![GitHub Repo stars](https://img.shields.io/github/stars/sherlock-project/sherlock?style=social)
 
-Sherlock 是一款通过用户名跨 400+ 社交平台搜索账号的工具。核心功能包括：  
-- **功能**：根据输入的用户名，批量搜索各平台是否存在相同账号，并输出结果文件（如 TXT/CSV/XLSX）。  
-- **使用方法**：  
-  1. 安装方式：支持 `pipx install sherlock-project`、`docker run` 或系统包管理器（部分系统需用 pipx/Docker）。  
-  2. 命令示例：`sherlock user1 user2`（多用户搜索），支持 `--tor`（Tor 网络）、`--csv`（导出 CSV）、`--site`（指定平台）等参数。  
-- **特性**：  
-  - 支持多格式输出（文本、表格）、代理/私密模式；  
-  - 可通过 Apify 云平台无安装运行；  
-  - 提供 NSFW 网站检查选项。  
-
-注意：部分 Linux 发行版的第三方包可能存在问题，建议使用 pipx 或 Docker 安装。
+Sherlock 是一款命令行工具，用于通过用户名在 400 多个社交网络平台上搜索并定位对应的用户账号。它支持单个或多个用户名的批量查询，搜索结果可保存为文本、CSV、Excel 或 JSON 格式。项目支持代理、Tor 网络访问及特定站点过滤，并提供 Docker 及 Apify 云端运行选项。

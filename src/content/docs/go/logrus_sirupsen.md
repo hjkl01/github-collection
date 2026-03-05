@@ -3,22 +3,6 @@
 title: logrus
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sirupsen/logrus?style=social) ](https://github.com/sirupsen/logrus)
-### [sirupsen logrus](https://github.com/sirupsen/logrus)
+### [sirupsen logrus](https://github.com/sirupsen/logrus)  ![GitHub Repo stars](https://img.shields.io/github/stars/sirupsen/logrus?style=social)
 
-**Logrus核心内容总结：**  
-**项目功能**：Logrus是Go语言的日志库，支持多格式（文本、JSON等）、日志级别控制（调试、信息、警告、错误等）、钩子系统（用于日志处理）、线程安全、日志测试等功能。  
-
-**使用方法**：  
-1. 初始化日志器（`logrus.New()`），设置输出格式（如`TextFormatter`或`JSONFormatter`）。  
-2. 通过`WithField/WithFields`添加自定义日志字段。  
-3. 使用`Info/Warn/Error/Fatal/Panic`等方法记录日志。  
-4. 注册钩子（如测试钩子、文件输出钩子）处理日志事件。  
-
-**主要特性**：  
-- **多格式支持**：内置文本和JSON格式，支持第三方格式插件（如GELF、Fluentd等）。  
-- **日志级别控制**：支持调试、信息、警告、错误等日志级别，可按需过滤输出。  
-- **钩子系统**：允许自定义日志处理逻辑（如日志存储、通知）。  
-- **线程安全**：默认使用互斥锁保证并发写入安全，可关闭锁以提升性能。  
-- **测试工具**：提供测试钩子，用于验证日志输出内容和数量。  
-- **灵活配置**：支持环境变量控制格式（如生产环境用JSON，开发环境用文本）。
+Logrus 是 Go 语言的结构化日志库，API 与标准库 logger 完全兼容。它支持多级别日志（Trace 至 Panic）、多种格式化输出（JSON、文本等）、Hooks 机制（支持多目的地分发及异常追踪）、自定义配置及测试支持。库默认线程安全，可替换标准库日志使用，目前处于维护模式，不再新增功能，仅进行安全修复与性能优化。

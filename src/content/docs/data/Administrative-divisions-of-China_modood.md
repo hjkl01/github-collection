@@ -3,14 +3,6 @@
 title: Administrative-divisions-of-China
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/modood/Administrative-divisions-of-China?style=social) ](https://github.com/modood/Administrative-divisions-of-China)
-### [modood Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
+### [modood Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)  ![GitHub Repo stars](https://img.shields.io/github/stars/modood/Administrative-divisions-of-China?style=social)
 
-**核心内容总结：**  
-本项目提供中国五级行政区划数据（省、地级市、县/区、乡/镇/街道、村/居委会），包含JSON和CSV格式文件及SQLite数据库，数据更新至2023年。支持多级联动（如省-市、省-市-县等），适用于地理信息系统、行政管理等场景。用户可直接下载数据文件，或迁移至MySQL、Oracle等数据库使用。数据包含编码信息，便于程序调用和关联分析。  
-
-**主要特性：**  
-- 数据来源权威（国家统计局），覆盖全国范围；  
-- 提供多级行政区划联动数据（二级至四级）；  
-- 支持多种数据格式（JSON/CSV/SQLite）；  
-- 包含详细编码信息，便于技术集成。
+本项目提供中华人民共和国五级行政区划（省级、地级、县级、乡级、村级）数据，包含名称、代码及层级关联关系。数据源自国家统计局，截至 2023 年版本（2024 年 10 月起停止更新）。支持 JSON、CSV 及 SQLite 数据库格式，包含各级单独数据及省市、省市县等多级联动数据，适用于各类开发场景。

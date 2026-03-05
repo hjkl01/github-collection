@@ -3,19 +3,15 @@
 title: rime_wanxiang
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/amzxyz/rime_wanxiang?style=social) ](https://github.com/amzxyz/rime_wanxiang)
-### [amzxyz rime_wanxiang](https://github.com/amzxyz/rime_wanxiang)
+### [amzxyz rime_wanxiang](https://github.com/amzxyz/rime_wanxiang)  ![GitHub Repo stars](https://img.shields.io/github/stars/amzxyz/rime_wanxiang?style=social)
 
-**核心内容总结：**  
-该项目是基于RIME框架的“万象输入法”方案，支持多语言输入、自定义短语/词库、翻译模式、字符集过滤等功能。主要特性包括：  
-1. **高效输入**：支持拼音+辅助码、双拼、短码等多种编码方式，提供符号扩展输入（如`/sx`输入符号）、万能键`/`引导特殊功能。  
-2. **自定义配置**：可通过`custom_phrase.txt`定义短编码对应长语句或符号；支持自定义词库，需通过工具生成符合声调/辅助码格式的词库文件。  
-3. **用户词库同步**：通过`/sync`目录实现多设备用户词库（如`wanxiang.userdb`）的时序合并，需注意同步路径与`installation_id`匹配。  
-4. **翻译与过滤**：内置OpenCC翻译模式，支持中英文互译；提供字符集过滤（默认支持8105字+扩展字），通过`Ctrl+g`切换字集模式。  
-5. **工具支持**：提供Linux/Mac/Windows工具，用于处理词库的拼音/辅助码标注。  
+万象系列方案是基于 Rime 框架的高定制化输入法方案，核心功能总结如下：
 
-**使用方法**：  
-- 安装RIME后，导入`wanxiang.custom`方案文件，配置同步目录（`installation.yaml`中设置`sync_dir`）。  
-- 通过`Ctrl+E`切换翻译模式，`Ctrl+g`切换字集过滤，`/`触发符号/辅助码功能。  
-- 自定义短语需编辑`custom_phrase.txt`（格式：`床前明月光\tcqm`），自定义词库需通过工具生成并替换原词库文件。  
-- 用户词库迁移需通过右键菜单同步，确保跨设备数据一致性。
+1.  **核心词库**：基于 AI 辅助构建的带声调全字库，覆盖日常及多领域专业知识，主打“语句流”整句输出体验，所有词语自带音调标注。
+2.  **编码系统**：支持全拼与任意双拼，兼容主流辅码（墨奇、自然码、五笔等），提供拼音 + 辅码组合、声调筛选及 Unicode 17 标准反查（部件/笔画）。
+3.  **Lua 增强**：
+    *   **效率工具**：内置计算器、日期时间/节气模板、符号数学、金额大写、英文大小写智能转换。
+    *   **交互优化**：支持手动实时排序、成对符号包裹、超级 Tips（表情/化学式/翻译）、错音错字提示、空码回溯及输入统计。
+    *   **定制功能**：字符集过滤、OpenCC 替代的超级替换、中英混合输入、短语格式化。
+4.  **版本差异**：标准版支持全拼/双拼；Pro 版仅双拼，支持 7 种辅助码可选及高级造词功能（按需/无感造词）。
+5.  **平台支持**：全平台覆盖（Windows、macOS、Linux、Android、iOS），提供专用部署工具（工具箱/Plum/脚本）。

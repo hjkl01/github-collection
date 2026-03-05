@@ -3,26 +3,6 @@
 title: GlobalBuildingAtlas
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/zhu-xlab/GlobalBuildingAtlas?style=social) ](https://github.com/zhu-xlab/GlobalBuildingAtlas)
-### [zhu-xlab GlobalBuildingAtlas](https://github.com/zhu-xlab/GlobalBuildingAtlas)
+### [zhu-xlab GlobalBuildingAtlas](https://github.com/zhu-xlab/GlobalBuildingAtlas)  ![GitHub Repo stars](https://img.shields.io/github/stars/zhu-xlab/GlobalBuildingAtlas?style=social)
 
-**核心内容总结：**  
-该项目提供全球范围的建筑LoD1数据，包括建筑多边形、高度信息及三维模型。  
-
-**功能与使用方法：**  
-1. **数据访问**  
-   - 通过WFS接口（`https://tubvsig-so2sat-vm1.srv.mwn.de/geoserver/ows?`）用GIS软件（如QGIS）调用数据；  
-   - 通过在线Web Viewer（[链接](https://tubvsig-so2sat-vm1.srv.mwn.de)）浏览数据（可能因高并发导致部分数据加载不全）；  
-   - 从[mediaTUM](https://mediatum.ub.tum.de/1782307)下载全量数据。  
-
-2. **开发代码**  
-   - 建筑多边形生成（`./im2bf`）、高度估计（`./im2bh`及`./infer_height`）、LoD1模型生成（`./fuse_bf`及`./make_lod1`）；  
-   - 可视化代码（`./make_plots`）用于复现论文图表。  
-
-**主要特性：**  
-- 全球覆盖，提供建筑多边形、高度及LoD1三维模型；  
-- 代码模块化，支持建筑提取、高度估算、模型生成等全流程；  
-- 采用MIT许可证（禁止商业使用）。  
-
-**引用要求：**  
-使用该数据需引用论文：Zhu et al., *Earth System Science Data*, 2025.
+GlobalBuildingAtlas 项目提供全球范围内的 LoD1（一级细节）建筑物数据，涵盖建筑物多边形、高度及 LoD1 3D 模型。由于数据来源许可不同，数据集分为 ODbL 许可部分和 CC BY-NC 许可部分，分别托管于 HuggingFace 和 mediaTUM。用户可通过 WFS 接口、Web 查看器或直接下载获取数据，并利用配套脚本合并数据生成最终 LoD1 GeoJSON 文件。此外，项目还开源了基于卫星影像生成多边形、估算高度及构建 LoD1 模型的开发代码。

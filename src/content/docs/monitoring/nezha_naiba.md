@@ -3,23 +3,6 @@
 title: nezha
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/naiba/nezha?style=social) ](https://github.com/naiba/nezha)
-### [naiba nezha](https://github.com/naiba/nezha)
+### [naiba nezha](https://github.com/naiba/nezha)  ![GitHub Repo stars](https://img.shields.io/github/stars/naiba/nezha?style=social)
 
-**项目核心内容总结：**  
-哪吒监控是一款基于Go语言开发的开源监控工具，支持主机、网络、应用等多类型监控，具备告警通知、数据可视化、多语言界面等核心功能。  
-
-**主要特性：**  
-1. **全面监控能力**：覆盖系统资源（CPU、内存、磁盘）、网络状态、应用服务（HTTP/API）、数据库等，支持自定义监控项。  
-2. **灵活告警机制**：支持邮件、Webhook、企业微信等多种告警通知方式，可配置阈值与触发规则。  
-3. **可视化界面**：提供Web端数据看板，支持实时指标展示与历史数据查询。  
-4. **分布式架构**：支持多节点部署，适配Kubernetes等云原生环境，具备高可用性与横向扩展能力。  
-5. **多平台兼容**：支持Linux、macOS、Windows系统，可通过Docker或二进制文件快速部署。  
-
-**使用方法：**  
-- 安装方式：通过Docker镜像或下载二进制文件部署。  
-- 配置管理：基于YAML格式配置监控目标、告警规则与通知渠道。  
-- 启动服务：执行命令启动后，通过Web界面访问监控数据与告警状态。  
-
-**其他依赖：**  
-- 依赖IPInfo提供的GeoIP数据库实现地理位置解析。
+哪吒监控是一款自托管、轻量级的服务器和网站监控及运维工具。它支持监控系统状态、HTTP（含 SSL 证书状态）、TCP 连接及 Ping 响应；提供推送报警、定时任务执行和 Web 终端访问功能。

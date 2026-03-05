@@ -3,28 +3,6 @@
 title: cloudbase-framework
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/cloudbase-framework?style=social) ](https://github.com/Tencent/cloudbase-framework)
-### [Tencent cloudbase-framework](https://github.com/Tencent/cloudbase-framework)
+### [Tencent cloudbase-framework](https://github.com/Tencent/cloudbase-framework)  ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/cloudbase-framework?style=social)
 
-**项目核心内容总结：**  
-CloudBase Framework 是腾讯云推出的无服务器开发框架，提供云开发、云函数、数据库、存储等能力，帮助开发者快速构建应用。  
-
-**主要特性：**  
-- 模块化架构，支持灵活扩展；  
-- 与腾讯云服务深度集成，简化开发流程；  
-- 丰富的插件生态，提升开发效率；  
-- 支持多种编程语言（如 JavaScript/TypeScript）；  
-- 提供详细文档和社区资源支持。  
-
-**使用方法：**  
-- 通过官方模板快速搭建项目；  
-- 参考文档进行功能开发；  
-- 利用社区案例和插件扩展功能。  
-
-**贡献方式：**  
-- 提交技术文章、应用模板或案例；  
-- 参与代码开发（提交 Pull Request）；  
-- 反馈 Bug 或提出改进建议；  
-- 在技术会议发表演讲。  
-
-贡献者将被记录在项目贡献者名单中。
+云开发 CloudBase Framework 是云开发官方出品的前后端一体化部署工具。基于 Serverless 架构，支持无需改动代码即可实现前后端一键托管部署，具备加速访问、弹性伸缩及免运维特性。项目提供 CLI 工具，支持应用初始化与部署。通过插件机制，兼容多种应用框架（如 Vue、Node、Next.js 等）和编程语言（如 Go、Java、PHP、Dart 等），支持云函数、云托管、云数据库、认证等云资源的配置。支持自动检测生成插件配置，并提供丰富的应用示例模板。

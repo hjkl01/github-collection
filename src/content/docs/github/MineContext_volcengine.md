@@ -3,18 +3,13 @@
 title: MineContext
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/volcengine/MineContext?style=social) ](https://github.com/volcengine/MineContext)
-### [volcengine MineContext](https://github.com/volcengine/MineContext)
+### [volcengine MineContext](https://github.com/volcengine/MineContext)  ![GitHub Repo stars](https://img.shields.io/github/stars/volcengine/MineContext?style=social)
 
-MineContext 是一个开源工具，旨在捕捉用户的数字活动（如屏幕截图、文件、链接等），并基于这些数据自动生成摘要、待办事项和活动报告，帮助用户提升信息处理效率。其核心功能包括：  
-1. **多源数据采集**：支持屏幕截图、文件上传（结构化/非结构化文档、图片、音频、视频等）、链接抓取，并计划扩展微信、QQ聊天记录、移动截图等数据源。  
-2. **本地隐私保护**：所有数据在本地处理，无需依赖云端存储，保障用户隐私。  
-3. **智能内容生成**：自动整理每日总结、行动项、活动报告等，提供主动洞察。  
-4. **开源与定制**：代码完全开放，用户可自由修改和扩展功能。  
+MineContext 是一款开源的主动式上下文感知 AI 伴侣，旨在提升工作、学习与创作效率。
 
-**使用方法**：  
-- 配置 API 密钥（如需调用外部模型），安装依赖后启动前后端服务；  
-- 通过屏幕截图、链接上传、文件导入等方式输入数据；  
-- 使用内置功能生成智能内容或进行问答交互。  
-
-**主要优势**：相比 ChatGPT Pulse 和 Dayflow，MineContext 提供更全面的上下文捕捉能力、本地化隐私保护、开源自由度及更低成本（无需高额订阅）。
+核心功能：
+1. **智能上下文感知**：通过屏幕截图及多模态内容（文档、代码、应用数据等）自动化采集并理解用户数字环境。
+2. **主动信息交付**：后台自动生成并推送每日/周摘要、待办事项、活动记录及关键洞察。
+3. **创作辅助**：在创作时智能浮现相关上下文，辅助灵感激发与内容生成。
+4. **本地优先隐私保护**：数据默认存储于本地，支持调用本地 AI 模型，确保数据安全。
+5. **跨平台桌面应用**：基于 Electron 与 Python 构建，支持 Windows、macOS 及 Linux。

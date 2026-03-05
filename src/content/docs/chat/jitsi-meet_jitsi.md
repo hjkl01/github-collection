@@ -3,8 +3,6 @@
 title: jitsi-meet
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social) ](https://github.com/jitsi/jitsi-meet)
-### [jitsi jitsi-meet](https://github.com/jitsi/jitsi-meet)
+### [jitsi jitsi-meet](https://github.com/jitsi/jitsi-meet)  ![GitHub Repo stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social)
 
-**核心内容总结：**  
-Jitsi Meet 是一个开源的视频会议平台，支持所有现代浏览器和移动端（Android/iOS），提供高清音视频、内容共享、聊天、投票、虚拟背景等功能。用户可通过 [meet.jit.si](https://meet.jit.si) 直接使用，需注册 Google/Facebook/GitHub 账号。开发者可部署自建实例（支持 Debian/Docker 部署），或使用 JaaS 服务（企业级视频会议解决方案）。项目提供详细文档、安全说明（含端到端加密）及贡献指南，由 8x8 团队和社区维护。
+Jitsi Meet 是一套开源项目，提供功能完备且画质优异的视频会议平台。主要特性包括：支持所有主流浏览器及移动端应用（Android/iOS），提供 Web 和本地 SDK 供集成，支持高清音视频、内容共享、举手与反应、私密聊天、投票和虚拟背景。用户可直接使用免费的公共实例，也可通过 Docker、Debian 包或源码自行部署私有实例，或采用 8x8 提供的企业级 JaaS 服务。

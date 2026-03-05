@@ -3,8 +3,6 @@
 title: flare
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/soulteary/flare?style=social) ](https://github.com/soulteary/flare)
-### [soulteary flare](https://github.com/soulteary/flare)
+### [soulteary flare](https://github.com/soulteary/flare)  ![GitHub Repo stars](https://img.shields.io/github/stars/soulteary/flare?style=social)
 
-**项目核心内容总结：**  
-Flare 是一款高性能的书签管理和网站目录工具，目标是成为同类应用中的性能标杆。项目使用 Go 语言和少量现代 JavaScript 开发，无需依赖数据库或复杂框架，提供单文件可执行程序，支持 Docker 部署。用户可根据需求灵活启用功能（如离线模式、天气、编辑器等）。主要特性包括：轻量快速、安装简便、模块化设计、支持自定义配置。当前代码处于持续重构阶段，更新节奏较慢。
+Flare 是一款高性能轻量级书签管理工具。采用 Go 语言开发，无需数据库依赖，支持单可执行文件及 Docker 部署。功能简洁易用，支持按需启用离线模式、天气、编辑器及账户管理等模块化功能。

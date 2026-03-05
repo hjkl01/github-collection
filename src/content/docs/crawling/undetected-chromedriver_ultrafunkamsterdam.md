@@ -3,24 +3,16 @@
 title: undetected-chromedriver
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ultrafunkamsterdam/undetected-chromedriver?style=social) ](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
-### [ultrafunkamsterdam undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
+### [ultrafunkamsterdam undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)  ![GitHub Repo stars](https://img.shields.io/github/stars/ultrafunkamsterdam/undetected-chromedriver?style=social)
 
-**项目核心内容总结：**
+undetected_chromedriver 是一个优化的 Selenium ChromeDriver 补丁库，旨在绕过反爬虫服务（如 Distill Network、Imperva、DataDome 等）的检测。
 
-**项目功能**  
-该项目是一个用于规避网站反爬虫检测的ChromeDriver工具库，通过修改ChromeDriver行为，使自动化脚本更难以被反爬系统（如DistilNetworks、DataDome）识别。
+核心功能：
+1. 自动下载并修补 Chromedriver 二进制文件，无需手动配置。
+2. 兼容当前 Chrome 版本及 Brave 等 Chromium 浏览器，支持无头模式（Headless）。
+3. 提供便捷工具函数（如递归查找元素、安全点击、CDP 事件监听）。
+4. 自动处理版本兼容性，避免版本不匹配错误。
 
-**主要特性**  
-1. 支持指定Chrome版本，适配不同浏览器环境  
-2. 提供多种使用模式（普通模式、MonkeyPatch模式）  
-3. 支持自定义配置（如代理设置、驱动路径）  
-4. 无头模式（Headless）兼容性优化  
-5. 内置反检测机制，提升自动化脚本隐蔽性  
-
-**使用方法**  
-1. 基础用法：直接导入库并初始化Chrome驱动  
-2. 版本控制：通过`uc.TARGET_VERSION`指定Chrome版本  
-3. 高级配置：可设置驱动路径、添加代理参数等  
-4. MonkeyPatch模式：需在导入Selenium前调用`uc.install()`  
-5. 示例包含绕过DataDome反爬检测的场景演示
+注意事项：
+1. 不隐藏 IP 地址，从数据中心运行可能无法通过验证。
+2. 需 Python 3.6+，安装后直接调用 `uc.Chrome()` 即可使用。

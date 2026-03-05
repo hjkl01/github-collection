@@ -5,8 +5,4 @@ title: webrtc
 
 ### [pion webrtc](https://github.com/pion/webrtc)  ![GitHub Repo stars](https://img.shields.io/github/stars/pion/webrtc?style=social)
 
-Pion WebRTC 是一个纯 Go 实现的 WebRTC API，支持实时音视频通信和数据通道传输。项目提供完整的 PeerConnection 接口（包括数据通道、音视频收发、重协商等）、ICE 连接协议（含 STUN/TURN 服务器支持）、媒体处理（支持 Opus、H264、VP8/VP9 等编码格式）及安全功能（DTLS/SRTP 加密）。  
-
-使用时需通过 Go Modules 引入 `github.com/pion/webrtc/v4`，并配合示例代码（如音视频传输、 simulcast、带宽估算等）进行开发。项目支持跨平台（Windows/macOS/Linux/FreeBSD/iOS/Android/WebAssembly）且无需 Cgo，构建速度快（示例项目构建耗时约 0.28 秒）。  
-
-主要特性包括：支持 Plan-B 和 Unified Plan 架构、RTP/RTCP 直接访问、硬件加速的加密套件、NACK 丢包补偿、TWCC 拥塞控制反馈，以及与 GStreamer、x264 等工具链的集成。
+Pion WebRTC 是一个纯 Go 实现的 WebRTC API 库。它提供 PeerConnection、DataChannels 及音视频传输功能，支持 H.264、VP8、VP9、Opus 等编解码器。项目内置完整的网络连接（ICE、STUN、TURN、mDNS）与安全机制（DTLS、SRTP）。无需 Cgo，跨平台支持广泛（Windows、macOS、Linux、iOS、Android、WASM 等），采用 MIT 开源协议。

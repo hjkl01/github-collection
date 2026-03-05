@@ -3,22 +3,15 @@
 title: buildkit
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/moby/buildkit?style=social) ](https://github.com/moby/buildkit)
-### [moby buildkit](https://github.com/moby/buildkit)
+### [moby buildkit](https://github.com/moby/buildkit)  ![GitHub Repo stars](https://img.shields.io/github/stars/moby/buildkit?style=social)
 
-**BuildKit 核心内容总结：**
+BuildKit 是一个高效、可扩展的工具包，用于将源代码转换为构建产物。其核心组件为 `buildkitd` 守护进程和 `buildctl` 客户端。
 
-**项目功能：**  
-BuildKit 是一个用于构建容器镜像的工具，支持多种构建方式（如 Dockerfile）、多平台镜像构建、构建元数据输出（如镜像摘要），并兼容多种容器运行环境（Docker、Podman、Nerdctl、Kubernetes）。
+主要功能特性：
+1. **高效构建**：支持指令缓存、自动垃圾回收、并发依赖解析及无 Root 权限运行。
+2. **可扩展前端**：基于 LLB 中间格式，支持 Dockerfile、Buildpacks、HLB 等多种构建定义。
+3. **多样输出**：支持将结果输出为镜像仓库、本地目录、Docker/OCI tarball 或 containerd 存储。
+4. **灵活缓存**：支持本地、Registry、S3、Azure Blob Storage 及 GitHub Actions 等多种缓存后端。
+5. **架构灵活**：支持分布式 Workers、TCP 服务暴露、Systemd socket 激活及容器化部署。
 
-**使用方法：**  
-- 通过 `buildctl` 命令行工具操作，支持与本地或远程 BuildKit 守护进程通信。  
-- 可运行于系统级（Systemd socket 激活、TCP 服务）、容器化环境（Docker/Podman/Nerdctl 容器）或 Kubernetes 部署。  
-- 支持“无守护进程模式”（daemonless），在单个容器中同时运行客户端和临时守护进程。
-
-**主要特性：**  
-- **多平台构建**：支持跨架构镜像构建（如 x86 到 ARM）。  
-- **可扩展性**：支持 OpenTelemetry 追踪（集成 Jaeger 等工具）。  
-- **灵活性**：可自定义日志输出颜色、调整 TTY 模式下的日志行数。  
-- **安全性**：支持无 root 权限运行（rootless 模式）。  
-- **容器化部署**：提供官方镜像（如 `moby/buildkit`），支持多种运行环境。
+该工具被 Docker、Kubernetes、Tekton 及多种 CI/CD 平台广泛采用。

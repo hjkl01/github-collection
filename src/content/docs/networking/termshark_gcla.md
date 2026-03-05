@@ -3,20 +3,6 @@
 title: termshark
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gcla/termshark?style=social) ](https://github.com/gcla/termshark)
-### [gcla termshark](https://github.com/gcla/termshark)
+### [gcla termshark](https://github.com/gcla/termshark)  ![GitHub Repo stars](https://img.shields.io/github/stars/gcla/termshark?style=social)
 
-**项目核心内容总结：**  
-Termshark 是一个交互式、基于终端的网络流量分析工具，功能类似于 Wireshark，但专为终端环境设计。  
-
-**主要功能与特性：**  
-1. **实时流量捕获与分析**：支持通过命令行捕获网络流量，并实时显示解析结果。  
-2. **交互式过滤**：提供动态过滤功能，可按协议、IP地址、端口等条件筛选流量。  
-3. **协议解码**：支持常见网络协议（如 HTTP、DNS、TCP/UDP）的详细解析。  
-4. **多格式输出**：可导出捕获数据为 JSON、PCAP 等格式，便于后续处理。  
-5. **远程捕获**：通过 SSH 连接远程设备进行流量捕获。  
-6. **可扩展性**：支持插件系统，可自定义协议解析或功能扩展。  
-7. **轻量高效**：基于 Go 语言开发，资源占用低，运行速度快。  
-
-**使用方法**：  
-通过命令行启动，例如 `termshark -i eth0`（指定网络接口），支持参数自定义捕获条件、过滤规则及输出格式。
+Termshark 是一个基于终端的 tshark 用户界面工具，灵感源自 Wireshark。它支持读取 pcap 文件或嗅探实时网络接口，利用 Wireshark 显示过滤器进行过滤，可重新组装并检查 TCP 和 UDP 流，按协议查看网络对话，并支持从终端复制数据包范围到剪贴板。该项目使用 Go 语言编写，为单可执行文件，支持 Linux、macOS、BSD、Android 及 Windows 平台，运行时依赖 tshark。

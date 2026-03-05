@@ -3,28 +3,6 @@
 title: res-downloader
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/putyy/res-downloader?style=social) ](https://github.com/putyy/res-downloader)
-### [putyy res-downloader](https://github.com/putyy/res-downloader)
+### [putyy res-downloader](https://github.com/putyy/res-downloader)  ![GitHub Repo stars](https://img.shields.io/github/stars/putyy/res-downloader?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-一款基于 Go 和 Wails 开发的跨平台资源下载工具，支持视频、音频、图片、m3u8、直播流等资源嗅探与下载，兼容微信视频号、抖音、快手、小红书等平台，可设置代理抓取受限网络资源。
-
-**主要特性**  
-- 跨平台支持：Windows / macOS / Linux  
-- 支持多资源类型及主流平台  
-- 代理抓包功能，可拦截网络资源  
-- 界面简洁，操作便捷  
-
-**使用方法**  
-1. 安装时允许安装证书并开启网络访问  
-2. 启动软件后点击“启动代理”  
-3. 选择资源类型（如视频、音频等）  
-4. 在外部浏览器打开目标资源页面  
-5. 返回软件首页查看并下载资源  
-
-**注意事项**  
-- 下载大文件失败时，可使用 Neat Download Manager 或 Motrix 工具  
-- 确保系统代理设置为 `127.0.0.1:8899`  
-- 软件仅限学习研究，禁止商业或违法用途
+爱享素材下载器是一款基于 Go + Wails 开发的跨平台资源下载工具，支持 Windows、macOS 和 Linux 系统。具备多资源类型支持，可嗅探并下载视频、音频、图片、m3u8 及直播流等内容。兼容微信视频号、抖音、快手、小红书、酷狗音乐等多个平台，支持代理抓包以获取受限网络资源。软件通过代理方式抓包筛选资源，操作简便，仅供学习与研究用途。

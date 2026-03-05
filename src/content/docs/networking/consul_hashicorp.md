@@ -3,26 +3,16 @@
 title: consul
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hashicorp/consul?style=social) ](https://github.com/hashicorp/consul)
-### [hashicorp consul](https://github.com/hashicorp/consul)
+### [hashicorp consul](https://github.com/hashicorp/consul)  ![GitHub Repo stars](https://img.shields.io/github/stars/hashicorp/consul?style=social)
 
-**Consul 核心内容总结：**
+Consul 是一个分布式、高可用且感知数据中心的解决方案，用于在动态分布式基础设施中连接和配置应用程序。
 
-**项目功能**  
-Consul 是一个分布式、高可用的解决方案，用于跨动态基础设施连接和配置应用，支持多数据中心、服务网格、API 网关、服务发现、健康检查和动态应用配置。
+核心功能包括：
+1. **多数据中心**：支持任意区域部署，无需复杂配置。
+2. **服务网格**：实现安全的服務间通信，支持自动 TLS 加密和身份授权。
+3. **API 网关**：管理服务网格内的访问，定义流量和授权策略。
+4. **服务发现**：通过 DNS 或 HTTP 接口实现服务注册与发现。
+5. **健康检查**：快速告警集群问题，阻断流向不健康主机的流量。
+6. **动态应用配置**：通过 HTTP API 存储配置参数和元数据。
 
-**主要特性**  
-- **多数据中心**：支持任意数量数据中心，配置简单。  
-- **服务网格**：提供自动 TLS 加密和基于身份的授权，支持透明代理。  
-- **API 网关**：定义流量和授权策略，管理服务访问。  
-- **服务发现**：通过 DNS 或 HTTP 实现服务注册与发现，支持外部服务注册。  
-- **健康检查**：实时监控集群状态，防止流量路由到异常节点。  
-- **动态配置**：通过 HTTP API 存储配置参数和元数据。  
-
-**使用方法**  
-- 快速入门方式包括：独立二进制安装、Minikube/Kind/Kubernetes 部署、HCP Consul 部署（详见官方文档链接）。  
-
-**其他信息**  
-- 提供基于浏览器的 UI（可选），企业版为 Consul Enterprise。  
-- 安全相关问题需通过指定邮箱进行负责任披露。  
-- 文档和教程见 [Consul 官方网站](https://developer.hashicorp.com/consul)，贡献指南见 GitHub 项目说明。
+支持 Linux、macOS、Windows 等多种操作系统，提供浏览器 UI 界面，并提供企业版。

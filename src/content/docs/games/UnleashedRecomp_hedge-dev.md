@@ -3,22 +3,6 @@
 title: UnleashedRecomp
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/hedge-dev/UnleashedRecomp?style=social) ](https://github.com/hedge-dev/UnleashedRecomp)
-### [hedge-dev UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp)
+### [hedge-dev UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp)  ![GitHub Repo stars](https://img.shields.io/github/stars/hedge-dev/UnleashedRecomp?style=social)
 
-**项目核心内容总结：**
-
-该项目是对《索尼克大冒险》（Xbox 360 版本）的重新编译，旨在让游戏能够在现代操作系统（如 Windows 和 Linux）上运行。项目提供了完整的图形、音频和输入支持，并加入了现代用户界面、动态 UI 以及多种图形选项，如分辨率缩放、抗锯齿和阴影分辨率等，以提升游戏体验和性能。此外，项目还支持成就系统、多语言界面（包括中文、英文、日文、西班牙文、法文、意大利文和德文）以及自定义菜单。
-
-**使用方法：**
-- 项目提供了安装向导，用户可通过安装程序完成游戏的安装和配置。
-- 支持通过修改配置文件（config.toml）调整图形设置和硬件设备（如选择独立显卡）。
-- 可通过 F1 键查看性能报告，帮助优化游戏表现。
-
-**主要特性：**
-- 支持 Windows 和 Linux 系统。
-- 提供高质量图形渲染和多种图形选项。
-- 支持现代输入设备（如 Xbox 控制器）。
-- 包含自定义菜单、动态 UI 和多语言支持。
-- 支持成就系统和模组兼容性（通过 Hedge Mod Manager）。
-- 项目提供了详细的构建文档，支持开发者参与贡献。
+Unleashed Recompiled 是一个将 Xbox 360 版《刺猬索尼克：未知力量》转换为 Windows 和 Linux 版本的非官方 PC 移植项目，采用静态反编译技术。核心功能包括支持高分辨率、超宽屏显示及高帧率渲染（默认 60 FPS），提供现代化渲染器、异步着色器编译以消除卡顿，以及兼容 Hedge Mod Manager 的模组支持。此外，项目还包含画质增强选项（如抗锯齿、景深优化）、自定义本地化、成就系统、低输入延迟、多控制器支持及 Steam Deck 原生运行能力。项目本身不包含游戏资源，用户需自行从合法购买的 Xbox 360 版本中提取文件进行安装。

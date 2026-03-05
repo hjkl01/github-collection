@@ -3,18 +3,16 @@
 title: sealos
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/labring/sealos?style=social) ](https://github.com/labring/sealos)
-### [labring sealos](https://github.com/labring/sealos)
+### [labring sealos](https://github.com/labring/sealos)  ![GitHub Repo stars](https://img.shields.io/github/stars/labring/sealos?style=social)
 
-Sealos 是基于 Kubernetes 的云操作系统发行版，提供开发、部署和扩展的一体化云平台。主要功能包括：  
-- **快速环境搭建**：一键创建包含语言/框架的开发环境，支持 VSCode、Cursor 等 IDE 访问。  
-- **数据库管理**：支持 MySQL、PostgreSQL 等高可用数据库的秒级创建。  
-- **应用部署**：通过 Kubernetes 部署 Docker 镜像，并通过 Ingress 暴露服务。  
+Sealos 是一款基于 Kubernetes 构建的 AI 原生云操作系统，统一了从云端 IDE 开发到生产部署及管理的整个应用生命周期。
 
-**核心特性**：  
-- 应用管理：模板市场支持快速发布分布式应用。  
-- 云通用性：兼容公有云与私有云，支持传统应用无缝迁移。  
-- 高效经济：按容器付费，自动扩缩容降低资源浪费。  
+核心功能包括：
+1. 集成云 IDE：提供零配置协作开发环境，消除本地环境差异。
+2. 托管数据库与存储：支持 MySQL、PostgreSQL、MongoDB、Redis 及 S3 兼容对象存储。
+3. 应用商店：支持零 YAML 配置的一键部署，隐藏容器编排复杂度。
+4. Kubernetes 原生能力：简化操作的同时提供完整的 K8s 功能。
+5. 多租户管理：支持基于工作区的隔离、RBAC 权限及资源配额。
+6. AI 基础设施：支持通过描述构建和扩展服务。
 
-**使用限制**：  
-采用定制许可协议，允许内部业务及个人非商业使用，禁止向第三方提供云服务。
+适用于现代 AI 应用、SaaS 平台及复杂微服务架构。

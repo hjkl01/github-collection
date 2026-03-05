@@ -3,19 +3,11 @@
 title: ore
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/regolith-labs/ore?style=social) ](https://github.com/regolith-labs/ore)
-### [regolith-labs ore](https://github.com/regolith-labs/ore)
+### [regolith-labs ore](https://github.com/regolith-labs/ore)  ![GitHub Repo stars](https://img.shields.io/github/stars/regolith-labs/ore?style=social)
 
-ORE 是一个加密货币挖矿协议，支持挖矿、质押和管理员操作等功能。项目提供模块化指令结构，包含以下核心功能：
+ORE 是一个加密货币挖矿协议（基于 Solana 链），主要功能总结如下：
 
-1. **挖矿指令**：支持自动化配置、收益结算、SOL/ORE奖励领取、棋盘重置等操作。
-2. **质押指令**：允许用户存款、提现及领取质押收益，包含Seeker代币认领功能。
-3. **管理指令**：提供管理员权限转移、费用配置、SOL封装等控制功能。
-
-**状态管理**：通过多个结构体跟踪自动化配置、棋盘轮次、矿工状态、资金池等关键数据。
-
-**使用方法**：  
-- 运行测试用例：`cargo test-sbf`  
-- 生成代码覆盖率报告：`cargo llvm-cov`  
-
-主要特性包括模块化指令设计、多角色操作支持（矿工/质押者/管理员）、完整的状态追踪系统及可扩展的配置管理。
+1. **挖矿模块**：支持配置自动化、领取 ORE 和 SOL 奖励、部署 SOL 占据空间以及重置游戏轮次。
+2. **质押模块**：提供 ORE 代币的存入与取出、领取质押收益及申领 Seeker 创世代币。
+3. **管理模块**：包含管理员权限设定、手续费调整、资金包裹（Wrap）及买入埋入交易。
+4. **状态管理**：追踪游戏轮次、矿工状态、质押账户活动及金库代币的铸造、销毁与托管。

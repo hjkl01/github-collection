@@ -3,15 +3,13 @@
 title: SurfSense
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MODSetter/SurfSense?style=social) ](https://github.com/MODSetter/SurfSense)
-### [MODSetter SurfSense](https://github.com/MODSetter/SurfSense)
+### [MODSetter SurfSense](https://github.com/MODSetter/SurfSense)  ![GitHub Repo stars](https://img.shields.io/github/stars/MODSetter/SurfSense?style=social)
 
-**项目核心内容总结：**  
-SurfSense 是一款基于 AI 的研究代理工具，支持整合个人知识库与外部资源（如搜索引擎、Slack、Jira、Notion 等），提供多文件格式上传、智能搜索、对话交互、引用答案、本地 LLM 支持、团队协作管理、播客生成等功能。其核心特性包括：  
-- **高级搜索**：结合向量相似度与全文检索（RRF 算法），支持多源数据精准查询。  
-- **灵活部署**：提供云服务（无需安装）、Docker 快速启动、Docker Compose 生产部署及手动安装选项。  
-- **技术栈**：后端基于 FastAPI、PostgreSQL（含向量搜索）、Redis；前端采用 Next.js、React、Tailwind CSS 等。  
-- **扩展功能**：支持播客自动生成、文档智能分块与嵌入（Chonkie 库）、多用户权限管理等。  
+SurfSense 是一款开源 AI 研究代理，支持将大语言模型连接至内部知识源并实现团队实时协作，可作为 NotebookLM、Perplexity 和 Glean 的开源替代方案。
 
-**使用方法**：  
-用户可通过 SurfSense Cloud 直接使用，或通过 Docker 命令快速本地部署，亦可配置 Docker Compose 实现生产级部署，手动安装需按文档配置依赖服务（如数据库、ETL 工具等）。
+主要功能如下：
+- **多源集成**：连接搜索引擎、云存储、协作工具等 25+ 外部数据源，支持 50+ 种文件格式。
+- **智能交互**：提供混合搜索与带引用的问答，支持文档问答。
+- **内容生成**：自动生成报告（PDF/DOCX）、播客及图像。
+- **团队协作**：支持实时共享搜索空间、评论及基于角色的权限管理。
+- **隐私部署**：支持云端使用或本地 Docker 部署，全面兼容本地 LLM。

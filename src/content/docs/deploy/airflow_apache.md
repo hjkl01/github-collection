@@ -3,30 +3,6 @@
 title: airflow
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social) ](https://github.com/apache/airflow)
-### [apache airflow](https://github.com/apache/airflow)
+### [apache airflow](https://github.com/apache/airflow)  ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social)
 
-### 核心内容总结
-
-Apache Airflow 是一个用于编排和管理复杂数据流水线的开源平台，支持定时任务、依赖管理、监控和可视化。其主要功能包括：
-
-1. **项目功能**  
-   - 通过 Python 编写 DAG（有向无环图）定义任务流程，支持多种执行器（如本地、Kubernetes、Celery 等）。  
-   - 提供可视化界面查看任务状态、日志和依赖关系。  
-   - 支持与多种数据源（如数据库、消息队列、云服务）集成，适用于 ETL、数据处理、机器学习等场景。
-
-2. **使用方法**  
-   - 安装 Airflow 后，通过编写 Python 脚本定义 DAG 和任务，配置调度器（如 cron 表达式）触发执行。  
-   - 使用命令行工具启动 Web 界面和调度器，监控任务运行状态。
-
-3. **主要特性**  
-   - **可扩展性**：支持自定义插件、连接器和执行器。  
-   - **灵活性**：任务可重试、失败重试、设置超时时间等。  
-   - **社区支持**：由 Apache 基金会维护，拥有丰富的文档、教程和社区资源。  
-   - **版本管理**：遵循语义化版本（Semver），明确区分主版本（MAJOR）、次版本（MINOR）和补丁版本（PATCH）的更新规则。
-
----
-
-### 注意事项说明  
-- 原文为英文，已准确翻译为中文并总结核心内容，未保留英文版本。  
-- 未包含图片、维护信息、发布流程等非核心内容。
+Apache Airflow 是一个用于以编程方式编写、调度和监控工作流的开源平台。它将工作流定义为代码（DAGs），实现任务的可维护性、版本控制和协作性。调度器根据依赖关系在集群上执行任务，并提供命令行工具与用户界面，用于可视化管道、监控进度及故障排除。项目支持动态工作流生成、高度可扩展性及基于 Jinja 模板的灵活配置，适用于批处理场景并建议任务具备幂等性。它支持多种数据库和操作系统环境，遵循 Apache 2.0 许可证。

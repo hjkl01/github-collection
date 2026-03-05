@@ -3,27 +3,15 @@
 title: tyk
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social) ](https://github.com/TykTechnologies/tyk)
-### [TykTechnologies tyk](https://github.com/TykTechnologies/tyk)
+### [TykTechnologies tyk](https://github.com/TykTechnologies/tyk)  ![GitHub Repo stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social)
 
-**Tyk API网关核心内容总结：**
+Tyk API Gateway 是一款云原生、开源且适用于企业级的 API 网关，支持 REST、GraphQL、gRPC、TCP 和 SOAP 协议。其核心功能包括：
 
-**项目功能**  
-Tyk是云原生、开源的API网关，支持REST、GraphQL、gRPC和TCP协议，提供认证、限流、分析、插件扩展等功能，适用于企业级API管理。
+1. **安全认证**：内置支持 OIDC、JWT、Bearer Token、Basic Auth 及客户端证书，提供 IP 白/黑名单、CORS 及细粒度访问控制。
+2. **流量治理**：具备限流、配额管理、API 版本控制及速率限制能力，防止上游服务过载。
+3. **内容中介**：支持请求/响应头转换及格式转换（如 SOAP 与 GraphQL 互转）。
+4. **高性能与扩展**：低延迟、高吞吐，支持水平/垂直扩展及 Kubernetes 原生部署（通过 Operator）。
+5. **可观测性与插件**：提供详细 API 使用日志、Webhooks 事件通知，支持通过 Go、Python、JS 等语言编写自定义插件。
+6. **配置管理**：支持配置热重载，无需中断活跃请求即可更新服务。
 
-**使用方法**  
-1. **快速启动**：通过Docker Compose安装，执行`git clone`、`cd tyk-gateway-docker`、`docker-compose up`即可运行，访问`localhost:8080/hello`验证。  
-2. 其他安装方式包括Kubernetes、Ansible、Ubuntu等，或从源码编译（需Go 1.22）。
-
-**主要特性**  
-- 支持多种协议及OAuth2、JWT等认证方式。  
-- 高性能，低延迟，支持水平扩展。  
-- 插件架构（支持Go/Python/JS等语言）。  
-- Kubernetes原生集成（通过Tyk Operator）。  
-- 动态配置热更新、访问控制、流量限速、日志分析等功能。  
-
-**许可证**  
-开源代码遵循MPL v2.0，`ee`目录代码需商业许可。  
-
-**其他**  
-提供Tyk Pump（分析数据导出）、Sync（版本控制同步）等配套工具，文档及社区支持详见官网。
+项目采用 MPL 2.0 开源许可，核心功能免费，部分企业级功能（位于 'ee' 文件夹）需商业授权。

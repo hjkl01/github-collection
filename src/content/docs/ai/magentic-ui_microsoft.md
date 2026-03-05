@@ -3,22 +3,6 @@
 title: magentic-ui
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/magentic-ui?style=social) ](https://github.com/microsoft/magentic-ui)
-### [microsoft magentic-ui](https://github.com/microsoft/magentic-ui)
+### [microsoft magentic-ui](https://github.com/microsoft/magentic-ui)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/magentic-ui?style=social)
 
-**项目核心内容总结：**  
-Magentic-UI 是一个基于 AutoGen 的多代理系统，支持创建“人类在环”的智能代理，用于任务自动化与协作。其功能包括：  
-1. **模型集成**：支持 OpenAI、Azure、Ollama 等多种模型，可通过配置文件灵活设置模型参数（如 API 密钥、模型类型）。  
-2. **自定义代理**：允许添加自定义 MCP 代理（如 Airbnb 专用代理），集成第三方工具（如 OpenBnb API）。  
-3. **交互方式**：提供 Web 界面，用户可通过设置调整模型配置，实现多代理协作与任务执行。  
-4. **开发与部署**：支持从源码构建，包含前端开发模式（实时更新）与 Docker 部署方式。  
-
-**使用方法**：  
-- 安装依赖后，通过命令 `magentic-ui --port 8081` 启动服务，访问 `http://localhost:8081` 使用界面。  
-- 通过 YAML 配置文件自定义模型参数或添加 MCP 代理（如指定模型、API 地址、工具权限等）。  
-- 源码修改时，前端可使用 `npm run start` 启动开发模式，后端通过 `magentic-ui` 命令运行。  
-
-**主要特性**：  
-- 支持多种模型与自定义工具集成，扩展性强。  
-- 提供灵活的配置选项，适配不同场景需求。  
-- 人类可实时干预代理行为，确保任务执行的可控性。
+Magentic-UI 是一个以人为本的人工智能代理研究原型，用于自动化复杂的网页浏览、代码执行及文件分析任务。该系统具有透明可控的交互界面，支持人机协同制定执行计划、实时干预任务流程，并对敏感操作请求用户审批。项目支持“等待监控”模式、MCP 服务器扩展及多种大模型配置（如 OpenAI、Ollama、Fara-7B），基于 AutoGen 构建，提供 Web 界面交互及 Docker 部署支持。

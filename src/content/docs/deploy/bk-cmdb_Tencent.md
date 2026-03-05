@@ -3,18 +3,11 @@
 title: bk-cmdb
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/bk-cmdb?style=social) ](https://github.com/Tencent/bk-cmdb)
-### [Tencent bk-cmdb](https://github.com/Tencent/bk-cmdb)
+### [Tencent bk-cmdb](https://github.com/Tencent/bk-cmdb)  ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/bk-cmdb?style=social)
 
-**核心内容总结：**  
-蓝鲸CMDB是企业级配置管理平台，支持资产及应用管理，提供自定义模型、数据自动发现、权限管理、拓扑化主机管理、进程管理、事件推送等功能。技术架构分为资源原子操作层和场景层，支持主机、进程、通用对象等资源管理。  
-
-**使用方法：**  
-提供下载编译、安装部署、版本升级、API使用、容器化部署（Helm）等指导，可通过在线体验链接（admin/admin）试用。  
-
-**主要特性：**  
-- 拓扑化主机管理与快照数据  
-- 可扩展的组织架构与自定义模型  
-- 进程管理及事件主动推送  
-- 细粒度权限控制与操作审计  
-- 支持容器化部署及K8S环境集成
+蓝鲸配置平台（bk-cmdb）是面向资产及应用的企业级配置管理平台。
+1. 模型管理：支持自定义模型、属性拓展及关联关系，可纳管网络、中间件等资源。
+2. 资源管理：实现拓扑化的主机、进程管理，支持可扩展的业务组织架构。
+3. 数据能力：支持机器数据快照、数据自动发现及变更事件主动推送。
+4. 权限安全：具备基于用户组的精细权限管理及操作审计回溯。
+5. 架构设计：核心聚焦主机、进程和通用对象三种原子资源，构建场景层操作。

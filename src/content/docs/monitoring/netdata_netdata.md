@@ -3,31 +3,6 @@
 title: netdata
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/netdata/netdata?style=social) ](https://github.com/netdata/netdata)
-### [netdata netdata](https://github.com/netdata/netdata)
+### [netdata netdata](https://github.com/netdata/netdata)  ![GitHub Repo stars](https://img.shields.io/github/stars/netdata/netdata?style=social)
 
-**Netdata 核心内容总结**  
-
-**项目功能**  
-Netdata 是一款开源的实时监控工具，支持对服务器、容器、网络设备等进行高分辨率监控，提供实时指标可视化、自动告警、机器学习驱动的异常检测、无需配置的仪表盘生成等功能。  
-
-**使用方法**  
-- 安装：通过脚本一键部署，支持 Linux 系统；  
-- 配置：支持与 Prometheus、Grafana 等工具集成，可自定义告警规则和数据存储策略；  
-- 扩展：通过 Netdata Cloud 实现跨多服务器的集中管理，支持远程访问和团队协作。  
-
-**主要特性**  
-1. **实时监控**：毫秒级数据更新，支持 CPU、内存、磁盘、网络等 200+ 指标；  
-2. **边缘机器学习**：本地训练模型，自动检测异常，无需依赖云端计算；  
-3. **零配置可视化**：基于 NIDL 数据模型自动生成仪表盘，无需查询语言；  
-4. **低资源占用**：默认消耗约 5% CPU 和 150MB 内存，支持内存模式运行；  
-5. **灵活扩展**：支持本地存储、云服务（Netdata Cloud）及混合部署，数据保留策略可分级配置；  
-6. **安全合规**：遵循 OpenSSF 安全标准，支持匿名统计关闭。  
-
-**开源许可**  
-- Netdata Agent：GPLv3+ 开源协议，包含部分第三方库；  
-- Netdata UI：闭源但免费提供，通过 CDN 分发；  
-- Netdata Cloud：闭源，提供免费和付费版本。  
-
-**适用场景**  
-适用于企业级监控、DevOps 运维、云原生环境（CNCF 成员项目）及个人开发者，兼容主流技术栈（如 Kubernetes、Docker）。
+Netdata 是一款开源的实时基础设施监控平台，提供每秒级指标数据收集与可视化。其核心功能包括零配置自动发现、边缘侧机器学习异常检测、极低资源占用及高可扩展性。Netdata 支持 Linux、macOS、Windows、FreeBSD 及容器环境，可全面监控系统资源、硬件、网络、日志、云服务及自定义应用。数据默认本地存储，支持通过 Netdata Cloud 实现跨节点集中管理与远程访问。平台内置交互式仪表盘、告警通知及分层存储功能，无需查询语言即可快速部署使用。

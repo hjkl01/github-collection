@@ -3,7 +3,13 @@
 title: X-AnyLabeling
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/CVHub520/X-AnyLabeling?style=social) ](https://github.com/CVHub520/X-AnyLabeling)
-### [CVHub520 X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)
+### [CVHub520 X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)  ![GitHub Repo stars](https://img.shields.io/github/stars/CVHub520/X-AnyLabeling?style=social)
 
-X-AnyLabeling 是一个集成 AI 引擎的多功能标注工具，支持图像和视频处理，涵盖分类、检测、分割、OCR、跟踪等 20+ 任务类型。主要特性包括：支持 GPU 加速的远程推理服务、200+ 预置模型（含 YOLO、SAM、Grounding DINO 等主流算法）、自定义模型开发、COCO/YOLO 等 10+ 标注格式导入导出。提供命令行工具和图形化界面，支持多端部署。文档包含安装指南、模型定制教程及 15+ 任务示例。项目采用 GPL-3.0 开源协议，支持商业使用但需保留源码标识。用户可通过 GitHub 提交 issue 或邮件联系团队获取技术支持。
+X-AnyLabeling 是一款集成 AI 引擎的强大标注工具，专为多模态数据工程师设计。主要功能如下：
+
+1. **自动标注与训练**：支持图像和视频的自动标注及自动训练，提供远程推理服务，支持 GPU 和 FFmpeg 加速。
+2. **多任务支持**：涵盖图像分类、目标检测（含旋转框）、实例分割、姿态估计、视频跟踪、OCR、VQA、Grounding 及图像描述等任务。
+3. **灵活标注样式**：支持多边形、矩形、旋转框、圆、线、点、文本检测及识别、KIE 等多种标注风格。
+4. **模型扩展性**：内置 YOLO、SAM、OCR、VLM 等丰富模型库，支持自定义模型接入及二次开发。
+5. **格式兼容性**：支持 COCO、VOC、YOLO、DOTA、MOT 等多种主流格式导入导出。
+6. **跨平台支持**：兼容 Linux、Windows 和 Mac 系统，完全开源免费。

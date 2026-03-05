@@ -3,27 +3,6 @@
 title: HyDE
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/HyDE-Project/HyDE?style=social) ](https://github.com/HyDE-Project/HyDE)
-### [HyDE-Project HyDE](https://github.com/HyDE-Project/HyDE)
+### [HyDE-Project HyDE](https://github.com/HyDE-Project/HyDE)  ![GitHub Repo stars](https://img.shields.io/github/stars/HyDE-Project/HyDE?style=social)
 
-**项目核心内容总结：**
-
-HyDE 是一个用于定制桌面环境的工具，支持主题、壁纸、启动器等个性化设置。主要功能包括：  
-1. **主题选择**：提供多种主题样式，用户可自定义外观。  
-2. **壁纸与启动器配置**：支持选择壁纸、调整启动器样式及功能。  
-3. **游戏启动器**：集成游戏管理功能，便于快速启动游戏。  
-4. **通知与退出菜单**：自定义通知行为及退出界面样式。  
-
-**使用方法**：  
-- 通过安装脚本或手动配置初始化项目。  
-- 使用图形界面工具（如主题选择器、壁纸管理器）进行个性化设置。  
-- 修改配置文件以调整高级选项。  
-
-**主要特性**：  
-- 支持大量主题和样式，满足个性化需求。  
-- 提供丰富的配置选项，包括通知、启动器、壁纸等模块。  
-- 社区贡献丰富，包含非官方主题和样式（通过外部仓库获取）。  
-
-**注意事项**：  
-- 部分功能可能需要依赖特定软件（如 Rofi、Wlogout）。  
-- 配置变更可能需重启桌面环境生效。
+HyDE 是一个面向 Arch Linux 及其衍生发行版的高度定制化桌面配置项目。它通过自动化安装脚本，为最小化系统提供一键配置功能，涵盖窗口管理器、登录界面、引导加载器及 NVIDIA 驱动安装。项目内置丰富的主题与样式库，支持 Rofi 启动器、壁纸提取、关机菜单及游戏启动器等组件的灵活切换与定制。此外，还提供虚拟机测试工具（HyDEVM）以便开发调试，并具备版本更新机制与完善的社区贡献指南，旨在为用户提供便捷、美观且可高度定制的 Linux 桌面环境。

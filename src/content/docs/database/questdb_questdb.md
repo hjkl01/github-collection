@@ -3,7 +3,6 @@
 title: questdb
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/questdb/questdb?style=social) ](https://github.com/questdb/questdb)
-### [questdb questdb](https://github.com/questdb/questdb)
+### [questdb questdb](https://github.com/questdb/questdb)  ![GitHub Repo stars](https://img.shields.io/github/stars/questdb/questdb?style=social)
 
-QuestDB 是一个用 Rust 编写的高性能时序数据库，专注于低延迟的数据插入和复杂查询分析，适用于物联网、金融等需要处理时间序列数据的场景。项目提供 Docker 安装、二进制文件下载和源码编译三种部署方式，支持通过 SQL 语句进行数据写入和检索。核心特性包括：基于列存储的内存优化设计、内置的 SQL 引擎支持复杂查询、可扩展的架构支持水平扩展、开源协议为 Apache 2.0。项目维护着活跃的社区贡献者列表，提供完整的文档和示例代码。
+QuestDB 是一款开源时序数据库，提供极速数据摄入与低延迟 SQL 查询功能。核心引擎采用零 GC 的 Java 和 C++ 编写，利用列式存储、并行向量执行和 SIMD 指令实现高性能，支持多级存储架构（WAL → 原生 → Parquet）。兼容 PostgreSQL 协议、REST API 及 InfluxDB 行协议，适用于金融交易数据、传感器遥测等实时场景，支持动态 Schema 变更、去重语义及流式处理。采用 Apache 2.0 开源协议，并提供企业版以增强高可用性与安全管理功能。

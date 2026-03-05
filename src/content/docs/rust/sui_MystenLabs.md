@@ -3,16 +3,6 @@
 title: sui
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MystenLabs/sui?style=social) ](https://github.com/MystenLabs/sui)
-### [MystenLabs sui](https://github.com/MystenLabs/sui)
+### [MystenLabs sui](https://github.com/MystenLabs/sui)  ![GitHub Repo stars](https://img.shields.io/github/stars/MystenLabs/sui?style=social)
 
-
-**项目核心内容总结：**
-
-Sui 是一个新一代的智能合约平台，具有高吞吐量、低延迟和基于 Move 编程语言的资产导向编程模型。Sui 的主要功能包括支持可扩展的智能合约、定义丰富的链上资产、提供更好的 Web3 应用用户体验。其独特之处在于通过无共识机制实现低延迟交易处理，适用于支付和资产转移等常见场景，显著提升交易处理能力。
-
-Sui 架构采用客户端与多个权威节点通信的设计，支持多种客户端接入方式。Sui 使用 Rust 编写，支持 Move 语言编写智能合约，用于定义和操作具有所有权的资产。
-
-Sui 的原生代币为 SUI，用于支付交易费用和作为对权威节点的委托质押。SUI 的分配和奖励机制基于委托的质押量和权威节点的贡献。
-
-用户可通过 Sui 官方文档、Discord 社区和资源页面了解更多关于 Sui 的信息。开发者可通过贡献指南参与项目开发，并遵守项目的行为准则和许可证要求。
+Sui 是一款基于 Rust 和 Move 语言开发的下一代智能合约平台，核心功能包括高吞吐量、低延迟交易处理及即时结算。该平台支持交易并行执行，并在支付等常见场景下免除共识机制以优化性能，适用于游戏和零售支付等对延迟敏感的应用。Sui 采用资产导向编程模型，支持定义丰富的可组合链上资产，为 Web3 提供互联网规模的扩展性。网络由无许可权威机构（验证者）维护，采用原生 SUI 代币作为 Gas 费及权益质押工具，并具备拜占庭容错安全机制。

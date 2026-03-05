@@ -3,22 +3,6 @@
 title: fmt
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/fmtlib/fmt?style=social) ](https://github.com/fmtlib/fmt)
-### [fmtlib fmt](https://github.com/fmtlib/fmt)
+### [fmtlib fmt](https://github.com/fmtlib/fmt)  ![GitHub Repo stars](https://img.shields.io/github/stars/fmtlib/fmt?style=social)
 
-{fmt} 是一个高性能、安全的 C++ 格式化库，支持类似 `printf` 的格式字符串和用户自定义类型。其核心功能包括：
-
-1. **格式化功能**：提供 `fmt::format` 等接口，支持将数据格式化为字符串，或直接输出到 `ostream`（如 `std::cout`）。  
-2. **性能优势**：相比传统 `iostreams` 和 `Boost.Format`，速度更快，且通过格式字符串编译进一步优化性能。  
-3. **安全性**：避免缓冲区溢出等常见问题，支持类型安全检查。  
-4. **灵活性**：支持用户自定义类型的格式化，兼容 C++ 标准库类型，并提供线程安全的实现。  
-5. **跨平台**：适用于多种操作系统和编译器，无依赖外部库。  
-
-**使用方法**：  
-通过 `fmt::format("格式字符串", 参数)` 实现格式化，例如 `fmt::format("{}", 42)` 输出 `"42"`；或结合 `std::cout << fmt::format(...)` 输出到控制台。  
-
-**主要特性**：  
-- 高效的格式字符串解析与编译。  
-- 支持位置参数和运行时格式化控制。  
-- 轻量级设计，代码简洁无冗余。  
-- MIT 许可证，适用于商业和开源项目。
+{fmt} 是一个开源 C++ 格式化库，提供比 C stdio 和 C++ iostreams 更快、更安全的替代方案。它支持 C++20 std::format 和 C++23 std::print，采用类似 Python 的格式化语法并支持位置参数。该库使用 Dragonbox 算法实现高性能浮点格式化，速度优于常见标准库。它具备编译时类型安全检查和自动内存管理以防止缓冲区溢出，支持 Unicode、用户自定义类型扩展、POSIX printf 扩展及文件 I/O。项目代码轻量、无外部依赖、支持头文件模式，具有良好的跨平台兼容性和可移植性。

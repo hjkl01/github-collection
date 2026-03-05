@@ -3,22 +3,13 @@
 title: AiToEarn
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/yikart/AiToEarn?style=social) ](https://github.com/yikart/AiToEarn)
-### [yikart AiToEarn](https://github.com/yikart/AiToEarn)
+### [yikart AiToEarn](https://github.com/yikart/AiToEarn)  ![GitHub Repo stars](https://img.shields.io/github/stars/yikart/AiToEarn?style=social)
 
-**项目核心内容总结：**
+AiToEarn 是一个开源的全栈 AI 内容增长与变现平台，帮助创作者、品牌及企业利用 AI 自动化在全球主流平台实现内容的“创建、发布、互动、变现”。
 
-Aitoearn 是一款开源 AI 工具，旨在帮助用户通过多平台（如抖音、微信、YouTube、Facebook 等）进行内容创作、发布、互动及变现。其核心功能包括：  
-1. **多平台支持**：一键发布内容至主流社交平台，覆盖中文及国际主流渠道。  
-2. **AI 辅助运营**：提供 AI 生成标题/文案、自动评论、图像/视频生成、用户精准挖掘等功能，提升内容互动与转化效率。  
-3. **数据分析**：支持跨平台数据对比与全链路效果追踪，优化内容策略。  
-4. **内容交易市场**：创作者可直接出售内容，品牌可采购高质量内容资源。  
-
-**使用方法**：  
-- **创作者**：通过下载安装包（Windows 版本逐步迭代至 v1.3.2）直接使用。  
-- **开发者**：使用 Docker 部署，需配置各平台 API 密钥（如 Bilibili、微信公众号等）。  
-
-**主要特性**：  
-- 支持 AI 视频/图像模型（如 Seedance、GPT、Flux 等）。  
-- 提供评论自动回复、高转化信号检测（如“求链接”）、用户精准触达功能。  
-- 未来将扩展 AI 内容创作全流程（如智能 DM、视频编辑）、全球化翻译支持等。
+主要功能包括：
+1. **多平台分发**：支持抖音、小红书、微信、B 站、TikTok、YouTube 等全球渠道的一键发布、智能导入与排期管理。
+2. **AI 智能助手**：集成 All-In Agent 辅助运营与创作，支持文本、图片、视频生成（兼容多种主流 AI 模型）。
+3. **数据与洞察**：提供热点灵感挖掘、品牌监控、评论精准搜索（捕捉转化信号）、全渠道数据分析及主动流量增长。
+4. **场景扩展**：支持线下实体店（餐饮、零售等）的线上化推广任务转化。
+5. **部署方式**：支持 Docker 一键部署（含后端及数据库服务）及 Electron 桌面客户端。

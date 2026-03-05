@@ -3,18 +3,6 @@
 title: vector
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social) ](https://github.com/vectordotdev/vector)
-### [vectordotdev vector](https://github.com/vectordotdev/vector)
+### [vectordotdev vector](https://github.com/vectordotdev/vector)  ![GitHub Repo stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social)
 
-**项目核心内容总结：**  
-Vector 是一个高性能的端到端可观测性数据管道工具，支持日志和指标（部分功能）的收集、转换与路由，适用于多平台部署（如 Kubernetes）。由 Datadog 社区开源团队维护，具备以下特性：  
-1. **功能**：提供日志、指标（结构化日志形式）处理能力，支持多种数据源（如文件、HTTP、Docker 日志）和输出目标（如 Elasticsearch、AWS S3）。  
-2. **使用方法**：可通过包管理器、手动安装或 Kubernetes 部署，提供快速入门指南及配置文件定义（来源、转换、接收器）。  
-3. **主要特性**：  
-   - **多线程与内存安全**：基于 Rust 开发，支持多核并行，保障内存安全。  
-   - **可靠性**：提供交付保证、多平台兼容性（Linux、macOS、Windows）。  
-   - **开源与厂商中立**：完全开源，不绑定特定云厂商，支持自定义扩展（如 Lua 脚本）。  
-   - **灵活性**：支持日志到指标转换、数据过滤、动态路由等高级处理。  
-4. **性能优势**：在多线程处理、内存效率、跨平台兼容性方面优于同类工具。  
-
-**适用场景**：企业级日志与指标集中化管理、跨云环境数据采集、高可靠性数据管道构建。
+Vector 是一款基于 Rust 的高性能、开源端到端可观测性数据管道工具。它支持日志、指标和追踪数据的收集、转换与路由，可部署为代理（agent）或聚合器（aggregator）。Vector 具备高可靠性、内存安全、交付保证及多核处理能力，性能显著优于同类替代方案。作为供应商中立的统一平台，它帮助用户降低可观测性成本，保障数据安全，并实现跨任意数据供应商的灵活路由与管理。

@@ -3,19 +3,6 @@
 title: crossdesk
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kunkundi/crossdesk?style=social) ](https://github.com/kunkundi/crossdesk)
-### [kunkundi crossdesk](https://github.com/kunkundi/crossdesk)
+### [kunkundi crossdesk](https://github.com/kunkundi/crossdesk)  ![GitHub Repo stars](https://img.shields.io/github/stars/kunkundi/crossdesk?style=social)
 
-**项目核心内容总结：**  
-CrossDesk 是一款支持 PC 和移动端的远程桌面控制工具，提供 Web 客户端访问功能，基于自托管服务器部署，支持 SSL 证书配置以保障通信安全。  
-
-**主要功能与特性：**  
-1. **跨平台支持**：适用于 PC、移动端及浏览器访问。  
-2. **自托管部署**：通过 Docker 部署服务器，需配置公网 IP、端口范围及证书路径，支持 COTURN 中继服务。  
-3. **SSL 证书管理**：提供自动生成证书脚本，客户端需加载根证书，服务端需配置私钥和证书文件。  
-4. **音视频传输**：基于 MiniSTUN 和 COTURN 协议实现低延迟通信。  
-
-**使用方法：**  
-1. 生成 SSL 证书（通过脚本生成根证书、服务端私钥及证书）。  
-2. 使用 Docker 启动自托管服务器，挂载证书、数据库及日志目录，配置网络端口。  
-3. 客户端设置：导入根证书，配置自托管服务器地址、端口及证书路径。
+CrossDesk 是一款轻量级的跨平台远程桌面软件，支持 Windows、macOS、Linux 及 Web 端。基于 MiniRTC 实时音视频传输库，具备网络透传、音视频编解码（H264/AV1/Opus）、信令交互、拥塞控制及传输加密能力。用户可通过远端 ID 和密码发起连接，支持自定义配置项。项目支持通过 Docker 自托管服务器，提供信令、中继服务及数据持久化，适用于私有化部署场景。

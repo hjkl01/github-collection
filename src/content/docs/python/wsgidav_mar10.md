@@ -3,10 +3,13 @@
 title: wsgidav
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mar10/wsgidav?style=social) ](https://github.com/mar10/wsgidav)
-### [mar10 wsgidav](https://github.com/mar10/wsgidav)
+### [mar10 wsgidav](https://github.com/mar10/wsgidav)  ![GitHub Repo stars](https://img.shields.io/github/stars/mar10/wsgidav?style=social)
 
-WsgiDAV 是一个基于 Python 和 WSGI 的通用 WebDAV 服务器，支持 SSL 和多线程，可作为独立脚本运行或集成到其他 WSGI 服务器中。主要功能包括：  
-1. **使用方式**：通过 `pip` 安装后，用命令行启动（如 `wsgidav --host=0.0.0.0 --port=80 --root=/tmp`）；支持 PAM 认证（需额外安装依赖）；Windows 用户可使用 MSI 安装包或 winget；Docker 用户可通过镜像运行（如 `docker run` 挂载目录）。  
-2. **核心特性**：支持匿名/认证访问、虚拟文件系统扩展、在线编辑文档；采用可配置的 WSGI 中间件架构，允许灵活集成；兼容 HTTP 协议，具备高性能。  
-3. **其他**：支持 SSL、跨平台（Linux/OSX/Windows），提供 Docker 镜像和文档支持。
+WsgiDAV 是一款基于 Python 和 WSGI 协议的通用可扩展 WebDAV 服务器。
+
+主要功能：
+- **独立服务**：支持 SSL 加密，可作为命令行脚本在 Linux、macOS 和 Windows 系统上直接运行。
+- **灵活部署**：支持 Docker 容器化、Windows MSI 安装，也可作为 Python 库嵌入任意 WSGI 兼容的 Web 服务器后端。
+- **架构扩展**：采用可配置的 WSGI 中间件堆栈，支持将数据结构暴露为虚拟可编辑文件系统，并提供在线编辑 MS Office 文档的能力。
+- **认证支持**：支持匿名访问、PAM 登录等多种认证方式。
+- **高性能 Web 服务**：基于 HTTP 协议，提供多线程高性能 Web 服务。

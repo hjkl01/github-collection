@@ -3,22 +3,6 @@
 title: ai-toolkit
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/ostris/ai-toolkit?style=social) ](https://github.com/ostris/ai-toolkit)
-### [ostris ai-toolkit](https://github.com/ostris/ai-toolkit)
+### [ostris ai-toolkit](https://github.com/ostris/ai-toolkit)  ![GitHub Repo stars](https://img.shields.io/github/stars/ostris/ai-toolkit?style=social)
 
-**项目核心内容总结：**  
-该项目是一个AI训练工具，支持多种模型（如FLUX.1、SDXL、SD 1.5等）的LoRA/LoKr微调训练，提供本地与云端部署方案。  
-
-**功能与使用方法：**  
-1. **本地训练**：通过配置文件定义模型参数，支持数据集准备（图像与对应文本文件）、自定义训练层（如指定Transformer块），并提供Gradio界面简化训练流程。  
-2. **云端部署**：兼容RunPod和Modal平台，支持一键部署训练任务，模型结果可存储至云端并下载。  
-3. **特性**：  
-   - 支持LoRA/LoKr训练方法，可精准控制训练层（通过`only_if_contains`/`ignore_if_contains`参数）。  
-   - 数据集自动处理（无需裁剪/缩放，支持多种图像格式）。  
-   - 提供Web UI界面，支持图像上传、自动标注、模型发布。  
-4. **跨平台支持**：适配本地、RunPod、Modal等环境，兼容视频/指令数据集训练。  
-
-**主要优势**：  
-- 灵活配置训练目标层，优化模型性能；  
-- 简化数据集准备流程，提升训练效率；  
-- 支持多平台部署，降低训练门槛。
+AI Toolkit 是一款面向扩散模型（图像与视频）的一站式训练套件，支持消费级硬件运行。它提供 GUI、命令行及 Gradio 界面，支持 FLUX.1、SDXL、SD 1.5、Wan 等最新模型的训练，涵盖 LoRA、LoKr 及特定层训练功能。项目内置支持权限验证的 Web UI，便于任务监控与管理，同时支持 RunPod 和 Modal 云部署，并提供数据集自动处理及 Hugging Face 发布功能，兼顾易用性与全功能特性。

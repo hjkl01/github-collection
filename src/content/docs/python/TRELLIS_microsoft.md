@@ -3,24 +3,6 @@
 title: TRELLIS
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/TRELLIS?style=social) ](https://github.com/microsoft/TRELLIS)
-### [microsoft TRELLIS](https://github.com/microsoft/TRELLIS)
+### [microsoft TRELLIS](https://github.com/microsoft/TRELLIS)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/TRELLIS?style=social)
 
-**项目核心内容总结**  
-TRELLIS 是一个基于扩散模型和变分自编码器（VAE）的3D生成框架，支持通过图像或文本条件生成3D模型。其主要功能包括：  
-1. **图像到3D生成**：利用图像条件训练模型，生成高质量3D结构。  
-2. **文本到3D生成**：通过文本描述生成3D模型，支持基础、大型及超大型模型（文本条件）。  
-3. **多模态支持**：结合图像与文本条件，增强生成多样性。  
-
-**使用方法**  
-- **训练**：通过命令行调用 `train.py`，指定配置文件（如 `slat_flow_img_dit_L_64l8p2_fp16.json`）和输出目录，支持单节点（自动分配GPU）或多节点分布式训练（需设置节点数、地址及端口）。  
-- **恢复训练**：通过 `--load_dir` 和 `--ckpt` 参数加载预训练模型继续训练。  
-
-**主要特性**  
-- 提供多种预训练模型（如图像条件、文本条件模型），支持不同规模（基础、大型、超大型）。  
-- 支持灵活的训练配置，包括自动重试、性能分析及多GPU/多节点扩展。  
-- 使用MIT许可证，部分子模块（如渲染器、Flexicubes）采用其他开源协议。  
-
-**注意事项**  
-- 训练需指定数据目录，支持多个数据集路径。  
-- 部分功能依赖CUDA加速的渲染器及Flexicubes库。
+TRELLIS 是一款大型 3D 资产生成模型，支持文本或图像提示生成高质量 3D 资产。其核心基于统一的 Structured LATent (SLAT) 表示和 Rectified Flow Transformers 架构，可输出辐射场、3D 高斯和网格等多种 3D 格式。模型在 50 万 3D 资产数据集上预训练，最大参数量达 20 亿，支持高质量生成、多格式输出及灵活编辑（如变体生成、局部编辑）。项目同时开源了预训练模型、500K 数据集、训练代码及 Web 演示工具。

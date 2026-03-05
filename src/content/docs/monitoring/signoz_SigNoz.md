@@ -3,30 +3,16 @@
 title: signoz
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social) ](https://github.com/SigNoz/signoz)
-### [SigNoz signoz](https://github.com/SigNoz/signoz)
+### [SigNoz signoz](https://github.com/SigNoz/signoz)  ![GitHub Repo stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social)
 
-### 核心内容总结
+SigNoz 是一个基于 OpenTelemetry 的开源可观测性平台，集成了日志、指标和分布式追踪，可作为 Datadog 和 New Relic 的替代方案。
 
-**项目功能**  
-SigNoz 是一个开源的可观测性平台，整合日志、指标和分布式追踪功能，支持应用性能监控（APM）、日志管理、异常监控、自定义仪表盘及告警。  
-- **APM**：实时监控应用性能，提供延迟、错误率、Apdex 等关键指标图表。  
-- **日志管理**：基于 ClickHouse 的高速日志存储，支持快速搜索、过滤及日志数据可视化。  
-- **分布式追踪**：通过 OpenTelemetry 跟踪微服务请求，支持火焰图、甘特图分析性能瓶颈。  
-- **指标与仪表盘**：自定义监控面板，支持多种图表类型及复杂查询。  
-- **告警**：对日志、指标、追踪设置阈值告警，支持通知渠道及异常检测。  
-- **异常监控**：自动捕获 Python/Java/Ruby/JavaScript 等语言的异常，支持自定义属性分析。  
+**核心功能：**
+*   **APM**：监控应用及服务的延迟、错误率、Apdex 及数据库/外部调用。
+*   **日志管理**：基于 ClickHouse 的集中式日志存储、快速搜索与可视化。
+*   **分布式追踪**：追踪微服务请求链路，利用火焰图和甘特图定位瓶颈。
+*   **指标与仪表盘**：自定义仪表盘，支持 PromQL 和 ClickHouse 查询。
+*   **LLM 可观测性**：监控大模型调用、Token 使用及成本。
+*   **告警与异常**：基于多信号阈值告警，支持代码异常堆栈追踪。
 
-**使用方法**  
-- **云服务**：通过 [SigNoz Cloud](https://signoz.io/teams/) 快速部署，无需维护。  
-- **自托管**：使用 Docker 或 Kubernetes Helm Chart 安装，文档提供详细步骤。  
-
-**主要特性**  
-- 集成日志、指标、追踪三大可观测性数据。  
-- 基于 OpenTelemetry，避免厂商锁定。  
-- 使用 ClickHouse 实现高效日志聚合分析。  
-- 支持多语言（含 Rust/Swift/Python 等）。  
-- 对比竞品（如 Prometheus、Jaeger、Elastic）具备更低资源消耗、更高效查询能力。  
-
-**开源与社区**  
-提供完整文档，支持贡献代码，维护团队涵盖前后端及 DevOps，社区活跃。
+平台支持云、Docker 及 Kubernetes 部署，兼容多种编程语言，通过关联日志、指标和追踪数据提供丰富调试上下文。

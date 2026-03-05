@@ -3,23 +3,15 @@
 title: pdf2htmlEX
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pdf2htmlEX/pdf2htmlEX?style=social) ](https://github.com/pdf2htmlEX/pdf2htmlEX)
-### [pdf2htmlEX pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX)
+### [pdf2htmlEX pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX)  ![GitHub Repo stars](https://img.shields.io/github/stars/pdf2htmlEX/pdf2htmlEX?style=social)
 
-**项目核心内容总结：**  
-pdf2htmlEX 是一个将 PDF 文件转换为 HTML 的工具，利用现代 Web 技术实现高精度渲染，支持学术论文、杂志等复杂布局文档。  
+pdf2htmlEX 是一个利用现代 Web 技术将 PDF 文件转换为 HTML 的开源工具。
 
-**功能与特性：**  
-- 支持原生 HTML 文本，保留精确字体和位置信息；  
-- 灵活输出模式：可生成单个 HTML 文件或按需加载页面（需 JavaScript）；  
-- 优化文件大小，通常小于 PDF，支持链接、书签、打印、SVG 背景、Type 3 字体等；  
-- 改进处理遮挡文本（如 `--correct-text-visibility` 参数控制可见性）；  
-- 支持 CJK 字符（如中文），适用于多语言文档。  
+主要功能：
+* 保留原生 HTML 文本，精确控制字体与位置。
+* 支持单文件 HTML 或按需加载页面。
+* 支持链接、书签、打印、SVG 背景及 Type 3 字体。
+* 适用于含公式图表的学术论文及复杂排版杂志。
+* 修复大量边缘情况 Bug，优化遮挡文本处理与 DPI 设置。
 
-**使用方法：**  
-- 推荐参数：`--font-size-multiplier 1 --zoom 25` 以避免浏览器舍入误差；  
-- 可通过 `--covered-text-dpi` 调整遮挡文本的渲染精度；  
-- 建议修改 FontForge 防止生成时间戳，并通过去重减少 HTML 文件体积。  
-
-**许可证：**  
-项目整体采用 GPLv3+ 许可证，部分资源文件使用更宽松的许可证。
+基于 poppler 和 Fontforge 构建，采用 GPLv3+ 协议。

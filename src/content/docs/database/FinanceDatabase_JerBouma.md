@@ -3,18 +3,13 @@
 title: FinanceDatabase
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/JerBouma/FinanceDatabase?style=social) ](https://github.com/JerBouma/FinanceDatabase)
-### [JerBouma FinanceDatabase](https://github.com/JerBouma/FinanceDatabase)
+### [JerBouma FinanceDatabase](https://github.com/JerBouma/FinanceDatabase)  ![GitHub Repo stars](https://img.shields.io/github/stars/JerBouma/FinanceDatabase?style=social)
 
-**核心内容总结：**  
-FinanceDatabase 是一个免费的金融数据工具，通过 Python 库提供公司财务数据、分类信息及市场数据。其核心功能包括：  
-1. **数据获取**：支持股票、基金、ETF 等资产类别，提供财务指标、分类（基于 GICS 标准）、历史数据等。  
-2. **使用方法**：通过 `show_options` 查看分类选项，`collect_data` 获取具体数据，支持按国家、行业筛选。  
-3. **数据特性**：完全免费，数据来源为公开渠道，无需 API 密钥；分类由社区手动维护，支持历史数据追溯。  
-4. **社区驱动**：依赖用户贡献更新数据（如公司更名、破产等），提供贡献指南。  
-5. **适用场景**：适用于金融研究、投资分析，适合需要免费、公开数据的用户。  
+这是一个免费的 Python 金融数据库项目，旨在提供广泛的金融产品分类及检索功能。主要功能总结如下：
 
-**主要优势**：  
-- 免费且无付费订阅限制；  
-- 数据分类逻辑清晰，支持多维度筛选；  
-- 支持历史数据追踪及动态更新。
+1. **海量数据覆盖**：包含 30 万+ 金融符号，涵盖股票、ETF、基金、指数、货币、加密货币及货币市场。
+2. **多维筛选查询**：支持按国家、行业、部门、交易所等条件进行精确筛选、搜索及选项查看。
+3. **工具链集成**：无缝集成 Finance Toolkit，可配合 API Key 获取历史数据及 60+ 财务比率分析。
+4. **完全免费开源**：数据基于公开来源，支持通过 CSV 文件进行社区贡献与更新。
+
+项目专注于提供各国家、行业及投资类型的产品概览及核心信息，而非实时更新的基本面数据。

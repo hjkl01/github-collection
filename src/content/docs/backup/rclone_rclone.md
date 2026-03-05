@@ -3,24 +3,6 @@
 title: rclone
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rclone/rclone?style=social) ](https://github.com/rclone/rclone)
-### [rclone rclone](https://github.com/rclone/rclone)
+### [rclone rclone](https://github.com/rclone/rclone)  ![GitHub Repo stars](https://img.shields.io/github/stars/rclone/rclone?style=social)
 
-**Rclone 核心内容总结：**
-
-**项目功能**  
-Rclone 是一款命令行工具，用于在本地文件系统与多种云存储服务之间同步、备份和管理文件（如 Amazon S3、Google Drive、Dropbox 等）。支持双向同步、增量传输、加密、压缩等操作。
-
-**使用方法**  
-通过命令行调用，提供多种模式（如复制、同步、双向同步、检查一致性）；支持通过配置文件管理云存储账户，可结合虚拟存储后端（如加密、压缩、分片）扩展功能。
-
-**主要特性**  
-- 支持 200+ 云存储服务商（含主流云厂商及私有存储）  
-- 文件完整性校验（MD5/SHA-1）、时间戳保留  
-- 多线程下载、增量同步、断点续传  
-- 可选功能：文件加密（Crypt）、压缩（Compress）、分片（Chunker）、FUSE 挂载  
-- 支持 HTTP/WebDAV/FTP/SFTP 等协议的文件服务功能  
-
-**其他**  
-- 开源 MIT 许可证，提供官方文档、安装指南及社区支持  
-- 可通过官网下载预编译版本或源码自行编译
+Rclone 是一款命令行程序，被称为“云存储的 rsync"，用于在不同云存储提供商、本地文件系统及其他存储后端之间同步文件和目录。它支持海量存储后端，包括各种对象存储（如 S3、Google Drive、OneDrive）、私有协议（如 WebDAV、SFTP、FTP）以及本地文件系统。项目提供单向同步、双向同步、文件复制、完整性校验（哈希检查）等核心功能，并支持文件加密、压缩、分块传输、FUSE 文件系统挂载以及通过 HTTP/WebDAV 等协议提供服务，同时确保保留文件时间戳。

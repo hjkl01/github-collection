@@ -5,17 +5,4 @@ title: eza
 
 ### [eza-community eza](https://github.com/eza-community/eza)  ![GitHub Repo stars](https://img.shields.io/github/stars/eza-community/eza?style=social)
 
-**项目核心内容总结：**  
-eza 是 `ls` 命令的现代替代工具，提供更丰富的功能和更友好的默认设置。它通过颜色区分文件类型和元数据，支持符号链接、扩展属性、Git 状态、SELinux 上下文输出、可读的相对日期等。特点包括：修复 exa 的历史问题、支持超链接、自定义主题（通过 `theme.yml` 文件配置颜色和图标）、单个二进制文件、跨平台（Windows/macOS/Linux）。
-
-**使用方法：**  
-- 通过 Nix 安装：`nix run github:eza-community/eza`  
-- 支持多种命令行选项（如 `--long` 显示详细信息、`--tree` 树形展示、`--git` 显示 Git 状态等）。  
-- 安装方式详见 [INSTALL.md](INSTALL.md)，支持主流平台和发行版。  
-
-**主要特性：**  
-- 修复 exa 的“网格错误”等历史问题；  
-- 支持超链接、SELinux 上下文、Git 仓库状态；  
-- 可自定义颜色、图标及主题；  
-- 提供多种排序、过滤、显示模式（如列表、网格、树形）；  
-- 跨平台、单文件、性能高效。
+eza 是一款现代化的 `ls` 命令替代品，旨在替代 Unix/Linux 系统中的文件列表功能。它提供更多功能和更友好的默认设置，使用颜色区分文件类型及元数据。核心特性包括支持符号链接、扩展属性、Git 状态、超链接、挂载点详情、Selinux 上下文及人类可读的相对日期。该工具小巧、快速且为单一二进制文件，修复了 exa 的已知 Bug 并包含多项安全更新。支持通过 `theme.yml` 配置文件自定义颜色和图标。兼容 Windows、macOS 及 Linux 平台。

@@ -3,18 +3,11 @@
 title: loonflow
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/blackholll/loonflow?style=social) ](https://github.com/blackholll/loonflow)
-### [blackholll loonflow](https://github.com/blackholll/loonflow)
+### [blackholll loonflow](https://github.com/blackholll/loonflow)  ![GitHub Repo stars](https://img.shields.io/github/stars/blackholll/loonflow?style=social)
 
-**项目核心内容总结：**  
-Loonflow 3.0 是一个基于 Django 的开源流程自动化平台，提供可视化流程设计、智能表单构建、灵活扩展插件及企业级功能（如多租户支持、权限管理、审计日志等）。  
+Loonflow 3.0 是一款基于 Django 开发的开源企业级流程自动化平台，致力于提供统一的工作流解决方案。核心功能总结如下：
 
-**主要功能：**  
-- **可视化设计**：拖拽式流程设计器、智能表单工具、实时预览与验证、多版本流程配置。  
-- **灵活性**：插件架构支持自定义节点逻辑，RESTful API 实现第三方系统集成，细粒度权限控制。  
-- **企业级特性**：支持 IT 运维、财务报销等多类型工单，自动化路由与智能分派，符合合规审计需求。  
-
-**使用方法：**  
-通过 Docker Compose 部署，修改 `.env` 文件配置密码，启动容器后创建管理员用户，访问系统进行流程配置。  
-
-**技术栈：** Python 3.12、Django 5.2、React 18.x、MUI 5.x，采用 AGPLv3 开源协议。
+1. 可视化设计：支持拖拽式流程建模、智能表单构建、实时预览及多版本配置。
+2. 高度扩展性：提供插件架构与丰富 RESTful API，支持自定义逻辑及第三方系统集成。
+3. 企业级特性：支持 IT、HR、财务等多类型工单管理，具备自动化路由、细粒度权限控制及完整审计日志。
+4. 架构与许可：采用 Python/Django/React 技术栈，支持多租户架构，遵循 AGPLv3 开源协议。

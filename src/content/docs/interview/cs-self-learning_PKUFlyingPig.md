@@ -3,8 +3,6 @@
 title: cs-self-learning
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning?style=social) ](https://github.com/PKUFlyingPig/cs-self-learning)
-### [PKUFlyingPig cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)
+### [PKUFlyingPig cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)  ![GitHub Repo stars](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning?style=social)
 
-**项目核心内容总结：**  
-“CS 自学指南”是一个开源计算机科学自学资源库，旨在帮助学习者通过精选的课程、书籍和实践项目系统掌握计算机领域知识。项目提供完整的计算机专业学习路径规划，涵盖算法、编程语言、分布式系统、人工智能等方向，支持中英文双语内容。用户可在线免费阅读（[csdiy.wiki](https://csdiy.wiki)），并通过 GitHub 提交 Pull Request 贡献课程、书籍推荐或修正内容。项目鼓励社区协作，提供模板和流程指导，支持学习者建立课程交流群。所有原创内容采用 MIT 许可，其他资源遵循原作者许可。
+本项目为计算机自学指南，汇集了国内外名校优质的开源课程与学习资源。旨在帮助初学者系统规划学习路径，掌握数学与代码基础，熟悉多种主流编程语言，并涉猎算法、系统、人工智能等全领域知识。项目支持在线阅读与英文版，提供社区贡献渠道及学习交流接口，助力学习者在 2-3 年内成长为具备竞争力的全能程序员。

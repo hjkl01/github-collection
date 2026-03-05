@@ -3,13 +3,6 @@
 title: gin
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/gin-gonic/gin?style=social) ](https://github.com/gin-gonic/gin)
-### [gin-gonic gin](https://github.com/gin-gonic/gin)
+### [gin-gonic gin](https://github.com/gin-gonic/gin)  ![GitHub Repo stars](https://img.shields.io/github/stars/gin-gonic/gin?style=social)
 
-Gin是一个用Go语言编写的高性能Web框架，用于构建Web应用和API。其核心特性包括：  
-1. **高性能**：通过优化路由和中间件设计，支持高并发处理（基准测试显示其请求处理能力远超其他主流框架）。  
-2. **易用性**：提供简洁的API和示例代码，安装后可通过定义路由和处理函数快速搭建服务（如示例中的`gin.New()`和`router.GET()`用法）。  
-3. **中间件生态**：支持丰富的中间件（如认证、CORS、日志、限流等），社区提供额外扩展（如`gin-contrib`库）。  
-4. **生产级应用**：被用于多个高流量项目，如推送通知服务器、API网关、图像处理服务等。  
-
-使用方法：通过`go get`安装后，创建路由并绑定处理函数，即可启动服务。文档和社区资源完善，支持贡献代码和问题反馈。
+Gin 是一个使用 Go 语言编写的高性能 HTTP Web 框架。它提供类似 Martini 的 API 风格，但性能更优（最高快 40 倍），适用于构建 REST API、Web 应用及微服务。核心功能包括：零分配路由、高性能路由、中间件支持（认证、日志、CORS 等）、内置崩溃恢复、JSON 验证与绑定、路由分组、错误管理及多种模板渲染支持。Gin 依赖 Go 1.25+，拥有扩展性强的中间件生态系统和丰富的文档资源。

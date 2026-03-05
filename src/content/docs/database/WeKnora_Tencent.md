@@ -3,33 +3,6 @@
 title: WeKnora
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/WeKnora?style=social) ](https://github.com/Tencent/WeKnora)
-### [Tencent WeKnora](https://github.com/Tencent/WeKnora)
+### [Tencent WeKnora](https://github.com/Tencent/WeKnora)  ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/WeKnora?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-WeKnora 是基于大语言模型（LLM）的文档理解与检索框架，采用 RAG（检索增强生成）范式，支持文档解析、向量处理、智能检索和大模型推理，适用于企业知识管理、学术研究、产品支持、法律合规及医疗辅助等场景。支持将文档转化为知识图谱，提升检索相关性与广度。
-
-**使用方法**  
-1. **安装依赖**：需 Docker、Docker Compose 和 Git。  
-2. **部署步骤**：  
-   - 克隆仓库，配置环境变量。  
-   - 启动服务（支持基础功能、全部功能、日志追踪、Neo4j、Minio 等模块）。  
-   - 通过 Web UI 注册登录，创建知识库并配置参数。  
-3. **访问方式**：  
-   - Web 界面（http://localhost）用于文档上传、知识管理及问答。  
-   - 后端 API 供程序调用。  
-   - 支持通过微信对话平台或 MCP 服务器连接部署。  
-
-**主要特性**  
-- **精准理解**：自动识别文档结构，提取核心知识建立索引。  
-- **智能推理**：结合大模型生成结构化答案，支持图文混合响应。  
-- **灵活扩展**：兼容多种文档格式（如 PDF、Word），支持自定义模型和向量数据库（如 Neo4j、Milvus）。  
-- **高效检索**：多策略检索（如语义匹配、知识图谱关联），提升搜索效率。  
-- **安全控制**：提供登录认证，建议部署于内网并配置防火墙。  
-- **部署便捷**：支持本地 Docker 部署及 MCP 服务器远程连接。  
-
-**其他**  
-- 提供 API 文档、故障排查指南及开发者文档，支持代码贡献。  
-- 开源 MIT 许可证，允许自由使用和修改。
+WeKnora 是一个基于 LLM 和 RAG 架构的文档理解与检索框架，旨在处理复杂异构文档。核心功能包括：支持 PDF、Word、图片（含 OCR）等多格式文档的语义解析；提供 ReACT Agent 模式，支持调用内置工具、MCP 及网页搜索；采用关键词、向量与知识图谱混合检索策略；支持 FAQ 和文档知识库管理。系统提供 Web 界面与 RESTful API，支持本地、Docker 及私有云部署，并集成微信对话开放平台，适用于企业知识管理、学术分析及技术支撑等场景。

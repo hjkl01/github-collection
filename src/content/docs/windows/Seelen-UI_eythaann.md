@@ -3,29 +3,15 @@
 title: Seelen-UI
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/eythaann/Seelen-UI?style=social) ](https://github.com/eythaann/Seelen-UI)
-### [eythaann Seelen-UI](https://github.com/eythaann/Seelen-UI)
+### [eythaann Seelen-UI](https://github.com/eythaann/Seelen-UI)  ![GitHub Repo stars](https://img.shields.io/github/stars/eythaann/Seelen-UI?style=social)
 
-**项目核心内容总结：**
+Seelen UI 是一款专为 Windows 设计的全自定义桌面环境工具，支持 70 多种语言。
 
-**功能**  
-Seelen UI 是一款用于 Windows 的高度可定制桌面环境工具，支持 70+ 种语言，提供主题自定义、平铺窗口管理、媒体控制、应用快速启动等功能。
+核心功能：
+1. **高度个性化**：可自定义菜单、小部件、图标、主题及任务栏布局。
+2. **平铺窗口管理**：自动排列窗口，优化多任务工作效率。
+3. **集成媒体控制**：兼容大多数音乐播放器，支持直接控制播放。
+4. **快速启动器**：类似 Rofi 的界面，用于快速启动应用和执行命令。
+5. **直观配置**：提供图形界面，方便一键调整系统设置。
 
-**主要特性**  
-- **高度自定义**：支持主题、任务栏布局、图标等个性化设置。  
-- **生产力工具**：集成平铺窗口管理器（Tiling Windows Manager），提升多任务效率。  
-- **媒体控制**：内置兼容主流播放器的媒体模块，可直接控制音乐播放。  
-- **快速启动**：类似 Rofi 的应用启动器，快速访问程序和执行命令。  
-- **用户友好配置**：通过图形界面直观调整设置。  
-
-**使用方法**  
-1. **安装方式**：  
-   - 推荐通过 [Microsoft Store](https://www.microsoft.com/store/productId/9P67C2D4T9FB) 或 Winget 安装（`winget install --id Seelen.SeelenUI`）。  
-   - 可下载 `.msix` 或 `.exe` 安装包（后者可能被杀毒软件误报）。  
-2. **注意事项**：  
-   - 需安装 WebView 运行时（Windows 10 需通过安装包获取）和 Microsoft Edge。  
-   - 新系统可能需更新 Windows 后重启以解决显示问题。  
-
-**其他**  
-- **未来功能**：计划支持自定义弹出小部件、改进 Alt+Tab 切换、虚拟桌面动画等。  
-- **贡献与支持**：提供文档和开源协作渠道，可通过 Discord 联系支持。
+运行要求：需安装 WebView 运行时及 Microsoft Edge。

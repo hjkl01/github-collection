@@ -3,24 +3,13 @@
 title: gochat
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LockGit/gochat?style=social) ](https://github.com/LockGit/gochat)
-### [LockGit gochat](https://github.com/LockGit/gochat)
+### [LockGit gochat](https://github.com/LockGit/gochat)  ![GitHub Repo stars](https://img.shields.io/github/stars/LockGit/gochat?style=social)
 
-**gochat核心内容总结**  
+gochat 是一个使用纯 Go 语言实现的轻量级即时通讯（IM）系统。
 
-**项目功能**：gochat是一个基于Go语言开发的轻量级即时通讯系统，支持私信聊天、房间广播消息、WebSocket和TCP协议接入，并实现跨协议消息互通。系统采用模块化设计，包含逻辑层（logic）、连接层（connect）、任务层（task）、API层和站点层，各模块通过RPCX通信，支持水平扩展。  
-
-**主要特性**：  
-- 使用etcd实现服务发现，支持动态扩容；  
-- 消息存储与投递基于Redis（可替换为Kafka/RabbitMQ），保证高并发下的消息可靠性；  
-- 提供Docker一键部署方案，支持快速搭建聊天室环境；  
-- 数据库使用SQLite3（支持替换为MySQL等），存储用户基础信息；  
-- 消息ID采用Snowflake算法生成，理论QPS达409.6万/秒；  
-- 支持前端UI访问，可多账号登录测试聊天功能。  
-
-**使用方法**：  
-1. **Docker部署**：拉取镜像后执行`run.sh`脚本，无需手动编译，自动启动各模块；  
-2. **手动安装**：依次启动logic、connect（WebSocket/TCP）、task、api和site模块，确保etcd、Redis服务已运行；  
-3. **访问方式**：通过浏览器访问`http://IP:8080`登录聊天室，使用预设账号（如demo/test/admin，密码均为111111）进行测试。  
-
-**其他**：项目提供开源License（MIT），支持通过JetBrains赞助计划获取开发工具授权。
+1. **核心功能**：支持私信消息与房间广播消息，各层间通过 RPC 通讯，支持水平扩展。
+2. **接入协议**：同时支持 WebSocket 和 TCP 接入，并实现两种协议的消息互通。
+3. **架构设计**：包含 API、Connect（长连接）、Logic（业务逻辑）、Task（消息消费）及 Site 层，基于 etcd 实现服务发现。
+4. **数据存储**：使用 Redis 作为消息队列与缓存载体（可替换为 Kafka/RabbitMQ），数据库默认使用 SQLite 但可替换为其他关系型数据库。
+5. **部署与扩展**：支持 Docker 一键构建环境，利用 Go 交叉编译特性支持多平台快速运行。
+6. **前端界面**：配套提供基于 TypeScript + React 的简易聊天室 UI。

@@ -3,8 +3,11 @@
 title: HuYaTv
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jayjd/HuYaTv?style=social) ](https://github.com/jayjd/HuYaTv)
-### [jayjd HuYaTv](https://github.com/jayjd/HuYaTv)
+### [jayjd HuYaTv](https://github.com/jayjd/HuYaTv)  ![GitHub Repo stars](https://img.shields.io/github/stars/jayjd/HuYaTv?style=social)
 
-**核心内容总结：**  
-FUSE 是一款聚合多平台游戏直播的 TV 客户端，支持电视、手机、车机等终端，整合虎牙、B站、抖音、斗鱼等平台直播内容，提供直播观看、弹幕互动、收藏推送等功能（部分平台功能受限）。用户需通过网盘链接下载安装包，软件仅限学习交流，使用后 24 小时内需卸载，开发者不承担内容责任且不收集用户信息。支持平台功能详见表格，部分平台缺少搜索、弹幕等特性。
+聚合直播 (FUSE) 是一款支持电视、手机及车机全终端的多平台游戏直播聚合客户端。
+
+核心功能：
+1. 平台覆盖：支持虎牙、B 站、抖音、斗鱼、CC、快手、YY、Twitch 等主流直播平台的内容聚合。
+2. 交互体验：提供直播观看、弹幕互动、画质选择、收藏管理及推送通知（具体功能视平台而定）。
+3. 项目声明：应用无破解行为，内容源自网页端，仅供学习与技术交流，不收集用户个人信息。

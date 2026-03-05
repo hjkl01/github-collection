@@ -3,11 +3,16 @@
 title: gpui-component
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/longbridge/gpui-component?style=social) ](https://github.com/longbridge/gpui-component)
-### [longbridge gpui-component](https://github.com/longbridge/gpui-component)
+### [longbridge gpui-component](https://github.com/longbridge/gpui-component)  ![GitHub Repo stars](https://img.shields.io/github/stars/longbridge/gpui-component?style=social)
 
-GPUI Component 是一个基于 GPUI 的跨平台桌面应用 UI 组件库，提供 60+ 跨平台组件，支持 macOS 和 Windows 原生控件风格与现代设计结合。主要特性包括：多主题定制、灵活布局（支持 Dock 和 Tiles 布局）、高性能虚拟化表格/列表、Markdown 和 HTML 渲染、内置图表、支持 20 万行代码的高性能编辑器（含 LSP 和语法高亮）。  
+GPUI Component 是基于 GPUI 的跨平台桌面应用 Rust UI 组件库。
 
-使用方法需在 Cargo.toml 中添加 `gpui` 和 `gpui-component` 依赖，并通过 `init(cx)` 初始化组件。示例代码展示如何创建窗口并渲染基础界面。WebView 功能需启用 `webview` 特性并依赖 Wry。图标需自行添加 SVG 文件，命名需符合预定义规则。  
+主要功能：
+- 提供 60+ 跨平台组件，融合 macOS/Windows 原生风格与 shadcn/ui 设计。
+- 支持多主题、变量配置、无状态 RenderOnce 组件及多种尺寸。
+- 支持 Dock、Tiles 布局，内置虚拟化的 Table 和 List 优化大数据渲染。
+- 内置图表，支持 Markdown、HTML 渲染及混合模式。
+- 提供高性能代码编辑器（支持 200K 行），集成 LSP 及 Tree Sitter 语法高亮。
+- 支持 Web (WASM)、国际化及自定义图标。
 
-项目对比其他框架（如 Iced、egui、Qt）的优势包括更小的二进制体积、更好的 CJK 支持、虚拟化表格列调整功能，以及更完善的 Markdown 和 HTML 混排支持。许可证为 Apache-2.0。
+项目采用 Apache-2.0 协议，相比 Iced、egui 等框架，在 UI 风格、图表及编辑器功能方面更具优势。

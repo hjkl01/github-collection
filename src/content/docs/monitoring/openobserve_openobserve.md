@@ -3,23 +3,6 @@
 title: openobserve
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social) ](https://github.com/openobserve/openobserve)
-### [openobserve openobserve](https://github.com/openobserve/openobserve)
+### [openobserve openobserve](https://github.com/openobserve/openobserve)  ![GitHub Repo stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social)
 
-**项目核心内容总结：**  
-OpenObserve 是一个开源的可观测性平台，支持日志、指标和追踪（LMT）功能，适用于大规模数据处理。其主要特性包括：  
-- **高效存储**：通过 Parquet 列式存储和 S3 原生架构，实现比传统方案低 140 倍的存储成本。  
-- **高性能查询**：基于列式存储和优化的查询引擎，支持 SQL 和 PromQL，比 Elasticsearch 使用更少资源且响应更快。  
-- **企业级功能**：提供 SSO、RBAC、数据脱敏、审计日志、联邦搜索等企业特性（需企业版）。  
-- **合规性**：符合 SOC 2 Type II、ISO 27001、GDPR 和 HIPAA 标准。  
-- **开源与企业版**：开源版采用 AGPL-3.0 协议，企业版提供商业授权和额外支持。  
-
-**使用方法：**  
-- 可通过 Docker 或源码部署，支持快速安装。  
-- 提供 Web 界面进行数据可视化、仪表盘构建和查询操作。  
-- 企业用户可联系销售团队获取定制部署和高级功能支持。  
-
-**核心优势：**  
-- 无需复杂配置，开箱即用；  
-- 数据不可变设计，满足合规需求；  
-- 社区活跃，提供全面文档和 Slack 技术支持。
+OpenObserve 是一款云原生开源可观测性平台，旨在作为 Datadog、Splunk 和 Elasticsearch 的高效低成本替代方案。它提供日志管理、指标监控、分布式追踪、前端监控（RUM）、仪表盘及告警的一体化解决方案。平台基于 Rust 构建，采用 Parquet 列式存储和 S3 原生架构，存储成本较 Elasticsearch 降低 140 倍，且查询性能更优。支持单二进制文件快速部署，具备高可用性、多租户隔离及海量数据扩展能力。原生兼容 OpenTelemetry，查询语言支持 SQL 和 PromQL，无厂商锁定。开源版基于 AGPL-3.0 协议，并提供企业版以满足高级安全合规及支持需求。

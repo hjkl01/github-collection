@@ -3,17 +3,13 @@
 title: pr-agent
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qodo-ai/pr-agent?style=social) ](https://github.com/qodo-ai/pr-agent)
-### [qodo-ai pr-agent](https://github.com/qodo-ai/pr-agent)
+### [qodo-ai pr-agent](https://github.com/qodo-ai/pr-agent)  ![GitHub Repo stars](https://img.shields.io/github/stars/qodo-ai/pr-agent?style=social)
 
-**项目核心内容总结：**  
-PR Agent 是 Qodo 开发的首个 AI 代码审查工具，用于自动化处理拉取请求（PR），支持代码审查、最佳实践校验、代码分析等功能。其开源版本包含基础功能，而 Qodo 的付费版（基于 Google Gemini 2.5 Pro）提供更高级特性：  
-1. **PR 与工单系统自动关联**：实现开发流程全链路追踪。  
-2. **自动执行团队编码规范**：学习并强制执行团队标准。  
-3. **代码静态与语义分析**：提前发现潜在问题。  
-4. **PR 聊天界面**：通过对话解释、总结或优化代码。  
-5. **变更影响评估**：分析代码改动对业务和技术的影响。  
+PR-Agent 是一款开源的 AI 驱动拉取请求（PR）审查工具，支持 GitHub、GitLab、Bitbucket、Azure DevOps 和 Gitea 等平台。
 
-**使用方式**：  
-- 开源版本可直接使用；  
-- 付费版本需申请（开源项目可免费获取），提供更高级功能及 250 个令牌额度，支持试用和贡献者奖励。
+**核心功能：**
+- **自动化审查**：通过 `/review`、`/describe`、`/improve`、`/ask` 等指令，自动生成代码审查报告、PR 描述、改进建议及代码问答。
+- **灵活部署**：支持 GitHub Action、CLI、Docker 及自托管部署，适配多种开发环境。
+- **技术特性**：兼容 OpenAI、Claude 等多种大语言模型，采用 PR 压缩策略处理大型请求，支持自定义配置文件，允许自托管以保障数据隐私。
+
+该项目由 Qodo 社区维护，旨在为开发团队提供快速、低成本且无供应商锁定的代码审查体验。

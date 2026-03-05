@@ -3,33 +3,6 @@
 title: metrics-server
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes-sigs/metrics-server?style=social) ](https://github.com/kubernetes-sigs/metrics-server)
-### [kubernetes-sigs metrics-server](https://github.com/kubernetes-sigs/metrics-server)
+### [kubernetes-sigs metrics-server](https://github.com/kubernetes-sigs/metrics-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes-sigs/metrics-server?style=social)
 
-### 核心内容总结  
-
-**项目功能**  
-Kubernetes Metrics Server 是 Kubernetes 自动扩展（HPA、VPA）的资源指标来源，通过 Metrics API 提供 CPU/内存使用数据，支持 `kubectl top` 命令调试自动扩展。  
-
-**主要特性**  
-- **高效性**：每 15 秒收集一次指标，资源占用低（每个节点约 1m CPU、2MB 内存）。  
-- **兼容性**：支持最多 5000 节点集群，适配主流 Kubernetes 版本（1.8+）。  
-- **安全性**：需启用 kube-apiserver 聚合层、Kubelet 身份验证，且不支持非 Kubernetes 集群或监控场景。  
-
-**使用方法**  
-- **安装**：通过 YAML 文件或 Helm Chart 部署，命令示例：  
-  ```bash  
-  kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml  
-  ```  
-- **高可用**：通过设置 `replicas > 1` 实现，需 kube-apiserver 启用 `--enable-aggregator-routing=true`。  
-
-**注意事项**  
-- 不适用于监控场景，需直接从 Kubelet `/metrics/resource` 获取指标。  
-- 安装前需确保集群满足网络、证书、聚合层等要求。  
-- 资源配额需根据集群规模调整（如节点数超过 100，需额外分配 1m CPU/2MB 内存）。  
-
-**兼容性**  
-不同 Metrics Server 版本支持的 Kubernetes 版本及 Metrics API 版本不同，需按兼容性矩阵匹配。  
-
-**设计**  
-通过 Metrics API 提供数据，依赖 Pod/Node Informer 获取信息，缓存后返回给 kube-apiserver。
+Kubernetes Metrics Server 是一个可扩展、高效的 Kubernetes 容器资源指标收集组件，专为内置自动伸缩管道设计。它从 Kubelet 收集资源指标并通过 Metrics API 暴露给 apiserver，主要供 Horizontal Pod Autoscaler、Vertical Pod Autoscaler 及 `kubectl top` 命令使用。该组件每 15 秒收集一次指标，资源占用低（每节点约 1m CPU 和 2MB 内存），支持高达 5000 节点的集群规模。需注意，Metrics Server 仅用于自动扩容目的，不可作为监控解决方案的指标源或提供精确的资源使用数据，其他监控需求应使用 Prometheus 等完整监控方案。

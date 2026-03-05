@@ -5,36 +5,13 @@ title: supermemory
 
 ### [supermemoryai supermemory](https://github.com/supermemoryai/supermemory)  ![GitHub Repo stars](https://img.shields.io/github/stars/supermemoryai/supermemory?style=social)
 
-### 项目核心内容总结
+Supermemory 是一款面向 AI 的最先进记忆与上下文引擎，用于解决 AI 跨会话遗忘信息的问题。
 
-**Supermemory** 是一个 AI 辅助的“第二大脑”工具，用于保存和整理所有重要信息。用户可以通过网页、浏览器扩展和 Raycast 扩展等方式添加记忆内容（如链接、文件、文本等），并使用自然语言与这些内容进行交互。
+核心功能：
+- **智能记忆引擎**：自动从对话提取事实，构建用户画像，管理信息更新、冲突解决及过期自动遗忘。
+- **混合搜索**：结合 RAG（知识库）与个性化记忆，单次查询同时获取文档内容与用户上下文。
+- **连接器与多模态**：支持 Google Drive、Notion 等数据实时同步，以及 PDF、图片、视频、代码的自动处理。
+- **开发者 API**：提供统一接口，无需配置向量数据库，即可为 Agent 添加持久化记忆与用户画像功能，兼容主流 AI 框架。
+- **终端集成**：通过应用、插件及 MCP 协议，让 Claude、Cursor 等 AI 工具具备持久记忆能力。
 
----
-
-### 主要功能：
-
-1. **添加记忆**：支持从网页、PDF、文本等添加内容。
-2. **聊天记忆**：通过自然语言聊天检索已保存的信息。
-3. **MCP 集成**：与主流 AI 工具（如 Claude、Cursor 等）无缝连接。
-4. **浏览器扩展**：可从网页、ChatGPT、Twitter 等直接保存内容。
-5. **Raycast 扩展**：通过 Raycast 快速添加和搜索记忆。
-
----
-
-### 使用方法：
-
-1. 访问 [app.supermemory.ai](https://app.supermemory.ai) 注册或登录。
-2. 通过“添加记忆”功能保存内容（支持笔记、链接、文件）。
-3. 可连接外部服务（如 Notion、Google Drive、OneDrive）。
-4. 通过“聊天”功能检索已保存的信息。
-5. 通过 MCP 功能集成到其他 AI 工具中。
-6. 安装浏览器或 Raycast 扩展以提高使用效率。
-
----
-
-### 其他信息：
-
-- **开发者支持**：提供开发者控制台和 API 文档。
-- **自托管**：支持企业级自托管部署。
-- **反馈与支持**：可通过邮件、Discord 或文档获取帮助。
-- **贡献**：欢迎开发者参与，包括修复 bug、添加功能、优化性能等。
+该项目在 LongMemEval、LoCoMo 和 ConvoMem 三大权威 AI 记忆基准测试中均排名第一。

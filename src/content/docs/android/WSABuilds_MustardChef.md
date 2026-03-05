@@ -3,16 +3,13 @@
 title: WSABuilds
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/MustardChef/WSABuilds?style=social) ](https://github.com/MustardChef/WSABuilds)
-### [MustardChef WSABuilds](https://github.com/MustardChef/WSABuilds)
+### [MustardChef WSABuilds](https://github.com/MustardChef/WSABuilds)  ![GitHub Repo stars](https://img.shields.io/github/stars/MustardChef/WSABuilds?style=social)
 
-**项目核心内容总结：**
+WSABuilds 是一个为 Windows 10 和 11 提供预编译 Windows 子系统 for Android (WSA) 构建的第三方项目。核心功能总结如下：
 
-该项目提供预构建的Windows Subsystem for Android（WSA）镜像，集成Magisk Root和Google应用（GMS），支持在Windows 10/11上运行。用户可通过脚本和工具（如WSA-Sideloader、WSAPacman）安装镜像，并自定义设备型号、内核版本等参数。主要特性包括：  
-- 支持Root权限（基于Magisk）和GMS（Google应用）集成；  
-- 兼容Windows 10及11系统；  
-- 提供多种工具辅助安装、管理应用；  
-- 非微软或谷歌官方项目，需用户自行承担风险。  
-
-**使用方法：**  
-下载预构建镜像，通过项目提供的脚本或工具安装至WSA，按需配置设备参数。
+1.  **系统增强**：集成 Magisk 和 KernelSU 实现 Root 权限，预装 Google Play 商店及 GApps 服务。
+2.  **版本支持**：提供 Windows 10 和 11 的多个 WSA 构建版本，包含 LTS（长期支持）、稳定版及预发布版。
+3.  **兼容性指南**：提供详尽的安卓应用和游戏兼容性测试表，列出各版本支持状态及已知问题。
+4.  **使用文档**：包含安装、更新、卸载、数据备份恢复及常见故障排除的详细操作指南。
+5.  **持续维护**：在微软官方终止 WSA 支持前，项目通过 LTS 版本继续提供维护更新。
+6.  **项目声明**：为非官方项目，与微软及谷歌无关联。

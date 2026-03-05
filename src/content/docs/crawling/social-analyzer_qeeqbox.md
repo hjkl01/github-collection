@@ -3,22 +3,6 @@
 title: social-analyzer
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/qeeqbox/social-analyzer?style=social) ](https://github.com/qeeqbox/social-analyzer)
-### [qeeqbox social-analyzer](https://github.com/qeeqbox/social-analyzer)
+### [qeeqbox social-analyzer](https://github.com/qeeqbox/social-analyzer)  ![GitHub Repo stars](https://img.shields.io/github/stars/qeeqbox/social-analyzer?style=social)
 
-**核心内容总结：**  
-Social Analyzer 是一款用于分析和查找个人在多个社交媒体及网站上的信息的工具，支持 API、CLI（命令行）和 Web 应用三种形式。其核心功能包括：  
-1. **分析与检测**：通过多模块检测技术（如 OCR、高级分析等），结合评分机制（0-100 分）判断结果可信度（无-可能-是），减少误报；可用于调查网络欺凌、虚假信息等可疑行为。  
-2. **使用方式**：  
-   - **Web 应用**：本地运行后通过 `http://0.0.0.0:9005/app.html` 访问。  
-   - **CLI**：支持命令行参数（如 `--username`、`--metadata`、`--type` 等），可批量搜索、过滤结果（如按国家、网站类型、评分等级）。  
-   - **Python 调用**：支持作为 Python 模块导入并调用。  
-3. **主要特性**：  
-   - 支持多网站搜索（如 Facebook、Gmail）、多用户批量分析、截图提取信息、元数据可视化等。  
-   - 提供图形化分析（如力导向图）、自定义代理、超时设置、日志输出等高级功能。  
-4. **安装方法**：提供 Linux、Windows、MacOS、树莓派等多平台安装指南，需依赖 Node.js、Python、Firefox 等环境。  
-
-**注意事项**：  
-- 工具需本地运行，不提供访问控制；禁止用于非法服务。  
-- 某些模块（如 `-private` 后缀模块）需直接联系开发者处理问题。  
-- 若网站不希望被收录，需联系开发者移除。
+Social Analyzer 是一款开源 OSINT 工具，提供 Web 端、API 及命令行界面，支持在 1000 多个社交媒体平台上跨站点查找和分析个人档案。工具采用评分机制（0-100）结合多种检测技术以识别真实资料并减少误报，主要用于调查网络欺凌、跟踪、诱导及虚假信息传播等可疑活动。核心功能包括多用户关联搜索、元数据与模式提取、可视化分析、自动截图、按国家/类型/排名筛选、名称及年龄分析等。支持多种操作系统及接口，便于集成至安全调查工作流。

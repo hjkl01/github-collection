@@ -3,15 +3,6 @@
 title: postgrest
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/postgrest/postgrest?style=social) ](https://github.com/postgrest/postgrest)
-### [postgrest postgrest](https://github.com/postgrest/postgrest)
+### [postgrest postgrest](https://github.com/postgrest/postgrest)  ![GitHub Repo stars](https://img.shields.io/github/stars/postgrest/postgrest?style=social)
 
-PostgREST 是一个基于现有 PostgreSQL 数据库自动生成 RESTful API 的工具，可提供符合标准、高性能的接口。其核心功能包括：  
-1. **功能**：通过数据库表结构自动生成 REST 接口，支持 CRUD 操作，无需手动编码。  
-2. **使用方法**：通过官方文档安装（支持 Docker），运行 `postgrest --help` 查看命令行参数。  
-3. **主要特性**：  
-   - **高性能**：使用 Haskell 编写，结合 Warp HTTP 服务器和数据库连接池（Hasql），实现高并发与低延迟。  
-   - **安全性**：通过 JWT 认证和数据库角色授权，确保操作符合用户权限。  
-   - **版本控制**：通过数据库 Schema 实现 API 版本管理，避免接口变更影响应用。  
-   - **自文档生成**：基于 OpenAPI 标准生成接口文档，支持 Swagger-UI 等工具展示。  
-   - **数据完整性**：依赖 PostgreSQL 约束（如唯一性、外键）保障数据一致性，强制幂等性操作（如 PUT）。
+PostgREST 是为现有 PostgreSQL 数据库自动生成完全 RESTful API 的服务。相比手写 API，它更清洁、标准且高效。项目基于 Haskell 编写，将计算逻辑（如验证、授权、JSON 序列化）委托给数据库以优化性能。它支持 JWT 认证和数据库角色授权，利用 Schema 进行 API 版本控制，并通过 OpenAPI 标准自动生成文档。此外，系统依赖数据库声明性约束确保数据完整性，防止应用层代码破坏数据。

@@ -3,8 +3,9 @@
 title: ChinaTextbook
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/TapXWorld/ChinaTextbook?style=social) ](https://github.com/TapXWorld/ChinaTextbook)
-### [TapXWorld ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)
+### [TapXWorld ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)  ![GitHub Repo stars](https://img.shields.io/github/stars/TapXWorld/ChinaTextbook?style=social)
 
-**项目核心内容总结：**  
-该项目是一个开源教育平台，提供覆盖小学、初中、高中及大学阶段的数学教材资源，包括义务教育教科书、高等数学、线性代数等。用户可通过GitHub下载教材文件，但大文件（超过50MB）会被拆分为多个小文件（每份35MB），需使用配套工具 `mergePDFs-windows-amd64.exe` 合并。使用方法为：将工具与拆分文件置于同一目录，运行工具即可自动合并。项目支持内地用户通过 `tchMaterial-parser` 项目重新下载，国外用户可直接从GitHub获取。用户可通过Telegram社区参与互动，并支持捐赠以维护资源库。
+本项目是一个开源教育资源库，旨在促进义务教育普及及方便海外华人学习国内课程。主要功能包括：
+1. 提供中国大陆人教版本中小学及大学数学教材（含高等数学、线性代数等）的免费 PDF 下载。
+2. 提供 PDF 合并工具，解决因 GitHub 文件大小限制导致的大体积文件拆分与合并问题。
+3. 集中整合公益教育资源，对抗免费资源商业倒卖行为。

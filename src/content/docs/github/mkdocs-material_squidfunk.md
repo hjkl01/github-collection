@@ -3,24 +3,6 @@
 title: mkdocs-material
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social) ](https://github.com/squidfunk/mkdocs-material)
-### [squidfunk mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+### [squidfunk mkdocs-material](https://github.com/squidfunk/mkdocs-material)  ![GitHub Repo stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social)
 
-### 项目核心内容总结
-
-**功能**  
-Material for MkDocs 是一个基于 Markdown 的静态文档生成主题，支持快速构建专业网站，无需掌握 HTML/CSS/JavaScript。提供响应式设计，适配所有设备，支持高度定制（如颜色、字体、图标等），并保证性能与轻量化。
-
-**使用方法**  
-1. 通过 `pip install mkdocs-material` 安装。  
-2. 在 `mkdocs.yml` 中配置 `theme: name: material`。  
-
-**主要特性**  
-- **Markdown 支持**：专注内容创作，无需编码。  
-- **多设备适配**：自动适配桌面、平板、手机等屏幕。  
-- **高度可定制**：通过简单配置修改外观与行为。  
-- **性能优异**：轻量快速，提升搜索引擎排名与用户留存。  
-- **开源免费**：采用 MIT 许可证，受 50,000+ 个人与企业信任。  
-
-**应用场景**  
-被 ArXiv、AWS、Google、FastAPI 等知名公司和开源项目广泛采用。
+Material for MkDocs 是一个基于 MkDocs 的强大文档框架。用户可使用 Markdown 编写内容，在几分钟内构建专业的静态文档网站。该项目支持 60 多种语言，具备全设备自适应响应式设计，并提供高度可定制的主题选项。其特点为快速轻量、高性能及 SEO 友好，确保用户完全掌控文档源码控制权，采用 MIT 开源协议。

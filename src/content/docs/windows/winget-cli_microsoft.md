@@ -3,26 +3,13 @@
 title: winget-cli
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/winget-cli?style=social) ](https://github.com/microsoft/winget-cli)
-### [microsoft winget-cli](https://github.com/microsoft/winget-cli)
+### [microsoft winget-cli](https://github.com/microsoft/winget-cli)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/winget-cli?style=social)
 
-**核心内容总结：**  
+Windows Package Manager (WinGet) 是一款适用于 Windows 系统的命令行包管理工具，主要功能总结如下：
 
-**项目功能**  
-Windows Package Manager（WinGet）是一款用于快速发现和安装软件包的工具，支持通过命令行安装应用（如 `winget install <package>`），包来源包括 Microsoft Store（msstore）和社区仓库（winget）。  
-
-**使用方法**  
-1. **安装**：推荐通过 Microsoft Store 安装；也可手动下载开发版或自行构建客户端。  
-2. **更新**：支持通过 Insider 程序获取开发版更新，或从 GitHub 发布页下载。  
-3. **管理**：使用 `winget` 命令管理包，如安装、卸载、搜索等。  
-
-**主要特性**  
-- 支持多来源（官方商店、社区仓库、自定义 REST 源）。  
-- 需管理员权限安装部分应用，否则可能因权限不足失败。  
-- 提供实验性功能（需通过 `winget features` 启用）。  
-- 自行构建客户端时需注意：无官方支持，需自行处理依赖（如 VC++ 运行库）。  
-- 包含数据收集功能（可于系统设置中关闭）。  
-
-**注意事项**  
-- Windows Server 2019 不支持，Windows Server 2022 需手动安装依赖。  
-- 非官方渠道安装需谨慎，可能影响自动更新。
+1. 包管理：通过命令行（如 `winget install`）快速发现、安装、升级和管理软件包。
+2. 软件源：默认集成 Microsoft Store 和 WinGet 社区仓库，支持配置自定义私有源。
+3. 权限兼容：适配管理员和普通用户模式，自动处理安装所需的 UAC 提权。
+4. 系统支持：支持 Windows 10 (1809 及以上) 及 Windows Server 2022（实验性）。
+5. 开发者支持：提供源码构建指南，支持自行编译客户端及项目贡献。
+6. 隐私控制：内置诊断数据收集功能，支持用户通过系统设置或配置禁用遥测。

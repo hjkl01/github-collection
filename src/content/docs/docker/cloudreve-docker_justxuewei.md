@@ -3,21 +3,6 @@
 title: cloudreve-docker
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/justxuewei/cloudreve-docker?style=social) ](https://github.com/justxuewei/cloudreve-docker)
-### [justxuewei cloudreve-docker](https://github.com/justxuewei/cloudreve-docker)
+### [justxuewei cloudreve-docker](https://github.com/justxuewei/cloudreve-docker)  ![GitHub Repo stars](https://img.shields.io/github/stars/justxuewei/cloudreve-docker?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-基于最新Cloudreve V3的Docker镜像，提供文件管理与云存储服务，支持SQLite/MySQL等数据库，包含Nginx反向代理和Aria2离线下载的部署教程。
-
-**使用方法**  
-1. 创建配置目录并编辑`conf.ini`（示例：设置数据库路径）；  
-2. 通过Docker命令启动容器，需挂载上传目录、配置文件夹、数据库目录及头像目录，设置PUID/PGID和时区；  
-3. 首次启动后通过`docker logs`获取初始密码。
-
-**主要特性**  
-- 镜像体积小，纯净无多余组件；  
-- 支持多架构（amd64/arm64/arm32）；  
-- 提供详细部署教程（含Nginx/Aria2）；  
-- 长期维护，适配最新Cloudreve版本。
+这是一个用于便捷部署私有云存储服务的 Cloudreve V3 Docker 镜像项目。项目支持多架构，镜像体积小，具有长期维护、纯净安装及安装简易等优势。用户可通过挂载卷配置上传目录、数据库及配置文件，支持设置用户权限与时区。项目内置基础安装、Nginx+ 反向代理+Aria2 离线下载、Docker Compose 启动等多种部署教程。升级操作仅需停止容器并拉取最新镜像重启。

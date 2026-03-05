@@ -3,15 +3,11 @@
 title: PySimpleGUI
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PySimpleGUI/PySimpleGUI?style=social) ](https://github.com/PySimpleGUI/PySimpleGUI)
-### [PySimpleGUI PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
+### [PySimpleGUI PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)  ![GitHub Repo stars](https://img.shields.io/github/stars/PySimpleGUI/PySimpleGUI?style=social)
 
-**核心内容总结：**  
-PySimpleGUI 项目因违反 PyPI 服务条款，需通过新地址 `https://PySimpleGUI.net/install` 安装，命令需添加 `--extra-index-url` 参数。项目已宣布停止维护，商业用户可继续使用至年底并获得支持，业余用户需切换至旧版本（v4）或购买永久商业许可证。  
+PySimpleGUI 是一个用于创建应用程序的 Python 项目。该项目因营收不足无法持续运营，宣布将于 2026 年 1 月正式关闭。主要内容如下：
 
-**使用方法：**  
-安装命令需包含 `--extra-index-url https://PySimpleGUI.net/install`，升级需使用 `python -m pip install --upgrade --extra-index-url ... PySimpleGUI`。  
-
-**注意事项：**  
-- 旧版本（<5.0.10）存在商业许可证过期错误，需升级至 5.0.10。  
-- 项目官网和注册网站将运行数月，不再发放新业余许可证。
+1. 服务终止：官网、文档及私有 PyPI 服务器将于 2026 年 1 月下线。
+2. 安装调整：需下载 wheel 文件进行本地离线安装，停止远程 pip 安装支持。
+3. 版本许可：商业用户可获得永久无密钥限制版本；个人爱好者密钥即将过期，需迁移至旧版本或购买商业许可。
+4. 资料归档：GitHub 仓库设为只读，文档将永久保留在 GitHub 存档页面。

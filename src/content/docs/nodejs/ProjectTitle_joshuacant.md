@@ -3,31 +3,6 @@
 title: ProjectTitle
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/joshuacant/ProjectTitle?style=social) ](https://github.com/joshuacant/ProjectTitle)
-### [joshuacant ProjectTitle](https://github.com/joshuacant/ProjectTitle)
+### [joshuacant ProjectTitle](https://github.com/joshuacant/ProjectTitle)  ![GitHub Repo stars](https://img.shields.io/github/stars/joshuacant/ProjectTitle?style=social)
 
-**项目核心内容总结：**  
-Project: Title 是一款为 KOReader 设计的插件，旨在优化电子书阅读器的界面体验，提供更美观、功能更丰富的书架浏览和书籍管理方式。  
-
-**主要功能：**  
-- **标题栏优化**：集成快速操作按钮（收藏、历史、打开最近书籍、返回上级文件夹）。  
-- **书籍列表改进**：支持自定义字体、图标、进度条，适配屏幕尺寸；支持文件夹封面或缩略图展示。  
-- **底部信息栏**：显示页面控制、设备状态（时间、电量、网络等），支持位置自定义。  
-- **书籍状态页**：展示书籍简介、阅读进度，支持恢复原始界面。  
-- **高度可定制**：通过“用户补丁”支持个性化修改，提供多种扩展功能（如USB自动扫描、手势缩放、标记完成书籍等）。  
-
-**适用对象：**  
-- Kobo、Jailbroken Kindle、Android 等设备用户；  
-- 使用 Calibre 管理电子书库的用户；  
-- 喜欢美观界面、重视书籍信息浏览的读者。  
-
-**不适用对象：**  
-- 偏好极简界面或追求极致速度的用户；  
-- 已满足于 Cover Browser 插件的用户。  
-
-**安装与卸载：**  
-- 安装：通过 [安装指南](../../wiki/Installation) 操作；  
-- 卸载：禁用插件或删除 `projecttitle.koplugin` 文件夹及额外字体、图标文件。  
-
-**许可证：**  
-遵循 AGPL-3.0 协议，附加文件（字体、图片等）许可证详见 `licenses.txt`。
+Project: Title 是 KOReader 的一款增强型插件，旨在扩展 Cover Browser 功能并提供类似商业电子阅读器的图书浏览体验。主要功能包括：增强的标题栏（支持收藏、历史记录及快捷操作）、优化的书籍列表（可选进度条、自适应布局及自定义图标）、灵活的文件夹展示（支持封面或缩略图）、信息丰富的底部状态栏（显示页码控制及设备状态）以及匹配的书本状态页。支持通过 Lua 用户补丁进行深度自定义（如自动扫描、手势缩放、完成标记），兼容 Kobo、Kindle、Android 等多种阅读器设备。

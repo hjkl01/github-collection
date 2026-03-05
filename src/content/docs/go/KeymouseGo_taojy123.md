@@ -3,24 +3,6 @@
 title: KeymouseGo
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/taojy123/KeymouseGo?style=social) ](https://github.com/taojy123/KeymouseGo)
-### [taojy123 KeymouseGo](https://github.com/taojy123/KeymouseGo)
+### [taojy123 KeymouseGo](https://github.com/taojy123/KeymouseGo)  ![GitHub Repo stars](https://img.shields.io/github/stars/taojy123/KeymouseGo?style=social)
 
-KeymouseGo 是一个跨平台（Windows/Linux/macOS）自动化工具，用于记录用户的鼠标和键盘操作，并可重复执行录制的操作，适用于简化重复性任务。  
-
-**核心功能**  
-- 录制鼠标点击、键盘输入操作，生成脚本文件（支持修改）。  
-- 支持通过桌面模式（按钮触发）或命令行模式运行脚本，可设定重复次数（0 表示无限循环）。  
-- 脚本采用 `json5` 格式，包含事件类型（鼠标/键盘）、延迟时间、操作类型（如点击、移动、输入文字）及坐标（支持相对坐标和绝对坐标）。  
-
-**使用方法**  
-1. **桌面模式**：点击“录制”执行操作，结束后点击“启动”重复执行。  
-2. **命令行模式**：运行脚本文件，如 `./KeymouseGo scripts/xxx.txt -rt 3`（执行3次）。  
-
-**主要特性**  
-- 热键控制：默认 `F6` 启动脚本，`F9` 终止。  
-- 跨平台兼容：需管理员权限（Linux/macOS）或辅助功能白名单（macOS）。  
-- 脚本可编辑：修改 `scripts` 目录下的 JSON5 文件，支持自定义操作逻辑。  
-
-**安装**  
-提供预编译的可执行文件（无需 Python），或通过 Python3 + PyInstaller 打包源码（需安装依赖库）。
+KeymouseGo 是一款支持 Windows、Linux 和 macOS 的自动化宏工具。核心功能为录制鼠标点击与键盘输入操作，并通过按钮或命令行自动回放记录的动作。支持设置执行次数、自定义热键及编辑 JSON5 脚本文件，适用于简化单调重复的电脑操作，用户无需安装 Python 即可直接运行打包后的可执行文件。

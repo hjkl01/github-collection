@@ -3,34 +3,14 @@
 title: spacedrive
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/spacedriveapp/spacedrive?style=social) ](https://github.com/spacedriveapp/spacedrive)
-### [spacedriveapp spacedrive](https://github.com/spacedriveapp/spacedrive)
+### [spacedriveapp spacedrive](https://github.com/spacedriveapp/spacedrive)  ![GitHub Repo stars](https://img.shields.io/github/stars/spacedriveapp/spacedrive?style=social)
 
-**项目核心内容总结：**  
+Spacedrive 是一款基于虚拟分布式文件系统 (VDFS) 的开源跨平台文件管理器。
 
-**1. 项目功能**  
-Spacedrive 是一个基于 **虚拟分布式文件系统（VDFS）** 的开源跨平台文件管理工具，支持 macOS、Windows、Linux、iOS、Android 等系统。主要功能包括：  
-- 跨设备文件同步与管理（支持本地、云存储、P2P 网络）  
-- 内容识别与去重（通过内容哈希技术）  
-- 语义搜索（基于文件内容和元数据）  
-- 离线优先模式（数据本地存储，无需依赖云端）  
-- 支持扩展插件（如 AI 照片管理、知识管理、CRM 等）  
-
-**2. 使用方法**  
-- **开发环境准备**：需安装 Rust 1.81+ 和 Bun 1.3+。  
-- **快速启动**：  
-  - 克隆仓库后，通过 `bun install` 安装依赖，使用 `cargo build` 构建项目。  
-  - 通过 CLI 命令启动守护进程（`sd-daemon`），或运行 Tauri 桌面应用（自动连接守护进程）。  
-  - 支持通过 CLI 创建库、添加索引目录、搜索文件等操作。  
-
-**3. 主要特性**  
-- **本地优先**：数据存储于本地设备，支持端到端加密（QUIC/TLS）和静态加密（SQLCipher）。  
-- **分布式同步**：通过 P2P 网络实现设备间文件同步，无需中心服务器。  
-- **内容感知**：基于内容哈希实现去重，支持语义级文件搜索。  
-- **扩展性**：提供 WASM 插件系统，支持 AI 照片管理、知识库、CRM 等专业功能。  
-- **隐私保护**：无数据追踪，支持自建云服务（非必需）。  
-
-**4. 技术栈**  
-- 核心语言：Rust  
-- 关键技术：VDFS、BLAKE3 哈希算法、Iroh P2P 库、WASM 插件  
-- 支持工具：Bun（前端构建）、SQLCipher（加密数据库）
+主要功能：
+1. **统一文件管理**：支持 macOS、Linux、Windows 及移动端，通过单一界面管理分散在各设备、云服务上的文件。
+2. **内容寻址与去重**：基于内容哈希生成唯一身份标识，实现跨设备智能去重、冗余追踪及内容关联访问。
+3. **P2P 同步**：采用无服务器架构的点对点同步，支持离线操作和自动重连，确保数据本地化与主权。
+4. **智能交互**：提供毫秒级语义搜索、事务预览（操作前预览冲突与空间占用）及基于图的标签系统。
+5. **扩展生态**：内置 WASM 扩展系统，支持 AI 照片识别、文档分析等第三方功能插件。
+6. **隐私安全**：本地优先设计，支持端到端加密，无遥测收集。

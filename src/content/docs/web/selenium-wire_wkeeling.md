@@ -3,23 +3,6 @@
 title: selenium-wire
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/wkeeling/selenium-wire?style=social) ](https://github.com/wkeeling/selenium-wire)
-### [wkeeling selenium-wire](https://github.com/wkeeling/selenium-wire)
+### [wkeeling selenium-wire](https://github.com/wkeeling/selenium-wire)  ![GitHub Repo stars](https://img.shields.io/github/stars/wkeeling/selenium-wire?style=social)
 
-**项目核心内容总结：**  
-**功能：**  
-Selenium Wire 是一个用于浏览器自动化测试的工具，可拦截和处理 HTTP/HTTPS 请求与响应，支持 HTTPS 解密、请求/响应修改、HAR 数据捕获，并提供代理配置、证书管理等功能。  
-
-**使用方法：**  
-1. 安装：`pip install selenium-wire`  
-2. 在代码中通过 `seleniumwire_options` 配置参数（如代理、存储路径、证书路径等），结合 Selenium WebDriver 使用。  
-3. 使用 `driver.requests` 拦截请求，或通过 `driver.har` 获取 HAR 归档数据。  
-4. 支持与 `undetected-chromedriver` 集成，规避反爬虫检测。  
-
-**主要特性：**  
-- 自动解密 HTTPS 流量（需浏览器信任证书）；  
-- 支持内存或磁盘存储捕获数据；  
-- 可自定义代理服务器及证书；  
-- 提供 HAR 归档功能，便于调试与分析；  
-- 可绕过反爬虫机制（通过 `undetected-chromedriver`）；  
-- 支持忽略特定 HTTP 方法（如 OPTIONS）或禁用请求压缩。
+Selenium Wire 是 Selenium 的 Python 扩展库，旨在提供浏览器底层 HTTP/HTTPS 网络请求的访问、拦截与修改能力。其主要功能包括：监控捕获所有网络请求、响应及 WebSocket 消息，支持 HAR 格式；支持拦截并动态修改 Headers、参数、Body 内容，或模拟/阻断请求；支持 HTTP、HTTPS、SOCKS 代理配置；支持磁盘或内存存储请求数据；兼容 Python 3.7+ 与 Selenium 4.0+，支持 Chrome、Firefox、Edge 浏览器，并可集成 undetected-chromedriver 辅助规避反爬虫检测。请注意，该项目目前已停止维护。

@@ -3,19 +3,13 @@
 title: typer
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/tiangolo/typer?style=social) ](https://github.com/tiangolo/typer)
-### [tiangolo typer](https://github.com/tiangolo/typer)
+### [tiangolo typer](https://github.com/tiangolo/typer)  ![GitHub Repo stars](https://img.shields.io/github/stars/tiangolo/typer?style=social)
 
-**核心内容总结：**  
-Typer 是一个基于 Python 类型提示的 CLI（命令行接口）开发库，用于创建用户和开发者都喜欢的命令行应用。其核心功能包括自动生成帮助信息、自动补全、支持复杂命令结构（如子命令和分组），并能将普通脚本自动转换为 CLI 应用。  
+Typer 是一个基于 Python 类型提示的命令行（CLI）应用程序构建库，被誉为"CLI 领域的 FastAPI"。
 
-**使用方法：**  
-1. 安装：通过 `pip install typer` 安装。  
-2. 基本用法：在代码中使用 `typer.run(main)` 或通过 `typer` 命令运行脚本（如 `typer main.py run`）。  
-3. 示例：定义函数参数（如 `name: str`），Typer 会自动处理参数解析、帮助信息和补全功能。  
-
-**主要特性：**  
-- **直观开发**：无需学习新语法，直接使用 Python 类型提示（如 `int`、`bool`）定义参数。  
-- **自动补全**：支持主流终端（Bash、Zsh 等）的自动补全，提升用户交互体验。  
-- **灵活结构**：支持单命令、多命令、子命令分组及复杂参数验证。  
-- **与 FastAPI 类似**：基于 Click 库构建，提供类似 FastAPI 的开发体验。
+核心功能：
+*   **开发直观**：使用标准 Python 类型声明参数，提供完善的编辑器支持和自动补全。
+*   **自动辅助**：自动生成帮助文档及终端自动补全（支持多种 Shell）。
+*   **代码简洁**：最小化代码重复，支持从简单脚本到复杂子命令树结构的扩展。
+*   **脚本运行**：包含 `typer` 命令，可直接运行 Python 脚本并将其转换为 CLI 应用。
+*   **底层依赖**：基于 Click 构建，集成 Rich 和 shellingham 用于美化输出和 Shell 检测。

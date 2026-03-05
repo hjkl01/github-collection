@@ -3,29 +3,6 @@
 title: mastodon
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mastodon/mastodon?style=social) ](https://github.com/mastodon/mastodon)
-### [mastodon mastodon](https://github.com/mastodon/mastodon)
+### [mastodon mastodon](https://github.com/mastodon/mastodon)  ![GitHub Repo stars](https://img.shields.io/github/stars/mastodon/mastodon?style=social)
 
-**Mastodon核心内容总结：**
-
-**项目功能**  
-Mastodon是一款基于**ActivityPub协议**的开源社交网络服务器，属于**Fediverse**（去中心化社交网络）的一部分。用户可发布文字、图片、视频等，支持跨服务器互操作（如不同服务器用户可互相关注和互动）。
-
-**主要特性**  
-- **实时动态时间线**：关注用户的内容实时更新。  
-- **媒体支持**：支持上传和查看图片、视频（无声视频默认为GIF形式）。  
-- **安全与管理工具**：包括私密帖子、锁定账号、关键词过滤、屏蔽、举报及审核系统。  
-- **开放API**：提供OAuth2认证及REST/Streaming API，支持第三方应用开发（如第三方客户端、工具等）。  
-
-**使用方法**  
-- **部署要求**：需Ruby 3.2+、PostgreSQL 14+、Redis 7.0+、Node.js 20+，支持Docker、Heroku、Scalingo等环境部署。  
-- **文档与资源**：提供官方部署指南、开发者文档、翻译平台（Crowdin）及技术博客。  
-
-**贡献方式**  
-- 开源协议：AGPLv3，欢迎代码提交、翻译及社区参与。  
-- 提供**CONTRIBUTING指南**和**CODE OF CONDUCT**，鼓励协作与包容。  
-
-**其他**  
-- 项目主页：[joinmastodon.org](https://joinmastodon.org)  
-- 容器镜像：[GitHub Packages](https://github.com/mastodon/mastodon/pkgs/container/mastodon)  
-- 社区支持：可通过赞助、博客、文档等渠道参与。
+Mastodon 是一个基于 ActivityPub 协议的免费开源社交网络服务器，隶属于联邦宇宙（Fediverse），支持不同服务器用户间的互联互通。其主要功能包括：支持发布文本、链接、图片和视频；提供实时、时序的关注内容时间线；支持媒体附件上传与查看（视频支持循环播放）；内置隐私与审核工具，涵盖锁定账户、屏蔽、拉黑、举报及短语过滤；提供 OAuth2 及 REST/Streaming API，支持第三方客户端接入。

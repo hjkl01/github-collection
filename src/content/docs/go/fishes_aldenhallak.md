@@ -3,16 +3,6 @@
 title: fishes
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aldenhallak/fishes?style=social) ](https://github.com/aldenhallak/fishes)
-### [aldenhallak fishes](https://github.com/aldenhallak/fishes)
+### [aldenhallak fishes](https://github.com/aldenhallak/fishes)  ![GitHub Repo stars](https://img.shields.io/github/stars/aldenhallak/fishes?style=social)
 
-**核心内容总结：**  
-DrawAFish.com 是一个互动鱼类绘画平台，用户可实时绘制鱼类并由AI验证，作品将展示在共享的虚拟鱼缸中。主要功能包括：  
-1. **实时AI绘画验证**：通过ONNX模型实现浏览器端AI识别，提供即时反馈（如背景色变化提示绘画准确性）。  
-2. **社区互动**：用户作品可进入公共鱼缸，支持浏览、投票、查看创作者信息及排行榜。  
-3. **个性化管理**：支持创建私有/公开鱼缸收藏，按主题分类作品。  
-4. **跨平台兼容**：适配桌面、平板、手机等设备，支持触屏与鼠标操作。  
-
-**使用方法**：访问官网 → 绘制鱼类（需面向右侧）→ 提交作品 → 查看鱼缸展示 → 参与投票或浏览社区内容。  
-
-**主要特性**：AI实时反馈、共享鱼缸社交、个性化收藏、跨平台支持。
+这是一个基于网页的互动鱼类绘画社区应用。用户通过画布绘制鱼类，系统利用浏览器端 AI 模型（ONNX Runtime）进行实时识别验证，背景颜色随识别状态变化。验证通过的画作可汇入共享虚拟鱼池，以动画形式与其他用户作品共同游动展示。平台提供投票排名、艺术家档案、作品收藏及个人主页等社区功能，支持桌面、平板及移动端跨平台访问。技术栈包含前端 ONNX 推理、PyTorch 训练模型及 Firebase 后端服务。

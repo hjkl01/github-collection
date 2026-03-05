@@ -3,24 +3,14 @@
 title: planka
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/plankanban/planka?style=social) ](https://github.com/plankanban/planka)
-### [plankanban planka](https://github.com/plankanban/planka)
+### [plankanban planka](https://github.com/plankanban/planka)  ![GitHub Repo stars](https://img.shields.io/github/stars/plankanban/planka?style=social)
 
-**PLANKA核心内容总结：**
+Planka 是一款看板式项目管理工具，主要功能包括：
+- **协同管理**：支持创建项目、看板、列表和卡片，具备直观拖放界面。
+- **实时同步**：多用户间任务即时同步，无需手动刷新。
+- **富文本编辑**：卡片描述支持强大的 Markdown 编辑器。
+- **灵活通知**：支持 100 多种通知提供者，可根据工作流自定义。
+- **身份认证**：集成 OpenID Connect 实现单点登录。
+- **国际化**：支持全面多语言及自定义翻译。
 
-**项目功能**  
-PLANKA是一款协作式看板工具，支持创建项目、看板、列表和卡片，通过拖拽界面管理任务。提供实时同步、Markdown格式编辑、100+通知渠道自定义、OpenID认证、多语言支持等功能。
-
-**使用方法**  
-可通过多种方式部署（详见安装指南），支持自托管和企业版授权。用户可通过Discord社区获取帮助，或参考文档配置环境。
-
-**主要特性**  
-- 实时协作与拖拽操作  
-- Markdown富文本编辑器  
-- 支持100+通知集成  
-- OpenID单点登录  
-- 多语言国际化  
-- 开源且可扩展，采用Fair Use许可证（社区版）及企业授权版  
-
-**其他**  
-提供免费社区版（开源、自托管）和付费企业版（含额外功能与支持），可通过邮件联系获取托管服务或报告安全问题。
+项目支持自托管与多种部署方式，代码透明可拓展，并提供跨平台笔记应用测试版。

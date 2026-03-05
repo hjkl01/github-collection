@@ -3,23 +3,6 @@
 title: dblab
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/danvergara/dblab?style=social) ](https://github.com/danvergara/dblab)
-### [danvergara dblab](https://github.com/danvergara/dblab)
+### [danvergara dblab](https://github.com/danvergara/dblab)  ![GitHub Repo stars](https://img.shields.io/github/stars/danvergara/dblab?style=social)
 
-**项目核心内容总结：**  
-dblab 是一款支持多种数据库（PostgreSQL、Oracle、SQL Server、SQLite 等）的跨平台数据库管理工具，提供可视化界面和命令行操作。主要功能包括：  
-1. **数据库连接**：支持 SSH 隧道、SSL 加密、钱包文件等高级连接方式；  
-2. **数据操作**：执行 SQL 查询、查看表结构、索引、约束信息；  
-3. **交互式导航**：通过快捷键（如 Ctrl+Space 执行查询、Ctrl+S 切换结构视图等）高效浏览数据和元数据；  
-4. **配置灵活**：支持通过 YAML 配置文件定义连接参数、数据库列表、快捷键绑定等；  
-5. **分页浏览**：支持大型表数据分页加载，用户可通过自定义 SQL 实现数据导航。  
-
-**使用方法**：  
-- 命令行参数直接连接数据库（如 `--db` 指定数据库路径、`--host` 设置地址）；  
-- 配置文件（YAML）定义多数据库连接、默认分页限制（`limit`）及快捷键映射；  
-- 界面中通过面板切换（结构、约束、索引）和快捷键操作数据。  
-
-**主要特性**：  
-- 支持跨数据库查询（需独立连接每个数据库）；  
-- 可自定义快捷键（如 Ctrl+Space 执行查询、Enter 查看表数据）；  
-- 通过 SSH 隧道连接远程数据库，支持 SSL 验证和钱包文件配置。
+dblab 是一款基于 Go 语言开发的轻量级跨平台交互式终端数据库客户端。它支持 PostgreSQL、MySQL、SQLite3、Oracle 和 SQL Server，采用零依赖单二进制文件分发。核心功能包括通过命令行或 SSH 隧道连接数据库，执行 SQL 查询，查看表结构、约束及索引。支持 SSL 加密、Unix Socket 连接，允许通过配置文件管理连接预设和自定义快捷键，兼容 OSX、Linux 和 Windows 系统。

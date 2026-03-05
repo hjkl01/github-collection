@@ -3,30 +3,15 @@
 title: reinstall
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/bin456789/reinstall?style=social) ](https://github.com/bin456789/reinstall)
-### [bin456789 reinstall](https://github.com/bin456789/reinstall)
+### [bin456789 reinstall](https://github.com/bin456789/reinstall)  ![GitHub Repo stars](https://img.shields.io/github/stars/bin456789/reinstall?style=social)
 
-**项目核心内容总结：**
+这是一个一键 VPS 系统重装脚本，核心功能总结如下：
 
-该项目是一个用于自动化安装 Windows 系统的脚本工具，支持多种版本的 Windows（包括 Windows 7、Windows 10/11、Windows Server 等）以及 ARM 架构系统。主要功能包括自动下载 ISO 镜像、安装系统、配置 SSH 密钥等，适用于云服务器和虚拟化环境。
+1.  **系统重装**：支持 Linux（19 种常见发行版）和 Windows（Vista 至 2025）的一键重装，支持任意方向转换（如 Linux 转 Windows）。
+2.  **驱动与镜像**：Windows 安装使用官方原版 ISO，自动查找链接并安装 VirtIO 等公有云驱动；支持 DD Raw 镜像写入硬盘。
+3.  **网络配置**：自动设置 IP，智能识别动态/静态，支持 /32、/128、网关不在子网、纯 IPv6 及 IPv4/IPv6 多网卡配置。
+4.  **兼容性**：专为低配服务器优化（内存占用少），支持 BIOS/EFI 引导及 ARM 服务器。
+5.  **安全性**：使用分区表 ID 识别硬盘，确保不写错硬盘；所有资源实时从镜像源获取，无自制包。
+6.  **扩展功能**：支持重启至 Alpine Live OS 或 netboot.xyz 进行手动维护（不删除数据）。
 
-**使用方法：**
-
-- 通过 `--image-name` 参数指定要安装的系统版本（映像名称）；
-- 使用 `--ssh-key` 添加 SSH 公钥以实现无密码登录；
-- 支持从 GitHub 获取旧版本脚本以解决兼容性问题；
-- 可通过 `--force-boot-mode bios` 等参数解决特定硬件兼容性问题。
-
-**主要特性：**
-
-- 支持多种云平台（如 Azure、AWS、阿里云、GCP 等）；
-- 支持 ARM 架构的 Windows 安装；
-- 自动化安装流程，减少手动操作；
-- 提供常见问题的解决方法，如 GCP 上的安装问题、Windows 10 LTSC 的 CPU 占用问题等；
-- 可自定义脚本，支持 Fork 仓库并修改配置。
-
-**注意事项：**
-
-- 部分旧系统（如 Vista、Windows 7）可能缺少驱动；
-- 安装 Windows 7 时需注意 EFI 引导和虚拟机类型；
-- 部分云平台（如 Google Cloud）可能需要手动加载驱动。
+注意：不支持 OpenVZ、LXC 虚拟机。

@@ -3,13 +3,12 @@
 title: rime-ice
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/iDvel/rime-ice?style=social) ](https://github.com/iDvel/rime-ice)
-### [iDvel rime-ice](https://github.com/iDvel/rime-ice)
+### [iDvel rime-ice](https://github.com/iDvel/rime-ice)  ![GitHub Repo stars](https://img.shields.io/github/stars/iDvel/rime-ice?style=social)
 
-**项目核心内容总结：**  
-“雾凇拼音”是基于Rime框架的中文输入法方案，支持长词优先、Unicode字符输入、数字及人民币大写转换、农历插件等功能，提供高效打字体验。项目包含多套词库（如拼音、英文、OpenCC转换规则）及定制配置，可通过多种方式安装：  
-1. **安装方法**：使用东风破（plum）工具、仓输入法（Hamster）内置方案、Arch Linux的AUR包，或通过自动部署脚本（如rime-auto-deploy）快速部署。  
-2. **配置调整**：需修改输入法框架的`default.custom.yaml`文件，支持自定义键位绑定、候选词筛选等。  
-3. **依赖组件**：集成第三方插件（如拆字方案、Unicode支持、农历转换等），并依赖多个开源项目（如melt_eng、部件拆字方案）。  
+雾凇拼音是基于中州韵（Rime）引擎的跨平台开源输入法配置方案。
 
-项目由社区贡献者维护，包含词库修订、功能扩展及多语言支持，适用于需要精准输入、复杂符号处理及个性化配置的用户。
+主要功能：
+- **输入支持**：支持简体中文全拼及常见双拼，提供优化的英文输入与中英混输体验。
+- **特色功能**：包含拆字反查、Emoji 输入、以词定字、日期/时间/农历转换、简易计算器、Unicode 输入、拼音纠错及特殊符号输入。
+- **词库资源**：整合修订通用规范汉字表、现代汉语词表及英文词库，提供 8 千常用字及大字库，纠正错音错字。
+- **平台兼容**：支持 Windows、macOS、Linux、Android、iOS 等多系统，适配多种前端，配置详尽且支持多种安装部署方式。

@@ -3,23 +3,15 @@
 title: pal-mcp-server
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/BeehiveInnovations/pal-mcp-server?style=social) ](https://github.com/BeehiveInnovations/pal-mcp-server)
-### [BeehiveInnovations pal-mcp-server](https://github.com/BeehiveInnovations/pal-mcp-server)
+### [BeehiveInnovations pal-mcp-server](https://github.com/BeehiveInnovations/pal-mcp-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/BeehiveInnovations/pal-mcp-server?style=social)
 
-**项目核心内容总结：**
+PAL MCP 是一个 MCP 服务器，作为 Provider 抽象层，将 CLI AI 工具（如 Claude Code、Codex、Cursor）与多个 AI 模型（如 Gemini、OpenAI、Anthropic、Grok、本地模型等）连接。
 
-**功能：**  
-1. 多模型AI协作工具，支持代码审查、调试、架构规划等任务。  
-2. 自动选择合适AI模型（如Gemini、GPT-5、O3等），支持多模型工作流。  
-3. 提供上下文延续、多模型辩论、预提交验证等高级功能。  
+核心功能：
+1. **多模型编排**：在单次对话中协调多个模型，实现协作辩论、获取第二意见及构建共识。
+2. **上下文延续**：跨工具和模型保持会话线程，确保上下文无缝流转，解决主模型上下文重置问题。
+3. **CLI 桥接 (clink)**：连接外部 AI CLI 进入工作流，支持创建隔离子代理、角色专业化及任务卸载。
+4. **开发工具集**：提供代码审查、调试、规划、预提交验证、测试生成、安全审计等工具，支持按需配置。
+5. **广泛支持**：兼容主流云厂商及本地模型，具备视觉分析及突破 MCP 令牌限制的能力。
 
-**使用方法：**  
-1. 安装并配置环境变量（如API密钥、工具启用列表）。  
-2. 通过命令或对话触发功能（如“执行代码审查”、“规划架构”）。  
-3. 可启用/禁用工具（如分析、测试生成等），调整模型和思考模式。  
-
-**主要特性：**  
-1. **AI编排**：自动匹配任务与模型，支持多模型协作。  
-2. **多模型支持**：兼容Gemini、OpenAI、Azure、Ollama等主流AI平台。  
-3. **开发者体验优化**：智能文件处理、上下文恢复、视觉分析支持。  
-4. **灵活配置**：通过环境变量控制工具启用、模型选择、日志级别等。
+旨在通过组合不同模型优势，增强代码分析、问题解决和协作开发体验。

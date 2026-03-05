@@ -3,25 +3,6 @@
 title: dlt
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social) ](https://github.com/dlt-hub/dlt)
-### [dlt-hub dlt](https://github.com/dlt-hub/dlt)
+### [dlt-hub dlt](https://github.com/dlt-hub/dlt)  ![GitHub Repo stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social)
 
-**项目核心内容总结**  
-
-dlt 是一个开源 Python 库，用于自动化从各种数据源（如 REST API、SQL 数据库、云存储等）提取数据，并将其结构化加载到目标系统（如 DuckDB、数据库等）。其核心功能包括：  
-- **数据处理**：自动推断数据模式、处理嵌套结构、支持增量加载和模式演变。  
-- **灵活部署**：适用于本地开发、云函数（如 AWS Lambda）、Airflow 等多种环境。  
-- **多源多目标**：支持从 API、文件、数据库等加载数据，并兼容多种数据存储目的地。  
-
-**使用方法**  
-通过 `pip install dlt` 安装后，可快速构建数据管道。例如，从 chess.com API 获取数据并保存到 DuckDB：  
-1. 创建管道对象，指定目标（如 DuckDB）和数据集名称。  
-2. 调用 API 获取数据。  
-3. 使用 `pipeline.run()` 方法执行数据加载。  
-
-**主要特性**  
-- 自动化数据清洗、模式推断与类型转换。  
-- 支持 Python 3.9-3.14（部分功能对 3.14 为实验性）。  
-- 提供增量加载、版本控制及数据合同校验功能。  
-- 可通过 LLM 工具链扩展至 5000+ 数据源，兼容 Marimo Notebooks 可视化。  
-- 社区驱动，提供文档、教程及 Slack 技术交流渠道。
+dlt 是一款开源 Python 库，旨在自动化各类繁琐的数据加载任务。它支持从 REST API、SQL 数据库、云存储及 Python 数据结构等多种来源提取数据，自动推断架构与数据类型并进行数据规范化处理。该库支持主流及自定义目标存储，提供增量加载、模式演进、数据转换、管道检查等功能，并支持 LLM 原生工作流。dlt 设计灵活且可扩展，可部署于任何运行 Python 的环境（如 Airflow、Serverless、Colab、本地等）。

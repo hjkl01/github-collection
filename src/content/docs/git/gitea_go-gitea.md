@@ -3,8 +3,6 @@
 title: gitea
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social) ](https://github.com/go-gitea/gitea)
-### [go-gitea gitea](https://github.com/go-gitea/gitea)
+### [go-gitea gitea](https://github.com/go-gitea/gitea)  ![GitHub Repo stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social)
 
-**核心内容总结：**  
-Gitea 是一个基于 Go 语言开发的自托管 Git 服务，支持多平台和架构，提供轻量级、易用的代码托管功能。项目从 Gogs 分叉而来，具备完整的代码管理功能，包括仓库管理、问题跟踪、拉取请求、里程碑、代码审查等。用户可通过官方文档获取安装、配置、开发等指南，支持通过命令行构建（需 Go 和 Node.js 环境），运行后即可使用。项目接受社区贡献，需遵循贡献者指南，安全补丁可在发布日志中查询。提供多语言支持（通过 Crowdin 翻译），并集成官方 SDK、CLI 工具和自动化流程（如 Actions）。采用 MIT 许可证，支持通过 Discord 和论坛进行社区交流。
+Gitea 是一个轻量级、自托管的 Git 服务，旨在提供最简单、快速且易于部署的体验。它使用 Go 语言编写，支持跨平台（Linux、macOS、Windows）及多种架构。该项目提供代码托管、版本控制、问题追踪、拉取请求、发布管理等核心功能，支持 SQLite 数据库，并提供官方 API、CLI 工具及工作流支持。Gitea 是 Gogs 的分支，采用 MIT 协议开源。

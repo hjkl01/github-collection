@@ -3,28 +3,6 @@
 title: freenom
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/luolongfei/freenom?style=social) ](https://github.com/luolongfei/freenom)
-### [luolongfei freenom](https://github.com/luolongfei/freenom)
+### [luolongfei freenom](https://github.com/luolongfei/freenom)  ![GitHub Repo stars](https://img.shields.io/github/stars/luolongfei/freenom?style=social)
 
-**项目核心内容总结：**  
-该项目是一个用于自动续费Freenom免费域名的工具，支持多平台部署和通知功能。  
-
-**主要功能：**  
-1. **自动续期**：定时检查并自动续费Freenom域名，支持多账户管理。  
-2. **通知系统**：通过邮件、Telegram或Nezha监控工具发送续期结果通知。  
-3. **灵活部署**：支持Docker、Koyeb云平台、腾讯云/阿里云/华为云函数等多种部署方式，提供一键部署选项。  
-
-**使用方法：**  
-- **Docker部署**：通过命令行配置环境变量并运行容器，支持自定义定时任务。  
-- **云平台部署**：使用Koyeb一键部署，或下载压缩包上传至各大云函数平台（如腾讯云、阿里云）。  
-- **手动配置**：需修改配置文件，设置Freenom账号信息、通知参数及定时策略。  
-
-**主要特性：**  
-- 支持多语言（含英文邮件模板）。  
-- 提供失败重试机制（最多200次）。  
-- 隐藏敏感信息（如账号密码）。  
-- 开源协议为MIT，允许自由使用和修改。  
-
-**注意事项：**  
-- 部署时需确保网络可访问Freenom接口。  
-- 自动续期依赖Freenom的API规则，若API变更可能导致功能失效。
+该项目是一个用于自动续期 Freenom 免费顶级域名的脚本工具。核心功能包括多账户管理、定时自动续期任务执行，以及通过邮件、Telegram、企业微信、Server 酱、Bark 等多种渠道发送续期结果与异常通知。项目支持 Docker、源码等多种部署方案，兼容不同服务器环境，采用 MIT 开源协议。

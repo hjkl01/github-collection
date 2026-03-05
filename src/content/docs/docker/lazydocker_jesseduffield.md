@@ -3,21 +3,6 @@
 title: lazydocker
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/jesseduffield/lazydocker?style=social) ](https://github.com/jesseduffield/lazydocker)
-### [jesseduffield lazydocker](https://github.com/jesseduffield/lazydocker)
+### [jesseduffield lazydocker](https://github.com/jesseduffield/lazydocker)  ![GitHub Repo stars](https://img.shields.io/github/stars/jesseduffield/lazydocker?style=social)
 
-**项目核心内容总结：**
-
-Lazydocker 是一款用于管理 Docker 和 Docker Compose 容器环境的终端 UI 工具，旨在提供更直观、高效的容器管理体验。它支持查看容器状态、日志、资源使用情况（如 CPU、内存等），并可通过图形化界面进行容器的重启、删除、重建等操作。用户还可以自定义监控指标，查看容器的祖先镜像层，并清理无用的容器、镜像和卷。
-
-**使用方法：**  
-用户可以通过终端直接运行 `lazydocker` 命令启动工具，也可通过安装脚本或 Go 编译安装。推荐创建别名（如 `alias lzd='lazydocker'`）以方便使用。
-
-**主要特性：**  
-- 一键查看容器状态、日志和资源使用情况；  
-- 图形化展示容器的性能指标；  
-- 支持自定义监控指标；  
-- 可直接操作容器（重启、删除、重建等）；  
-- 支持查看镜像的祖先层；  
-- 提供清理功能（容器、镜像、卷）；  
-- 支持鼠标操作和配置自定义设置。
+Lazydocker 是一款基于 Go 语言开发的轻量级终端界面工具，专为管理 Docker 和 Docker Compose 设计。它通过可视化的界面简化容器运维，让用户无需记忆复杂的命令行指令。核心功能包括：直观查看容器与服务状态、查看日志及监控指标图表、管理容器生命周期（附加、重启、删除、重建）、清理磁盘资源（容器、镜像、卷），并支持键盘快捷键与鼠标操作。

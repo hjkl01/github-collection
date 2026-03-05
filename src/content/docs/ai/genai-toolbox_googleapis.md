@@ -5,19 +5,11 @@ title: genai-toolbox
 
 ### [googleapis genai-toolbox](https://github.com/googleapis/genai-toolbox)  ![GitHub Repo stars](https://img.shields.io/github/stars/googleapis/genai-toolbox?style=social)
 
-**项目核心内容总结：**
+MCP Toolbox for Databases 是一个开源的 MCP 数据库服务器，旨在简化开发构建允许 AI 代理安全访问数据库的工具。其核心功能包括：
 
-**项目功能：**  
-Toolbox 是一个用于构建基于 Gemini 的 AI 代理的工具包，支持与数据库、数据仓库等数据源交互。提供定义数据源、工具、提示（prompt）等功能，并兼容多种编程语言（如 Python、JavaScript、Go）及 Gemini CLI 扩展。
+- **简化开发与复用**：支持快速集成工具，实现跨应用和框架复用，配置通过 YAML 文件管理数据源、工具、工具集和提示词。
+- **架构优势**：作为应用与数据库间的控制平面，提供连接池、身份认证、安全访问及 OpenTelemetry 可观测性，支持工具动态更新无需重新部署应用。
+- **多语言支持**：提供 Python、JavaScript/TypeScript、Go 等官方 SDK，兼容 LangChain、LlamaIndex、Genkit 等主流框架及 Gemini CLI 扩展。
+- **AI 辅助场景**：支持通过自然语言查询数据、自动化数据库管理、生成上下文感知代码，减少开发负担。
 
-**使用方法：**  
-1. 通过 `tools.yaml` 配置文件定义数据源（如 PostgreSQL）、工具（如 SQL 查询）及工具集（工具分组）。  
-2. 使用 SDK（如 Python、JavaScript、Go）加载工具集，实现与数据源的交互。  
-3. 支持通过 Gemini CLI 扩展直接调用预定义或自定义工具，以自然语言操作数据源。
-
-**主要特性：**  
-- 支持多种数据源（PostgreSQL、BigQuery、Cloud SQL 等）和工具类型（SQL 查询、数据分析等）。  
-- 提供工具集管理功能，支持按需加载不同工具分组。  
-- 集成 Gemini CLI 扩展，实现命令行直接调用工具。  
-- 支持 `tools.yaml` 配置文件定义资源、工具、提示模板等。  
-- 版本控制遵循语义化版本（SemVer），明确 API 变更规则。
+该项目目前处于 Beta 版本阶段。

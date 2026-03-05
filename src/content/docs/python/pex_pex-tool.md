@@ -3,26 +3,6 @@
 title: pex
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pex-tool/pex?style=social) ](https://github.com/pex-tool/pex)
-### [pex-tool pex](https://github.com/pex-tool/pex)
+### [pex-tool pex](https://github.com/pex-tool/pex)  ![GitHub Repo stars](https://img.shields.io/github/stars/pex-tool/pex?style=social)
 
-**PEX核心内容总结**  
-PEX是一个用于生成可执行Python环境（.pex文件）的工具，支持跨平台部署，简化Python应用的分发。  
-
-**功能与特性**  
-- 生成包含依赖的可执行文件，支持Linux和OS X跨平台运行。  
-- 通过`pex`命令快速构建虚拟环境或独立可执行文件（如`pex flask -- webserver.py`）。  
-- 支持从`requirements.txt`冻结依赖并生成PEX文件，便于部署。  
-- 可指定Python解释器（如PyPy）或入口点生成独立二进制文件。  
-- 与构建工具（如Pants、Buck）集成，支持自动化构建流程。  
-
-**使用方法**  
-1. 安装：`pip install pex` 或通过`uv`构建源码。  
-2. 示例：  
-   - 创建环境：`pex requests flask -o myenv.pex`  
-   - 运行脚本：`pex flask -- webserver.py`  
-   - 生成独立可执行文件：`pex "pex>=2.1.35" --console-script pex-tools -o tool.pex`  
-
-**其他**  
-- 开发依赖`uv`和`dev-cmd`，支持类型检查、测试等流程。  
-- 采用Apache2许可证。
+PEX 是一个生成 .pex（Python 可执行文件）的库，用于创建独立的可执行 Python 环境，类似于 virtualenv。它简化了 Python 应用的部署过程，支持单个 .pex 文件在 Linux 和 OS X 等跨平台环境中运行。PEX 提供命令行工具以构建包含依赖的独立环境，支持冻结当前虚拟环境、创建临时执行环境、基于 entry points 生成独立可执行文件以及指定特定 Python 解释器（如 PyPy）。项目支持 pip 安装，也可结合 Pants、Buck 等构建系统使用。

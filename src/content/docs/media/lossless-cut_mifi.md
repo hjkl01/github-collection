@@ -3,21 +3,6 @@
 title: lossless-cut
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mifi/lossless-cut?style=social) ](https://github.com/mifi/lossless-cut)
-### [mifi lossless-cut](https://github.com/mifi/lossless-cut)
+### [mifi lossless-cut](https://github.com/mifi/lossless-cut)  ![GitHub Repo stars](https://img.shields.io/github/stars/mifi/lossless-cut?style=social)
 
-**项目核心内容总结：**  
-LosslessCut 是一款基于 FFmpeg 的跨平台无损视频/音频编辑工具，支持 macOS、Linux 和 Windows。其核心功能包括：  
-- **无损切割/合并**：快速剪切、拼接视频/音频片段，无需重新编码，保留原始质量。  
-- **多轨道编辑**：支持多音轨、字幕轨道的添加/删除/替换，可提取或合并不同文件的轨道。  
-- **元数据管理**：查看并编辑文件及轨道的元数据（如标题、时间戳、旋转信息等）。  
-- **高级操作**：支持按时间范围导出、添加封面/缩略图、多语言音轨处理等。  
-
-**使用方法**：  
-1. **下载安装**：通过 App Store（Mac/Win）、Snapcraft/Flathub（Linux）或手动下载 DMG/7z/tar.bz2 文件安装。  
-2. **操作流程**：导入文件后，使用切割、合并、轨道管理等功能，导出时选择保留原始质量。  
-
-**主要特性**：  
-- 基于 FFmpeg 实现无损处理，兼容主流格式（MP4、MOV、WebM 等）及编解码器（H264、AAC 等）。  
-- 提供低质量预览功能，支持打开 FFmpeg 可解析的任意文件。  
-- 开源免费，支持多语言（含中文），社区贡献翻译及 UI 优化。
+LosslessCut 是一款跨平台的 FFmpeg 图形界面工具，专注于视频和音频的极速无损编辑。其核心功能包括：无损裁剪、拼接及重组音视频片段，无需重新编码即可避免画质损失；支持多轨道编辑，可提取、合并、替换或移除音轨、视频轨及字幕；具备无损重封装、元数据编辑及视频旋转修复能力；支持高分辨率快照提取、视频帧导出及场景检测（黑场、静音等）。此外，工具提供键盘快捷键、时间码操作、EDL 导入导出及 CLI/HTTP API 支持，适用于快速处理相机或无人机拍摄的大体积媒体文件，高效提取有用内容。

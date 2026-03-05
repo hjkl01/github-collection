@@ -3,8 +3,6 @@
 title: nesrom
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dream1986/nesrom?style=social) ](https://github.com/dream1986/nesrom)
-### [dream1986 nesrom](https://github.com/dream1986/nesrom)
+### [dream1986 nesrom](https://github.com/dream1986/nesrom)  ![GitHub Repo stars](https://img.shields.io/github/stars/dream1986/nesrom?style=social)
 
-核心内容：  
-项目名称为“袅残烟的Nes游戏合集”，但README内容未提供具体功能、使用方法或特性描述。
+这是一个由“袅残烟”整理的NES游戏合集。

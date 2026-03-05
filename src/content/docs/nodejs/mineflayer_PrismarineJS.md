@@ -3,21 +3,6 @@
 title: mineflayer
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/PrismarineJS/mineflayer?style=social) ](https://github.com/PrismarineJS/mineflayer)
-### [PrismarineJS mineflayer](https://github.com/PrismarineJS/mineflayer)
+### [PrismarineJS mineflayer](https://github.com/PrismarineJS/mineflayer)  ![GitHub Repo stars](https://img.shields.io/github/stars/PrismarineJS/mineflayer?style=social)
 
-**核心内容总结：**  
-Mineflayer 是一个基于 Node.js 的 Minecraft 机器人框架，支持实体物理模拟、区块数据处理、物品管理、路径规划等功能，适用于开发自动化 bot 或交互式工具。其核心特性包括：  
-1. **模块化架构**：依赖多个独立库（如 `prismarine-physics`、`minecraft-data` 等）实现数据解析、物理引擎、NBT 编码等基础功能；  
-2. **高度可扩展**：支持第三方插件（如自动寻路、GUI 操作、PVP 对战等），可自定义 bot 行为；  
-3. **跨版本兼容**：通过 `minecraft-data` 库适配不同 Minecraft 版本（如 1.12 至 1.18.1 等）；  
-4. **调试与测试**：提供协议调试输出、单元测试及版本专项测试（如 `npm run mocha_test`）。  
-
-**使用方法**：  
-- 安装依赖后，通过事件监听（如 `playerSpawn`）和 API 调用（如 `bot.pathfinder`）控制 bot 行为；  
-- 支持命令行参数调试（如 `DEBUG=minecraft-protocol` 查看协议日志）。  
-
-**主要功能**：  
-- 实体交互（攻击、拾取物品）；  
-- 地图探索（区块加载、生物生成）；  
-- 自动化任务（采矿、合成、交易）。
+Mineflayer 是一个基于 Node.js 的高级 JavaScript 库，用于创建 Minecraft 机器人，同时也支持 Python。它兼容 Minecraft 1.8 至 1.21.11 版本，提供实体与方块追踪、物理移动、攻击、车辆使用、物品管理与合成、挖掘建造、聊天通信及游戏状态感知等核心功能。项目采用模块化架构，基于 Prismarine 生态，支持多种插件扩展（如自动寻路、PVP、可视化），可用于开发自动化机器人或与大型语言模型集成。

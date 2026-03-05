@@ -3,22 +3,6 @@
 title: wave
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/h2oai/wave?style=social) ](https://github.com/h2oai/wave)
-### [h2oai wave](https://github.com/h2oai/wave)
+### [h2oai wave](https://github.com/h2oai/wave)  ![GitHub Repo stars](https://img.shields.io/github/stars/h2oai/wave?style=social)
 
-H2O Wave 是一个用于构建实时网页应用和数据仪表板的软件框架，支持 Python 和 R 语言开发，无需使用 HTML、JavaScript 或 CSS。其核心功能包括：
-
-1. **功能**  
-   实时数据采集与广播，支持多源信息整合，可快速构建低延迟的交互式应用和可视化仪表板。
-
-2. **使用方法**  
-   通过 PyPI 安装，提供详细的文档和示例（含 250+ 案例），支持 Python/R 语言 API，可访问官方教程和主题生成器进行开发。
-
-3. **主要特性**  
-   - 提供 80+ 可复用组件和丰富可视化选项  
-   - 支持自定义主题（含暗色/霓虹/渐变等风格）  
-   - 响应式布局适配不同设备  
-   - 提供交互式学习平台（Wave University）和实时演示（如 Hugging Face 空间）  
-   - 开源协议为 Apache License 2.0  
-
-项目适用于需要实时数据分析和可视化展示的场景，适合希望用代码快速构建 Web 应用的开发者。
+H2O Wave 是一个基于 Python 和 R 的软件栈，用于构建美观、低延迟、实时的浏览器端应用程序和仪表板，无需使用 HTML、JavaScript 或 CSS。它支持多源数据捕获与实时网络广播，显著降低实时分析应用的构建与部署成本。项目提供响应式布局、多种主题、80 多种内置组件及 250 多个示例，采用 Apache License 2.0 开源协议。

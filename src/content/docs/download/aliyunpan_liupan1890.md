@@ -3,16 +3,6 @@
 title: aliyunpan
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/liupan1890/aliyunpan?style=social) ](https://github.com/liupan1890/aliyunpan)
-### [liupan1890 aliyunpan](https://github.com/liupan1890/aliyunpan)
+### [liupan1890 aliyunpan](https://github.com/liupan1890/aliyunpan)  ![GitHub Repo stars](https://img.shields.io/github/stars/liupan1890/aliyunpan?style=social)
 
-**项目核心内容总结：**  
-阿里云盘小白羊版是一款支持 Windows、macOS 和 Linux 的阿里云盘网页版 PC 客户端，提供以下功能：  
-- **核心功能**：多账号登录、文件管理（新建/重命名/复制/删除/批量操作）、在线播放视频（含高清原画、字幕支持）、远程 Aria2 下载、上传/下载大文件、回收站、分享链接、文件搜索等。  
-- **使用方法**：通过提供链接下载安装包（含 macOS 独立安装版），支持无需终端命令直接安装。  
-- **主要特性**：  
-  1. **性能优势**：上传/下载速度比官方客户端快 42%-58%（测试数据），支持百万级文件传输。  
-  2. **操作优化**：支持文件夹体积显示、混合排序、多层文件夹批量重命名、视频雪碧图预览。  
-  3. **扩展能力**：可连接远程服务器下载文件，支持数万级文件/文件夹管理。  
-
-（注：未包含版本更新细节、下载链接及非核心功能描述。）
+该项目是基于阿里云盘网页版开发的 PC 客户端，支持 Windows、macOS 和 Linux 系统。核心功能包括多账号登录管理、文件操作（新建、重命名、复制、移动、删除、搜索、批量改名、在线解压、分享）、多媒体播放（在线播放原画/转码视频、预览图文档）、传输服务（支持远程 Aria2 下载、大文件及百万级文件上传下载）。项目特点是传输速度优于官方客户端，提供文件夹树视图、体积显示及视频雪碧图预览。后续计划开发相册、文件同步盘等功能。

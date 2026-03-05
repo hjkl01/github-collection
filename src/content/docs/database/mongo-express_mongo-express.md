@@ -3,30 +3,16 @@
 title: mongo-express
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mongo-express/mongo-express?style=social) ](https://github.com/mongo-express/mongo-express)
-### [mongo-express mongo-express](https://github.com/mongo-express/mongo-express)
+### [mongo-express mongo-express](https://github.com/mongo-express/mongo-express)  ![GitHub Repo stars](https://img.shields.io/github/stars/mongo-express/mongo-express?style=social)
 
-**Mongo Express 是一个用于 MongoDB 的 Web 管理工具，支持数据库查询、文档编辑、数据管理等操作。**  
+mongo-express 是一个基于 Node.js、Express 和 Bootstrap 5 构建的 MongoDB Web 管理界面，适用于 MongoDB 及兼容服务（如 FerretDB、Amazon DocumentDB）。
 
-**核心功能：**  
-- 提供简单和高级搜索功能，支持 MongoDB 查询语法；  
-- 支持多种 BSON 数据类型（如 ObjectId、ISODate、UUID、Binary 等）的编辑与展示；  
-- 可通过 Docker 快速部署，支持 IBM Cloud 和 OpenID Connect 认证；  
-- 支持 SSL 加密、GridFS 文件管理、自定义分页显示等特性；  
-- 可作为独立应用运行，或集成到其他项目中作为中间件使用。  
+主要功能：
+1. **多数据库管理**：支持连接多个数据库，查看、添加、删除数据库。
+2. **集合与文档操作**：支持查看、添加、重命名、删除集合；支持查看、添加、更新、删除文档，并支持多种 BSON 数据类型（如 ObjectId、ISODate、UUID 等）。
+3. **媒体与文件处理**：支持音频、视频、图片内联预览；支持 GridFS 存储和读取大文件。
+4. **性能与体验**：大对象异步加载，嵌套对象折叠展示；响应式设计适配移动端。
+5. **安全与认证**：支持基本认证和 OpenIdConnect；支持数据库白名单/黑名单；支持 TLS/SSL 配置。
+6. **部署灵活**：支持 npm 全局/本地安装、CLI 运行、Express 中间件集成及 Docker 容器部署。
 
-**使用方法：**  
-1. **独立运行**：修改 `config.js` 配置数据库连接、认证信息，启动服务后通过浏览器访问 `http://localhost:8081`；  
-2. **Docker 部署**：通过环境变量配置 MongoDB 连接和认证参数，运行镜像即可；  
-3. **云平台部署**：支持 IBM Cloud 手动或自动部署，需配置对应服务和环境变量；  
-4. **OpenID Connect 认证**：需安装 `express-openid-connect` 依赖，并设置 Identity Provider 的相关参数。  
-
-**主要特性：**  
-- 支持复杂数据类型（如代码、时间戳、符号等）的可视化编辑；  
-- 提供文档导入、导出、删除确认等交互功能；  
-- 通过环境变量灵活配置 SSL、认证、端口等参数；  
-- 支持 Docker Extensions 一键部署（需 Docker Desktop 4.15+）。  
-
-**注意事项：**  
-- 项目仅适用于开发环境，**禁止在生产环境中使用**，因 Web 界面可能执行恶意 JavaScript；  
-- 二进制数据类型（Binary/BinData）未经过充分测试。
+安全提示：由于 JSON 解析涉及 JavaScript 执行，存在安全风险，仅限私有的开发环境使用。

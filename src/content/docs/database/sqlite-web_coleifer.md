@@ -3,24 +3,6 @@
 title: sqlite-web
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/coleifer/sqlite-web?style=social) ](https://github.com/coleifer/sqlite-web)
-### [coleifer sqlite-web](https://github.com/coleifer/sqlite-web)
+### [coleifer sqlite-web](https://github.com/coleifer/sqlite-web)  ![GitHub Repo stars](https://img.shields.io/github/stars/coleifer/sqlite-web?style=social)
 
-**核心内容总结：**  
-`sqlite-web` 是一个基于 Python 的 Web 工具，用于浏览和管理 SQLite 数据库。  
-
-**功能：**  
-- 支持查看、编辑现有 SQLite 数据库或新建数据库；  
-- 可添加/删除表、列、索引，支持旧版 SQLite 的列操作；  
-- 支持数据导出（JSON/CSV）和导入（CSV/JSON）；  
-- 提供数据浏览、增删改查操作，支持 SQL 查询执行及结果导出；  
-- 支持分页显示、密码保护、只读模式等。  
-
-**使用方法：**  
-1. **本地安装**：通过 `pip install sqlite-web` 安装后，运行 `sqlite_web /path/to/database.db` 启动服务，访问 http://localhost:8080 查看数据库。  
-2. **Docker 部署**：使用 Docker 命令挂载数据库路径并指定数据库文件名，通过 `ghcr.io/coleifer/sqlite-web` 镜像运行。  
-
-**主要特性：**  
-- 提供数据库结构、数据内容、查询结果等多标签页浏览；  
-- 支持自定义端口、日志路径、SSL 配置等命令行参数；  
-- 可通过 Docker 快速部署，兼容多种 SQLite 操作需求。
+`sqlite-web` 是一个基于 Python 的 Web 版 SQLite 数据库浏览器。它支持通过浏览器对 SQLite 数据库进行全面管理，主要功能包括：浏览、插入、更新和删除行数据；执行自定义 SQL 查询；可视化管理数据库结构（增删改表、列、索引及外键）；支持 JSON 和 CSV 格式的数据导入与导出。项目支持多数据库同时操作及运行时动态加载，可通过命令行、Docker 或高性能 WSGI 服务器部署，并提供密码保护、SSL 加密和只读模式等安全配置选项。

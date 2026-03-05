@@ -3,24 +3,11 @@
 title: atuin
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/atuinsh/atuin?style=social) ](https://github.com/atuinsh/atuin)
-### [atuinsh atuin](https://github.com/atuinsh/atuin)
+### [atuinsh atuin](https://github.com/atuinsh/atuin)  ![GitHub Repo stars](https://img.shields.io/github/stars/atuinsh/atuin?style=social)
 
-**项目功能**  
-Atuin 用 SQLite 数据库替代传统 shell 历史记录，记录命令的上下文（如退出码、执行时间、工作目录等），并支持**端到端加密**的跨设备同步（可选）。  
+Atuin 是一款增强型 Shell 历史记录工具。它使用 SQLite 数据库替代传统历史文件，记录命令的额外上下文信息（如退出码、执行时长、工作目录、主机名等）。主要功能包括：
 
-**使用方法**  
-1. 安装：运行 `curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh`  
-2. 注册账户：`atuin register -u <用户名> -e <邮箱>`  
-3. 导入历史：`atuin import auto`  
-4. 同步数据：`atuin sync`  
-5. 重启 shell 生效。  
-
-**主要特性**  
-- 全屏搜索界面（支持 `Ctrl+R`/`↑` 触发）  
-- 加密同步至云端或自建服务器  
-- 跨终端、会话、设备同步历史  
-- 记录命令执行时间、退出码、主机名等元数据  
-- 统计分析（如“最常用命令”）  
-- 快速跳转历史记录（`Alt+数字键`）  
-- 支持 zsh、bash、fish 等主流 shell
+1.  **交互式搜索**：提供全屏历史搜索 UI，支持重新绑定 Ctrl-R 和方向键，支持按会话、目录或全局灵活过滤。
+2.  **加密同步**：支持可选的端到端加密历史同步，可在不同终端、会话及机器间保持数据一致。
+3.  **多 Shell 支持**：兼容 Zsh、Bash、Fish、Nushell、Xonsh 及 PowerShell。
+4.  **数据分析**：提供命令统计（如最常用命令）及快速跳转功能，同时保留原有历史文件不被覆盖。

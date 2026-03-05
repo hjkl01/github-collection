@@ -3,33 +3,6 @@
 title: TVAPP
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/youhunwl/TVAPP?style=social) ](https://github.com/youhunwl/TVAPP)
-### [youhunwl TVAPP](https://github.com/youhunwl/TVAPP)
+### [youhunwl TVAPP](https://github.com/youhunwl/TVAPP)  ![GitHub Repo stars](https://img.shields.io/github/stars/youhunwl/TVAPP?style=social)
 
-### 项目总结：
-
-该项目是一个开源技术分享平台，提供多种影视、直播资源的访问方式，主要功能包括：
-
-- 提供大量影视应用的安装包（如视频、直播、工具类应用）；
-- 提供多种影视、直播资源源（包括单源、多源、直播源等），用户可通过配置在电视或设备上使用；
-- 支持多种格式的资源源（如 `.txt`、`.m3u`、`.m3u8`）；
-- 用户可通过添加代理访问 GitHub 上的资源。
-
-**使用方法**：
-- 下载并安装提供的应用；
-- 将资源源链接配置到支持的播放器或设备中；
-- 通过代理访问 GitHub 获取最新资源。
-
-**主要特性**：
-- 提供丰富的影视、直播资源；
-- 支持多种平台和设备；
-- 资源源分类清晰，便于用户选择；
-- 项目持续更新，支持用户提交 PR。
-
----
-
-### 注意事项：
-
-- 项目仅用于技术分享，资源版权归原作者所有，禁止用于商业用途；
-- 提交新应用需提供来源、测试截图和测试时间，确保无恶意代码；
-- 使用 GitHub 资源时需配置代理。
+本项目致力于收集整合各类 TV 版 Android 应用及资源源。提供影视点播、电视直播、K 歌、游戏、工具、教育、音乐等多个分类的优质 APP 安装包下载链接。同时汇总了大量适用于 TVBox 及相关软件的接口源（含单仓、多仓）和 IPTV 直播源（涵盖 IPv4、IPv6 及海外频道等）。所有资源均源自社区分享，仅供个人学习使用，严禁商用。

@@ -3,15 +3,6 @@
 title: Compose-Examples
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/Haxxnet/Compose-Examples?style=social) ](https://github.com/Haxxnet/Compose-Examples)
-### [Haxxnet Compose-Examples](https://github.com/Haxxnet/Compose-Examples)
+### [Haxxnet Compose-Examples](https://github.com/Haxxnet/Compose-Examples)  ![GitHub Repo stars](https://img.shields.io/github/stars/Haxxnet/Compose-Examples?style=social)
 
-该README文档是一个Docker Compose示例项目集合，包含多个可直接部署的应用服务。核心内容为：  
-1. **项目分类**：覆盖文档管理（如Wiki.js、BookStack）、监控（Grafana、Matomo）、安全工具（Fail2ban、Tor）、资产管理（Snipe-IT）、游戏服务器（CS2）、财务工具（Firefly III）等20+领域。  
-2. **使用方法**：每个项目均提供Docker Compose配置文件，用户可通过`docker-compose up`命令快速部署。  
-3. **主要特性**：  
-   - 支持自托管，无需依赖云服务；  
-   - 多数项目具备开源、隐私保护、跨平台兼容性；  
-   - 包含实时协作（如HedgeDoc）、自动化监控（如SonarQube）、漏洞扫描（Greenbone）等实用功能。  
-
-文档旨在为开发者提供一站式Docker化服务方案，适用于开发测试、私有部署及生产环境。
+该项目是一个自托管 Docker Compose 示例集合库，提供了各类开源及专有软件的部署配置。内容涵盖个人仪表盘、密码管理、反向代理、身份认证、人工智能、网络服务、开发运维、自动化监控、影音与文档管理、文件同步、备份、安全工具及通信平台等广泛领域。旨在帮助用户快速搭建本地或家庭服务器环境，使用者需根据实际需求调整路径、权限及安全配置，并遵循生产环境的安全加固指南。

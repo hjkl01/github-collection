@@ -3,22 +3,14 @@
 title: mailpit
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/axllent/mailpit?style=social) ](https://github.com/axllent/mailpit)
-### [axllent mailpit](https://github.com/axllent/mailpit)
+### [axllent mailpit](https://github.com/axllent/mailpit)  ![GitHub Repo stars](https://img.shields.io/github/stars/axllent/mailpit?style=social)
 
-**项目核心内容总结：**  
+Mailpit 是一款面向开发者的轻量级、零依赖的多平台电子邮件测试工具及 API。它作为 SMTP 服务器运行，提供 Web 界面查看捕获邮件，并支持 REST API 进行自动化集成测试。
 
-**功能**：Mailpit 是一款轻量级邮件测试工具，提供 SMTP 服务器、Web 界面和 API 接口。支持邮件查看（含 HTML 格式、附件预览）、实时通知、SMTP/POP3 配置、邮件内容检查（HTML 兼容性、链接有效性、垃圾邮件检测）、消息标记、SMTP 转发与中继、混沌测试（模拟 SMTP 错误）等功能。  
-
-**主要特性**：  
-- 单二进制文件或 Docker 镜像部署，跨平台支持（Windows/Linux/macOS）；  
-- Web 界面支持邮件搜索、HTTPS/认证、邮件截图生成；  
-- 提供 REST API 用于自动化测试；  
-- 支持 SMTP/POP3 协议，可配置 TLS/STARTTLS；  
-- 高性能，可处理数万封邮件，自动清理旧邮件；  
-- 支持通过 Webhook 接收邮件通知。  
-
-**使用方法**：  
-- 安装方式包括 Homebrew（Mac）、Arch Linux AUR、脚本安装、下载二进制文件或 Docker 部署；  
-- 默认 SMTP 端口 1025，Web 界面端口 8025；  
-- 可通过 `mailpit -h` 查看运行参数，支持配置 sendmail 等邮件客户端指向 SMTP 服务。
+主要功能包括：
+- **邮件服务**：支持 SMTP（含 STARTTLS/SSL/TLS、认证）及可选 POP3 服务器。
+- **界面展示**：提供 Web UI 支持邮件搜索、HTML/源码查看、附件预览（含缩略图）、HTTPS 及认证。
+- **通知集成**：支持 REST API、WebSocket 实时推送、浏览器通知及 Webhook。
+- **质量检测**：内置 HTML 兼容性检查、链接检查、垃圾邮件检测（SpamAssassin）及 HTML 截图。
+- **高级管理**：支持邮件标签、SMTP 中继与转发、高吞吐存储自动清理、混沌工程（模拟 SMTP 错误）。
+- **部署方式**：支持单二进制文件或 Docker 部署。

@@ -5,19 +5,13 @@ title: MiroThinker
 
 ### [MiroMindAI MiroThinker](https://github.com/MiroMindAI/MiroThinker)  ![GitHub Repo stars](https://img.shields.io/github/stars/MiroMindAI/MiroThinker?style=social)
 
-**项目核心内容总结：**  
-MiroThinker 是一个开源 AI 代理工具，支持通过大模型（如 Qwen3、GPT-5）和多工具集成（如 Google 搜索、网页抓取、代码执行）完成复杂任务。其核心功能包括：  
-1. **任务执行**：通过配置 API 密钥（如 Serper、Jina、E2B）调用外部工具，支持搜索、数据抓取、代码运行等。  
-2. **评估与优化**：提供基准测试脚本（如 HLE、GAIA、AIME2025），支持多轮对话上下文管理（256K 上下文长度），可监控评估进度。  
-3. **可扩展性**：支持不同规模模型（如 8B/30B/235B）和上下文长度（128K/256K），通过调整参数（如 `MAX_CONTEXT_LENGTH`）优化内存使用。  
+MiroThinker 是 MiroMindAI 开发的开源深度研究代理，专为研究与预测任务优化。项目由 MiroThinker（核心代理）、MiroFlow（工具使用框架）和 MiroVerse（训练数据集）组成。
 
-**使用方法**：  
-- 安装依赖并配置 `.env` 文件中的 API 密钥。  
-- 运行评估脚本（如 `uv run benchmarks/evaluate.py`）或收集追踪数据（如 `bash collect-trace.sh`）。  
-- 通过进度监控脚本（如 `check_progress_<benchmark>.py`）查看任务状态。  
+核心功能：
+1. **深度推理能力**：支持 256K 上下文窗口，每任务最多 600 次工具调用，采用“交互扩展”技术提升性能。
+2. **丰富工具链**：集成网页搜索、代码沙盒执行、多模态识别、文档解析等工具，支持自定义配置。
+3. **多规格模型**：提供 8B 至 235B 多种参数量级模型，平衡性能与计算资源。
+4. **全面评估体系**：内置支持 GAIA、HLE、BrowseComp 等多项基准评测，提供轨迹收集以辅助模型训练（SFT/DPO）。
+5. **灵活部署**：基于 Python 生态，支持本地服务器（SGLang/vLLM）部署及 API 调用。
 
-**主要特性**：  
-- 支持大模型与长上下文（256K），提升复杂任务处理能力。  
-- 集成多工具（搜索、代码执行、摘要生成），增强功能灵活性。  
-- 提供性能优化方案（如减少并发任务数、使用较小模型版本）。  
-- 开源 MIT 许可，社区驱动，支持多语言（中文/英文）文档和 Discord 社区支持。
+在 GAIA 等基准测试中达到开源 SOTA 水平，适用于需要复杂搜索与推理的科研及应用场景。

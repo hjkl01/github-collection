@@ -3,24 +3,6 @@
 title: chat-ui
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/chat-ui?style=social) ](https://github.com/huggingface/chat-ui)
-### [huggingface chat-ui](https://github.com/huggingface/chat-ui)
+### [huggingface chat-ui](https://github.com/huggingface/chat-ui)  ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/chat-ui?style=social)
 
-**项目核心内容总结：**
-
-Chat UI 是一个基于 SvelteKit 构建的聊天界面，用于与大型语言模型（LLM）进行交互，主要支持 OpenAI 兼容的 API。该项目是 HuggingChat 应用（hf.co/chat）的底层技术支撑。
-
-**功能与使用方法：**
-
-- **快速启动**：支持通过 Hugging Face 推理服务、llama.cpp、Ollama、OpenRouter 等 OpenAI 兼容的 API 进行部署。只需设置 `.env.local` 文件，配置 `OPENAI_BASE_URL` 和 `OPENAI_API_KEY`，并选择 MongoDB 数据库即可启动。
-- **数据库支持**：使用 MongoDB 存储聊天记录、用户信息、设置等数据，支持 MongoDB Atlas（托管服务）和本地 MongoDB 容器两种部署方式。
-- **运行方式**：通过 `npm run dev` 启动开发服务器，默认监听 `http://localhost:5173`；也可使用 Docker 容器化部署。
-- **自定义功能**：支持主题定制、模型路由（如使用 Arch-Router 进行模型选择）、MCP 工具调用（如 Web 搜索、Hugging Face 登录等），并提供用户级别的工具调用和多模态输入开关。
-
-**主要特性：**
-
-- 仅支持 OpenAI 兼容的 API，适用于 llama.cpp、Ollama、OpenRouter 等服务。
-- 支持灵活的数据库部署方式（本地或托管）。
-- 提供模型路由功能，可根据用户输入自动选择最佳模型。
-- 支持 MCP 工具调用，允许用户与外部服务进行交互。
-- 可通过环境变量自定义应用名称、主题、数据共享等设置。
+Chat UI 是一个基于 SvelteKit 的 LLM 聊天界面项目，作为 HuggingChat 应用的前端核心。它仅支持 OpenAI 兼容 API，可灵活对接 Ollama、llama.cpp、Hugging Face 等多种大模型服务。项目使用 MongoDB 存储对话数据、用户设置及历史，支持本地开发、生产构建及 Docker 容器化部署。主要功能包括自定义主题、模型发现，并支持可选的 LLM 智能路由（Omni 虚拟模型）和 MCP 工具调用，以增强模型选择与外部工具交互能力。

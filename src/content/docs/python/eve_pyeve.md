@@ -3,26 +3,8 @@
 title: eve
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pyeve/eve?style=social) ](https://github.com/pyeve/eve)
-### [pyeve eve](https://github.com/pyeve/eve)
+### [pyeve eve](https://github.com/pyeve/eve)  ![GitHub Repo stars](https://img.shields.io/github/stars/pyeve/eve?style=social)
 
-**项目核心内容总结：**
+Eve 是一个基于 Flask 的开源 Python REST API 框架，用于构建和部署高度可定制的 RESTful Web 服务。它原生支持 MongoDB，并通过扩展支持 SQL 后端。配置简单，仅需数据库、配置文件和启动脚本即可运行。
 
-**项目功能**  
-Eve 是一个基于 Python 的开源 REST API 框架，专注于简化 RESTful Web 服务的构建与部署。支持原生 MongoDB 数据库，可通过社区扩展实现 SQL 数据库兼容。  
-
-**使用方法**  
-通过简单代码即可启动 API：  
-```python  
-from eve import Eve  
-app = Eve()  
-app.run()  
-```  
-仅需数据库、配置文件（默认为 `settings.py`）和启动脚本即可部署服务。  
-
-**主要特性**  
-- **核心功能**：支持 RESTful 设计、CRUD 操作、自定义资源端点、数据过滤/排序/分页、HATEOAS 链接、JSON/XML 输出。  
-- **数据管理**：数据验证、批量插入、并发控制、默认值设置、数据库预定义过滤、字段投影。  
-- **扩展性**：支持 API 版本管理、文档版本控制、文件存储、GeoJSON、内部资源嵌套序列化。  
-- **安全与控制**：认证机制、CORS 跨域支持、JSONP、读写权限控制、速率限制、自定义 ID 字段。  
-- **开发辅助**：事件钩子、增强日志记录、操作日志、MongoDB 聚合框架集成、Flask 框架驱动。
+核心功能包括：完整的 CRUD 操作、自定义资源端点、数据验证与完整性控制、认证与 CORS、速率限制、文件存储及 GeoJSON。支持过滤、排序、分页、HATEOAS、JSON/XML 渲染、条件请求、API 与文档版本控制、事件钩子、MongoDB 聚合框架及增强日志。默认只读，支持批量插入、数据投影及资源级缓存控制。

@@ -3,22 +3,6 @@
 title: fzf
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/junegunn/fzf?style=social) ](https://github.com/junegunn/fzf)
-### [junegunn fzf](https://github.com/junegunn/fzf)
+### [junegunn fzf](https://github.com/junegunn/fzf)  ![GitHub Repo stars](https://img.shields.io/github/stars/junegunn/fzf?style=social)
 
-**项目核心内容总结：**
-
-**功能**  
-fzf 是一款基于终端的模糊查找工具，支持快速搜索文件、目录、命令、文本等，通过模糊匹配算法提升查找效率。
-
-**使用方法**  
-1. 安装：通过包管理器（如 Homebrew、APT）或源码编译安装。  
-2. 基础用法：在终端输入 `fzf`，按需筛选结果；可结合 `find`、`grep` 等命令扩展功能。  
-3. 高级用法：支持自定义脚本、插件（如 `fzf.vim`）、多语言环境配置。
-
-**主要特性**  
-- **模糊匹配**：支持通配符、正则表达式，容错性强。  
-- **交互式界面**：实时高亮匹配结果，支持键盘快捷键（如 `Enter` 选择、`Ctrl+C` 取消）。  
-- **多输入源**：兼容文件系统、命令输出、文本内容等。  
-- **可扩展性**：通过插件和脚本集成到编辑器（如 Vim、Emacs）或自动化流程中。  
-- **轻量高效**：基于 C 语言开发，运行速度快，资源占用低。
+fzf 是一款通用的命令行模糊查找器，适用于文件、命令历史、进程、Git 提交等多种列表的交互式过滤。它采用模糊匹配算法，允许用户通过输入省略字符的关键词快速检索。项目具有便携（单二进制文件）、高速、高度可定制的特点，集成于 Bash、Zsh、Fish、Vim 和 Neovim 等环境。支持读取标准输入输出选中项，提供多显示模式、丰富搜索语法、自定义外观、预览窗口、按键绑定及模糊补全功能。

@@ -3,26 +3,13 @@
 title: rustfs
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/rustfs/rustfs?style=social) ](https://github.com/rustfs/rustfs)
-### [rustfs rustfs](https://github.com/rustfs/rustfs)
+### [rustfs rustfs](https://github.com/rustfs/rustfs)  ![GitHub Repo stars](https://img.shields.io/github/stars/rustfs/rustfs?style=social)
 
-**项目核心内容总结：**
+RustFS 是一款基于 Rust 构建的高性能分布式对象存储系统，专为数据湖、AI 和大数据工作负载优化。其主要功能包括：
 
-RustFS 是一个基于 Rust 语言开发的高性能分布式对象存储系统，支持 S3 兼容协议，适用于数据湖、AI 和大数据场景。其主要特性包括：  
-- **高性能**：利用 Rust 的内存安全和并发优势，提供高效资源利用率；  
-- **分布式架构**：支持横向扩展与故障容错；  
-- **全功能 S3 兼容**：可无缝对接现有 S3 工具和应用；  
-- **开源许可**：采用 Apache 2.0 协议，无 AGPL 限制，适合商业和社区开发；  
-- **数据主权**：无数据 telemetry，符合 GDPR、CCPA 等法规；  
-- **易用性**：提供 Web 控制台、Docker 部署方案及 Helm Chart 云原生支持。  
-
-**使用方法：**  
-1. **一键安装**：通过脚本快速部署；  
-2. **Docker 启动**：需设置目录权限，支持单节点和分布式模式；  
-3. **源码构建**：支持多架构编译（如 arm64）及版本自定义；  
-4. **Kubernetes 部署**：通过 Helm Chart 安装。  
-
-**注意事项：**  
-- Docker 安装需确保目录权限和文件描述符限制（如 macOS 需执行 `ulimit -n 4096`）；  
-- 默认控制台地址为 `http://localhost:9000`，账号密码为 `rustfsadmin`/`rustfsadmin`；  
-- 支持 HTTPS 配置，需参考 TLS 文档。
+- **高性能与安全**：基于 Rust 语言，确保内存安全与极致运行效率。
+- **S3 兼容**：完全兼容 S3 协议，支持无缝集成现有工具与客户端。
+- **核心特性**：支持版本控制、存储桶复制、Bitrot 保护、事件通知及多租户管理。
+- **认证与集成**：原生支持 OpenStack Keystone 认证，提供 K8s Helm Chart 部署。
+- **安全合规**：采用 Apache 2.0 许可，无遥测数据，符合 GDPR、CCPA 等数据主权要求。
+- **灵活部署**：提供 Web 管理控制台，支持脚本、Docker、Helm、Nix 及源码编译等多种部署方式。

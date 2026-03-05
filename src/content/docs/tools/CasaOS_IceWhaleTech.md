@@ -5,18 +5,4 @@ title: CasaOS
 
 ### [IceWhaleTech CasaOS](https://github.com/IceWhaleTech/CasaOS)  ![GitHub Repo stars](https://img.shields.io/github/stars/IceWhaleTech/CasaOS?style=social)
 
-**项目核心内容总结：**  
-1. **项目功能**：CasaOS 是一个基于 Web 的容器化应用管理平台，支持 Docker、Kubernetes 等技术，提供系统监控、资源管理、插件扩展等功能，适用于家庭服务器或小型数据中心。  
-
-2. **使用方法**：  
-   - 通过脚本安装（支持 Ubuntu/Debian 等 Linux 系统）。  
-   - 安装后通过浏览器访问 Web 界面进行配置和管理。  
-
-3. **主要特性**：  
-   - 跨平台兼容（支持多种 Linux 发行版）。  
-   - 多语言界面（包括中文）。  
-   - 插件系统扩展功能。  
-   - 实时资源监控与告警。  
-   - 高可用性与集群管理支持。  
-
-4. **其他**：项目由社区维护，提供版本更新日志及贡献者名单。
+CasaOS 是一款面向家庭场景的个人云操作系统，旨在降低 SaaS 成本并帮助用户掌握个人数据资产所有权。其核心功能包括：提供直观友好的图形界面，无需代码即可操作；兼容多种硬件（如树莓派、NUC）及主流 Linux 系统；内置应用商店支持一键安装常用软件及 Docker 应用，可轻松部署数万个应用；提供优雅的文件管理和系统资源监控功能。该系统致力于构建低成本的个人数据中心，支持智能家居连接及个性化 AI 助理训练。

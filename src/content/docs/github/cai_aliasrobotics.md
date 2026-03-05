@@ -3,13 +3,6 @@
 title: cai
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/aliasrobotics/cai?style=social) ](https://github.com/aliasrobotics/cai)
-### [aliasrobotics cai](https://github.com/aliasrobotics/cai)
+### [aliasrobotics cai](https://github.com/aliasrobotics/cai)  ![GitHub Repo stars](https://img.shields.io/github/stars/aliasrobotics/cai?style=social)
 
-CAI是一款开源的网络安全AI工具，主要用于漏洞评估、渗透测试和攻防演练。其核心功能包括自动化渗透测试、攻击与防御CTF评估、集成多种安全工具（如Metasploit、Nmap）以及支持自定义脚本扩展。主要特性包括：  
-1. **多代理协作**：通过分层代理结构实现任务分解与协同，支持并行处理；  
-2. **上下文学习（ICL）**：通过加载历史日志文件增强模型推理能力，无需长期记忆存储；  
-3. **工具集成**：内置调用漏洞扫描、渗透测试等工具的接口，支持扩展；  
-4. **灵活输入**：可通过系统或用户模板注入目标信息，提升任务针对性。  
-
-**使用方法**：需安装Python3.12环境，通过命令行启动后使用`/load`加载日志文件，或直接输入任务指令。研究用途免费，商业应用需申请许可证。安装时若遇到依赖问题，可手动从源码安装Python。
+Cybersecurity AI (CAI) 是一个轻量级开源框架，旨在赋能安全专业人员构建和部署 AI 驱动的攻防自动化系统。核心功能包括：支持 300+ AI 模型（如 OpenAI、Anthropic、DeepSeek、Ollama 等）；内置侦察、利用、权限提升等安全工具；采用模块化智能体架构，支持任务协调与委托；具备提示注入防护与危险命令执行护栏；集成 OpenTelemetry 追踪与日志；支持人机回环（HITL）模式。适用于 CTF 竞赛、漏洞挖掘、渗透测试及安全评估。提供社区版（开源免费）和专业版（付费企业支持），兼容 Linux、macOS、Windows 及 Android 平台。

@@ -3,7 +3,6 @@
 title: lua-language-server
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/LuaLS/lua-language-server?style=social) ](https://github.com/LuaLS/lua-language-server)
-### [LuaLS lua-language-server](https://github.com/LuaLS/lua-language-server)
+### [LuaLS lua-language-server](https://github.com/LuaLS/lua-language-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/LuaLS/lua-language-server?style=social)
 
-lua-language-server 是一个为 Lua 提供强大功能的语言服务器，支持多种 Lua 版本（包括 Lua 5.5 至 5.1 以及 LuaJIT），并提供注解、跳转定义、类型检查、查找引用、诊断警告、语法检查、重命名、悬停信息、自动补全、库支持、代码格式化、拼写检查、自定义插件和文档生成等功能。该服务器可安装于 Visual Studio Code、NeoVim 及其他支持语言服务器协议的客户端，并提供多种安装方式，包括社区维护的 asdf 插件。项目支持多语言（英语、中文、葡萄牙语、日语、西班牙语等），并鼓励社区参与翻译。隐私政策说明遥测功能已移除，同时致谢部分列出了多个依赖库和项目。
+Lua Language Server 是提升 Lua 开发效率的语言服务器工具，支持 Lua 5.1 至 5.5 及 LuaJIT 版本。核心功能包括自动补全、跳转定义、查找引用、类型检查、语法与拼写诊断、代码格式化、文档生成及自定义插件等。它兼容 VS Code、NeoVim 及所有支持语言服务器协议（LSP）的客户端。项目由社区维护多语言翻译，并已在最新版本中移除遥测功能。

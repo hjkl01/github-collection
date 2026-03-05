@@ -5,21 +5,4 @@ title: gotenberg
 
 ### [gotenberg gotenberg](https://github.com/gotenberg/gotenberg)  ![GitHub Repo stars](https://img.shields.io/github/stars/gotenberg/gotenberg?style=social)
 
-**核心内容总结：**  
-Gotenberg 是一个容器化 API，通过集成 Chromium 和 LibreOffice 工具，支持将 HTML、Markdown、Word、Excel 等多种文档格式转换为 PDF。  
-
-**使用方法：**  
-通过 Docker 命令快速启动服务：  
-```
-docker run --rm -p 3000:3000 gotenberg/gotenberg:8
-```  
-或使用 TheCodingMachine 镜像：  
-```
-docker run --rm -p 3000:3000 thecodingmachine/gotenberg:8
-```  
-启动后，API 通过 `http://localhost:3000` 访问。  
-
-**主要特性：**  
-- 支持多种文档格式转 PDF  
-- 容器化部署，易于集成  
-- 提供官方文档和在线演示功能
+Gotenberg 是一个容器化 API，用于简化 PDF 转换流程。它基于 Chromium 和 LibreOffice 引擎，通过接口接收文件或 URL，返回 PDF 格式结果，无需用户本地管理复杂的依赖、浏览器版本或字体。主要功能包括将网页或文档转换为 PDF、合并 PDF 文件以及注入自定义 CSS 等。

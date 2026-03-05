@@ -3,23 +3,6 @@
 title: goose
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/pressly/goose?style=social) ](https://github.com/pressly/goose)
-### [pressly goose](https://github.com/pressly/goose)
+### [pressly goose](https://github.com/pressly/goose)  ![GitHub Repo stars](https://img.shields.io/github/stars/pressly/goose?style=social)
 
-**Goose 项目核心内容总结：**  
-
-Goose 是一个用于数据库迁移的工具，支持通过 SQL 或 Go 语言编写迁移脚本，可管理数据库结构的版本变更。其主要功能包括：  
-1. **迁移管理**：支持创建、应用、回滚迁移，兼容 SQL 和 Go 两种脚本形式。SQL 迁移需包含 `-- +goose Up` 和 `-- +goose Down` 注释区分正向和回滚操作；Go 迁移需通过 `init()` 注册迁移函数。  
-2. **环境变量替换**：在 SQL 迁移中通过 `-- +goose ENVSUB ON` 注释启用环境变量替换（如 `${VAR}`），提升配置灵活性。  
-3. **混合版本机制**：开发阶段使用时间戳命名迁移文件，部署时通过 `fix` 命令转换为顺序编号，避免版本冲突。  
-4. **嵌入式迁移**：支持将 SQL 迁移文件嵌入 Go 二进制中（需使用 `embed` 包），适用于生产环境的静态迁移管理。  
-5. **事务控制**：默认在事务中执行迁移，但可通过 `-- +goose NO TRANSACTION` 注释跳过事务。  
-
-**使用方法**：  
-- 命令行模式：通过 `goose` 命令执行迁移（如 `goose up` 应用所有未执行的迁移）。  
-- Go 库集成：通过 `goose.Up()` 等函数在代码中调用迁移，需配置数据库连接和迁移目录。  
-
-**主要特性**：  
-- 支持多数据库方言（如 PostgreSQL、MySQL）。  
-- 提供 `fix` 命令自动修正迁移顺序，适配生产环境。  
-- 兼容 Go 1.16+ 的 `embed` 功能，实现迁移文件的嵌入式管理。
+goose 是一款数据库迁移工具，同时提供命令行（CLI）和 Go 库两种使用方式。它支持通过增量 SQL 脚本或 Go 函数管理数据库架构，兼容 Postgres、MySQL、SQLite、Spanner 等多种数据库。核心功能涵盖 Go 迁移支持、嵌入式迁移、顺序外迁移、数据种子生成及 SQL 环境变量替换。此外，项目提供完善的迁移管理命令（如 up、down、status、create 等）及灵活的配置选项。

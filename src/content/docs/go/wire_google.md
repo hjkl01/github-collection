@@ -3,19 +3,6 @@
 title: wire
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/google/wire?style=social) ](https://github.com/google/wire)
-### [google wire](https://github.com/google/wire)
+### [google wire](https://github.com/google/wire)  ![GitHub Repo stars](https://img.shields.io/github/stars/google/wire?style=social)
 
-**项目核心内容总结：**  
-Wire 是一个 Go 语言代码生成工具，用于自动化初始化过程，通过**依赖注入**实现组件间的依赖管理。其核心功能是通过函数参数显式声明依赖关系，替代全局变量，生成的代码无需运行时状态或反射，适用于手动初始化场景。  
-
-**使用方法：**  
-通过命令 `go install github.com/google/wire/cmd/wire@latest` 安装，确保 `$GOPATH/bin` 在环境变量 `PATH` 中。  
-
-**主要特性：**  
-1. **依赖注入**：依赖关系通过函数参数显式定义，提升代码可维护性。  
-2. **无运行时开销**：完全基于代码生成，不依赖反射或运行时状态。  
-3. **兼容性高**：生成的代码即使不使用 Wire 也具备可用性。  
-
-**项目状态：**  
-当前版本为 v0.3.0（Beta 阶段），功能已完备，**不再维护**，不接受新功能，仅支持 Bug 修复。建议通过 Fork 扩展或更新。
+Wire 是 Go 语言的代码生成工具，通过依赖注入自动化连接组件。它利用函数参数表示依赖关系，倡导显式初始化而非全局变量。该工具无需运行时状态或反射，生成的代码也适用于手工初始化。项目目前已停止维护，功能完备。

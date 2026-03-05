@@ -3,7 +3,14 @@
 title: jadx
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/skylot/jadx?style=social) ](https://github.com/skylot/jadx)
-### [skylot jadx](https://github.com/skylot/jadx)
+### [skylot jadx](https://github.com/skylot/jadx)  ![GitHub Repo stars](https://img.shields.io/github/stars/skylot/jadx?style=social)
 
-JADX是一款用于反编译Android应用的工具，支持将Dex、Apk、Smali等格式文件转换为Java源代码，提供命令行和图形界面两种使用方式。其核心功能包括：反编译Dalvik字节码、解析Android资源文件（如AndroidManifest.xml）、内置反混淆功能。GUI界面支持语法高亮、代码导航、资源分析及Smali调试。用户可通过命令行指定输出目录、反混淆规则、日志级别等参数，支持插件扩展（如安装/卸载插件、配置插件选项）。安装方式涵盖多种操作系统，支持通过包管理器或手动下载安装。使用时需注意，部分高级功能依赖JDK 11及以上版本，且可通过环境变量调整安全策略和性能限制。
+JADX 是一款将 Android Dex 和 Apk 文件反编译为 Java 源代码的工具，提供命令行和图形界面（jadx-gui）两种版本。
+
+主要功能包括：
+1. 将 Dalvik 字节码反编译为 Java 代码，支持 APK、DEX、AAR、AAB、JAR、SMALI 等多种文件格式。
+2. 解码 AndroidManifest.xml 及资源文件（如 resources.arsc）。
+3. 内置反混淆器，可处理混淆代码。
+4. jadx-gui 提供语法高亮、代码跳转、定义查找、全文搜索及 Smali 调试功能。
+
+项目支持作为 Java 库集成，运行需 Java 11 及以上环境。

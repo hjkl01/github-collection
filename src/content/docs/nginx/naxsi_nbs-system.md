@@ -3,7 +3,6 @@
 title: naxsi
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/nbs-system/naxsi?style=social) ](https://github.com/nbs-system/naxsi)
-### [nbs-system naxsi](https://github.com/nbs-system/naxsi)
+### [nbs-system naxsi](https://github.com/nbs-system/naxsi)  ![GitHub Repo stars](https://img.shields.io/github/stars/nbs-system/naxsi?style=social)
 
-Naxsi 是 Nginx 的第三方模块，用于防御 XSS 和 SQL 注入攻击。其核心功能是通过预设规则（如过滤 `<`、`|`、`drop` 等字符）拦截恶意请求，默认采用“拒绝所有、白名单放行”的策略。使用时需管理员手动添加白名单规则，或通过自动学习网站行为生成规则。主要特性包括：基于规则匹配而非签名检测、开源免费、兼容主流 UNIX 系统及多版本 Nginx。
+Naxsi 是一个基于 Nginx 的 Web 应用防火墙模块，旨在防御 XSS 和 SQL 注入。它采用默认拒绝模式，基于行为规则而非签名库进行流量检测，支持自动学习或手动配置白名单。目前原项目已停止开发并归档，建议用户迁移至维护中的新仓库。该模块兼容主流 Nginx 版本及各类 UNIX-like 系统。
