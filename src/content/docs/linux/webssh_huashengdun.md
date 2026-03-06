@@ -5,4 +5,4 @@ title: webssh
 
 ### [huashengdun webssh](https://github.com/huashengdun/webssh)  ![GitHub Repo stars](https://img.shields.io/github/stars/huashengdun/webssh?style=social)
 
-WebSSH 是一个基于 Python（Tornado、Paramiko、xterm.js）开发的 Web SSH 客户端。它支持通过浏览器连接 SSH 服务器，提供密码认证、多种公钥认证、加密密钥及双因素认证功能。具备全屏终端、窗口调整大小、自动编码检测特性，兼容主流现代浏览器。支持 pip 安装、HTTPS 部署、Docker 容器化及 Nginx 反向代理，并允许通过 URL 参数预填连接数据或配置终端样式。
+WebSSH 是一款基于 Python（Tornado, Paramiko, xterm.js）开发的 Web SSH 客户端应用，支持通过现代浏览器连接远程 SSH 服务器。它支持密码、多种公钥（含加密密钥）及双因素认证，提供全屏可调整终端界面并支持自动编码检测。项目允许通过命令行配置服务（地址、端口、SSL 等），支持 URL 传递连接参数、终端样式及初始化命令，并提供 JavaScript API 供控制。此外，支持 Docker 和 Nginx 部署，内置主机密钥验证策略以防止中间人攻击，建议启用 HTTPS 以确保安全。

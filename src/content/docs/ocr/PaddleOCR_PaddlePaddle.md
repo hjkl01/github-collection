@@ -5,8 +5,4 @@ title: PaddleOCR
 
 ### [PaddlePaddle PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)  ![GitHub Repo stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social)
 
-PaddleOCR 是一款工业级 OCR 与文档 AI 引擎，提供从文本提取到智能理解的端到端解决方案。核心功能包括：
-1. **高精度文字识别**：支持 100 多种语言、手写体及复杂场景（如倾斜、变形、光照变化）识别。
-2. **文档结构化解析**：将 PDF 和图像转换为 Markdown 或 JSON，精准还原表格、公式、图表及页面布局。
-3. **智能信息提取**：集成大模型能力，支持文档问答、关键信息抽取及文档翻译。
-4. **全平台部署**：支持模型训练、推理及服务部署，兼容 CPU、GPU、NPU 等多种硬件，提供 MCP 服务器接口以集成至 Agent 应用。
+PaddleOCR 是一款行业领先的 OCR 和文档 AI 引擎，提供从文本提取到智能文档理解的端到端解决方案。核心功能包括：PaddleOCR-VL-1.5 视觉语言模型，支持 111 种语言，实现文本、表格、公式、图表及印章的精准识别与解析；PP-OCRv5 通用场景文本识别模型，支持 109 种语言；PP-StructureV3 复杂文档解析工具，支持将文档转换为保留布局的 Markdown 和 JSON；PP-ChatOCRv4 智能信息提取工具，结合大模型实现文档问答与关键信息抽取；PP-DocTranslation 文档翻译功能。项目支持 CPU、GPU、NPU 等多种硬件加速，提供 CLI、API 及 MCP 服务接口，适用于开发者构建智能文档应用。

@@ -5,4 +5,11 @@ title: DiffSynth-Studio
 
 ### [modelscope DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)  ![GitHub Repo stars](https://img.shields.io/github/stars/modelscope/DiffSynth-Studio?style=social)
 
-DiffSynth-Studio 是由 ModelScope 社区开发的开源扩散模型引擎，致力于推动生成模型技术的学术探索与创新。它支持主流图像与视频模型（如 Z-Image、FLUX、Qwen-Image、Wan、LTX-2 等）的高效推理与训练，涵盖全量训练与 LoRA 训练。项目具备先进的显存管理模块，支持层级磁盘卸载、FP8 量化及低显存部署。此外，集成了 EliGen（实体控制）、ArtAug（美学增强）、ExVideo（视频扩展训练）、AutoLoRA 等多项前沿创新技术。该框架致力于降低技术门槛，为开发者提供灵活、高效的扩散模型开发与验证平台。
+DiffSynth-Studio 是由 ModelScope 社区开发的开源扩散模型引擎，专注于激进的技术探索与学术研究。其核心功能包括：
+
+1. **多模型支持**：支持 FLUX、Wan、Z-Image、Qwen-Image、LTX-2 等主流扩散模型的推理与训练。
+2. **显存管理**：提供先进的 VRAM 管理模块，支持层级化磁盘卸载，显著降低显存占用。
+3. **训练框架升级**：支持 Split Training、Differential LoRA Training 及 FP8 训练，提升训练效率。
+4. **任务覆盖**：涵盖图像合成（文生图、图生图、编辑）、视频合成（文生视频、图生视频）等任务。
+5. **创新成果**：集成 EliGen、ArtAug、ExVideo、Nexus-Gen 等多项前沿研究成果。
+6. **开发资源**：提供详细的文档、示例代码及 WebUI 支持，便于开发者理解和扩展扩散模型技术。

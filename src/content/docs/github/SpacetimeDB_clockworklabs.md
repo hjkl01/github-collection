@@ -5,4 +5,10 @@ title: SpacetimeDB
 
 ### [clockworklabs SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)  ![GitHub Repo stars](https://img.shields.io/github/stars/clockworklabs/SpacetimeDB?style=social)
 
-SpacetimeDB 是一个将数据库与服务器融合的系统。它允许通过“模块”将应用逻辑直接写入数据库，客户端直连数据库执行逻辑，无需部署额外的后端服务器、微服务或容器化基础设施。系统基于 Rust 构建，支持使用 Rust 或 C# 编写服务端逻辑，并提供多种客户端 SDK。SpacetimeDB 针对实时应用优化，追求极致速度与低延迟，状态驻留内存并通过预写日志持久化，适用于游戏、聊天和协作工具等场景。支持多平台 CLI 安装及 Docker 部署。
+SpacetimeDB 是一个关系型数据库兼服务器系统。开发者可将应用逻辑模块直接写入数据库，客户端无需中间层即可直接连接。核心特性包括：
+
+1. **零基础设施管理**：无需部署 Web 服务器、容器或 K8s，应用逻辑与数据在单一二进制中运行。
+2. **实时状态同步**：客户端订阅数据库表，数据变更时自动推送更新，无需轮询。
+3. **多语言支持**：服务端逻辑支持 Rust、C#、TypeScript、C++，客户端提供对应 SDK。
+4. **高性能与一致性**：提供 ACID 保证，数据驻留内存以低延迟运行，同时具备磁盘持久化能力。
+5. **内置权限控制**：所有业务逻辑、认证及授权规则均直接定义在数据库模块中。

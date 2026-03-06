@@ -5,4 +5,4 @@ title: LLPlayer
 
 ### [umlx5h LLPlayer](https://github.com/umlx5h/LLPlayer)  ![GitHub Repo stars](https://img.shields.io/github/stars/umlx5h/LLPlayer?style=social)
 
-LLPlayer 是一款专为语言学习设计的媒体播放器，核心聚焦于高级字幕功能。主要特性包括：支持双字幕显示、通过 AI（Whisper）实时自动生成字幕、多种引擎支持的实时翻译及上下文感知翻译、实时 OCR 字幕转换、字幕侧边栏检索与查词、在线视频播放（yt-dlp 集成）、字幕下载及浏览器扩展集成。该工具基于 C#/WPF 开发，开源免费，当前适用于 Windows 系统。
+LLPlayer 是一款专为语言学习设计的开源视频播放器，基于 C#/WPF 开发，支持 Windows 系统。核心功能包括：支持文本与位图双字幕显示；基于 OpenAI Whisper 引擎的实时 AI 字幕生成；集成 Google、DeepL、本地 LLM 等多引擎的实时翻译与上下文感知翻译；支持实时 OCR 将位图字幕转为文本；提供单词查询、自定义浏览器搜索及在线视频播放（集成 yt-dlp）；具备字幕侧边栏管理、高度可定制快捷键与主题，并能与浏览器扩展（如 Yomitan）集成。

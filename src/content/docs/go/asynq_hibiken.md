@@ -5,11 +5,4 @@ title: asynq
 
 ### [hibiken asynq](https://github.com/hibiken/asynq)  ![GitHub Repo stars](https://img.shields.io/github/stars/hibiken/asynq?style=social)
 
-Asynq 是一个基于 Redis 的 Go 语言分布式任务队列库，用于异步任务的调度与处理，支持高可用与水平扩展。
-
-核心功能包括：
-- **可靠性**：保证任务至少执行一次，支持失败自动重试及 Worker 崩溃恢复。
-- **调度与管理**：支持任务延迟与周期执行、去重、超时控制、任务聚合及暂停队列。
-- **队列策略**：提供加权与严格优先级队列。
-- **监控与运维**：集成 Prometheus 指标监控，支持 Redis Sentinel 高可用，提供 Web UI 和 CLI 工具。
-- **扩展性**：灵活的 Handler 接口，支持中间件注入。
+Asynq 是一个基于 Redis 的 Go 语言分布式任务队列库，支持任务的异步排队与 Worker 并发处理。核心功能包括：保证任务至少执行一次、任务调度、失败重试、Worker 崩溃自动恢复、加权与严格优先级队列、任务去重、超时与截止时间控制、任务聚合、周期性任务及支持中间件的灵活处理接口。项目支持多机器横向扩展，兼容 Redis Sentinel 高可用架构。此外，集成 Prometheus 监控指标，并提供 Web UI 和命令行工具用于任务及队列的监控与管理。

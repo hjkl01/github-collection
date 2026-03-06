@@ -5,4 +5,4 @@ title: Courseplay_FS25
 
 ### [Courseplay Courseplay_FS25](https://github.com/Courseplay/Courseplay_FS25)  ![GitHub Repo stars](https://img.shields.io/github/stars/Courseplay/Courseplay_FS25?style=social)
 
-Courseplay 是《模拟农场 25》的官方模组，核心功能为车辆自动化作业控制，支持游戏内菜单操作及详细文档、多语言教程。当前版本为开发者测试版（Beta），可能存在漏洞，需用户反馈问题与日志。项目提供 ModHub 和 GitHub 下载渠道，并支持捐赠以维持开发。
+该项目是《模拟农场 25》的 Courseplay 模组官方测试版，提供车辆自动化操作功能。包含官方下载、多语言教程及在线与游戏内文档。当前为 Beta 版本，可能存在错误，支持用户提交车辆操作相关的错误报告及日志，并提供捐赠渠道支持开发。

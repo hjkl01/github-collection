@@ -5,4 +5,4 @@ title: vello
 
 ### [linebender vello](https://github.com/linebender/vello)  ![GitHub Repo stars](https://img.shields.io/github/stars/linebender/vello?style=social)
 
-Vello 是基于 Rust 编写的以 GPU 计算为核心的 2D 图形渲染引擎。它利用 wgpu 调用 GPU，能够高效绘制大型 2D 场景，实现交互或近交互性能。引擎采用类似 PostScript 的 API，支持渲染形状、图像、渐变和文本等元素，常作为 GUI 工具（如 Xilem）的渲染后端。目前项目处于 Alpha 阶段，部分功能（如模糊效果、合并伪影处理）仍在完善中。支持 Web（依赖 WebGPU）及 Android 等跨平台，并提供 SVG、Lottie 等集成扩展。
+Vello 是一款基于 Rust 编写的 GPU 计算密集型 2D 渲染引擎。它利用 wgpu 进行 GPU 访问，通过并行化算法将排序和裁剪等任务卸载到 GPU，从而以交互性能渲染大型 2D 场景。Vello 提供类似 PostScript 的 API，支持渲染形状、图像、渐变和文本，可作为 Xilem GUI 工具包等应用的渲染后端。目前处于 Alpha 状态，依赖支持计算着色器的 GPU（WebGPU 标准），支持跨平台集成。

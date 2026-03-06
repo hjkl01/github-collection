@@ -5,4 +5,4 @@ title: xan
 
 ### [medialab xan](https://github.com/medialab/xan)  ![GitHub Repo stars](https://img.shields.io/github/stars/medialab/xan?style=social)
 
-`xan` 是一款基于 Rust 编写的高性能命令行工具，专为通过 Shell 处理 CSV 文件设计。它利用 SIMD 解析器和多线程技术，能够高效处理 GB 级的大数据文件。核心功能包括预览、过滤、切片、聚合、排序、连接和去重 CSV 数据，支持命令链式组合与专用表达式语言进行复杂计算。除标准 CSV 外，还支持多种学科格式（如 `.vcf`, `.cdx`）及与 JSON、Excel 等格式的转换。此外，工具具备终端可视化能力，可生成直方图、散点图、热力图等多种图表。
+`xan` 是一个基于 Rust 的高性能命令行工具，用于直接在 Shell 中处理 CSV 文件。它采用 SIMD 解析和多线程并行计算，具有速度快、内存占用低的特点，可处理吉字节级大型数据。主要功能包括数据预览、过滤、切片、聚合、排序、连接及去重，支持命令链式组合。工具内置专用表达式语言，支持复杂计算与转换，执行效率高于 Python 等动态语言。`xan` 支持多种格式（CSV、JSON、Excel、NumPy 及生物信息学格式如 .vcf、.bed 等）的读写与转换，提供终端可视化（直方图、散点图、热力图等），并包含词汇计量学、图论分析及网页抓取等扩展工具，支持压缩文件与跨平台运行。

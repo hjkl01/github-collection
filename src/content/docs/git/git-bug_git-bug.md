@@ -5,4 +5,4 @@ title: git-bug
 
 ### [git-bug git-bug](https://github.com/git-bug/git-bug)  ![GitHub Repo stars](https://img.shields.io/github/stars/git-bug/git-bug?style=social)
 
-git-bug 是一款独立、分布式且优先离线的 Issue 管理工具。它将问题、评论等作为 Git 对象嵌入仓库中（而非文件），支持推送和拉取。核心功能包括：原生 Git 存储以版本化管理问题与用户；支持离线工作与后续无缝同步；提供毫秒级的问题列表和搜索；支持与 GitHub、GitLab 等平台通过桥梁同步；提供 CLI、TUI 及 Web 多种交互界面；易于集成。
+git-bug 是一款独立的分布式离线优先问题管理工具。它将问题和评论作为 Git 对象嵌入仓库（而非文件），利用 Git 架构实现版本控制、离线工作及多远程同步。核心功能包括：原生 Git 存储、分布式版本管理、毫秒级搜索、支持 GitHub/GitLab 桥接、提供 CLI/TUI/Web 多端交互以及易于集成。

@@ -5,4 +5,4 @@ title: Telegram-Media-Downloader
 
 ### [Neet-Nestor Telegram-Media-Downloader](https://github.com/Neet-Nestor/Telegram-Media-Downloader)  ![GitHub Repo stars](https://img.shields.io/github/stars/Neet-Nestor/Telegram-Media-Downloader?style=social)
 
-这是一个 Telegram Web 版用户脚本，需配合 Tampermonkey 等脚本管理器使用。它能在原本限制下载的电报 Web 版聊天、故事及私密频道中恢复图片、GIF、视频和音频的下载功能。脚本支持 WebK 和 WebZ 版本，提供视频下载进度条，部分功能（如语音消息）仅限 WebK 版本可用。
+这是一个 Telegram 网页版用户脚本，用于解锁在禁止下载或限制保存内容的聊天、故事及频道中下载媒体的功能。它支持下载图片、GIF、音频和视频，并在界面添加下载按钮，视频下载时显示进度条。需配合浏览器脚本管理器（如 Tampermonkey）使用，推荐在 Telegram WebK 版本中运行以获得完整功能支持。

@@ -5,10 +5,11 @@ title: oh-my-rime
 
 ### [Mintimate oh-my-rime](https://github.com/Mintimate/oh-my-rime)  ![GitHub Repo stars](https://img.shields.io/github/stars/Mintimate/oh-my-rime?style=social)
 
-oh-my-rime（薄荷输入法）是 Rime 输入法的快速初始化模板方案。
-主要功能：
-1. 多输入方案：支持薄荷全拼、小鹤双拼、地球拼音、五笔 86/98 及仓九宫格。
-2. 跨平台兼容：适用于 Windows、macOS、Linux 及移动端（iOS/Android）。
-3. 皮肤与配置：内置水鸭、青涩等皮肤，支持通过 custom 文件进行个性化覆写。
-4. 词库管理：默认使用万象词库，支持雾凇、白霜词库及自定义扩展，具备自动更新能力。
-5. 使用辅助：提供安装教程、配置说明及用户词典迁移工具。
+oh-my-rime（薄荷输入法）是一个基于 Rime 的快速初始化模板方案。
+
+核心功能：
+1. **多输入模式**：内置薄荷拼音（全拼/混输）、小鹤双拼（支持音形辅助）、地球拼音、五笔 98/86 及 iOS 仓九宫格等方案。
+2. **词库增强**：采用万象词库，支持声调显示，包含 Emoji 和颜文字扩展，兼容模型挂载。
+3. **跨平台支持**：覆盖 Windows、macOS、Linux 及 Android，适配小狼毫、鼠须管及 Fcitx5 等客户端。
+4. **灵活定制**：提供水鸭、青涩等皮肤，支持通过自定义配置文件覆写默认设置，方便二次开发。
+5. **便捷部署**：提供完整配置文件、镜像仓库及离线压缩包，配套详细安装与配置教程。

@@ -5,4 +5,4 @@ title: lake
 
 ### [merico-dev lake](https://github.com/merico-dev/lake)  ![GitHub Repo stars](https://img.shields.io/github/stars/merico-dev/lake?style=social)
 
-Apache DevLake 是一个开源开发数据平台，可从 GitHub、GitLab、Jira 等 DevOps 工具中采集、分析和可视化碎片化数据。它帮助团队整合数据孤岛，提供软件开发生命周期（SDLC）的完整视图，支持工程卓越性和开发者体验分析。平台通过 Grafana 仪表盘实现 DORA 等指标度量，采用灵活框架支持扩展新数据源。用户可通过配置蓝图（Blueprint）定义数据收集策略，查看预构建仪表盘或自定义 SQL 进行深度分析。
+Apache DevLake 是一款开源开发数据平台，用于整合、分析和可视化来自 DevOps 工具的碎片化数据，以提取工程卓越、开发者体验及社区增长方面的洞察。它支持连接多种开发工具（如 GitHub、GitLab、Jira 等），统一展示软件开发生命周期（SDLC）数据，内置 DORA 等指标仪表盘，并允许用户通过蓝图配置数据源、进行数据转换及自定义 SQL 分析。

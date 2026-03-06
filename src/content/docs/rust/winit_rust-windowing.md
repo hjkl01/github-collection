@@ -5,4 +5,4 @@ title: winit
 
 ### [rust-windowing winit](https://github.com/rust-windowing/winit)  ![GitHub Repo stars](https://img.shields.io/github/stars/rust-windowing/winit?style=social)
 
-winit 是一个基于 Rust 的跨平台窗口创建与管理库。它支持创建窗口并处理相关事件（如窗口大小调整、键盘按键、鼠标移动等）。该库定位为底层基础组件，若需在窗口上渲染内容，需使用其提供的平台特定接口或其他渲染库。
+winit 是一个 Rust 编写的跨平台窗口创建与管理库。它支持创建窗口并处理窗口事件（如大小调整、按键输入、鼠标移动等）。该库定位为底层基础组件，不负责内容渲染，需结合平台特定接口或与其他库配合以在窗口中显示内容。

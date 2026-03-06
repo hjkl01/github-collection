@@ -5,4 +5,4 @@ title: claude-task-master
 
 ### [eyaltoledano claude-task-master](https://github.com/eyaltoledano/claude-task-master)  ![GitHub Repo stars](https://img.shields.io/github/stars/eyaltoledano/claude-task-master?style=social)
 
-Taskmaster 是一款专为 AI 驱动开发设计的任务管理系统，支持通过 MCP 协议或命令行（CLI）与 Cursor、VS Code、Claude Code 等编辑器无缝协作。其核心功能包括解析产品需求文档（PRD）生成任务、任务规划与执行、状态管理及上下文信息研究。系统兼容 Anthropic、OpenAI 等多种 AI 模型提供商，支持自定义模型配置及选择性加载工具，以优化开发效率与 token 消耗。
+Taskmaster 是一款专为 AI 驱动开发设计的任务管理系统，支持与 Cursor、VS Code 等编辑器通过 MCP 协议无缝集成。它提供项目初始化、PRD 解析与任务生成、任务状态管理、代码实现辅助及上下文研究等功能。系统兼容多种 AI 模型提供商（Anthropic、OpenAI 等），也支持无需 API 的 Claude Code。用户可通过 CLI 或 NPM 包安装，并支持自定义工具加载模式以优化性能。

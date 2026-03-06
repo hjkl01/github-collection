@@ -5,4 +5,4 @@ title: django-import-export
 
 ### [django-import-export django-import-export](https://github.com/django-import-export/django-import-export)  ![GitHub Repo stars](https://img.shields.io/github/stars/django-import-export/django-import-export?style=social)
 
-`django-import-export` 是一款面向 Django 应用程序的文件导入导出工具库。支持通过代码或 Django Admin 界面操作，兼容 CSV、Excel、JSON 等多种格式。核心功能包括：导入前数据预览、批量导入、关系处理（外键/多对多）、数据验证、自定义转换、自然键导出及权限控制。支持国际化、Celery 集成及多数据库，适用于数据迁移、批量更新、跨环境传输等场景。
+django-import-export 是一个用于 Django 应用程序的可靠文件导入/导出工具库。它支持通过 Django Admin 界面或编程方式，管理从多种文件格式（如 csv, json, xlsx, HTML 等）的导入与导出。主要功能涵盖：导入前数据预览、批量导入、处理 CRUD 及跳过操作、支持外键与多对多关系、导入数据验证、导出数据自定义转换、使用自然键提升可移植性、Admin 界面选择导出项/字段、基于 Django 权限的控制、国际化支持、多数据库（MySQL/PostgreSQL/SQLite）兼容、Celery 集成及暗黑模式。

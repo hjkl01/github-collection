@@ -5,4 +5,4 @@ title: lighthouse
 
 ### [GoogleChrome lighthouse](https://github.com/GoogleChrome/lighthouse)  ![GitHub Repo stars](https://img.shields.io/github/stars/GoogleChrome/lighthouse?style=social)
 
-Lighthouse 是由 Google 开发的开源工具，用于自动分析网页和 Web 应用的性能指标与开发者最佳实践。它支持在 Chrome DevTools、Chrome 扩展、Node 命令行及 Node 模块中使用，提供性能、无障碍、SEO 和最佳实践四大类审计。核心功能包括模拟网络与 CPU 限制进行标准化测试、生成 HTML 或 JSON 格式报告、支持自定义配置与插件扩展。数据在本地处理，不上传至远程服务器，可广泛集成于第三方服务及 CI/CD 流程。
+Lighthouse 是一个开源工具，用于分析网页和 Web 应用的性能指标及开发者最佳实践。它支持多种使用方式，包括集成于 Chrome DevTools、Chrome 扩展、Node 命令行工具（CLI）以及 Node 模块程序化调用。工具可生成 HTML、JSON 或 CSV 格式的报告，评估维度涵盖性能、无障碍性、最佳实践和 SEO。Lighthouse 支持自定义配置、插件扩展及自定义审计，默认启用网络和 CPU 模拟限速以确保测试环境一致性，所有分析均在本地完成，不向远程服务器发送数据。

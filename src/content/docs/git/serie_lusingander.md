@@ -5,4 +5,4 @@ title: serie
 
 ### [lusingander serie](https://github.com/lusingander/serie)  ![GitHub Repo stars](https://img.shields.io/github/stars/lusingander/serie?style=social)
 
-Serie 是一款终端用户界面（TUI）应用，利用终端模拟器的图像协议在终端中渲染 Git 提交图，旨在提供比传统文本图更佳的仓库浏览体验。它支持 iTerm2 和 kitty 图像协议，允许自定义提交数量、排序、图形样式及初始选择，支持配置快捷键、配置文件及运行外部命令。该项目需 Git 和兼容的终端模拟器支持，不支持终端复用器。
+Serie 是一款终端 TUI 应用，利用终端图像协议（如 iTerm2、Kitty）渲染丰富的 Git 提交图，以提供比 `git log --graph` 更清晰易读的可视化体验。它支持以提交图为中心的仓库浏览，提供多种自定义选项（如图像协议、排序算法、图形样式）、可配置按键绑定及外部命令扩展（如查看 Diff）。运行需依赖 Git 及支持图像协议的终端模拟器，不支持 Sixel 及终端复用器环境。

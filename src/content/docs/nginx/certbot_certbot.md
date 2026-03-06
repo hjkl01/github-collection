@@ -5,4 +5,4 @@ title: certbot
 
 ### [certbot certbot](https://github.com/certbot/certbot)  ![GitHub Repo stars](https://img.shields.io/github/stars/certbot/certbot?style=social)
 
-Certbot 是由 EFF 推出的免费工具，旨在简化 HTTPS 证书的获取与部署。它作为 ACME 客户端，能从 Let's Encrypt 等机构自动获取域名验证（DV）证书，并支持部署到 Apache、Nginx 等多种 Web 服务器。核心功能包括：本地生成私钥；支持多种部署模式（如 standalone、webroot）；支持证书撤销；兼容 RSA 和 ECDSA 密钥；可配置 HTTP 至 HTTPS 自动重定向；所有配置变更均记录并可回滚。
+Certbot 是一个由 EFF 推出的开源工具，旨在自动化 HTTPS 数字证书的申请、部署与管理。它能从 Let's Encrypt 或其他 ACME 合规服务获取证书并部署到 Web 服务器，支持 Apache、nginx 等多种服务器环境及第三方插件。核心功能包括本地生成私钥、支持 ECDSA 和 RSA 密钥、获取和撤销域名验证（DV）证书、自动配置 HTTP 到 HTTPS 重定向，并提供可追溯和可回滚的配置变更。

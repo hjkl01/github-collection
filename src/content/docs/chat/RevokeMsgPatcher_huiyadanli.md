@@ -5,4 +5,4 @@ title: RevokeMsgPatcher
 
 ### [huiyadanli RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  ![GitHub Repo stars](https://img.shields.io/github/stars/huiyadanli/RevokeMsgPatcher?style=social)
 
-该项目是一款适用于 Windows 平台的工具，可为 PC 版微信、QQ 和 TIM 安装防撤回补丁，支持消息防撤回及微信多开功能。
+这是一个适用于 Windows PC 端的微信、QQ 和 TIM 防撤回补丁工具。主要功能包括防止消息撤回及支持微信多开，通过修改 DLL 文件实现，需管理员权限运行，软件更新后需重新安装。

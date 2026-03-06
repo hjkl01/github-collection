@@ -5,8 +5,9 @@ title: mise
 
 ### [jdx mise](https://github.com/jdx/mise)  ![GitHub Repo stars](https://img.shields.io/github/stars/jdx/mise?style=social)
 
-mise 是一款开发环境管理工具，核心功能包括：
-1. **工具管理**：支持 Node、Python、Terraform 等多种语言及工具的版本安装与切换。
-2. **环境变量管理**：根据不同项目目录动态配置环境变量。
-3. **任务调度**：支持运行项目的构建、测试等自定义任务。
-通过 Shell 集成和配置文件实现开发环境的自动化管理。
+mise 是一款全功能的开发环境管理工具，被称为“开发环境的前端”。它集成了以下三种核心功能：
+1. **工具管理**：管理 Node、Python、Terraform 等各类开发工具及其版本，支持任意语言。
+2. **环境变量管理**：针对不同项目目录管理环境变量，支持加载.env 文件。
+3. **任务管理**：定义和执行项目的构建与测试任务。
+
+项目通过 mise.toml 配置文件统一管理上述功能，并支持自动集成到 Shell 环境中，实现开发环境的版本控制、变量隔离及任务自动化。

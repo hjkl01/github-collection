@@ -3,28 +3,12 @@
 title: mindsdb
 ---
 
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mindsdb/mindsdb?style=social) ](https://github.com/mindsdb/mindsdb)
-### [mindsdb mindsdb](https://github.com/mindsdb/mindsdb)
+### [mindsdb mindsdb](https://github.com/mindsdb/mindsdb)  ![GitHub Repo stars](https://img.shields.io/github/stars/mindsdb/mindsdb?style=social)
 
-**项目核心内容总结：**
+MindsDB 是一个开源的 AI 分析查询引擎，旨在使 AI 代理能够无需 ETL 即可直接从数据库、数据仓库和应用程序中检索数据并回答问题。其核心功能总结如下：
 
-**功能**  
-MindsDB 是一个开源服务器，支持连接多种数据源（如数据库、数据仓库、SaaS 应用），通过统一数据并生成智能回答，实现跨大规模数据的高效交互。
-
-**使用方法**  
-- 推荐使用 Docker Desktop 快速部署，或通过 Docker 自定义配置。  
-- 内置 MCP 服务器，支持 MCP 应用程序连接和统一数据响应。
-
-**主要特性**  
-1. **连接数据**：支持数百种企业级数据源，灵活接入分散数据。  
-2. **统一数据**：  
-   - 通过 **知识库** 管理非结构化数据，提升问答效率。  
-   - 通过 **视图** 跨数据源创建统一数据接口（无需 ETL）。  
-   - 使用 **JOBS** 自动化数据同步与转换任务。  
-3. **智能响应**：  
-   - 通过 **代理（Agents）** 配置专用问答模型。  
-   - 通过 **MCP 协议** 实现与 MindsDB 的无缝交互。
-
-**其他**  
-- 提供中文文档、社区支持（Slack、GitHub 讨论）及商业支持渠道。  
-- 开源贡献者可参与开发，遵循贡献者行为准则。
+1. **统一数据访问**：支持 200 多种实时数据源（如 Postgres、MongoDB、Slack 等），通过统一的 SQL 兼容语言进行连接和查询。
+2. **混合知识处理**：将结构化数据与向量化数据（文本、PDF 等）在知识库中融合，支持在单一 SQL 查询中结合语义搜索与精确元数据。
+3. **AI 代理构建**：支持创建对话分析代理和语义搜索代理，能够跨多个数据源自主推理并生成基于事实的答案。
+4. **简单工作流**：遵循“连接 → 统一 → 响应”的流程，提供 SQL 接口用于数据聚合、视图创建、代理部署及工作流调度。
+5. **灵活部署**：支持通过 Docker、Docker Extension 或 PyPI 进行安装和运行。

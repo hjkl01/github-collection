@@ -5,4 +5,4 @@ title: AdGuardHome
 
 ### [AdguardTeam AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)  ![GitHub Repo stars](https://img.shields.io/github/stars/AdguardTeam/AdGuardHome?style=social)
 
-AdGuard Home 是一款免费开源的跨平台网络级 DNS 服务器，主要用于拦截广告和跟踪器。它作为隐私保护中心，配置后可覆盖家庭网络内所有设备，无需安装客户端软件。其核心功能包括：自定义过滤规则、内置 DHCP 服务器、支持加密 DNS 上游（DoH/DoT/DNSCrypt）、HTTPS 管理界面、阻止钓鱼和恶意软件域名、家长控制及强制搜索引擎安全搜索。相比公共 DNS 服务，用户拥有完全控制权；相比其他方案，它提供更丰富的开箱即用功能且支持跨平台运行。项目不收集任何使用统计数据，支持 Docker 及自动化脚本等多种部署方式，确保用户数据隐私完全可控。
+AdGuard Home 是一款免费开源的网络级广告与跟踪拦截 DNS 服务器软件。它作为 DNS 服务器运行，将广告和跟踪域名重定向至“黑洞”，从而阻止所有连接的家庭设备（如手机、电脑、IoT 设备）访问这些服务器，无需安装客户端软件。核心功能包括：自定义拦截规则与过滤列表、网络活动监控、内置 DHCP 服务器、支持加密 DNS 上游（DNS-over-HTTPS、DNS-over-TLS、DNSCrypt）、拦截钓鱼和恶意域名、家长控制以及多平台部署支持（Linux、MacOS、Docker 等）。软件强调用户隐私，不收集使用统计数据。

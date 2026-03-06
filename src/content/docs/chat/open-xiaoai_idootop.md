@@ -5,4 +5,4 @@ title: open-xiaoai
 
 ### [idootop open-xiaoai](https://github.com/idootop/open-xiaoai)  ![GitHub Repo stars](https://img.shields.io/github/stars/idootop/open-xiaoai?style=social)
 
-Open-XiaoAI 是专为小爱音箱 Pro 机型设计的开源项目，通过多模态大模型和 AI Agent 接管其语音交互。项目突破预设指令限制，支持接入 ChatGPT、Gemini 等 AI 服务，实现自定义唤醒词、立体声组及深度智能对话。需通过刷机运行客户端与服务端，赋予设备情感理解、主动思考及无限功能扩展的能力。
+Open-XiaoAI 项目旨在通过多模态大模型和 AI Agent 接管小爱音箱 Pro（LX06/OH2P）的音频输入与输出，突破预设指令逻辑限制。项目支持自定义唤醒词及接入小智 AI、MiGPT、Gemini Live 等多种大模型服务，赋予音箱情感理解与主动交互能力。用户需刷机开启 SSH，通过 Client+Server 架构自由定义音箱功能，将其进化为可自主交互的智能终端。

@@ -5,12 +5,4 @@ title: nvim-java
 
 ### [nvim-java nvim-java](https://github.com/nvim-java/nvim-java)  ![GitHub Repo stars](https://img.shields.io/github/stars/nvim-java/nvim-java?style=social)
 
-nvim-java 是基于 JDTLS 的 Neovim Java 开发插件，集成 Spring Boot 工具并提供完整的 Java 开发体验。
-
-主要功能包括：
-1. **代码辅助**：支持诊断、自动补全、代码格式化、导入整理及重构（提取变量/方法/字段/常量）。
-2. **运行调试**：支持应用运行、日志查看、自动调试配置及断点调试。
-3. **测试支持**：支持运行和调试当前类、方法及工作区内的所有测试。
-4. **工具集成**：包含 Profile 管理 UI、反编译器支持及工作区构建清理功能。
-
-插件支持 Lua API 调用与自定义配置，兼容 Neovim 0.11.5 及以上版本。
+nvim-java 是一款基于 Neovim 的 Java 开发插件，依托 JDTLS 语言服务器提供全方位支持。功能涵盖 Spring Boot 工具集成、代码诊断与自动补全、自动调试配置、代码格式化与导入整理。支持测试运行与调试、内置应用运行器（含日志查看）、配置文件管理、反编译器支持及代码重构操作。兼容 Gradle 和 Maven 构建工具，通过 Lua 接口和命令提供构建、运行、环境配置等核心开发任务的管理。

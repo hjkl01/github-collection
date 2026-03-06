@@ -5,4 +5,4 @@ title: Fyrox
 
 ### [FyroxEngine Fyrox](https://github.com/FyroxEngine/Fyrox)  ![GitHub Repo stars](https://img.shields.io/github/stars/FyroxEngine/Fyrox?style=social)
 
-Fyrox 是一个用 Rust 编写的现代通用游戏引擎，支持 2D 和 3D 开发，内置场景编辑器，功能丰富且适用于生产环境。它提供官方教程、在线示例和社区支持，前身名为 rg3d。
+Fyrox（原名 rg3d）是一款基于 Rust 语言开发的通用 2D/3D 游戏引擎，具有功能丰富、生产就绪的特点，内置场景编辑器。项目提供官方学习手册、教程及 Web 浏览器可运行的示例代码，支持社区交流与外部贡献。

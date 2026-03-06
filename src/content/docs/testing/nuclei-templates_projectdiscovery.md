@@ -5,4 +5,4 @@ title: nuclei-templates
 
 ### [projectdiscovery nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)  ![GitHub Repo stars](https://img.shields.io/github/stars/projectdiscovery/nuclei-templates?style=social)
 
-Nuclei Templates 是 Nuclei 扫描器的核心模板仓库，由社区共同维护。它提供用于检测应用程序安全漏洞的模板，覆盖 CVE、XSS、KEV 等多种类型及 HTTP、DNS、云等多种协议，支持 CISA 及 VulnCheck 的已知利用漏洞检测。项目鼓励社区贡献以扩展能力，并提供文档指导用户构建自定义扫描模板。
+Nuclei Templates 是 Nuclei 扫描器的核心模板库，由社区维护，用于发现应用程序中的安全漏洞。项目包含由团队及社区贡献的模板，覆盖 CISA 和 VulnCheck 的已知利用漏洞（KEV），支持多种标签（如 vuln、cve、xss）、严重性和类型（如 http、dns、file）。项目开放贡献并支持文档、讨论及社区交流，旨在通过持续的模板更新来增强扫描能力。

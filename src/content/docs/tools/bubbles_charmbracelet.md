@@ -5,4 +5,4 @@ title: bubbles
 
 ### [charmbracelet bubbles](https://github.com/charmbracelet/bubbles)  ![GitHub Repo stars](https://img.shields.io/github/stars/charmbracelet/bubbles?style=social)
 
-Bubbles 是专为 Bubble Tea 框架设计的终端用户界面基础组件库，提供一系列可定制的 UI 原语。核心组件包括：Spinner（加载动画）、Text Input 和 Text Area（文本输入，支持 Unicode 和粘贴）、Table（表格展示与导航）、Progress（进度条）、Paginator（分页）、Viewport（垂直滚动）、List（列表浏览，支持过滤）、File Picker（文件选择）、Timer 和 Stopwatch（计时）、Help 和 Key（按键管理与生成）。所有组件支持高度自定义，适用于生产环境。
+Bubbles 是专为 Bubble Tea 应用程序设计的 UI 组件库，提供一系列可定制的终端界面原语。核心组件包括：加载动画、文本输入、多行文本区域、数据表格、进度条、分页器、滚动视口、列表导航、文件选择器、计时器、秒表、帮助视图及按键管理。该库组件已广泛应用于生产环境，支持丰富的自定义选项，旨在简化命令行界面（TUI）的开发。

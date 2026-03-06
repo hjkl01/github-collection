@@ -5,4 +5,4 @@ title: Twocast
 
 ### [panyanyany Twocast](https://github.com/panyanyany/Twocast)  ![GitHub Repo stars](https://img.shields.io/github/stars/panyanyany/Twocast?style=social)
 
-Twocast 是一个 AI 双人播客生成器，支持一键生成 3-5 分钟的播客。支持主题、链接、文档（doc/pdf/txt）及列表页等多种输入方式，输出包含可下载音频、大纲和脚本，支持多语言。可集成 Fish Audio、Minimax 或 Google Gemini 进行语音合成，结合 OpenRouter 或 x.ai 大模型接口，提供本地部署和 Docker 一键启动两种方式。
+Twocast 是一款 AI 双人播客生成工具，支持一键生成 3-5 分钟的播客内容。它允许用户通过主题、链接、文档或列表页面创建内容，输出包含音频、大纲和脚本，并支持多语言。项目集成了 Fish Audio、Minimax 和 Google Gemini 等语音合成服务，需配置相应的 TTS 和 LLM API 密钥。

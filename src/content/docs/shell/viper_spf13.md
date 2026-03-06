@@ -5,4 +5,9 @@ title: viper
 
 ### [spf13 viper](https://github.com/spf13/viper)  ![GitHub Repo stars](https://img.shields.io/github/stars/spf13/viper?style=social)
 
-Viper 是 Go 语言的配置管理解决方案，遵循 12-Factor 应用规范。它支持从多种来源读取并合并配置，优先级包括显式设置、命令行标志、环境变量、配置文件、远程键值存储及默认值。支持的文件格式包括 JSON、TOML、YAML、INI、envfile 及 Java Properties 等。核心功能涵盖：配置文件及远程配置的动态发现、实时监听与自动更新；绑定环境变量与命令行标志；支持远程存储（Etcd、Consul、Firestore、NATS）及配置加密；配置项别名管理；多实例支持；以及将配置值反序列化为 Go 类型。默认配置键名大小写不敏感。
+Viper 是一款为 Go 应用程序设计的完整配置解决方案。核心功能包括：
+1. **多源配置读取**：支持配置文件（JSON、TOML、YAML、INI 等）、环境变量、命令行标志、默认值、显式设置及远程键值存储（Etcd、Consul、Firestore 等）。
+2. **配置优先级**：遵循显式设置优先于标志、环境变量、配置文件、外部存储及默认值的合并顺序。
+3. **动态特性**：支持配置文件动态发现、实时监听文件变化并自动更新配置。
+4. **数据处理**：支持配置键别名、子集提取、反序列化为结构体，以及远程配置的加密与解密。
+5. **集成支持**：支持 Go Modules，键名默认不区分大小写，可与 Cobra/pflag 库无缝集成。

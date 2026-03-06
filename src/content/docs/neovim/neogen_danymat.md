@@ -5,4 +5,4 @@ title: neogen
 
 ### [danymat neogen](https://github.com/danymat/neogen)  ![GitHub Repo stars](https://img.shields.io/github/stars/danymat/neogen?style=social)
 
-Neogen 是一个基于 Neovim 的代码注释生成工具，使用 Lua 编写并依赖 Tree-sitter。它支持多种编程语言（如 Python、JavaScript、Rust 等）及相应的注释规范（如 Google Style、Javadoc、Doxygen 等）。核心功能包括通过一键快捷键或命令自动生成函数、类、文件等类型的注释，支持光标自动跳转及集成主流代码片段引擎（如 luasnip）。项目配置灵活，允许用户自定义语言模板或扩展新语言支持。
+Neogen 是一款基于 Lua 编写的 Neovim 插件，用于自动生成代码注解（注释）。它支持多种编程语言（如 Python、Java、C++、JavaScript 等）及对应的注释规范（如 Javadoc、Google 文档风格、Doxygen 等）。用户可以通过单键绑定或命令快速为函数、类、类型或文件生成注解，并自动将光标跳转至插入的注解字段中。该插件高度可定制，支持 Tree-sitter 解析，兼容多种代码片段引擎（如 luasnip）以优化注释编辑体验，同时也提供原生的光标跳转功能。

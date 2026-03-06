@@ -5,4 +5,4 @@ title: iptv
 
 ### [iptv-org iptv](https://github.com/iptv-org/iptv)  ![GitHub Repo stars](https://img.shields.io/github/stars/iptv-org/iptv?style=social)
 
-该项目是一个全球公开 IPTV 频道的集合库。用户可将 M3U 播放列表链接导入支持直播的视频播放器中观看。项目配套提供电子节目指南、频道数据库、API 接口及相关资源链接。仓库仅存储公开流媒体链接，不包含视频文件。
+该项目是一个收集全球公开 IPTV 频道链接的集合，用户可将播放列表链接导入支持直播流的视频播放器中观看。项目关联了电子节目指南（EPG）、频道数据库及 API 等资源。仓库内仅包含公开的流媒体 URL 链接，不存储任何视频文件。

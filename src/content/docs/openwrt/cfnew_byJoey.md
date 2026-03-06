@@ -5,4 +5,12 @@ title: cfnew
 
 ### [byJoey cfnew](https://github.com/byJoey/cfnew)  ![GitHub Repo stars](https://img.shields.io/github/stars/byJoey/cfnew?style=social)
 
-CFnew 是基于 Cloudflare Workers 的代理订阅管理与优选工具，支持 VLESS、Trojan、xhttp 多协议。提供图形化 KV 管理界面，修改即生效。内置延迟测试，支持按地区/速度优选，15 分钟自动更新。兼容 Clash 等主流客户端，自动识别格式并唤醒。支持自定义路径、节点级参数、API 管理 IP、ECH 加密及自定义 DNS。支持中文与波斯语自动切换。
+CFnew 是一款基于 Cloudflare Workers 的代理订阅管理工具，核心功能总结如下：
+
+1. **多协议支持**：支持 VLESS、Trojan、xhttp 协议混合部署，可多协议同时启用。
+2. **图形化管理**：利用 Cloudflare KV 存储配置，修改后即时生效，无需重新部署。
+3. **智能优选与测速**：内置延迟测试工具，支持优选 IP/域名、按地区筛选、延迟排序及自动获取机场码。
+4. **多客户端兼容**：支持 CLASH、SURGE、SING-BOX 等十余种客户端，根据 User-Agent 自动识别并适配配置格式。
+5. **API 管理**：支持通过 RESTful API 动态添加、删除或清空优选 IP 列表。
+6. **高级定制**：支持 ECH 加密握手、自定义路径、节点级 path 参数覆盖（ProxyIP、地区、SOCKS5 等）及订阅转换服务。
+7. **自动化服务**：支持每 15 分钟自动优选更新，根据浏览器语言自动切换中文或波斯语界面。

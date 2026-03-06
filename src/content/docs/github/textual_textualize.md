@@ -5,4 +5,4 @@ title: textual
 
 ### [textualize textual](https://github.com/textualize/textual)  ![GitHub Repo stars](https://img.shields.io/github/stars/textualize/textual?style=social)
 
-Textual 是一个基于 Python 的跨平台用户界面构建框架。它允许开发者使用简洁的 API 创建应用，这些应用既可在终端运行，也可部署到 Web 浏览器。核心功能包括：丰富的 UI 组件库（如按钮、数据表格、输入框等）和灵活布局系统；支持异步编程；内置开发调试控制台和命令调色板；兼容 macOS、Linux 和 Windows 平台；支持通过命令将应用直接服务于 Web 端。
+Textual 是一个使用简洁 Python API 构建跨平台图形用户界面的框架。应用既可在终端运行，也可在 Web 浏览器中运行。其底层采用异步架构，组件解耦且配有高级测试框架。项目提供丰富的组件库（按钮、表格、树控件等）、灵活布局系统及预设主题，兼容 macOS、Linux 和 Windows。此外，它还支持开发控制台用于调试、命令面板进行快捷操作，并可通过 `textual serve` 将应用部署至 Web。

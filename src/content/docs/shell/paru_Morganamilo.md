@@ -5,4 +5,4 @@ title: paru
 
 ### [Morganamilo paru](https://github.com/Morganamilo/paru)  ![GitHub Repo stars](https://img.shields.io/github/stars/Morganamilo/paru?style=social)
 
-Paru 是一款基于 pacman 封装的 Arch 用户仓库 (AUR) 辅助工具，功能丰富且交互极简。支持交互式搜索安装、系统更新、AUR 包升级与查询、PKGBUILD 下载与预览、本地包构建及 git 包追踪。允许用户通过配置文件自定义颜色、文件管理器审查、PKGBUILD 编辑及语法高亮等功能。
+Paru 是一个为 Arch Linux 设计的 AUR 辅助工具，封装了 pacman 以实现功能丰富且交互极少的操作。核心功能包括：交互式搜索与安装、升级 AUR 包、查询更新、下载或查看 PKGBUILD 及评论、跟踪 -git 包。支持自定义配置（颜色、搜索顺序、文件审查），兼容 PKGBUILD 语法高亮及 git 提交。

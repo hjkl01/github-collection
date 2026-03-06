@@ -5,4 +5,4 @@ title: swc
 
 ### [swc-project swc](https://github.com/swc-project/swc)  ![GitHub Repo stars](https://img.shields.io/github/stars/swc-project/swc?style=social)
 
-SWC (Speedy Web Compiler) 是一个用 Rust 编写的超高速 TypeScript/JavaScript 编译器，旨在加速 Web 开发流程。它同时支持作为 Rust 库和 JavaScript npm 包使用，用户可通过相应接口进行集成。该项目由社区驱动，采用 Apache License 2.0 开源协议，其编译性能优于 Babel。
+SWC（Speedy Web Compiler）是一个用 Rust 编写的高速 TypeScript/JavaScript 编译器与库，旨在加速 Web 开发。它同时提供 Rust 和 JavaScript 接口，支持代码转换与编译，性能优于 Babel。项目支持 Node v10+ 运行环境及 Rust 1.73+ 版本，采用 Apache 2.0 许可证，由社区驱动维护。

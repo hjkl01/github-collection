@@ -5,4 +5,4 @@ title: next-shadcn-admin-dashboard
 
 ### [arhamkhnz next-shadcn-admin-dashboard](https://github.com/arhamkhnz/next-shadcn-admin-dashboard)  ![GitHub Repo stars](https://img.shields.io/github/stars/arhamkhnz/next-shadcn-admin-dashboard?style=social)
 
-Studio Admin 是一个基于 Next.js 16、TypeScript、Tailwind CSS v4 和 Shadcn UI 开发的现代化管理后台模板。它提供默认、CRM 和财务等多个仪表盘，包含完整的认证流程。项目支持可定制的主题预设（含多种配色方案及深浅模式）和灵活布局（如可折叠侧边栏），具备响应式设计。技术架构采用 colocation 模式以确保模块化与易维护性，集成了 Zod 验证、Zustand 状态管理、React Hook Form 及 TanStack 表格，并计划支持基于角色的访问控制（RBAC）与多租户功能。
+这是一个基于 Next.js 16、TypeScript 和 Shadcn UI 的现代化后台管理模板。功能涵盖：默认、CRM 及财务预置仪表盘；响应式设计与移动端适配；自定义主题（亮/暗模式及多配色）；灵活布局（折叠侧边栏）；完整身份验证流程。采用模块化目录架构，技术栈包含 Tailwind CSS v4、Zod 等，支持 Vercel 一键部署或本地运行开发。

@@ -5,4 +5,4 @@ title: claude-mem
 
 ### [thedotmack claude-mem](https://github.com/thedotmack/claude-mem)  ![GitHub Repo stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=social)
 
-Claude-Mem 是为 Claude Code 打造的持久化记忆压缩系统。它自动捕获工具使用观察并生成语义摘要，实现跨会话上下文保留，确保项目知识连续性。系统基于生命周期钩子、Bun Worker 服务、SQLite 及 Chroma 向量数据库构建。支持通过 MCP 工具进行分层智能搜索，具备隐私控制、Web 查看器及自动运行能力。可通过插件命令或 OpenClaw Gateway 部署。
+Claude-Mem 是一款专为 Claude Code 构建的持久化记忆压缩系统。它通过自动捕获工具使用观察结果、生成语义摘要，实现上下文在会话间的无缝保留，确保项目知识的连续性。核心功能包括跨会话持久记忆、渐进式披露、基于自然语言的历史搜索、本地 Web 查看器、隐私内容保护及引用功能。系统基于生命周期钩子运行，利用 SQLite 存储数据，结合 Chroma 向量数据库实现混合搜索，并提供高效的 MCP 工具链支持。支持 CLI 命令一键安装及 OpenClaw 网关集成。

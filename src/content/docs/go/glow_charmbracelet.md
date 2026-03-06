@@ -5,4 +5,4 @@ title: glow
 
 ### [charmbracelet glow](https://github.com/charmbracelet/glow)  ![GitHub Repo stars](https://img.shields.io/github/stars/charmbracelet/glow?style=social)
 
-Glow 是一款专为终端设计的 Markdown 阅读器，用于在命令行界面渲染和浏览 Markdown 内容。它支持通过 TUI 模式浏览本地及 Git 仓库文件，或通过 CLI 命令读取本地文件、标准输入及远程 URL。此外，它还提供自动换行、分页显示、智能样式检测（深浅色自适应）及自定义样式支持，并允许通过配置文件持久化常用设置。
+Glow 是一款基于终端的 Markdown 阅读器，支持在命令行中渲染美观的 Markdown 内容。它提供 TUI 界面用于浏览本地或 Git 仓库中的文件，同时支持 CLI 模式直接处理文件、标准输入或网络链接（如 GitHub）。核心功能包括自定义文本换行宽度、分页显示、多主题样式（支持自动检测及自定义 JSON）以及配置文件管理。该工具兼容 macOS、Linux、Windows 等多种主流操作系统。

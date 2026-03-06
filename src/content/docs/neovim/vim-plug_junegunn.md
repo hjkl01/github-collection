@@ -5,4 +5,12 @@ title: vim-plug
 
 ### [junegunn vim-plug](https://github.com/junegunn/vim-plug)  ![GitHub Repo stars](https://img.shields.io/github/stars/junegunn/vim-plug?style=social)
 
-vim-plug 是一款极简的 Vim 插件管理器，仅需单个文件且无外部依赖即可配置。它具备极高的稳定性，完美兼容所有版本的 Vim 及 Neovim。核心功能包括并行化极速安装与更新、使用浅克隆以减少磁盘占用和下载时间、支持按需加载以提升启动速度。此外，它还提供分支、标签、提交记录支持，具备更新回滚、更新后钩子命令及外部插件管理功能。用户只需在配置文件中定义插件列表，使用 PlugInstall 等命令即可轻松完成安装、更新、清理和差异查看，同时支持 Vimscript 与 Lua 两种配置语法。
+vim-plug 是一个极简的 Vim 和 Neovim 插件管理器。
+
+核心特性：
+1. **极简设计**：单文件无依赖，配置语法直观简洁，支持 Vim 脚本和 Lua。
+2. **高性能**：支持并行安装与更新，使用浅克隆节省空间，支持按需加载以加速启动。
+3. **高兼容性**：兼容所有版本的 Vim (2006 年起) 及 Neovim，具备完善的向后兼容性。
+4. **版本控制**：支持指定分支、标签或提交号，支持更新审查、回滚及分支切换。
+5. **扩展能力**：支持更新后执行钩子命令、自定义插件路径、按需加载配置及外部管理插件。
+6. **便捷管理**：提供 `PlugInstall`、`PlugUpdate`、`PlugClean`、`PlugDiff` 等命令进行插件安装、更新与清理。

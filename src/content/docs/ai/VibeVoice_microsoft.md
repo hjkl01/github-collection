@@ -5,11 +5,11 @@ title: VibeVoice
 
 ### [microsoft VibeVoice](https://github.com/microsoft/VibeVoice)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/VibeVoice?style=social)
 
-VibeVoice 是微软开源的语音 AI 模型系列，涵盖文本转语音（TTS）和自动语音识别（ASR），核心采用 7.5 Hz 超低帧率连续语音词元器及 LLM 扩散生成框架。
+VibeVoice 是一个开源的尖端语音 AI 框架，提供文本转语音（TTS）和自动语音识别（ASR）模型。核心技术采用超低帧率连续语音 Tokenizer 与大语言模型扩散框架，以高效处理长序列音频。
 
 主要功能包括：
-1. **长时语音识别 (ASR)**：支持 60 分钟音频单遍处理，输出结构化转录（说话人、时间、内容），支持 50+ 语言及自定义热词。
-2. **长时多角色合成 (TTS)**：支持 90 分钟语音生成，单会话兼容 4 种不同音色，支持多语言及高表现力。
-3. **实时流式合成 (Streaming TTS)**：轻量化（0.5B）模型，支持文本流输入，首音延迟约 300 毫秒，适用于长语音实时生成。
+1. **VibeVoice-ASR**：支持单次处理长达 60 分钟的音频，生成包含说话人、时间戳和内容的结构化转录，支持 50 多种语言及自定义热词。
+2. **VibeVoice-TTS**：支持单次生成长达 90 分钟的语音，兼容 4 位不同说话人，具备自然表达和多语言合成能力。
+3. **VibeVoice-Realtime-0.5B**：轻量级实时 TTS 模型，支持流式文本输入与低延迟输出，适合实时场景。
 
-项目面向研发目的，要求用户负责任使用并确保合规。
+项目主要用于研究与开发，需负责任地使用以避免滥用风险。

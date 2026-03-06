@@ -5,11 +5,14 @@ title: ruoyi-vue-pro
 
 ### [YunaiV ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)  ![GitHub Repo stars](https://img.shields.io/github/stars/YunaiV/ruoyi-vue-pro?style=social)
 
-芋道（ruoyi-vue-pro）是基于 Spring Boot 与 Vue 的开源快速开发平台，采用 MIT 协议，个人与企业可免费 100% 商用。
+项目为基于 Spring Boot 和 Vue 的完全开源快速开发平台（芋道/ruoyi-vue-pro），采用 MIT 协议，个人及企业可免费使用。
 
-**核心功能：**
-1. **多端架构**：后端 Spring Boot 多模块架构，前端提供 Vue3/2 管理后台及 Uni-app 移动端（适配 APP、小程序、H5）。
-2. **系统能力**：包含用户权限、角色菜单、部门岗位、SaaS 多租户管理及动态权限控制。
-3. **基础设施**：集成代码生成、文件存储、定时任务、消息队列、支付对接（微信/支付宝）、API 日志、链路追踪与监控告警。
-4. **业务组件**：内置 Flowable 工作流引擎（支持 BPMN/钉钉双设计器）、数据报表与大屏设计器、微信公众号/小程序、会员中心、商城、ERP、CRM 及 AI 大模型模块。
-5. **技术栈**：支持 JDK 8/17/21，兼容 MySQL、Oracle、达梦等多种数据库及 Redis、RabbitMQ 等消息中间件。
+**版本架构**：提供【完整版】（含全量业务）和【精简版】（仅基础功能），支持 JDK 8/17+ 及 Spring Boot 2.7/3.2。
+
+**核心功能**：
+1. **系统管理**：用户、角色、菜单、部门、SaaS 多租户、日志审计及权限控制（RBAC、按钮级）。
+2. **基础设施**：代码生成、API 文档、文件存储、定时任务、消息队列、监控告警、链路追踪及单元测试。
+3. **业务模块**：工作流（Flowable）、支付系统、数据报表、会员中心、商城、CRM、ERP、AI 大模型、微信公众号集成。
+4. **前端应用**：管理后台支持 Vue3/Vue2（Element Plus/Vben），移动端基于 uni-app 适配 APP/小程序/H5。
+
+**技术特性**：兼容多种数据库（含信创），支持 SSO 单点登录、动态菜单、多模块架构。

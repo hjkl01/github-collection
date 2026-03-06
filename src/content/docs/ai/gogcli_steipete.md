@@ -5,11 +5,11 @@ title: gogcli
 
 ### [steipete gogcli](https://github.com/steipete/gogcli)  ![GitHub Repo stars](https://img.shields.io/github/stars/steipete/gogcli?style=social)
 
-gogcli 是一款运行于终端的高效命令行工具，用于直接操作 Google Workspace 各项服务。其主要功能总结如下：
+gogcli 是一款快速、脚本友好的终端命令行工具，用于在本地直接管理 Google 各类服务及 Google Workspace 功能。
 
-1. **多服务支持**：涵盖 Gmail、Calendar、Drive、Docs、Slides、Sheets、Forms、Classroom、Chat、Contacts、Tasks、People、Groups 及 Keep 等 Google 核心服务。
-2. **脚本友好**：默认提供 JSON 格式输出，便于自动化脚本处理、数据解析及与其他工具管道连接。
-3. **安全认证与存储**：支持 OAuth2 授权及 Workspace 服务账号（域内委托），使用系统密钥环或加密文件安全存储凭证，支持最小权限授权（Least-privilege auth）。
-4. **多账户管理**：支持同时管理多个 Google 账户（支持别名设置），可隔离不同 OAuth 客户端配置。
-5. **高级特性**：包含邮件阅读追踪、Gmail 事件监听（Pub/Sub 推送）、文档 sed 风格编辑（sedmat）、批量操作等功能。
-6. **交互体验**：支持人类可读的表格输出、Shell 自动补全、多模式颜色控制及本地时区处理。
+核心功能：
+1. **服务覆盖**：支持 Gmail（邮件搜索/收发/追踪）、Calendar（事件/冲突/团队日程）、Drive（文件管理/权限/转换）、Docs/Slides/Sheets（编辑/导出/Markdown 处理）、Classroom（教学管理）、Chat、Tasks、Forms、Contacts、Apps Script 及 Keep 等。
+2. **脚本友好**：提供 JSON 首选输出模式，支持人类可读及纯文本格式，便于自动化集成。
+3. **多账号管理**：支持同时管理多个 Google 账号及别名，可自动选择默认或特定账号。
+4. **安全认证**：使用系统密钥环或加密文件存储 OAuth 令牌，支持最小权限授权（只读/特定范围），兼容 Workspace 服务账户（域内委派）。
+5. **特色功能**：包含邮件打开追踪、文档 Sedmat 风格编辑、本地时间显示、Shell 自动补全及命令白名单沙箱控制。

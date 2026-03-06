@@ -5,4 +5,4 @@ title: gruvbox
 
 ### [gruvbox-community gruvbox](https://github.com/gruvbox-community/gruvbox)  ![GitHub Repo stars](https://img.shields.io/github/stars/gruvbox-community/gruvbox?style=social)
 
-gruvbox 是一款社区维护的 Vim 颜色主题插件，提供亮色和暗色模式，采用柔和复古色调，注重色彩对比度与视觉舒适性。它支持多种编程语言的语法高亮，兼容 Airline、NERDTree 等多种主流插件，并允许用户自定义对比度、反色及斜体等样式。项目提供详细文档以指导安装、配置及终端环境适配。
+gruvbox 是一款 Vim 配色主题，采用柔和复古色调，支持亮暗模式切换，注重颜色区分度与视觉舒适度。该项目为社区维护版本，提供丰富的样式定制选项（如对比度、颜色反转、斜体），支持多种编程语言语法高亮及主流 Vim 插件（如 Airline、NERDTree、GitGutter 等），并配有详细的 Wiki 文档用于安装、配置及故障排除。

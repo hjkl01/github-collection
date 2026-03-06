@@ -5,4 +5,4 @@ title: deep-chat
 
 ### [OvidijusParsiunas deep-chat](https://github.com/OvidijusParsiunas/deep-chat)  ![GitHub Repo stars](https://img.shields.io/github/stars/OvidijusParsiunas/deep-chat?style=social)
 
-Deep Chat 是一个可完全定制的 AI 聊天组件，仅需一行代码即可注入网站。它支持连接任意自定义 API 或主流 AI 服务（如 OpenAI、Claude），提供文件收发、音视频捕捉、语音交互（语音转文字/语音/文字）、Markdown 渲染等功能。组件适配所有主流 UI 框架，支持浏览器本地托管模型及焦点模式。此外，它提供直连 AI、自定义 API、本地模型等多种连接方式，包含丰富的框架示例、服务器模板、在线配置工具及教程。
+Deep Chat 是一个可完全定制的 AI 聊天组件，仅需一行代码即可注入网站。它支持连接任意 API 或直接在浏览器中对接超过 20 种主流 AI 服务，亦支持在本地浏览器托管 LLM 模型。功能涵盖文件收发、摄像头拍照、麦克风录音、语音转文本、文本转语音及全语音对话。界面支持 Markdown 渲染、自定义 UI 元素、模态弹窗、焦点模式及会话恢复，兼容所有主流前端框架。此外，项目提供多语言服务器模板、无代码配置工具及 AI 安装指南，便于开发者快速集成与部署。

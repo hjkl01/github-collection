@@ -5,4 +5,4 @@ title: axum
 
 ### [tokio-rs axum](https://github.com/tokio-rs/axum)  ![GitHub Repo stars](https://img.shields.io/github/stars/tokio-rs/axum?style=social)
 
-Axum 是一个基于 Rust 的 HTTP 路由和请求处理库，专注于易用性与模块性。它提供无宏路由 API，支持通过提取器声明式解析请求，具备简单可预测的错误处理模型，并能以最小样板代码生成响应。Axum 不内置中间件系统，而是兼容 tower 生态系统，从而免费获得超时、追踪、压缩、认证等功能，并支持与 hyper 和 tonic 应用共享中间件。作为 hyper 的轻量级封装，Axum 性能开销极低，且确保 100% 安全 Rust 实现。
+Axum 是一个注重易用性和模块化的 Rust HTTP 路由及请求处理库。它提供无需宏的 API 进行请求路由，支持使用提取器（extractors）声明式解析请求，拥有简单可预测的错误处理模型及简洁的响应生成方式。Axum 基于 `tower` 和 `tower-http` 生态系统构建，不维护独立的中间件系统，从而免费利用超时、追踪、压缩、授权等能力，并能与 `hyper` 或 `tonic` 共享中间件。该项目基于 `hyper` 构建，性能相当，且代码 100% 安全。

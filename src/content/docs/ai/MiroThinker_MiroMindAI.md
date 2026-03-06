@@ -5,13 +5,13 @@ title: MiroThinker
 
 ### [MiroMindAI MiroThinker](https://github.com/MiroMindAI/MiroThinker)  ![GitHub Repo stars](https://img.shields.io/github/stars/MiroMindAI/MiroThinker?style=social)
 
-MiroThinker 是 MiroMindAI 开发的开源深度研究代理，专为研究与预测任务优化。项目由 MiroThinker（核心代理）、MiroFlow（工具使用框架）和 MiroVerse（训练数据集）组成。
+MiroThinker 是一个开源的深度研究智能体项目，专注于科学研究与预测。
 
 核心功能：
-1. **深度推理能力**：支持 256K 上下文窗口，每任务最多 600 次工具调用，采用“交互扩展”技术提升性能。
-2. **丰富工具链**：集成网页搜索、代码沙盒执行、多模态识别、文档解析等工具，支持自定义配置。
-3. **多规格模型**：提供 8B 至 235B 多种参数量级模型，平衡性能与计算资源。
-4. **全面评估体系**：内置支持 GAIA、HLE、BrowseComp 等多项基准评测，提供轨迹收集以辅助模型训练（SFT/DPO）。
-5. **灵活部署**：基于 Python 生态，支持本地服务器（SGLang/vLLM）部署及 API 调用。
+1. **交互式扩展**：训练智能体处理更深层和频繁的交互，作为性能提升的第三维度。
+2. **长上下文与工具链**：支持 256K 上下文窗口，单任务可处理高达 600 次工具调用（集成搜索、代码执行等）。
+3. **多模型尺度**：提供 8B 至 235B 多种参数规模模型（如 v1.5 的 30B/235B）。
+4. **SOTA 性能**：在 GAIA、BrowseComp、HLE 等基准上达到开源顶尖水平（GAIA 得分 80.8%）。
+5. **完整工具链**：包含 MiroFlow 框架与 MiroVerse 数据集，支持本地 SGLang/vLLM 部署、量化及评估脚本。
 
-在 GAIA 等基准测试中达到开源 SOTA 水平，适用于需要复杂搜索与推理的科研及应用场景。
+项目旨在提供业界领先的开源研究智能体解决方案。

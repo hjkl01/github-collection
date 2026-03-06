@@ -5,11 +5,9 @@ title: facebook-scraper
 
 ### [kevinzg facebook-scraper](https://github.com/kevinzg/facebook-scraper)  ![GitHub Repo stars](https://img.shields.io/github/stars/kevinzg/facebook-scraper?style=social)
 
-Facebook Scraper 是一个无需 API 密钥即可抓取 Facebook 公开页面、个人主页及群组数据的 Python 库。
+这是一个无需 API 密钥即可抓取 Facebook 公开内容的 Python 库及命令行工具。主要功能包括：
 
-核心功能总结：
-1. **内容抓取**：获取帖子文本、链接、图片、视频、发布时间及互动数据（点赞、分享）。
-2. **互动数据**：支持提取评论、回复、反应类型（如喜欢、喜爱）及反应者信息。
-3. **用户与群组信息**：可获取个人资料（教育、工作等）及群组详情（管理员、成员数等）。
-4. **数据导出**：支持命令行及 Python 接口，可直接写入 CSV 或 JSON 文件，支持断点续传与关键词过滤。
-5. **增强访问**：支持通过 Cookie 登录获取受限信息，可选配合 youtube-dl 提取高清视频。
+1. **帖子抓取**：支持通过用户名、主页/群组 ID 或 URL 获取帖子文本、图片、视频、时间及基础互动数据（点赞、分享）。
+2. **深度数据**：可选提取评论、回复、用户反应详情，以及个人资料（教育、工作等）和群组信息（成员数、管理员）。
+3. **数据输出**：提供 Python 接口返回结构化数据，支持直接导出为 CSV 或 JSON 文件，具备断点续传及内容过滤功能。
+4. **登录增强**：通过 Cookie 登录可解锁更多受限数据（如完整评论、反应统计及管理员列表）。

@@ -5,4 +5,4 @@ title: cloudbeaver
 
 ### [dbeaver cloudbeaver](https://github.com/dbeaver/cloudbeaver)  ![GitHub Repo stars](https://img.shields.io/github/stars/dbeaver/cloudbeaver?style=social)
 
-CloudBeaver 社区版是一款开源的基于 Web 的数据库管理工具，支持 Docker 部署。它提供丰富的图形化界面，核心功能包括多数据库连接管理、SQL 编辑器（支持参数变量、自动补全、语法高亮）、数据编辑器（支持 SQL 生成、撤销重做、格式化）、用户与权限管理（如 LDAP 映射）以及连接导航配置。支持 ClickHouse、DuckDB、Oracle、PostgreSQL 等多种数据库驱动，并涵盖安全加固、通信优化及界面体验提升。
+CloudBeaver Community 是一款免费开源的云端数据库管理 Web 服务器，基于 Java 后端和 TypeScript/React 前端构建。它提供基于浏览器的管理界面，支持连接和管理多种数据库（如 PostgreSQL、Oracle、ClickHouse 等）。主要功能涵盖 SQL 编辑器（支持参数、变量、自动补全、预览）、数据编辑器（支持增删改查、格式设置、撤销重做）、连接导航树（支持克隆、配置查看）、用户与团队权限管理（支持 LDAP 映射）。项目支持 Docker 部署，具备会话安全、长轮询通信及高可访问性，遵循 Apache 2 协议。

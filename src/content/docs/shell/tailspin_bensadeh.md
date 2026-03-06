@@ -5,4 +5,4 @@ title: tailspin
 
 ### [bensadeh tailspin](https://github.com/bensadeh/tailspin)  ![GitHub Repo stars](https://img.shields.io/github/stars/bensadeh/tailspin?style=social)
 
-tailspin 是一款无需配置即可自动高亮日志文件的命令行工具。它通过正则识别并高亮日期、数字、IP 地址、UUID、URL、关键词、HTTP 方法及进程信息等常见日志元素。支持读取本地文件、管道输入或执行命令输出，默认集成 `less` 分页器，提供跟随模式、搜索及过滤功能。用户可通过主题文件自定义高亮样式，或使用命令行参数动态调整高亮组及添加自定义关键词。
+tailspin（二进制名为 tspin）是一个无需配置即可使用的日志文件高亮工具，通过正则表达式自动识别并高亮日志中的日期、数字、IP 地址、UUID、URL、关键词、HTTP 方法及 JSON 等模式。它支持查看或实时跟踪（tail）任意格式的本地日志文件，默认使用 less 分页器展示。工具兼容标准输入/输出管道，便于与其他命令集成，支持通过 --exec 运行命令并查看输出。用户可通过 theme.toml 配置文件或命令行参数自定义高亮样式、启用/禁用特定高亮组、添加自定义关键词或正则表达式高亮。

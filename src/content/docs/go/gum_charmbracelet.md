@@ -5,4 +5,4 @@ title: gum
 
 ### [charmbracelet gum](https://github.com/charmbracelet/gum)  ![GitHub Repo stars](https://img.shields.io/github/stars/charmbracelet/gum?style=social)
 
-Gum 是一款用于构建美观交互式 Shell 脚本的命令行工具。它基于 Bubbles 和 Lip Gloss 库，允许用户在不编写 Go 代码的情况下，于 Shell 脚本中直接使用丰富的交互式 UI 组件。Gum 提供了一系列预置命令，包括文本输入、选项选择、操作确认、列表过滤、文件选择、表格渲染、文本样式美化、加载动画及日志记录等。项目支持通过标志位和环境变量进行高度自定义配置，适用于 Git 操作、文件管理、系统自动化任务及命令行数据展示等场景。
+Gum 是一个用于美化 Shell 脚本的命令行工具。它允许用户在不编写 Go 代码的情况下，利用 Bubbles 和 Lip Gloss 构建交互式界面。项目提供了一系列高度可配置的实用命令，涵盖列表选择、文本输入、操作确认、文件选择、列表过滤、表格渲染、样式美化、进度显示及日志记录。用户可通过标志或环境变量自定义样式和行为，旨在帮助用户用少量代码编写功能丰富的 Shell 脚本和别名，提升日常工作效率。

@@ -5,10 +5,4 @@ title: filegator
 
 ### [filegator filegator](https://github.com/filegator/filegator)  ![GitHub Repo stars](https://img.shields.io/github/stars/filegator/filegator?style=social)
 
-FileGator 是一款免费、开源、自托管的 Web 文件管理应用，核心功能包括：
-
-*   **多用户管理**：支持管理员及多用户，可配置不同权限、角色和独立主目录。
-*   **文件操作**：支持复制、移动、重命名、编辑、创建、删除、预览、压缩、解压、下载和上传。
-*   **上传增强**：支持拖拽上传、进度显示、暂停与恢复，采用分块上传技术以支持大文件。
-*   **存储适配**：支持本地存储及多种云存储适配器（如 FTP、Amazon S3、Dropbox、Azure Blob 等）。
-*   **部署灵活**：支持 JSON、数据库或 WordPress 认证，无需数据库即可运行，并提供 Docker 镜像支持。
+FileGator 是一款免费、开源、自托管的 Web 文件管理应用。它支持多用户权限管理（包含角色、访问限制和主文件夹配置），提供完整的文件操作功能，包括增删改查、预览、压缩解压及支持断点续传的大文件上传。项目兼容多种存储适配器（本地、FTP、Amazon S3、Dropbox 等）、认证方式及会话存储方式，且无需数据库。前端采用单页架构，支持 Docker 部署，适用于文件共享、云备份、FTP 替代及云存储管理等场景。

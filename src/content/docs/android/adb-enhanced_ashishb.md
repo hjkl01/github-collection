@@ -5,4 +5,4 @@ title: adb-enhanced
 
 ### [ashishb adb-enhanced](https://github.com/ashishb/adb-enhanced)  ![GitHub Repo stars](https://img.shields.io/github/stars/ashishb/adb-enhanced?style=social)
 
-ADB Enhanced 是一款基于 ADB 封装的 Android 开发与测试命令行工具。其核心功能涵盖：设备配置（屏幕旋转、省电/数据节省/勿扰模式、屏幕录制/截图、无线调试）、权限管理（授予或撤销应用运行时权限）、应用交互（启动、停止、清除数据、查看信息、备份数据为 tar 格式）以及系统操作（文件管理、设备信息检测、系统设置调整如飞行模式/动画/过绘等）。该工具旨在简化 Android 设备调试和场景模拟流程，无需直接使用复杂的 adb 命令。
+ADB Enhanced 是一款基于 ADB 的 Android 开发与测试命令行工具，提供设备配置（屏幕旋转、省电模式、数据流量、Doze 模式）、权限管理（运行时权限授予与撤销）、应用交互（安装、启动、停止、清除数据、备份、详情查询）、文件操作（设备端浏览与管理）、设备信息查询及调试辅助（截屏、录屏、性能分析）等功能。支持通过 pip 或 Homebrew 安装，基于 Python 3 开发。

@@ -5,4 +5,4 @@ title: Proxyman
 
 ### [ProxymanApp Proxyman](https://github.com/ProxymanApp/Proxyman)  ![GitHub Repo stars](https://img.shields.io/github/stars/ProxymanApp/Proxyman?style=social)
 
-Proxyman 是一款支持 macOS、iOS 及 Windows 平台的 HTTP/HTTPS 网络调试代理工具。核心功能为捕获来自 Web 浏览器、iOS 和 Android 设备的请求与响应流量，并支持 WebSocket。它提供原生高性能应用（macOS 基于 Swift）、现代化 UI 及丰富的调试工具，包括多过滤器、断点、本地/远程映射、脚本及反向代理等。支持 NodeJS、Ruby、Python 等后端自动捕获，并提供团队工作区用于日志共享与权限管理。此外，还可通过 iOS 原生应用直接捕获移动设备流量。
+Proxyman 是一款专为开发者设计的原生网络调试工具，支持 macOS、iOS 及 Windows 平台。它用于捕获 Web 浏览器、iOS 及 Android 设备的 HTTP/HTTPS 请求、响应和 WebSocket 流量。提供现代化 UI、命令面板、多条件过滤以及高级调试功能（如断点、本地/远程映射、脚本、反代、DNS 欺骗等）。支持团队协作共享日志与权限管理，以及 NodeJS、Ruby、Python 等后端流量自动捕获。iOS 版支持独立设备直接抓包，无需连接电脑。旨在简化开发者调试应用网络通信的流程。

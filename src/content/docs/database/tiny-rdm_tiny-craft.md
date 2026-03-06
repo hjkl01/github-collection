@@ -5,4 +5,4 @@ title: tiny-rdm
 
 ### [tiny-craft tiny-rdm](https://github.com/tiny-craft/tiny-rdm)  ![GitHub Repo stars](https://img.shields.io/github/stars/tiny-craft/tiny-rdm?style=social)
 
-Tiny RDM 是一款现代轻量级跨平台 Redis 桌面管理器，支持 Mac、Windows、Linux 及通过 Docker 部署的 Web 版本。项目基于 Webview2 构建，界面友好且支持多语言。主要功能包括：支持 SSH、SSL、集群等多种连接方式；可视化操作并管理多种数据类型（String、List、Hash 等）；提供大数据量分段加载、数据解码、发布/订阅、命令及慢日志监控；支持数据与连接配置的导入导出，以及自定义编解码扩展。
+Tiny RDM 是一款现代轻量级的跨平台 Redis 桌面管理工具，支持 macOS、Windows 和 Linux，并提供 Docker 部署的 Web 版。基于 Webview2 和 Wails 构建，支持多语言及明暗主题。主要功能包括：支持 SSH、SSL、集群等多种连接方式；可视化操作 List、Hash、String 等数据结构，支持海量 Key 分段加载；提供命令历史、慢日志及实时命令监控；支持数据及连接配置导入导出、发布订阅、命令行模式、自定义编解码及 Monaco 编辑器集成。

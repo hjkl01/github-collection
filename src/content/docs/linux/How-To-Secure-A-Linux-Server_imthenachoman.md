@@ -5,14 +5,13 @@ title: How-To-Secure-A-Linux-Server
 
 ### [imthenachoman How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)  ![GitHub Repo stars](https://img.shields.io/github/stars/imthenachoman/How-To-Secure-A-Linux-Server?style=social)
 
-该项目是一份全面的 Linux 服务器安全加固指南，提供从基础到高级的系统化安全配置步骤。核心功能包括：
+这是一个提供 Linux 服务器安全加固全面指南的项目。主要内容包括：
 
-1. **基础配置**：指导 Linux 发行版选择、Ansible 自动化部署及前期安全原则制定。
-2. **SSH 安全**：配置密钥认证、优化 SSH 服务设置及实施双因素认证（2FA/MFA）。
-3. **系统加固**：限制 sudo/su 权限、应用沙箱隔离、强制强密码策略、启用自动安全更新及时间同步。
-4. **网络防御**：配置 UFW 防火墙、部署入侵检测与防御工具（PSAD、Fail2Ban、CrowdSec）。
-5. **审计与监控**：集成文件完整性监控、病毒扫描、Rootkit 检测、日志分析及系统安全审计工具。
-6. **高级风险操作**：提供内核参数硬编码、GRUB 密码保护、禁用 Root 登录等高风险加固选项。
-7. **辅助功能**：配置邮件通知服务及日志分离。
+1. **SSH 安全配置**：支持密钥认证、双因素认证、配置优化及组权限控制。
+2. **系统基础防护**：涵盖 sudo/su 权限限制、强密码策略、自动安全更新、NTP 同步及应用沙盒化。
+3. **网络与入侵防御**：集成 UFW 防火墙、PSAD、Fail2Ban 和 CrowdSec 进行入侵检测与阻断。
+4. **安全审计与监控**：包含文件完整性监测 (AIDE)、反病毒扫描 (ClamAV)、Rootkit 检测及系统审计工具 (Lynis, OSSEC)。
+5. **高级硬ening**：涉及内核参数调整、GRUB 密码保护、Root 登录禁用及无用软件清理。
+6. **自动化与支持**：提供 Ansible Playbooks 自动化脚本、邮件告警系统及日志管理配置。
 
-指南包含详细的命令行操作示例，旨在帮助用户快速建立安全环境并理解安全原理。
+项目目标是通过分步指导和代码片段，帮助用户理解并实施有效的服务器安全措施，主要基于 Debian 测试但适用于大多数 Linux 发行版。

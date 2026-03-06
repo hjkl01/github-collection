@@ -5,4 +5,4 @@ title: archinstall
 
 ### [archlinux archinstall](https://github.com/archlinux/archinstall)  ![GitHub Repo stars](https://img.shields.io/github/stars/archlinux/archinstall?style=social)
 
-Archinstall 是一个用于 Arch Linux 的交互式及自动化安装程序，同时也是一个 Python 库，可在 Live 环境或已安装系统中管理服务、包及其他组件。它支持通过向导菜单、脚本或 JSON 配置文件（支持凭证加密）进行安装，提供桌面和服务器预设配置，支持多语言，旨在提供遵循 Arch 原则的灵活且用户友好的安装体验。
+archinstall 是一款 Arch Linux 引导式安装器及 Python 库，支持在 Live 环境或现有系统中安装系统并管理服务和软件包。它提供交互式引导安装、脚本化自动化安装、JSON 声明式配置（支持凭据加密）以及桌面和服务器预设简介。此外，项目支持多语言并遵循 Arch 原则，旨在为用户提供灵活自由的安装与管理体验。

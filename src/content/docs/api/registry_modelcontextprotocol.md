@@ -5,9 +5,10 @@ title: registry
 
 ### [modelcontextprotocol registry](https://github.com/modelcontextprotocol/registry)  ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/registry?style=social)
 
-MCP Registry 是一个面向 MCP 生态的服务器注册中心，功能类似于应用商店，旨在为 MCP 客户端提供 MCP 服务器的列表与发现服务。
+MCP Registry 是专为 MCP 客户端设计的服务器注册中心，功能类似 MCP 服务器的应用商店。主要功能包括：
 
-核心功能如下：
-1. **服务器发布**：提供 CLI 工具，支持通过 GitHub OAuth、OIDC 或 DNS/HTTP 验证等方式发布 MCP 服务器并校验命名空间所有权。
-2. **API 服务**：提供查询 MCP 服务器的 API 接口，当前 v0.1 版本已冻结以确保集成稳定性。
-3. **开发与部署**：基于 Go 语言和 PostgreSQL 构建，支持 Docker 本地环境搭建及容器化部署。
+1. **服务发现**：提供 MCP 服务器列表供客户端查询和发现。
+2. **服务发布**：支持通过 CLI 工具发布服务器，实现 GitHub OAuth、OIDC、DNS 及 HTTP 等多种身份认证与命名空间验证。
+3. **API 支持**：提供稳定的 REST API 接口供第三方集成。
+
+当前项目处于预览阶段，旨在促进 MCP 生态系统的标准化与服务器共享。

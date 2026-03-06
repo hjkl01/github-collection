@@ -5,4 +5,4 @@ title: UI-TARS-desktop
 
 ### [bytedance UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)  ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop?style=social)
 
-该项目是一个多模态 AI 智能体（Agent）栈，包含 Agent TARS 和 UI-TARS Desktop 两个核心组件。Agent TARS 提供命令行和 Web 界面，利用多模态大模型和 MCP 工具，将 GUI 智能体能力集成至终端、电脑及浏览器，实现自然语言驱动的任务自动化。UI-TARS Desktop 是基于 UI-TARS 模型的桌面应用，支持本地及远程计算机与浏览器操作，具备视觉识别、精确键鼠控制、跨平台特性，并支持本地处理以保障隐私安全。
+Agent TARS 是一个多模态 AI Agent 栈，包含 Agent TARS 和 UI-TARS Desktop 两个核心项目。Agent TARS 将 GUI Agent 和视觉能力引入终端、电脑、浏览器及产品，通过 CLI 和 Web UI 接口，结合多模态大语言模型与 MCP 工具实现类人任务工作流，支持混合浏览器代理、事件流及 MCP 服务器集成。UI-TARS Desktop 是基于 UI-TARS 模型的本地 GUI Agent 桌面应用，支持通过自然语言控制本地或远程的计算机及浏览器，具备截图识别、精确鼠标键盘控制、跨平台支持及本地私密处理功能，并提供构建 GUI 自动化 Agent 的 SDK。

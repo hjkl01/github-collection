@@ -5,11 +5,17 @@ title: data-engineering-zoomcamp
 
 ### [DataTalksClub data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)  ![GitHub Repo stars](https://img.shields.io/github/stars/DataTalksClub/data-engineering-zoomcamp?style=social)
 
-Data Engineering Zoomcamp 是一个免费的数据工程基础课程（为期 9 周），旨在帮助学员从零开始构建端到端数据管道。
+本项目是一个由 DataTalks.Club 组织的免费 9 周数据工程课程，旨在让学员从零构建端到端数据管道，掌握数据工程核心技能与业界标准工具。
 
-核心功能总结如下：
-1. **全流程技能教学**：涵盖容器化与基础设施（Docker, Terraform）、工作流编排（Kestra）、数据摄入（dlt）、数据仓库（BigQuery）、分析工程（dbt）、数据平台、批量处理（Spark）及流处理（Kafka）。
-2. **实战训练**：通过结构化的模块学习、实践工作坊及最终项目，强化行业标准工具的应用能力。
-3. **社区支持**：提供视频课程、Slack 社区讨论、作业指导及 FAQ，协助学员解决学习问题。
+课程核心模块包括：
+1. **基础设施与容器化**：GCP 平台、Docker、Terraform 基础设施即代码。
+2. **工作流编排**：基于 Kestra 的数据湖与工作流管理。
+3. **数据摄入**：API 读取、dlt 增量加载、数据标准化与可扩展性。
+4. **数据仓库**：BigQuery 最佳实践、分区、聚类及机器学习。
+5. **分析工程**：使用 dbt 进行数据建模、测试、文档与部署。
+6. **数据平台**：利用 Bruin 构建端到端流水线。
+7. **批量处理**：Apache Spark、DataFrames 与 SQL 内部原理。
+8. **流处理**：Kafka、KSQL、Kafka Streams 及 Avro 模式管理。
+9. **综合项目**：真实场景应用与同行评审反馈。
 
-课程面向具备基础编程、SQL 及 Python 经验的学员，无需数据工程背景，旨在帮助学员掌握数据工程核心原理并提升职业竞争力。
+课程提供定期入学与自学模式，无需数据工程背景（需基础编程及 SQL 知识），并配有 Slack 社区答疑与讲师指导。

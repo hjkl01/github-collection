@@ -5,12 +5,12 @@ title: git-ai
 
 ### [git-ai-project git-ai](https://github.com/git-ai-project/git-ai)  ![GitHub Repo stars](https://img.shields.io/github/stars/git-ai-project/git-ai?style=social)
 
-Git AI 是一个开源 Git 扩展，用于追踪和标注仓库中的 AI 生成代码。
+git-ai 是一个开源的 Git 扩展工具，旨在追踪和记录仓库中 AI 生成的代码。其核心功能包括：
 
-1. **核心功能**：自动将 AI 编写的每一行代码关联到对应的智能体、模型及对话记录，保留代码意图与决策上下文。
-2. **命令行工具**：`git commit` 统计 AI 代码比例，`git-ai blame` 替代标准 `git blame` 逐行显示人类或 AI 作者。
-3. **广泛兼容**：支持 Cursor、Copilot、Claude Code 等多种 AI 助手，无需修改工作流程即可自动追踪。
-4. **隐私安全**：基于 Git Notes 标准存储归属信息，对话记录可选择本地、云端或自托管，确保仓库轻量且不含敏感信息。
-5. **增强分析**：提供 `/ask` 技能增强 Agent 理解能力，IDE 插件可视化展示归属，支持团队级的 AI 代码统计与全生命周期追踪。
-
-项目遵循 Apache 2.0 协议，在重基、合并等操作中自动维护归属信息的完整性。
+1.  **自动归属追踪**：安装后自动将每行 AI 编写的代码与生成它的代理、模型及对话记录关联，保存代码背后的意图和架构决策。
+2.  **智能 blame 替代**：`git-ai blame` 命令可替代 `git blame`，清晰显示每一行代码背后的 AI 模型、会话 ID 及作者信息。
+3.  **广泛兼容**：支持 GitHub Copilot、Cursor、Claude Code、Windsurf 等多种主流 AI 编程助手。
+4.  **无感集成**：无需针对每个仓库单独配置，基于 Git Notes 标准存储元数据，不污染 Git 历史，支持完全离线使用。
+5.  **上下文增强**：提供 `/ask` 技能，使 AI 助手能够查询原始提示词和会话记录，理解代码生成的“为什么”，从而生成更高质量的代码。
+6.  **数据分析与可观测性**：提供统计命令追踪 AI 代码采纳率、接受率及生命周期指标，企业版支持团队级的 AI 代码仪表盘和 PR 级监控。
+7.  **IDE 插件支持**：提供 VS Code、Cursor 等编辑器的插件，在行号侧边栏实时显示 AI 代码归属标记及提示信息。

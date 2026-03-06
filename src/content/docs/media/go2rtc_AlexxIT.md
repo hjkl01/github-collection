@@ -5,4 +5,4 @@ title: go2rtc
 
 ### [AlexxIT go2rtc](https://github.com/AlexxIT/go2rtc)  ![GitHub Repo stars](https://img.shields.io/github/stars/AlexxIT/go2rtc?style=social)
 
-go2rtc 是一款零依赖的轻量级跨平台流媒体应用，支持 Windows、macOS、Linux、FreeBSD 等多种操作系统。它支持数十种视频流协议（如 RTSP、WebRTC、RTMP、ONVIF 等）的输入与输出，实现超低延迟流传输。核心功能包括通过 FFmpeg 进行实时转码、双向音频支持、流混音及推流至 YouTube 等直播服务。项目提供 Web 管理界面和 API，可无缝集成至 Home Assistant、Frigate 等智能家居平台，并具备流媒体统计与安全的配置选项。
+go2rtc 是一款支持多种格式和协议的跨平台摄像头流媒体应用程序。它支持 Windows、macOS、Linux 等多种操作系统，具备零依赖、零延迟特性。应用广泛兼容 RTSP、RTMP、WebRTC、ONVIF 等输入输出协议，以及小米、Wyze 等品牌摄像头私有协议。核心功能包括流媒体推流、发布至 YouTube 或 Telegram、多源流混合、按需 FFmpeg 转码（含硬件加速）及双向音频支持。此外，它提供 Web 界面配置、HTTP API 接口和连接统计，可独立运行或集成至 Home Assistant、Frigate 等智能家居系统。

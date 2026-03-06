@@ -5,4 +5,4 @@ title: django-mongoengine
 
 ### [MongoEngine django-mongoengine](https://github.com/MongoEngine/django-mongoengine)  ![GitHub Repo stars](https://img.shields.io/github/stars/MongoEngine/django-mongoengine?style=social)
 
-该项目旨在让 Django 应用使用 MongoDB 作为数据库后端，通过 MongoEngine 实现集成。核心功能支持基于 MongoDB 的 Session、模型字段、视图、认证及部分管理后台功能。使用时需在配置中设置 MongoDB 连接并启用 django_mongoengine 应用，字段定义采用 MongoEngine 风格（默认所有字段可选）。由于项目目前状态不稳定且易随 Django 更新而失效，不建议用于新项目，推荐改用 django-mongodb-backend。
+Django-MongoEngine 是一个基于 MongoEngine 实现的 Django 与 MongoDB 集成项目。目前状态不稳定，不建议用于新项目，但支持 Django 4.2 的模型、字段、视图、认证及基础 Admin 功能。项目提供 MongoDB 会话后端，用户需继承 `django_mongoengine.Document` 定义模型，字段参数兼容 MongoEngine 风格且默认均为可选。

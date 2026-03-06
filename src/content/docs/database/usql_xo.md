@@ -5,4 +5,4 @@ title: usql
 
 ### [xo usql](https://github.com/xo/usql)  ![GitHub Repo stars](https://img.shields.io/github/stars/xo/usql?style=social)
 
-usql 是一款通用的数据库命令行界面工具，支持多种关系型及非关系型数据库（如 PostgreSQL、MySQL、Oracle、SQLite3 等）。它借鉴了 psql 的设计理念，兼容变量、转义命令等核心功能，并提供跨数据库连接、数据拷贝、语法高亮、智能补全、终端图形化展示（图表）及时间格式化等特性。工具支持通过 URL 或连接字符串连接，提供 YAML 配置管理、密码存储及脚本执行能力。
+usql 是一个通用命令行数据库接口，支持 PostgreSQL、MySQL、Oracle、SQLite3、Microsoft SQL Server 及多种 NoSQL 数据库。其设计灵感源自 PostgreSQL `psql`，提供直观的交互体验。核心功能包括：多数据库连接支持、跨数据库数据复制、SQL 语法高亮、上下文自动补全、终端图表绘制、变量管理与多种输出格式（CSV/JSON/HTML 等）。支持通过 YAML 配置文件管理连接与初始化脚本，提供密码安全存储，允许通过 Release、Homebrew、Go、Docker 等多种方式安装及自定义构建标签以启用不同数据库驱动。

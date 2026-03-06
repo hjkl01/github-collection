@@ -5,6 +5,4 @@ title: ML-For-Beginners
 
 ### [microsoft ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/ML-For-Beginners?style=social)
 
-这是一个由微软提供的面向初学者的机器学习课程项目。课程为期 12 周，共 26 节课，主要涵盖经典机器学习技术（如回归、分类、聚类、自然语言处理和时间序列），使用 Scikit-learn 库及 Python 或 R 语言进行教学，不涉及深度学习。
-
-项目采用基于项目的教学法，每课包含课前课后测验、视频讲解、实战项目、作业及解决方案。支持 50 多种语言翻译，提供离线文档访问功能及 Discord 社区支持，适合学生自学或教师用于课堂教学。
+该项目是微软推出的“机器学习初学者”课程体系，为期 12 周共 26 课。课程专注于经典机器学习（主要使用 Scikit-learn 库），避免深度学习，结合全球文化主题进行项目实战。内容涵盖回归、分类、聚类、自然语言处理、时间序列及强化学习等主题。每课包含预习与课后测验、步骤指南、代码实现、作业及挑战，支持 50 多种语言，代码以 Python 为主（部分提供 R 语言版本）。旨在帮助初学者通过实践掌握机器学习技能，并提供社区互动与配套学习资源。

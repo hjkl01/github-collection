@@ -5,4 +5,11 @@ title: wasmtime
 
 ### [bytecodealliance wasmtime](https://github.com/bytecodealliance/wasmtime)  ![GitHub Repo stars](https://img.shields.io/github/stars/bytecodealliance/wasmtime?style=social)
 
-wasmtime 是由字节联盟（Bytecode Alliance）开发的 WebAssembly 独立运行时。它基于 Rust 构建，核心特性包括利用 Cranelift 编译器实现高性能代码生成、通过安全策略与模糊测试保障运行时安全、支持灵活的资源配置以及完整的 WASI 标准支持。项目提供命令行工具直接运行 WebAssembly 组件，并提供 Rust、C、Python、.NET、Go、Ruby 等多种语言的嵌入接口，符合 WebAssembly 官方标准与提案，适用于从嵌入式环境到服务器端的各类场景。
+Wasmtime 是由 Bytecode Alliance 开发的 WebAssembly 独立运行时，提供命令行工具及多种语言的库嵌入支持。
+
+核心特性：
+1. **高性能**：基于 Cranelift 优化代码生成，实现高效实例化、低开销调用及并发实例扩展。
+2. **高安全**：基于 Rust 构建，经过严格审查与模糊测试，具备完善的安全策略及漏洞修复机制。
+3. **可配置**：默认配置易用，同时支持精细控制 CPU 和内存消耗，适应不同环境规模。
+4. **标准合规**：通过 WebAssembly 官方测试套件，实现 WASI 标准及 C API，支持 WebAssembly 未来提案。
+5. **多语言支持**：官方支持 Rust、C、Python、.NET、Go、Ruby 等语言嵌入，社区支持其他语言。

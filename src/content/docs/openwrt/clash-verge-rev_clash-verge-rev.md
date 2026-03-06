@@ -5,13 +5,4 @@ title: clash-verge-rev
 
 ### [clash-verge-rev clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)  ![GitHub Repo stars](https://img.shields.io/github/stars/clash-verge-rev/clash-verge-rev?style=social)
 
-Clash Verge Rev 是一个基于 Tauri 框架的 Clash Meta 图形界面客户端。
-
-主要功能：
-1. 内置 Clash.Meta (mihomo) 内核，支持版本切换。
-2. 支持系统代理、代理守卫及 TUN 虚拟网卡模式。
-3. 提供可视化节点和规则编辑功能。
-4. 支持配置文件管理（合并、脚本、语法提示）。
-5. 界面支持自定义主题、图标及 CSS 注入。
-6. 支持 WebDav 配置备份与同步。
-兼容 Windows、Linux 和 macOS 系统。
+Clash Verge Rev 是基于 Tauri 2 和 Rust 框架开发的 Clash Meta 图形界面客户端，支持 Windows、Linux 及 macOS 系统。它内置 Clash.Meta (mihomo) 内核，支持内核版本切换，提供系统代理、守卫及 TUN（虚拟网卡）模式。核心功能包括可视化节点和规则编辑、配置文件管理（支持合并、脚本、语法提示及 WebDav 备份同步），以及自定义主题颜色、代理组/托盘图标和 CSS 注入。

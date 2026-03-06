@@ -5,10 +5,10 @@ title: Agent-Skills-for-Context-Engineering
 
 ### [muratcankoylan Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)  ![GitHub Repo stars](https://img.shields.io/github/stars/muratcankoylan/Agent-Skills-for-Context-Engineering?style=social)
 
-本项目是一个面向生产级 AI 代理系统的开源上下文工程技能库，旨在教导如何通过策展进入模型注意力预算的所有信息（包括系统提示、工具定义、检索文档、消息历史等）来最大化代理效果。
+本项目是一个专注于上下文工程（Context Engineering）原则的开源代理技能集合，旨在帮助用户构建生产级AI代理系统。其核心功能是通过系统化管理语言模型的上下文窗口（包括提示词、工具定义、记忆等），优化信息输入以最大化代理效果，解决上下文衰减等性能问题。
 
-核心功能与特点包括：
-1. **技能体系**：涵盖基础技能（上下文原理、退化模式、压缩）、架构技能（多代理模式、记忆系统、工具设计）、运营技能（优化、评估）、开发方法论及认知架构技能（BDI 模型）。
-2. **设计原则**：支持渐进式披露（按需加载）、平台无关性（兼容 Claude Code、Cursor 及自定义框架），提供可跨环境运行的 Python 伪代码示例。
-3. **使用方式**：可作为 Claude Code 插件市场安装并自动激活，技能内容可复制到 IDE 的 `.rules` 文件中，或提取原则用于自定义实现。
-4. **实战示例**：包含数字大脑、多代理书籍生成、LLM 评估工具及模型微调流水线等完整系统案例，展示技能在真实场景中的协同应用。
+主要功能包括：
+1. **技能体系**：涵盖基础理解、多智能体架构、记忆系统、工具设计、评估优化及认知建模等五大类技能。
+2. **跨平台使用**：支持作为Claude Code插件安装，也可应用于Cursor等IDE及自定义框架，设计具有平台无关性。
+3. **实战示例**：提供数字大脑、书籍生成系统等完整案例，展示技能协同工作的具体实现方案。
+4. **高效设计**：采用渐进式披露策略，仅加载相关上下文，并提供通用伪代码以演示概念。

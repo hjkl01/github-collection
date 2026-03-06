@@ -5,4 +5,4 @@ title: ECommerceCrawlers
 
 ### [DropsDevopsOrg ECommerceCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers)  ![GitHub Repo stars](https://img.shields.io/github/stars/DropsDevopsOrg/ECommerceCrawlers?style=social)
 
-ECommerceCrawlers 是一个基于 Python 的多种主流电商及互联网平台数据爬虫实战集合。项目涵盖淘宝、闲鱼、大众点评、招聘、资讯等多个目标网站的数据抓取示例，涉及数据采集、解析、存储、反爬验证及效率优化等全链路技术，包含 Scrapy、Selenium、多线程、分布式等开发方案。旨在为爬虫初学者提供从零开始的实战教程，同时供进阶开发者参考以避免重复造轮。项目附带爬虫合法性分析及基础流程文档，大部分代码源于授权开源的客户项目，确保合规即用。
+该项目是一个 Python 爬虫实战项目集合，提供多种主流网站（涵盖电商、招聘、新闻、社交等）的数据采集示例代码。核心功能包括利用 urllib、requests、scrapy 及 selenium 进行数据采集，使用 XPath、BeautifulSoup 等进行解析，支持 MySQL、Redis、MongoDB 等数据保存，并提供 JS 解密、指纹库及 mitmproxy 等反爬绕过方案。项目还涵盖多线程、多进程、异步协程及分布式爬虫系统优化，旨在帮助开发者通过实战掌握爬虫全流程，减少重复开发，并附带爬虫法律科普与技术 Wiki 教程。

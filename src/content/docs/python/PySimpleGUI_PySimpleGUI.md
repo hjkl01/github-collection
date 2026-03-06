@@ -5,9 +5,4 @@ title: PySimpleGUI
 
 ### [PySimpleGUI PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)  ![GitHub Repo stars](https://img.shields.io/github/stars/PySimpleGUI/PySimpleGUI?style=social)
 
-PySimpleGUI 是一个用于创建应用程序的 Python 项目。该项目因营收不足无法持续运营，宣布将于 2026 年 1 月正式关闭。主要内容如下：
-
-1. 服务终止：官网、文档及私有 PyPI 服务器将于 2026 年 1 月下线。
-2. 安装调整：需下载 wheel 文件进行本地离线安装，停止远程 pip 安装支持。
-3. 版本许可：商业用户可获得永久无密钥限制版本；个人爱好者密钥即将过期，需迁移至旧版本或购买商业许可。
-4. 资料归档：GitHub 仓库设为只读，文档将永久保留在 GitHub 存档页面。
+PySimpleGUI 是一款 Python 图形用户界面（GUI）开发库。项目因商业收益不足以维持运营，计划于 2026 年 1 月正式关闭。届时 PyPI 服务器及文档将下线，用户需提前下载本地 wheel 文件进行安装。商业用户可获得无密钥限制的永久授权版本，爱好者需迁移至版本 4 或购买商业许可。项目文档已归档至 GitHub，代码库将设为只读。

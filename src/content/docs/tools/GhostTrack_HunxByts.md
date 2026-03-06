@@ -5,8 +5,7 @@ title: GhostTrack
 
 ### [HunxByts GhostTrack](https://github.com/HunxByts/GhostTrack)  ![GitHub Repo stars](https://img.shields.io/github/stars/HunxByts/GhostTrack?style=social)
 
-GhostTrack 是一款用于信息收集（OSINT）的工具，主要功能包括：
-1. IP 追踪：定位目标 IP 地址，支持结合 Seeker 工具使用。
-2. 电话追踪：查询手机号码相关信息。
-3. 用户名追踪：在社交媒体上搜索用户名信息。
-支持 Linux 和 Termux 环境运行。
+GhostTrack 是一款用于追踪位置或手机号码的 OSINT 信息收集工具。主要功能包括：
+1. IP Tracker：定位 IP 地址地理位置，支持配合 Seeker 工具使用。
+2. Phone Tracker：搜索目标手机号码的相关信息。
+3. Username Tracker：搜索社交媒体上目标用户名的相关信息。

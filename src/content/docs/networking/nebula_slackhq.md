@@ -5,10 +5,10 @@ title: nebula
 
 ### [slackhq nebula](https://github.com/slackhq/nebula)  ![GitHub Repo stars](https://img.shields.io/github/stars/slackhq/nebula?style=social)
 
-Nebula 是一个专注于性能、简化和安全的可扩展覆盖网络工具，可无缝连接世界各地的计算机（支持从几台到数万台）。它兼容 Linux、Windows、macOS、iOS、Android 和 FreeBSD 等平台。
+Nebula 是一款专注于性能、简单性和安全性的可扩展覆盖网络工具，旨在实现全球计算机的无缝连接。
 
-核心功能包括：
-1. 基于噪声协议框架（Noise Protocol Framework）的相互认证点对点软件定义网络。
-2. 利用证书和安全组实现加密（默认使用 ECDH 和 AES-256-GCM）及用户定义的流量过滤。
-3. 通过灯塔节点（Lighthouses）实现节点发现及 UDP 打孔穿越防火墙/NAT。
-4. 支持跨云服务商、数据中心和终端灵活通信，无需维护特定寻址方案。
+主要功能：
+1. **跨平台支持**：兼容 Linux、Windows、macOS、FreeBSD、iOS 及 Android 系统。
+2. **安全认证与加密**：基于噪声协议框架的相互认证点对点软件定义网络，利用证书管控 IP、名称及群组，默认使用 ECDH (Curve25519) 和 AES-256-GCM 加密，支持自定义安全组过滤流量。
+3. **网络穿透与发现**：通过灯塔节点辅助对等体相互发现，支持 UDP 打孔技术以穿透大多数防火墙或 NAT。
+4. **灵活组网**：支持多云服务、数据中心及终端间的数据传输，无需维护特定寻址方案。

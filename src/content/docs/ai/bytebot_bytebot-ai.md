@@ -5,13 +5,12 @@ title: bytebot
 
 ### [bytebot-ai bytebot](https://github.com/bytebot-ai/bytebot)  ![GitHub Repo stars](https://img.shields.io/github/stars/bytebot-ai/bytebot?style=social)
 
-Bytebot 是一个开源 AI 桌面代理，赋予 AI 独立的虚拟计算机环境以自主完成任务。
+Bytebot 是一款开源的 AI 桌面代理项目，通过提供独立的虚拟桌面环境，使 AI 能够自主操作电脑以完成复杂任务。
 
-主要功能：
-- **全桌面操作**：基于 Ubuntu 虚拟桌面，可运行浏览器、办公软件、IDE 等任意程序，并管理文件系统。
-- **复杂工作流**：支持跨应用自动执行多步骤任务，如自动登录网站、操作密码管理器、分析文档（PDF/Excel）。
-- **交互方式**：支持自然语言描述任务，提供 Web 界面实时查看，并提供 API 进行程序化控制。
-- **环境持久化**：支持安装自定义软件、配置密码管理器及保存登录状态，环境可长期保留。
-- **模型兼容**：兼容 Anthropic、OpenAI、Google Gemini 等多种 AI 模型接入。
+核心功能：
+1. **虚拟桌面操作**：内置 Ubuntu 环境，支持操作浏览器、办公软件、开发工具，管理文件系统并处理文档（PDF、Excel 等）。
+2. **智能任务执行**：通过自然语言指令完成跨应用登录、文件下载整理、文档分析及多步骤工作流。
+3. **私有化部署**：支持 Docker 和 Kubernetes 部署，兼容多种 AI 模型，确保数据隐私与自主控制。
+4. **灵活接口**：提供 Web 可视化界面实时查看执行进度，并开放 REST API 接口支持程序化调用。
 
-支持 Docker 和 Kubernetes 自托管部署，确保数据隐私，适用于业务流程自动化、开发测试及研究分析场景。
+适用于业务流程自动化、测试验证、数据分析等场景。

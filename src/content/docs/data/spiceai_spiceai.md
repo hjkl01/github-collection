@@ -5,13 +5,11 @@ title: spiceai
 
 ### [spiceai spiceai](https://github.com/spiceai/spiceai)  ![GitHub Repo stars](https://img.shields.io/github/stars/spiceai/spiceai?style=social)
 
-Spice 是一款基于 Rust 开发的轻量级运行时引擎，旨在为数据应用和 AI 智能体提供统一的 SQL 查询、搜索及大语言模型（LLM）推理服务。
+Spice 是一个基于 Rust 开发的轻量级运行时引擎，专为数据应用和 AI 智能体提供 SQL 查询、搜索及 LLM 推理能力。其核心功能如下：
 
-核心功能包括：
-1. **数据联邦**：支持跨数据库、数据仓库及数据湖的 SQL 查询，可水平扩展至分布式多节点执行。
-2. **数据加速与物化**：利用 Arrow、DuckDB、SQLite 或 Cayenne 等技术加速查询、缓存和物化数据，支持从 S3 快照实现快速冷启动。
-3. **企业级搜索**：集成 Tantivy 实现关键词与全文搜索，支持 Amazon S3 Vectors 进行 PB 级向量相似性搜索。
-4. **AI 智能体支持**：提供 OpenAI 兼容 API 和本地模型服务，支持检索增强生成（RAG）、MCP 集成及模型评估。
-5. **多标准接口**：提供 SQL、OpenAI、Iceberg Catalog 及 MCP HTTP+SSE 四种行业标准 API。
+1. **统一 API 接口**：支持 SQL 查询与搜索（HTTP、Arrow Flight、JDBC/ODBC 等）、OpenAI 兼容接口、Iceberg Catalog REST API 及 MCP 集成。
+2. **数据联邦与加速**：跨数据库、数据仓库和数据湖执行 SQL 查询；利用 Arrow、DuckDB、SQLite 或 Vortex 进行数据物化和缓存，支持单节点及分布式执行。
+3. **AI 与搜索集成**：提供关键词、向量和全文搜索（支持 S3 Vectors/pgvector），支持检索增强生成（RAG）、智能体记忆及模型推理服务。
+4. **灵活部署架构**：采用存算分离设计，支持侧边车、Kubernetes 等多种部署模式，覆盖边缘到云场景，兼容 OLAP 与 OLTP 负载。
 
-支持从边缘到云原生的多种部署模式（如 Kubernetes 侧车、微服务、集群），将计算与存储解耦，帮助开发者将数据与 AI 推理整合在同一引擎中。
+项目基于 Apache DataFusion、Arrow 等技术构建，内置丰富的数据连接器、加速引擎及模型提供商支持。

@@ -5,4 +5,4 @@ title: lynx
 
 ### [lynx-family lynx](https://github.com/lynx-family/lynx)  ![GitHub Repo stars](https://img.shields.io/github/stars/lynx-family/lynx?style=social)
 
-Lynx 是一个开源技术项目，赋能开发者利用现有 Web 技能（CSS 和 React），通过单一代码库为移动和 Web 平台构建真正的原生 UI。它支持 Android、iOS 和 Web 的原生渲染，具备 Web 风格的设计与高性能多线程引擎，实现跨平台一致性与流畅体验。此仓库包含 Lynx 核心引擎。
+Lynx 是一个开源跨平台 UI 框架，允许开发者利用现有的 Web 技能（如 CSS 和 React），通过单一代码库为 Android、iOS 和 Web 平台构建原生用户界面。它支持“一次编写，随处渲染”，采用多线程引擎实现高性能、快速启动及流畅的界面响应，并确保跨端渲染的一致性。该项目采用 Apache 2.0 开源许可证。

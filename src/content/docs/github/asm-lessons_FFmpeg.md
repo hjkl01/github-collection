@@ -5,4 +5,4 @@ title: asm-lessons
 
 ### [FFmpeg asm-lessons](https://github.com/FFmpeg/asm-lessons)  ![GitHub Repo stars](https://img.shields.io/github/stars/FFmpeg/asm-lessons?style=social)
 
-该项目为 FFmpeg 汇编语言教学课程，旨在帮助用户掌握 FFmpeg 中的汇编编写方式并理解计算机底层原理，最终能够参与 FFmpeg 贡献。课程需 C 语言（特别是指针）及高中数学基础，并提供作业、Discord 社区支持及多语言翻译。
+这是一个 FFmpeg 汇编语言教学项目。通过提供系列课程和练习，帮助用户掌握 FFmpeg 中的汇编语言编写方式，理解计算机底层运作原理，最终具备为 FFmpeg 贡献代码的能力。项目要求使用者具备 C 语言（特别是指针）及基础数学知识，并提供多语言文档及 Discord 社区交流支持。

@@ -5,4 +5,4 @@ title: ultralytics
 
 ### [ultralytics ultralytics](https://github.com/ultralytics/ultralytics)  ![GitHub Repo stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social)
 
-Ultralytics YOLO26 是一个功能全面的计算机视觉框架，支持目标检测、跟踪、实例分割、图像分类、姿态估计及 OBB 任务。它提供 CLI 和 Python 接口，具备快速、准确、易用的特点，支持模型训练、验证、预测、导出及多平台集成，并提供多种规模模型供选择。
+Ultralytics YOLO 是一个基于 SOTA 技术的计算机视觉项目，提供高性能的 YOLO 模型。它支持目标检测、跟踪、实例分割、图像分类、姿态估计及定向边界框（OBB）等任务。项目通过 CLI 和 Python API 提供易用接口，覆盖训练、验证、预测及模型导出部署（如 ONNX、TensorRT）全流程。内置多种预训练模型（如 YOLO26 系列），适配 COCO、ImageNet 等主流数据集，并支持与 W&B、Comet 等平台集成，提供开源及商业许可选项。

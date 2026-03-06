@@ -5,4 +5,4 @@ title: cookiecutter-pypackage
 
 ### [audreyfeldroy cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)  ![GitHub Repo stars](https://img.shields.io/github/stars/audreyfeldroy/cookiecutter-pypackage?style=social)
 
-Cookiecutter PyPackage 是一个用于生成生产级 Python 包的 Cookiecutter 模板，提供自动化的 CI/CD 流程与 PyPI 发布功能。项目集成了 uv 包管理器、just 任务运行器、ruff 代码检查、ty 类型检查、pytest 测试、Typer CLI 框架及 Zensical 文档生成工具。CI 流程支持多 Python 版本测试与代码检查，通过 Git 标签即可自动构建并发布到 PyPI（基于可信发布者，无需管理 Token），同时自动部署文档至 GitHub Pages。所有 CI 动作均经过安全加固，采用 SHA 绑定与最小权限策略。
+Cookiecutter PyPackage 是一个生产就绪级的 Python 包 Cookiecutter 模板。它集成了 uv、ruff、pytest 等现代化工具链，并配置了安全加固的 GitHub Actions CI/CD 工作流。项目支持推送标签后自动构建、签名并发布至 PyPI（无需 Token），同时自动部署文档至 GitHub Pages。该模板旨在通过全自动化流程简化 Python 包的开发、测试与发布。

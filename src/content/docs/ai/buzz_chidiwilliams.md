@@ -5,4 +5,4 @@ title: buzz
 
 ### [chidiwilliams buzz](https://github.com/chidiwilliams/buzz)  ![GitHub Repo stars](https://img.shields.io/github/stars/chidiwilliams/buzz?style=social)
 
-Buzz 是一款基于 OpenAI Whisper 的本地离线音频转录和翻译工具。主要功能包括：转录音频、视频文件或 YouTube 链接；支持麦克风实时语音转录及演示窗口；提供噪音环境下的说话人分离与识别功能；支持多种计算后端加速（NVIDIA CUDA、Apple Silicon、Vulkan）；支持导出 TXT、SRT、VTT 格式字幕；提供带有搜索、播放控制和速度调整的高级转录查看器；支持监听文件夹自动转录及命令行接口（CLI）进行自动化操作。
+Buzz 是一款基于 OpenAI Whisper 的离线音频转录与翻译软件，支持在个人电脑上运行。主要功能包括：转录音视频文件或 YouTube 链接；支持麦克风实时音频转录及演示窗口模式；具备语音分离（降噪）和说话人识别功能以提升准确率；兼容多种硬件加速后端（Nvidia CUDA、Apple Silicon、Vulkan）；支持导出 TXT、SRT、VTT 字幕；提供具备搜索、播放控制及速度调整的高级转录查看器；支持文件夹监控自动转录及命令行接口。软件跨平台兼容 macOS、Windows 和 Linux。

@@ -5,4 +5,4 @@ title: taichi
 
 ### [taichi-dev taichi](https://github.com/taichi-dev/taichi)  ![GitHub Repo stars](https://img.shields.io/github/stars/taichi-dev/taichi?style=social)
 
-Taichi Lang 是一个开源的、嵌入 Python 的命令式并行编程语言，专为高性能数值计算设计。它利用 JIT 编译器（如 LLVM）将计算密集型 Python 代码自动编译为高效的 GPU 或 CPU 机器码。主要特性包括：语法与 Python 高度兼容，无缝集成 NumPy 和 PyTorch；提供 SNode 数据结构支持分层多维字段及空间稀疏计算；支持 CUDA、Vulkan、OpenGL、Metal 等多种计算后端以实现跨平台运行；具备可微编程和量化计算能力。广泛应用于实时物理模拟、人工智能、视觉、机器人及影视特效等领域。
+Taichi 是一款嵌入 Python 的开源高性能并行编程语言，专注于数值计算。它通过 JIT 编译器将计算密集型 Python 代码自动转换为高效的 CPU 或 GPU 原生指令，支持 CUDA、Vulkan、Metal 等多种后端，实现跨平台并行加速。项目提供类 Python 语法、SNode 稀疏数据结构及 @ti.kernel 装饰器，无缝集成 NumPy 和 PyTorch 生态。此外，它还支持可微编程和 3D 可视化，适用于物理仿真、人工智能、计算机视觉、特效渲染及通用计算等场景。

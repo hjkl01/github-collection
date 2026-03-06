@@ -5,4 +5,4 @@ title: podman
 
 ### [containers podman](https://github.com/containers/podman)  ![GitHub Repo stars](https://img.shields.io/github/stars/containers/podman?style=social)
 
-Podman 是一个用于管理 OCI 容器、镜像、卷及 Pod 的工具，基于 libpod 库实现，支持在 Linux、Mac 和 Windows 系统上运行。其核心特性包括无守护进程架构（提升安全性与资源效率）、支持无 Root 特权运行（Rootless）、完整的容器生命周期管理、网络支持以及 Docker 兼容的 CLI 接口和 REST API。Podman 与 Buildah 功能互补，Buildah 专注于构建 OCI 镜像，而 Podman 专注于容器和镜像的生产环境管理与长期运行。
+Podman 是一款用于管理 OCI 容器、镜像、卷及 Pod 的开源工具。它支持在 Linux、Mac 和 Windows 系统上运行（非 Linux 平台通过虚拟机），采用无守护进程架构，有效提升安全性并降低资源占用。核心功能涵盖支持 OCI 和 Docker 镜像格式的完整生命周期管理（构建、拉取、运行、检查点恢复等），提供兼容 Docker 的 CLI 界面和 REST API，支持无 Root 权限运行（Rootless）、资源隔离及基于 Netavark 的网络管理。项目与 Buildah 互补，Buildah 专注于镜像构建，Podman 侧重于生产环境中的容器与镜像管理。

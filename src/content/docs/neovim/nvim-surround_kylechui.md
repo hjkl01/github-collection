@@ -5,4 +5,4 @@ title: nvim-surround
 
 ### [kylechui nvim-surround](https://github.com/kylechui/nvim-surround)  ![GitHub Repo stars](https://img.shields.io/github/stars/kylechui/nvim-surround?style=social)
 
-nvim-surround 是一款 Neovim 插件，用于优雅地添加、删除或修改文本选区的包围符号（如括号、引号、HTML 标签、函数调用）。支持点重复操作，允许自定义包围规则，兼容 Vim 运动、Lua 模式及 Tree-sitter 节点。通过 ys、ds、cs 快捷键实现核心操作，并提供跳转最近包围对、高亮反馈及文本对象别名功能，需 Neovim 0.8+ 环境。
+nvim-surround 是一款 Neovim 插件，用于在文本选区周围优雅地添加、删除或更改包围对（支持括号、引号、HTML 标签及函数调用）。它支持点命令重复、跳转至最近包围对、文本对象别名及自定义规则（兼容 Vim 动作、Lua 模式、Tree-sitter 节点）。核心快捷键为 ys、ds 和 cs，分别对应添加、删除和更改操作，并提供选区高亮反馈及缓冲区分组映射功能。

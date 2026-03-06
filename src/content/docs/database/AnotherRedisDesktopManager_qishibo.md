@@ -5,4 +5,4 @@ title: AnotherRedisDesktopManager
 
 ### [qishibo AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)  ![GitHub Repo stars](https://img.shields.io/github/stars/qishibo/AnotherRedisDesktopManager?style=social)
 
-Another Redis Desktop Manager 是一款跨平台（Windows、Linux、Mac）的 Redis 桌面管理工具，主打快速、稳定且加载大量 Key 不崩溃。支持 Redis 单机、集群及哨兵模式，兼容 SSH 隧道、SSL/TLS 连接及 Redis 6 ACL。具备多种数据类型（String、Hash、List 等）及序列化格式（JSON、Protobuf 等）的查看、编辑、搜索、导入导出功能。此外还支持监控模式、慢日志、内存分析、二进制视图查看，并提供暗色模式、自定义查看器及命令行启动选项。
+Another Redis Desktop Manager 是一款跨平台（Windows、Linux、Mac）的 Redis 桌面管理工具，以高效稳定著称，支持海量 Key 加载不崩溃。它支持单机、集群、哨兵模式及 SSH 隧道、SSL/TLS 连接，可管理 Redis 所有数据类型（String、Hash、List、Set、Zset、Stream、JSON 等）的增删改查、搜索、导出导入及内存分析。此外，还提供自定义数据查看器（支持 Java/Pickle/Protobuf 等）、只读模式、命令监控、执行日志及命令行参数启动等功能。

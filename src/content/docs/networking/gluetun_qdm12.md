@@ -5,4 +5,4 @@ title: gluetun
 
 ### [qdm12 gluetun](https://github.com/qdm12/gluetun)  ![GitHub Repo stars](https://img.shields.io/github/stars/qdm12/gluetun?style=social)
 
-Gluetun 是一款基于 Docker 的轻量级多功能 VPN 客户端，基于 Alpine 系统构建，镜像体积小。支持多种主流 VPN 服务商（如 ExpressVPN、NordVPN 等），兼容 OpenVPN 及 Wireguard 协议。内置 DNS over TLS、DNS 广告与恶意域名过滤、防火墙防泄漏（Kill Switch）功能。提供 Shadowsocks 和 HTTP 代理服务，支持连接其他容器或局域网设备。兼容多 CPU 架构（amd64, ARM, ppc64le 等）及 Kubernetes 旁路容器模式，支持特定服务商的端口转发和 Split Horizon DNS 配置。
+Gluetun 是一款基于 Alpine 系统的轻量级 Docker VPN 客户端，支持连接数十种主流 VPN 服务商（如 NordVPN、Surfshark 等）。它兼容 OpenVPN 和 Wireguard 协议，提供 UDP 或 TCP 传输选择。核心功能涵盖：内置 DNS over TLS 与广告/恶意域名实时拦截、防火墙防漏保护（Kill Switch）、集成 Shadowsocks 及 HTTP 代理服务器。此外，支持端口转发、多容器/局域网设备连接、Kubernetes Sidecar 模式，并兼容多种 CPU 架构。

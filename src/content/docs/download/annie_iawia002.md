@@ -5,4 +5,4 @@ title: annie
 
 ### [iawia002 annie](https://github.com/iawia002/annie)  ![GitHub Repo stars](https://img.shields.io/github/stars/iawia002/annie?style=social)
 
-Lux 是一个使用 Go 语言编写的快速简单的命令行视频下载工具。它支持从哔哩哔哩、YouTube、优酷、抖音等数十个主流网站下载视频、音频和图片。核心功能包括单文件及批量下载、播放列表下载、断点续传、多线程下载、自定义清晰度及输出路径、字幕下载、支持 Cookie 和代理配置，以及通过 JSON 格式复用提取的数据。
+Lux 是一款基于 Go 语言开发的高速视频下载命令行工具。支持从抖音、Bilibili、YouTube 等国内外多个平台下载视频、音频和图片。具备单视频、播放列表及批量下载功能，支持断点续传、自动重试、多线程下载及代理设置。提供 Cookie 验证、Referrer 指定、自定义输出路径、字幕下载及 aria2 辅助等功能，支持提取视频数据 JSON 格式及调试模式。

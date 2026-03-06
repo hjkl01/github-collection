@@ -5,4 +5,11 @@ title: ragflow
 
 ### [infiniflow ragflow](https://github.com/infiniflow/ragflow)  ![GitHub Repo stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social)
 
-RAGFlow 是一款领先的开源检索增强生成（RAG）引擎，融合 RAG 技术与 Agent 能力，为大型语言模型构建高效上下文层。它提供适配各类企业的简化 RAG 工作流，支持深度文档理解，能从复杂格式的非结构化数据（如文档、图片、网页等）中提取知识。核心功能包括智能模板分块、减少幻觉的可追溯引用、自动化 RAG 编排及可视化干预。项目支持 Docker 部署，允许配置 LLM 和嵌入模型，通过直观 API 实现业务集成，并提供多种文档解析方法与数据同步支持。
+RAGFlow 是一款开源检索增强生成（RAG）引擎，融合 Agent 能力，旨在为企业构建适配大语言模型（LLM）的上下文层。核心功能包括：
+
+1. **深度文档理解**：支持复杂格式非结构化数据（Word、PDF、图像、扫描件等）的知识提取与长文本检索。
+2. **智能切片与引用**：提供模板化、可解释的文本切片方案，支持可视化干预及可追溯引用，减少生成幻觉。
+3. **多源数据兼容**：兼容多种文档格式，支持 Confluence、S3、Notion 等数据源同步，集成 MinerU 与 Docling 解析。
+4. **自动化工作流**：支持流式 RAG 编排，可配置 LLM 及嵌入模型，具备多重召回与重排序能力，提供直观 API。
+5. **智能体能力**：支持 AI 智能体记忆、工作流编排、代码执行器及多模态图像内容理解。
+6. **灵活部署**：支持 Docker 快速部署（默认 Elasticsearch，可选 Infinity 引擎）及源码开发模式。

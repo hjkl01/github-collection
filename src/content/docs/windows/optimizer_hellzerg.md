@@ -5,12 +5,11 @@ title: optimizer
 
 ### [hellzerg optimizer](https://github.com/hellzerg/optimizer)  ![GitHub Repo stars](https://img.shields.io/github/stars/hellzerg/optimizer?style=social)
 
-Optimizer（已弃用，建议迁移至 OptimizerNXT）是一款用于 Windows 系统的隐私与安全配置工具，支持多语言及静默运行。核心功能包括：
+Optimizer 是一款面向 Windows 系统的高级隐私与安全配置工具，旨在通过系统优化增强隐私保护与安全性。主要功能包括：
+- **隐私与安全**：禁用 Windows 及 Office 遥测、Cortana、CoPilot 和 OneDrive，停止自动更新，卸载 UWP 应用。
+- **系统性能与优化**：提升系统网络性能，清理系统盘与浏览器，修复注册表，禁用 HPET，启用全局 UTC 时间。
+- **系统管理**：管理启动项、HOSTS 文件、系统变量，识别并终止文件锁，自定义桌面右键菜单及运行对话框。
+- **网络工具**：快速切换 DNS、Ping 测试、IP 搜索、刷新 DNS 缓存。
+- **自动化支持**：支持 24 种语言，可通过模板文件或命令行实现静默运行。
 
-- **隐私安全**：关闭 Windows/Office 遥测、Cortana、Copilot AI，停止自动更新，全局启用 UTC 时间。
-- **系统优化**：增强性能，禁用不必要服务/UWP 应用/OneDrive/HPET，清理磁盘与浏览器，修复注册表。
-- **网络工具**：管理 DNS、刷新缓存、Ping 测速及 SHODAN 搜索。
-- **系统管理**：管理启动项、编辑 HOSTS/环境变量、终止文件锁、硬件检测及右键菜单定制。
-- **扩展功能**：批量下载应用、禁用 Defender、命令行操作及模板自动化。
-
-支持 Windows 7 至 11 及多个服务器版本。
+兼容 Windows 7 至 11 及 Server 版本。注意：该项目已弃用，建议使用 OptimizerNXT。

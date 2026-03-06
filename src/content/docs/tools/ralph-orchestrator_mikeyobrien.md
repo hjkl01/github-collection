@@ -5,14 +5,4 @@ title: ralph-orchestrator
 
 ### [mikeyobrien ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator)  ![GitHub Repo stars](https://img.shields.io/github/stars/mikeyobrien/ralph-orchestrator?style=social)
 
-Ralph Orchestrator 是一个基于“帽子”系统的 AI 代理编排框架，旨在通过持续迭代循环实现任务自动完成。
-
-核心功能：
-- **多后端支持**：兼容 Claude、Gemini、Copilot 等多种 AI 工具。
-- **角色协调**：通过“帽子”系统（专用角色）与事件机制协调代理工作。
-- **质量门控**：集成测试、Lint 和类型检查作为迭代终止条件（Backpressure）。
-- **预设模式**：提供 31 种预设（如 TDD、规范驱动、调试）。
-- **人机协作**：支持通过 Telegram 进行人类介入（RObot），代理可提问并等待回复。
-- **管理界面**：提供 CLI 命令行工具及 Alpha 版 Web 仪表盘用于监控和运行。
-
-技术栈：Rust (后端/CLI) + Node.js (前端)。
+Ralph Orchestrator 是一个基于帽子（Hat）系统的 AI 代理编排框架，通过持续迭代循环自动完成复杂任务。它支持多种 AI 后端（如 Claude Code、Gemini CLI、Copilot 等），提供命令行工具用于项目初始化、规划与实施。核心功能涵盖多角色协作、质量门禁机制（测试、类型检查）、持久化记忆与任务跟踪，以及 31 种预设模式。此外，项目支持通过 Telegram 实现人类干预（RObot），并提供 Alpha 版 Web 仪表板用于监控和管理编排流程，后端基于 Rust 构建，前端基于 Node.js。

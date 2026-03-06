@@ -5,4 +5,4 @@ title: rust-libp2p
 
 ### [libp2p rust-libp2p](https://github.com/libp2p/rust-libp2p)  ![GitHub Repo stars](https://img.shields.io/github/stars/libp2p/rust-libp2p?style=social)
 
-该项目是 libp2p 规范的 Rust 语言核心实现仓库，旨在为构建去中心化 P2P 应用提供完整的网络功能。核心组件包括：`core`（核心传输与多路复用 API）、`transports`（传输协议及升级）、`muxers`（流多路复用）、`swarm`（网络行为与连接管理）、`protocols`（应用协议）及 `misc`（工具库）。此外包含示例程序以展示协议使用。
+该仓库是 libp2p 网络规范在 Rust 上的核心实现，用于构建点对点 (P2P) 网络通信。它提供了完整的底层网络协议栈，主要功能模块包括核心传输与流复用接口 (`core/`)、传输协议与升级 (`transports/`)、流复用实现 (`muxers/`)、Swarm 网络管理 (`swarm/`) 以及应用协议实现 (`protocols/`)。开发者可利用这些组件构建分布式应用程序，仓库也包含丰富的示例代码。

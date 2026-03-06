@@ -5,4 +5,11 @@ title: gatsby
 
 ### [gatsbyjs gatsby](https://github.com/gatsbyjs/gatsby)  ![GitHub Repo stars](https://img.shields.io/github/stars/gatsbyjs/gatsby?style=social)
 
-Gatsby 是一个基于 React 的开源框架，用于构建高速网站和应用程序。它融合了静态生成与动态渲染技术，支持页面级渲染模式选择（SSG、SSR、DSG）。核心特性包括：通过 GraphQL 统一集成各类数据源；默认自动优化代码分割、图片及资源加载；基于 React 和 GraphQL 提供标准化工作流；支持无服务器 CDN 托管以降低成本；并提供集中式数据层管理内容。
+Gatsby 是一个基于 React 的免费开源框架，用于构建快速、高性能的网站和应用程序。
+
+核心功能：
+1. **数据聚合**：支持从任意数据源（CMS、API、Markdown）加载数据，并通过 GraphQL 统一管理。
+2. **混合渲染**：支持静态站点生成 (SSG)、延迟静态生成 (DSG) 和服务器端渲染 (SSR)，可按页面灵活配置。
+3. **性能优化**：内置代码拆分、图片优化、懒加载等自动优化，无需手动调优。
+4. **低成本部署**：生成静态文件，可低成本托管至 CDN，无需传统服务器。
+5. **统一技术栈**：全站基于 React 和 GraphQL，提供高效统一的工作流。

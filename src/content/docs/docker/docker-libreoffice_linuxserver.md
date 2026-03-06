@@ -5,4 +5,9 @@ title: docker-libreoffice
 
 ### [linuxserver docker-libreoffice](https://github.com/linuxserver/docker-libreoffice)  ![GitHub Repo stars](https://img.shields.io/github/stars/linuxserver/docker-libreoffice?style=social)
 
-这是一个基于 LinuxServer.io 的 LibreOffice Docker 容器镜像，允许用户通过 Web 浏览器远程使用 LibreOffice 办公套件。项目支持 x86-64 和 arm64 架构，基于 Selkies 框架构建桌面流媒体功能，并支持 Wayland 模式以实现 GPU 硬件加速（零拷贝编码）及降低延迟。核心特性包括强制 HTTPS 传输、用户权限映射（PUID/PGID）、支持 PRoot 方式实现应用持久化、以及通过环境变量灵活配置语言、端口和硬件加速参数。项目提供安全加固选项（如禁用终端和 sudo），并兼容 SealSkin 平台，默认通过 HTTPS 3001 端口访问，建议置于可信网络或反向代理后端以保障安全。
+本项目是 LinuxServer.io 提供的 LibreOffice Docker 容器镜像，旨在通过 Web 浏览器远程运行 LibreOffice 桌面办公套件。
+主要功能：
+1. **Web 桌面访问**：基于 Selkies 技术，通过 HTTPS（默认端口 3001）在浏览器中提供 LibreOffice 图形界面。
+2. **高性能支持**：支持 Wayland 和 X11 模式，兼容 amd64/arm64 架构，支持 GPU 硬件加速及零拷贝编码。
+3. **灵活配置**：支持用户权限映射（PUID/PGID）、多语言国际化、持久化应用安装（PRoot）及系统包安装。
+4. **安全与运维**：提供基础认证、安全加固选项（禁用终端/Sudo）、GPU 挂载及 Docker-in-Docker 支持，兼容 SealSkin 平台，定期更新补丁。

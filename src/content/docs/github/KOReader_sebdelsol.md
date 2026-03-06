@@ -5,8 +5,10 @@ title: KOReader
 
 ### [sebdelsol KOReader](https://github.com/sebdelsol/KOReader)  ![GitHub Repo stars](https://img.shields.io/github/stars/sebdelsol/KOReader?style=social)
 
-KOReader 是一款专为电子墨水屏阅读器设计的跨平台文档查看软件。
-1. 多平台支持：兼容 Kindle、Kobo、PocketBook、reMarkable 等电纸书，以及 Android 和 Linux 系统。
-2. 多格式兼容：支持 PDF、DjVu、EPUB、Mobi 等文档及电子书格式，内置工具支持扫描文档重排。
-3. 阅读优化：针对墨水屏优化无动画界面，支持高度自定义排版（页边距、字体、行距）及多语言词典。
-4. 功能扩展：集成 Calibre、Wallabag、翻译服务，支持插件扩展，提供 FTP 客户端、SSH 服务器及在线资源订阅功能。
+KOReader 是一款专为电子墨水屏设备设计的跨平台文档查看器，主要功能如下：
+
+1. **多设备支持**：运行于 Kindle、Kobo、PocketBook、reMarkable 等嵌入式设备，以及 Android 和 Linux 系统。
+2. **多格式文档**：支持固定版式（PDF、DjVu 等）和重排格式（EPUB、FB2 等），内置工具可重排扫描文档并支持 ZIP 包。
+3. **阅读定制**：提供多语言界面，可自定义字体、页边距、行距及样式，内置多语言断字字典。
+4. **服务集成**：集成 Calibre 元数据与无线传输、Wallabag、维基百科、Google 翻译及在线 OPDS 目录。
+5. **性能与扩展**：针对电子墨水屏优化 UI（无动画、高对比度），翻页速度快，支持插件、词典查询、FTP 客户端及 SSH 服务器。

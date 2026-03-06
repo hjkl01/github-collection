@@ -5,4 +5,4 @@ title: brave-browser
 
 ### [brave brave-browser](https://github.com/brave/brave-browser)  ![GitHub Repo stars](https://img.shields.io/github/stars/brave/brave-browser?style=social)
 
-该仓库包含构建 Brave 桌面浏览器（支持 macOS、Windows、Linux）所需的构建工具。主要功能涵盖自动获取并同步 Chromium、brave-core 及 adblock-rust 等依赖代码，维护第三方补丁；提供环境初始化、多类型构建（Release、Debug、Static 等）、运行及代码同步更新脚本；支持多平台（含 iOS/Android）开发环境配置；并包含安全规范、API 启用说明及故障排查指南等开发辅助信息。
+该项目提供构建 Brave 浏览器（支持 macOS、Windows、Linux、iOS 及 Android 平台）所需的构建工具。核心功能包括自动同步 Chromium、brave-core 及 adblock-rust 依赖代码，提供跨平台开发环境搭建与初始化指南，支持组件、发布、静态及调试等多种构建模式的编译与运行。此外，项目还包含代码更新同步、版本控制命令、开发安全规则、第三方 API 配置说明及故障排除指引。

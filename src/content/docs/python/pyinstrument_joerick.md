@@ -5,10 +5,11 @@ title: pyinstrument
 
 ### [joerick pyinstrument](https://github.com/joerick/pyinstrument)  ![GitHub Repo stars](https://img.shields.io/github/stars/joerick/pyinstrument?style=social)
 
-pyinstrument 是一款 Python 性能分析工具（Profiler），旨在帮助开发者定位程序中的性能瓶颈，从而优化代码速度。
+Pyinstrument 是一个 Python 性能分析（Profiler）工具，旨在帮助开发者优化代码性能，快速定位程序中最慢的部分。
 
-主要功能包括：
-1. **多方式调用**：支持命令行执行、Python 上下文管理器、装饰器及 Jupyter/IPython 集成。
-2. **多样化报告**：提供终端文本、交互式 HTML（含时间线视图）、JSON、pstats 及 Speedscope 格式输出。
-3. **框架与异步支持**：内置 Django、FastAPI 等框架中间件，原生支持 async/await 异步代码分析。
-4. **高级分析**：自动识别并隐藏第三方库代码，支持性能分析会话的保存与加载，兼容 Python 3.8+。
+**核心功能：**
+
+*   **多模式分析**：支持命令行运行、Python 上下文管理器（with 块）、函数装饰器以及 Jupyter/IPython 集成，能够同时分析同步与异步（async/await）代码。
+*   **多样化输出**：提供终端文本、交互式 HTML（含时间线模式、缩放与树形导航）、JSON、Speedscope 火焰图及 pstats 文件等多种报告格式。
+*   **灵活配置**：支持自定义采样间隔、过滤特定路径或库代码、保存/加载分析会话，并提供 Django、FastAPI、aiohttp 等框架的中间件集成。
+*   **广泛兼容**：支持 Python 3.8 及以上版本，包括最新的 3.11/3.12/3.13 版本。

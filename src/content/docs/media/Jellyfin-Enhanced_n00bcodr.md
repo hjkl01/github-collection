@@ -5,4 +5,13 @@ title: Jellyfin-Enhanced
 
 ### [n00bcodr Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced)  ![GitHub Repo stars](https://img.shields.io/github/stars/n00bcodr/Jellyfin-Enhanced?style=social)
 
-Jellyfin Enhanced 是一款专为 Jellyfin 打造的综合增强插件，将高级功能与自定义选项整合为一体。其核心功能涵盖：增强播放体验（支持高级快捷键、智能书签、自动跳过片头片尾、自定义暂停画面与字幕颜色）；灵活的内容管理（提供用户级内容隐藏与精细化过滤）；集成 Seerr 及 *arr 系列（Sonarr/Radarr/Bazarr），支持媒体请求、下载监控及发布日历；视觉优化（显示画质、语言、评分及演职员标签）；以及外部资源发现（Elsewhere 服务、TMDB 评论）和界面深度定制（品牌、主题、CSS）。
+Jellyfin Enhanced 是 Jellyfin 媒体服务器的核心增强插件，提供一站式高级功能与自定义选项以提升用户体验。
+
+主要功能包括：
+- **播放增强**：支持高级快捷键、智能书签、自定义暂停界面、自动跳过片头片尾及字幕颜色定制。
+- **内容管理**：提供用户级内容隐藏、细粒度过滤及批量管理面板。
+- **第三方集成**：深度对接 Jellyseerr（搜索、请求、观影单同步）与 *arr 系列（Sonarr/Radarr，含日历视图与下载队列监控）。
+- **视觉增强**：海报展示画质标签（4K/HDR）、评分（TMDB/Rotten Tomatoes）、语言及演职人员信息。
+- **个性化定制**：支持自定义品牌标识、多主题切换及 CSS 样式调整。
+
+该插件需 Jellyfin 10.11 及以上版本，兼容 Web 端、桌面端及官方移动应用。

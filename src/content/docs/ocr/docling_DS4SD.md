@@ -5,11 +5,4 @@ title: docling
 
 ### [DS4SD docling](https://github.com/DS4SD/docling)  ![GitHub Repo stars](https://img.shields.io/github/stars/DS4SD/docling?style=social)
 
-Docling 是一个简化文档处理与解析的工具，旨在无缝对接生成式 AI 生态系统。
-
-主要功能：
-1. 多格式解析：支持 PDF、DOCX、PPTX、XLSX、HTML、音视频、图像、LaTeX 等。
-2. 高级 PDF 理解：涵盖页面布局、阅读顺序、表格结构、代码、公式及图像分类。
-3. 统一表示与导出：采用 DoclingDocument 统一格式，支持导出为 Markdown、HTML、JSON、DocTags 及特定 XML 标准（如 XBRL、JATS）。
-4. AI 集成：支持本地执行、OCR、视觉语言模型（VLM）、自动语音识别（ASR），兼容 LangChain 等框架及 MCP 服务器。
-5. 工具支持：提供 Python API 和命令行工具（CLI）。
+Docling 是一款简化文档处理与解析的开源工具，支持 PDF、DOCX、图片、音频等多种格式。它提供高级 PDF 理解能力（如布局、表格、公式识别），支持 OCR 和视觉语言模型，采用统一的文档表示格式，可导出为 Markdown、HTML、JSON 等。项目支持本地执行，提供 CLI 和 Python API，便于与 LangChain 等 AI 框架集成。

@@ -5,10 +5,8 @@ title: vim-translator
 
 ### [voldikss vim-translator](https://github.com/voldikss/vim-translator)  ![GitHub Repo stars](https://img.shields.io/github/stars/voldikss/vim-translator?style=social)
 
-vim-translator 是一款适用于 Vim 和 Neovim 的异步翻译插件。
-
-核心功能如下：
-1. **翻译引擎**：支持多种引擎（如 Bing、Google、Youdao、Haici 等），无需申请 AppID 或 AppKey。
-2. **显示方式**：支持在 Vim8 的 Popupwin 和 Neovim 的 Floatwin 中浮动显示翻译结果。
-3. **操作模式**：提供命令行输出、浮动窗口展示、原文替换及剪贴板翻译等多种功能。
-4. **配置定制**：支持自定义目标/源语言、默认引擎、代理设置、翻译历史、窗口样式及状态栏集成。
+vim-translator 是一款适用于 Vim/Neovim 的异步多线程翻译插件。
+1. 多引擎支持：集成 Bing、Google、Youdao 等多种翻译源，无需 API 密钥。
+2. 显示模式：支持 Vim 8 弹窗及 Neovim 浮动窗口展示翻译结果。
+3. 操作灵活：支持翻译光标词、选中文本、指定行范围及剪贴板内容。
+4. 扩展功能：支持反向翻译、网络代理、窗口样式自定义及历史记录导出。

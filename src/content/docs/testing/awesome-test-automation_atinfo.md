@@ -5,4 +5,4 @@ title: awesome-test-automation
 
 ### [atinfo awesome-test-automation](https://github.com/atinfo/awesome-test-automation)  ![GitHub Repo stars](https://img.shields.io/github/stars/atinfo/awesome-test-automation?style=social)
 
-该项目是一个精选的测试自动化资源聚合列表，收录了多编程语言（如 Python、Java、C# 等）的测试框架、工具、库及软件。旨在帮助软件工程师快速搭建测试自动化方案，涵盖通用、移动设备及测试服务领域，并欢迎社区贡献。
+这是一个精选的测试自动化资源列表，汇集了 Python、Java、JavaScript 等多种编程语言的框架、工具、库及软件，旨在帮助工程师快速搭建测试自动化体系。内容涵盖多语言专项、移动端测试、测试服务及通用工具，支持实践案例项目，并开放社区贡献。

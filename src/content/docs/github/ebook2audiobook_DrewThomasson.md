@@ -5,4 +5,4 @@ title: ebook2audiobook
 
 ### [DrewThomasson ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook)  ![GitHub Repo stars](https://img.shields.io/github/stars/DrewThomasson/ebook2audiobook?style=social)
 
-ebook2audiobook 是一款将电子书转换为有声书的工具，支持 Windows、macOS、Linux 本地运行、Docker 部署及 Hugging Face、Colab 等云端环境。提供图形界面与命令行模式，利用 XTTSv2 等先进 TTS 引擎，支持语音克隆及 1158 种语言。兼容多种电子书（epub、pdf 等）与音频格式（mp3、m4b 等），具备 OCR 扫描、章节元数据生成及 SML 标签控制停顿与声音切换功能。最低仅需 2GB 内存，仅用于非 DRM 合法获取的电子书。
+ebook2audiobook 是一款基于 CPU/GPU 的电子书转有声书工具。它利用先进 TTS 引擎生成包含章节和元数据的高音质音频，支持 1158 种语言及语音克隆功能。项目支持多种电子书格式（如 EPUB、PDF、MOBI 等）及 OCR 图像识别，输出格式涵盖 MP3、M4B 等常见音频格式。提供 Web GUI 界面和命令行无头模式，支持本地运行、Docker 容器及云端（Colab、Hugging Face）部署。兼容多种硬件加速（CUDA、ROCm 等），资源消耗低（最低 2GB 内存），允许自定义 TTS 模型及微调。仅限用于非 DRM 保护的合法获取电子书。

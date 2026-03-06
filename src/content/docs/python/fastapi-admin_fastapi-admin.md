@@ -5,4 +5,4 @@ title: fastapi-admin
 
 ### [fastapi-admin fastapi-admin](https://github.com/fastapi-admin/fastapi-admin)  ![GitHub Repo stars](https://img.shields.io/github/stars/fastapi-admin/fastapi-admin?style=social)
 
-FastAPI Admin 是一个基于 FastAPI、TortoiseORM 和 Tabler UI 构建的快速后台管理系统，灵感源自 Django Admin。它支持 MySQL 等数据库，依赖 Redis，提供 Docker 部署、在线演示及基础版与专业版两种模式，采用 Apache-2.0 开源协议。
+FastAPI Admin 是一款基于 FastAPI 和 TortoiseORM 的快速管理后台面板，采用 Tabler UI 界面，灵感源自 Django Admin。项目依赖 Redis 服务，提供数据模型管理、仪表盘展示及用户认证功能，支持 pip 安装及 Docker 快速部署。

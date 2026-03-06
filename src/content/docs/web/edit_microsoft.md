@@ -5,4 +5,4 @@ title: edit
 
 ### [microsoft edit](https://github.com/microsoft/edit)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/edit?style=social)
 
-Edit 是一个简单的文本编辑器，采用现代化界面和类似 VS Code 的输入控件，致敬经典 MS-DOS Editor，旨在让不熟悉终端的用户也能轻松使用。项目基于 Rust 构建，支持 Windows WinGet 安装，搜索与替换功能可选依赖 ICU 库。
+Edit 是一款面向简单需求的文本编辑器，致敬 MS-DOS 经典编辑器，具备现代化界面和 VS Code 风格输入控件，便于终端新手使用。支持通过 ICU 库实现搜索替换，并提供多国语言国际化支持。

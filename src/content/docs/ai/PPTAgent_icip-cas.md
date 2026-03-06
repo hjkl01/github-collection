@@ -5,4 +5,4 @@ title: PPTAgent
 
 ### [icip-cas PPTAgent](https://github.com/icip-cas/PPTAgent)  ![GitHub Repo stars](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=social)
 
-PPTAgent 是一款基于人工智能的演示文稿生成代理，支持通过自然语言指令或上传文档附件自动生成 PPTX 格式演示文稿。其核心功能包括深度研究集成、自由视觉设计、自主资产创建、文生图生成及多工具沙盒环境。项目提供命令行（CLI）和 Web 界面，支持在线（需配置 API）与离线模式，集成 MCP 服务器，并支持 Docker 或本地部署。此外，项目包含内容、设计及连贯性维度的评估框架 PPTEval。
+PPTAgent 是一个基于大语言模型的自动化演示文稿生成智能体。它支持通过文本指令或文档输入，结合深度研究、自由视觉设计、自主资产创建及文生图能力，自动生成高质量的 PPTX 演示文稿。项目提供命令行操作接口，支持在线与离线模式，集成 MCP 服务器扩展工具生态，并包含用于评估内容、设计及连贯性的 PPTEval 框架，旨在实现超越传统文本转幻灯片技术的全面演示文稿自动化生成。

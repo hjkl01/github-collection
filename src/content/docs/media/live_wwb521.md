@@ -5,4 +5,4 @@ title: live
 
 ### [wwb521 live](https://github.com/wwb521/live)  ![GitHub Repo stars](https://img.shields.io/github/stars/wwb521/live?style=social)
 
-本项目提供永久免费、完全开源的影视资源，包含 TXT 和 M3U 格式的直播源、TVBox 配置接口（目前仅保留成人版），以及相关播放软件推荐。
+本项目为完全开源的免费影视资源聚合平台，提供持续更新的直播源（TXT 及 M3U 格式）和 TVBox 接口（目前仅保留成人版），并推荐 OK 影视、可视 TV Max 等第三方播放软件供用户使用。

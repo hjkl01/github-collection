@@ -5,4 +5,4 @@ title: pendulum
 
 ### [sdispater pendulum](https://github.com/sdispater/pendulum)  ![GitHub Repo stars](https://img.shields.io/github/stars/sdispater/pendulum?style=social)
 
-Pendulum 是一款 Python 日期时间库，旨在简化日期时间操作并支持 Python 3.10 及以上版本。作为标准 datetime 类的替代品（继承自 datetime），它提供更直观易用的 API。主要功能包括：无缝切换时区、直观的时间加减运算、生成人类可读的时间差描述、自动正确处理夏令时过渡及日期归一化，并强制所有实例均为时区感知（默认 UTC）。此外，它改进了标准的 timedelta 类。在 sqlite3、mysqlclient、PyMySQL 及 Django 等特定场景下，可能需要注册适配器以解决类型检查或格式化兼容性问题。
+Pendulum 是一个简化 Python 日期时间操作的库，继承自标准 `datetime` 类，可作为主要场景下的无缝替代品。它提供更清晰的 API，默认所有实例均为时区感知（消除 naive datetime），支持无缝时区切换、正确处理夏令时（DST）过渡及不存在的时间。此外，它改进了 `timedelta` 类，提供人类可读的时间差功能及多语言本地化支持。项目适用于 Python 3.10 及以上版本，但在处理依赖类型检查的库（如 sqlite3、Django 等）时可能需要额外配置适配器。

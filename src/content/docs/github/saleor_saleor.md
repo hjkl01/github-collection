@@ -5,4 +5,6 @@ title: saleor
 
 ### [saleor saleor](https://github.com/saleor/saleor)  ![GitHub Repo stars](https://img.shields.io/github/stars/saleor/saleor?style=social)
 
-Saleor 是一款开源的基于 GraphQL 的 API 优先无头电子商务平台，提供可扩展的组合式商务解决方案。其架构具有技术无关性，支持云原生部署及多语言、多货币、多仓库的全球化管理。功能涵盖企业级安全扩展、后台管理面板、内容管理（CMS）、产品与订单管理、客户管理、促销引擎、支付编排及 SEO 优化。系统支持通过 Webhooks 和应用程序进行灵活扩展，包含后端 API、管理后台及基于 Next.js 的商店前端示例。
+Saleor 是一个基于 GraphQL 的开源 API 优先无头（Headless）电子商务平台，提供可扩展的组合式商务解决方案。
+
+其核心架构技术无关且无锁定，仅通过 API 交互后端，支持通过 Webhooks 和 App 独立扩展，以确保高性能、高可用及简化升级。平台功能涵盖企业级产品管理、订单处理（支持拆分支付与退货）、客户管理、促销引擎及支付编排，并原生支持多语言、多货币和多仓库的全球化运营。系统由核心后端 API、独立管理后台（Dashboard）以及基于 React/Next.js 的开源商店前端（Storefront）组成，支持云原生及 Docker 本地部署，完全开源免费且提供完善的文档与社区支持。

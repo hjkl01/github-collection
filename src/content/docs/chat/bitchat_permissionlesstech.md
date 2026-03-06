@@ -5,4 +5,9 @@ title: bitchat
 
 ### [permissionlesstech bitchat](https://github.com/permissionlesstech/bitchat)  ![GitHub Repo stars](https://img.shields.io/github/stars/permissionlesstech/bitchat?style=social)
 
-bitchat 是一款去中心化的点对点聊天应用，采用蓝牙 Mesh 网络（离线）与 Nostr 协议（互联网）的双重传输架构。无需账户、电话号码或中央服务器，注重隐私保护（支持端到端加密、无持久标识符、紧急数据擦除）。核心功能包括基于 Geohash 的地理位置频道、智能消息路由（蓝牙优先、Nostr 回退及离线队列）、多跳中继通信及 IRC 风格命令，原生支持 iOS 和 macOS 平台。
+bitchat 是一款去中心化的点对点即时通讯应用，支持 iOS 和 macOS 平台。
+
+- **双传输架构**：融合本地蓝牙 Mesh 网络（支持离线多跳中继）与 Nostr 协议（实现互联网全球通信），智能优先蓝牙直连，无网时自动通过互联网或排队转发。
+- **隐私安全**：无需账户、电话号码或中心服务器，消息端到端加密（Noise 协议/NIP-17），支持紧急三连击清除数据。
+- **位置频道**：基于地理哈希坐标（geohash）建立不同粒度的区域聊天室（如街区、城市、国家）。
+- **功能特性**：支持 IRC 风格命令、消息压缩、自适应电池模式及优化的网络配置。

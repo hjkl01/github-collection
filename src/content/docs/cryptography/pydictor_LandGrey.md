@@ -5,10 +5,4 @@ title: pydictor
 
 ### [LandGrey pydictor](https://github.com/LandGrey/pydictor)  ![GitHub Repo stars](https://img.shields.io/github/stars/LandGrey/pydictor?style=social)
 
-pydictor 是一款用于暴力破解的字典生成与管理工具，核心功能如下：
-
-1.  **多类型字典生成**：支持生成通用爆破字典、基于 Web 内容定制字典、社会工程学字典，以及生日、身份证、FTP 密码等特定规则字典。
-2.  **字典处理工具**：内置合并、去重、频率统计、文件比较、前后缀添加、安全删除及自定义脚本过滤等功能。
-3.  **高度定制能力**：支持修改配置文件、添加自定义字典与插件脚本、启用 Leet 模式，支持按长度、字符类型、出现次数、正则表达式进行过滤。
-4.  **丰富编码支持**：支持 Base16/32/64、MD5/SHA 系列、URL 编码及自定义加密脚本（如 RSA、HMAC 等）。
-5.  **跨平台兼容**：兼容 Python 2.7 和 3.x 版本，支持 Windows、Linux 和 Mac 操作系统。
+pydictor 是一款强大的暴力破解字典生成工具，支持生成基础、自定义字符、排列组合、配置模板、模式、扩展规则及社会工程学等多种类型字典。支持 Leet 模式，可按长度、字符类型、出现次数及正则表达式进行过滤。提供 Base16/32/64、MD5、SHA 系列、HMAC、URL 等多种编码加密方式。内置词表合并、去重、频率统计、对比、处理及安全删除等工具。支持添加自定义编码脚本、插件及工具脚本扩展。兼容 Python 2.7 和 3.x 版本，支持 Windows、Linux 和 Mac 系统。

@@ -5,4 +5,4 @@ title: EasyOCR
 
 ### [JaidedAI EasyOCR](https://github.com/JaidedAI/EasyOCR)  ![GitHub Repo stars](https://img.shields.io/github/stars/JaidedAI/EasyOCR?style=social)
 
-EasyOCR 是一款基于 Python 的开源 OCR 工具库，支持 80 多种语言及多种书写脚本。其主要功能为图像文字检测与识别，输出文字内容、位置坐标及置信度。支持 GPU 加速和 CPU 模式，提供 Python 接口、命令行工具及 Web 演示。底层基于 PyTorch 框架，集成 CRAFT 检测算法和 CRNN 识别算法，支持自定义模型训练。
+EasyOCR 是一款基于 PyTorch 的即用型光学字符识别（OCR）库，支持 80 多种语言和流行书写脚本（如中文、拉丁文、阿拉伯文等）。它提供 Python API 和命令行工具，支持 CPU 及 GPU 加速，可处理图片路径、OpenCV 数组、字节或 URL 作为输入。该工具能输出检测文本的内容、边界框坐标及置信度，支持模型权重自动下载及自定义检测与识别模型，旨在提供高效、便捷的 OCR 解决方案。

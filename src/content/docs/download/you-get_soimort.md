@@ -5,4 +5,4 @@ title: you-get
 
 ### [soimort you-get](https://github.com/soimort/you-get)  ![GitHub Repo stars](https://img.shields.io/github/stars/soimort/you-get?style=social)
 
-You-Get 是一个命令行多媒体下载工具，支持从互联网下载视频、音频和图片。主要功能包括：从 YouTube、Bilibili、优酷等网站下载媒体内容；调用本地播放器在线观看视频（无广告）；通过网页抓取图片；下载任意二进制文件。此外还支持断点续传、自定义保存路径、代理设置、Cookie 加载及通过关键词搜索下载。
+You-Get 是一个命令行工具，用于从互联网下载媒体内容（视频、音频、图片）。它支持从 YouTube、Bilibili、优酷等数百个网站获取资源，也可下载任意二进制文件或通过网页刮削图片。此外，它支持将视频流式传输到本地播放器观看，并提供断点续传、代理设置、Cookie 加载及关键词搜索视频等功能。

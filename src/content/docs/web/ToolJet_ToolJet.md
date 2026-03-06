@@ -5,22 +5,4 @@ title: ToolJet
 
 ### [ToolJet ToolJet](https://github.com/ToolJet/ToolJet)  ![GitHub Repo stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social)
 
-ToolJet 是一款开源低代码平台，用于构建和部署内部工具、工作流及 AI 代理。
-
-**社区版核心功能：**
-- 可视化应用构建器（60+ 组件）
-- 内置无代码数据库
-- 集成 80+ 数据源（数据库、API、SaaS 等）
-- 支持多页应用、多人协作及插件扩展
-- 支持 JavaScript/Python 代码执行
-- 灵活部署（Docker、Kubernetes 及主流云平台）
-- 基础安全与访问控制
-
-**企业版（ToolJet AI）额外提供：**
-- AI 驱动的应用与查询生成
-- 智能 Agent 构建与工作流自动化
-- AI 调试与错误修复
-- 企业级合规（SOC 2, GDPR）、审计日志与细粒度权限
-- 多环境管理、CI/CD 集成及品牌定制
-
-项目采用 AGPL v3.0 许可证，支持云托管或自建部署。
+ToolJet 是一款开源的低代码平台，用于构建和部署内部工具、工作流及 AI 智能体。社区版提供可视化应用构建器（60+ 组件）、内置无代码数据库、支持 80+ 数据源连接（数据库、API、SaaS 等）、多页面协作编辑、代码运行（JS/Python）及多种灵活部署方案（Docker、Kubernetes、云服务等），并具备基础安全加密与 SSO 支持。企业版（ToolJet AI）在基础功能之上增加 AI 应用生成、AI 查询构建、AI 调试、智能体构建、企业级安全合规（SOC 2/GDPR）、细粒度权限控制、多环境管理、CI/CD 集成及品牌定制等功能。项目支持本地自托管或云托管，并提供完整文档与社区支持。

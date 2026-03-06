@@ -5,11 +5,4 @@ title: typer
 
 ### [tiangolo typer](https://github.com/tiangolo/typer)  ![GitHub Repo stars](https://img.shields.io/github/stars/tiangolo/typer?style=social)
 
-Typer 是一个基于 Python 类型提示的命令行（CLI）应用程序构建库，被誉为"CLI 领域的 FastAPI"。
-
-核心功能：
-*   **开发直观**：使用标准 Python 类型声明参数，提供完善的编辑器支持和自动补全。
-*   **自动辅助**：自动生成帮助文档及终端自动补全（支持多种 Shell）。
-*   **代码简洁**：最小化代码重复，支持从简单脚本到复杂子命令树结构的扩展。
-*   **脚本运行**：包含 `typer` 命令，可直接运行 Python 脚本并将其转换为 CLI 应用。
-*   **底层依赖**：基于 Click 构建，集成 Rich 和 shellingham 用于美化输出和 Shell 检测。
+Typer 是一个基于 Python 类型提示（type hints）的命令行接口（CLI）应用构建库和命令行工具，被称为"CLI 版的 FastAPI"。它允许开发者利用标准 Python 语法直观且简洁地构建 CLI 应用，享受自动补全和类型检查；同时为用户提供自动生成帮助文档和终端自动补全。项目支持从简单脚本到复杂多级子命令的灵活扩展，并提供 `typer` 命令将普通 Python 脚本直接转换为 CLI 应用。其底层依赖 Click、Rich 和 Shellingham。

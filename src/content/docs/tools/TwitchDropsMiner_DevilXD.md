@@ -5,4 +5,4 @@ title: TwitchDropsMiner
 
 ### [DevilXD TwitchDropsMiner](https://github.com/DevilXD/TwitchDropsMiner)  ![GitHub Repo stars](https://img.shields.io/github/stars/DevilXD/TwitchDropsMiner?style=social)
 
-这是一款自动化挂机获取 Twitch 游戏掉落奖励的工具。其核心机制是通过获取流媒体元数据而非下载视频流来推进进度，从而节省带宽。主要功能包括：支持游戏优先级与排除列表、通过 WebSocket 同时追踪 199 个频道状态、自动切换在线频道、验证掉落活动资格、自动发现关联活动及保存登录会话。项目提供 Windows 和 Linux 图形界面，旨在后台低干扰运行。使用需注意：同一账号不应手动观看视频以避免进度冲突，Cookie 文件涉及账户安全需妥善保管，且不支持多账号管理或远程服务器部署。
+Twitch Drops Miner 是一个用于自动领取 Twitch 限时掉落奖励的工具。它无需播放实际音视频，仅通过获取流元数据即可推进进度以节省带宽。主要功能包括：自动发现并验证掉落活动；通过 WebSocket 监控频道状态；支持游戏优先级和排除列表管理；频道离线或高优先级游戏上线时自动切换。程序保存登录会话，支持 Windows 和 Linux 平台，并提供图形界面。

@@ -5,4 +5,4 @@ title: restic
 
 ### [restic restic](https://github.com/restic/restic)  ![GitHub Repo stars](https://img.shields.io/github/stars/restic/restic?style=social)
 
-Restic 是一款快速、高效且安全的跨平台备份工具，支持 Linux、macOS、Windows 等主流操作系统。它支持多种存储后端，包括本地目录、SFTP、HTTP REST 服务器及各大云存储服务（如 Amazon S3、Azure Blob Storage、Google Cloud Storage 等）。Restic 利用加密技术保障数据的机密性与完整性，支持重复数据删除和增量快照以优化存储效率，并提供数据可验证功能。用户可基于该工具创建备份仓库、执行数据备份、恢复文件或挂载快照进行浏览。
+Restic 是一款跨平台（支持 Linux、macOS、Windows 等）的快速、高效、安全的备份程序。主要功能包括初始化备份仓库、备份数据、恢复文件以及通过 FUSE 挂载浏览历史快照。支持多种存储后端，涵盖本地目录、SFTP、HTTP REST 及主流云存储（如 AWS S3、Azure、Google Cloud 等），并可通过 rclone 扩展。设计原则强调易用性、速度、数据可验证性、加密安全性以及通过去重技术实现的存储效率。

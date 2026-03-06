@@ -5,13 +5,4 @@ title: rainfrog
 
 ### [achristmascarl rainfrog](https://github.com/achristmascarl/rainfrog)  ![GitHub Repo stars](https://img.shields.io/github/stars/achristmascarl/rainfrog?style=social)
 
-rainfrog 是一款轻量级的终端数据库交互工具，目前处于 Beta 阶段，支持跨平台（macOS、Linux、Windows、Android）。
-
-主要功能：
-- 高效导航：采用 Vim 风格快捷键及鼠标控制。
-- 查询编辑：支持语法高亮、会话历史、收藏及表元数据查看。
-- 数据管理：支持快速复制数据、过滤表、切换数据库模式。
-- 结果导出：支持将查询结果导出为 CSV 文件。
-- 多库兼容：支持 Postgres、MySQL、SQLite、Redshift、Oracle 等数据库。
-
-注意：软件处于积极开发中，存在已知限制，不建议在生产数据库上使用写权限。
+rainfrog 是一款轻量级的跨平台终端数据库管理工具。它提供 Vim 风格的快捷键与鼠标控制，内置支持语法高亮、查询历史及收藏的查询编辑器。用户可高效导航、复制数据、过滤表格、切换 Schema 及查看表元数据。工具兼容 PostgreSQL、MySQL、SQLite、Redshift、DuckDB 和 Oracle 等数据库，支持命令行连接、环境变量及 Docker 运行。项目允许通过配置文件自定义设置与快捷键，目前处于 Beta 阶段。

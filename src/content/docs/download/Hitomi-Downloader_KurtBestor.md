@@ -5,4 +5,4 @@ title: Hitomi-Downloader
 
 ### [KurtBestor Hitomi-Downloader](https://github.com/KurtBestor/Hitomi-Downloader)  ![GitHub Repo stars](https://img.shields.io/github/stars/KurtBestor/Hitomi-Downloader?style=social)
 
-Hitomi-Downloader 是一款开源的多平台媒体下载工具。它拥有简洁清晰的界面，支持深色模式与便携使用，具备剪贴板监控及任务管理功能。软件支持单任务 24 线程加速下载、网速限制、用户脚本、BitTorrent 磁力链接以及 M3U8 和 MPD 视频格式。它支持从 Pixiv、Twitter、YouTube、Bilibili 等数十个主流网站下载图片和视频，并可通过 yt-dlp 扩展支持更多站点。
+Hitomi-Downloader 是一款支持多站点媒体下载的桌面工具，提供简洁清晰的界面和深色模式。它支持单任务 24 线程加速下载、速度限制，并兼容 BitTorrent、Magnet、M3U8 及 MPD 格式。此外，项目支持用户脚本、剪贴板监控、便携模式及便捷的任务管理。兼容的网站极多（涵盖 YouTube、Pixiv、Bilibili 等主流平台），并通过集成 yt-dlp 扩展了支持范围。

@@ -5,4 +5,4 @@ title: chroma
 
 ### [chroma-core chroma](https://github.com/chroma-core/chroma)  ![GitHub Repo stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social)
 
-Chroma 是一个开源的 AI 搜索引擎，专为快速构建支持数据搜索的 Python 或 JavaScript LLM 应用而设计。它提供极简 API，自动处理文档的分词、嵌入和索引，实现基于向量近邻的语义搜索。Chroma 兼容 LangChain、LlamaIndex 等框架，支持多种嵌入模型，适用于从本地开发到生产部署的全场景，采用 Apache 2.0 开源协议。
+Chroma 是一款开源搜索引擎，用于快速构建 Python 或 JavaScript 的 LLM 数据搜索应用。核心功能包括：提供简洁 API 进行集合管理与文档存储（自动处理嵌入与索引）；支持向量、混合及全文搜索；兼容 LangChain、LlamaIndex 等主流框架；支持本地部署及 Chroma Cloud 托管；具备过滤、正则查询能力；采用 Apache 2.0 开源协议。

@@ -5,10 +5,4 @@ title: yaak
 
 ### [mountain-loop yaak](https://github.com/mountain-loop/yaak)  ![GitHub Repo stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social)
 
-Yaak 是一款基于 Tauri、Rust 和 React 构建的离线优先桌面 API 客户端，主打快速、轻量及隐私安全（无遥测、无云锁定）。主要功能包括：
-
-1. **多协议支持**：支持 REST、GraphQL、gRPC、WebSocket 和 SSE 协议，可对响应进行 JSONPath 或 XPath 过滤。
-2. **数据兼容**：支持导入 Postman、Insomnia、OpenAPI、Swagger 或 Curl 格式的集合。
-3. **安全认证**：支持 OAuth 2.0、JWT、Basic Auth 等认证方式，支持加密存储敏感信息至操作系统密钥链。
-4. **组织管理**：支持工作区、嵌套文件夹及环境变量管理，可镜像工作区至文件系统以实现 Git 版本控制或云同步。
-5. **扩展定制**：支持模板标签动态值、自定义主题及插件开发。
+Yaak 是一款基于 Tauri、Rust 和 React 构建的快速、注重隐私的桌面 API 客户端，支持 REST、GraphQL、gRPC、WebSocket 及 SSE 协议，采用离线优先设计，无遥测数据且无云锁定。核心功能包括：兼容导入 Postman、Insomnia 等格式集合；支持多协议请求发送及 JSONPath/XPath 响应过滤；提供 OAuth 2.0、JWT 等认证方式及加密密钥管理；支持工作空间与文件夹组织、环境变量切换及本地文件同步；允许通过模板标签、主题及插件进行扩展和定制。

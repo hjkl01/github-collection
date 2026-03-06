@@ -5,4 +5,4 @@ title: infracost
 
 ### [infracost infracost](https://github.com/infracost/infracost)  ![GitHub Repo stars](https://img.shields.io/github/stars/infracost/infracost?style=social)
 
-Infracost 是一款专为 Terraform 设计的云端成本估算与 FinOps 最佳实践工具。它使工程师能够在终端、VS Code 或拉取请求中，在实施更改前查看成本明细和月度成本差异。项目支持 AWS、Azure 和 Google 云超过 1,100 种资源及基于使用量的资源，并提供 Infracost Cloud SaaS 服务，支持团队策略管理、标签策略及合规性检查。
+Infracost 是一款针对 Terraform 的云成本估算和 FinOps 最佳实践工具。它支持在终端、VS Code 或拉取请求中查看成本分解，帮助工程师在变更前理解成本。项目支持 AWS、Azure 和 Google Cloud 超过 1,100 种资源，包括按使用量计费资源。提供 `infracost breakdown` 和 `infracost diff` 命令分别用于展示成本明细和变更成本差异。Infracost Cloud 提供 SaaS 服务，用于最佳实践检查、标签策略及团队护栏管理。

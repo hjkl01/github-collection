@@ -5,4 +5,4 @@ title: Mindustry-Suggestions
 
 ### [Anuken Mindustry-Suggestions](https://github.com/Anuken/Mindustry-Suggestions)  ![GitHub Repo stars](https://img.shields.io/github/stars/Anuken/Mindustry-Suggestions?style=social)
 
-本项目是游戏 Mindustry 的功能建议与反馈收集仓库。用户可提交改进建议（Bug 报告需前往主项目），讨论须保持礼貌。开发者会定期查阅，不再解释拒绝原因或关闭问题，采纳的建议将加入游戏。项目明确列出了不予采纳的功能类型，如加速机制、传送门、火车系统等。
+本项目为游戏《Mindustry》的建议与反馈仓库，Bug 报告请提交至主项目问题跟踪器。社区交流需保持礼貌，禁止人身攻击。开发者定期审核建议，合理可行的会被采纳实施，大部分因不可行、优先级低或设计不当被拒绝。开发者将不再手动关闭无效问题，新功能将直接在游戏中更新。明确列出了长期不予采纳的功能，如游戏加速、新行星、传送门、轨道列车、账号系统及特定逻辑操作等。

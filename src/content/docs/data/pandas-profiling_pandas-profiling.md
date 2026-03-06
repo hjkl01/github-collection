@@ -5,4 +5,4 @@ title: pandas-profiling
 
 ### [pandas-profiling pandas-profiling](https://github.com/pandas-profiling/pandas-profiling)  ![GitHub Repo stars](https://img.shields.io/github/stars/pandas-profiling/pandas-profiling?style=social)
 
-ydata-profiling 是一个基于 pandas 的自动化探索性数据分析 (EDA) 工具，支持通过一行代码生成详细的数据分析报告。其功能涵盖自动检测数据类型、提供单/多变量统计分析、识别数据质量问题（如缺失值、异常值）、支持时间序列与文本分析，以及图像和文件元数据分析。报告支持导出为 HTML、JSON 或在 Jupyter Notebook 中展示，具备数据集对比、Spark 扩展功能，适用于快速数据概览、质量检查及大数据分析场景。
+ydata-profiling 是一个用于快速探索性数据分析（EDA）的 Python 库，旨在通过单行代码提供一致且高效的数据分析体验。它支持对 Pandas DataFrame 或 Spark 数据进行深度分析，自动生成包含统计信息、可视化图表和数据质量警报的详细报告。核心功能包括数据类型自动推断、单变量与多变量统计分析、缺失值与重复值检测、时间序列与文本分析、文件图像分析以及数据集对比。报告支持导出为 HTML 或 JSON 格式，也可嵌入 Jupyter Notebook 展示，具备 Spark 扩展能力以处理大规模数据，并支持集成于多种开发环境和自动化工作流中。

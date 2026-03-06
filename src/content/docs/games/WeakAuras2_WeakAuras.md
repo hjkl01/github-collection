@@ -5,4 +5,4 @@ title: WeakAuras2
 
 ### [WeakAuras WeakAuras2](https://github.com/WeakAuras/WeakAuras2)  ![GitHub Repo stars](https://img.shields.io/github/stars/WeakAuras/WeakAuras2?style=social)
 
-WeakAuras 是一款《魔兽世界》强大的界面框架，用于在用户界面显示高度可定制的图形以指示增益、减益及其他游戏信息。其具备直观的配置界面，支持基于光环、血量、法力、冷却及战斗事件等多种触发条件的显示；提供进度条、自定义纹理、预设与自定义动画等视觉效果；支持 Lua 脚本高级定制、多显示项分组管理及 CPU 优化；可配置聊天公告、声音等副作用，并支持配套应用及扩展插件进一步增强功能。
+WeakAuras 是《魔兽世界》的插件框架，用于在游戏界面显示高度可定制的图形，指示增益、减益及其他信息。核心功能包括：直观的配置界面、基于多种触发条件（资源、冷却、战斗事件等）的动态显示、自定义纹理与动画、音效及聊天提示、批量分组管理及 CPU 优化。项目支持 Lua 脚本高级定制，并提供配套扩展辅助内容管理。

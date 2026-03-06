@@ -5,9 +5,11 @@ title: slack-mcp-server
 
 ### [korotovsky slack-mcp-server](https://github.com/korotovsky/slack-mcp-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/korotovsky/slack-mcp-server?style=social)
 
-本项目是一个 Slack 工作区的 Model Context Protocol (MCP) 服务器，支持 Stdio、SSE 和 HTTP 传输。核心功能包括：
+本项目是一个专为 Slack 工作区设计的 Model Context Protocol (MCP) 服务器，支持 Stdio、SSE 和 HTTP 传输及代理配置。
 
-1. **认证与模式**：支持 OAuth 或静默模式（浏览器 Token），无需额外权限即可使用，兼容企业级设置。
-2. **消息操作**：获取频道及私聊的历史消息与线程回复（支持分页）；搜索消息（支持多条件过滤）；支持安全配置下的消息发送、表情反应增删及标记已读。
-3. **信息与管理**：获取未读消息（支持优先级排序）；列出频道、用户；管理用户组（增删改查成员及成员组）。
-4. **优化与安全**：支持用户和频道缓存；敏感操作默认禁用，需环境变量启用；支持代理及 GovSlack 模式。
+核心功能：
+1. **认证与接入**：支持隐身模式（无需额外权限）和 OAuth 模式，兼容企业工作区。
+2. **消息处理**：获取频道、线程、DM 及群 DM 的消息历史（支持按日期/数量分页），提供多维度搜索、未读消息获取（含优先级排序）及标记已读功能。
+3. **交互操作**：支持安全发布消息（默认禁用）及添加/移除表情反应。
+4. **资源管理**：检索用户与频道列表，管理用户分组（创建、更新、成员变更），并提供目录资源。
+5. **性能与安全**：内置用户和频道缓存，通过环境变量精细控制工具权限。

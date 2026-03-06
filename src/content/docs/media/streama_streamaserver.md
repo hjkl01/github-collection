@@ -5,10 +5,9 @@ title: streama
 
 ### [streamaserver streama](https://github.com/streamaserver/streama)  ![GitHub Repo stars](https://img.shields.io/github/stars/streamaserver/streama?style=social)
 
-Streama 是一个个人流媒体服务器项目，用于帮助用户整理并观看自有的电影和电视剧集，提供类似 Netflix 的观影体验。
+Streama 是一款自托管的流媒体服务器软件，旨在打造个人专属的 Netflix 体验。核心功能如下：
 
-核心功能包括：
-1. **媒体管理**：集成 TMDB API 自动获取元数据与封面，支持视频拖拽上传、本地文件映射及基于正则表达式批量导入。
-2. **播放功能**：基于 HTML5 的播放器，支持断点续播、观看进度同步及类似 Netflix 的集数/季数浏览界面。
-3. **用户系统**：支持多用户账户管理、权限分配（管理员/普通用户）及邀请功能。
-4. **技术架构**：后端采用 Grails 3 构建 REST API，前端使用 AngularJS，依赖浏览器兼容性无需服务器端视频转码。
+1. **媒体管理**：集成 theMovieDB API 自动填充元数据和海报，支持视频文件拖拽上传或直接映射本地目录批量导入。
+2. **播放体验**：基于 HTML5 的播放器，提供 Netflix 风格的剧集/季浏览界面，支持播放控制及观看进度记录（继续观看）。
+3. **用户权限**：内置管理面板，支持创建用户并分配权限，区分管理员（可添加内容）与普通用户（仅浏览）。
+4. **系统配置**：支持自定义上传目录、API 密钥及文件匹配正则表达式，后端基于 Grails 3 与 SpringSecurity，前端使用 AngularJS。

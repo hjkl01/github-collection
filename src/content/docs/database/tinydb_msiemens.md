@@ -5,4 +5,4 @@ title: tinydb
 
 ### [msiemens tinydb](https://github.com/msiemens/tinydb)  ![GitHub Repo stars](https://img.shields.io/github/stars/msiemens/tinydb?style=social)
 
-TinyDB 是一个轻量级的纯 Python 文档导向数据库，无需外部依赖或服务器，专为小型应用设计。它提供简洁的 API 存储和查询字典结构的数据，核心功能包括文档插入、支持逻辑组合与条件筛选的查询语言、多表格管理及中间件扩展。项目目前已稳定成熟，处于维护模式，兼容 Python 3.8+ 及 PyPy。
+TinyDB 是一款纯 Python 编写的轻量级文档数据库，无需外部服务器或依赖即可运行。它支持存储和检索字典形式的文档，提供简洁 API 和强大查询功能（支持逻辑运算、字段转换及多表操作）。项目支持中间件和存储扩展，兼容 Python 3.8+ 及 PyPy3，适用于小型应用，目前处于稳定维护模式。

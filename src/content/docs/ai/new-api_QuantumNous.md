@@ -5,11 +5,13 @@ title: new-api
 
 ### [QuantumNous new-api](https://github.com/QuantumNous/new-api)  ![GitHub Repo stars](https://img.shields.io/github/stars/QuantumNous/new-api?style=social)
 
-New API 是一款下一代 LLM 网关和 AI 资产管理平台，核心功能如下：
+New API 是一款开源的下一代大语言模型（LLM）网关和 AI 资产管理系统。它基于 One API 开发，提供现代化的用户界面和多语言支持。
 
-1.  **模型支持**：兼容原 One API 数据库，支持 OpenAI、Claude、Google Gemini、Midjourney、Suno 及 Rerank 等多种模型接口。
-2.  **API 管理**：提供 Chat、Image、Audio、Embedding、Realtime 等标准接口，支持 OpenAI 与 Claude/Gemini 格式转换及智能路由。
-3.  **计费系统**：支持在线充值（Stripe、EPay）、按量付费、缓存计费及灵活的计费策略配置。
-4.  **权限与安全**：具备用户管理、Token 分组、模型限制功能，支持 Discord、Telegram、OIDC 等多种登录方式。
-5.  **部署与监控**：支持 Docker、宝塔面板快速部署，适配 SQLite/MySQL/PostgreSQL 数据库及 Redis，提供数据看板与统计分析。
-6.  **高级特性**：支持思维链推理配置、多语言界面（含中英文）及失败自动重试机制。
+**核心功能：**
+1.  **多模型接入**：全面支持 OpenAI、Claude、Google Gemini、Midjourney、Suno 等多种模型，提供 Chat、Image、Audio、Realtime、Rerank 等接口支持，并具备 API 格式转换能力。
+2.  **计费与支付**：内置在线充值（支持 Stripe、EPay）、按量计费、缓存计费功能，支持灵活的计费策略配置。
+3.  **权限与安全**：提供完善的权限管理、Token 分组及模型限制，支持 Discord、Telegram、OIDC 等多种授权登录方式。
+4.  **智能路由与控制**：支持渠道加权随机、失败自动重试、用户级限流及数据可视化监控。
+5.  **部署方式**：支持 Docker Compose、Docker 及宝塔面板快速部署，兼容 SQLite、MySQL 和 PostgreSQL 数据库。
+
+项目遵循 AGPLv3 开源协议。

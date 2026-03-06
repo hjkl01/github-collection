@@ -5,4 +5,10 @@ title: atrilabs-engine
 
 ### [Atri-Labs atrilabs-engine](https://github.com/Atri-Labs/atrilabs-engine)  ![GitHub Repo stars](https://img.shields.io/github/stars/Atri-Labs/atrilabs-engine?style=social)
 
-Atri 框架是一个全栈 Web 开发工具，实现了无代码与代码开发的无缝结合。它支持使用可视化构建器或编写 React 代码进行前端开发，并提供 CLI 用于部署至 AWS、GitHub Pages 等平台。该框架不限于 JavaScript，兼容 Python 等多种语言，基于对象模型管理数据以替代 REST API，配合可视化编辑器等工具显著提升开发效率。适用于构建电商、内部应用等各类 Web 应用，扩展了全栈开发边界，允许非 Web 开发人员参与应用维护。
+Atri 框架是一个支持无代码（No-code）与编码开发无缝结合的全栈 Web 开发框架。其核心功能总结如下：
+
+1. **混合开发模式**：提供可视化拖拽构建器，同时支持直接编写 React 代码。
+2. **多语言支持**：不局限于 JavaScript 生态，基于 Python 等语言扩展（NodeJS 等计划中）。
+3. **灵活部署**：提供 CLI 工具，支持部署至 AWS、GitHub Pages 或 Atri 云。
+4. **简化后端管理**：通过对象模型作为单一数据源，无需手动编写和文档化 REST API。
+5. **广泛应用场景**：适用于电商、内部应用、博客等各类 Web 项目，显著缩短开发周期并降低门槛。

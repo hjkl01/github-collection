@@ -5,4 +5,10 @@ title: any-llm
 
 ### [mozilla-ai any-llm](https://github.com/mozilla-ai/any-llm)  ![GitHub Repo stars](https://img.shields.io/github/stars/mozilla-ai/any-llm?style=social)
 
-any-llm 是一个 Python SDK，提供统一接口连接任何大语言模型（LLM）提供商，支持在 OpenAI、Anthropic、Ollama 等服务商间切换而无需修改代码。它支持按需安装提供商依赖，提供直接 API 函数（适合脚本）和 AnyLLM 类（适合生产）两种调用方式。此外，可选的 any-llm-gateway 组件提供企业级功能，包括预算限制、虚拟 API 密钥管理、使用量分析及多租户支持。该库基于官方 SDK 构建，旨在解决接口碎片化并保持框架无关性。
+any-llm 是一个 Python SDK，通过统一接口实现与各大语言模型提供商（如 OpenAI、Anthropic、Mistral、Ollama 等）的无缝通信，切换提供商无需修改代码。
+
+**核心功能：**
+1. **统一 API**：兼容官方 SDK，支持对话完成和 Responses API，框架无关。
+2. **灵活模式**：提供直接函数调用（适合脚本/实验）和 AnyLLM 类（适合生产环境/连接复用）。
+3. **企业级网关**：可选部署 any-llm-gateway，支持预算限制、密钥管理、使用分析及多租户控制。
+4. **直连支持**：无需代理服务器，直接连接各模型提供商。

@@ -5,4 +5,4 @@ title: solana
 
 ### [solana-labs solana](https://github.com/solana-labs/solana)  ![GitHub Repo stars](https://img.shields.io/github/stars/solana-labs/solana?style=social)
 
-该项目是 Solana 区块链的原始验证器实现代码库，现已归档。核心功能包括通过 Rust 进行项目构建、测试与基准测试，以及支持启动本地测试网或连接远程开发集群。后续验证器实现维护工作已转移至 Agave 项目。
+本项目为 Solana 区块链验证器的核心实现代码库（已归档）。提供编译构建、测试套件及基准测试工具，支持部署本地测试网或连接远程集群。当前 Solana 验证器实现已迁移至 Agave 项目。

@@ -5,4 +5,4 @@ title: ViewUI
 
 ### [view-design ViewUI](https://github.com/view-design/ViewUI)  ![GitHub Repo stars](https://img.shields.io/github/stars/view-design/ViewUI?style=social)
 
-ViewUI（原 iView）是一个基于 Vue.js 的高质量 UI 工具库，提供数十种美观实用的组件。项目拥有友好的 API 和详尽的文档示例，支持 Vue.js 1.x 和 2.x，兼容服务端渲染（SSR）、Nuxt.js、TypeScript 及 Electron 环境，大部分组件支持 IE9 及以上浏览器。
+ViewUI（原 iView）是基于 Vue.js 构建的高质量 UI 组件库。它包含数十个实用美观的组件，API 友好且文档详尽。支持 Vue 2.x、SSR、Nuxt.js、TypeScript 和 Electron，大部分组件兼容 IE9 及以上浏览器。支持通过 npm 安装或直接引入脚本使用。

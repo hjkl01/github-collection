@@ -5,11 +5,10 @@ title: Pulse
 
 ### [rcourtman Pulse](https://github.com/rcourtman/Pulse)  ![GitHub Repo stars](https://img.shields.io/github/stars/rcourtman/Pulse?style=social)
 
-Pulse 是一款现代化的统一监控仪表板，专为 Proxmox、Docker 和 Kubernetes 基础设施设计。它旨在为家庭实验室、系统管理员及 MSP 提供“单玻璃窗”式的监控体验，整合了指标、警报和 AI 洞察。
+Pulse 是一款面向 Proxmox、Docker 和 Kubernetes 基础设施的现代化统一监控仪表板。支持以下功能：
 
-核心功能包括：
-- **多平台监控**：统一管理 Proxmox (VE/PBS/PMG)、Kubernetes、Docker/Podman 及 OCI 容器的健康与指标。
-- **智能告警**：支持多渠道通知（如 Discord、Slack）、节点自动发现及指标历史持久化。
-- **AI 能力**：内置自然语言基础设施问答助手、计划性健康巡检（Patrol）、警报触发分析及成本跟踪。
-- **安全隐私**：凭证加密存储、支持 OIDC/SSO 单点登录、无遥测数据收集。
-- **部署灵活**：支持 Docker、Proxmox LXC、Kubernetes 及裸机安装，区分开源版与含自动修复功能的高级 Pro 版。
+1. 统一监控：整合 Proxmox VE/PBS/PMG、Kubernetes 及 Docker/Podman 的指标与健康状态。
+2. 智能告警：支持多种通知渠道，具备节点自动发现、指标历史存储及备份可视化。
+3. AI 增强：提供自然语言基础设施问答、周期性健康检查（Patrol）及告警深度分析。
+4. 安全隐私：凭证加密存储，支持单点登录，无遥测数据。
+5. 灵活部署：支持 Docker、Proxmox LXC 及 K8s 快速部署，包含免费基础版与含自动修复的 Pro 版。

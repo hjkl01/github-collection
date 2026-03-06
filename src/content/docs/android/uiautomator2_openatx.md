@@ -5,14 +5,11 @@ title: uiautomator2
 
 ### [openatx uiautomator2](https://github.com/openatx/uiautomator2)  ![GitHub Repo stars](https://img.shields.io/github/stars/openatx/uiautomator2?style=social)
 
-uiautomator2 是一个简单、易用且稳定的 Android 自动化 Python 库。
+uiautomator2 是一个简单、易用且稳定的 Android 自动化 Python 库，通过设备端 HTTP 服务和 Python 客户端通信来暴露 Android 自动化能力。
 
-它通过设备端 HTTP 服务（基于 UiAutomator）与 Python 客户端通信，实现 Android 自动化控制。主要功能包括：
-
-1. **设备连接与管理**：支持连接 Android 4.4+ 设备，获取设备信息、截图、屏幕尺寸及状态。
-2. **UI 元素操作**：提供 XPath 和 Selector 定位方式，支持点击、滑动、拖拽、手势、文本输入及等待元素存在/消失。
-3. **应用管理**：支持应用的安装、启动、停止、清除数据、获取信息及列表运行中的应用。
-4. **系统交互**：支持剪贴板操作、按键事件、Toast 消息获取、弹窗监控（WatchContext）及应用会话管理。
-5. **命令行工具**：提供截图、当前应用、安装、卸载等命令行功能。
-
-项目依赖 android-uiautomator-server 和 adbutils。
+主要功能：
+1. **设备连接**：支持通过 ADB 序列号、环境变量等连接 Android 设备（需 Android 4.4+，Python 3.8+）。
+2. **元素操作**：支持 XPath 和 Selector 定位，提供点击、长按、滑动、拖拽、手势及元素等待交互。
+3. **设备控制**：涵盖设备信息获取、截图、UI 层级导出、屏幕方向、按键事件、剪贴板及通知控制。
+4. **应用管理**：支持应用的安装、启动、停止、数据清理、信息查询及会话（Session）生命周期管理。
+5. **其他特性**：包括输入框文本操作、Toast 监控、弹窗自动处理（WatchContext）、文件传输及命令行工具支持。

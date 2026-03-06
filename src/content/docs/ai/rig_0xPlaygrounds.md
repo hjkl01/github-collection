@@ -5,12 +5,10 @@ title: rig
 
 ### [0xPlaygrounds rig](https://github.com/0xPlaygrounds/rig)  ![GitHub Repo stars](https://img.shields.io/github/stars/0xPlaygrounds/rig?style=social)
 
-Rig 是一个基于 Rust 的库，用于构建可扩展、模块化且易用的大型语言模型（LLM）应用。其主要功能包括：
+Rig 是一款基于 Rust 的库，用于构建可扩展、模块化且易用的人工智能（LLM）应用。其核心功能总结如下：
 
-- 提供统一接口支持 20 多种模型提供商和 10 多种向量存储库。
-- 支持代理工作流，处理多轮流式传输、提示及对话管理。
-- 兼容 GenAI 语义规范。
-- 支持 LLM 完成、文本嵌入、语音转录、音频生成及图像生成。
-- 核心库支持全 WASM 兼容性，代码样板极少。
-
-项目通过独立的配套 crate 扩展向量存储和模型提供商的集成能力，帮助开发者快速将 LLM 集成到应用程序中。
+1.  **统一接口**：提供 20 多种模型提供商和 10 多种向量存储的单一统一接口。
+2.  **智能体工作流**：支持多轮流式传输、提示工程及完整的人工智能语义规范（GenAI SemConv）兼容性。
+3.  **全功能支持**：涵盖 LLM 文本完成、嵌入、语音转录、音频生成和图像生成能力。
+4.  **高效集成**：最小化样板代码，核心库完全支持 WASM 环境。
+5.  **扩展生态**：提供独立的集成套件，包括多种向量存储（如 MongoDB、Qdrant）、模型提供商（如 AWS Bedrock）及区块链交互 Kit（Solana/EVM）。

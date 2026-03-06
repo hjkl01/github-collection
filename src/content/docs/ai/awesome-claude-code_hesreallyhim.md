@@ -5,4 +5,4 @@ title: awesome-claude-code
 
 ### [hesreallyhim awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)  ![GitHub Repo stars](https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=social)
 
-这是一个专为 Claude Code 打造的精选资源索引库，旨在通过汇总各类辅助资源来优化用户的工作流体验。主要功能包括：提供代理技能（Agent Skills）、开发工作流指南及自定义指令；收录 IDE 集成、CLI 工具、使用监控及会话编排器；支持状态栏定制、生命周期钩子配置及项目上下文文件（CLAUDE.md）示例；并提供第三方客户端与官方文档链接。该项目通过整合上述工具与资源，帮助用户在代码开发、审查、部署及项目管理中更高效地协作。
+这是一个精选的 Claude Code 资源列表，旨在增强开发者使用该 AI 编码工具的工作流。项目收录了提升效率的各类资源，包括代理技能、工作流与知识指南、工具（如 IDE 集成、使用监控、编排器等）、状态栏配置、钩子、斜杠命令、CLAUDE.md 文件、替代客户端及官方文档。通过聚合技能、插件、智能体和最佳实践，帮助用户更高效地进行软件工程、代码管理及自动化任务。

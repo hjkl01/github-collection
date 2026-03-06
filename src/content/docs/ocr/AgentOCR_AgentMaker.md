@@ -5,8 +5,10 @@ title: AgentOCR
 
 ### [AgentMaker AgentOCR](https://github.com/AgentMaker/AgentOCR)  ![GitHub Repo stars](https://img.shields.io/github/stars/AgentMaker/AgentOCR?style=social)
 
-AgentOCR 是基于 PaddleOCR 和 ONNXRuntime 开发的 OCR 项目，旨在提供简单方便的文本识别方案。
-1. **多语言识别**：支持简体中文、繁体中文、英文、韩文、日文等十余种语言的文本检测与识别。
-2. **项目组成**：涵盖 Python 包（AgentOCR）、OCR 标注软件及中国车牌检测识别系统（AgentCLPR）。
-3. **灵活部署**：支持本地 Python API 调用、Jupyter Notebook 实验及 HTTP Server 服务。
-4. **环境兼容**：支持 CPU 及 GPU（CUDA/DirectML）加速，内置多种语言模型配置。
+AgentOCR 是基于 PaddleOCR 和 ONNXRuntime 开发的易用 OCR 项目，核心功能如下：
+
+1. **多语言支持**：支持中（简/繁）、英、韩、日、法、德等多种文字的文本检测与识别。
+2. **多元组件**：集成 Python 包、OCR 标注软件及中国车牌识别系统。
+3. **多种部署**：支持 Python 接口调用、服务器 API 部署及 Notebook 使用。
+4. **硬件加速**：兼容 ONNXRuntime，支持 CPU、GPU 及 DirectML 加速。
+5. **灵活配置**：提供多种检测、分类及识别模型配置选项。

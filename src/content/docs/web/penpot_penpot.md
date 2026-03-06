@@ -5,4 +5,4 @@ title: penpot
 
 ### [penpot penpot](https://github.com/penpot/penpot)  ![GitHub Repo stars](https://img.shields.io/github/stars/penpot/penpot?style=social)
 
-Penpot 是一款免费的开源设计与代码协作工具，面向设计师和开发者。它基于开放标准（SVG、CSS、HTML、JSON），支持创建设计、交互原型及设计系统，并提供可直接使用的代码。核心功能包括原生设计令牌、插件系统、代码检查模式及 API 与 Webhook 集成。支持浏览器访问或自托管部署（Docker/Kubernetes 等），采用 MPL-2.0 协议。
+Penpot 是一款开源的设计与代码协作工具，专为设计师和开发者打造。它支持创建设计稿、交互式原型及规模化设计系统，并提供即时可用的代码（SVG、CSS、HTML），实现设计与开发的无缝协作。工具支持浏览器在线使用或私有化部署，基于开放标准。核心功能包括原生设计令牌集成、CSS 网格布局、审查模式、插件系统及 API/Webhook 集成，致力于消除设计与开发之间的隔阂。

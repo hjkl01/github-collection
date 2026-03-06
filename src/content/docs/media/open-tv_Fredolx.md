@@ -5,4 +5,4 @@ title: open-tv
 
 ### [Fredolx open-tv](https://github.com/Fredolx/open-tv)  ![GitHub Repo stars](https://img.shields.io/github/stars/Fredolx/open-tv?style=social)
 
-Fred TV（原名 Open TV）是一款免费开源的跨平台 IPTV 播放器，旨在提供快速流畅的观看体验。核心功能包括：支持导入 M3U 文件、链接及 Xtream 等多种频道源；支持多源管理、刷新及边看边录；具备低内存占用、极速搜索和即时响应特性；支持电视遥控器及键盘快捷键操作；支持创建、收藏、分享自定义频道及推流至其他设备。项目基于 mpv、ffmpeg 和 yt-dlp 构建，兼容 Windows、Linux、macOS、Android 及 iOS 系统。
+Fred TV（原名 Open TV）是一款开源免费的跨平台 IPTV 播放器，支持 Windows、macOS、Linux、Android 及 iOS 系统。该项目致力于提供低内存占用、高性能且快速的 IPTV 体验。核心功能包括：支持导入 M3U 文件、链接及 Xtream 源，支持多源共存，具备观看时录制功能，支持电视遥控器控制，提供即时搜索与频道收藏管理，允许创建和分享自定义频道，以及支持将频道重推流至其他设备。软件依赖 mpv、ffmpeg 和 yt-dlp，支持 Docker 部署，并提供流缓存等配置选项。

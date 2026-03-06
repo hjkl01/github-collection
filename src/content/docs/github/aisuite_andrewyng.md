@@ -5,9 +5,12 @@ title: aisuite
 
 ### [andrewyng aisuite](https://github.com/andrewyng/aisuite)  ![GitHub Repo stars](https://img.shields.io/github/stars/andrewyng/aisuite?style=social)
 
-aisuite 是一个轻量级 Python 库，旨在为多种生成式 AI 提供商提供统一的 API 接口。它屏蔽了 OpenAI、Anthropic、Google、AWS 等不同平台的 SDK 差异、认证细节及参数变化，使开发者能够以极简方式构建 LLM 或智能体应用。主要功能包括：
+aisuite 是一个轻量级 Python 库，提供统一的 API 接口以对接多个生成式 AI 提供商（如 OpenAI、Anthropic、Google、Hugging Face 等）。它通过抽象 SDK 差异和认证细节，实现跨模型的一站式集成。
 
-1. **统一 API 接口**：支持代码一次编写跨平台运行，可无缝切换不同的模型提供商。
-2. **智能体应用构建**：提供简单抽象，通过 `max_turns` 参数即可自动管理多轮对话与工具执行循环。
-3. **工具调用支持**：支持直接传递 Python 函数作为工具，自动处理 Schema 生成与执行；同时原生集成 Model Context Protocol (MCP)。
-4. **模块化扩展**：采用插件式架构，允许通过编写轻量级适配器轻松添加新的模型提供商支持。
+主要功能包括：
+1. 统一 API：编写一次代码即可在多个提供商间切换，标准化聊天补全请求与响应。
+2. 轻量级 Agent 构建：支持通过参数配置多轮对话和自动化工具执行流。
+3. 灵活工具调用：支持直接传递 Python 函数或 MCP 工具，自动处理 Schema 生成与执行。
+4. 扩展性强：采用插件式架构，便于快速添加新的模型提供商支持。
+
+该库旨在降低学习成本，让开发者专注于 AI 系统构建而非 API 集成。

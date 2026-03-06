@@ -5,11 +5,9 @@ title: open-im-server
 
 ### [openimsdk open-im-server](https://github.com/openimsdk/open-im-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=social)
 
-OpenIM 是一款面向开发者的开源即时通信解决方案，由 OpenIM SDK 和 OpenIM Server 组成，旨在帮助开发者将即时通讯功能集成至自有应用。
+OpenIM 是一个面向开发者的开源即时通讯解决方案，旨在提供完整的 IM 功能集成工具，而非独立的聊天应用。项目主要由客户端 SDK 和服务端 Server 组成：
 
-核心功能总结如下：
-1. **通讯能力**：支持消息发送与接收、会话处理、本地存储及连接管理。
-2. **关系管理**：提供完整的用户管理、好友管理及群组功能。
-3. **服务端架构**：采用微服务架构支持集群部署，可承载百万级用户与海量消息，支持 Docker、Kubernetes 及源码部署。
-4. **业务扩展**：提供 REST API 接口及 Webhooks 回调机制，便于与业务系统对接。
-5. **跨平台支持**：基于 Go 语言开发，兼容 Linux、Windows、Mac 系统及 ARM、AMD 架构。
+1. **OpenIM SDK**：支持跨平台（iOS/Android/PC/Web），提供用户管理、好友、群组、会话、本地存储及连接管理等核心模块。
+2. **OpenIM Server**：采用微服务架构，支持集群部署与海量并发（百万级用户、十亿级消息），提供 REST API 和 Webhooks 以扩展业务能力。
+
+项目支持源码、Docker 及 Kubernetes 多种部署方式，兼容 Linux、Windows、Mac 系统及 ARM、AMD 架构，采用 Apache-2.0 开源协议。

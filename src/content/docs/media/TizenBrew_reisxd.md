@@ -5,4 +5,4 @@ title: TizenBrew
 
 ### [reisxd TizenBrew](https://github.com/reisxd/TizenBrew)  ![GitHub Repo stars](https://img.shields.io/github/stars/reisxd/TizenBrew?style=social)
 
-TizenBrew 是一个 Tizen 设备应用安装工具，允许用户无需反复使用 Tizen Studio，通过一键操作即可安装自定义应用（如 TizenTube）。项目同时提供模块开发指南及多语言翻译支持。
+TizenBrew 是一款专为 Tizen 平台设计的自定义应用安装与管理工具。用户可通过它轻松安装各类自定义应用及模块（如 TizenTube），无需反复使用 Tizen Studio，实现一键完成安装。项目还提供使用、模块开发及翻译指南。

@@ -5,4 +5,4 @@ title: etcd
 
 ### [etcd-io etcd](https://github.com/etcd-io/etcd)  ![GitHub Repo stars](https://img.shields.io/github/stars/etcd-io/etcd?style=social)
 
-etcd 是一个基于 Go 开发的分布式可靠键值存储系统，用于存储分布式系统的关键数据。它基于 Raft 共识算法管理高可用复制日志，具备 API 简单（gRPC）、安全（TLS 认证）、快速（高写入性能）和可靠的特点。项目提供命令行工具（etcdctl）和客户端库，支持单机及集群部署，广泛应用于 Kubernetes 等生产环境。
+etcd 是一个由 Go 编写的分布式可靠键值存储系统，用于管理分布式系统的核心数据。它利用 Raft 共识算法确保数据的高可用复制，具备 gRPC API、自动 TLS 安全认证、高写入性能及强可靠性。etcd 广泛应用于 Kubernetes 等生产环境，并提供 etcdctl 命令行工具及完善的文档支持。

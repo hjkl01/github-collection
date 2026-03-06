@@ -5,4 +5,4 @@ title: Web-Dev-For-Beginners
 
 ### [microsoft Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/Web-Dev-For-Beginners?style=social)
 
-本项目是微软推出的 Web 开发入门课程，包含 12 周 24 节的系统化教学内容。课程涵盖 HTML、CSS 和 JavaScript 基础，通过构建虚拟温室、浏览器扩展、游戏及银行应用等实操项目教授开发技能。支持 50 多种语言，提供本地与云端代码环境配置、测验及 GitHub Copilot 辅助编程挑战。采用项目驱动教学法，旨在帮助初学者及学生系统掌握 Web 开发核心知识与实践能力。
+这是微软推出的为期 12 周的网页开发入门课程，通过基于项目的实践教学法帮助初学者掌握 HTML、CSS 和 JavaScript 核心技能。课程包含多个章节及实战项目（如生态瓶、浏览器扩展、太空游戏、银行应用及 AI 助手），辅以课前课后测验与挑战任务。系统支持 50 多种语言，兼容 GitHub Codespace 及本地 VS Code 环境，并包含生成式 AI 学习资源，旨在帮助学习者建立扎实的前端开发能力。

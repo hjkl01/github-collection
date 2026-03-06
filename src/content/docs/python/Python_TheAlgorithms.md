@@ -5,4 +5,4 @@ title: Python
 
 ### [TheAlgorithms Python](https://github.com/TheAlgorithms/Python)  ![GitHub Repo stars](https://img.shields.io/github/stars/TheAlgorithms/Python?style=social)
 
-这是一个以教育为目的的 Python 算法库，提供了多种算法的源码实现供学习参考。代码效率可能低于标准库，仅供学习使用。项目包含算法目录、贡献指南及社区交流渠道。
+本项目是一个教育性算法库，使用 Python 实现了多种算法，旨在用于学习参考。代码实现可能不如 Python 标准库高效，同时提供算法目录、贡献指南及社区交流渠道。

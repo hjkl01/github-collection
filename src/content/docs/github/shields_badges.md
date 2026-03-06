@@ -5,4 +5,4 @@ title: shields
 
 ### [badges shields](https://github.com/badges/shields)  ![GitHub Repo stars](https://img.shields.io/github/stars/badges/shields?style=social)
 
-该项目是 Shields.io 服务的源码，主要功能是在 GitHub 说明文档或网页中生成简洁、一致的 SVG 和光栅格式徽章。它支持数十种持续集成、包注册表、应用商店、社交网络、代码覆盖率及分析服务。项目包含前后端代码、徽章生成 NPM 库及设计规范，并支持用户自行部署服务器。
+Shields.io 是一个提供简洁、一致且易读的 SVG 及栅格格式徽章的服务，广泛适用于 GitHub README 及网页。它支持数十种持续集成服务、包注册表、应用商店、代码覆盖率及分析服务。项目包含前端与服务器代码、NPM 徽章生成库及徽章设计规范，支持用户自定义徽章、自托管部署，并允许社区贡献新的徽章服务。

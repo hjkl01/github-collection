@@ -5,4 +5,4 @@ title: airi
 
 ### [moeru-ai airi](https://github.com/moeru-ai/airi)  ![GitHub Repo stars](https://img.shields.io/github/stars/moeru-ai/airi?style=social)
 
-AIRI 项目是一个旨在复刻 Neuro-sama 的开源平台，致力于构建 AI 虚拟伴侣或虚拟主播的数字生命容器。项目利用 WebGPU、WebAudio 等现代 Web 技术及原生计算能力（如 CUDA/Metal），支持在浏览器、桌面端和移动端跨平台运行。核心功能包括语音交互（识别与合成）、游戏娱乐（如 Minecraft、Factorio）、跨平台聊天（Telegram、Discord）以及角色模型控制（VRM、Live2D）。系统兼容多种大语言模型 API，允许用户随时随地拥有个性化的数字生命，并提供子项目生态以扩展功能。
+AIRI 项目旨在复刻 Neuro-sama，打造可独立拥有的 AI 虚拟伴侣。项目利用大语言模型（支持多种 LLM 提供商）作为核心，实现对话、游戏互动（如 Minecraft、Factorio）及多平台聊天（Discord、Telegram）。支持 VRM 和 Live2D 模型动画控制（自动眨眼、注视等），集成语音识别与语音合成模块。基于 Web 技术构建，兼容浏览器、桌面端及移动端，并提供本地数据库记忆功能，旨在让用户随时随地运行自己的数字生命。

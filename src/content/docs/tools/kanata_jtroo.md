@@ -5,8 +5,10 @@ title: kanata
 
 ### [jtroo kanata](https://github.com/jtroo/kanata)  ![GitHub Repo stars](https://img.shields.io/github/stars/jtroo/kanata?style=social)
 
-Kanata 是一款跨平台（Linux、macOS、Windows）的软件键盘重映射工具，旨在让普通键盘具备类似 QMK 固件的高级自定义能力。其主要功能包括：
-- **多层布局**：支持多个键盘功能层，允许将任意键设为切换键。
-- **高级定制**：支持点击 - 保持（tap-hold）、宏命令、Unicode 输出及 Vim 风格前导序列。
-- **配置管理**：配置文件人类可读，支持实时重载更改。
-- **扩展支持**：支持 TCP 服务器与其他程序交互，Windows 下支持拦截驱动。
+Kanata 是一款跨平台软件键盘重映射工具，支持 Linux、macOS 和 Windows。
+核心功能包括：
+- 多层键功能：支持任意按键的层级切换，类似 Shift 键机制。
+- 高级行为自定义：支持 tap-hold、宏、Unicode 输出及 Vim 风格序列。
+- 便捷配置：使用人类可读的配置文件，支持配置热重载。
+- 扩展支持：可选 TCP 服务器交互及 Windows 拦截驱动支持。
+旨在无需修改固件的情况下，为任意键盘提供类似 QMK 的高级定制能力。

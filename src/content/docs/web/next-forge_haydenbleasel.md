@@ -5,4 +5,4 @@ title: next-forge
 
 ### [haydenbleasel next-forge](https://github.com/haydenbleasel/next-forge)  ![GitHub Repo stars](https://img.shields.io/github/stars/haydenbleasel/next-forge?style=social)
 
-next-forge 是一款面向 Next.js 的 Turborepo 生产级 Monorepo 模板，专为构建 SaaS 应用设计。项目内置完整的开发基础设施，包含营销网站、主应用、API 服务器、文档站点、邮件模板及组件库等多个可独立部署的应用。集成了认证、数据库、支付、邮件发送、分析、监控、安全、CMS、SEO、AI 集成、Webhook 及国际化等丰富功能模块，采用 TypeScript、Tailwind CSS 及 Clerk、Stripe 等主流服务，旨在提供快速构建、类型安全且易于维护的高质量产品起点。
+next-forge 是一个面向 SaaS 应用的生产级 Next.js Turborepo 模板，旨在提供坚实且高度集成的开发基础，实现最小配置下的快速交付。项目采用 Monorepo 结构，包含营销网站、主应用、API、文档、邮件模板及组件库等独立可部署应用。内置功能涵盖身份认证、数据库、设计系统、支付、邮件、分析、可观测性、安全、内容管理、SEO 及 AI 集成等，严格遵循快速、经济、现代化及安全的核心原则。

@@ -5,4 +5,11 @@ title: pyroscope
 
 ### [pyroscope-io pyroscope](https://github.com/pyroscope-io/pyroscope)  ![GitHub Repo stars](https://img.shields.io/github/stars/pyroscope-io/pyroscope?style=social)
 
-Grafana Pyroscope 是一个持续分析平台，旨在揭示应用程序的性能洞察（如 CPU、内存和 I/O），帮助用户优化资源使用。它支持主动预防性能问题及被动响应故障排查，并提供行级别细节。平台由服务器、客户端 SDK（或 Grafana Alloy）及无查询的 Explore Profiles UI 组成，支持 Go、Java、Python、Node.js、.NET 等多种语言，可集成到 Grafana 环境中。
+Grafana Pyroscope 是一个连续性能剖析平台，用于从应用程序中揭示性能洞察，帮助优化 CPU、内存及 I/O 等资源消耗。它支持主动预防性能问题和被动排查系统瓶颈，提供行级别的调试细节以辅助根因分析。
+
+系统主要由三个核心组件构成：
+1. **Pyroscope Server**：负责存储和处理剖析数据。
+2. **数据采集端**：通过 Pyroscope SDKs 或 Grafana Alloy 从应用收集数据，支持 Go、Java、Python、Ruby、Node.js、.NET、Rust 及 eBPF 等多种语言和环境。
+3. **Explore Profiles UI**：集成于 Grafana 的无查询直观界面，用于可视化和分析剖析数据。
+
+该平台旨在帮助开发者全面理解应用行为，并在生产环境中进行针对性的性能优化与故障解决。

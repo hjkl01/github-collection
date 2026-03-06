@@ -5,4 +5,4 @@ title: trpc-agent-go
 
 ### [trpc-group trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)  ![GitHub Repo stars](https://img.shields.io/github/stars/trpc-group/trpc-agent-go?style=social)
 
-tRPC-Agent-Go 是一款用于构建智能代理系统的强大 Go 框架，旨在使用 Go 高效创建 AI 应用。其核心功能涵盖智能推理与多代理编排（支持链式、并行及图工作流）、丰富的工具集成（API、数据库、MCP 协议）、持久化记忆与长期状态管理、以及基于 SKILL.md 的可复用技能系统。项目提供生产级保障，包括内置遥测跟踪、评估基准测试、提示词缓存优化、版本化文件存储（Artifacts）以及 AG-UI 和 A2A 互操作性支持。架构包含 Runner、Agent、Planner、Memory 等核心组件，支持多种 LLM 模型，适用于智能客服、数据分析、DevOps 自动化、业务流程自动化及 RAG 知识管理等场景。
+tRPC-Agent-Go 是一个用于构建智能代理系统的强大 Go 框架，旨在简化 AI 应用的开发。它支持创建能够思考、记忆、协作和行动的自主代理。核心功能涵盖多代理编排（链式、并行及图工作流）、智能推理（分层规划器）、丰富的工具集成（API、数据库、MCP）、持久化记忆与上下文管理、RAG 知识检索、基于 SKILL.md 的技能工作流、版本化文件存储以及提示词缓存优化。框架内置生产级特性，包括遥测、分布式跟踪、评估基准测试、AG-UI 交互及 A2A 互操作。该框架具有高可扩展性和低延迟特性，适用于客户支持、数据分析、DevOps 自动化及业务流程自动化等场景。

@@ -5,12 +5,12 @@ title: chatwoot
 
 ### [chatwoot chatwoot](https://github.com/chatwoot/chatwoot)  ![GitHub Repo stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social)
 
-Chatwoot 是一款现代化的开源自托管客户支持平台，核心功能如下：
+Chatwoot 是一款现代、开源、支持自托管的客户支持平台，旨在替代 Intercom、Zendesk 等商业软件。主要功能包括：
 
-1. **全渠道支持**：将网站聊天、邮件、社交媒体（Facebook、WhatsApp、Twitter 等）整合至单一收件箱。
-2. **AI 智能助手 (Captain)**：自动化回复常见问题，处理常规咨询，降低人工客服负担。
-3. **帮助中心门户**：支持发布帮助文章和 FAQ，让客户自助解决问题。
-4. **团队协作与生产力**：提供私有笔记、标签、快捷回复、自动分配、多语言支持及工作流自动化。
-5. **客户数据管理**：包含联系人档案、细分、活动营销及自定义属性管理。
-6. **广泛集成**：支持 Slack、Shopify、Dialogflow、Linear 及 Google Translate 等第三方工具。
-7. **报表与洞察**：提供实时对话监控、运营报告及客户满意度（CSAT）分析。
+- **全渠道支持**：将网站聊天、邮件及社交媒体（Facebook、WhatsApp、Telegram 等）对话整合至统一收件箱。
+- **AI 智能助手**：内置 Captain 机器人，自动处理常见查询以减轻人工负担。
+- **帮助中心**：提供门户发布文章、FAQ 和指南，实现客户自助服务。
+- **团队协作**：支持内部备注、标签、快捷回复、自动分配及多语言支持。
+- **客户数据管理**：涵盖联系人管理、用户细分、营销活动及自定义属性。
+- **第三方集成**：兼容 Slack、Dialogflow、Shopify、Linear 等应用。
+- **报表分析**：提供实时对话监控、满意度（CSAT）报告及运营数据追踪。

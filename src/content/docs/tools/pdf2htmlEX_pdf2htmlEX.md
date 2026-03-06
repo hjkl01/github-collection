@@ -5,13 +5,4 @@ title: pdf2htmlEX
 
 ### [pdf2htmlEX pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX)  ![GitHub Repo stars](https://img.shields.io/github/stars/pdf2htmlEX/pdf2htmlEX?style=social)
 
-pdf2htmlEX 是一个利用现代 Web 技术将 PDF 文件转换为 HTML 的开源工具。
-
-主要功能：
-* 保留原生 HTML 文本，精确控制字体与位置。
-* 支持单文件 HTML 或按需加载页面。
-* 支持链接、书签、打印、SVG 背景及 Type 3 字体。
-* 适用于含公式图表的学术论文及复杂排版杂志。
-* 修复大量边缘情况 Bug，优化遮挡文本处理与 DPI 设置。
-
-基于 poppler 和 Fontforge 构建，采用 GPLv3+ 协议。
+pdf2htmlEX 是一款利用现代 Web 技术将 PDF 文件渲染为 HTML 的工具。它保留原生 HTML 文本的精确字体与位置，支持链接与书签、灵活输出模式，并提供打印及 SVG 背景支持。工具修复了大量 Bug，整合最新 Cairo 代码，优化了遮挡文本识别与 DPI 设置，适用于学术论文、杂志等复杂排版及多语言文档转换，输出体积适中。

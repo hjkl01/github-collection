@@ -5,10 +5,4 @@ title: chainlink
 
 ### [smartcontractkit chainlink](https://github.com/smartcontractkit/chainlink)  ![GitHub Repo stars](https://img.shields.io/github/stars/smartcontractkit/chainlink?style=social)
 
-Chainlink 是一个去中心化预言机网络项目，旨在通过安全机制扩展智能合约功能，使其能够安全访问现实世界数据及进行链下计算。
-
-核心内容包括：
-1. **节点服务**：提供核心节点与合约，支持 Docker 镜像或二进制部署，配备 Web UI 和 CLI 客户端用于任务管理。
-2. **数据集成**：兼容多种以太坊执行客户端，并通过外部适配器（External Adapters）实现自定义 API 调用与计算。
-3. **安全验证**：支持使用 Cosign 对官方发布版本进行签名验证，确保节点安全与可信。
-4. **扩展生态**：支持插件系统安装与构建，并提供完整的开发、测试及版本管理工具链。
+Chainlink 是一个去中心化预言机网络，旨在扩展智能合约能力，使其能够在保持安全性的前提下访问真实世界数据和执行链下计算。项目核心包含 Chainlink 核心节点和智能合约，提供打包的二进制文件及 Docker 镜像供节点运营者接入网络，需配合以太坊执行客户端使用。它支持通过外部适配器和插件系统实现自定义计算及 API 集成，并提供自动化任务 (Jobs) 管理功能。此外，项目还提供 Web UI 界面和远程 CLI 工具用于节点配置与交互，并包含完整的构建、测试及开发环境搭建指南，支持官方发布版本的签名验证。

@@ -5,10 +5,12 @@ title: tempo
 
 ### [tempoxyz tempo](https://github.com/tempoxyz/tempo)  ![GitHub Repo stars](https://img.shields.io/github/stars/tempoxyz/tempo?style=social)
 
-Tempo 是一个专为大规模稳定币支付设计的区块链网络，核心功能如下：
+Tempo 是专为大规模稳定币支付设计的区块链网络，具备以下核心功能：
 
-1. **支付专用架构**：基于 TIP-20 代币标准，提供专用支付通道以避免网络拥堵，内置合规策略及链上对账功能。
-2. **低成本稳定币费用**：Gas 费支持以稳定币支付，通过 Fee AMM 自动转换，单笔转账成本低于 0.001 美元。
-3. **智能账户功能**：支持原子批量支付、费用代付、定时支付及 Passkeys（生物识别）认证。
-4. **高性能与 EVM 兼容**：基于 Reth SDK 和 Simplex 共识实现亚秒级最终性；完全兼容以太坊虚拟机及工具链（Solidity、Foundry 等）。
-5. **开发者支持**：提供 TypeScript、Rust、Go 等 SDK，支持本地节点运行及公共测试网接入，适用于金融及支付基础设施。
+- **专用支付标准**：TIP-20 代币标准提供专用支付通道，消除拥堵干扰，支持原生对账及内置合规政策管理。
+- **低成本费用**：用户可直接使用稳定币支付 Gas 费，TIP-20 转账目标成本低于 0.001 美元。
+- **智能账户功能**：支持批量支付、费用赞助、定时支付及基于 Passkey 的现代身份验证。
+- **高性能架构**：基于 Reth SDK 构建，采用 Simplex 共识机制，实现亚秒级快速确认。
+- **EVM 兼容性**：完全兼容以太坊虚拟机及工具链（Solidity、Foundry 等），JSON-RPC 方法开箱即用。
+
+项目提供公共测试网接入、多语言 SDK（TypeScript、Rust、Go 等）及节点部署指南。

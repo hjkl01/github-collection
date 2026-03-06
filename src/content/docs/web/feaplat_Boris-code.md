@@ -5,10 +5,10 @@ title: feaplat
 
 ### [Boris-code feaplat](https://github.com/Boris-code/feaplat)  ![GitHub Repo stars](https://img.shields.io/github/stars/Boris-code/feaplat?style=social)
 
-feaplat 是基于 Docker Swarm 的分布式爬虫管理系统，采用 Master 调度与 Worker 运行分离架构。
-1. 支持任意 Python 脚本（如 feapder、scrapy）及浏览器渲染（Playwright、Selenium）。
-2. 支持自动负载均衡、弹性伸缩、多实例分布式运行及 4 种定时启动方式。
-3. Worker 节点随任务动态生成，完成后自动销毁，保障高稳定性。
-4. 支持数据与请求监控，允许自定义监控内容及 Worker 运行环境镜像。
-5. 提供项目、任务及实例日志的 Web 可视化管控。
-6. 支持 Docker 一键部署，可动态扩展集群节点及私有项目 SSH 拉取。
+feaplat 是一款基于 Docker Swarm 的分布式爬虫管理系统，核心功能如下：
+
+1. **多框架支持**：兼容 feapder、scrapy 等任意 Python 脚本，支持 Playwright 和 Selenium 浏览器渲染（含无头/有头模式）。
+2. **弹性架构**：Master 调度与 Worker 执行分离，Worker 节点随任务动态生成，任务完成后自动销毁，支持弹性伸缩与自动负载均衡。
+3. **任务管理**：支持项目编辑、4 种定时启动方式、任务实例日志查看及自定义监控内容。
+4. **集群与环境定制**：支持服务器集群管理、多实例分布式运行，允许自定义 Worker 镜像以适配特殊环境（如 Java、机器学习）。
+5. **便捷部署**：提供 Docker 一键部署方案，支持私有项目拉取与集群节点扩展。

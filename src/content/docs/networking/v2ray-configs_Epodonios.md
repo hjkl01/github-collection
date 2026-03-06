@@ -5,4 +5,4 @@ title: v2ray-configs
 
 ### [Epodonios v2ray-configs](https://github.com/Epodonios/v2ray-configs)  ![GitHub Repo stars](https://img.shields.io/github/stars/Epodonios/v2ray-configs?style=social)
 
-该项目是一个提供批量 V2ray 配置文件的资源库，主要功能包括：自动采集并免费提供支持多种协议（Vmess、Vless、Trojan、Tuic、Shadowsocks、SSR）的配置文件，每五分钟更新一次；提供全量、Base64、按协议及按数量分类的订阅链接，兼容 Android、iOS、Windows 和 Linux 主流客户端；附带 Python 扫描脚本用于测试节点延迟并筛选可用配置；以及提供通过代理软件或系统设置实现系统全局代理联网的操作教程。
+本项目提供批量免费的 V2ray 配置文件订阅链接，支持 Vmess、Vless、Trojan、Tuic、Shadowsocks 及 ShadowsocksR 协议。配置文件每五分钟自动更新，支持 Base64、标准及分割格式，兼容 Android、iOS、Windows 及 Linux 客户端。项目附带一个轻量级 Python 脚本，用于扫描、测试配置节点延迟并筛选结果。此外还提供通过 Proxifier 或系统代理设置实现整机流量代理的教程。

@@ -5,4 +5,12 @@ title: agent
 
 ### [stakpak agent](https://github.com/stakpak/agent)  ![GitHub Repo stars](https://img.shields.io/github/stars/stakpak/agent?style=social)
 
-Stakpak 是一个开源的 24/7 自主运维 Agent，旨在提供类似 PaaS 的自动化体验且无厂商锁定。它常驻本地机器，自动维护应用运行，仅在必要时请求人工干预。核心特性包括：安全加固（密钥隐式替换、网络护栏阻止破坏性操作、mTLS 加密及隐私模式），DevOps 自动化（基础设施代码生成、K8s 调试、CI/CD 配置、可逆文件操作），自适应智能（规则书自定义行为、持久知识记忆），以及灵活部署（CLI、Docker、支持多种 LLM）。此外，项目还支持 MCP 协议服务器及编辑器（如 Zed）的 ACP 集成，确保 AI 在安全可控的前提下管理生产环境。
+Stakpak 是一个开源的 24/7 运行自动化 DevOps 智能体，提供无厂商锁定的应用部署与维护体验。
+
+核心功能：
+1. **Autopilot 自动运行**：常驻机器监控应用健康、调试 Kubernetes、配置 CI/CD 并自动化部署。
+2. **安全保护**：支持密钥代换（AI 无需接触密钥）、操作拦截规则、mTLS 加密及隐私数据脱敏。
+3. **自适应智能**：兼容多种 LLM，内置规则书（Rule Books）定制行为，具备代码索引与持久化记忆。
+4. **集成能力**：提供 CLI 工具（兼容 Linux/Mac/Windows）及 Docker 镜像，支持 MCP Server 和 ACP 协议，可集成至 Zed 等编辑器。
+
+该项目旨在利用 AI 辅助完成基础设施管理和运维任务，同时保障生产环境安全。

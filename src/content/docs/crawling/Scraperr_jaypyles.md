@@ -5,4 +5,4 @@ title: Scraperr
 
 ### [jaypyles Scraperr](https://github.com/jaypyles/Scraperr)  ![GitHub Repo stars](https://img.shields.io/github/stars/jaypyles/Scraperr?style=social)
 
-Scraperr 是一款无需编写代码的自托管网页抓取解决方案。核心功能包括基于 XPath 的元素提取、任务队列管理、同域名全站爬取、自定义请求头、自动下载多媒体资源、结果可视化表格展示、数据导出（Markdown/CSV）及任务完成通知。支持 Docker 和 Helm 部署，使用需遵守网站 robots.txt 及服务条款。
+Scraperr 是一款无需编写代码的自托管网络爬虫解决方案。它支持基于 XPath 精准提取页面元素、管理抓取任务队列、爬取同域名下多个页面、自定义请求头、自动下载媒体资源、可视化展示抓取结果，并支持导出 Markdown 和 CSV 格式数据。项目支持 Docker 和 Helm 部署，并提供多种任务完成通知渠道。

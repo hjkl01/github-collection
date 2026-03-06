@@ -5,8 +5,4 @@ title: SoulX-Podcast
 
 ### [Soul-AILab SoulX-Podcast](https://github.com/Soul-AILab/SoulX-Podcast)  ![GitHub Repo stars](https://img.shields.io/github/stars/Soul-AILab/SoulX-Podcast?style=social)
 
-SoulX-Podcast 是一款面向播客风格的多轮多说话人对话语音生成模型，同时也支持传统独白 TTS 任务。核心功能包括：
-1. **长篇幅多轮对话生成**：支持高质量、自然的多说话人对话语音合成。
-2. **跨方言零样本语音克隆**：支持普通话、英语及四川话、河南话、粤语等多种中方言，实现任意支持方言的个性化生成。
-3. **副语言控制**：支持笑、叹息、呼吸、咳嗽、清嗓等副语言事件标签，增强合成语音的真实感。
-4. **部署支持**：提供 WebUI 界面、Docker 容器化部署及 vLLM 加速推理支持。
+SoulX-Podcast 是一个专为播客风格设计的语音生成模型，支持多轮、多说话人的对话式语音合成及传统独白 TTS 任务。其核心功能包括：支持长文本、高质量的对话生成；具备跨方言零样本语音克隆能力，覆盖普通话、英语及四川话、河南话、粤语等中文方言；提供笑声、叹息、呼吸等多种语用控制标签以增强真实感。项目提供基础与方言两种模型，支持命令行、WebUI 推理及 Docker 加速部署，采用 Apache 2.0 开源协议。

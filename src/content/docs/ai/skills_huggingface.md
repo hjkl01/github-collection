@@ -5,4 +5,4 @@ title: skills
 
 ### [huggingface skills](https://github.com/huggingface/skills)  ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/skills?style=social)
 
-Hugging Face Skills 是一个与主流编码代理工具（如 OpenAI Codex、Anthropic Claude、Google Gemini、Cursor）兼容的 AI/ML 任务定义仓库。它通过标准化的技能文件夹提供指令、脚本和资源，指导 AI 代理完成数据集创建、模型训练、评估、推理及部署等工作。项目预置了 Gradio 构建、HF Hub 管理、数据集操作、模型训练、实验跟踪等多种技能，支持用户直接安装使用或按规范自定义并贡献技能。
+该项目提供 Hugging Face Skills，是一套面向 AI/ML 任务（如数据集创建、模型训练、评估）的标准化技能定义库，可与 OpenAI Codex、Claude Code、Gemini CLI 和 Cursor 等主流编码代理工具互操作。技能以包含指令和脚本的文件夹形式存在，预置了 Hugging Face 生态相关的多种具体实现（如 CLI 操作、数据集管理、模型训练、Gradio 构建、实验追踪等）。用户可将技能安装至开发环境，并直接在编码代理指令中调用，以自动化执行特定任务。项目同时支持技能的自定义、贡献及市场化管理。

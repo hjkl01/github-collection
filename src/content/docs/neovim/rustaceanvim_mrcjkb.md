@@ -5,4 +5,4 @@ title: rustaceanvim
 
 ### [mrcjkb rustaceanvim](https://github.com/mrcjkb/rustaceanvim)  ![GitHub Repo stars](https://img.shields.io/github/stars/mrcjkb/rustaceanvim?style=social)
 
-rustaceanvim 是一款用于 Neovim 的 Rust 开发增强插件，基于 rust-analyzer LSP。它无需手动调用 setup 即可自动配置，开箱即用。核心功能涵盖：自动调试集成（支持 nvim-dap）、可运行目标与测试管理（含 Neotest 适配器）、代码辅助（宏展开、代码操作、悬停动作）、诊断与错误解释、项目导航（符号搜索、相关诊断跳转）、静态分析（Crate 图、语法树、HIR/MIR 视图）及结构搜索替换。插件支持自动懒加载，兼容 Neovim 0.11+ 标准环境。
+rustaceanvim 是一个专为 Neovim 打造的 Rust 开发增强插件，基于 rust-analyzer LSP 客户端。它无需 setup 函数即可自动工作，不依赖 nvim-lspconfig。主要功能包括：调试集成（支持 nvim-dap 和 codelldb）、运行与测试管理、Neotest 适配，以及丰富的 Rust 特定 LSP 命令（如宏展开、代码重构、错误解释、诊断渲染、依赖图谱及 HIR/MIR 查看）。支持通过 `vim.g.rustaceanvim` 灵活配置，适用于 Neovim 0.11+ 环境。

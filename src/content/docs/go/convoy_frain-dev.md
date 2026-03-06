@@ -5,15 +5,4 @@ title: convoy
 
 ### [frain-dev convoy](https://github.com/frain-dev/convoy)  ![GitHub Repo stars](https://img.shields.io/github/stars/frain-dev/convoy?style=social)
 
-Convoy 是一个开源的高性能 Webhooks 网关，用于安全地摄取、持久化、调试、投递和管理海量事件。
-
-核心功能：
-- **Webhooks 网关**：位于网络边缘，流式传输及路由 Webhooks，保护内部系统不暴露于公网。
-- **可扩展性**：支持水平扩展，API 服务器、工作器等组件可独立伸缩。
-- **安全性**：支持载荷签名、Bearer 令牌认证及静态 IP 设置。
-- **投递控制**：支持基于事件类型的扇出、端点级速率限制。
-- **重试机制**：支持恒定时长与指数退避重试算法，以及批量重试。
-- **客户仪表板**：提供可嵌入的客户侧仪表板，支持调试、重试及端点配置。
-- **失败通知**：端点连续失败时自动禁用并发送 Email 或 Slack 通知。
-
-支持通过 Docker 和 Kubernetes (Helm) 进行部署。
+Convoy 是一个开源的高性能 Webhooks 网关，用于安全、可靠地接收、持久化、调试、交付和管理海量事件。它作为网络边缘网关保护内部系统，支持水平扩展的消息队列架构。功能涵盖负载签名、认证、静态 IP、密钥轮转及熔断等安全特性，支持事件多端点分发、速率限制、多种重试算法及批量重试。此外还提供可嵌入的客户仪表盘用于调试和配置，支持端点失败通知，并支持 Docker 和 Kubernetes 部署。

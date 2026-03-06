@@ -5,4 +5,4 @@ title: navidrome
 
 ### [navidrome navidrome](https://github.com/navidrome/navidrome)  ![GitHub Repo stars](https://img.shields.io/github/stars/navidrome/navidrome?style=social)
 
-Navidrome 是一款开源的基于 Web 的音乐集合服务器和流媒体服务，允许用户通过浏览器或移动设备访问个人音乐库，类似个人版 Spotify。其核心功能包括：支持大规模音乐库及各类音频格式流媒体播放；读取并利用元数据，支持合辑与多碟套装；具备多用户系统，独立管理播放记录、收藏和播放列表；资源占用低，跨平台运行（含 Docker 及树莓派）；自动监控库文件变化；提供现代响应式的 Web 界面；兼容 Subsonic/Madsonic 等客户端协议；支持实时音频转码（含 Opus 编码）；支持多国语言。
+Navidrome 是一款开源的基于 Web 的个人音乐流媒体服务器，允许用户通过浏览器或移动设备访问音乐收藏，相当于“个人 Spotify"。主要功能包括：支持海量音乐集合及几乎所有音频格式，支持元数据管理；支持多用户，每个用户拥有独立的播放记录、歌单和收藏；资源占用低，跨平台运行（支持 macOS、Linux、Windows、Docker 及树莓派）；自动监控库变化；提供现代化响应式 Web 界面；兼容 Subsonic/Madsonic/Airsonic 客户端；支持实时转码（含 Opus 编码）及多语言翻译。

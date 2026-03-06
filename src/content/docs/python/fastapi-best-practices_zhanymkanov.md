@@ -5,17 +5,12 @@ title: fastapi-best-practices
 
 ### [zhanymkanov fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices)  ![GitHub Repo stars](https://img.shields.io/github/stars/zhanymkanov/fastapi-best-practices?style=social)
 
-这是一个提供 FastAPI 生产系统开发最佳实践的指南。内容包括：
+本项目是一套 FastAPI 生产环境最佳实践指南，总结了构建生产系统的经验教训。核心内容包括：
 
-1. **项目结构**：推荐按领域（domain）而非文件类型组织代码，保持结构一致且可扩展，类似 Netflix Dispatch 模式。
-2. **异步路由**：区分 I/O 密集型与 CPU 密集型任务，避免阻塞事件循环，必要时使用线程池或进程处理。
-3. **Pydantic 使用**：充分用于数据验证、自定义序列化模型及配置解耦。
-4. **依赖注入**：利用 FastAPI 依赖项进行请求验证、逻辑复用和性能优化（依赖结果在请求范围内缓存）。
-5. **其他规范**：
-    - 遵循 REST 风格，统一资源命名。
-    - 优化响应序列化流程。
-    - 管理 API 文档（环境隔离显示）。
-    - 统一数据库表名、索引命名及迁移规范（Alembic）。
-    - 优先在 SQL 层处理复杂数据聚合（SQL-first）。
-    - 从第一天起使用异步测试客户端。
-    - 使用 Ruff 替代多个工具进行代码检查和格式化。
+1.  **项目结构**：推荐基于领域模块组织代码，提升大型单体应用的扩展性。
+2.  **异步处理**：区分 I/O 密集型与 CPU 密集型任务的处理策略，防止事件循环阻塞。
+3.  **模型与验证**：深度使用 Pydantic 进行数据校验与转换，自定义基础模型并解耦配置。
+4.  **依赖注入**：支持依赖链、缓存复用及异步依赖，用于复杂的请求验证与逻辑复用。
+5.  **工程规范**：涵盖 REST 规范、响应序列化优化、同步 SDK 线程池处理、异常处理、文档配置、数据库命名与迁移、SQL 优先查询、异步测试及代码检查工具（Ruff）的使用。
+
+旨在通过标准化规范提升开发体验与系统质量。

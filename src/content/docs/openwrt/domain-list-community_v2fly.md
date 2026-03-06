@@ -5,4 +5,4 @@ title: domain-list-community
 
 ### [v2fly domain-list-community](https://github.com/v2fly/domain-list-community)  ![GitHub Repo stars](https://img.shields.io/github/stars/v2fly/domain-list-community?style=social)
 
-该项目是 Project V 的域名列表社区，旨在维护供路由策略使用的域名集合。项目立场中立，不预设屏蔽或代理意图，仅提供数据供用户按需生成路由规则。主要功能包括提供编译后的 dlc.dat 文件及源码数据，支持在配置中通过 geosite 调用不同分类（如国家地区、特定服务、广告等）的域名规则；数据格式支持域名、关键字、正则表达式等，并可通过属性标记进行细分；支持使用 Go 工具手动构建数据文件。
+本项目管理域名列表，供 Project V（v2fly）作为地理站点（geosite）用于路由配置。项目保持中立，不预设代理或阻断策略，仅作为规则数据源。核心功能包括：提供编译后的列表文件（如 dlc.dat）供路由配置直接调用；支持在 `data` 目录定义域名规则，涵盖多种匹配类型（domain、full、keyword、regexp）及属性筛选（如 @ads、@cn）；允许手动构建编译数据；采用社区协作模式，通过 Pull Request 进行内容贡献与自动化维护。

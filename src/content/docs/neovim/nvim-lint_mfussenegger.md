@@ -5,4 +5,13 @@ title: nvim-lint
 
 ### [mfussenegger nvim-lint](https://github.com/mfussenegger/nvim-lint)  ![GitHub Repo stars](https://img.shields.io/github/stars/mfussenegger/nvim-lint?style=social)
 
-nvim-lint 是一款适用于 Neovim (>= 0.9.5) 的异步 Linter 插件，作为内置语言服务器协议（LSP）的补充。它通过调用外部 Linter 工具、解析输出并通过 `vim.diagnostic` 模块报告诊断结果。项目内置支持数十种主流 Linter 工具，支持按文件类型配置，可通过自动命令（如 `BufWritePost`）触发检查。此外，允许用户注册自定义 Linter 及配置解析器（支持 Lua 模式、errorformat、SARIF），并提供诊断显示自定义、命名空间隔离及运行状态查询功能。
+nvim-lint 是一款适用于 Neovim (>= 0.9.5) 的异步代码检查插件，用于补充内置 LSP 支持并运行独立 linter 工具。
+
+核心功能：
+1. 异步执行 linter 命令，解析输出并通过 `vim.diagnostic` 报告诊断信息。
+2. 支持按文件类型配置 linter，通过自动命令（如保存后）触发检查。
+3. 内置数十种常用 linter，支持自定义命令、参数及输出解析（Lua 模式、errorformat、SARIF）。
+4. 允许修改内置 linter 属性，后处理诊断结果，或自定义诊断显示配置。
+5. 支持查询当前运行中的 linter 列表。
+
+注意：涉及执行外部命令，请勿在未信任的仓库中调用。

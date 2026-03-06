@@ -5,4 +5,4 @@ title: pixi
 
 ### [prefix-dev pixi](https://github.com/prefix-dev/pixi)  ![GitHub Repo stars](https://img.shields.io/github/stars/prefix-dev/pixi?style=social)
 
-Pixi 是一个基于 Conda 生态的跨平台多语言包管理器和工作流工具。它兼容 Linux、Windows 和 macOS，支持 Python、C++ 及 R 等语言。Pixi 提供类 Cargo 风格的命令行界面，默认包含锁定文件，支持项目级和系统级工具安装。该项目由 Rust 编写，基于 `rattler` 库。主要功能涵盖工作区初始化、依赖管理、任务运行、环境激活、全局包安装及 GitHub Actions 集成，用于简化多平台开发环境管理。
+Pixi 是一个基于 Conda 生态系统的跨平台、多语言包管理器和工作流工具。它支持使用 Conda 包管理 Python、C++ 和 R 等多种语言，兼容 Linux、Windows 和 macOS（包括 Apple Silicon）。主要功能包括：始终维护最新的锁定文件、提供简洁的类 Cargo 命令行界面、支持项目级或系统级工具安装。Pixi 完全使用 Rust 编写并基于 rattler 库，支持依赖管理、任务运行、全局包安装以及与 GitHub Actions 集成。

@@ -5,4 +5,11 @@ title: Plants-Vs-Zombies
 
 ### [Xi-Gong Plants-Vs-Zombies](https://github.com/Xi-Gong/Plants-Vs-Zombies)  ![GitHub Repo stars](https://img.shields.io/github/stars/Xi-Gong/Plants-Vs-Zombies?style=social)
 
-本项目是一个基于 Cocos2dx 引擎的《植物大战僵尸》游戏实现，专为 Ubuntu 平台设计。项目在原版基础上采用 CMake 构建系统，将 C++ 代码更新为 C++17 标准并精简规模，重构基础类以降低学习难度。项目保留完整的游戏核心玩法，提供环境配置、编译运行步骤及 UML 类图，资源仅供学习参考，禁止商用。
+本项目是 LZ《植物大战僵尸》开源项目的 Linux 移植与优化版本，基于 Cocos2d-x 引擎开发，主要功能与改进如下：
+
+1. **构建迁移**：使用 CMake 替代 Visual Studio，适配 Ubuntu 平台编译。
+2. **代码优化**：应用 C++17 标准，移除次要效果，将代码量从 1.8 万行精简至 8 千行，降低学习门槛。
+3. **架构重构**：重新设计基础类，实现类间解耦并优化语义。
+4. **环境支持**：提供依赖安装、路径配置及编译运行的完整指南。
+
+注：游戏资源仅限学习用途，禁止商用。

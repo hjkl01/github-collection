@@ -5,11 +5,4 @@ title: datahaven
 
 ### [datahaven-xyz datahaven](https://github.com/datahaven-xyz/datahaven)  ![GitHub Repo stars](https://img.shields.io/github/stars/datahaven-xyz/datahaven?style=social)
 
-DataHaven 是一个由 EigenLayer 安全验证的 AI 优先去中心化存储网络，基于 StorageHub 构建，旨在为 AI 训练数据、机器学习模型及 Web3 应用提供可验证的生产级存储。
-
-核心功能包括：
-1. **可验证存储**：文件分块哈希为 Merkle 树上链锚定，提供防篡改的密码学证明。
-2. **双层级存储网络**：主存储提供商（MSP）负责服务，备份存储提供商（BSP）负责冗余，通过链上惩罚机制保障安全。
-3. **EigenLayer 安全**：验证者通过以太坊质押共享（Restaking）注册，违规将面临经济惩罚。
-4. **EVM 兼容与跨链**：支持以太坊智能合约及工具链，并通过 Snowbridge 实现与以太坊的原生跨链桥接。
-5. **应用场景**：适用于 AI/ML 数据完整性验证、DePIN 及真实世界资产（RWA）的防篡改存储需求。
+DataHaven 是一个基于 EigenLayer 的可验证去中心化存储网络，专为 AI 训练数据、机器学习模型和 Web3 应用提供生产级数据存储。项目基于 StorageHub 构建，采用链下存储与链上验证分离架构。核心功能包括：通过默克尔树保证数据完整性的可验证存储、主存储提供商（MSP）与备份存储提供商（BSP）组成的双层网络及违约惩罚机制、基于以太坊质押的验证者安全保障、EVM 兼容性支持以及通过 Snowbridge 实现的跨链桥接。适用于 AI、去中心化物理基础设施（DePIN）及现实世界资产（RWA）的可信存储。

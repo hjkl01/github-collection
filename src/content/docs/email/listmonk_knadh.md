@@ -5,4 +5,4 @@ title: listmonk
 
 ### [knadh listmonk](https://github.com/knadh/listmonk)  ![GitHub Repo stars](https://img.shields.io/github/stars/knadh/listmonk?style=social)
 
-listmonk 是一个快速、功能丰富的独立自托管通讯简报和邮件列表管理器。它打包为单个二进制文件，使用 PostgreSQL 数据库存储数据，支持 Docker 和二进制部署，遵循 AGPL v3 开源协议。
+listmonk 是一款独立自托管的通讯邮件与邮件列表管理器。它快速且功能丰富，打包为单一二进制文件运行，依赖 PostgreSQL 数据库。后端使用 Go 开发，前端采用 Vue 框架，基于 AGPLv3 协议开源。

@@ -5,13 +5,10 @@ title: stalwart
 
 ### [stalwartlabs stalwart](https://github.com/stalwartlabs/stalwart)  ![GitHub Repo stars](https://img.shields.io/github/stars/stalwartlabs/stalwart?style=social)
 
-Stalwart 是一款基于 Rust 开发的开源邮件与协作服务器，主打安全、高性能、高可扩展性。
+Stalwart 是一款基于 Rust 编写的开源邮件与协作服务器，设计目标是安全、快速、健壮且可扩展。核心功能如下：
 
-核心功能包括：
-1. **邮件服务**：支持 JMAP、IMAP、POP3、SMTP 全协议，内置反垃圾邮件与反钓鱼机制，支持 DMARC、DKIM、SPF 等认证及传输加密。
-2. **协作服务**：提供 CalDAV、CardDAV、WebDAV 支持，涵盖日历、联系人及文件存储，具备细粒度共享与权限控制。
-3. **灵活性与存储**：支持 RocksDB、S3、SQL 等多种存储后端及全文搜索，支持多租户、自动配置、Sieve 脚本及配额管理。
-4. **安全与运维**：内存安全设计，支持 ACME 自动 TLS 证书，具备集群协调、Kubernetes 支持、高可用及故障恢复能力。
-5. **认证与监控**：支持 OIDC、OAuth 2.0、LDAP 认证，提供 Web 管理控制台、OpenTelemetry 日志追踪及 Prometheus 指标监控。
-
-采用 AGPL v3.0 与 Stalwart 企业版双许可。
+- **邮件服务**：完整支持 JMAP、IMAP4、POP3、SMTP 协议，内置 DMARC、DKIM、SPF、ARC 认证机制及完善的反垃圾、反钓鱼过滤功能。
+- **协作功能**：支持日历（CalDAV）、联系人（CardDAV）、文件存储（WebDAV）及共享管理，兼容 JMAP 标准扩展。
+- **存储与搜索**：支持多种存储后端（RocksDB、SQL、S3 等）及全文搜索引擎，具备多租户隔离、自动配置和配额管理。
+- **安全与认证**：提供 TLS 自动证书、数据加密（S/MIME、OpenPGP）、多种认证方式（OIDC、OAuth 2.0、LDAP）及双重验证。
+- **运维与扩展**：支持 Kubernetes 部署、集群协调、高可用架构，提供 OpenTelemetry 可观测性及 Web 管理后台。

@@ -5,4 +5,4 @@ title: dbmate
 
 ### [amacneil dbmate](https://github.com/amacneil/dbmate)  ![GitHub Repo stars](https://img.shields.io/github/stars/amacneil/dbmate?style=social)
 
-Dbmate 是一款独立的命令行数据库迁移工具，旨在跨不同开发者和生产服务器同步数据库架构。它支持多种数据库（如 MySQL、PostgreSQL、SQLite、ClickHouse、BigQuery 等），允许使用纯 SQL 编写迁移文件，并通过时间戳版本控制避免冲突。迁移操作在事务中原子执行，支持创建/删除数据库、导出 schema 文件、等待数据库就绪、回滚及状态检查等功能。工具支持通过环境变量或 `.env` 文件配置连接，也可作为 Go 库嵌入应用程序中使用，适用于多语言/多框架项目。
+Dbmate 是一款独立的数据库迁移命令行工具，用于在团队开发和生产环境中同步数据库架构。它支持 MySQL、PostgreSQL、SQLite、ClickHouse、BigQuery 等多种数据库，且适用于各种编程语言环境。主要功能包括：通过纯 SQL 编写时间戳版本化的迁移文件；在事务中原子性执行迁移；支持数据库的创建与删除；自动导出 schema.sql 文件便于版本管理；通过环境变量或 .env 文件配置连接信息；提供等待数据库可用的功能。Dbmate 既可作为 CLI 工具使用，也可嵌入为 Go 语言的库。

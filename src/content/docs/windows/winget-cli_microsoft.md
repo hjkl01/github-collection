@@ -5,11 +5,4 @@ title: winget-cli
 
 ### [microsoft winget-cli](https://github.com/microsoft/winget-cli)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/winget-cli?style=social)
 
-Windows Package Manager (WinGet) 是一款适用于 Windows 系统的命令行包管理工具，主要功能总结如下：
-
-1. 包管理：通过命令行（如 `winget install`）快速发现、安装、升级和管理软件包。
-2. 软件源：默认集成 Microsoft Store 和 WinGet 社区仓库，支持配置自定义私有源。
-3. 权限兼容：适配管理员和普通用户模式，自动处理安装所需的 UAC 提权。
-4. 系统支持：支持 Windows 10 (1809 及以上) 及 Windows Server 2022（实验性）。
-5. 开发者支持：提供源码构建指南，支持自行编译客户端及项目贡献。
-6. 隐私控制：内置诊断数据收集功能，支持用户通过系统设置或配置禁用遥测。
+Windows Package Manager (WinGet) 是 Windows 系统下的命令行包管理工具，旨在帮助用户快速发现和安装软件包。它默认集成 Microsoft Store 和 WinGet 社区仓库作为数据源，并支持自定义私有 REST 源。客户端需运行于 Windows 10 1809 或更高版本，可通过 Microsoft Store 获取或自行构建源码。在权限处理上，管理员模式可避免 UAC 提权弹窗，普通模式安装需提权。项目默认收集遥测数据，但允许用户退出，并欢迎社区贡献。

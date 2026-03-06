@@ -5,11 +5,4 @@ title: atlas
 
 ### [ariga atlas](https://github.com/ariga/atlas)  ![GitHub Repo stars](https://img.shields.io/github/stars/ariga/atlas?style=social)
 
-Atlas 是一款基于现代 DevOps 原则的语言无关数据库模式管理与迁移工具。
-
-核心功能包括：
-1. **双工作流**：支持声明式（对比当前与期望状态并执行迁移）和版本化（自动规划、审核及应用迁移）。
-2. **模式管理**：提供检查、比较和应用命令，支持将模式转换为 HCL、JSON、SQL 或 ERD 格式。
-3. **迁移管理**：支持生成迁移文件、审核、查看状态及应用待处理迁移。
-4. **集成扩展**：涵盖 Terraform 工作流、多租户架构、云密钥管理及 ORM 定义支持。
-5. **数据库兼容**：支持 MySQL、PostgreSQL、SQLite、SQL Server、TiDB、CockroachDB 等多种数据库。
+Atlas 是一款语言无关的数据库架构管理与迁移工具，遵循现代 DevOps 原则。它支持声明式和版本化两种工作流，允许用户使用 HCL、SQL 或 ORM 定义目标数据库架构。核心功能包括架构检查（支持多种格式输出）、状态对比、迁移计划生成与应用、多租户支持及云集成。支持 MySQL、PostgreSQL、SQLite 等多种主流数据库，并可与 Terraform 工作流集成。

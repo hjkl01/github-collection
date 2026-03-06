@@ -5,11 +5,9 @@ title: RedisShake
 
 ### [alibaba RedisShake](https://github.com/alibaba/RedisShake)  ![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/RedisShake?style=social)
 
-RedisShake 是一款 Redis 数据转换与迁移工具，主要功能包括：
-
-1. **零停机迁移**：支持无缝数据迁移，确保服务不中断。
-2. **广泛兼容性**：支持 Redis (2.8-8.4.x) 和 Valkey (8.x-9.x)，覆盖单机、主从、哨兵及集群模式；兼容阿里云 Tair、AWS 云服务及 Tair 模块。
-3. **灵活数据获取与处理**：支持 PSync、RDB、Scan 读取方式，提供脚本转换和自定义数据过滤规则。
-4. **便捷部署**：支持命令行、Docker 及源码构建。
-
-注：不支持断点续传和集群拓扑变更感知，适用于一次性数据迁移场景。
+RedisShake 是一款用于 Redis 数据转换与迁移的工具。核心功能如下：
+1. 支持零停机无缝迁移，兼容 Redis（2.8-8.4.x）及 Valkey（8.x-9.x），覆盖单机、主从、哨兵和集群部署模式。
+2. 无缝集成阿里云 Tair、AWS ElastiCache 及 MemoryDB 等主流云数据库服务。
+3. 支持 TairString、TairZSet、TairHash 等扩展模块。
+4. 提供 PSync、RDB、Scan 多种数据读取方式，支持自定义脚本数据转换和过滤规则。
+5. 适用于一次性数据迁移场景，不支持断点续传及集群拓扑动态变化感知。

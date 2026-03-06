@@ -5,4 +5,4 @@ title: FreeDomain
 
 ### [DigitalPlatDev FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)  ![GitHub Repo stars](https://img.shields.io/github/stars/DigitalPlatDev/FreeDomain?style=social)
 
-DigitalPlat FreeDomain 是一个提供免费域名注册服务的平台，旨在降低网络成本，让个人和组织轻松拥有在线数字身份。用户可免费注册独特域名（支持 .DPDNS.ORG、.US.KG 等后缀），并自行绑定常用 DNS 服务商进行托管。平台提供管理后台、使用教程、社区支持及滥用举报渠道，致力于构建开放且安全的互联网环境。
+DigitalPlat FreeDomain 提供免费域名注册服务，旨在降低网络创建成本，让用户零预算拥有数字身份。支持.DPDNS.ORG、.US.KG、.QZZ.IO、.XX.KG 等后缀，用户注册后可自主托管至任意 DNS 服务商。平台已服务超 40 万域名，提供社区交流及滥用报告渠道。

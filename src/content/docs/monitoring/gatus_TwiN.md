@@ -5,4 +5,4 @@ title: gatus
 
 ### [TwiN gatus](https://github.com/TwiN/gatus)  ![GitHub Repo stars](https://img.shields.io/github/stars/TwiN/gatus?style=social)
 
-Gatus 是一款面向开发者的轻量级健康仪表盘，支持通过 HTTP、ICMP、TCP 及 DNS 查询监控服务状态。它允许定义灵活的查询条件（如状态码、响应时间、证书过期、响应体内容等）以评估端点健康度，并提供可视化 Web 界面展示监控结果。项目内置了强大的警报系统，支持向 Slack、PagerDuty、Discord、Teams 等多种平台发送通知。此外，Gatus 还支持 Prometheus 指标导出、健康徽章生成、Suite 工作流监控、外部端点推送、TLS 加密、基本认证与 OIDC、YAML 配置热重载以及多种存储方式，资源消耗极低，易于部署。
+Gatus 是一个面向开发者的健康监控仪表盘，用于主动监控服务的可用性和性能。它支持通过 HTTP、ICMP、TCP、DNS、gRPC 等多种协议进行健康检查，并允许配置丰富的条件（如状态码、响应时间、证书过期时间、响应内容等）。当监控失败达到阈值时，Gatus 可通过 Slack、PagerDuty、Email、短信等数十种渠道发送警报。项目提供 Web 界面展示实时监控状态，支持 Prometheus 指标导出、状态徽章生成、维护窗口设置、安全认证（Basic Auth、OIDC）及动态配置热重载等功能。其核心理念是在客户端发现问题前主动识别服务异常，弥补传统被动监控的不足。

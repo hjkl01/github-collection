@@ -5,4 +5,4 @@ title: gao
 
 ### [gaotianliuyun gao](https://github.com/gaotianliuyun/gao)  ![GitHub Repo stars](https://img.shields.io/github/stars/gaotianliuyun/gao?style=social)
 
-本项目提供 FongMi、TVBox、猫影视等影视客户端的配置文件与资源接口。主要功能包括：提供整合直播、点播及解析线路的多套配置文件；推荐支持回放、投屏、多线路切换的 APP；汇总第三方配置源地址；提供随机轮换壁纸 API。内容仅供测试学习，不保证合法性、准确性及有效性。
+本项目提供 FongMi 影视、TVBox 和猫影视的配置文件集合。内容包括多种 TVBox 配置 JSON（含直播、点播、解析源），推荐影视 APP 版本及下载地址，第三方大佬提供的 TVBox 配置接口，以及随机壁纸 API 链接。资源仅供测试和学习研究，禁止商业用途。

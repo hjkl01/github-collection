@@ -5,11 +5,11 @@ title: banana-slides
 
 ### [Anionex banana-slides](https://github.com/Anionex/banana-slides)  ![GitHub Repo stars](https://img.shields.io/github/stars/Anionex/banana-slides?style=social)
 
-Banana Slides 是一款基于 nano banana pro 模型的原生 AI PPT 生成应用，旨在降低演示文稿制作门槛，实现从想法到成品的快速创作。核心功能包括：
+banana-slides 是一款基于 AI 模型（nano banana pro）的原生 PPT 生成应用，旨在帮助用户在几分钟内从想法快速生成美观专业的演示文稿，实现"PPT 自由”。
 
-1. **灵活创作**：支持从一句话想法、大纲或页面描述三种路径生成 PPT。
-2. **自然语言编辑**：支持通过口头指令（Vibe）实时调整大纲、修改内容或局部重绘，无需复杂操作。
-3. **素材处理**：支持上传 PDF/Docx/MD/Txt 等文件自动解析内容，并可上传参考图定制风格。
-4. **格式导出**：支持一键导出标准 PPTX 和 PDF 文件，提供可编辑版 PPTX 导出功能，默认适配 16:9 比例。
-5. **多模型支持**：兼容 Gemini、OpenAI、Vertex 及多种国内大模型接口。
-6. **部署灵活**：支持 Docker、源码及一键模板部署。
+核心功能：
+1. **多路径创作**：支持输入想法、大纲或页面描述三种方式，一键生成结构清晰的 PPT 内容。
+2. **自然语言编辑**：支持通过口语化指令进行局部重绘、整页优化及大纲调整，无需复杂菜单操作。
+3. **智能素材解析**：支持上传 PDF、Docx、Markdown 等文件，自动提取关键点、图表及图片，支持风格参考图定制。
+4. **灵活导出**：支持导出标准 PDF 及高还原度可编辑 PPTX 文件，无水印且页数无限制。
+5. **广泛适用**：降低制作门槛，适用于小白快速制作、职场提案、教学备课等多种场景，解决传统 AI PPT 同质化严重问题。

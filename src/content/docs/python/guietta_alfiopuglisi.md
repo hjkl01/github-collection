@@ -5,11 +5,4 @@ title: guietta
 
 ### [alfiopuglisi guietta](https://github.com/alfiopuglisi/guietta)  ![GitHub Repo stars](https://img.shields.io/github/stars/alfiopuglisi/guietta?style=social)
 
-Guietta 是一个用于简化 Python GUI 开发的工具，核心功能如下：
-
-1. **简易界面构建**：通过简洁的网格布局语法快速定义界面元素。
-2. **绘图集成**：集成 matplotlib 和 pyqtgraph，支持事件驱动绘图。
-3. **数据处理与显示**：支持在标签中显示数据列（列表/字典），并支持多窗口。
-4. **组件兼容性**：可无缝集成任意 QT 组件（包括自定义 QWidget）。
-5. **高级特性**：提供后台处理长任务、异常行为自定义、QT 信号/槽机制及类似 PySimpleGUI 的队列模式。
-6. **依赖支持**：默认使用 PySide2，亦支持切换至 PyQt5。
+Guietta 是一个用于简化 Python 图形界面 (GUI) 开发的工具，通过列表语法快速构建界面布局。默认基于 PySide2，核心功能包括：支持 Matplotlib 和 Pyqtgraph 集成以进行事件驱动绘图；支持在标签中显示列表或字典数据；支持多窗口管理、自定义异常处理及类 PySimpleGUI 的队列模式；可无缝集成任意 QT 小部件（含自定义组件）；支持后台处理长耗时操作及原生 QT 信号槽机制。

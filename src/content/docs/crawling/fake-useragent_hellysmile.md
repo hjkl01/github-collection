@@ -5,11 +5,10 @@ title: fake-useragent
 
 ### [hellysmile fake-useragent](https://github.com/hellysmile/fake-useragent)  ![GitHub Repo stars](https://img.shields.io/github/stars/hellysmile/fake-useragent?style=social)
 
-fake-useragent 是一个内置真实数据库的 Python User-Agent 伪造库。
+fake-useragent 是一个 Python 库，用于生成基于真实数据库的浏览器 User-Agent 字符串。
 
-- 数据本地化：用户代理数据预下载并打包在包内，无需联网即可生成。
-- 多端支持：涵盖桌面、平板和移动设备的用户代理字符串。
-- 广泛覆盖：支持多种主流浏览器（如 Chrome、Firefox、Edge、Safari）及操作系统。
-- 灵活返回：可获取随机或指定的 User-Agent 字符串，或包含详细信息的 Python 字典对象。
-- 定制筛选：支持按浏览器、操作系统、设备类型及最低版本进行过滤。
-- 版本要求：Python 3.9 及以上。
+核心功能：
+- 数据内置于包中，无需联网下载，支持随机或指定浏览器（如 Chrome、Firefox 等）生成 User-Agent。
+- 涵盖桌面、平板和移动设备，支持按浏览器、操作系统、平台类型及最小版本进行过滤。
+- 支持获取包含浏览器版本、操作系统、平台类型等详细字段的 Python 字典对象。
+- 提供异常备用回退机制，兼容 Python 3.9 及以上版本。

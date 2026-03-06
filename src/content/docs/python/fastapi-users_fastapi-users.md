@@ -5,4 +5,4 @@ title: fastapi-users
 
 ### [fastapi-users fastapi-users](https://github.com/fastapi-users/fastapi-users)  ![GitHub Repo stars](https://img.shields.io/github/stars/fastapi-users/fastapi-users?style=social)
 
-FastAPI Users 是为 FastAPI 项目提供的即用且高度可定制的用户管理系统。它支持开箱即用的用户注册、登录、密码重置、邮箱验证及社交 OAuth2 登录。项目具备可扩展的基础用户模型、可插拔密码验证及用户依赖注入功能。支持 SQLAlchemy ORM 异步、MongoDB Beanie 等多种数据库后端，以及 JWT、Database、Redis 等认证策略，并提供完整的 OpenAPI 支持。目前项目处于维护模式，仅提供安全更新和依赖维护，不再添加新功能。
+FastAPI Users 是一个为 FastAPI 项目提供的开箱即用且可定制的用户管理库。主要功能包括：可扩展的用户模型、预置的注册登录、重置密码、邮箱验证及 OAuth2 登录路由、当前用户依赖注入。支持可插拔密码验证、多种数据库后端（SQLAlchemy 异步 ORM、MongoDB Beanie ODM）及认证策略（JWT、Database、Redis），支持 Authorization header 和 Cookie 传输方式。目前项目处于维护模式，仅提供安全更新和依赖维护。

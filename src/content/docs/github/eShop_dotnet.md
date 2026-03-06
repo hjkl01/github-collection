@@ -5,4 +5,4 @@ title: eShop
 
 ### [dotnet eShop](https://github.com/dotnet/eShop)  ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/eShop?style=social)
 
-本项目是一个基于 .NET 9 和 .NET Aspire 的电商参考应用，采用服务化架构实现完整的电商网站功能。支持本地 Docker 运行，兼容 Visual Studio 和 VS Code 开发环境。集成 Azure OpenAI 功能，支持通过 Azure Developer CLI 部署至 Azure 平台。示例商品数据及图片均由 AI 生成。
+eShop 参考应用程序是一个基于 .NET 9 和 .NET Aspire 的服务化架构应用，用于构建电子商务网站。支持通过 Docker、Visual Studio、Visual Studio Code 或 Azure Developer CLI 进行本地运行与 Azure 部署，并提供 Aspire 仪表板服务监控。项目集成 Azure OpenAI 功能，且示例数据由 AI 生成。

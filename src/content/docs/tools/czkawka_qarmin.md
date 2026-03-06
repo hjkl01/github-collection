@@ -5,11 +5,4 @@ title: czkawka
 
 ### [qarmin czkawka](https://github.com/qarmin/czkawka)  ![GitHub Repo stars](https://img.shields.io/github/stars/qarmin/czkawka?style=social)
 
-Krokiet 和 Czkawka 是基于 Rust 编写的跨平台免费开源磁盘清理与文件管理工具。Krokiet 为新一代图形界面前端（Slint 框架），Czkawka 为旧版前端（GTK 4 框架，仅维护）。支持 Linux、Windows、macOS、Android 等多系统，具备极速扫描、缓存加速及多语言支持。
-
-核心功能包括：
-- 文件清理：查找临时文件、大文件、空文件夹、无效符号链接、损坏文件或错误扩展名文件。
-- 重复与相似检测：基于名称、大小或哈希值查找重复文件；查找相似图片、视频及音乐。
-- 实用工具：Exif 元数据移除、视频优化、文件名检查等。
-
-提供图形界面（GUI）、命令行（CLI）及核心库调用支持。软件无广告，不联网，不收集用户隐私。
+Czkawka 和 Krokiet 是基于 Rust 开发的免费开源跨平台磁盘清理工具，提供图形界面（GUI）和命令行（CLI）支持。主要功能涵盖：查找重复文件（按名称、大小、哈希）、识别相似图片、视频及音乐、扫描大文件、空文件/文件夹、临时文件、无效链接、损坏文件及异常命名文件，并支持 Exif 元数据移除和视频优化。项目具有缓存加速、多语言、无联网隐私保护特性，兼容 Linux、Windows、macOS 等系统。

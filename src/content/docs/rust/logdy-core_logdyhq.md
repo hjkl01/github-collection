@@ -5,4 +5,4 @@ title: logdy-core
 
 ### [logdyhq logdy-core](https://github.com/logdyhq/logdy-core)  ![GitHub Repo stars](https://img.shields.io/github/stars/logdyhq/logdy-core?style=social)
 
-Logdy 是一款轻量级的单二进制日志查看工具，功能类似 grep、awk 或 jq。它通过内置 Web UI 在浏览器中实时展示和过滤日志，支持文件、标准输入、Socket 及 REST API 等多种输入模式。项目无需安装部署，零依赖且完全本地运行以确保安全隐私。同时提供 Go 库集成支持，允许在 Go 应用中直接嵌入日志记录，并支持 TypeScript 自定义解析器和配置。
+Logdy 是一个轻量级、无依赖的单二进制日志查看器，无需安装部署，运行于本地以确保安全隐私。它内置 Web UI，支持实时日志查看、过滤及自定义解析（支持 TypeScript）。项目提供多种输入模式（文件、stdin、套接字、REST API），也可作为 Go 库集成到应用程序中，功能类似于 grep、awk 等命令行工具。

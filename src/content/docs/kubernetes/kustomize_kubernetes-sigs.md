@@ -5,4 +5,4 @@ title: kustomize
 
 ### [kubernetes-sigs kustomize](https://github.com/kubernetes-sigs/kustomize)  ![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes-sigs/kustomize?style=social)
 
-kustomize 是一个面向 Kubernetes 的 YAML 自定义工具，无需模板即可对原始 YAML 文件进行定制。它通过 `kustomization.yaml` 声明式配置资源及定制内容（如添加标签、生成 ConfigMap），通过打补丁方式生成定制 YAML 而保留原文件不变。支持基础配置与覆盖配置（overlays）的分层管理，便于针对不同环境（如开发、生产）管理配置变体。支持独立运行或由 kubectl 内置调用，直接构建配置并应用至集群。
+Kustomize 是用于定制 Kubernetes 原始、无模板 YAML 文件的工具，在保持原文件不变的前提下理解并补丁 Kubernetes API 对象。它通过 kustomization 文件声明资源及自定义配置，支持通过 overlays 管理多环境变体（如开发、生产），将基础配置与环境特定补丁组合生成最终 YAML。该工具可独立运行生成 YAML 应用于集群，也可与 kubectl 集成使用。

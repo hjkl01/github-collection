@@ -5,4 +5,4 @@ title: kopia
 
 ### [kopia kopia](https://github.com/kopia/kopia)  ![GitHub Repo stars](https://img.shields.io/github/stars/kopia/kopia?style=social)
 
-Kopia 是一款快速、安全的开源备份与恢复工具，提供命令行（CLI）和图形界面（GUI）。它支持创建加密数据快照，将快照保存至本地、网络存储或多种云服务（包括 Amazon S3、Azure、Backblaze B2、Google Cloud、WebDAV、SFTP 等），也可通过 Rclone 集成其他云存储。Kopia 具备数据压缩、去重、端到端加密及纠错功能，允许用户自主备份指定的文件或目录，并支持将多台机器的数据备份至同一存储位置。
+Kopia 是一款快速且安全的开源备份与恢复工具。它支持创建加密的数据快照，并可保存至用户选择的云存储（如 S3、Azure、Google Cloud、WebDAV、SFTP 等）、本地或网络存储。工具提供命令行 (CLI) 和图形界面 (GUI) 两种操作方式，具备压缩、重复数据删除、端到端加密和纠错功能。Kopia 不进行整机镜像备份，而是按需备份重要的文件或目录，并支持将多台机器的备份存储在同一位置。项目基于 Apache License 2.0 许可开源。

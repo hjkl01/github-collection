@@ -5,9 +5,9 @@ title: pgx
 
 ### [jackc pgx](https://github.com/jackc/pgx)  ![GitHub Repo stars](https://img.shields.io/github/stars/jackc/pgx?style=social)
 
-pgx 是一个用于 PostgreSQL 的纯 Go 驱动和工具包，主要功能总结如下：
+pgx 是一个纯 Go 编写的高性能 PostgreSQL 驱动程序及工具集。
 
-1. **核心驱动**：提供高性能低层接口，暴露 PostgreSQL 特有功能（如 LISTEN/NOTIFY、COPY），并包含标准 `database/sql` 接口适配器。
-2. **工具组件**：提供 Wire 协议解析和类型映射等底层包，可用于实现替代驱动、代理、负载均衡器或逻辑复制客户端。
-3. **主要特性**：支持约 70 种 PostgreSQL 类型，具备自动语句准备与缓存、批处理查询、单轮次传输、二进制格式支持、COPY 批量加载、连接池管理及 TLS 控制等功能。
-4. **生态扩展**：提供逻辑复制（pglogrepl）、协议模拟（pgmock）、SQL 迁移（tern）等配套库，并支持广泛的第三方 UUID、Decimal、日志追踪及数据扫描库适配器。
+1. **核心功能**：提供低层高性能接口，支持 PostgreSQL 特有功能（如 LISTEN/NOTIFY、COPY），并兼容标准 `database/sql` 接口。
+2. **特性支持**：支持 70+ 种 PostgreSQL 类型、自动语句缓存、批量/单轮询查询、二进制格式、连接池、TLS 控制、日志追踪及嵌套事务模拟。
+3. **工具包**：包含 Wire 协议解析和类型映射包，可用于构建代理、负载均衡器或逻辑复制客户端。
+4. **生态扩展**：提供逻辑复制客户端、协议 Mock、SQL 迁移工具，以及针对 UUID、Decimal、Geo 等类型的适配器和日志/追踪库集成。

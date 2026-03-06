@@ -5,12 +5,12 @@ title: xxh
 
 ### [xxh xxh](https://github.com/xxh/xxh)  ![GitHub Repo stars](https://img.shields.io/github/stars/xxh/xxh?style=social)
 
-xxh 是一款通过 SSH 在远程主机上部署便携 Shell 环境的工具，无需远程 root 权限或系统安装。它支持 xonsh、zsh、fish、bash、osquery 等多种 Shell，允许用户将本地配置、插件和工具无缝迁移至任何远程位置。
+xxh 是一个通过 SSH 将用户自定义 Shell 环境便携至远程服务器的工具，客户端兼容多种系统，无需远程主机 root 权限或安装。
 
-核心功能：
-1. **零安装**：环境在本地构建并上传，远程主机无需修改或安装软件。
-2. **环境隔离**：远程会话独立于宿主环境，清理 `~/.xxh` 目录即可完全恢复原状。
-3. **多 Shell 支持**：可根据任务需求轻松切换不同 Shell（如 xonsh 用于 Python 开发，zsh/fish 用于日常）。
-4. **插件化扩展**：支持 Prerun 插件及自定义入口，可携带 Dotfiles、Python 环境、Docker 等工具。
-5. **兼容 SSH**：命令用法与 ssh 类似，保留原有 SSH 参数支持，可直接替换。
-6. **本地模式**：支持在无法 SSH 但拥有 Shell 访问权限的本地环境中构建环境（`xxh local`）。
+核心特性：
+1. **便携隔离**：Shell 和插件在本地构建后上传，远程环境隔离于 `~/.xxh` 目录，删除即可恢复主机原状。
+2. **多 Shell 支持**：支持 xonsh、zsh、fish、bash、osquery 等，可灵活按需切换。
+3. **高度扩展**：支持集成 Docker、Python、Dotfiles 等插件及自定义便携式工具入口。
+4. **无缝集成**：命令兼容 SSH 用法，支持多种安装方式及本地无 SSH 连接运行。
+
+该项目主要面向 Linux x86_64 主机，旨在提供一致且隔离的交互式体验。

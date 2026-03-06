@@ -5,4 +5,4 @@ title: exatorrent
 
 ### [varbhat exatorrent](https://github.com/varbhat/exatorrent)  ![GitHub Repo stars](https://img.shields.io/github/stars/varbhat/exatorrent?style=social)
 
-exatorrent 是一个基于 Go 编写的轻量级自托管 BitTorrent 客户端，支持 Linux、macOS 和 Windows 跨平台运行。它提供单二进制文件（零依赖）和 Docker 部署方案，并配备美观的响应式 Web 界面。功能涵盖磁链、infohash 及种子文件添加，多用户认证，任务及文件控制（启/停/删），下载/上传限速，以及基于分享率的自动停止。用户可通过 HTTP 在浏览器或媒体播放器（如 VLC、mpv）中直接流式播放或下载文件，支持目录打包下载、自动追踪器添加，并提供 WebSocket API 和配置文件定制。
+exatorrent 是一款基于 Go 语言的轻量级自托管 BitTorrent 客户端。它采用跨平台的单二进制文件部署，零外部依赖，配备美观的响应式 Web 界面。支持单用户及多用户模式，核心功能包括通过磁力链、种子文件或信息哈希添加任务，管理下载/上传任务，以及将本地文件通过 HTTP 流媒体播放或下载。此外，它还支持种子比例限制、速率限制、黑名单过滤、配置文件管理及文档化 API，允许用户自定义客户端及保护文件分享权限。

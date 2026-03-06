@@ -5,9 +5,4 @@ title: delta
 
 ### [dandavison delta](https://github.com/dandavison/delta)  ![GitHub Repo stars](https://img.shields.io/github/stars/dandavison/delta?style=social)
 
-Delta 是一款用于 Git、diff 和 grep 输出的语法高亮分页器，旨在优化代码变更的查看体验。核心功能包括：
-1. 语法高亮：支持与 bat 相同的主题，覆盖多种编程语言。
-2. 差异增强：提供单词级高亮、并排视图、行号及自动换行。
-3. 交互优化：支持 n/N 键导航大型 diff，优化合并冲突与 git blame 显示。
-4. 扩展功能：高亮 grep 输出，支持提交哈希和文件路径的超链接，代码复制无需额外清理。
-5. 高度定制：支持 20 余种样式元素配置，自动检测终端背景色，兼容 diff-highlight 模式。
+Delta 是一款用于 git、diff 和 grep 输出的语法高亮分页器，旨在优化代码审查体验。其主要功能包括：支持 bat 风格的语法高亮及词级差异高亮；提供侧边视图、行号显示、自动换行及 diff 导航功能；改进合并冲突、git blame 和 grep 输出的展示效果，支持超链接跳转；允许直接复制代码（自动去除标记）及高度自定义样式；支持自动检测终端背景色并适配明暗模式。

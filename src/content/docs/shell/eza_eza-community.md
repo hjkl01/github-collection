@@ -5,4 +5,4 @@ title: eza
 
 ### [eza-community eza](https://github.com/eza-community/eza)  ![GitHub Repo stars](https://img.shields.io/github/stars/eza-community/eza?style=social)
 
-eza 是一款现代化的 `ls` 命令替代品，旨在替代 Unix/Linux 系统中的文件列表功能。它提供更多功能和更友好的默认设置，使用颜色区分文件类型及元数据。核心特性包括支持符号链接、扩展属性、Git 状态、超链接、挂载点详情、Selinux 上下文及人类可读的相对日期。该工具小巧、快速且为单一二进制文件，修复了 exa 的已知 Bug 并包含多项安全更新。支持通过 `theme.yml` 配置文件自定义颜色和图标。兼容 Windows、macOS 及 Linux 平台。
+eza 是一个现代的文件列出示用程序，作为 Unix/Linux 系统 `ls` 命令的替代品。它小巧、快速且为单二进制文件，提供比原生命令更丰富的功能和更好的默认设置。核心功能包括利用颜色区分文件类型和元数据，支持符号链接、扩展属性及 Git 状态显示，提供超链接、挂载点详情、Selinux 上下文和人性化相对日期。支持通过 `theme.yml` 文件自定义主题和图标，提供丰富的命令行选项用于显示、过滤、排序和长视图。跨平台支持 Windows、macOS 和 Linux。

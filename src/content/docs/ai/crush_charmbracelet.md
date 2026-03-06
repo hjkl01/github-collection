@@ -5,12 +5,4 @@ title: crush
 
 ### [charmbracelet crush](https://github.com/charmbracelet/crush)  ![GitHub Repo stars](https://img.shields.io/github/stars/charmbracelet/crush?style=social)
 
-Crush 是一款运行于终端的 AI 编程助手，旨在成为开发者的最佳搭档，将工具、代码与工作流无缝接入大语言模型。
-
-核心功能：
-- **多模型兼容**：支持广泛的主流 LLM 及自定义 API（OpenAI、Anthropic 兼容等），支持本地模型（如 Ollama、LM Studio）。
-- **灵活会话**：支持多工作会话和上下文管理，允许在会话中动态切换模型。
-- **代码增强**：集成 LSP 提供代码上下文，支持 MCP 协议扩展工具能力（http、stdio、sse）。
-- **跨平台支持**：兼容 macOS、Linux、Windows、Android 及各类 BSD 系统。
-- **高度可配置**：支持本地或全局 JSON 配置，可自定义工具权限、忽略文件、模型提供者及技能包。
-- **工业级构建**：基于 Charm 生态，具备日志管理和指标收集功能，适用于生产环境。
+Crush 是一款运行在终端中的编程智能助手，能够将用户的工具、代码与工作流无缝接入各类 LLM 模型。它支持多模型切换、会话上下文管理，利用 LSP 增强代码理解，并通过 MCP 协议扩展能力。项目兼容 macOS、Linux、Windows 等主流平台，支持自定义 API 提供商、本地模型部署、权限配置及技能扩展。此外，还提供日志追踪与指标收集功能，致力于在终端环境下提供高效的代码辅助与开发体验。

@@ -5,4 +5,4 @@ title: convex-backend
 
 ### [get-convex convex-backend](https://github.com/get-convex/convex-backend)  ![GitHub Repo stars](https://img.shields.io/github/stars/get-convex/convex-backend?style=social)
 
-Convex 是一款面向 Web 开发者的开源响应式数据库。它通过纯 TypeScript 实现数据获取与业务逻辑，提供强一致性，并内置数据库、服务端函数及客户端库以构建动态应用。支持云端及自托管（兼容多种数据库），后端基于 Rust，客户端基于 TypeScript。
+Convex 是一个面向 Web 应用开发者的开源响应式数据库。它提供数据库、服务器函数环境和客户端库，支持使用纯 TypeScript 编写业务逻辑和数据获取，确保强一致性，便于构建动态实时更新的应用。支持云端部署（含免费层）和自托管（Docker 或二进制文件），兼容多种基础设施。项目由 Convex 团队主导，接受社区贡献与反馈。

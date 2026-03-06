@@ -5,4 +5,4 @@ title: Vision-Agents
 
 ### [GetStream Vision-Agents](https://github.com/GetStream/Vision-Agents)  ![GitHub Repo stars](https://img.shields.io/github/stars/GetStream/Vision-Agents?style=social)
 
-这是一个由 Stream 开发的实时视觉 AI 智能体框架，旨在构建能观看、收听和理解视频的多模态 AI 应用。项目支持低延迟实时视频处理，可灵活结合 YOLO 等视觉模型与 LLM（如 Gemini、OpenAI）。提供 React、Android、iOS 等跨平台 SDK，兼容多种语音识别、合成及边缘网络集成。内置对话轮次检测、工具调用、记忆管理及电话/RAG 功能，支持通过 Python 快速开发，并包含高尔夫教练、安防监控、隐形助手等多种应用示例。
+该项目是 Stream 推出的开源视觉智能体框架，旨在构建能够观看、聆听并理解视频的实时 AI 智能体。核心功能包括基于边缘网络的超低延迟视频流处理（音视频延迟低于 30ms）、结合 YOLO 等目标检测模型与大语言模型（Gemini、OpenAI 等）进行实时视觉推理。系统提供多平台 SDK（React、iOS、Android 等），内置语音识别/合成、对话轮次检测、工具调用及 RAG 能力，并支持集成 Deepgram、Twilio 等数十种第三方服务。典型应用场景涵盖体育教练、安防监控、销售辅助助手及电话机器人等。

@@ -5,4 +5,4 @@ title: opentelemetry-collector-contrib
 
 ### [open-telemetry opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)  ![GitHub Repo stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector-contrib?style=social)
 
-该项目是 OpenTelemetry Collector 的扩展组件仓库，提供不适合核心仓库的遥测组件（如接收器、处理器、导出器）。这些组件构成 "contrib" 发行版，用户可利用 Collector Builder 构建包含所需组件的自定义发行版。各组件针对追踪、指标、日志信号设有独立稳定性级别，并由社区维护者或特定厂商提供支持。
+OpenTelemetry Collector Contrib 是 OpenTelemetry Collector 扩展组件的仓库，收录了不适合纳入核心仓库的组件。它补充了官方核心分发版本，支持用户通过 Collector Builder 结合核心、contrib 及第三方组件构建自定义分发版本。各组件针对追踪、指标和日志信号拥有独立的稳定性等级。项目由社区维护者及厂商提供支持，遵循特定的稳定性定义、特性门控机制及贡献治理流程。

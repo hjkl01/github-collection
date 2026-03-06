@@ -5,4 +5,4 @@ title: flask-react-spa
 
 ### [briancappello flask-react-spa](https://github.com/briancappello/flask-react-spa)  ![GitHub Repo stars](https://img.shields.io/github/stars/briancappello/flask-react-spa?style=social)
 
-本项目是一个基于 Flask 后端与 React 前端的单页应用（SPA）。前端利用 Redux 管理状态，React Router 处理路由，Webpack 进行构建优化（支持热重载、代码分割）。后端采用 SQLAlchemy ORM，提供 RESTful API，集成用户认证授权、异步任务处理及后台管理。支持 Ansible 自动化生产部署，兼容 Docker Compose 及本地环境开发，底层依赖 PostgreSQL、Redis 和 Nginx 等。
+该项目是一个基于 Flask 和 React 的全栈单页应用（SPA）开发模板。前端采用 React v16、Redux、React Router 及 Webpack 构建；后端基于 Flask 提供 RESTful API，集成 SQLAlchemy 数据库 ORM、Flask-Security 用户认证授权、Flask-Admin 管理后台及 Celery 异步任务处理。项目支持 Docker Compose 本地快速启动及 Ansible 生产部署，涵盖 PostgreSQL、Redis、NGINX 等环境配置，采用应用工厂模式架构。

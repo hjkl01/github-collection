@@ -5,14 +5,4 @@ title: undetected-chromedriver
 
 ### [ultrafunkamsterdam undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)  ![GitHub Repo stars](https://img.shields.io/github/stars/ultrafunkamsterdam/undetected-chromedriver?style=social)
 
-undetected_chromedriver 是一个优化的 Selenium ChromeDriver 补丁库，旨在绕过反爬虫服务（如 Distill Network、Imperva、DataDome 等）的检测。
-
-核心功能：
-1. 自动下载并修补 Chromedriver 二进制文件，无需手动配置。
-2. 兼容当前 Chrome 版本及 Brave 等 Chromium 浏览器，支持无头模式（Headless）。
-3. 提供便捷工具函数（如递归查找元素、安全点击、CDP 事件监听）。
-4. 自动处理版本兼容性，避免版本不匹配错误。
-
-注意事项：
-1. 不隐藏 IP 地址，从数据中心运行可能无法通过验证。
-2. 需 Python 3.6+，安装后直接调用 `uc.Chrome()` 即可使用。
+undetected_chromedriver 是一个优化过的 Selenium ChromeDriver 补丁库，主要用于绕过 Distill Network、Imperva、DataDome 等反爬虫服务的检测。它自动下载并修补 ChromeDriver 二进制文件，支持最新的 Chrome 版本、Brave 浏览器及其他 Chromium 内核浏览器。该库支持无头模式（Headless）、指定 Chrome 主版本、自定义用户数据目录，并提供递归查找元素、安全点击及 Chrome Devtools 协议事件监听等增强功能。项目依赖 Python 3.6 及以上版本。需要注意的是，该库本身不隐藏 IP 地址，反检测成功率与运行环境及 IP 信誉密切相关。

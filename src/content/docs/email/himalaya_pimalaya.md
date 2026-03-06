@@ -5,4 +5,4 @@ title: himalaya
 
 ### [pimalaya himalaya](https://github.com/pimalaya/himalaya)  ![GitHub Repo stars](https://img.shields.io/github/stars/pimalaya/himalaya?style=social)
 
-Himalaya 是一个基于 Rust 开发的命令行邮件管理工具（CLI）。它支持多账户配置（交互式或 TOML），兼容 IMAP、Maildir、Notmuch 接收及 SMTP、Sendmail 发送。核心功能包括基于 $EDITOR 的邮件撰写、OAuth 2.0 认证、PGP 加密（支持 shell、GPG 或原生实现）及系统级密钥管理。支持 JSON 输出，针对 Gmail、Outlook、Proton 等服务商提供配置方案，并拥有 Vim、Emacs 等扩展接口。
+Himalaya 是一个用 Rust 编写的命令行邮件管理工具 (CLI)。它支持通过交互式向导或 TOML 文件配置多账户，兼容 IMAP、Maildir、Notmuch 后端读取邮件，以及 SMTP、Sendmail 后端发送邮件。工具支持系统全局密钥库管理密码、OAuth 2.0 认证及 PGP 加密功能。用户可以基于编辑器撰写邮件，支持 JSON 输出，并提供了 Proton Mail、Gmail、Outlook 等主流邮箱的自动配置方案。此外，Himalaya 还提供 Vim、Emacs 等扩展接口，采用无状态命令行交互模式，区别于传统的终端界面客户端。

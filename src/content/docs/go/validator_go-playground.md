@@ -5,11 +5,4 @@ title: validator
 
 ### [go-playground validator](https://github.com/go-playground/validator)  ![GitHub Repo stars](https://img.shields.io/github/stars/go-playground/validator?style=social)
 
-go-playground/validator 是一个 Go 语言的结构体和字段验证库，基于标签机制实现值验证。核心功能涵盖：
-1. 支持跨字段与跨结构验证。
-2. 支持切片、数组和映射的多层级遍历验证。
-3. 处理接口类型及自定义字段类型（如 SQL Valuer）。
-4. 提供丰富的内置验证标签（涵盖网络、字符串、格式、哈希、UUID 等）。
-5. 支持验证标签别名、自定义字段名提取及国际化错误消息。
-6. 作为 Gin 框架的默认验证器。
-7. 采用标准错误类型返回机制优化错误处理流程。
+这是一个 Go 语言的结构体验证库，通过标签对结构体和字段进行值验证。其核心功能包括支持跨字段和跨结构体验证，可深入验证切片、数组、映射及接口类型的底层数据，并支持自定义字段类型和别名验证标签。项目提供可定制的国际化错误消息及自定义字段名提取，同时也是 Gin Web 框架的默认验证器。内置丰富的预定义验证标签，涵盖网络地址（如 IP、URL）、字符串、数据格式（如 UUID、Email）、比较操作、文件系统检查及条件逻辑等。该库经过性能优化，支持高并发验证，采用 MIT 协议开源。
