@@ -21,10 +21,6 @@ help:
 	@echo "  make deploy       构建并部署项目"
 	@echo ""
 
-export:
-	@echo "📤 导出 URL..."
-	$(ACTIVATE) && uv run python main.py export
-
 install:
 	@echo "📦 安装开发依赖..."
 	uv sync
@@ -42,6 +38,10 @@ gene:
 run: crawl gene
 	@echo "🚀 启动服务..."
 	# $(ACTIVATE) && uv run python ./main.py cate
+
+export:
+	@echo "📤 导出 URL..."
+	$(ACTIVATE) && uv run python main.py export
 
 clean-cache:
 	@echo "🚀 清理缓存..."

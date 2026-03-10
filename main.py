@@ -159,7 +159,7 @@ async def main(args=None):
     with open("urls.txt", "r", encoding="utf-8") as f:
         urls = f.readlines()
 
-    md_files = set(f.split("/")[-1] for f in list_files())
+    md_files = list(set(f.split("/")[-1] for f in list_files()))
 
     # 使用线程池并行处理 URL（API 调用是 IO 密集型）
     loop = asyncio.get_event_loop()

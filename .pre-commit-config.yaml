@@ -1,0 +1,10 @@
+# .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # 使用与你项目中 ruff 版本一致的 rev（可选，但推荐）
+    rev: v0.14.10 # 👈 请根据 https://github.com/astral-sh/ruff-pre-commit/releases 最新版本调整
+    hooks:
+      - id: ruff
+        args: [--ignore, "E501", "--fix"]
+      - id: ruff-format
+        args: [--line-length, "180"]
