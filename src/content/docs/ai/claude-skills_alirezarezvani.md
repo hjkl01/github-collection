@@ -1,0 +1,8 @@
+
+---
+title: claude-skills
+---
+
+### [alirezarezvani claude-skills](https://github.com/alirezarezvani/claude-skills)  ![GitHub Repo stars](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=social)
+
+该项目提供170个可直接用于生产环境的技能和插件，适用于Claude Code、OpenAI Codex 和 OpenClaw，涵盖工程、产品、营销、合规等多个领域。每个技能包含详细的指令、工作流程、Python命令行工具和参考文档，可帮助AI编码代理成为专业领域的专家。支持多平台安装和使用，包括12个智能体和5类命令。核心功能包括架构审查、内容创作、合规审计等，还提供安全审计工具以检测潜在风险。技能分为9个领域，涵盖25个高级技能（POWERFUL Tier），并附带210多个无需依赖的Python分析工具。

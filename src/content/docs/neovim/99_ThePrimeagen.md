@@ -1,6 +1,6 @@
 
 ---
-title: 99
+title: 99_neovim
 ---
 
 ### [ThePrimeagen 99](https://github.com/ThePrimeagen/99)  ![GitHub Repo stars](https://img.shields.io/github/stars/ThePrimeagen/99?style=social)
@@ -14,5 +14,3 @@ title: 99
 4. 上下文感知：自动注入项目文件、规则文件及文档提供 AI 上下文。
 5. 多模型支持：支持 OpenCode、Claude、Cursor、Gemini 等 CLI 后端，可动态切换模型与提供商。
 6. 智能补全：提示缓冲区内支持规则和文件的自动补全。
-
-状态：Beta 版本，API 尚不稳定。
