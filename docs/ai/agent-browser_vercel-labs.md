@@ -1,0 +1,3 @@
+### [vercel-labs agent-browser](https://github.com/vercel-labs/agent-browser)  ![GitHub Repo stars](https://img.shields.io/github/stars/vercel-labs/agent-browser?style=social)
+
+agent-browser 是面向 AI 代理的无头浏览器自动化 CLI，基于原生 Rust。提供打开网页、点击/输入/截图/PDF/执行脚本、获取文本与状态、等待、网络拦截、标签页/窗口/iframe、剪贴板、鼠标键盘控制等完整指令；支持快照+引用（refs）与语义定位，JSON 输出适合代理；可持久化会话/配置文件/状态文件、加密与认证保管库；具备安全控制（域名白名单、动作策略、输出限制等）、差异对比、调试与追踪；支持 CDP 连接、自动连接、流式预览；可用自定义浏览器与云端提供商（Browserless/Browserbase/Browser Use/Kernel），并支持 iOS 模拟器 Safari。
