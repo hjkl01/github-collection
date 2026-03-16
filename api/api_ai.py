@@ -2,10 +2,9 @@ from typing import Union
 import json
 import time
 import base64
-import asyncio
 from functools import lru_cache
 
-import requests
+import httpx
 from tenacity import retry, stop_after_attempt, wait_fixed
 
 from .config import logger, GITHUB_TOKEN, OPENAI_API, OPENAI_API_KEY, OPENAI_MODEL
@@ -13,36 +12,34 @@ from .prompts import CATEGORY_PROMPT
 
 
 @lru_cache(maxsize=1)
-def get_github_session():
-    session = requests.Session()
-    session.headers.update(
-        {
+def get_github_client():
+    client = httpx.Client(
+        headers={
             "Authorization": f"Bearer {GITHUB_TOKEN}",
             "Accept": "application/vnd.github.v3+json",
         }
     )
-    return session
+    return client
 
 
 @lru_cache(maxsize=1)
-def get_openai_session():
-    session = requests.Session()
-    session.headers.update(
-        {
+def get_openai_client():
+    client = httpx.Client(
+        headers={
             "Authorization": f"Bearer {OPENAI_API_KEY}",
             "Content-Type": "application/json",
         }
     )
-    return session
+    return client
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
-def api_github_readme(owner, repo):
+async def api_github_readme(owner, repo):
     logger.debug(f"{owner=} {repo=}")
     url = f"https://api.github.com/repos/{owner}/{repo}/readme"
-    session = get_github_session()
+    client = get_github_client()
 
-    resp = session.get(url)
+    resp = client.get(url)
     if resp.status_code != 200:
         print("❌ 无法获取 README:", resp.text)
         return None
@@ -53,7 +50,7 @@ def api_github_readme(owner, repo):
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
-def api_openai_generate(
+async def api_openai_generate(
     prompt: str,
     model: str = OPENAI_MODEL,
     host: str = OPENAI_API,
@@ -65,14 +62,12 @@ def api_openai_generate(
         raise RuntimeError("请配置 OPENAI_API 环境变量")
 
     url = f"{host.rstrip('/')}/v1/chat/completions"
-    session = get_openai_session()
+    client = get_openai_client()
 
     if "messages" not in extra_options:
         messages = [{"role": "user", "content": prompt}]
         if "system" in extra_options:
-            messages.insert(
-                0, {"role": "system", "content": extra_options.pop("system")}
-            )
+            messages.insert(0, {"role": "system", "content": extra_options.pop("system")})
     else:
         messages = extra_options.pop("messages")
 
@@ -85,11 +80,9 @@ def api_openai_generate(
     logger.debug(url)
     logger.debug(str(payload)[:200])
 
-    resp = session.post(url, json=payload, timeout=timeout)
+    resp = client.post(url, json=payload, timeout=timeout)
     if resp.status_code != 200:
-        raise RuntimeError(
-            f"OpenAI generate 请求失败: HTTP {resp.status_code} - {resp.text}"
-        )
+        raise RuntimeError(f"OpenAI generate 请求失败: HTTP {resp.status_code} - {resp.text}")
 
     if not stream:
         obj = resp.json()
@@ -105,9 +98,10 @@ def api_openai_generate(
             raise TimeoutError("OpenAI 流式生成超时")
         if not line:
             continue
-        if line.startswith(b"data: "):
-            data = line[6:]
-            if data == b"[DONE]":
+        line_str = line.decode("utf-8") if isinstance(line, bytes) else line
+        if line_str.startswith("data: "):
+            data = line_str[6:]
+            if data == "[DONE]":
                 break
             try:
                 obj = json.loads(data)
@@ -125,12 +119,9 @@ def api_openai_generate(
 async def auto_category(content, category_dirs):
     content = f"""我收集了GitHub上的项目,以下是对项目的描述: {content}.
     现在我想对其进行分类，已有的分类有 {category_dirs} ，分析该项目应在哪个分类下，如不存在已有的分类，返回 github。 直接返回分类名称， 不需要其他的废话."""
-    prompt = CATEGORY_PROMPT.replace("content", content).replace(
-        "category_dirs", ",".join(category_dirs)
-    )
+    prompt = CATEGORY_PROMPT.replace("content", content).replace("category_dirs", ",".join(category_dirs))
 
-    loop = asyncio.get_event_loop()
-    response = await loop.run_in_executor(None, api_openai_generate, prompt)
+    response = await api_openai_generate(prompt)
     logger.info(response)
     return response
 

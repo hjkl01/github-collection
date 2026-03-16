@@ -1,7 +1,6 @@
 import asyncio
 import re
 import sys
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from api.config import logger
@@ -11,38 +10,21 @@ from api.github_trending_scraper import main as github_trending_scraper
 
 
 def extract_github_info(github_url):
-    """
-    从GitHub URL中提取用户名和项目名
-
-    Args:
-        github_url (str): GitHub仓库URL
-
-    Returns:
-        tuple: (username, project_name) 或 (None, None) 如果匹配失败
-    """
-
-    # logger.debug(github_url)
-    # GitHub仓库URL的正则表达式模式
     pattern = r"https?://github\.com/([^/]+)/([^/?#]+)(?:[/?#].*)?"
-
     match = re.search(pattern, github_url.strip())
-
     if match:
         username = match.group(1)
         project_name = match.group(2)
-        # logger.debug(f"{username} {project_name}")
         return username, project_name
     else:
         return None, None
 
 
 def list_files(dirname="docs"):
-    """列出目录下的所有文件"""
     return [str(p) for p in Path(dirname).rglob("*") if p.is_file()]
 
 
-def process_single_url(project_line, md_files):
-    """处理单个 URL，返回结果或 None"""
+async def process_single_url(project_line, md_files):
     project_line = project_line.strip()
     if not project_line:
         return None
@@ -61,35 +43,28 @@ def process_single_url(project_line, md_files):
 
     logger.info(project_line)
     try:
-        readme_content = api_github_readme(username, repository)
+        readme_content = await api_github_readme(username, repository)
         if readme_content is None:
             return None
         prompt = MARKDOWN_PROMPT.replace("readme_content", readme_content)
-        ai_resp = api_openai_generate(prompt)
+        ai_resp = await api_openai_generate(prompt)
         if isinstance(ai_resp, dict):
             ai_resp = ai_resp.get("text", "")
 
-        # 去除 OpenAI o1 系列模型返回的 think 标签内容
         if "<think>" in ai_resp or "</think>" in ai_resp:
             ai_resp = re.sub(r".*</think>", "", ai_resp, flags=re.DOTALL).strip()
 
         if len(temp) == 1:
-            category_dir = "00"
+            category_dir = ""
         elif len(temp) == 2:
             category_dir = temp[1]
         else:
             logger.info(f"无法解析：{temp}")
             return None
 
-        title = """
----
-title: repository
----
-
-### [username repository](https://github.com/username/repository)  ![GitHub Repo stars](https://img.shields.io/github/stars/username/repository?style=social)
+        title = """### [username repository](https://github.com/username/repository)  ![GitHub Repo stars](https://img.shields.io/github/stars/username/repository?style=social)
 
 """
-
         text = title.replace("username", username).replace("repository", repository) + ai_resp
 
         category_path = Path(f"docs/{category_dir}")
@@ -106,7 +81,6 @@ title: repository
 
 
 async def category_md_files(dirname="docs/00"):
-    """自动分类 md 文件"""
     if not Path(dirname).exists():
         logger.warning(f"dirname not exists {dirname}")
         return
@@ -125,7 +99,6 @@ async def category_md_files(dirname="docs/00"):
             md_file.rename(target)
             logger.debug(f"Moved to {target}")
 
-    # 删除空目录
     if Path(dirname).exists():
         import shutil
 
@@ -133,7 +106,6 @@ async def category_md_files(dirname="docs/00"):
 
 
 async def main(args=None):
-    """主函数 - 支持并行处理"""
     if args == "cate":
         await category_md_files()
         return
@@ -143,11 +115,8 @@ async def main(args=None):
 
     md_files = list(set(f.split("/")[-1] for f in list_files()))
 
-    # 使用线程池并行处理 URL（API 调用是 IO 密集型）
-    loop = asyncio.get_event_loop()
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        tasks = [loop.run_in_executor(executor, process_single_url, line, md_files) for line in urls]
-        results = await asyncio.gather(*tasks)
+    tasks = [process_single_url(line, md_files) for line in urls]
+    results = await asyncio.gather(*tasks)
 
     success = [r for r in results if r]
     logger.info(f"处理完成: {len(success)} 成功, {len(urls) - len(success)} 跳过/失败")
@@ -156,12 +125,9 @@ async def main(args=None):
 
 
 def export_urls():
-    """从 md 文件中导出 GitHub 仓库链接（包含文件夹信息）"""
-    # 扫描所有 md 文件
     md_files = list(Path("docs").rglob("*.md"))
     md_files.extend(list(Path("docs").rglob("*.mdx")))
 
-    # 使用字典按 URL 分组，记录每个 URL 对应的文件夹
     url_folders: dict[str, set] = {}
     github_pattern = re.compile(r"https://github\.com/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)")
 
@@ -169,9 +135,7 @@ def export_urls():
         try:
             content = md_file.read_text(encoding="utf-8")
             matches = github_pattern.findall(content)
-            # 获取 md 文件相对于 docs 的路径
             rel_path = md_file.relative_to(Path("docs"))
-            # 获取文件夹名称（如果是嵌套文件夹，只取第一级）
             folder = rel_path.parts[0] if len(rel_path.parts) > 1 else ""
             for username, repo in matches:
                 url = f"https://github.com/{username}/{repo}"
@@ -182,12 +146,6 @@ def export_urls():
         except Exception as e:
             logger.warning(f"读取文件失败 {md_file}: {e}")
 
-    # 备份现有 urls.txt
-    # if Path("urls.txt").exists():
-    #     shutil.copy("urls.txt", "bak.txt")
-    #     logger.info("已备份 urls.txt -> bak.txt")
-
-    # 写入新 URLs（URL 后加上文件夹）
     with open("bak.txt", "a", encoding="utf-8") as f:
         for url, folders in sorted(url_folders.items()):
             folder_str = " ".join(sorted(folders)) if folders else ""

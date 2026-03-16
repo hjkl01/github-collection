@@ -16,6 +16,7 @@ help:
 	@echo "  make gene         启动文章解析"
 	@echo "  make run          执行 crawl + gene"
 	@echo "  make build        构建静态站点 (zensical build)"
+	@echo "  make deploy       构建并部署到 GitHub Pages"
 	@echo "  make export       从 md 文件导出 URL 到 urls.txt"
 	@echo "  make clean-cache  清理缓存"
 	@echo ""
@@ -39,6 +40,10 @@ run: crawl gene
 build:
 	@echo "🏗️ 构建静态站点..."
 	$(ACTIVATE) && uv run zensical build
+
+deploy: build
+	@echo "🚀 部署到 GitHub Pages..."
+	@cd site && git init && git add -A && git commit -m "Deploy to GitHub Pages" && git push -f origin HEAD:gh-pages
 
 export:
 	@echo "📤 导出 URL..."

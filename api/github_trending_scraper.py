@@ -43,9 +43,7 @@ async def scrape_github_trending():
                     elif href_stat and "forks" in href_stat:
                         forks = stat.text.strip()
 
-                today_stars_elem = article.find(
-                    "span", class_="d-inline-block float-sm-right"
-                )
+                today_stars_elem = article.find("span", class_="d-inline-block float-sm-right")
                 today_stars = today_stars_elem.text.strip() if today_stars_elem else ""
 
                 repo_info = {
