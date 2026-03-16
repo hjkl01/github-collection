@@ -1,0 +1,3 @@
+### [faisalnazik Django-React-Redux-Boilerplate](https://github.com/faisalnazik/Django-React-Redux-Boilerplate)  ![GitHub Repo stars](https://img.shields.io/github/stars/faisalnazik/Django-React-Redux-Boilerplate?style=social)
+
+本项目是一个集成 Django REST Framework、React 与 Redux 的快速启动模板。后端基于 Django ORM 构建 API，支持 JWT 认证、限流、Pytest 测试及 Argon2 密码哈希。前端采用 React 函数组件与 Hooks，配置 Redux、Formik 表单验证及 Material UI，内置登录示例与错误处理。旨在为 Django 与 React 结合的项目提供配置完善的开发脚手架。

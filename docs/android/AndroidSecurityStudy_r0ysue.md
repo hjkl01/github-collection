@@ -1,0 +1,3 @@
+### [r0ysue AndroidSecurityStudy](https://github.com/r0ysue/AndroidSecurityStudy)  ![GitHub Repo stars](https://img.shields.io/github/stars/r0ysue/AndroidSecurityStudy?style=social)
+
+本项目专注于安卓及 iOS 应用安全与逆向工程研究，提供全流程学习资源。主要涵盖 Frida、FART 脱壳、r0env、KernelSU 等核心工具的配置更新与实战教程，包括安卓/iOS 环境搭建（Root、越狱、Magisk、NetHunter）。内容涉及 Frida Hook 技术（Java/Native 层）、内存分析、应用脱壳、流量抓包及自动化测试。项目提供对抗 Root 检测、框架指纹、反调试及系统内核限制（如 eBPF）的解决方案，支持 Pixel、OnePlus 等机型刷机与云手机搭建，并汇编了汇编语法、SO 还原及移动安全对抗的综合文章与案例合集。

@@ -1,0 +1,16 @@
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mikavilpas/yazi.nvim?style=social) ](https://github.com/mikavilpas/yazi.nvim)
+### [mikavilpas yazi.nvim](https://github.com/mikavilpas/yazi.nvim)
+
+**项目核心内容总结：**
+
+**项目功能**  
+yazi.nvim 是一个 Neovim 插件，提供浮动窗口界面用于文件选择、搜索替换等操作，支持与 Telescope、grug-far.nvim 等工具集成，可自定义快捷键、窗口样式及行为。
+
+**使用方法**  
+通过 Lua 配置启用插件，支持在 Neovim 中调用浮动窗口选择文件、执行搜索/替换，通过快捷键（如 `<c-v>` 分屏打开文件）实现操作，配置项可自定义窗口透明度、边框样式、日志级别等。
+
+**主要特性**  
+1. **高度可定制**：支持自定义快捷键、窗口外观（透明度、边框）、文件操作行为（如关闭窗口后切换工作目录）。  
+2. **集成工具**：默认集成 Telescope（搜索）和 grug-far.nvim（替换），支持通过 `bufdelete` 保持窗口布局。  
+3. **扩展性**：兼容第三方主题（如 starship.yazi）和插件（如 easyjump.yazi），支持自定义路径解析、日志记录等功能。  
+4. **智能交互**：自动高亮当前目录下的缓冲区，支持多文件操作（如批量发送至快速修复列表）。

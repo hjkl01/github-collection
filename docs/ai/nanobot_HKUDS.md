@@ -1,0 +1,3 @@
+### [HKUDS nanobot](https://github.com/HKUDS/nanobot)  ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social)
+
+nanobot 是一款超轻量级的个人 AI 助手，核心代码仅约 4,000 行，相比同类项目精简 99%。它支持多种大语言模型提供商（如 OpenRouter、Anthropic、DeepSeek 等），可无缝接入 Telegram、Discord、微信、飞书、钉钉、Slack、Email、QQ 及 Matrix 等多种聊天渠道。项目具备 MCP（Model Context Protocol）支持，允许连接外部工具服务器作为智能体原生工具，并提供定时任务调度功能。nanobot 支持多实例运行、Docker 部署及 Linux 系统服务配置，用户可通过 CLI 快速初始化、配置 API 密钥并与智能体进行即时交互或聊天模式沟通，代码结构清晰，便于研究和二次开发。

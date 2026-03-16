@@ -1,0 +1,3 @@
+### [open-webui open-webui](https://github.com/open-webui/open-webui)  ![GitHub Repo stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
+
+Open WebUI 是一个功能丰富且用户友好的自托管 AI 平台，支持完全离线运行。它兼容 Ollama 和 OpenAI 兼容 API，内置 RAG 推理引擎及多种向量数据库支持。项目支持 Docker、Kubernetes 等多种部署方式，提供完善的用户权限管理（RBAC、LDAP/SSO）和扩展能力（Python 函数调用、Pipelines 插件）。此外，它还支持多模态交互（语音/视频、图像生成）、本地文档检索、Web 搜索、多语言界面及企业级监控与水平扩展，适用于个人或企业级 AI 应用部署。

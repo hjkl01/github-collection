@@ -1,0 +1,3 @@
+### [google-gemini computer-use-preview](https://github.com/google-gemini/computer-use-preview)  ![GitHub Repo stars](https://img.shields.io/github/stars/google-gemini/computer-use-preview?style=social)
+
+该项目名为 Computer Use Preview，是一个基于大模型的浏览器自动化代理。它允许用户通过自然语言指令控制浏览器执行任务，支持 Gemini Developer API 或 Vertex AI 后端。提供本地 Playwright 和远程 Browserbase 两种运行环境，用户可通过命令行配置查询、模型及运行参数。项目包含安装配置、密钥设置指南，并指出了 Playwright 在特定系统下拉菜单渲染上的已知限制。

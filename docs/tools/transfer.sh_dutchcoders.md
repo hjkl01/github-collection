@@ -1,0 +1,15 @@
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/dutchcoders/transfer.sh?style=social) ](https://github.com/dutchcoders/transfer.sh)
+### [dutchcoders transfer.sh](https://github.com/dutchcoders/transfer.sh)
+
+**项目核心内容总结：**  
+transfer.sh 是一个基于 Web 的文件传输服务，支持用户上传、下载和删除文件。用户可通过命令行工具或 HTTP 接口操作文件，主要特性包括：  
+1. **文件传输**：支持单文件或多文件上传，生成下载链接，大文件分段传输。  
+2. **删除功能**：上传后生成删除链接和令牌，可通过令牌或链接直接删除文件。  
+3. **便捷操作**：提供 Shell 函数脚本（兼容 Bash、zsh 等），简化文件上传流程，支持交互式确认和输出过滤。  
+4. **跨平台兼容**：支持多种操作系统和终端环境，适配不同命令行工具。  
+5. **安全性**：通过令牌和链接双重机制保障文件删除的安全性。  
+
+**使用方法**：  
+- 通过 `curl` 命令或 HTTP 接口直接上传文件。  
+- 使用预定义的 Shell 函数（添加至 `.bashrc` 或 `.zshrc`）实现一键上传，支持批量操作和删除功能。  
+- 上传后通过返回的链接或令牌管理文件。

@@ -1,0 +1,3 @@
+### [danielpaulus go-ios](https://github.com/danielpaulus/go-ios)  ![GitHub Repo stars](https://img.shields.io/github/stars/danielpaulus/go-ios?style=social)
+
+go-ios 是一个基于 Go 语言编写的跨平台开源工具，旨在为 Linux、Windows 和 macOS 提供稳定且面向生产环境的 iOS 设备自动化解决方案。其核心功能包括设备连接与配对、应用安装与运行、文件同步、自动化测试（支持 XCTest 和 WebDriverAgent）、系统调试与日志捕获、网络与性能模拟（如流量控制、温度设置）、屏幕截图、定位模拟及开发者镜像管理等。该工具默认输出 JSON 格式，支持模块化集成，并提供实验性 REST API。针对 iOS 17+ 设备，支持通过隧道模式进行管理。

@@ -1,0 +1,19 @@
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/duixcom/Duix.Heygem?style=social) ](https://github.com/duixcom/Duix.Heygem)
+### [duixcom Duix.Heygem](https://github.com/duixcom/Duix.Heygem)
+
+**项目核心内容总结：**  
+Duix.Avatar 是一个开源的数字人克隆与视频合成项目，支持语音合成、模型训练及视频生成。主要功能包括：  
+1. **功能**：通过本地部署实现数字人克隆、音频合成（TTS）与视频合成，提供 API 接口供开发者调用。  
+2. **使用方法**：  
+   - **本地部署**：支持 Windows 和 Ubuntu 系统，需通过 Docker 启动服务，包含模型训练、音频合成（调用 `fish-speech-ziming` 服务）及视频合成（调用 `http://127.0.0.1:8383` 接口）流程。  
+   - **API 调用**：提供模型训练、音频合成（参数如 `speaker`、`text`）及视频合成（参数如 `audio_url`、`video_url`）接口，适用于无需本地部署的用户。  
+3. **主要特性**：  
+   - 开源免费，支持商业使用（部分场景需授权）。  
+   - 提供多平台部署方案（Windows/Linux）。  
+   - 支持自定义模型训练与参数调整。  
+   - 提供两种服务模式：本地部署（适合技术用户）与 API 服务（适合企业用户）。  
+4. **硬件要求**：需 NVIDIA 显卡及驱动，部分版本适配 50 系列 GPU。  
+
+**注意事项**：  
+- 部署前需确认显卡驱动及 Docker 环境正常。  
+- API 调用需参考文档中的接口参数及路径。

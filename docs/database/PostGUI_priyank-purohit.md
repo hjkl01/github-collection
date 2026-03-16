@@ -1,0 +1,3 @@
+### [priyank-purohit PostGUI](https://github.com/priyank-purohit/PostGUI)  ![GitHub Repo stars](https://img.shields.io/github/stars/priyank-purohit/PostGUI?style=social)
+
+PostGUI 是一款基于 React 的 Web 应用，用于查询和共享任意 PostgreSQL 数据库。它通过 PostgREST 自动适配数据库模式，提供无需 SQL 知识的可视化查询构建器。核心功能包括：数据库 Schema 可视化、表/列搜索、高性能数据表格（支持排序、单元格编辑）、多格式数据导出（CSV、JSON、XML）以及基于角色的认证系统（支持只读、编辑和 admin 权限）。该框架支持本地访问及互联网数据分享，旨在为非技术人员提供便捷的数据共享与访问解决方案。

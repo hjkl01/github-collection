@@ -1,0 +1,3 @@
+### [centrifugal centrifugo](https://github.com/centrifugal/centrifugo)  ![GitHub Repo stars](https://img.shields.io/github/stars/centrifugal/centrifugo?style=social)
+
+Centrifugo 是一款开源、可扩展的实时消息服务器，采用面向用户的发布/订阅（PUB/SUB）模式。它支持 WebSocket、HTTP-streaming、SSE、gRPC 及 WebTransport 等多种传输协议，可即时向在线用户推送消息。该项目语言无关，可与任何后端配合，用于解耦业务逻辑与实时传输层，适用于聊天、直播、多人游戏及协作工具等场景。核心功能特性包括：基于 Redis 或 NATS 的内置水平扩展、灵活的身份认证（JWT/代理）与通道权限管理、消息历史与增量压缩、在线状态检测、实时 RPC 调用，以及内置管理界面和 Prometheus 可观测性监控。

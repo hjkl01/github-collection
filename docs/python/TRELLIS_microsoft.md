@@ -1,0 +1,3 @@
+### [microsoft TRELLIS](https://github.com/microsoft/TRELLIS)  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/TRELLIS?style=social)
+
+TRELLIS 是一个大型 3D 资产生成模型，支持通过文本或图像提示生成高质量 3D 资产。项目核心基于统一的 Structured LATent (SLAT) 表示和整流流 Transformer 技术，提供辐射场、3D 高斯和网格等多种格式的输出能力。模型最大参数量达 20 亿，并附带 TRELLIS-500K 大规模数据集。功能上支持 3D 资产的变体生成与局部编辑，同时提供完整的推理代码、Gradio Web 演示及模块化训练框架，需在 Linux 系统下搭配 NVIDIA GPU 运行。

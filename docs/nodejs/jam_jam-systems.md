@@ -1,0 +1,3 @@
+### [jam-systems jam](https://github.com/jam-systems/jam)  ![GitHub Repo stars](https://img.shields.io/github/stars/jam-systems/jam?style=social)
+
+Jam 是一个开源的音频空间平台，作为 Clubhouse 和 Twitter Spaces 的替代方案。支持创建用于讨论、演出、辩论等场景的音频房间，兼容 Web、移动端及桌面操作系统。核心功能包括自定义品牌房间、网页嵌入（支持 iFrame/WebView/JS SDK）、动画互动反应、Markdown 描述支持及多种支付渠道集成。平台数据托管于欧盟，支持开源自托管部署。提供 Slack 及 WordPress 等 CMS 集成。开发者可使用 Jam SDK 构建自定义 UI 或机器人，并支持通过 URL 参数灵活配置房间。

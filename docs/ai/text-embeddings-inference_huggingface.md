@@ -1,0 +1,3 @@
+### [huggingface text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)  ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/text-embeddings-inference?style=social)
+
+Text Embeddings Inference (TEI) 是一款用于部署和推理开源文本嵌入及序列分类模型的高性能工具。它支持多种主流模型架构（如 BERT、RoBERTa、Qwen、GTE 等），具备无需模型图编译、令牌动态批处理、Flash Attention 及 cuBLASLt 优化等核心特性。TEI 提供生产级功能，包括 Open Telemetry 分布式追踪、Prometheus 监控指标、HTTP 与 gRPC API 支持。部署方式灵活，支持 Docker（覆盖多种 CUDA 架构及 CPU/Metal）和本地 Rust 安装，并兼容 Safetensors 和 ONNX 权重加载，适用于私有模型、重排序及 SPLADE 稀疏池化等多种场景。

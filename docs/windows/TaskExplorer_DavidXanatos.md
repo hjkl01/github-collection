@@ -1,0 +1,3 @@
+### [DavidXanatos TaskExplorer](https://github.com/DavidXanatos/TaskExplorer)  ![GitHub Repo stars](https://img.shields.io/github/stars/DavidXanatos/TaskExplorer?style=social)
+
+TaskExplorer 是一款专为 Windows 设计的高效任务管理工具，旨在实时监控运行中的应用并深入分析其行为。界面支持实时数据刷新和键盘导航，可并行检查多个进程。核心功能包括线程堆栈追踪、进程内存读写、句柄与文件操作监控、网络连接数据查看及 DLL 管理。此外，还提供 Token、环境变量、窗口、GDI 及 .NET 等深度分析面板，并内置 CPU、内存、磁盘、网络和 GPU 的资源使用图表及系统服务控制。基于 Qt 框架及 Process Hacker 库开发，兼容 Windows 7 及以上系统，计划移植至 Linux。

@@ -1,0 +1,3 @@
+### [maillab cloud-mail](https://github.com/maillab/cloud-mail)  ![GitHub Repo stars](https://img.shields.io/github/stars/maillab/cloud-mail?style=social)
+
+Cloud Mail 是一款基于 Cloudflare Workers 部署的低成本简约响应式邮箱服务，支持使用单一域名创建多个邮箱账号。核心功能包括：邮件发送与接收（集成 Resend 服务，支持群发、内嵌图片及附件）、附件存储与收发（基于 Cloudflare R2）、邮件推送转发（支持 Telegram 机器人及其他邮箱）、管理员后台管理（用户与邮件管理、RBAC 权限控制及资源限制）、开放 API（支持批量用户生成及多条件查询）、数据可视化展示（ECharts）、个性化界面设置及 Turnstile 人机验证。系统采用前后端分离架构，自动适配 PC 及移动端浏览器。

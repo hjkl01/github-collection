@@ -1,0 +1,3 @@
+### [VictoriaMetrics VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)  ![GitHub Repo stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social)
+
+VictoriaMetrics 是一款快速、经济高效且可扩展的时序数据库，专为监控和管理时序数据设计。它支持作为 Prometheus 的长期存储方案或 Grafana 中 Prometheus/Graphite 的替代方案。提供单节点和集群版本，支持 PromQL 和 MetricsQL 查询语言。兼容多种数据协议（包括 Prometheus Remote Write、InfluxDB、Graphite、OpenTSDB、DataDog、OpenTelemetry 等），具备强大的流聚合能力。部署简单，为单二进制文件且无外部依赖。相比竞品，具有内存占用低、数据压缩率高、查询性能优异的特点。企业版额外提供异常检测、自动备份、多保留策略及长期支持服务。

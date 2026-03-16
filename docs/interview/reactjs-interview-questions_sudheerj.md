@@ -1,0 +1,22 @@
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/sudheerj/reactjs-interview-questions?style=social) ](https://github.com/sudheerj/reactjs-interview-questions)
+### [sudheerj reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions)
+
+### 项目核心内容总结
+
+该项目是一个包含 React 相关常见面试题的问答汇总仓库，主要针对前端开发岗位的面试准备。其内容涵盖 React 基础知识、组件开发、高级特性、性能优化、与 Redux 的集成、脚手架工具（如 Create React App）的使用等方面。
+
+#### 主要功能与特性：
+- **涵盖范围广**：包括 React 类组件、函数组件、JSX、HOC、Render Props、ref、状态管理、组件生命周期、React 脚手架工具等。
+- **问答形式**：每个问题配有详细的中文解释，便于理解和复习。
+- **适用于面试准备**：内容整理自多家公司面试题，帮助面试者熟悉常见问题和答案。
+- **无需编译环境**：部分问题提供不使用 JSX 的写法，也提供使用 `createReactClass` 的方式创建类组件，适应不同开发环境需求。
+
+#### 使用方法：
+- 可作为面试复习资料，逐题学习理解。
+- 适用于准备前端开发岗位面试的开发者，尤其是熟悉 React 技术栈的人员。
+- 可用于团队内部技术分享或培训。
+
+#### 注意事项：
+- 项目内容为常见问题总结，不保证在实际面试中一定会被问到。
+- 不需要图片，所有内容为纯文本。
+- 不需要额外的解释，仅需了解项目的核心功能和使用场景。

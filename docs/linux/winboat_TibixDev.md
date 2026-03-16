@@ -1,0 +1,3 @@
+### [TibixDev winboat](https://github.com/TibixDev/winboat)  ![GitHub Repo stars](https://img.shields.io/github/stars/TibixDev/winboat?style=social)
+
+WinBoat 是一个允许用户在 Linux 系统上运行 Windows 应用程序的工具。它基于 Electron 开发，采用 Docker 或 Podman 容器化方案在容器内运行 Windows 虚拟机。利用 FreeRDP 和 Windows RemoteApp 协议，它能将 Windows 应用以原生桌面窗口形式无缝集成到 Linux 环境中，支持单应用运行或完整桌面体验。主要功能包括自动化安装、文件系统共享、智能卡透传及资源监控。项目目前处于测试阶段，要求系统开启 KVM 虚拟化支持并安装相关依赖。

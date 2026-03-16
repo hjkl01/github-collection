@@ -1,0 +1,3 @@
+### [PyO3 maturin](https://github.com/PyO3/maturin)  ![GitHub Repo stars](https://img.shields.io/github/stars/PyO3/maturin?style=social)
+
+Maturin 是一个用于构建和发布 Rust 项目为 Python 包的工具。它支持通过 pyo3、cffi 和 uniffi 进行绑定，能够在 Windows、Linux、macOS 和 FreeBSD 上构建 Python 3.8+ 的 wheel 文件，并支持上传至 PyPI。主要功能包括提供 `new`、`build` 和 `develop` 命令，支持使用 `pyproject.toml` 配置 Python 元数据、依赖和脚本，兼容源码分发包（sdist）构建，并处理 Linux 平台的 manylinux 合规性。该工具无需额外配置文件，且不与其他 Rust-Python 构建工具冲突。

@@ -1,0 +1,3 @@
+### [openclaw openclaw](https://github.com/openclaw/openclaw)  ![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)
+
+OpenClaw 是一款运行在用户本地设备上的个人 AI 助手。它通过统一的网关连接多种通讯渠道（如 WhatsApp、Telegram、Slack、iMessage 等），在用户现有的聊天界面中响应消息。支持 macOS、iOS 和 Android 平台的语音交互（唤醒与连续对话）及实时 Canvas 画布控制。项目基于命令行进行部署与管理，支持多种 AI 模型切换及安全策略（如 DM 配对、Docker 沙箱隔离）。配套提供 macOS 菜单栏应用和移动端节点，支持浏览器控制、系统命令执行、屏幕录制等本地操作功能。

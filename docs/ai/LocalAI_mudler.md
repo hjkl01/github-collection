@@ -1,0 +1,3 @@
+### [mudler LocalAI](https://github.com/mudler/LocalAI)  ![GitHub Repo stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social)
+
+LocalAI 是一个免费的开源 OpenAI 替代方案，提供兼容 OpenAI、Elevenlabs 及 Anthropic 等 API 规范的 REST 接口。它支持在消费级硬件上本地或私有化部署，运行大型语言模型（LLM）、图像生成及音频处理任务，无需强制使用 GPU。项目支持 NVIDIA、AMD、Intel 和 Apple 等多种硬件加速（CUDA、ROCm、oneAPI、Metal 等），可通过 Docker 或原生二进制部署。核心功能包括文本生成与对话、工具调用、实时语音 API、嵌入生成、视觉识别、物体检测及 P2P 分布式推理，内置集成 WebUI 并支持 Model Context Protocol (MCP) 以扩展智能体能力。

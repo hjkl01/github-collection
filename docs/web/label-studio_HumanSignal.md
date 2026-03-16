@@ -1,0 +1,3 @@
+### [HumanSignal label-studio](https://github.com/HumanSignal/label-studio)  ![GitHub Repo stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social)
+
+Label Studio 是一个开源数据标注工具，支持音频、文本、图像、视频和时间序列等多种数据类型的标注。它提供直观的界面，支持多用户协作、多项目管理及自定义标注格式。用户可从本地或云存储（如 AWS S3、GCS）导入数据，并将标注结果导出为多种格式。该软件支持集成机器学习模型以实现预标注、在线学习和主动学习，并提供 REST API 以集成到现有数据流水线。支持通过 Docker、pip 等方式本地部署，或一键部署至主流云平台（如 Azure、GCP、Heroku）。

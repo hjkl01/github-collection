@@ -1,0 +1,3 @@
+### [dev-sec ansible-collection-hardening](https://github.com/dev-sec/ansible-collection-hardening)  ![GitHub Repo stars](https://img.shields.io/github/stars/dev-sec/ansible-collection-hardening?style=social)
+
+该项目是一个 Ansible 安全加固集合，针对 Linux 操作系统（支持多种主流发行版）、MySQL/MariaDB、Nginx 和 OpenSSH 提供经过验证的配置。内容符合 Inspec DevSec 基线标准，包含 os_hardening、mysql_hardening、nginx_hardening 和 ssh_hardening 核心角色，要求 Ansible 版本不低于 2.16。

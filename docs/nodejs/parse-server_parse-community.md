@@ -1,0 +1,3 @@
+### [parse-community parse-server](https://github.com/parse-community/parse-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/parse-community/parse-server?style=social)
+
+Parse Server 是一个开源的 Node.js 后端服务，基于 Express 框架，可部署在支持 Node.js 的任何基础设施上。它支持 MongoDB 和 PostgreSQL 数据库，提供 REST 和 GraphQL API。核心功能涵盖用户认证与权限控制 (ACL)、数据管理、文件存储 (支持 S3、GCS)、推送通知 (APNS/FCM)、实时查询 (Live Query) 及云代码执行。此外，项目支持 Docker 容器化部署、环境变量配置、页面本地化及多种云服务集成。

@@ -1,0 +1,3 @@
+### [ComposioHQ awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)  ![GitHub Repo stars](https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=social)
+
+本项目是一个精选的 Claude Skills 资源库，旨在提升 Claude.ai、Claude Code 和 Claude API 的生产力。核心功能是通过可定制的工作流赋予 Claude 执行实际动作的能力，支持连接 500+ 应用进行自动化操作（如发送邮件、创建工单、管理数据）。内容涵盖文档处理、开发工具、数据分析、业务营销、沟通写作等多个领域的预置技能，并允许用户按照标准结构创建自定义技能。所有技能支持跨平台通用，帮助用户实现工作流的标准化和自动化。

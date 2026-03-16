@@ -1,0 +1,3 @@
+### [OpenCSGs csghub-server](https://github.com/OpenCSGs/csghub-server)  ![GitHub Repo stars](https://img.shields.io/github/stars/OpenCSGs/csghub-server?style=social)
+
+CSGHub Server 是开源大模型资产管理平台 CSGHub 的核心后端服务，主要通过 REST API 对模型、数据集及其他大语言模型资产进行管理。其核心功能包括用户与组织管理、模型和数据集的自动标签、多类型资源搜索、数据集文件在线预览、文本与图像内容审核、文件下载（含 LFS）以及活动数据追踪（如下载量、点赞量）。项目架构支持灵活扩展，可配置不同的 Git 服务器（如 Gitea、GitLab）和 S3 协议存储系统，并支持通过 Docker 快速本地化部署。

@@ -1,0 +1,3 @@
+### [hatoo oha](https://github.com/hatoo/oha)  ![GitHub Repo stars](https://img.shields.io/github/stars/hatoo/oha?style=social)
+
+oha 是一款基于 Rust 开发的 HTTP 负载生成工具，用于对 Web 应用进行压力测试并展示实时 TUI 界面。它支持配置并发连接数、请求总数及 QPS 速率限制，兼容 HTTP/1.1、HTTP/2 及实验性 HTTP/3 协议。工具提供文本、JSON、CSV 等多种输出格式，支持将结果写入 SQLite 数据库。功能涵盖动态 URL 生成、从文件读取 URL、自定义 HTTP 头、认证、代理及 TLS 设置，并具备延迟纠正、突发延迟及关闭 Keep-Alive 等高级测试选项。oha 兼容 Linux、Windows 和 macOS 平台，支持通过 Cargo、Homebrew、Docker 等多种方式安装。

@@ -1,0 +1,3 @@
+### [huggingface pytorch-image-models](https://github.com/huggingface/pytorch-image-models)  ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/pytorch-image-models?style=social)
+
+PyTorch Image Models (`timm`) 是一个 PyTorch 图像模型集合库，旨在整合广泛的 SOTA 模型架构并支持复现 ImageNet 训练结果。核心功能包括提供数十种主流模型（如 ViT、ConvNeXt、EfficientNet、ResNet 等）及其预训练权重，支持特征提取、多尺度特征图及动态全局池化；包含丰富的优化器（如 AdamW、Muon、Lion）、学习率调度器及数据增强工具；提供统一的 API 接口与参考训练、验证、推理脚本，支持 DDP、多 GPU 及混合精度训练模式。项目持续更新新模型（如 NaFlexViT）、优化器并适配新版 PyTorch 与 Python，代码采用 Apache 2.0 许可，预训练权重需遵循原数据集协议。

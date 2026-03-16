@@ -1,0 +1,3 @@
+### [dfinity ic](https://github.com/dfinity/ic)  ![GitHub Repo stars](https://img.shields.io/github/stars/dfinity/ic?style=social)
+
+本项目是 Internet Computer Protocol (ICP) 的 Rust 实现源码仓库，核心包含构成 Internet Computer 网络的“副本”（replica）客户端代码、测试及基础设施组件。该协议是世界上首个以网页速度运行且容量可无限扩展的区块链。项目支持 IC-OS 镜像及二进制文件的本地构建，并提供发布版本的可重复性构建验证功能。内容主要面向希望深入了解协议底层、构建本地副本或参与基础设施开发的系统工程师和安全专家。项目由去中心化网络神经系统 (NNS) 治理，代码主要采用 Apache 2.0 许可开源。

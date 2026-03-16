@@ -1,0 +1,3 @@
+### [onelivesleft PrettyErrors](https://github.com/onelivesleft/PrettyErrors)  ![GitHub Repo stars](https://img.shields.io/github/stars/onelivesleft/PrettyErrors?style=social)
+
+pretty_errors 是一个用于美化 Python 异常输出以提高可读性的工具库。它支持通过 pip 安装，可配置为全局启用或脚本内手动导入。主要功能包括：支持终端彩色输出及单色模式；提供丰富的配置项以自定义异常显示样式（如颜色、行号、文件名格式、代码片段长度、本地变量显示等）；支持路径白名单/黑名单过滤及按路径配置不同样式；提供 stderr 抓取功能以兼容某些自定义日志框架；支持通过环境变量控制启用状态；允许通过重写 ExceptionWriter 类实现深度自定义。

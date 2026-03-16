@@ -1,0 +1,3 @@
+### [zoicware RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI)  ![GitHub Repo stars](https://img.shields.io/github/stars/zoicware/RemoveWindowsAI?style=social)
+
+本项目是一个 PowerShell 脚本，旨在移除 Windows 11 中的 AI 功能与组件，以提升用户体验、隐私和安全性。核心功能包括：禁用 Copilot、Recall 及相关 AI 功能的注册表键值、策略和内置应用；删除 AI Appx 包、CBS 存储包及系统残留文件；阻止 AI 包通过 Windows Update 重新安装；隐藏 AI 设置页面并移除 Recall 计划任务；支持将现代 AI 应用替换为经典版本；设置定时任务检测更新并自动清理新 AI 功能。支持图形界面和命令行操作，提供备份及完全回退更改模式。

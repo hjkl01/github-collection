@@ -1,0 +1,3 @@
+### [cloudflare pingora](https://github.com/cloudflare/pingora)  ![GitHub Repo stars](https://img.shields.io/github/stars/cloudflare/pingora?style=social)
+
+Pingora 是一个基于 Rust 的网络系统框架，旨在构建快速、可靠且可编程的网络服务。它支持 HTTP 1/2 端到端代理、gRPC 和 Websocket 代理，兼容 OpenSSL、BoringSSL、s2n-tls 和 rustls 等多种 TLS 后端。框架提供优雅重载、自定义负载均衡及故障转移策略，并支持多种可观测性工具。Pingora 具有内存安全性，适用于对性能和安全性敏感的服务，经过大规模生产验证。主要支持 Linux 系统（兼容 macOS），支持 x86_64 和 aarch64 架构，采用 Apache License 2.0 协议。

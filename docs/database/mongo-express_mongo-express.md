@@ -1,0 +1,3 @@
+### [mongo-express mongo-express](https://github.com/mongo-express/mongo-express)  ![GitHub Repo stars](https://img.shields.io/github/stars/mongo-express/mongo-express?style=social)
+
+mongo-express 是一款基于 Node.js 的 MongoDB Web 管理界面，支持 MongoDB 及兼容服务（如 FerretDB、Amazon DocumentDB）。主要功能包括：多数据库连接，数据库、集合及文档的增删改查；在线预览音视频图片及 GridFS 大文件管理；支持多种 BSON 数据类型及大对象懒加载；提供基础认证、OpenIdConnect 认证、TLS/SSL 及访问控制；界面响应式适配移动端。支持 npm、Docker 及 Express 中间件部署。因存在 JS 执行安全风险，仅限私有开发环境使用。

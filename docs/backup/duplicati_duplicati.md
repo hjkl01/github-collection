@@ -1,0 +1,3 @@
+### [duplicati duplicati](https://github.com/duplicati/duplicati)  ![GitHub Repo stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social)
+
+Duplicati 是一款免费开源的备份客户端，支持将加密、增量和压缩的备份安全地存储于云存储服务及远程文件服务器上。它兼容 Windows、macOS 和 Linux 系统，支持 Amazon S3、Google Drive、OneDrive、Dropbox、FTP 等多种存储后端。核心功能包括：使用 AES-256 或 GPG 加密保障数据隐私；仅首次全量备份，后续采用增量备份以节省带宽和存储空间；内置调度器确保自动定期备份；提供友好的图形界面和命令行工具；支持备份打开或锁定的文件；并提供灵活的过滤、删除规则、传输设置及带宽限制等高级选项。

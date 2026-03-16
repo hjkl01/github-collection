@@ -1,0 +1,3 @@
+### [agconti cookiecutter-django-rest](https://github.com/agconti/cookiecutter-django-rest)  ![GitHub Repo stars](https://img.shields.io/github/stars/agconti/cookiecutter-django-rest?style=social)
+
+cookiecutter-django-rest 是一个用于快速构建前沿、可扩展 REST API 的 Cookiecutter 模板。它基于 Django 5.0+ 和 Python 3.13+，提供完全 Docker 化的开发环境、PostgreSQL 支持及 Django Rest Framework 集成。项目内置认证、用户账户、文档、全量测试覆盖和持续集成，依赖更新与安全由 pyup.io 自动管理。旨在提供精简稳健的基础结构，帮助开发者专注于 API 核心逻辑的快速交付。

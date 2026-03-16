@@ -1,0 +1,3 @@
+### [gaganpreet fastapi-starter](https://github.com/gaganpreet/fastapi-starter)  ![GitHub Repo stars](https://img.shields.io/github/stars/gaganpreet/fastapi-starter?style=social)
+
+FastAPI-Starter 是一个基于 FastAPI 的全栈项目启动模板。核心功能包括使用 FastAPI Users 进行用户认证与注册，React-Admin 构建管理后台，以及 SQLAlchemy 2.0 实现异步数据库操作与迁移。项目支持通过 OpenAPI Generator 自动生成 TypeScript 客户端，集成 GitHub Actions 进行 Docker 构建与自动化测试，并配置 Dependabot 管理依赖。此外，提供 Cookiecutter 模板生成及 Cruft 更新功能，并通过预提交钩子确保代码规范统一。

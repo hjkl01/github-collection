@@ -1,0 +1,3 @@
+### [awslabs diagram-as-code](https://github.com/awslabs/diagram-as-code)  ![GitHub Repo stars](https://img.shields.io/github/stars/awslabs/diagram-as-code?style=social)
+
+这是一个通过 YAML 代码绘制 AWS 基础设施架构图的命令行工具。支持 Diagram-as-code 理念，无需依赖图片库，便于通过 Git 管理图表及实现 CI/CD 自动化。核心功能包括：自动生成符合 AWS 架构指南的图表；灵活的自动布局与分组；轻量级、无头浏览器依赖；可集成至基础设施即代码（IaC）流程，亦可作为 Go 库使用；支持扩展定义以绘制非 AWS 图表。此外还提供 CloudFormation 模板转换及 AI 助手（MCP Server）集成功能。

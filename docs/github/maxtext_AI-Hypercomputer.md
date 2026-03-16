@@ -1,0 +1,3 @@
+### [AI-Hypercomputer maxtext](https://github.com/AI-Hypercomputer/maxtext)  ![GitHub Repo stars](https://img.shields.io/github/stars/AI-Hypercomputer/maxtext?style=social)
+
+MaxText 是一个基于纯 Python 和 JAX 编写的高性能、高可扩展性开源大语言模型（LLM）库及参考实现，面向 Google Cloud TPUs 和 GPUs 提供训练支持。它支持 Gemma、Llama、DeepSeek、Qwen、Mistral 等主流模型的预训练及后训练（含监督微调 SFT 和强化学习 RL），并支持多模态模型训练。项目集成 Flax、Optax、Orbax 等 JAX 生态工具，实现从单机到大规模集群的分布式高效训练，提供丰富的模型库配置及 pip 安装方式，旨在提供高模型 FLOPs 利用率与吞吐量。

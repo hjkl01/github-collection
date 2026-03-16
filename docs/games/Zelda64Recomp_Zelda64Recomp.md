@@ -1,0 +1,3 @@
+### [Zelda64Recomp Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)  ![GitHub Repo stars](https://img.shields.io/github/stars/Zelda64Recomp/Zelda64Recomp?style=social)
+
+Zelda 64: Recompiled 是一款将 N64 游戏《梅祖拉的假面》静态重编译为原生端口的工具，计划未来支持《时之笛》。该项目基于 N64: Recompiled 技术并使用 RT64 渲染引擎，无需模拟器即可在 Windows、Linux、Steam Deck 及 macOS 上运行。其功能包括支持任意高帧率、宽屏/超宽屏显示、完整保留原版图形效果、丰富的 MOD 支持（含纹理包）、双摇杆相机与陀螺仪瞄准、自动存档、低输入延迟及瞬时加载。项目不含游戏资源，运行需用户自备原版游戏 ROM 并满足特定显卡要求。

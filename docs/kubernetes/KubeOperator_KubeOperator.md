@@ -1,0 +1,3 @@
+### [KubeOperator KubeOperator](https://github.com/KubeOperator/KubeOperator)  ![GitHub Repo stars](https://img.shields.io/github/stars/KubeOperator/KubeOperator?style=social)
+
+KubeOperator 是一款开源的轻量级 Kubernetes 发行版，专注于帮助企业规划、部署和运营生产级别的 Kubernetes 集群。它提供可视化 Web UI，支持离线环境，兼容物理机、VMware、OpenStack、FusionCompute 等 IaaS 平台及 x86_64、ARM64 架构，并通过 CNCF 一致性认证。项目利用 Terraform 自动创建主机，结合 Ansible 实现自动化部署与变更，支持 Kubernetes 集群从 Day 0 规划、Day 1 部署到 Day 2 运营的全生命周期管理。核心优势包括易部署、按需创建与伸缩、快速修补升级、离线部署、节点自我修复、全栈监控及多可用区高可用支持。

@@ -1,0 +1,3 @@
+### [flashcatcloud categraf](https://github.com/flashcatcloud/categraf)  ![GitHub Repo stars](https://img.shields.io/github/stars/flashcatcloud/categraf?style=social)
+
+Categraf 是一款一站式数据采集器，支持指标和日志采集。内置近百种插件，兼容物理机、虚拟机、容器、K8s 及多种中间件/数据库，支持混合云、云原生及多云架构。采用 PUSH 方式将数据推送到 Nightingale、Prometheus、VictoriaMetrics 等后端。项目力求开箱即用，附带仪表盘和告警规则，可与夜莺监控无缝对接，支持在 K8s 中以 DaemonSet、Deployment 或 Sidecar 形式部署，并能替代 Prometheus 进行数据抓取。

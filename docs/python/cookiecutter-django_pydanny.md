@@ -1,0 +1,3 @@
+### [pydanny cookiecutter-django](https://github.com/pydanny/cookiecutter-django)  ![GitHub Repo stars](https://img.shields.io/github/stars/pydanny/cookiecutter-django?style=social)
+
+Cookiecutter Django 是一个基于 Cookiecutter 的工具，用于快速生成生产级别的 Django 项目脚手架。它支持最新的 Django 和 Python 版本，提供 100% 初始测试覆盖率，默认配置包括安全设置（SSL）、Bootstrap v5 前端、12-Factor 环境管理及 django-allauth 用户认证系统。项目支持 Docker 开发部署（含 Traefik/LetsEncrypt）、Heroku 及 PythonAnywhere 部署，默认使用 PostgreSQL 并集成多种云存储（S3、GCP 等）和邮件服务（Anymail）。此外，它还支持可选集成 Celery、Sentry、REST API 等扩展功能，旨在帮助开发者通过命令行交互快速获得配置完善、开箱即用的 Django 项目。

@@ -1,0 +1,3 @@
+### [nicolasff webdis](https://github.com/nicolasff/webdis)  ![GitHub Repo stars](https://img.shields.io/github/stars/nicolasff/webdis?style=social)
+
+Webdis 是一个提供 Redis HTTP 接口的轻量级 Web 服务器。用户可通过 HTTP 请求（GET/POST/PUT）直接执行 Redis 命令，默认返回 JSON 格式，同时也支持 JSONP、Raw Redis 协议及 MessagePack。项目支持 SSL/TLS 加密连接、WebSocket 通信（RFC 6455）、Pub/Sub 功能及文件上传。具备多线程处理能力，支持基于 IP 或 HTTP Basic Auth 的访问控制列表（ACL）及 Redis 身份验证。支持通过 JSON 配置文件和环境变量进行定制，并提供 Docker 镜像部署方案（支持内置或外部 Redis 实例）。

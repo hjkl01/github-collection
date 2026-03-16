@@ -1,0 +1,3 @@
+### [WuKongIM WuKongIM](https://github.com/WuKongIM/WuKongIM)  ![GitHub Repo stars](https://img.shields.io/github/stars/WuKongIM/WuKongIM?style=social)
+
+WuKongIM 是一款基于 Go 语言的高性能分布式即时通讯服务系统。支持即时消息、应用/系统通知、IoT 通信、音视频信令、直播评论、客服系统及 AI 通信等多种场景。采用去中心化架构，具备自动容灾、数据冗余和弹性扩缩容能力，单机支持 20 万 + 并发。拥有自研二进制协议与内置分布式存储，不依赖任何第三方中间件，资源消耗低。支持端到端加密、多设备同步及永久消息存储。提供 Android、iOS、Web、Flutter 等多端 SDK 及完善的监控与部署方案，采用 Apache License 2.0 开源协议。

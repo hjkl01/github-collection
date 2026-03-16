@@ -1,0 +1,3 @@
+### [NikolaiT GoogleScraper](https://github.com/NikolaiT/GoogleScraper)  ![GitHub Repo stars](https://img.shields.io/github/stars/NikolaiT/GoogleScraper?style=social)
+
+GoogleScraper 是一款基于 Python 3 的开源搜索引擎爬虫工具，支持抓取 Google、Bing、Yahoo、Yandex、Baidu 及 Duckduckgo 等搜索结果。项目支持 HTTP 请求与 Selenium 浏览器自动化两种模式，具备多线程/异步并发、代理（Socks/HTTP）、图片及视频搜索等特性，结果可导出为 JSON 或 SQLite 数据库，并提供命令行操作接口。该项目已于 2019 年停止维护，建议用户使用基于 JavaScript/Puppeteer 的后续项目 se-scraper 或 Scrapeulous 在线服务。

@@ -1,0 +1,3 @@
+### [projectdiscovery naabu](https://github.com/projectdiscovery/naabu)  ![GitHub Repo stars](https://img.shields.io/github/stars/projectdiscovery/naabu?style=social)
+
+Naabu 是一款基于 Go 语言开发的高性能端口扫描工具，能够快速可靠地枚举主机的有效端口。它支持 SYN、CONNECT 和 UDP 等多种扫描模式，兼容 IPv4 和 IPv6 协议。主要功能包括 DNS 端口扫描（含自动 IP 去重）、被动端口枚举（Shodan）、主机发现、CDN/WAF IP 排除以及与 Nmap 的服务发现集成。该工具支持多种输入来源（如主机、IP、CIDR、ASN）和输出格式（如 JSON、TXT），可通过命令行配置扫描速率、重试次数等参数，也可作为库集成至其他项目中使用。

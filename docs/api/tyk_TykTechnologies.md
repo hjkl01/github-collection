@@ -1,0 +1,3 @@
+### [TykTechnologies tyk](https://github.com/TykTechnologies/tyk)  ![GitHub Repo stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social)
+
+Tyk API Gateway 是一款云原生、开源的企业级 API 网关，支持 REST、GraphQL、gRPC、SOAP 及 TCP 协议。核心功能包括身份认证（OIDC、JWT、Basic Auth 等）、流量控制（速率限制、配额）、内容中介与转换、可扩展插件架构（支持 Go/Python/JS 等）、精细访问控制、API 版本管理、分析日志及动态配置热重载。项目原生支持 Kubernetes 部署，配套提供 Tyk Pump、Tyk Operator 等工具，具备高性能与弹性伸缩能力。

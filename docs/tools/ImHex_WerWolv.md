@@ -1,0 +1,3 @@
+### [WerWolv ImHex](https://github.com/WerWolv/ImHex)  ![GitHub Repo stars](https://img.shields.io/github/stars/WerWolv/ImHex?style=social)
+
+ImHex 是一款面向逆向工程师和程序员的跨平台十六进制编辑器。它提供强大的十六进制数据视图，支持字节修改、搜索及无限撤销重做。核心特性包括自定义 C 风格模式语言，用于解析文件结构并可视化内容（图像、音频、3D 模型）。支持多种数据源加载，涵盖本地文件、磁盘、GDB、进程内存及远程 SSH。内置数据检查器、节点式数据预处理、多种搜索方式（正则、数值、序列）、集成反汇编器（支持多架构）、哈希计算、文件差异对比及 YARA 规则扫描。此外，提供丰富工具集（计算器、色彩选择器等），支持主题定制、插件扩展、数据可视化分析，并适配 Windows、macOS、Linux 及 FreeBSD 系统。

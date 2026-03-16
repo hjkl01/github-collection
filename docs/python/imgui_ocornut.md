@@ -1,0 +1,3 @@
+### [ocornut imgui](https://github.com/ocornut/imgui)  ![GitHub Repo stars](https://img.shields.io/github/stars/ocornut/imgui?style=social)
+
+Dear ImGui 是一款专为 C++ 设计的高效、轻量级图形用户界面（GUI）库。它采用即时模式（IMGUI）范式，最小化状态同步与存储，旨在赋能开发者快速迭代，构建内容创作工具、可视化界面及调试工具（适用于游戏引擎、实时 3D 应用、控制台程序等场景），而非面向普通终端用户的复杂 UI。该库自包含、无外部依赖、渲染器无关，能输出优化的顶点缓冲区供任意支持纹理图形的 3D 管线渲染。项目提供多种图形 API（DirectX、Vulkan、OpenGL 等）与平台（Win32、GLFW 等）的现成后端，易于集成，采用 MIT 许可证开源。

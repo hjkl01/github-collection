@@ -1,0 +1,3 @@
+### [modelcontextprotocol rust-sdk](https://github.com/modelcontextprotocol/rust-sdk)  ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/rust-sdk?style=social)
+
+RMCP 是 Model Context Protocol (MCP) 的官方 Rust SDK 实现，基于 tokio 异步运行时。该项目包含核心协议库 `rmcp` 和工具生成宏库 `rmcp-macros`，支持构建 MCP 客户端与服务器。它完整实现了 MCP 规范的核心功能，包括资源管理、提示模板、模型采样、工作根目录、结构化日志、参数补全、通知机制及资源订阅。此外，项目还提供 OAuth 支持、丰富的示例代码及第三方生态扩展集成。

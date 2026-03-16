@@ -1,0 +1,3 @@
+### [axios axios](https://github.com/axios/axios)  ![GitHub Repo stars](https://img.shields.io/github/stars/axios/axios?style=social)
+
+Axios 是一个基于 Promise 的 HTTP 客户端，适用于浏览器和 Node.js 环境。它利用 XMLHttpRequest 和 Node.js http 模块发送请求。核心功能包括：提供请求和响应拦截器、自动转换请求和响应数据、支持请求取消与超时控制、自动序列化 JSON 及表单数据（multipart/form-data、x-www-form-urlencoded）、具备 XSRF 保护机制、支持上传和下载进度追踪。此外，项目内置 TypeScript 类型定义，支持 Fetch adapter 及 HTTP2 协议，并提供多种 HTTP 方法（如 get、post、put 等）的便捷调用。

@@ -1,0 +1,3 @@
+### [ansible-semaphore semaphore](https://github.com/ansible-semaphore/semaphore)  ![GitHub Repo stars](https://img.shields.io/github/stars/ansible-semaphore/semaphore?style=social)
+
+Semaphore UI 是一款现代化的 Web 界面，旨在管理 Ansible、Terraform/OpenTofu/Terragrunt、PowerShell 等 DevOps 工具。其核心功能包括轻松运行 Ansible Playbook、Terraform 代码及各类脚本，提供任务失败通知与访问权限控制。系统支持项目管理、任务模板定义、定时调度、目标主机清单管理及敏感变量组配置。支持通过 Docker、云服务器或二进制文件等多种方式部署。

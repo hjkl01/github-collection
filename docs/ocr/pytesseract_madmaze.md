@@ -1,0 +1,3 @@
+### [madmaze pytesseract](https://github.com/madmaze/pytesseract)  ![GitHub Repo stars](https://img.shields.io/github/stars/madmaze/pytesseract?style=social)
+
+Python-tesseract 是一款基于 Google Tesseract-OCR 引擎的 Python 光学字符识别（OCR）工具，用于识别和提取图像中的文本。它支持 Pillow 和 Leptonica 库支持的多种图像格式（如 jpeg、png、gif 等），可处理 PIL 图像、NumPy 数组或文件路径。核心功能包括文本提取、字符边界框与置信度获取、文档方向与脚本检测，以及生成 PDF、HOCR、ALTO XML 等输出格式。支持多语言识别、批量处理、自定义 Tesseract 配置（如 OEM/PSM）、超时控制及 OpenCV 兼容。此外，项目提供命令行接口供独立调用。运行环境需 Python 3.6+、Pillow 库及 Tesseract 引擎。

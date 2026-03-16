@@ -1,0 +1,3 @@
+### [refly-ai refly](https://github.com/refly-ai/refly)  ![GitHub Repo stars](https://img.shields.io/github/stars/refly-ai/refly?style=social)
+
+Refly 是一款开源智能体技能构建平台，旨在将企业 SOP 快速转化为稳定、原子化且版本可控的生产级智能体能力。核心功能包括：通过自然语言（Vibe Workflow）将业务逻辑编译为可复用的结构化技能；提供支持运行中断点、审计与干预的状态化运行时，确保执行确定性；实现统一分发栈，支持将技能发布为 API、Webhook（兼容飞书/Slack 等）、AI 编码工具插件（如 Claude Code/Cursor）或集成至各类智能体框架；提供中央技能注册中心，支持版本管理、团队协作及企业级技能治理。该平台旨在解决 AI 智能体在落地中逻辑脆弱、难以标准化复用及集成的问题。

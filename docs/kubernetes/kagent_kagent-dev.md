@@ -1,0 +1,3 @@
+### [kagent-dev kagent](https://github.com/kagent-dev/kagent)  ![GitHub Repo stars](https://img.shields.io/github/stars/kagent-dev/kagent?style=social)
+
+kagent 是一个 Kubernetes 原生框架，旨在简化 AI 代理的构建、部署与管理。它通过声明式的 Kubernetes 自定义资源（CRD）来定义代理、模型配置及工具服务器，支持多种 LLM 提供商（如 OpenAI、Azure、Anthropic 等）及 MCP 协议工具集成，并提供 OpenTelemetry 可观测性追踪。项目架构包含控制器、Web UI、运行引擎和 CLI 组件，具备可扩展、灵活、易测试的特性。该项目隶属于 CNCF 社区，采用 Apache 2.0 开源协议。

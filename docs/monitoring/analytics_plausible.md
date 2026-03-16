@@ -1,0 +1,3 @@
+### [plausible analytics](https://github.com/plausible/analytics)  ![GitHub Repo stars](https://img.shields.io/github/stars/plausible/analytics?style=social)
+
+Plausible Analytics 是一款轻量级、开源且注重隐私的网站分析工具，可作为 Google Analytics 的替代方案。它不使用 Cookie，不存储个人数据或 IP 地址，完全符合 GDPR、CCPA 和 PECR 合规标准。支持自托管（社区版）和云端托管两种模式。主要功能包括：简洁的数据仪表盘、邮件/Slack 报告、团队协作与权限管理、自定义目标与转化追踪（含电商收入）、搜索引擎关键词整合、单页应用支持以及从 Google Analytics 导入历史数据。

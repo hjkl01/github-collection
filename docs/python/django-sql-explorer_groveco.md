@@ -1,0 +1,3 @@
+### [groveco django-sql-explorer](https://github.com/groveco/django-sql-explorer)  ![GitHub Repo stars](https://img.shields.io/github/stars/groveco/django-sql-explorer?style=social)
+
+SQL Explorer 是一个基于 Django 的轻量级业务智能工具，旨在简化数据流动。它支持连接任意 Django 兼容的 SQL 数据库，以及导入 CSV、JSON 或 SQLite 文件。核心功能包括：在浏览器中编写、执行和分享 SQL 查询；集成 AI 助手辅助编写和调试 SQL 并自动注入上下文；支持多数据库连接配置及用户即时上传文件查询；提供浏览器内统计、透视表、散点图及查询结果快照；支持参数化查询生成友好 UI、查看查询历史日志、邮件发送结果及将查询暴露为 JSON API；具备 Schema 辅助和自动补全功能。项目遵循简单、直观、稳定的设计原则。

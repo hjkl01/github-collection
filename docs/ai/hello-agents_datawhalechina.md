@@ -1,0 +1,3 @@
+### [datawhalechina hello-agents](https://github.com/datawhalechina/hello-agents)  ![GitHub Repo stars](https://img.shields.io/github/stars/datawhalechina/hello-agents?style=social)
+
+Hello-Agents 是由 Datawhale 社区推出的系统性智能体（Agent）构建教程与开源项目，旨在提供从零开始、理论与实战并重的智能体系统构建指南。项目核心功能包括：系统讲解智能体基础理论、经典范式与主流框架应用、指导从零构建自研框架（HelloAgents）、深入高级技能（记忆、上下文、协议、训练及评估）以及提供综合实战案例。项目完全开源免费，整合了在线阅读、PDF 文档及全套代码资源，帮助有 Python 基础的开发者从大语言模型使用者蜕变为智能体系统构建者。

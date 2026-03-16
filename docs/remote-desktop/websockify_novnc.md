@@ -1,0 +1,3 @@
+### [novnc websockify](https://github.com/novnc/websockify)  ![GitHub Repo stars](https://img.shields.io/github/stars/novnc/websockify?style=social)
+
+websockify 是一款将 WebSockets 流量转换为普通 Socket 流量的代理工具，负责在客户端与目标服务器之间双向转发数据。它支持 HyBi/IETF 6455 协议及 wss://加密连接。核心功能包括守护进程模式、SSL 自动检测、会话录制、内嵌 Web 服务器及日志记录。项目支持认证插件和多目标路由令牌插件，并能通过 LD_PRELOAD 技术包装本地程序，将 WebSockets 流量代理至特定进程绑定的端口。支持 Python 安装及 Docker/Podman 容器部署。

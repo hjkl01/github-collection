@@ -1,0 +1,3 @@
+### [netbirdio netbird](https://github.com/netbirdio/netbird)  ![GitHub Repo stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social)
+
+NetBird 是一个将自动配置的对等私有网络与集中式访问控制合二为一的平台，用于为组织或家庭构建安全的私有网络。它基于 WireGuard 技术，通过加密隧道自动连接机器，支持 P2P 通信、NAT 穿透及中继备用，无需配置端口或防火墙规则。平台提供细粒度访问策略、SSO 与 MFA 认证、私有 DNS 管理、活动日志及设备姿态检查等功能。支持公共 API、批量配置脚本及 Web 管理界面，兼容 Linux、Windows、Mac、Android、iOS、OpenWRT 及 Docker 环境，支持云端服务或本地自托管部署。

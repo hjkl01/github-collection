@@ -1,0 +1,3 @@
+### [spacedriveapp spacedrive](https://github.com/spacedriveapp/spacedrive)  ![GitHub Repo stars](https://img.shields.io/github/stars/spacedriveapp/spacedrive?style=social)
+
+Spacedrive 是一款基于 Rust 虚拟分布式文件系统 (VDFS) 构建的开源跨平台文件管理器。它旨在解决多设备计算环境下的数据管理问题，允许用户通过单一界面组织和管理分布在本地设备、云端及多平台上的文件。核心功能包括：跨平台支持（macOS、Windows、Linux、iOS、Android）、基于内容身份的智能去重与寻址、无需中心服务器的 P2P 离线优先同步、云存储集成、语义搜索、操作前预览及本地备份。项目坚持本地优先架构，保障数据主权与隐私安全（端到端加密、无遥测），并提供基于 WASM 的扩展系统以支持自定义功能。

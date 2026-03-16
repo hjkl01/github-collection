@@ -1,0 +1,3 @@
+### [questdb questdb](https://github.com/questdb/questdb)  ![GitHub Repo stars](https://img.shields.io/github/stars/questdb/questdb?style=social)
+
+QuestDB 是一款开源时序数据库，提供极速的数据摄入和动态低延迟 SQL 查询，支持 ASOF JOIN 等时间序列扩展。核心引擎由零 GC 的 Java 和 C++ 编写，采用列式存储、并行向量执行及 SIMD 指令加速，支持多级存储架构（WAL → 原生 → Parquet）。QuestDB 兼容 PostgreSQL 协议、REST API 及 InfluxDB 行协议，支持动态 Schema 变更、物化视图及 n 维数组。它适用于金融市场数据、高基数传感器遥测及实时仪表盘监控，并提供具备高可用、多租户等企业功能的企业版。项目基于 Apache 2.0 协议，生态兼容 Kafka、Grafana、Polars 等工具。

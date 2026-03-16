@@ -1,0 +1,3 @@
+### [bridgecrewio checkov](https://github.com/bridgecrewio/checkov)  ![GitHub Repo stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social)
+
+Checkov 是一款用于基础设施即代码（IaC）的静态代码分析工具，同时也具备软件成分分析（SCA）功能。它支持扫描 Terraform、Cloudformation、Kubernetes、Dockerfile、Helm、Bicep、OpenTofu 等多种基础设施模板及 CI/CD 工作流文件。核心能力包括：利用超过 1000 条内置策略检测云资源的安全与合规配置错误（覆盖 AWS、Azure、GCP）；扫描镜像和开源包以识别 CVE 漏洞；检测代码中的敏感凭证和密钥；支持基于图的上下文感知策略、自定义策略、密钥屏蔽及多种报告格式输出。

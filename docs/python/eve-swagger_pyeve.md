@@ -1,0 +1,3 @@
+### [pyeve eve-swagger](https://github.com/pyeve/eve-swagger)  ![GitHub Repo stars](https://img.shields.io/github/stars/pyeve/eve-swagger?style=social)
+
+Eve-Swagger 是专为 Eve 框架驱动的 RESTful API 提供的 Swagger 扩展库。它自动生成 Swagger 2.0 规范的文档 JSON（通过 `/api-docs` 端点访问），可与 Swagger UI 或 Swagger Editor 配合使用。主要功能包括：自动根据 API 配置生成文档；支持在 Schema 中定义字段的描述（description）和示例（example）；支持运行时动态更新文档；支持禁用特定资源的文档生成；支持显示 Eve 事件钩子（hooks）的说明；并提供 CORS 配置选项以解决跨域问题。

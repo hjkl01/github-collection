@@ -1,0 +1,3 @@
+### [Turbo1123 roubao](https://github.com/Turbo1123/roubao)  ![GitHub Repo stars](https://img.shields.io/github/stars/Turbo1123/roubao?style=social)
+
+肉包 Roubao 是一款无需电脑的开源 AI 手机自动化助手。项目基于视觉语言模型（VLM），采用原生 Android Kotlin 开发，无需 Python 环境或电脑连接，所有截图、分析、执行均在手机本地完成。利用 Shizuku 获取系统级权限，无需 Root 即可模拟用户操作。采用 Tools + Skills 双层 Agent 架构，支持自然语言指令控制手机（如点外卖、发微信、导航等），具备 Delegation 委托与 GUI 自动化两种执行模式。支持多种 VLM 模型配置，拥有现代化 UI 设计、API Key 加密安全及任务录制等功能。

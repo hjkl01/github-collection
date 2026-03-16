@@ -1,0 +1,3 @@
+### [dgraph-io dgraph](https://github.com/dgraph-io/dgraph)  ![GitHub Repo stars](https://img.shields.io/github/stars/dgraph-io/dgraph?style=social)
+
+Dgraph 是一个水平可扩展的分布式 GraphQL 数据库，基于图后端构建。它支持 GraphQL 查询语法，通过 gRPC 和 HTTP 协议返回 JSON 或 Protocol Buffers 数据。它结合了 NoSQL 的扩展性与 SQL 的事务能力，提供分布式 ACID 事务、一致复制、线性化读取以及内置的全文搜索、正则表达式和地理搜索。支持分布式连接、遍历和图操作，适用于 TB 级结构化数据及多表关联场景。项目基于 Go 语言开发，官方支持 Linux/amd64 和 Linux/arm64 架构，推荐使用 Docker 部署。

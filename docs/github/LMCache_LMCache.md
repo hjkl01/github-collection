@@ -1,0 +1,3 @@
+### [LMCache LMCache](https://github.com/LMCache/LMCache)  ![GitHub Repo stars](https://img.shields.io/github/stars/LMCache/LMCache?style=social)
+
+LMCache 是一个面向大型语言模型（LLM）服务引擎的扩展组件，旨在通过 KV 缓存复用降低首字延迟（TTFT）并提高吞吐量，特别是在长上下文场景中。它支持在整个数据中心范围（涵盖 GPU、CPU、磁盘及 S3）内存储和复用任意服务引擎实例中的可重用文本 KV 缓存，利用零 CPU 拷贝、NIXL、GDS 等技术节省 GPU 算力并减少用户响应延迟。该项目与 vLLM 及 SGLang 等主流推理平台深度集成，配合 vLLM 使用可减少 3-10 倍的延迟。主要功能包括：vLLM v1 集成（支持 CPU KVCache 卸载、解耦预填充、P2P KVCache 共享）、SGLang 集成及多种存储后端支持（CPU、磁盘、NIXL）。

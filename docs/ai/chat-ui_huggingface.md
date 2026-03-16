@@ -1,0 +1,3 @@
+### [huggingface chat-ui](https://github.com/huggingface/chat-ui)  ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/chat-ui?style=social)
+
+Chat UI 是一个基于 SvelteKit 的 LLM 聊天界面应用，作为 HuggingChat 服务的前端支撑。该应用仅通过 OpenAI 兼容 API 与各类模型服务（如 Ollama、llama.cpp、Hugging Face Inference Providers 等）交互，使用 MongoDB 存储聊天记录及用户数据，支持云端、容器或本地嵌入式存储模式。项目支持完整的开发、构建及 Docker 部署流程，提供应用主题自定义能力，并可选集成 LLM 智能路由（Omni 模式）与 MCP 工具调用，实现模型自动调度与外部工具增强功能。

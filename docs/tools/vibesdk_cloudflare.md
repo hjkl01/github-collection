@@ -1,0 +1,3 @@
+### [cloudflare vibesdk](https://github.com/cloudflare/vibesdk)  ![GitHub Repo stars](https://img.shields.io/github/stars/cloudflare/vibesdk?style=social)
+
+Cloudflare Vibe SDK 是一个开源的全栈 AI Web 应用生成平台。用户通过自然语言描述需求，AI 代理即可自动完成应用开发、实时预览及部署。核心功能包括分阶段 AI 代码生成与纠错、交互式聊天引导、沙盒内应用预览、生成 React + TypeScript + Tailwind 技术栈应用、一键部署至 Cloudflare Workers 及 GitHub 代码导出。适用于企业构建 AI 平台、内部工具开发及 SaaS 扩展。项目基于 Cloudflare 开发者生态（Workers、Durable Objects、D1、AI Gateway 等）构建，支持私有化部署和 TypeScript SDK 编程访问，确保代码在沙盒中隔离运行并具备企业级安全特性。

@@ -1,0 +1,94 @@
+---
+title: GitHub Projects Collection
+description: A curated collection of useful GitHub projects for developers.
+template: splash
+hero:
+  tagline: 发现GitHub上精彩的开源项目，自动整理并用AI描述！
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: 浏览项目
+      link: /dotfiles_hjkl01
+      icon: right-arrow
+    - text: 在GitHub上查看
+      link: https://github.com/hjkl01/github-collection
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 工作原理
+
+这个集合通过以下几个关键功能自动维护：
+
+### 🤖 自动内容生成
+
+- **GitHub Trending Scraper**：自动从GitHub获取多个编程语言的热门仓库
+- **AI驱动描述**：使用先进的AI模型生成项目功能和用法的详细中文描述
+- **智能分类**：根据功能自动将项目组织到适当的类别中
+
+### 🚀 静态站点生成
+
+- 使用Astro构建，实现闪电般的静态站点生成
+- Starlight提供漂亮的文档UI，具有搜索和响应式设计
+- 支持明暗主题
+
+## 用法
+
+### 运行爬虫
+
+```bash
+# 抓取热门仓库并更新urls.txt
+python github_trending_scraper.py
+
+# 为新项目生成markdown文件
+python main.py
+
+# 对现有文件进行分类
+python main.py cate
+```
+
+### 构建站点
+
+```bash
+pnpm install
+pnpm dev      # 启动开发服务器
+pnpm build    # 构建生产版本
+pnpm preview  # 预览构建
+```
+
+### 部署站点
+
+```bash
+pnpm deploy  # 构建并部署到GitHub Pages
+```
+
+## 探索类别
+
+<CardGrid stagger>
+  <Card title="编程语言" icon="code">
+    探索Go、Python、Rust、JavaScript等项目的项目。
+  </Card>
+  <Card title="Web开发" icon="rocket">
+    发现用于构建现代Web应用程序的工具和框架。
+  </Card>
+  <Card title="数据库和API" icon="database">
+    用于数据管理、API和后端服务的工具。
+  </Card>
+  <Card title="DevOps和部署" icon="setting">
+    开发、部署和自动化必备工具。
+  </Card>
+  <Card title="AI和数据科学" icon="brain">
+    人工智能和数据科学的前沿项目。
+  </Card>
+  <Card title="移动和桌面" icon="devices">
+    用于移动和桌面开发的应用程序和库。
+  </Card>
+  <Card title="工具和实用程序" icon="tools">
+    生产力工具、实用程序和杂项项目。
+  </Card>
+  <Card title="游戏和媒体" icon="game">
+    娱乐、模拟器和媒体相关项目。
+  </Card>
+</CardGrid>

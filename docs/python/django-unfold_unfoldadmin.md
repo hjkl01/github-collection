@@ -1,0 +1,3 @@
+### [unfoldadmin django-unfold](https://github.com/unfoldadmin/django-unfold)  ![GitHub Repo stars](https://img.shields.io/github/stars/unfoldadmin/django-unfold?style=social)
+
+Unfold 是一个基于 django.contrib.admin 构建的现代化 Django Admin 增强工具，旨在优化内部应用和后台管理系统的界面与工作流程。它无需迁移现有模型即可与默认 Django Admin 并行使用，提供基于 Tailwind CSS 的现代用户界面、侧边栏导航及深色模式支持。核心功能包括自定义仪表盘、UI 组件（卡片、图表）、增强表单体验（WYSIWYG 编辑器、条件字段、Inline 标签页）、高级过滤器、性能优化（无限分页、可排序 Inline）以及主题定制。项目兼容多种热门 Django 第三方包，允许在 settings.py 中进行基础配置，适用于快速构建高效美观的管理后台。

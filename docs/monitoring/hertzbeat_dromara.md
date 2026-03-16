@@ -1,0 +1,3 @@
+### [dromara hertzbeat](https://github.com/dromara/hertzbeat)  ![GitHub Repo stars](https://img.shields.io/github/stars/dromara/hertzbeat?style=social)
+
+Apache HertzBeat 是一款 AI 驱动的下一代开源实时可观测性系统。它集成了数据采集、分析、告警与通知功能，支持 AI 交互及 MCP Server 能力。系统采用无代理架构，兼容 Prometheus，提供统一的指标与日志平台（支持 OTLP 协议）。用户可通过 YML 模板自定义监控协议（如 Http、Jmx、Ssh 等），支持网站、数据库、操作系统、K8s、Docker 及网络设备等多种监控类型。系统具备高性能集群扩展能力，支持灵活的告警规则与多种消息通知渠道（如邮件、微信、Slack 等），并提供状态页构建功能。支持 Docker、Kubernetes 等多种部署方式。

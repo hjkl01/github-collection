@@ -1,0 +1,3 @@
+### [v2fly domain-list-community](https://github.com/v2fly/domain-list-community)  ![GitHub Repo stars](https://img.shields.io/github/stars/v2fly/domain-list-community?style=social)
+
+本项目管理域名列表，供 Project V（v2fly）作为地理站点（geosite）用于路由配置。项目保持中立，不预设代理或阻断策略，仅作为规则数据源。核心功能包括：提供编译后的列表文件（如 dlc.dat）供路由配置直接调用；支持在 `data` 目录定义域名规则，涵盖多种匹配类型（domain、full、keyword、regexp）及属性筛选（如 @ads、@cn）；允许手动构建编译数据；采用社区协作模式，通过 Pull Request 进行内容贡献与自动化维护。

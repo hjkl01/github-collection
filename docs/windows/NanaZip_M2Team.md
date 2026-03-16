@@ -1,0 +1,3 @@
+### [M2Team NanaZip](https://github.com/M2Team/NanaZip)  ![GitHub Repo stars](https://img.shields.io/github/stars/M2Team/NanaZip?style=social)
+
+NanaZip 是一款基于 7-Zip 分支开发的开源文件归档工具，专为现代 Windows 体验优化。核心功能包括继承 7-Zip 26.00 全部特性，支持深色模式、Mica 效果、高 DPI 适配及 Windows 10/11 资源管理器上下文菜单集成。软件采用 MSIX 包部署，提供智能解压、策略管理、安全加固措施及丰富的哈希算法与编解码器支持。分为 NanaZip 现代版（MSIX）与 NanaZip Classic 便携版，适用于 Windows 10 版本 2004 及 Windows Server 2022 及以上系统。

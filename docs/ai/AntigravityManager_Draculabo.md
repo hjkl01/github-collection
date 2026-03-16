@@ -1,0 +1,3 @@
+### [Draculabo AntigravityManager](https://github.com/Draculabo/AntigravityManager)  ![GitHub Repo stars](https://img.shields.io/github/stars/Draculabo/AntigravityManager?style=social)
+
+Antigravity Manager 是一款基于 Electron 开发的桌面应用，专为管理 Google Gemini 和 Claude AI 的多账号而设计。核心功能包括：支持无限账号池添加及 OAuth 登录；当配额不足或限流时智能自动切换账号；实时监控多模型配额使用情况及状态；内置兼容 OpenAI 和 Anthropic 协议的本地 API 代理；采用 AES-256-GCM 加密保障敏感数据安全；支持账号备份快照、IDE 扫描导入、系统托盘及批量操作。该项目仅供教育用途，禁止商用。

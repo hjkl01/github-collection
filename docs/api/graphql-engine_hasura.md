@@ -1,0 +1,3 @@
+### [hasura graphql-engine](https://github.com/hasura/graphql-engine)  ![GitHub Repo stars](https://img.shields.io/github/stars/hasura/graphql-engine?style=social)
+
+Hasura GraphQL Engine 是一个开源项目，通过单一、可组合且安全的 API 端点提供数据访问，加速现代应用程序的构建。项目支持 V2（当前稳定版本）和 V3（GA 数据交付引擎）架构。V3 支持 PostgreSQL、MongoDB、ClickHouse 及 MS SQL Server 等数据源连接，并允许使用 TypeScript、Python 和 Go SDK 编写自定义业务逻辑。核心引擎及连接器采用 Apache License 2.0 协议开源。

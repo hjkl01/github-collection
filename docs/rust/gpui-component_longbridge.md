@@ -1,0 +1,3 @@
+### [longbridge gpui-component](https://github.com/longbridge/gpui-component)  ![GitHub Repo stars](https://img.shields.io/github/stars/longbridge/gpui-component?style=social)
+
+GPUI Component 是基于 GPUI 的 Rust UI 组件库，用于构建跨平台桌面应用程序。它提供 60 多个组件，采用 macOS/Windows 原生风格与 shadcn/ui 设计，组件为无状态 RenderOnce 形式。核心功能包括多主题配置、灵活布局（Dock/Tiles）、高性能虚拟化列表与表格、内置图表、Markdown 与 HTML 渲染。此外，还集成支持 LSP、Tree Sitter 语法高亮及大文本编辑的高性能代码编辑器，并支持 Web (WASM) 部署。

@@ -1,0 +1,3 @@
+### [tarantool tarantool](https://github.com/tarantool/tarantool)  ![GitHub Repo stars](https://img.shields.io/github/stars/tarantool/tarantool?style=social)
+
+Tarantool 是一个集成数据库与应用服务器的内存计算平台。应用服务器基于优化的 LuaJIT 解释器，支持协作多任务、非阻塞 IO、持久队列、分片及集群管理，并可连接外部数据库。数据库采用 MessagePack 格式，支持内存（带 WAL 持久化）与 LSM-tree 双引擎，提供多种索引类型、JSON 路径查询、多种复制模式（异步/同步/RAFT）、认证授权及 ANSI SQL 支持，并配备多语言连接器。系统适用于 Linux、Mac 及 FreeBSD 平台，常用于构建可扩展 Web 架构中的队列服务器、缓存和状态化 Web 应用。

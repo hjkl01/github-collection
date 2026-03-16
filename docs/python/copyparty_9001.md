@@ -1,0 +1,3 @@
+### [9001 copyparty](https://github.com/9001/copyparty)  ![GitHub Repo stars](https://img.shields.io/github/stars/9001/copyparty?style=social)
+
+copyparty 是一款轻量级、跨平台的文件服务器软件，仅需 Python 即可将任何设备快速转换为文件服务节点。它支持 HTTP(S)、WebDAV、SFTP、FTP(S)、TFTP 及 SMB/CIFS 等多种协议，提供功能丰富的 Web 界面，支持断点续传、文件管理、媒体播放、缩略图生成及 Markdown 查看。具备细粒度的账户与卷权限管理、文件索引、自动去重、事件钩子及插件扩展功能。兼容 Windows、Linux、macOS、Android、iOS 及多种服务器环境，支持 Docker 和多种包管理器，适用于个人存储、私有云及局域网文件共享。

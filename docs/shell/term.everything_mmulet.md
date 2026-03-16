@@ -1,0 +1,21 @@
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mmulet/term.everything?style=social) ](https://github.com/mmulet/term.everything)
+### [mmulet term.everything](https://github.com/mmulet/term.everything)
+
+**项目核心内容总结：**  
+`term.everything❗` 是一个基于 Wayland 的 Linux 终端图形界面工具，可在终端中运行几乎所有 GUI 应用（如浏览器、游戏、视频等），支持 X11 和 Wayland 系统。  
+
+**主要功能与特性：**  
+1. **终端内运行 GUI 应用**：通过终端显示完整窗口，支持嵌套（如终端中开终端）、SSH 远程传输（如在终端中玩视频游戏）。  
+2. **分辨率自适应**：通过调整终端分辨率（如 Alacritty 的 `Ctrl -`）提升显示质量，但可能影响性能。  
+3. **高分辨率支持**：若终端支持图片渲染（如 Kitty、iTerm2），可全分辨率显示窗口。  
+4. **跨平台兼容性**：支持在多种终端和远程环境（如 VM、KDE Neon）中运行，甚至可显示完整桌面环境。  
+5. **语言与性能**：用 Go 语言开发（部分 C 代码），性能较优，当前处于“支持部分应用”阶段，需用户反馈优化。  
+
+**使用方法：**  
+- 下载 Beta 版本（GitHub 发布页面）。  
+- 通过命令行启动，调整终端分辨率以优化显示效果。  
+- 参考 `help.md` 获取具体操作指南。  
+
+**注意事项：**  
+- 部分应用可能无法启动或崩溃，需通过 GitHub 提交问题。  
+- 项目仍在开发中，目标是逐步实现“支持所有 GUI 应用”。

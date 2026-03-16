@@ -1,0 +1,3 @@
+### [pathwaycom pathway](https://github.com/pathwaycom/pathway)  ![GitHub Repo stars](https://img.shields.io/github/stars/pathwaycom/pathway?style=social)
+
+Pathway 是一个基于 Python 的实时数据处理框架（Live Data Framework），专注于流处理、实时分析、LLM 管道及 RAG 应用。它提供易用的 Python API，支持同一套代码同时处理批量和流式数据，适用于开发和生产环境。底层由可扩展的 Rust 引擎驱动，实现增量计算、多线程及分布式处理，支持内存存储并可通过 Docker 和 Kubernetes 部署。核心功能包括广泛的连接器生态、状态/无状态转换、数据持久化、一致性保证（处理迟到数据）及 LLM 辅助工具，性能优于 Flink、Spark 和 Kafka Streaming 等现有技术。

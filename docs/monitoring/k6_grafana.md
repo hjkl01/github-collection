@@ -1,0 +1,3 @@
+### [grafana k6](https://github.com/grafana/k6)  ![GitHub Repo stars](https://img.shields.io/github/stars/grafana/k6?style=social)
+
+k6 是由 Grafana Labs 开发的现代化负载测试工具，专为 DevOps 时代的开发者和测试人员设计，核心理念是“像单元测试一样进行性能测试”。该工具基于 Go 构建并嵌入 JavaScript 引擎，支持使用代码编写测试脚本，便于版本控制、复用及 CI/CD 集成。k6 支持 HTTP、WebSockets、gRPC 及 Browser 等多种协议，拥有庞大的扩展生态系统，可实现灵活的指标存储与 Grafana 云原生集成。它可在命令行、CI 系统或 Kubernetes 集群中运行，能够模拟大规模并发流量，用于设定性能阈值、验证 SLO 及分析系统性能。

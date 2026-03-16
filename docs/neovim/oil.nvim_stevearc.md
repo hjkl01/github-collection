@@ -1,0 +1,18 @@
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/stevearc/oil.nvim?style=social) ](https://github.com/stevearc/oil.nvim)
+### [stevearc oil.nvim](https://github.com/stevearc/oil.nvim)
+
+**项目核心内容总结：**  
+oil.nvim 是一个 Neovim 插件，提供类似 netrw 的目录浏览功能，允许用户像编辑缓冲区一样修改文件系统，支持跨目录操作。  
+
+**功能与使用方法：**  
+1. **本地与远程文件浏览**：通过 `nvim oil-ssh://` 或 `nvim oil-s3://` 协议访问远程服务器或 AWS S3 存储桶文件。  
+2. **跨目录编辑**：支持复制、移动文件等操作，无需限制于当前目录。  
+3. **适配器扩展**：通过 SSH、S3 等适配器实现多场景文件管理。  
+
+**主要特性：**  
+- 提供丰富的 API（如获取文件信息、打开浮动窗口等）。  
+- 支持第三方扩展（如显示 Git 状态、LSP 诊断信息）。  
+- 可自定义列显示、排序规则及隐藏文件逻辑。  
+
+**注意事项：**  
+SSH 适配器需服务器支持 Unix 命令；S3 适配器需 AWS 配置正确。

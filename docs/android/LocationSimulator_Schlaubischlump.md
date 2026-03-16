@@ -1,0 +1,3 @@
+### [Schlaubischlump LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator)  ![GitHub Repo stars](https://img.shields.io/github/stars/Schlaubischlump/LocationSimulator?style=social)
+
+LocationSimulator 是一款 macOS 应用程序，专为开发者测试位置服务应用而设计，能够模拟 iOS 设备或 iPhoneSimulator 的地理位置。该工具无需越狱或在设备上安装额外应用即可实现位置欺骗，支持自动下载必要的系统镜像文件。主要功能包括通过地图点击设置位置、支持预设（步行/骑行/驾车）及自定义移动速度、键盘控制移动方向、路径导航、位置搜索、支持网络设备连接及暗模式。项目基于 GPLv3 开源协议。

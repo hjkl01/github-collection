@@ -1,0 +1,3 @@
+### [prowler-cloud prowler](https://github.com/prowler-cloud/prowler)  ![GitHub Repo stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social)
+
+Prowler 是一个开源云平台安全平台，旨在自动化任何云环境中的安全与合规工作。它提供数百个预置的安全检查和合规框架，涵盖 CIS、NIST、PCI-DSS、GDPR 等多种行业标准。平台支持 AWS、Azure、GCP、Kubernetes、GitHub、M365 等多个云平台的扫描与评估。功能包括提供命令行工具（CLI）、Web 应用程序（Prowler App）及可视化仪表盘，具备 AI 驱动的安全评估能力，支持攻击路径分析。支持通过 Docker、Pip 包管理及源码等多种方式部署。

@@ -1,0 +1,3 @@
+### [HQarroum docker-android](https://github.com/HQarroum/docker-android)  ![GitHub Repo stars](https://img.shields.io/github/stars/HQarroum/docker-android?style=social)
+
+docker-android 是一个轻量级、可定制的 Docker 镜像，用于在容器内提供 Android 模拟器服务。基于 Alpine Linux，内置 Android 模拟器、KVM 支持、JDK 11 和 ADB 服务。支持自定义 Android API 版本、设备类型、架构及镜像内容（支持 Google Play 版）。内置端口转发，支持 ADB 连接与 scrcpy 远程操控，适用于 CI 环境的无头运行。支持 GPU 加速，可通过构建参数调整资源配置，并支持挂载外部存储以持久化数据或减小镜像体积。

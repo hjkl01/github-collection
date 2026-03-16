@@ -1,0 +1,22 @@
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/noice.nvim?style=social) ](https://github.com/folke/noice.nvim)
+### [folke noice.nvim](https://github.com/folke/noice.nvim)
+
+**项目核心内容总结：**
+
+Noice 是一个用于 Neovim 的通知和交互插件，主要功能包括：  
+1. **通知与确认**：支持调试、错误、警告等信息的实时显示，提供确认视图（如输入、选择等交互操作）。  
+2. **虚拟文本**：在代码编辑时显示辅助信息（如 LSP 提示、符号说明）。  
+3. **分屏视图**：支持在独立窗口中展示内容（如 LSP hover 文档、命令行输入）。  
+4. **弹窗与菜单**：实现命令行输入、补全菜单、确认对话框等交互界面。  
+5. **LSP 集成**：支持 LSP hover 文档滚动、补全项高亮、进度条显示等功能。  
+
+**使用方法**：  
+- 安装后通过 `:lua require('noice').setup()` 配置选项（如默认视图类型、高亮主题、快捷键）。  
+- 使用 `:Noice` 命令查看通知，通过 `<c-f>/<c-b>` 滚动 LSP 文档。  
+- 自定义格式、高亮组（如 `NoiceFormatLevelError` 对应错误提示样式）。  
+
+**主要特性**：  
+- 支持多种视图模式（popup、split、mini 等），可自定义布局和样式。  
+- 提供丰富的快捷键和交互逻辑（如命令行输入、确认操作）。  
+- 深度集成 LSP，优化文档浏览和补全体验。  
+- 可通过高亮组（如 `NoiceCompletionItemKind`）自定义补全项显示风格。

@@ -1,0 +1,3 @@
+### [spantaleev matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)  ![GitHub Repo stars](https://img.shields.io/github/stars/spantaleev/matrix-docker-ansible-deploy?style=social)
+
+本项目是一个基于 Ansible 和 Docker 的自动化部署工具，旨在帮助用户搭建和维护自托管的 Matrix 服务器。它支持多种 Matrix 服务器软件、客户端以及丰富的配套服务（如数据库、邮件、视频通话、跨平台桥接、机器人、监控和备份等）。所有服务均运行在 Docker 容器中，通过 Ansible 实现安装、升级和维护的自动化，并提供详尽的文档与支持。

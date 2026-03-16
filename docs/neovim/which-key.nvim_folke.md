@@ -1,0 +1,23 @@
+### [ ![GitHub Repo stars](https://img.shields.io/github/stars/folke/which-key.nvim?style=social) ](https://github.com/folke/which-key.nvim)
+### [folke which-key.nvim](https://github.com/folke/which-key.nvim)
+
+**项目核心内容总结：**  
+WhichKey 是一个 Neovim 插件，用于实时显示按键提示，帮助用户快速查找和执行自定义快捷键。  
+
+**功能与特性：**  
+1. **动态按键提示**：通过自定义触发器（如 `<leader>`）或模式切换事件自动弹出提示窗口，支持延迟显示（如操作符模式下按键后显示）。  
+2. **灵活配置**：  
+   - 支持自定义映射（如 `wk.add` 定义快捷键、分组、动态子菜单）。  
+   - 可设置图标（需安装 `mini.icons` 或 `nvim-web-devicons`），图标颜色、类别、高亮可自定义。  
+3. **高级特性**：  
+   - **Hydra 模式**：保持提示窗口持续显示，直至按 `<esc>` 退出。  
+   - **内置插件**：提供常见操作（如窗口切换、文件搜索）的快捷键提示，支持书签、寄存器、拼写建议等功能。  
+4. **可视化与交互**：  
+   - 提供丰富的高亮主题（如 `WhichKeyDesc`、`WhichKeyGroup` 等）。  
+   - 支持键盘导航（如 `<bs>` 返回上一级、`<c-d>`/`<c-u>` 滚动）。  
+
+**使用方法：**  
+1. 定义映射：通过 `wk.add` 添加快捷键、分组、动态子菜单。  
+2. 配置触发器：设置 `opts.triggers` 指定触发模式（如 `n`、`v`）。  
+3. 调整延迟：通过 `opts.defer` 函数控制特定模式下是否延迟显示。  
+4. 启用插件：如拼写建议需手动开启 `opts.icons.mappings`。

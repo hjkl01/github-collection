@@ -1,0 +1,3 @@
+### [prometheus node_exporter](https://github.com/prometheus/node_exporter)  ![GitHub Repo stars](https://img.shields.io/github/stars/prometheus/node_exporter?style=social)
+
+Node exporter 是一个基于 Go 的 Prometheus 导出器，用于采集 *NIX 系统（Linux、BSD 等）的硬件和操作系统指标。默认监听 9100 端口，提供丰富的可插拔采集器，涵盖 CPU、内存、磁盘、网络、文件系统及硬件监控等统计数据。支持通过参数自定义启用或禁用采集器、设置模式过滤及指标收集器筛选，并支持 TLS 端点。支持 Docker、Ansible 及源码部署，Docker 模式下需挂载宿主文件系统以监控宿主机。Windows 用户建议使用 Windows exporter。

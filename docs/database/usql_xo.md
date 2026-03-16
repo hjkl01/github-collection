@@ -1,0 +1,3 @@
+### [xo usql](https://github.com/xo/usql)  ![GitHub Repo stars](https://img.shields.io/github/stars/xo/usql?style=social)
+
+usql 是一个通用命令行数据库接口，支持 PostgreSQL、MySQL、Oracle、SQLite3、Microsoft SQL Server 及多种 NoSQL 数据库。其设计灵感源自 PostgreSQL `psql`，提供直观的交互体验。核心功能包括：多数据库连接支持、跨数据库数据复制、SQL 语法高亮、上下文自动补全、终端图表绘制、变量管理与多种输出格式（CSV/JSON/HTML 等）。支持通过 YAML 配置文件管理连接与初始化脚本，提供密码安全存储，允许通过 Release、Homebrew、Go、Docker 等多种方式安装及自定义构建标签以启用不同数据库驱动。

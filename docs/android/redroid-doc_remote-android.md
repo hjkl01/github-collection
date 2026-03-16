@@ -1,0 +1,3 @@
+### [remote-android redroid-doc](https://github.com/remote-android/redroid-doc)  ![GitHub Repo stars](https://img.shields.io/github/stars/remote-android/redroid-doc?style=social)
+
+redroid 是一款 GPU 加速的云端 Android 解决方案，支持在 Linux 宿主机（如 Docker、Podman、K8s 等环境）启动多个 Android 实例，兼容 arm64 和 amd64 架构。项目适用于云游戏、手机虚拟化和自动化测试等场景。支持 Android 8.1 至 16 多个版本，提供自定义显示与网络配置、GPU 硬件加速渲染、支持在 x86 实例上运行 arm 应用的原生桥接功能以及 GMS 服务扩展。

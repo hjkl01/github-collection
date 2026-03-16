@@ -1,0 +1,3 @@
+### [dbgate dbgate](https://github.com/dbgate/dbgate)  ![GitHub Repo stars](https://img.shields.io/github/stars/dbgate/dbgate?style=social)
+
+DbGate 是一款跨平台的通用关系型及 NoSQL 数据库客户端与管理工具，支持 MySQL、PostgreSQL、Oracle、MongoDB、Redis 等多种数据库。它设计用于同时管理多个数据库，功能包括数据浏览与编辑（支持 Excel 风格过滤）、表结构管理、结构对比与同步、ER 图生成、可视化 SQL 查询设计器、数据导入导出（CSV/Excel/JSON 等）、NDJSON 备份与编辑、图表及地图可视化。此外还提供 AI 数据库聊天、插件扩展架构、Node.js 脚本接口。支持 Windows、Linux、Mac 桌面端，亦可作为 Web 应用或 Docker 容器部署。项目采用 GPL-3.0 开源协议免费使用。

@@ -1,0 +1,3 @@
+### [r0ysue r0capture](https://github.com/r0ysue/r0capture)  ![GitHub Repo stars](https://img.shields.io/github/stars/r0ysue/r0capture?style=social)
+
+本项目是一款基于 Frida 的安卓应用层通用抓包脚本，支持 Android 7 至 14 真机环境。核心功能包括无视证书校验与加固，通杀 TCP/IP 应用层协议（HTTP/WebSocket/Protobuf 等）及主流网络框架（Okhttp/Retrofit/Volley 等）。支持 Spawn 与 Attach 双模式，可将抓包内容保存为 pcap 文件供 Wireshark 分析。具备收发包函数定位、客户端证书导出功能，支持非标准 Frida-server 端口连接。局限性在于暂未支持 WebView、小程序、Flutter 等自研 SSL 框架及 HTTP/2/3 协议，不支持模拟器和多进程环境。

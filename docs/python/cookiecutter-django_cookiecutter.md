@@ -1,0 +1,3 @@
+### [cookiecutter cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django)  ![GitHub Repo stars](https://img.shields.io/github/stars/cookiecutter/cookiecutter-django?style=social)
+
+Cookiecutter Django 是一个基于 Cookiecutter 的脚手架工具，旨在快速生成生产就绪的 Django 项目。它支持 Django 5.2 和 Python 3.13，默认配置包含 Bootstrap 5 界面、12-Factor 环境变量管理、SSL 安全加密及 100% 初始测试覆盖率。项目内置用户认证（django-allauth）、自定义用户模型、邮件发送服务（Anymail）、多云存储支持（AWS S3 等）及 Docker 开发/生产部署方案（含 Traefik 和 Let's Encrypt）。此外，它还支持 Celery 任务队列、Sentry 错误追踪、REST API 集成（DRF/Django Ninja）及 Heroku/PythonAnywhere 等部署平台，默认使用 PostgreSQL 数据库，可通过命令行交互参数自动生成定制化项目结构。

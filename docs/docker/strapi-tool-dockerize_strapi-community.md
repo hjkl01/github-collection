@@ -1,0 +1,3 @@
+### [strapi-community strapi-tool-dockerize](https://github.com/strapi-community/strapi-tool-dockerize)  ![GitHub Repo stars](https://img.shields.io/github/stars/strapi-community/strapi-tool-dockerize?style=social)
+
+`@strapi-community/dockerize` 是一个用于 Strapi v5 项目的命令行工具，旨在轻松添加 Docker 支持。主要功能包括自动生成 docker-compose 文件、自动检测包管理器（Yarn/NPM）、支持配置多种数据库（PostgreSQL、MySQL、MariaDB）及相关连接参数。此外，工具还提供重置项目配置的功能，简化项目的 Docker 化流程。

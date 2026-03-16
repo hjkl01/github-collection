@@ -1,0 +1,3 @@
+### [taichi-dev taichi](https://github.com/taichi-dev/taichi)  ![GitHub Repo stars](https://img.shields.io/github/stars/taichi-dev/taichi?style=social)
+
+Taichi 是一款嵌入 Python 的开源高性能并行编程语言，专注于数值计算。它通过 JIT 编译器将计算密集型 Python 代码自动转换为高效的 CPU 或 GPU 原生指令，支持 CUDA、Vulkan、Metal 等多种后端，实现跨平台并行加速。项目提供类 Python 语法、SNode 稀疏数据结构及 @ti.kernel 装饰器，无缝集成 NumPy 和 PyTorch 生态。此外，它还支持可微编程和 3D 可视化，适用于物理仿真、人工智能、计算机视觉、特效渲染及通用计算等场景。
