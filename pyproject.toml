@@ -1,10 +1,17 @@
 [project]
 name = "zensical-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "GitHub trending crawler and article parser"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "crawlee[all]",
+    "httpx",
+    "dashscope",
+    "python-dotenv",
+    "loguru",
+    "tenacity>=9.1.2",
+]
 
 [dependency-groups]
 dev = [

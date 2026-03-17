@@ -55,7 +55,7 @@ async def process_single_url(project_line, md_files):
             ai_resp = re.sub(r".*</think>", "", ai_resp, flags=re.DOTALL).strip()
 
         if len(temp) == 1:
-            category_dir = ""
+            category_dir = "00"
         elif len(temp) == 2:
             category_dir = temp[1]
         else:

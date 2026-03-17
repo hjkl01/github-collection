@@ -43,7 +43,7 @@ build:
 
 deploy: build
 	@echo "🚀 部署到 GitHub Pages..."
-	@cd site && git init && git add -A && git commit -m "Deploy to GitHub Pages" && git push -f origin HEAD:gh-pages
+	@cd site && rm -rf .git && git init && git add -A && git commit -m "Deploy to GitHub Pages" && git remote add origin ssh://git@ssh.github.com:443/hjkl01/github-collection.git && git push -f origin HEAD:gh-pages
 
 export:
 	@echo "📤 导出 URL..."
