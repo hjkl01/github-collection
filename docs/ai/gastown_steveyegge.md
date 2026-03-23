@@ -1,0 +1,3 @@
+### [gastown](https://github.com/steveyegge/gastown) ![GitHub Repo stars](https://img.shields.io/github/stars/steveyegge/gastown?style=social)
+
+Gas Town 是一个用于协调 Claude Code、GitHub Copilot、Codex、Gemini 等多 AI 编码代理的工作区管理与编排系统，通过基于 Git worktree 的 Hooks 持久化状态，避免重启丢失上下文；提供项目容器（Rigs）、工作分发与追踪（Convoy/Beads）、流程模板（Molecules）、健康监控与自愈（Witness/Deacon/Dogs）、合并队列（Refinery）、调度限流、会话追溯（Seance）、联邦协作网络（Wasteland），并支持实时 TUI/网页仪表盘监控。

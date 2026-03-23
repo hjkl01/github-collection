@@ -1,0 +1,3 @@
+### [browser](https://github.com/lightpanda-io/browser) ![GitHub Repo stars](https://img.shields.io/github/stars/lightpanda-io/browser?style=social)
+
+Lightpanda 是用 Zig 从零构建的开源无头浏览器，专为 AI 代理、自动化、爬取、测试和训练而设计，非 Chromium/WebKit。它支持 JavaScript 执行（V8）、HTML 解析、DOM 与常见 DOM API、XHR/Fetch 等 Ajax，提供页面抓取与 DOM 导出，可启动 CDP/WebSocket 服务并兼容 Playwright、Puppeteer、chromedp；支持点击与表单输入、Cookies、自定义请求头、代理、网络拦截和遵循 robots.txt。主打超低内存、极速执行和快速启动。
