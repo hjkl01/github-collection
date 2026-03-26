@@ -1,0 +1,3 @@
+### [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) ![GitHub Repo stars](https://img.shields.io/github/stars/opendataloader-project/opendataloader-pdf?style=social)
+
+OpenDataLoader PDF 是开源的 PDF 解析与无障碍自动化工具：可将各类 PDF（含扫描件）解析为 Markdown、JSON（含元素坐标）、HTML 等结构化数据，保留阅读顺序、标题层级、列表、表格、图片与公式；支持本地高速模式与混合 AI 模式（OCR、多语言、复杂表格、图表描述），并提供安全过滤与标签化结构提取。其布局分析引擎还用于无障碍流程，计划提供自动生成 Tagged PDF（开源），并可通过企业版导出 PDF/UA。

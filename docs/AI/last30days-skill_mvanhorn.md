@@ -1,0 +1,3 @@
+### [last30days-skill](https://github.com/mvanhorn/last30days-skill) ![GitHub Repo stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=social)
+
+/last30days 是一个研究型技能/插件，可在最近30天内同时搜索并分析 Reddit、X、Bluesky、YouTube、TikTok、Instagram、Hacker News、Polymarket 和网页内容，按相关性与热度评分去重，提炼社区真实观点与趋势，并输出带引用的专家级综述或可直接复制的高质量提示词；支持对比模式、可调时间范围、快/深度搜索、来源筛选、自动保存报告。还有开放版支持监控清单、定期简报、历史查询与本地数据库积累，适合持续追踪话题与竞品。
