@@ -34,7 +34,7 @@ gene:
 	@echo "🚀 启动解析..."
 	$(ACTIVATE) && uv run python main.py
 
-run: crawl gene
+run: crawl gene build
 	@echo "🚀 启动服务run\crawl..."
 
 build:
