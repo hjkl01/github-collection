@@ -1,0 +1,3 @@
+### [cc-connect](https://github.com/chenhg5/cc-connect) ![GitHub Repo stars](https://img.shields.io/github/stars/chenhg5/cc-connect?style=social)
+
+cc-connect 是一个把本地运行的 AI 代理桥接到常用聊天平台的工具，让你通过聊天应用远程控制并使用代理完成代码审查、研究、自动化、数据分析等任务。支持多种代理（如 Claude Code、Codex、Cursor、Gemini 等）和多平台（飞书、钉钉、Telegram、Slack、Discord、企业微信、LINE、QQ/QQ Bot，个人微信为 beta）。提供多代理协作、会话管理、模型/权限切换、工作目录切换、记忆管理、定时任务、语音与图片/文件多模态传输、附件回传、多项目管理及多语言界面。多数平台无需公网 IP。
