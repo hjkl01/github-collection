@@ -1,0 +1,3 @@
+### [agent-os](https://github.com/rivet-dev/agent-os) ![GitHub Repo stars](https://img.shields.io/github/stars/rivet-dev/agent-os?style=social)
+
+agentOS 是一个可嵌入进程的开源 AI 代理操作系统，基于 WebAssembly 与 V8 隔离运行，毫秒级冷启动、低内存、低成本。提供统一 API 运行多种代理（如 Pi、Claude Code、Codex 等），支持会话管理、自动持久化、统一转录。内置虚拟文件系统与命令工具，可挂载外部存储、执行 Node.js 与 Shell，并通过 Host Tools 让代理直接调用后端函数。支持任务调度、webhook、队列、工作流、多人协作、代理协作与认证集成。具备默认拒绝的细粒度权限、网络控制与资源限制，必要时可与完整沙箱集成处理重负载。可通过 npm 部署到本地或云端，并提供丰富的 WASM 工具与包。

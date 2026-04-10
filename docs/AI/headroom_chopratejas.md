@@ -1,0 +1,3 @@
+### [headroom](https://github.com/chopratejas/headroom) ![GitHub Repo stars](https://img.shields.io/github/stars/chopratejas/headroom?style=social)
+
+Headroom 是一个位于应用与大模型之间的上下文压缩工具，能对工具输出、数据库查询、RAG 检索、文件读取、API 响应和对话历史等进行 70–95% 压缩，在保证答案准确的同时显著减少 tokens。支持零代码代理、Python/TypeScript `compress()`、多框架集成（LangChain、LiteLLM、Agno 等）、编码代理一键包装、MCP 工具和多代理共享上下文。核心特性包括可逆无损压缩、智能内容识别与多算法压缩、缓存命中优化、失败学习、图像压缩与持久记忆，并提供本地部署与多云后端支持。

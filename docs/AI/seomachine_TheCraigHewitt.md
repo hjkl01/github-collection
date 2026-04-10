@@ -1,0 +1,3 @@
+### [seomachine](https://github.com/TheCraigHewitt/seomachine) ![GitHub Repo stars](https://img.shields.io/github/stars/TheCraigHewitt/seomachine?style=social)
+
+SEO Machine 是基于 Claude Code 的 SEO 内容生产与优化工作区，提供研究、撰写、改写、分析、优化、发布等一体化流程。它通过多种专用命令与智能代理生成长篇 SEO 文章或落地页，执行关键词研究、竞争分析、内容差距识别、SEO 质量评分、可读性检测、内部链接建议、元信息生成与优化审计。系统集成 Google Analytics、Search Console 和 DataForSEO 获取数据驱动洞察，并支持 WordPress 发布；配套多种营销与 CRO 技能及分析模块，用于内容优先级决策、性能评估与转化优化。通过品牌语气、写作示例、风格指南、关键词与竞品分析等上下文配置，保证内容符合品牌与 SEO 标准。
