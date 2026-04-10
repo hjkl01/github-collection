@@ -139,9 +139,6 @@ async def main(args: str | None = None) -> None:
     errors = [r for r in results if isinstance(r, Exception)]
     logger.info(f"处理完成: {len(success)} 成功, {len(errors)} 失败")
 
-    # 分类
-    await category_md_files()
-
 
 def export_urls() -> None:
     """导出所有 md 文件中的 GitHub URL"""

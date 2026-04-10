@@ -13,6 +13,7 @@ help:
 	@echo ""
 	@echo "  make install      安装开发依赖并激活虚拟环境"
 	@echo "  make crawl        抓取 GitHub Trending"
+	@echo "  make cate         对文档分类"
 	@echo "  make gene         启动文章解析"
 	@echo "  make run          执行 crawl + gene"
 	@echo "  make build        构建静态站点 (zensical build)"
@@ -29,6 +30,10 @@ install:
 crawl:
 	@echo "🚀 抓取trending..."
 	$(ACTIVATE) && uv run python main.py crawl
+
+cate:
+	@echo "🚀 分类..."
+	$(ACTIVATE) && uv run python main.py cate
 
 gene:
 	@echo "🚀 启动解析..."

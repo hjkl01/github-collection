@@ -73,7 +73,7 @@ async def scrape_github_trending() -> list[dict]:
         [
             "https://github.com/trending?since=weekly",
             "https://github.com/trending/python?since=weekly",
-            "https://github.com/trending/lua?since=weekly",
+            # "https://github.com/trending/lua?since=weekly",
             "https://github.com/trending/go?since=weekly",
             "https://github.com/trending/rust?since=weekly",
         ]
