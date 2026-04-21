@@ -1,0 +1,3 @@
+### [android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) ![GitHub Repo stars](https://img.shields.io/github/stars/SimoneAvogadro/android-reverse-engineering-skill?style=social)
+
+这是一个用于 Claude Code 的 Android 逆向与 API 提取技能插件，核心功能是对 APK/XAPK/JAR/AAR 进行反编译，并从无源码应用中提取和整理 HTTP API 信息。它可识别 Retrofit 接口、OkHttp 调用、硬编码 URL、认证头与 Token，支持从 Activity/Fragment 经 ViewModel、Repository 到网络请求的调用链追踪；还能分析应用结构（Manifest、包结构、架构模式），并提供处理 ProGuard/R8 混淆代码的策略。插件支持 `/decompile` 命令与自然语言触发，也可通过脚本独立执行依赖检查、反编译（jadx/Fernflower/Vineflower/双引擎对比）和 API 调用检索。

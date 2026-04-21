@@ -1,0 +1,3 @@
+### [wx_channels_download](https://github.com/ltaoo/wx_channels_download) ![GitHub Repo stars](https://img.shields.io/github/stars/ltaoo/wx_channels_download?style=social)
+
+该项目是一个微信视频号下载工具，特点是体积小、操作简单，支持 macOS 和 Windows。用户以管理员身份运行后会自动安装证书并启动代理服务；在微信 PC 端打开视频号视频后，界面会出现下载按钮（或悬浮按钮），可在视频播放后暂停并一键下载。工具支持下载默认清晰度，也可通过下拉菜单选择不同视频质量，下载完成后会显示文件及对应质量标识。项目同时提供了开发运行方式（`go run main.go`）和多平台打包方案（Windows、macOS、Linux，含交叉编译与 SunnyNet 版本构建说明）。
