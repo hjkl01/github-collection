@@ -1,0 +1,3 @@
+### [KillerPDF](https://github.com/SteveTheKiller/KillerPDF) ![GitHub Repo stars](https://img.shields.io/github/stars/SteveTheKiller/KillerPDF?style=social)
+
+KillerPDF 是一款面向现场技术人员的 Windows 本地 PDF 编辑器，主打轻量、免订阅、免联网与可便携运行。它以单文件 EXE（压缩后约 6MB）提供完整功能，无需额外运行时安装。核心功能包括：PDF 高质量查看与渲染、合并与拆分、页面拖拽重排、文本内联编辑（尽量匹配原字体）、文本框/手绘/高亮批注、可复用签名、全文搜索与高亮、文本拖选复制、打印时批注压平、导出“压平 PDF”（150 DPI 栅格化为不可编辑文档）、以及加密 PDF 的密码输入与会话期临时解密处理。首次启动支持自安装或便携运行，可按用户安装到本地目录（无需 UAC），并可注册 PDF 文件关联和开始菜单快捷方式，且支持干净卸载。支持 Windows 10/11 x64，许可证为 GPLv3。
