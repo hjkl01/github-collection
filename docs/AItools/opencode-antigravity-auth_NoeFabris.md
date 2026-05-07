@@ -1,0 +1,3 @@
+### [opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth) ![GitHub Repo stars](https://img.shields.io/github/stars/NoeFabris/opencode-antigravity-auth?style=social)
+
+该项目是一个 OpenCode 插件，通过 Google OAuth 让 OpenCode 接入 Antigravity（Google IDE）与 Gemini CLI 配额体系，从而使用 Claude Opus/Sonnet 和 Gemini 3.x 系列模型。其核心功能包括：多 Google 账号登录与自动轮换（被限流时自动切换）、双配额池路由与自动回退（Antigravity 与 Gemini CLI 互补）、可配置的“思考”模型变体（如 Claude/Gemini thinking budget）、Gemini 联网搜索 grounding、会话与工具错误自动恢复，以及与其他 OpenCode 插件（如 oh-my-opencode、dcp）兼容协作。项目还提供完整模型配置、跨平台配置路径、常见故障排查与迁移指引。需注意：该用法存在违反 Google 服务条款风险，可能导致账号受限或封禁。
