@@ -1,0 +1,3 @@
+### [rustdesk-server](https://github.com/rustdesk/rustdesk-server) ![GitHub Repo stars](https://img.shields.io/github/stars/rustdesk/rustdesk-server?style=social)
+
+RustDesk Server Program 是一个**免费开源的 RustDesk 自建服务器项目**，用于自行部署远程桌面服务端。项目可手动编译生成 3 个核心可执行程序：**hbbs（ID/会合服务器）**、**hbbr（中继服务器）**、**rustdesk-utils（命令行工具）**。同时提供发布版下载、安装文档、FAQ，以及从开源版迁移到 Pro 版的指引；若需要更多高级功能可使用 RustDesk Server Pro，若用于二次开发可参考更简化的 rustdesk-server-demo。
