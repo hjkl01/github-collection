@@ -1,0 +1,3 @@
+### [TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) ![GitHub Repo stars](https://img.shields.io/github/stars/JoeanAmier/TikTokDownloader?style=social)
+
+DouK-Downloader（原名 TikTokDownloader）是一个基于 Python 与 HTTPX 的开源免费工具，用于抖音和 TikTok 的数据采集与内容下载。核心功能包括：批量下载视频、图集、实况/动图、账号发布/喜欢/收藏/收藏夹/合集作品，获取并下载抖音与 TikTok 直播流，采集抖音评论、账号详情、搜索结果和热榜数据。项目支持最高画质与原画下载、断点续传、多线程、增量下载、自动跳过已下载文件、按规则筛选与按文件夹归档，并可将数据持久化保存为 CSV/XLSX/SQLite。程序提供终端交互与 Web API 模式（可生成接口文档），支持代理、局域网访问、Docker 部署及私有/公开服务器部署，适用于多账号、多链接的大规模采集与下载场景。
