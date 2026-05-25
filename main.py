@@ -1,6 +1,7 @@
 import asyncio
 import re
 import sys
+from datetime import date
 from pathlib import Path
 from api.config import logger
 from api.prompts import MARKDOWN_PROMPT
@@ -55,7 +56,7 @@ async def process_single_url(project_line: str, md_files: set) -> str | None:
 
         # 解析分类
         if len(temp) == 1:
-            category_dir = "00"
+            category_dir = date.today().strftime("%Y-%m-%d")
         elif len(temp) == 2:
             category_dir = temp[1]
         else:
