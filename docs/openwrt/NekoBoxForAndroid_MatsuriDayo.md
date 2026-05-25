@@ -1,0 +1,3 @@
+### [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) ![GitHub Repo stars](https://img.shields.io/github/stars/MatsuriDayo/NekoBoxForAndroid?style=social)
+
+NekoBox for Android 是一款基于 sing-box 的 Android 通用代理工具（支持 Android 5.0+）。项目提供多协议代理能力，支持 SOCKS(4/4a/5)、HTTP(S)、SSH、Shadowsocks、VMess、Trojan、VLESS、AnyTLS、ShadowTLS、TUIC、Hysteria 1/2、WireGuard，以及通过插件支持 Trojan-Go、NaïveProxy、Mieru 等。支持导入常见订阅格式（如 Shadowsocks、ClashMeta、v2rayN）和 sing-box outbound，但仅解析节点（outbound），不处理分流规则等信息。完整协议支持需额外下载安装插件。官方建议仅通过 GitHub Releases 下载，因 Google Play 版本自 2024 年 5 月起已由第三方控制且非开源，不建议下载。

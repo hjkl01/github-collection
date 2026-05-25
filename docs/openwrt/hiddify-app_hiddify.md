@@ -1,0 +1,3 @@
+### [hiddify-app](https://github.com/hiddify/hiddify-app) ![GitHub Repo stars](https://img.shields.io/github/stars/hiddify/hiddify-app?style=social)
+
+Hiddify 是一款基于 Sing-box 的开源、多平台代理客户端，支持 Android、iOS、Windows、macOS 和 Linux。项目核心功能包括：多协议支持（如 VLESS、VMess、Reality、TUIC、Hysteria、WireGuard、SSH 等）、延迟测速自动选节点、TUN 模式、远程配置与订阅管理、订阅自动更新、流量和到期时间显示，以及深色/浅色主题。它兼容 Sing-box、V2Ray、Clash、Clash Meta 等配置格式，并可对接各类代理面板，强调无广告、安全、社区驱动，适用于包括伊朗、中国、俄罗斯在内的多地区网络环境。

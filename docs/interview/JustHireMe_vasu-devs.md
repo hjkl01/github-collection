@@ -1,0 +1,3 @@
+### [JustHireMe](https://github.com/vasu-devs/JustHireMe) ![GitHub Repo stars](https://img.shields.io/github/stars/vasu-devs/JustHireMe?style=social)
+
+JustHireMe 是一个本地优先的桌面端 AI 求职工作台，帮助用户从多个招聘来源抓取职位信息，先通过确定性的质量筛选剔除过期、垃圾、信息不足或不匹配的岗位，再结合用户简历、技能、项目经历、图谱数据和向量语义匹配，对岗位进行可解释的适配度评分与排序。项目还可为高质量岗位生成定制化求职材料，包括简历 PDF、求职信 PDF、私信、LinkedIn 文案、冷邮件和关键词覆盖说明。其核心特点是数据默认保存在本地、排序规则透明、支持扩展职位源适配器、强调人工审核而非盲目自动投递。技术架构上采用 Tauri 桌面壳、React + TypeScript 前端、Python FastAPI 后端，并使用 SQLite、Kuzu 和 LanceDB 管理本地数据；浏览器自动化投递功能存在但属于默认关闭的实验性能力，不属于稳定核心。
