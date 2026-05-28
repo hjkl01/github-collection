@@ -1,0 +1,3 @@
+### [mediago](https://github.com/caorushizi/mediago) ![GitHub Repo stars](https://img.shields.io/github/stars/caorushizi/mediago?style=social)
+
+MediaGo 是一款跨平台视频下载工具，主打“内置嗅探+简化操作”：输入网页即可自动识别可下载视频并保存，无需抓包、浏览器复杂配置或命令行操作。它基于 yt-dlp，支持 YouTube、Twitter/X、Instagram、Reddit 等 1000+ 网站；提供 Chrome/Edge 扩展一键发送下载任务；支持通过 OpenClaw Skill 让 AI 助手代为下载；开放完整 HTTP API 便于脚本和第三方工具集成；内置下载后格式与清晰度转换；支持桌面端与 Docker 一行部署（含 amd64/arm64），并可在局域网通过 Web UI 访问。当前界面支持英文、简体中文和意大利语。
