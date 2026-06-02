@@ -44,7 +44,9 @@ run: crawl gene build
 
 build:
 	@echo "🏗️ 构建静态站点..."
+	mv -f docs/00 .
 	$(ACTIVATE) && uv run zensical build
+	mv -f 00 docs/
 
 deploy: build
 	@echo "🚀 部署到 GitHub Pages..."

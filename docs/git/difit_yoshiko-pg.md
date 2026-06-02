@@ -1,0 +1,3 @@
+### [difit](https://github.com/yoshiko-pg/difit) ![GitHub Repo stars](https://img.shields.io/github/stars/yoshiko-pg/difit?style=social)
+
+difit 是一个本地代码评审 CLI 工具，用 GitHub 风格的 Web 界面查看和审阅 Git diff，面向 AI 协作场景优化。它支持查看单个提交、对比两个提交/分支、查看工作区与暂存区变更、通过 stdin 导入任意 unified diff、以及直接审阅 GitHub PR。工具内置评论系统，可在 diff 行或范围上添加/编辑评论，并一键复制为适合 AI 代理使用的 Prompt（单条或全部）；评论按提交持久化保存。它还支持启动时注入初始评论、从 PR 导入未解决讨论、自动折叠删除/生成文件、丰富语法高亮，并可通过 Skills 与 AI Agent 联动，在改码后发起审阅或预加载审阅结论。整体技术栈为 Node.js CLI + Express + React/TypeScript，适合本地高效代码评审与 AI 辅助反馈流程。
