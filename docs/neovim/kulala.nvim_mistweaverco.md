@@ -1,18 +1,7 @@
-### [ ![GitHub Repo stars](https://img.shields.io/github/stars/mistweaverco/kulala.nvim?style=social) ](https://github.com/mistweaverco/kulala.nvim)
-### [mistweaverco kulala.nvim](https://github.com/mistweaverco/kulala.nvim)
+### [kulala.nvim](https://github.com/mistweaverco/kulala.nvim) ![GitHub Repo stars](https://img.shields.io/github/stars/mistweaverco/kulala.nvim?style=social)
 
-**核心内容总结：**
+`kulala.nvim` 是一个运行在 Neovim 中的全功能请求客户端，支持 HTTP、GraphQL、gRPC、WebSocket 和流式请求，并兼容 JetBrains `.http` 规范与 IntelliJ HTTP Client。
 
-**项目功能**  
-kulala.nvim 是一款为 Neovim 设计的 REST 客户端插件，支持在编辑器内发起 HTTP 请求，兼容 IntelliJ HTTP Client 规范。支持协议包括 HTTP、gRPC、GraphQL、WebSocket 和流媒体，可导入/导出 Postman、OpenAPI 等格式，提供脚本编写（JS/Lua）、认证（OAuth2、AWS 等）、响应格式化、自动化测试等功能。
+它的核心功能包括：在编辑器内直接发送和管理请求；支持环境变量、文档变量、请求变量、动态变量、提示输入及 `http-client.env` 文件；可导入、运行和保存外部 `*.http` 请求及请求/响应数据；支持 JavaScript 和 Lua 脚本，用于请求前、请求后、条件判断、内联和外部脚本场景；提供多种认证方式，如 Basic、Bearer、Digest、NTLM、OAuth2、AWS 和 SSL。
 
-**使用方法**  
-通过 [lazy.nvim](https://github.com/folke/lazy.nvim) 安装，配置后使用 `<leader>Rs`（发送单个请求）、`<leader>Ra`（发送所有请求）、`<leader>Rb`（打开草稿区）等快捷键操作。需 Neovim 0.10.0+ 和 cURL 环境。
-
-**主要特性**  
-- 支持 HTTP 文件规范及动态变量（环境、文档、请求等）  
-- 内置 LSP 自动补全与格式化  
-- 脚本功能：预请求、后请求、条件判断、外部脚本  
-- 响应过滤、断言测试与报告生成  
-- 支持从文件导入请求，保存响应数据  
-- 与 Kulala Language Server 和 Formatter 工具联动，提供完整 REST 客户端体验
+此外，它还支持响应格式化与实时过滤、断言与自动化测试及报告、内置 LSP 补全和格式化、与 Postman、OpenAPI、Bruno 的导入导出、CLI 工具和 CI 集成，以及用于快速发起请求的 scratchpad。项目目标是结合独立的语言服务器和格式化工具，为 Neovim 提供完整、高兼容性的 REST/接口调试体验。
